@@ -1,0 +1,37 @@
+# Cloudflare Pages Functions Configuration
+# This file enables serverless functions on Cloudflare Pages
+
+# Headers configuration
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Cache configuration for static assets
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML files should not be cached too long
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+# Redirects
+# Redirect root to www (uncomment after setting up custom domain)
+# [[redirects]]
+#   from = "https://anesthesiasafetyguideline.com/*"
+#   to = "https://www.anesthesiasafetyguideline.com/:splat"
+#   status = 301
+#   force = true

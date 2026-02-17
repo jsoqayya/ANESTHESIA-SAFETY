@@ -1,0 +1,22 @@
+# Cloudflare Pages Configuration
+# Domain: www.AnesthesiaSafetyGuideline.com
+
+name = "anesthesia-safety-guideline"
+compatibility_date = "2024-01-01"
+
+# Pages configuration
+pages_build_output_dir = "public"
+
+# Custom domain will be configured in Cloudflare dashboard
+# Primary domain: www.AnesthesiaSafetyGuideline.com
+# Alternative: AnesthesiaSafetyGuideline.com
+
+[site]
+bucket = "public"
+
+# Environment variables (if needed)
+[env.production]
+name = "anesthesia-safety-guideline"
+
+[env.preview]
+name = "anesthesia-safety-guideline-preview"

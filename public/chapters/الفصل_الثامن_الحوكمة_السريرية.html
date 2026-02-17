@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImIxZjQyNzYzZjkzNGExOTQwMWNkOTFhNjdjY2FhNzdiNjIwNWU2N2EiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzQ0ZWEzMjVlNmVjZWE1OTJf2KfZhNmB2LXZhF_Yp9mE2KvYp9mF2YZf2KfZhNit2YjZg9mF2Klf2KfZhNiz2LHZitix2YrYqS5odG1sLTUzMCJ9LCJleHAiOjE3NzAxMDkyMTgsImlhdCI6MTc3MDEwNTYxOCwiYWxnIjoiUlMyNTYifQ.GxSa5mykTPu3zlEJB8Y4GcvqYBRBPa833EnoAGIo3OBIPORgpjDJLJvgpxJgjiANSsAMPQx-ARUWLG-9ZROovoqFcw4A9m0vtACNrkUUDJoQqJ6T9Hxbs6X3Y45_xZxfB11mmC46h59qegqLGpMzsnFWYv-hqKiVo3mRBsayRd9mVXRnrAtzFBn5e1fJ_pGteYV3GXQvP_Rc5NVTTbnUXoQQC_N-DtwQL1OqJSPWUD0yqdkRrEJvAbBD6ZD04WuKV2Sg4qoj4-qHDo-jogeo2maZwZACgBuU-EZ7ssjZ76bvt_uv3RXrviFsqz73Xo1lzizqA4LOYdmMc1RuiKMjpg","c_44ea325e6ecea592_الفصل_الثامن_الحوكمة_السريرية.html-530")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-09-2025","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل الثامن — التدقيق، التغذية الراجعة، والحوكمة السريرية في التخدير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      @media print {
+        .download-container { display: none; }
+        body { padding-top: 0; }
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Scene Style */
+      .scene-box {
+        background-color: #f8fafc;
+        border-right: 4px solid #64748b;
+        padding: 15px;
+        font-style: italic;
+        margin: 20px 0;
+        color: #475569;
+      }
+      
+      .scene-title {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: block;
+        color: #334155;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Bar -->
+    
+
+    <!-- Header Section -->
+    <div class="part-title">Part II — Quality Improvement Methods and Measurement</div>
+    <div class="part-title">الجزء الثاني — أساليب تحسين الجودة والقياس</div>
+    
+                            
+    <h1>CHAPTER 8 — Clinical Governance in Anesthesia</h1>
+    <div class="subtitle"><strong>الفصل الثامن — التدقيق، التغذية الراجعة، والحوكمة السريرية في التخدير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      @media print {
+        .download-container { display: none; }
+        body { padding-top: 0; }
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Scene Style */
+      .scene-box {
+        background-color: #f8fafc;
+        border-right: 4px solid #64748b;
+        padding: 15px;
+        font-style: italic;
+        margin: 20px 0;
+        color: #475569;
+      }
+      
+      .scene-title {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: block;
+        color: #334155;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Bar -->
+    
+
+    <!-- Header Section -->
+    <div class="part-title">Part II — Quality Improvement Methods and Measurement</div>
+    
+
+
+    <h2>Chapter aims (what you will be able to do after this chapter)</h2>
+    <h3>أهداف الفصل (ما الذي ستكون قادرًا على فعله بعد هذا الفصل)</h3>
+
+    <div class="concept-box">
+        <p><strong>By the end of this chapter, you should be able to:</strong></p>
+        <p><strong>بنهاية هذا الفصل، ستكون قادرًا على أن:</strong></p>
+        <ul>
+            <li><strong>Manage a full audit cycle: Plan ← Measure ← Improve ← Re-measure, and link it to PDSA logic.</strong><br>
+            تدير دورة تدقيق كاملة <span class="english-term">Audit cycle</span> (دورة التدقيق): خطّط ← قِس ← حسّن ← أعد القياس، وتربطها بمنطق PDSA (<span class="english-term">Plan–Do–Study–Act</span> — خطّط/نفّذ/ادرس/اتخذ قرارًا).</li>
+            
+            <li><strong>Design effective Feedback that clinicians trust and use rather than resist.</strong><br>
+            تصمم تغذية راجعة فعّالة <span class="english-term">Feedback</span> (تغذية راجعة) يثق بها الأطباء ويستخدمونها بدل مقاومتها.</li>
+            
+            <li><strong>Build a departmental Clinical Governance structure: roles, committees, meeting outputs, and escalation pathways.</strong><br>
+            تبني هيكل حوكمة قسمي <span class="english-term">Clinical governance</span> (حوكمة سريرية): أدوار، لجان، مخرجات اجتماعات، ومسارات تصعيد.</li>
+            
+            <li><strong>Manage Peer Review and M&amp;M meetings in a way that produces learning and systemic change, not retrospective blame.</strong><br>
+            تدير مراجعة الأقران <span class="english-term">Peer review</span> (مراجعة الأقران) واجتماعات M&amp;M (<span class="english-term">Morbidity &amp; Mortality</span> — المراضة والوفيات) بطريقة تنتج تعلّمًا وتغييرًا نظاميًا لا لومًا متأخرًا.</li>
+            
+            <li><strong>Improve Documentation Quality and Traceability so governance is evidence-based, not impression-based.</strong><br>
+            تحسّن جودة التوثيق <span class="english-term">Documentation quality</span> (جودة التوثيق) وقابلية التتبع <span class="english-term">Traceability</span> (قابلية التتبع) حتى تصبح الحوكمة قائمة على دليل لا على انطباع.</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>8.1 Clinical governance: What is it (In practical anesthesia language)</h2>
+    <h3>8.1 الحوكمة السريرية: ما هي (باللغة العملية لقسم التخدير)</h3>
+
+    <div class="scene-box">
+        <span class="scene-title">مشهد شخصي</span>
+        <p>في أحد الأعوام، جاء تقييم خارجي وسأل سؤالًا بسيطًا لكنه موجع: “كيف تعرفون أن التخدير عندكم آمن… وبأي دليل؟”</p>
+        <p>كان جوابنا شفهيًا جميلًا، لكن الأوراق كانت متفرقة، والقرارات غير موثقة، وإعادة القياس غير واضحة.</p>
+        <p>تعلّمت حينها أن الحوكمة ليست “فكرة” ولا “حسن نية”.</p>
+        <p>الحوكمة هي نظام يثبت أنك تتعلم وتتحسن وتراقب… وتستطيع أن تُظهر ذلك في أي لحظة.</p>
+        <p>ومن يومها أصبحت أقول: “الفرق بين قسم محترف وقسم مجتهد فقط… هو الحوكمة.”</p>
+    </div>
+
+    <p>Clinical governance is the set of structures and behaviors that ensure the department delivers care that is:</p>
+    <p>Clinical governance (الحوكمة السريرية) هي مجموعة الهياكل والسلوكيات التي تضمن أن القسم يقدّم رعاية:</p>
+    <ul>
+        <li>Safe (آمنة)</li>
+        <li>Effective (فعّالة)</li>
+        <li>Patient-centered (متمحورة حول المريض)</li>
+    </ul>
+    <p>…and can “prove” it, not just believe it.</p>
+    <p>…ويمكنه أن “يثبت” ذلك، لا أن يكتفي بالاعتقاد به.</p>
+
+    <div class="concept-box">
+        <p><strong>Minimum viable governance system for anesthesia department:</strong></p>
+        <p><strong>نموذج عملي لقسم التخدير (Minimum viable governance system):</strong></p>
+        <ul>
+            <li><strong>Quality lead / QM Officer (قائد الجودة/مسؤول إدارة الجودة):</strong> Point of contact who gathers, analyzes, and presents quality and safety data and represents the department in the facility QM program.<br>
+            نقطة اتصال تجمع وتُحلّل وتعرض بيانات الجودة والسلامة وتمثل القسم في برنامج جودة المنشأة.</li>
+            
+            <li><strong>QM Committee (لجنة جودة قسم التخدير):</strong> Defines metrics, performs first-layer case triage, and launches specific improvement projects.<br>
+            تحدد المقاييس، تقوم بالفرز الأول للحالات، وتُطلق مشاريع تحسين محددة.</li>
+            
+            <li><strong>Two interlocking engines:</strong><br>
+            محرّكان متكاملان:<br>
+            1. Routine measurement (قياس روتيني)<br>
+            2. Case-based learning (تعلم من الحالات)</li>
+        </ul>
+        <p><strong>Simple governance philosophy translation:</strong> “We measure to see, review to learn, change to prevent recurrence, then re-measure to prove the change worked and sustained.”</p>
+        <p><strong>ترجمة فلسفة الحوكمة ببساطة:</strong> “نقيس لنرى، ونراجع لنتعلم، ونغيّر لنمنع التكرار، ثم نعيد القياس لنثبت أن التغيير نجح واستمر.”</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>8.2 The Audit Cycle: Plan ← Measure ← Improve ← Re-measure (And why it must be small and frequent)</h2>
+    <h3>8.2 دورة التدقيق: خطّط ← قِس ← حسّن ← أعد القياس (ولماذا يجب أن تكون صغيرة ومتكررة)</h3>
+
+    <div class="scene-box">
+        <span class="scene-title">مشهد شخصي</span>
+        <p>كنت أرى “التدقيق” كزيارة تفتيش تُخيف الفريق.</p>
+        <p>ثم جرّبت نموذج التدقيق الصغير: عينة 20 ملفًا، أسبوع واحد، مؤشر واحد، وتغذية راجعة خلال أيام.</p>
+        <p>المفاجأة: لم يغضب أحد… بل شعروا أننا نحميهم من الفوضى والتقلب.</p>
+        <p>التدقيق عندما يكون سريعًا وعادلًا ومحددًا يصبح أداة تعلّم لا محاكمة.</p>
+        <p>ومن هنا تغيرت ثقافة القسم تدريجيًا.</p>
+    </div>
+
+    <p>Audit is misunderstood. In mature culture, Audit is not “fault-finding”, but Structured learning.</p>
+    <p>Audit (التدقيق/المراجعة) يُساء فهمه. في الثقافة الناضجة، التدقيق ليس “صيد أخطاء”، بل <span class="english-term">Structured learning</span> (تعلّم منظم).</p>
+    
+    <p><strong>The complete Audit Cycle:</strong></p>
+    <p><strong>دورة التدقيق الكاملة:</strong></p>
+    <ul>
+        <li><strong>Plan (خطّط):</strong> What will you review and why?<br>
+        ما الذي ستراجعه ولماذا؟</li>
+        <li><strong>Measure (قِس):</strong> How compliant are we/How is performance?<br>
+        كم نحن ملتزمون/كيف الأداء؟</li>
+        <li><strong>Improve (حسّن):</strong> What is the change? Who is responsible? When?<br>
+        ما التغيير؟ من المسؤول؟ متى؟</li>
+        <li><strong>Re-measure (أعد القياس):</strong> Did we actually improve and sustain?<br>
+        هل تحسنّا فعلًا واستمر التحسن؟</li>
+    </ul>
+    
+
+<!-- Audit Cycle Visual -->
+<div style="margin: 3rem 0; padding: 3rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);">
+    <h3 style="text-align: center; color: white; margin-bottom: 2.5rem; font-size: 1.8rem;">
+        <i class="fas fa-sync-alt"></i> دورة التدقيق / Audit Cycle
+    </h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+        
+        <!-- Step 1: Plan -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; position: relative; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="position: absolute; top: -20px; right: -20px; font-size: 120px; color: rgba(102, 126, 234, 0.1); font-weight: 900;">1</div>
+            <div style="position: relative; z-index: 1;">
+                <div style="font-size: 3rem; color: #667eea; margin-bottom: 1rem;"><i class="fas fa-lightbulb"></i></div>
+                <h4 style="color: #667eea; font-size: 1.4rem; margin-bottom: 1rem;">Plan / خطّط</h4>
+                <p style="color: #555; line-height: 1.8; margin: 0;">
+                    <strong>What will you review and why?</strong><br>
+                    ما الذي ستراجعه ولماذا؟
+                </p>
+            </div>
+        </div>
+        
+        <!-- Step 2: Measure -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; position: relative; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="position: absolute; top: -20px; right: -20px; font-size: 120px; color: rgba(52, 211, 153, 0.1); font-weight: 900;">2</div>
+            <div style="position: relative; z-index: 1;">
+                <div style="font-size: 3rem; color: #34d399; margin-bottom: 1rem;"><i class="fas fa-chart-line"></i></div>
+                <h4 style="color: #34d399; font-size: 1.4rem; margin-bottom: 1rem;">Measure / قِس</h4>
+                <p style="color: #555; line-height: 1.8; margin: 0;">
+                    <strong>How compliant are we?</strong><br>
+                    كم نحن ملتزمون/كيف الأداء؟
+                </p>
+            </div>
+        </div>
+        
+        <!-- Step 3: Improve -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; position: relative; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="position: absolute; top: -20px; right: -20px; font-size: 120px; color: rgba(251, 146, 60, 0.1); font-weight: 900;">3</div>
+            <div style="position: relative; z-index: 1;">
+                <div style="font-size: 3rem; color: #fb923c; margin-bottom: 1rem;"><i class="fas fa-tools"></i></div>
+                <h4 style="color: #fb923c; font-size: 1.4rem; margin-bottom: 1rem;">Improve / حسّن</h4>
+                <p style="color: #555; line-height: 1.8; margin: 0;">
+                    <strong>What change? Who? When?</strong><br>
+                    ما التغيير؟ من المسؤول؟ متى؟
+                </p>
+            </div>
+        </div>
+        
+        <!-- Step 4: Re-measure -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; position: relative; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="position: absolute; top: -20px; right: -20px; font-size: 120px; color: rgba(239, 68, 68, 0.1); font-weight: 900;">4</div>
+            <div style="position: relative; z-index: 1;">
+                <div style="font-size: 3rem; color: #ef4444; margin-bottom: 1rem;"><i class="fas fa-redo-alt"></i></div>
+                <h4 style="color: #ef4444; font-size: 1.4rem; margin-bottom: 1rem;">Re-measure / أعد القياس</h4>
+                <p style="color: #555; line-height: 1.8; margin: 0;">
+                    <strong>Did we improve and sustain?</strong><br>
+                    هل تحسنّا فعلًا واستمر التحسن؟
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.2); border-radius: 10px;">
+        <p style="color: white; margin: 0; font-size: 1.1rem; line-height: 1.8;">
+            <i class="fas fa-arrow-right"></i> <strong>Good audit ← Specific Action Plan:</strong> What/Why/How/Who/When + Measures<br>
+            التدقيق الجيد ← خطة عمل محددة: ماذا/لماذا/كيف/من/متى + مقاييس
+        </p>
+    </div>
+</div>
+
+    <p>Most importantly: Good audit results in a specific Action Plan: What/Why/How/Who/When + Measures, linked practically to PDSA.</p>
+    <p>والأهم: التدقيق الجيد يخرج بخطة عمل محددة: What/Why/How/Who/When + Measures (ماذا/لماذا/كيف/من/متى + مقاييس) مع ربط عملي بـ PDSA.</p>
+
+    <h3>8.2.1 Step-by-step: The “One-Page Audit” method for anesthesia</h3>
+    <h3>8.2.1 خطوة بخطوة: طريقة “تدقيق صفحة واحدة” لقسم التخدير</h3>
+    
+    <ul>
+        <li><strong>Step 1 — Select a clear standard and scope / اختر معيارًا ونطاقًا واضحًا</strong><br>
+        Example: Machine check compliance (الالتزام بفحص جهاز التخدير)<br>
+        Example: Antibiotic timing (توقيت المضاد الحيوي)<br>
+        Example: PACU discharge readiness documentation (توثيق جاهزية خروج الإفاقة)</li>
+        
+        <li><strong>Step 2 — Define measurement precisely (Numerator/Denominator) / عرّف القياس بدقة</strong><br>
+        Numerator: What counts as “compliant”? (البسط: ما الذي يُحسب “التزامًا”؟)<br>
+        Denominator: Who is eligible? (المقام: من هم المؤهلون؟)<br>
+        Time window: When must the action happen? (نافذة الزمن: متى يجب أن يحدث الإجراء؟)</li>
+        
+        <li><strong>Step 3 — Take a small, quick baseline / خذ خط أساس صغير وسريع</strong><br>
+        Small sample is enough to start (10–30 cases).<br>
+        Better to use existing data (AIMS/EHR/PACU) before creating a new form.</li>
+        
+        <li><strong>Step 4 — Feedback results quickly / غذِّ راجع النتائج بسرعة</strong><br>
+        Weekly/Monthly is much better than an annual report everyone forgets.</li>
+        
+        <li><strong>Step 5 — Improve via PDSA / حسّن عبر PDSA</strong><br>
+        Test a small change instead of a massive rollout.</li>
+        
+        <li><strong>Step 6 — Re-measure with the same definition / أعد القياس بنفس التعريف</strong><br>
+        Same definition = fairness + comparability.<br>
+        Then display trend over time (Run chart).</li>
+    </ul>
+    
+    <div class="success-box">
+        <strong>Golden Rule:</strong> Audit that does not end with “Re-measure” is incomplete audit—just an observation without proof.<br>
+        <strong>قاعدة ذهبية:</strong> التدقيق الذي لا ينتهي بـ “إعادة قياس” هو تدقيق ناقص—مجرد ملاحظة بلا برهان.
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>8.3 Audit for Compliance and Accreditation: What governance must be ready to show</h2>
+    <h3>8.3 التدقيق للالتزام والاعتماد: ما الذي يجب أن تكون الحوكمة جاهزة لإظهاره</h3>
+
+    <div class="scene-box">
+        <span class="scene-title">مشهد شخصي</span>
+        <p>أحيانًا يظن الطبيب أن “السياسة موجودة” تكفي.</p>
+        <p>لكن الزائر الخارجي لا يسأل فقط: “هل لديكم سياسة؟”</p>
+        <p>يسأل: “أرِني أنها تُطبّق… وأرِني كيف تعرفون أنها تُطبّق… وماذا تفعلون حين لا تُطبّق.”</p>
+        <p>تلك اللحظة تُظهر إن كانت الحوكمة حيّة أم ورقية.</p>
+        <p>وعندها تفهم أن الدقائق التي تقضيها في التوثيق ليست عبئًا… بل حماية لك والفريقك.</p>
+    </div>
+
+    <p>External evaluation has become more “Practice-facing”. They may ask for evidence of:</p>
+    <p>التقييم الخارجي صار أكثر “مواجهة للواقع” <span class="english-term">Practice-facing</span> (مواجهة للممارسة): قد يطلبون أدلة على:</p>
+    <ul>
+        <li>How is the department organized? / كيف القسم منظم؟</li>
+        <li>How is quality managed? / كيف تُدار الجودة؟</li>
+        <li>What are committee outputs? / ما هي مخرجات اللجان؟</li>
+        <li>Is there an improvement plan and re-measurement? / هل هناك خطط تحسين وإعادة قياس؟</li>
+        <li>Is there tracking of incidents, complaints, and RCAs when needed? / هل يوجد تتبع للحوادث وشكاوى المرضى وتحليل جذور الأسباب عند اللزوم؟</li>
+    </ul>
+
+    <p><strong>Examples of governance artifacts requested:</strong></p>
+    <p><strong>أمثلة على مخرجات حوكمة يُطلب رؤيتها (Governance artifacts):</strong></p>
+    <ul>
+        <li>Meeting minutes (محاضر اجتماعات)</li>
+        <li>Terms of Reference (TOR — اختصاصات اللجنة)</li>
+        <li>Audit and improvement logs (سجلات تدقيق وتحسين)</li>
+        <li>Incident logs and RCA reports for sentinel events (سجلات حوادث وتقارير RCA)</li>
+        <li>Dashboard and time trends (لوحة مؤشرات واتجاهات زمنية)</li>
+        <li>Action log: Owner + Due date + Follow-up metric (سجل إجراءات: مسؤول + موعد + مؤشر متابعة)</li>
+    </ul>
+    
+    <div class="alert-box">
+        <strong>Implication for anesthesia department:</strong> Your governance must produce “Evidence” artifacts, not just “Discussion”.<br>
+        <strong>المغزى لقسم التخدير:</strong> حوكمتك يجب أن تُنتج وثائق “أثر” <span class="english-term">Evidence</span>، لا مجرد “نقاش”.
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>8.4 Effective Feedback: From Data to Improvement (Not Embarrassment)</h2>
+    <h3>8.4 تغذية راجعة فعّالة: من بيانات إلى تحسين (لا إلى إحراج)</h3>
+
+    <div class="scene-box">
+        <span class="scene-title">مشهد شخصي</span>
+        <p>أذكر طبيبًا شابًا جاءني بعد اجتماع وقال: “أنا لم أغلق جهاز التسخين… لكنني خفت أذكرها”.</p>
+        <p>سألته: “لماذا؟” قال: “لأن التغذية الراجعة عندنا تُشعرني أنني متهم”.</p>
+        <p>فقلت له: “من اليوم، سنراجع السلوك باعتباره ‘إشارة نظام’—ما الذي جعل الخطأ سهلًا؟”</p>
+        <p>بعد أسابيع بدأوا يبلغون عن الأشياء الصغيرة قبل أن تصبح كبيرة.</p>
+        <p>هكذا تُبنى الثقة: تغذية راجعة تُصلح النظام وتحفظ كرامة الإنسان.</p>
+    </div>
+
+    <p>Feedback fails if it is: delayed, vague, or punitive.</p>
+    <p>Feedback (التغذية الراجعة) تفشل إذا كانت: متأخرة، غامضة، أو عقابية.</p>
+    <p>It succeeds if it is: rapid, specific, fair, and connected to practical change.</p>
+    <p>وتنجح إذا كانت: سريعة، محددة، عادلة، ومتصلة بتغيير عملي.</p>
+    <p>Electronic systems (AIMS/EHR) shorten the audit loop: instead of waiting months, near-real-time reports can show patterns requiring intervention.</p>
+    <p>ميزة الأنظمة الإلكترونية (AIMS/EHR) أنها تقصر زمن التدقيق: بدل انتظار أشهر، يمكن استخراج تقرير شبه فوري يوضح نمطًا يحتاج تدخلًا.</p>
+
+    <h3>8.4.1 Practical standard for Feedback (Department rule)</h3>
+    <h3>8.4.1 معيار عملي للتغذية الراجعة (قاعدة قسمية)</h3>
+    
+    <p>Every feedback cycle must answer four questions (The 4-line rule):</p>
+    <p>كل دورة تغذية راجعة يجب أن تجيب عن أربع أسئلة (قاعدة 4 أسطر):</p>
+    <ul>
+        <li><strong>What did we see? (ماذا رأينا؟)</strong><br>
+        Data + Clear definition (بيانات + تعريف واضح)</li>
+        <li><strong>Why might it be happening? (لماذا قد يحدث؟)</strong><br>
+        System conditions: Workload, design, lack of equipment, interruption, training… (ظروف نظام: عبء عمل، تصميم، نقص تجهيز، انقطاع، تدريب…)</li>
+        <li><strong>What will we change next week? (ماذا سنغيّر الأسبوع القادم؟)</strong><br>
+        One small test (PDSA) (اختبار صغير واحد)</li>
+        <li><strong>How will we know it worked? (كيف نعرف أنه نجح؟)</strong><br>
+        Same metric, same definition (نفس المؤشر، نفس التعريف)</li>
+    </ul>
+    
+    <div class="success-box">
+        <strong>Dignity Rule:</strong> Feedback that hurts the person kills reporting. Feedback that respects the person and attacks the system builds safety culture.<br>
+        <strong>قاعدة كرامة:</strong> التغذية الراجعة التي تجرّح الشخص تقتل الإبلاغ. التغذية الراجعة التي تحترم الشخص وتهاجم النظام تبني ثقافة سلامة.
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>8.5 Peer Review and M&amp;M: The Learning Engine Inside Governance</h2>
+    <h3>8.5 مراجعة الأقران وM&amp;M: محرّك التعليم داخل الحوكمة</h3>
+
+    <div class="scene-box">
+        <span class="scene-title">مشهد شخصي</span>
+        <p>حضرت في بداياتي “M&amp;M” كان عنوانها غير مكتوب لكنه مفهوم: “من المخطئ؟”</p>
+        <p>خرج الناس صامتين… وخائفين… ولم يتغير شيء.</p>
+        <p>ثم جرّبت “M&amp;M نظامية”: حقائق، خط زمني، ما الذي سار جيدًا، ما الذي فشل من دفاعات، ثم 3 قرارات فقط قابلة للقياس.</p>
+        <p>بدأت الاجتماعات تُخرج أثرًا حقيقيًا: تعديل بروتوكول، تغيير ترتيب عربة، تدريب قصير، وتوثيق أفضل.</p>
+        <p>هكذا يتحول الألم إلى معرفة، والمعرفة إلى حماية.</p>
+    </div>
+
+    <p>Quality process often includes:</p>
+    <p>غالبًا ما تتضمن عملية الجودة:</p>
+    <ul>
+        <li>Triage (فرز)</li>
+        <li>Routine review of important events</li>
+        <li>Decision: Will the case be presented at M&amp;M? How?</li>
+    </ul>
+    
+    <p>M&amp;M (Morbidity &amp; Mortality) when managed well becomes one of the clearest and most impactful learning tools.</p>
+    <p>M&amp;M (Morbidity &amp; Mortality — المراضة والوفيات) عندما تُدار جيدًا تصبح من أكثر أدوات التعليم وضوحًا وتأثيرًا.</p>
+    <p>Condition: It must be Systems-focused: Patterns, Preventability, Defenses, No retrospective blame.</p>
+    <p>لكن شرطها: أن تكون <span class="english-term">Systems-focused</span> (متمحورة حول النظام): الأنماط، قابلية المنع، الدفاعات، لا لوم متأخر.</p>
+
+    <h3>8.5.1 Incident Triage: Which cases go where?</h3>
+    <h3>8.5.1 فرز الحالات: أي الحالات تذهب أين؟</h3>
+    <ul>
+
+<!-- Incident Triage Visual -->
+<div style="margin: 3rem 0; padding: 3rem; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; box-shadow: 0 10px 40px rgba(240, 147, 251, 0.3);">
+    <h3 style="text-align: center; color: white; margin-bottom: 2.5rem; font-size: 1.8rem;">
+        <i class="fas fa-sort-amount-down"></i> فرز الحالات / Incident Triage
+    </h3>
+    <div style="display: grid; gap: 1.5rem;">
+        
+        <!-- Level 1: Frequent small events -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; border-left: 6px solid #10b981; transition: transform 0.3s;" onmouseover="this.style.transform='translateX(-10px)'" onmouseout="this.style.transform='translateX(0)'">
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <div style="font-size: 3rem; color: #10b981; min-width: 60px;"><i class="fas fa-info-circle"></i></div>
+                <div>
+                    <h4 style="color: #10b981; font-size: 1.3rem; margin-bottom: 0.5rem;">Frequent Small Events / أحداث صغيرة متكررة</h4>
+                    <p style="color: #555; margin: 0; line-height: 1.8;">
+                        Logged and tracked for clusters/rate rise<br>
+                        تُسجل وتُراقب بحثًا عن تكتلات/ارتفاع معدل
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Level 2: More serious events -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; border-left: 6px solid #f59e0b; transition: transform 0.3s;" onmouseover="this.style.transform='translateX(-10px)'" onmouseout="this.style.transform='translateX(0)'">
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <div style="font-size: 3rem; color: #f59e0b; min-width: 60px;"><i class="fas fa-exclamation-triangle"></i></div>
+                <div>
+                    <h4 style="color: #f59e0b; font-size: 1.3rem; margin-bottom: 0.5rem;">More Serious Events / أحداث أكثر خطورة</h4>
+                    <p style="color: #555; margin: 0; line-height: 1.8;">
+                        Discussed in Quality Committee, may escalate to M&M<br>
+                        تُناقش في لجنة الجودة وقد تُصعّد لـ M&M
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Level 3: Severe harm/Death -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; border-left: 6px solid #ef4444; transition: transform 0.3s;" onmouseover="this.style.transform='translateX(-10px)'" onmouseout="this.style.transform='translateX(0)'">
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <div style="font-size: 3rem; color: #ef4444; min-width: 60px;"><i class="fas fa-hospital"></i></div>
+                <div>
+                    <h4 style="color: #ef4444; font-size: 1.3rem; margin-bottom: 0.5rem;">Severe Harm/Death / ضرر شديد/وفاة</h4>
+                    <p style="color: #555; margin: 0; line-height: 1.8;">
+                        Rapid review + early communication with Risk Management<br>
+                        مراجعة سريعة + تواصل مبكر مع إدارة المخاطر
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.2); border-radius: 10px;">
+        <p style="color: white; margin: 0; font-size: 1.1rem; line-height: 1.8;">
+            <i class="fas fa-lightbulb"></i> <strong>Core Idea:</strong> Not every incident needs a full committee. But every incident deserves an "appropriate level" of learning<br>
+            ليس كل حادثة تحتاج لجنة كاملة. لكن كل حادثة تستحق "مستوى" مناسبًا من التعلم
+        </p>
+    </div>
+</div>
+
+        <li><strong>Frequent small events:</strong> Logged and tracked for clusters/rate rise.<br>
+        أحداث صغيرة ومتكررة: تُسجل وتُراقب بحثًا عن تكتلات/ارتفاع معدل.</li>
+        <li><strong>More serious events:</strong> Discussed in Quality Committee, may escalate to M&amp;M.<br>
+        أحداث أكثر خطورة: تُناقش في لجنة الجودة وقد تُصعّد لـ M&amp;M.</li>
+        <li><strong>Severe harm/Death:</strong> Rapid review + early communication with Risk Management.<br>
+        ضرر شديد/وفاة: مراجعة سريعة + تواصل مبكر مع إدارة المخاطر.</li>
+    </ul>
+    <p><strong>Core idea:</strong> Not every incident needs a full committee. But every incident deserves an “appropriate level” of learning.</p>
+    <p><strong>فكرة جوهرية:</strong> ليس كل حادثة تحتاج لجنة كاملة. لكن كل حادثة تستحق “مستوى” مناسبًا من التعلم.</p>
+
+    <h3>8.5.2 Sentinel events and RCA: How governance responds</h3>
+    <h3>8.5.2 الأحداث الجسيمة Sentinel events والتحليل الجذري RCA: كيف تستجيب الحوكمة</h3>
+    <p>Some events require mandatory reporting and formal RCA (Root Cause Analysis).</p>
+    <p>بعض الأحداث تستدعي إبلاغًا إلزاميًا وRCA (Root Cause Analysis — تحليل جذور الأسباب) رسميًا.</p>
+    <p><strong>Strong RCA starts with:</strong></p>
+
+<!-- RCA Process Visual -->
+<div style="margin: 3rem 0; padding: 3rem; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; box-shadow: 0 10px 40px rgba(79, 172, 254, 0.3);">
+    <h3 style="text-align: center; color: white; margin-bottom: 2.5rem; font-size: 1.8rem;">
+        <i class="fas fa-search"></i> التحليل الجذري / Root Cause Analysis (RCA)
+    </h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        
+        <!-- Step 1: Timeline -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="font-size: 3rem; color: #4facfe; margin-bottom: 1rem;"><i class="fas fa-clock"></i></div>
+            <h4 style="color: #4facfe; font-size: 1.3rem; margin-bottom: 1rem;">Clear Factual Timeline</h4>
+            <p style="color: #555; line-height: 1.8; margin: 0;">
+                <strong>When did what happen?</strong><br>
+                بناء خط زمني حقائقي واضح: متى حدث ماذا؟
+            </p>
+        </div>
+        
+        <!-- Step 2: Multidisciplinary -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="font-size: 3rem; color: #00f2fe; margin-bottom: 1rem;"><i class="fas fa-users"></i></div>
+            <h4 style="color: #00f2fe; font-size: 1.3rem; margin-bottom: 1rem;">Multidisciplinary Participation</h4>
+            <p style="color: #555; line-height: 1.8; margin: 0;">
+                Anesthesia, Surgery, Nursing, Biomed, Pharmacy, IT…<br>
+                مشاركة متعددة التخصصات
+            </p>
+        </div>
+        
+        <!-- Step 3: Focus -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="font-size: 3rem; color: #667eea; margin-bottom: 1rem;"><i class="fas fa-bullseye"></i></div>
+            <h4 style="color: #667eea; font-size: 1.3rem; margin-bottom: 1rem;">Focus on System Issues</h4>
+            <p style="color: #555; line-height: 1.8; margin: 0;">
+                <strong>Latent conditions & Barriers</strong><br>
+                الشروط الكامنة والحواجز
+            </p>
+        </div>
+        
+    </div>
+    <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.2); border-radius: 10px;">
+        <p style="color: white; margin: 0; font-size: 1.1rem; line-height: 1.8;">
+            <i class="fas fa-balance-scale"></i> <strong>Fairness Principle:</strong> RCA is not a court — It is a "recurrence prevention" tool<br>
+            RCA ليس محكمة — هو أداة "منع تكرار" بشرط حفظ كرامة العاملين
+        </p>
+    </div>
+</div>
+
+    <p>RCA قوي يبدأ بـ:</p>
+    <ul>
+        <li>Building a clear factual timeline (When did what happen?) / بناء خط زمني حقائقي واضح (متى حدث ماذا؟)</li>
+        <li>Multidisciplinary participation (Anesthesia, Surgery, Nursing, Biomed, Pharmacy, IT…) / مشاركة متعددة التخصصات (التخدير، الجراحة، التمريض، الهندسة الطبية، الصيدلة، IT…)</li>
+        <li>Focusing on: Latent conditions and Barriers / التركيز على: الشروط الكامنة <span class="english-term">Latent conditions</span> (شروط كامنة) والدفاعات <span class="english-term">Barriers</span> (حواجز)</li>
+    </ul>
+    <div class="concept-box">
+        <strong>Fairness Principle:</strong> RCA is not a court. It is a “recurrence prevention” tool provided it respects staff dignity and honestly extracts system flaws.<br>
+        <strong>مبدأ إنصاف:</strong> RCA ليس محكمة. هو أداة “منع تكرار” بشرط أن يحفظ كرامة العاملين ويستخرج عيوب النظام بصدق.
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>8.6 Documentation standards and Traceability: Governance cannot bypass the record</h2>
+    <h3>8.6 معايير التوثيق وقابلية التتبع: الحوكمة لا تستطيع تجاوز السجل</h3>
+
+    <div class="scene-box">
+        <span class="scene-title">مشهد شخصي</span>
+        <p>في أزمة نقص أكسجين أو هبوط ضغط، الدماغ يعمل بسرعة… واليد قد تنسى توثيق خطوة.</p>
+        <p>لكن بعد الحدث، لا يبقى في يدك سوى السجل: هل يروي الحقيقة؟</p>
+        <p>كم مرة دافعت عن زميل لأن التوثيق كان دقيقًا وزمنيًا؟</p>
+        <p>وكم مرة لم أستطع الدفاع لأن السجل كان صامتًا أو متأخرًا أو متناقضًا؟</p>
+        <p>لهذا صرت أقول: “التوثيق جزء من سلامة المريض… وليس واجبًا مكتبيًا.”</p>
+    </div>
+
+    <p>Electronic tools support quality, but they depend on Data accuracy.</p>
+    <p>الأدوات الإلكترونية تدعم الجودة، لكنها تعتمد على <span class="english-term">Data accuracy</span> (دقة البيانات).</p>
+    <p>If something isn't documented, it won't be reviewed. This isn't harshness—it's improvement reality.</p>
+    <p>وإذا كان شيء لم يُوثق، لن يُراجع. وهذه ليست قسوة—هذه واقع التحسين.</p>
+
+    <h3>8.6.1 Documentation design principles for auditability</h3>
+    <h3>8.6.1 مبادئ تصميم التوثيق ليكون قابلًا للتدقيق Auditability</h3>
+    <ul>
+        <li>Prefer Structured fields for important metrics: Antibiotic timing, Temperature, Pressure under threshold… / فضّل الحقول المنظمة <span class="english-term">Structured fields</span> (حقول منظمة) للمؤشرات المهمة: توقيت المضاد، حرارة، ضغط تحت العتبة…</li>
+        <li>Use Standard phrases for exceptions to ease automated analysis / استخدم عبارات معيارية للاستثناءات <span class="english-term">Standard phrases</span> (عبارات معيارية) لتسهيل التحليل الآلي</li>
+        <li>Synchronize time across devices/systems / وحّد التوقيت بين الأجهزة/الأنظمة</li>
+        <li>Set clear Addenda policy: When allowed and how labeled to not harm traceability / ضع سياسة واضحة للإضافات <span class="english-term">Addenda</span> (إضافات لاحقة): متى تُسمح وكيف تُوسم حتى لا تضر التتبع</li>
+    </ul>
+
+    <h3>8.6.2 Traceability and timelines during investigation</h3>
+    <h3>8.6.2 قابلية التتبع والزمنيات أثناء التحقيق</h3>
+    <p>System log files might be necessary to reconstruct event sequences.</p>
+    <p>قد تكون سجلات النظام <span class="english-term">Log files</span> (سجلات النظام) ضرورية لإعادة بناء تسلسل الأحداث.</p>
+    <p><strong>Operational note:</strong> Must coordinate with Risk Management and IT per institutional policy; “Individual solutions” here create major risk later.</p>
+    <p><strong>ملاحظة تشغيلية:</strong> يجب تنسيق ذلك مع إدارة المخاطر وIT وفق سياسات المؤسسة؛ “الحلول الفردية” هنا تخلق مخاطرة كبيرة لاحقًا.</p>
+
+    <div class="divider">***</div>
+
+    <h2>8.7 Step-by-step: Building a “Governance OS” for Anesthesia Department</h2>
+    <h3>8.7 خطوة بخطوة: بناء “نظام تشغيل” للحوكمة السريرية في قسم التخدير</h3>
+
+    <div class="scene-box">
+        <span class="scene-title">مشهد شخصي</span>
+        <p>كل قسم يبدأ بحماس، ثم تُطفئه الحياة اليومية: مناوبات، نقص كوادر، ضغط غرف، مطالب متراكمة.</p>
+        <p>الحل الذي رأيته ينجح خلال 25 سنة: نظام بسيط… متكرر… لا يعتمد على بطل.</p>
+        <p>أدوار واضحة، اجتماع منتظم، لوحة صغيرة، سجل قرارات، وإعادة قياس.</p>
+        <p>عندما يكون النظام سهلًا، يستمر حتى مع الإرهاق.</p>
+        <p>وعندما يكون معقدًا، يموت بعد شهرين.</p>
+    </div>
+
+    <p>Use this as a Blueprint:</p>
+    <p>استخدم هذا كـ <span class="english-term">Blueprint</span> (مخطط عمل):</p>
+
+    <h3>8.7.1 Governance roles</h3>
+    <h3>8.7.1 أدوار الحوكمة</h3>
+    <ul>
+
+<!-- Governance Roles Visual -->
+<div style="margin: 3rem 0;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+        
+        <!-- Role 1: QM Officer -->
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2.5rem; border-radius: 15px; box-shadow: 0 8px 30px rgba(102, 126, 234, 0.3); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="font-size: 3.5rem; color: white; margin-bottom: 1rem; text-align: center;"><i class="fas fa-user-tie"></i></div>
+            <h4 style="color: white; font-size: 1.4rem; margin-bottom: 1rem; text-align: center;">QM Officer / Quality Lead</h4>
+            <h5 style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-bottom: 1.5rem; text-align: center;">قائد الجودة</h5>
+            <p style="color: rgba(255,255,255,0.95); line-height: 1.8; margin: 0; text-align: center;">
+                Gathers, analyzes, presents quality/safety data<br>
+                يجمع ويُحلل ويعرض بيانات الجودة والسلامة
+            </p>
+        </div>
+        
+        <!-- Role 2: QM Committee -->
+        <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 2.5rem; border-radius: 15px; box-shadow: 0 8px 30px rgba(250, 112, 154, 0.3); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="font-size: 3.5rem; color: white; margin-bottom: 1rem; text-align: center;"><i class="fas fa-users-cog"></i></div>
+            <h4 style="color: white; font-size: 1.4rem; margin-bottom: 1rem; text-align: center;">QM Committee</h4>
+            <h5 style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-bottom: 1.5rem; text-align: center;">لجنة الجودة</h5>
+            <p style="color: rgba(255,255,255,0.95); line-height: 1.8; margin: 0; text-align: center;">
+                Defines metrics, triages incidents, launches improvements<br>
+                تحدد المقاييس، تفرز الحوادث، تطلق تحسينات
+            </p>
+        </div>
+        
+        <!-- Role 3: M&M Lead -->
+        <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 2.5rem; border-radius: 15px; box-shadow: 0 8px 30px rgba(79, 172, 254, 0.3); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="font-size: 3.5rem; color: white; margin-bottom: 1rem; text-align: center;"><i class="fas fa-clipboard-check"></i></div>
+            <h4 style="color: white; font-size: 1.4rem; margin-bottom: 1rem; text-align: center;">M&M Lead</h4>
+            <h5 style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-bottom: 1.5rem; text-align: center;">قائد M&M</h5>
+            <p style="color: rgba(255,255,255,0.95); line-height: 1.8; margin: 0; text-align: center;">
+                Ensures case selection, system framing, action tracking<br>
+                يضمن اختيار الحالات، تأطيرها نظاميًا، متابعة الإجراءات
+            </p>
+        </div>
+        
+        <!-- Role 4: Data Steward -->
+        <div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2.5rem; border-radius: 15px; box-shadow: 0 8px 30px rgba(168, 237, 234, 0.3); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="font-size: 3.5rem; color: #333; margin-bottom: 1rem; text-align: center;"><i class="fas fa-database"></i></div>
+            <h4 style="color: #333; font-size: 1.4rem; margin-bottom: 1rem; text-align: center;">Data Steward(s)</h4>
+            <h5 style="color: #555; font-size: 1.2rem; margin-bottom: 1.5rem; text-align: center;">مسؤولو البيانات</h5>
+            <p style="color: #555; line-height: 1.8; margin: 0; text-align: center;">
+                Definition stability, dashboard updates, extraction audit<br>
+                ثبات التعريفات، تحديث اللوحة، تدقيق صحة الاستخراج
+            </p>
+        </div>
+        
+    </div>
+</div>
+
+        <li><strong>QM Officer / Quality Lead (قائد الجودة):</strong> Gathers, analyzes, presents quality/safety data, department contact point.<br>
+        يجمع ويُحلل ويعرض بيانات الجودة والسلامة، نقطة اتصال للقسم.</li>
+        <li><strong>QM Committee (لجنة الجودة):</strong> Defines metrics, triages incidents, launches improvements, tracks impact.<br>
+        تحدد المقاييس، تفرز الحوادث، تطلق تحسينات، تتابع الأثر.</li>
+        <li><strong>M&amp;M Lead (قائد M&amp;M):</strong> Ensures case selection, system framing, action tracking.<br>
+        يضمن اختيار الحالات، تأطيرها نظاميًا، متابعة الإجراءات.</li>
+        <li><strong>Data Steward(s) (مسؤولو البيانات):</strong> Definition stability, dashboard updates, extraction audit.<br>
+        ثبات التعريفات، تحديث اللوحة، تدقيق صحة الاستخراج.</li>
+    </ul>
+
+    <h3>8.7.2 Governance cadence</h3>
+    <h3>8.7.2 إيقاع الحوكمة</h3>
+    <ul>
+        <li><strong>Weekly/Bi-weekly:</strong> Rapid review (3–5 dashboard items + 1–2 cases).<br>
+        أسبوعي/نصف شهري: مراجعة سريعة (3–5 عناصر من اللوحة + حالة/حالتين).</li>
+        <li><strong>Monthly:</strong> Quality Committee (Metrics + Incident Triage + Action Log).<br>
+        شهري: لجنة الجودة (مؤشرات + فرز حوادث + سجل إجراءات).</li>
+        <li><strong>Quarterly:</strong> M&amp;M themes + “Top Risks” + Sustainability review.<br>
+        ربع سنوي: مواضيع M&amp;M + “أعلى المخاطر” + مراجعة الاستدامة.</li>
+        <li><strong>Annually:</strong> Department Quality Plan (Priorities, Goals, Institutional Alignment).<br>
+        سنوي: خطة جودة قسم التخدير (أولويات، أهداف، توافق مع أهداف المنشأة).</li>
+    </ul>
+
+    <h3>8.7.3 Outputs discipline — What must come out of every meeting?</h3>
+
+<!-- Governance Cadence Visual -->
+<div style="margin: 3rem 0; padding: 3rem; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; box-shadow: 0 10px 40px rgba(240, 147, 251, 0.3);">
+    <h3 style="text-align: center; color: white; margin-bottom: 2.5rem; font-size: 1.8rem;">
+        <i class="fas fa-calendar-alt"></i> إيقاع الحوكمة / Governance Cadence
+    </h3>
+    <div style="display: grid; gap: 1.5rem;">
+        
+        <!-- Weekly/Bi-weekly -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; border-left: 6px solid #10b981; display: flex; align-items: center; gap: 1.5rem; transition: transform 0.3s;" onmouseover="this.style.transform='translateX(-10px)'" onmouseout="this.style.transform='translateX(0)'">
+            <div style="font-size: 3rem; color: #10b981; min-width: 60px;"><i class="fas fa-calendar-week"></i></div>
+            <div>
+                <h4 style="color: #10b981; font-size: 1.3rem; margin-bottom: 0.5rem;">Weekly/Bi-weekly / أسبوعي/نصف شهري</h4>
+                <p style="color: #555; margin: 0; line-height: 1.8;">
+                    Rapid review (3–5 dashboard items + 1–2 cases)<br>
+                    مراجعة سريعة: 3–5 عناصر من اللوحة + حالة/حالتين
+                </p>
+            </div>
+        </div>
+        
+        <!-- Monthly -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; border-left: 6px solid #3b82f6; display: flex; align-items: center; gap: 1.5rem; transition: transform 0.3s;" onmouseover="this.style.transform='translateX(-10px)'" onmouseout="this.style.transform='translateX(0)'">
+            <div style="font-size: 3rem; color: #3b82f6; min-width: 60px;"><i class="fas fa-calendar-day"></i></div>
+            <div>
+                <h4 style="color: #3b82f6; font-size: 1.3rem; margin-bottom: 0.5rem;">Monthly / شهري</h4>
+                <p style="color: #555; margin: 0; line-height: 1.8;">
+                    Quality Committee (Metrics + Incident Triage + Action Log)<br>
+                    لجنة الجودة: مؤشرات + فرز حوادث + سجل إجراءات
+                </p>
+            </div>
+        </div>
+        
+        <!-- Quarterly -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; border-left: 6px solid #f59e0b; display: flex; align-items: center; gap: 1.5rem; transition: transform 0.3s;" onmouseover="this.style.transform='translateX(-10px)'" onmouseout="this.style.transform='translateX(0)'">
+            <div style="font-size: 3rem; color: #f59e0b; min-width: 60px;"><i class="fas fa-calendar-alt"></i></div>
+            <div>
+                <h4 style="color: #f59e0b; font-size: 1.3rem; margin-bottom: 0.5rem;">Quarterly / ربع سنوي</h4>
+                <p style="color: #555; margin: 0; line-height: 1.8;">
+                    M&M themes + "Top Risks" + Sustainability review<br>
+                    مواضيع M&M + "أعلى المخاطر" + مراجعة الاستدامة
+                </p>
+            </div>
+        </div>
+        
+        <!-- Annually -->
+        <div style="background: rgba(255,255,255,0.95); padding: 2rem; border-radius: 15px; border-left: 6px solid #ef4444; display: flex; align-items: center; gap: 1.5rem; transition: transform 0.3s;" onmouseover="this.style.transform='translateX(-10px)'" onmouseout="this.style.transform='translateX(0)'">
+            <div style="font-size: 3rem; color: #ef4444; min-width: 60px;"><i class="fas fa-calendar-check"></i></div>
+            <div>
+                <h4 style="color: #ef4444; font-size: 1.3rem; margin-bottom: 0.5rem;">Annually / سنوي</h4>
+                <p style="color: #555; margin: 0; line-height: 1.8;">
+                    Department Quality Plan (Priorities, Goals, Institutional Alignment)<br>
+                    خطة جودة القسم: أولويات، أهداف، توافق مع المنشأة
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+    <h3>8.7.3 انضباط المخرجات (Outputs) — ما الذي يجب أن يخرج من كل اجتماع؟</h3>
+    <ul>
+        <li>Brief Minutes (محضر مختصر).</li>
+        <li>Action log: Owner + Deadline (سجل إجراءات: مالك + موعد نهائي).</li>
+        <li>Measure of effect &amp; sustainability (مؤشر/مقياس سيثبت الأثر والاستدامة).</li>
+    </ul>
+    <div class="alert-box">
+        <strong>Iron Rule:</strong> Meeting without “Owner + Deadline + Metric” is a venting session, not improvement.<br>
+        <strong>قاعدة حديدية:</strong> اجتماع بلا “Owner + Deadline + Metric” هو اجتماع للتفريغ النفسي لا للتحسين.
+    </div>
+
+    <h2>BOX 8-A — Audit Cycle Template </h2>
+    <h3>صندوق 8-A — قالب دورة التدقيق</h3>
+    <div class="quote-box">
+        <ul>
+            <li><strong>Audit title (عنوان التدقيق):</strong></li>
+            <li><strong>Standard/expectation (المعيار/التوقع):</strong></li>
+            <li><strong>Scope (النطاق: مواقع/أنواع حالات):</strong></li>
+            <li><strong>Measure definition (التعريف: بسط/مقام):</strong></li>
+            <li><strong>Baseline period + result (خط الأساس + النتيجة):</strong></li>
+            <li><strong>Key gaps (أهم 3 فجوات):</strong></li>
+            <li><strong>Intervention (تدخل/اختبار PDSA):</strong></li>
+            <li><strong>Owner(s) (المسؤول):</strong></li>
+            <li><strong>Timeline (الجدول الزمني):</strong></li>
+            <li><strong>Re-measure date (تاريخ إعادة القياس):</strong></li>
+            <li><strong>Sustainability plan (خطة الاستدامة):</strong></li>
+            <li><strong>Reported to (رفِع إلى):</strong> لجنة الجودة / القسم / جودة المنشأة</li>
+        </ul>
+    </div>
+
+    <h2>BOX 8-B — M&amp;M Format as Systems Conference (60 mins)</h2>
+    <h3>صندوق 8-B — صيغة M&amp;M كنقاش نظامي Systems Conference (60 دقيقة)</h3>
+    <div class="concept-box">
+        <ul>
+            <li><strong>Case summary (ملخص الحالة) — 5 دقائق:</strong> حقائق فقط.</li>
+            <li><strong>Timeline (الخط الزمني) — 10 دقائق:</strong> قرارات + ظروف + نقاط تحول.</li>
+            <li><strong>What went well (ما الذي سار جيدًا) — 5 دقائق:</strong> لأن المرونة Resilience تُعلّم أيضًا.</li>
+            <li><strong>Contributing factors (العوامل المساهمة) — 15 دقيقة:</strong> مهمة/فريق/بيئة/معدات/سياسات.</li>
+            <li><strong>Defenses failed or missing (الدفاعات التي فشلت/غابت) — 10 دقائق.</strong></li>
+            <li><strong>Actions (الإجراءات) — 10 دقائق:</strong> 1–3 تغييرات فقط + مالك + موعد + مقياس.</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>8.8 Chapter summary (Carry-forward points)</h2>
+    <h3>8.8 خلاصة الفصل (Carry-forward points)</h3>
+
+    <div class="success-box">
+        <ul>
+            <li><strong>Governance is a system:</strong> Roles + Committees + Metrics + Case Review + Action Log + Re-measurement.<br>
+            الحوكمة نظام: أدوار + لجان + مؤشرات + مراجعة حالات + سجل إجراءات + إعادة قياس.</li>
+            
+            <li><strong>Audit should produce a “measurable action plan” then re-measure—not just results.</strong><br>
+            التدقيق يُفترض أن ينتج “خطة عمل قابلة للقياس” ثم إعادة قياس—لا مجرد نتائج.</li>
+            
+            <li><strong>M&amp;M and Peer Review are stronger when focused on patterns, preventability, and system redesign, not person-blaming.</strong><br>
+            M&amp;M ومراجعة الأقران أقوى عندما تركز على الأنماط وقابلية المنع وإعادة تصميم النظام، لا على جلد الأشخاص.</li>
+            
+            <li><strong>Documentation quality and traceability are prerequisites for improvement: What isn't documented isn't reviewed or improved.</strong><br>
+            جودة التوثيق وقابلية التتبع شرط مسبق للتحسين: ما لا يُوثق لا يُراجع ولا يُحسّن.</li>
+        </ul>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_الثامن_الحوكمة_السريرية.html";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+    </script>
+
+
+</body></html>
