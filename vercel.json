@@ -1,17 +1,46 @@
 {
-  "version": 2,
   "rewrites": [
-    {
-      "source": "/chapters",
-      "destination": "/chapters.html"
-    },
-    {
-      "source": "/chapter/:id",
-      "destination": "/api/chapter"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/public/$1"
-    }
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/chapters", "destination": "/chapters.html" },
+    { "source": "/chapter/copyright", "destination": "/chapters/حقوق_الطبع_والنشر.html" },
+    { "source": "/chapter/foreword-ammar", "destination": "/chapters/تقديم_د_عمار_ابو_الصبح.html" },
+    { "source": "/chapter/foreword-sami", "destination": "/chapters/تقديم_د_سامي_زايد.html" },
+    { "source": "/chapter/contents", "destination": "/chapters/جدول_المحتويات.html" },
+    { "source": "/chapter/0", "destination": "/chapters/تنسيق مقدمة كتاب السلامة والجودة في التخدير.html" },
+    { "source": "/chapter/min-ramad", "destination": "/chapters/من_رماد_الذاكرة.html" },
+    { "source": "/chapter/1", "destination": "/chapters/الفصل_الأول_السلامة_في_التخدير (1).html" },
+    { "source": "/chapter/2", "destination": "/chapters/الفصل_الثاني_المفاهيم_والنماذج.html" },
+    { "source": "/chapter/3", "destination": "/chapters/الفصل_الثالث_العوامل_البشرية.html" },
+    { "source": "/chapter/4", "destination": "/chapters/الفصل_الرابع_العمل_الجماعي.html" },
+    { "source": "/chapter/5", "destination": "/chapters/الفصل_الخامس_إدارة_الجودة.html" },
+    { "source": "/chapter/6", "destination": "/chapters/الفصل_السادس_التحسين_المستمر.html" },
+    { "source": "/chapter/7", "destination": "/chapters/الفصل_السابع_القياس_في_التخدير.html" },
+    { "source": "/chapter/8", "destination": "/chapters/الفصل_الثامن_الحوكمة_السريرية.html" },
+    { "source": "/chapter/9", "destination": "/chapters/الفصل_التاسع_الابلاغ_عن_الحوادث.html" },
+    { "source": "/chapter/10", "destination": "/chapters/الفصل_العاشر_تصميم_الموثوقية.html" },
+    { "source": "/chapter/11", "destination": "/chapters/الفصل_الحادي_عشر_ثقافة_السلامة.html" },
+    { "source": "/chapter/12", "destination": "/chapters/الفصل_الثاني_عشر_التعليم_والكفاءة.html" },
+    { "source": "/chapter/13", "destination": "/chapters/الفصل_الثالث_عشر_تقييم_المخاطر.html" },
+    { "source": "/chapter/14", "destination": "/chapters/الفصل_الرابع_عشر_قوائم_التحقق.html" },
+    { "source": "/chapter/15", "destination": "/chapters/الفصل_الخامس_عشر_السلامة_قبل_العملية (1).html" },
+    { "source": "/chapter/16", "destination": "/chapters/الفصل 16 - السلامة أثناء العملية المراقبة وأمان مجرى الهواء.html" },
+    { "source": "/chapter/17", "destination": "/chapters/الفصل 17 - سلامة الأدوية في التخدير.html" },
+    { "source": "/chapter/18", "destination": "/chapters/الفصل 18 - سلامة المعدات والمراقبة.html" },
+    { "source": "/chapter/19", "destination": "/chapters/الفصل 19 - السلامة أثناء العمليات الوقاية من آليات الضرر الشائعة.html" },
+    { "source": "/chapter/20", "destination": "/chapters/الفصل 20 - سلامة التخدير الناحي والاستعداد لـ LAST.html" },
+    { "source": "/chapter/21", "destination": "/chapters/الفصل 21 - سلامة التهدئة من الخفيفة إلى العميقة.html" },
+    { "source": "/chapter/22", "destination": "/chapters/الفصل 22 - التخدير خارج غرفة العمليات.html" },
+    { "source": "/chapter/23", "destination": "/chapters/الفصل 23 - سلامة وحدة الإفاقة والوقاية من مضاعفات ما بعد العملية.html" },
+    { "source": "/chapter/24", "destination": "/chapters/الفصل 24 - التميز في التسليم نقل المرضى (1).html" },
+    { "source": "/chapter/25", "destination": "/chapters/الفصل 25 - تخدير الولادة أنظمة أمان للأم والطفل.html" },
+    { "source": "/chapter/26", "destination": "/chapters/الفصل 26 - سلامة تخدير الأطفال وحديثي الولادة.html" },
+    { "source": "/chapter/27", "destination": "/chapters/الفصل 27 - جودة التخدير للمرضى المسنين المعتمدة على الهشاشة (1).html" },
+    { "source": "/chapter/28", "destination": "/chapters/الفصل 28 - حالات القلب والأوعية الكبرى ممارسة الموثوقية العالية.html" },
+    { "source": "/chapter/29", "destination": "/chapters/الفصل 29 - تخدير الإصابات والطوارئ السلامة الحرجة بالوقت.html" },
+    { "source": "/chapter/30", "destination": "/chapters/الفصل 30 - واجهات العناية المركزة والرعاية الحرجة.html" },
+    { "source": "/chapter/31", "destination": "/chapters/الفصل 31 - علم التنفيذ لمشاريع السلامة في التخدير.html" },
+    { "source": "/chapter/32", "destination": "/chapters/الفصل 32 - استدامة التميز في سلامة وجودة التخدير.html" },
+    { "source": "/chapter/33", "destination": "/chapters/الخاتمة.html" },
+    { "source": "/chapter/34", "destination": "/chapters/المصادر_والمراجع.html" }
   ]
 }
