@@ -840,6 +840,8 @@ app.get('/chapters', (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`✅ Server running on http://0.0.0.0:${PORT}`);
+  console.log(`📡 Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`🚀 Ready to accept connections`);
 });
