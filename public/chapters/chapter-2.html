@@ -1,0 +1,2726 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImIxZjQyNzYzZjkzNGExOTQwMWNkOTFhNjdjY2FhNzdiNjIwNWU2N2EiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzVmNTllYTVhMmI5ZDQ5NmRf2KfZhNmB2LXZhCAxNyAtINiz2YTYp9mF2Kkg2KfZhNij2K_ZiNmK2Kkg2YHZiiDYp9mE2KrYrtiv2YrYsS5odG1sLTk4MSJ9LCJleHAiOjE3NzAxNTUyMTUsImlhdCI6MTc3MDE1MTYxNSwiYWxnIjoiUlMyNTYifQ.m4wly_gSn6bWwaeAvVNyp0Cc_tYek9EGrrELFSwJy2YQ-cX6bDXEvkaci5TZp-ptjHwTZP6-xApZS35yEJ0vc-_J3WKYMTsOuhDJr6mjs_1l_4TBYGvns7FxMsdyV1IbVfWdv2QNU3VwgD-gO0vUJTYA2LQWOexciAH8esFK-gDvmfMV7PV9ZZ8rhB3svAayd2nXdqga9h7bjZV5tjf7zcq5C7Pi7xyX4G0wseHYeXfD2cT2JdPH4vA1Dx9tpIgywP6vo3H7wcf5eOUcP87S6dg9SeQYgKf25QIb5MjRtriPHMaJ0ZVJtSUKvXXZtOgkVLD74Z-8lktwX3oYYY-iEQ","c_5f59ea5a2b9d496d_الفصل 17 - سلامة الأدوية في التخدير.html-981")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-09-2025","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل 17: سلامة الأدوية في التخدير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+        --box-gray: #f8fafc;
+        --box-gray-border: #64748b;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+      
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+        text-indent: 0;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+        direction: ltr; 
+      }
+      
+      .subtitle span {
+         display: block;
+         direction: rtl;
+         margin-bottom: 5px;
+      }
+
+      /* Quotes and Important Boxes */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Scene Box Style */
+      .scene-box {
+        background-color: #f8fafc;
+        border-right: 5px solid var(--box-gray-border);
+        padding: 20px 25px;
+        font-style: italic;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #374151;
+      }
+      
+      .scene-title {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: block;
+        color: #1e293b;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      /* Special text styling */
+      strong {
+        color: #111827;
+        font-weight: 700;
+      }
+      
+      /* Tables Custom Styling */
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-family: 'Amiri', serif;
+          font-size: 0.95em;
+          background-color: #fff;
+          border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+          background-color: var(--primary-blue);
+          color: #ffffff;
+          text-align: right;
+          font-family: 'Noto Kufi Arabic', sans-serif;
+          font-weight: 600;
+      }
+      
+      th, td {
+          padding: 12px 15px;
+          border: 1px solid #e5e7eb;
+          vertical-align: top;
+      }
+      
+      th {
+          color: #ffffff;
+          border: 1px solid #1e40af;
+      }
+      
+      tbody tr:nth-of-type(even) {
+          background-color: #f9fafb;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+      
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* Print adjustments */
+      @media print {
+        .download-container { display: none; }
+        body { padding: 0; padding-top: 0; }
+        h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        .quote-box, .alert-box, .success-box, .concept-box, .scene-box, th {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .page-break { page-break-after: always; }
+      }
+      
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+        table { display: block; overflow-x: auto; }
+      }
+    </style>
+  </head>
+  <body style="padding-top: 40px;">
+
+    <!-- Download Bar -->
+    
+
+    <!-- Header Section -->
+    <div class="part-title">Part I — Foundations of Safety Science in Anesthesia</div>
+    <div class="part-title">الجزء الأول — أسس علم السلامة في التخدير</div>
+
+                            
+    <h1>CHAPTER 2 — Concepts and Models in Patient Safety</h1>
+    <div class="subtitle"><strong>الفصل الثاني — المفاهيم والنماذج: الخطأ البشري، المرونة، والموثوقية العالية</strong></div>
+    
+
+
+
+    
+    <div class="part-title">(Part I — Foundations of Safety Science in Anesthesia)(الجزء الأول — أسس علم السلامة في التخدير)</div>
+
+    <h2>2.1 أهداف الفصل / Chapter Aims</h2>
+    <div class="concept-box">
+        <p>في نهاية هذا الفصل، سيكون القارئ قادرًا على:</p>
+        <p><span class="english-term">By the end of this chapter, the reader will be able to:</span></p>
+        <ol>
+            <li>شرح لماذا ينبغي اعتبار "الخطأ البشري" <strong>بداية التحليل وليس نهايته</strong>، وكيف تشكّل الظروف الاجتماعية–التقنية الأداء.<br>
+            <span class="english-term">1. Explain why "human error" should be considered <strong>the beginning of analysis, not the end</strong>, and how socio-technical conditions shape performance.</span></li>
+            
+            <li>التمييز بين <strong>الأخطاء النشطة (Active Errors)</strong> و <strong>الفشل الكامن (Latent Failures)</strong> ولماذا إصلاح الكامن يقلل الضرر بشكل مستدام.<br>
+            <span class="english-term">2. Distinguish between <strong>Active Errors</strong> and <strong>Latent Failures</strong>, and understand why fixing latent conditions reduces harm more sustainably.</span></li>
+            
+            <li>تعريف <strong>حادثة سلامة المريض (Patient Safety Incident)</strong> و <strong>الحادثة القريبة (Near Miss)</strong> بشكل يدعم التعلم لا اللوم.<br>
+            <span class="english-term">3. Define <strong>Patient Safety Incident</strong> and <strong>Near Miss</strong> in ways that support learning rather than blame.</span></li>
+            
+            <li>استخدام <strong>نموذج الجبن السويسري (Swiss Cheese Model)</strong> و <strong>مخطط ربطة العنق (Bow-tie Diagram)</strong> لفهم مسار الضرر، وكيف فشلت الحواجز ونجح/فشل الاسترداد.<br>
+            <span class="english-term">4. Use the <strong>Swiss Cheese Model</strong> and <strong>Bow-tie Diagram</strong> to understand harm pathways, barrier failures, and recovery success/failure.</span></li>
+            
+            <li>فهم مبادئ <strong>منظمات الموثوقية العالية (High Reliability Organizations - HROs)</strong> وخصائصها الخمس وكيف تُترجم إلى قيادة يومية في التخدير.<br>
+            <span class="english-term">5. Understand <strong>High Reliability Organization (HRO)</strong> principles and their five characteristics, and how they translate to daily anesthesia leadership.</span></li>
+            
+            <li>تعريف <strong>المرونة (Resilience)</strong> وقدراتها الأربع: <strong>المراقبة/الاستجابة/التوقع/التعلم (Monitor/Respond/Anticipate/Learn)</strong> وكيفية تحويلها إلى ممارسة.<br>
+            <span class="english-term">6. Define <strong>Resilience</strong> and its four capacities: <strong>Monitor, Respond, Anticipate, Learn</strong>—and how to translate them into practice.</span></li>
+            
+            <li>تطبيق نهج خطوة‑بخطوة لبناء السلامة: <strong>الوقاية، الكشف، الاحتواء، والتعلم</strong>—مدعومًا بالإبلاغ والتدخلات القوية.<br>
+            <span class="english-term">7. Apply a step-by-step approach to building safety: <strong>Prevention, Detection, Containment, and Learning</strong>—supported by reporting and robust interventions.</span></li>
+        </ol>
+    </div>
+
+    <h2>2.2 الخطأ البشري: ما هو—ولماذا لا يكفي وحده أبدًا</h2>
+    <h3>2.2 Human Error: What It Is—and Why It's Never Enough Alone</h3>
+    
+    <p>العقل البشري ليس جهاز مراقبة مثالي. نحن ننسى، نتشتت، نتعب، ونفسّر المعلومات بطرق متحيزة. في بيئة التخدير المعقدة—حيث الضغط المستمر، المقاطعات، والحمل المعرفي العالي—يصبح الكمال مستحيلاً.</p>
+    <p><span class="english-term">The human mind is not a perfect monitoring device. We forget, get distracted, become fatigued, and interpret information with biases. In the complex anesthesia environment—with constant pressure, interruptions, and high cognitive load—perfection becomes impossible.</span></p>
+    
+    <div class="alert-box">
+        <p><strong>النقطة الأساسية:</strong> الخطأ البشري حتمي في أي نظام معقد. السؤال ليس "كيف نزيل الخطأ تماماً؟" بل "كيف نصمم أنظمة تمنع الأخطاء أو تلتقطها قبل أن تصبح ضرراً؟"</p>
+        <p><span class="english-term"><strong>Key Point:</strong> Human error is inevitable in any complex system. The question is not "How do we eliminate error completely?" but "How do we design systems that prevent errors or catch them before they become harm?"</span></p>
+    </div>
+
+    <h3>2.2.1 ما بعد اللوم: الخطأ البشري بداية التحليل لا "السبب الجذري"</h3>
+    <h3>2.2.1 Beyond Blame: Human Error as the Beginning of Analysis, Not the "Root Cause"</h3>
+    
+    <p>بعد وقوع حدث ضار، يظهر تقليدياً عبارة "خطأ بشري" كتفسير نهائي. لكن علم السلامة الحديث يخبرنا:</p>
+    <p><span class="english-term">After an adverse event occurs, "human error" traditionally appears as a final explanation. But modern safety science tells us:</span></p>
+    
+    <ul>
+        <li>الأخطاء التي يرتكبها أطباء مهرة غالباً ما تكون مجرد <strong>مظهر لضعف النظام</strong> (تصميم مربك، تنظيم ناقص، تدريب غير كافٍ، صيانة متذبذبة، ضغط عمل، ثقافة تثبط الاستيضاح).<br>
+        <span class="english-term">• Errors made by skilled clinicians are often merely <strong>symptoms of system weakness</strong> (confusing design, poor organization, inadequate training, inconsistent maintenance, work pressure, culture that discourages clarification).</span></li>
+        
+        <li>إذا توقفنا عند "خطأ بشري"، فإننا نفوّت فرصة إصلاح النظام الذي سمح بالخطأ في المقام الأول.<br>
+        <span class="english-term">• If we stop at "human error," we miss the opportunity to fix the system that allowed the error in the first place.</span></li>
+    </ul>
+
+    <div class="quote-box">
+        <strong>مثال سريري:</strong> طبيب تخدير متمرس يحقن عن طريق الخطأ 10 مل من كلوريد البوتاسيوم (KCl) عالي التركيز بدلاً من محلول ملحي عادي.<br>
+        <span class="english-term"><strong>Clinical Example:</strong> An experienced anesthesiologist mistakenly injects 10 ml of high-concentration potassium chloride (KCl) instead of normal saline.</span>
+    </div>
+
+    <p><strong>السبب الظاهر:</strong> "خطأ بشري - لم يقرأ الملصق"</p>
+    <p><span class="english-term"><strong>Apparent cause:</strong> "Human error - didn't read the label"</span></p>
+
+    <div class="concept-box">
+        <p><strong>التحليل الأعمق يكشف:</strong></p>
+        <ul>
+            <li>القوارير متطابقة الشكل واللون</li>
+            <li>الملصقات متشابهة جداً (نص صغير، نفس الخط)</li>
+            <li>الأدوية مخزنة جنباً إلى جنب على نفس الرف</li>
+            <li>الإضاءة في غرفة الأدوية ضعيفة</li>
+            <li>لا يوجد تحقق مزدوج مطلوب للأدوية عالية الخطورة</li>
+            <li>ضغط العمل الشديد وقلة النوم</li>
+        </ul>
+    </div>
+
+    <div class="success-box">
+        <p><strong>الحل الحقيقي:</strong> ليس "كن أكثر حذراً" بل:</p>
+        <ul>
+            <li>فصل الأدوية عالية الخطورة</li>
+            <li>ملصقات مميزة بالألوان</li>
+            <li>تخزين منفصل</li>
+            <li>تحقق مزدوج إلزامي</li>
+            <li>تحسين الإضاءة</li>
+            <li>معالجة عبء العمل</li>
+        </ul>
+    </div>
+
+    <h3>2.2.2 تعريفات تُعلّم بدل أن تُدين</h3>
+    <h3>2.2.2 Definitions That Teach Rather Than Condemn</h3>
+    
+    <p>لبناء ثقافة تعلم حقيقية، نحتاج تعريفات واضحة لا تحمل حكماً مسبقاً:</p>
+    <p><span class="english-term">To build a true learning culture, we need clear, non-judgmental definitions:</span></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>المصطلح / Term</th>
+                <th>التعريف / Definition</th>
+                <th>مثال من التخدير / Anesthesia Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Patient Safety Incident</strong><br>حادثة سلامة المريض</td>
+                <td>حدث أو ظرف كان يمكن أن يؤدي، أو أدى فعلاً، إلى ضرر غير ضروري للمريض.<br><span class="english-term">An event or circumstance that could have resulted, or did result, in unnecessary harm to a patient.</span></td>
+                <td>إعطاء مضاد حيوي لمريض لديه حساسية موثقة؛ نسيان التحقق من الحساسية في Time-Out.<br><span class="english-term">Administering antibiotic to patient with documented allergy; forgetting allergy check in Time-Out.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Near Miss</strong><br>حادثة قريبة</td>
+                <td>حدث لم يصل إلى المريض لكنه كان يمكن أن يصل بشكل معقول؛ أو وصل لكن لم يسبب ضرراً.<br><span class="english-term">An event that did not reach the patient but could reasonably have done so; or reached but caused no harm.</span></td>
+                <td>سحب محقنة سوكسينيل كولين بالخطأ بدلاً من أتراكوريوم، لكن لوحظ قبل الحقن.<br><span class="english-term">Drawing up succinylcholine instead of atracurium, but noticed before injection.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Adverse Event</strong><br>حدث ضار</td>
+                <td>إصابة ناتجة عن الإدارة الطبية بدلاً من المرض الأساسي.<br><span class="english-term">An injury caused by medical management rather than the underlying disease.</span></td>
+                <td>استرواح الصدر أثناء وضع قسطرة وريدية مركزية.<br><span class="english-term">Pneumothorax during central line placement.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Preventable Harm</strong><br>ضرر يمكن الوقاية منه</td>
+                <td>إصابة كان يمكن تجنبها إذا اتُّبعت المعايير الطبية المقبولة.<br><span class="english-term">Injury that could have been avoided if accepted medical standards were followed.</span></td>
+                <td>جلطة وريدية عميقة (DVT) في مريض عالي الخطورة لم يُعطَ وقاية.<br><span class="english-term">Deep vein thrombosis in high-risk patient not given prophylaxis.</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="concept-box">
+        <p><strong>لماذا نهتم بالحوادث القريبة (Near Misses)؟</strong></p>
+        <p>لأنها تكشف عيوب النظام نفسها التي قد تُسبب ضرراً لاحقاً، لكن النظام "نجّاها" بحظ أو بتدخل في الوقت المناسب. <strong>كل Near Miss هي فرصة ذهبية للتعلم والإصلاح قبل وقوع الضرر الفعلي.</strong></p>
+        <p><span class="english-term"><strong>Why Care About Near Misses?</strong><br>Because they reveal the same system flaws that may cause harm later, but the system "saved" them through luck or timely intervention. <strong>Every Near Miss is a golden opportunity to learn and fix before actual harm occurs.</strong></span></p>
+    </div>
+
+    <h3>2.2.3 الخطأ النشط (Active Error) مقابل الفشل الكامن (Latent Failure)</h3>
+    <h3>2.2.3 Active Error vs. Latent Failure</h3>
+    
+    <p>التمييز بين هذين المفهومين أساسي لفهم كيفية بناء أنظمة أكثر أماناً:</p>
+    <p><span class="english-term">The distinction between these two concepts is fundamental to understanding how to build safer systems:</span></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>النوع / Type</th>
+                <th>الوصف / Description</th>
+                <th>أمثلة من التخدير / Anesthesia Examples</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Active Error</strong><br>خطأ نشط</td>
+                <td>خطأ يحدث عند نقطة الرعاية المباشرة ويُحدث تأثيره فوراً أو بسرعة.<br><span class="english-term">An error at the point of direct care that produces its effect immediately or quickly.</span></td>
+                <td>• اختيار محقنة خاطئة<br>• نسيان خطوة في البروتوكول<br>• إعطاء جرعة خاطئة<br>• فشل في التعرف على علامة تحذيرية</td>
+            </tr>
+            <tr>
+                <td><strong>Latent Failure</strong><br>فشل كامن</td>
+                <td>عيب في التصميم، التنظيم، التدريب، أو الصيانة يخلق ظروفاً تؤدي للأخطاء النشطة.<br><span class="english-term">A flaw in design, organization, training, or maintenance that creates conditions leading to active errors.</span></td>
+                <td>• ترتيب أدوية مربك ومتشابه<br>• سياسات غير مطبقة أو غير واضحة<br>• أجهزة غير موحدة بين الغرف<br>• نقص الكادر المزمن<br>• صيانة غير منتظمة</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="success-box">
+        <p><strong>الاستنتاج الأساسي:</strong> إصلاح الأخطاء الكامنة أقوى من معالجة الأخطاء النشطة وحدها.</p>
+        <ul>
+            <li>معالجة Active Error = تغيير سلوك مؤقت (تعليم فردي، تحذير، إجراء تأديبي)</li>
+            <li>إصلاح Latent Failure = تغيير النظام نفسه (تصميم أفضل، سياسات واضحة، معدات موحدة، موارد كافية)</li>
+        </ul>
+        <p><span class="english-term"><strong>Key Conclusion:</strong> Fixing latent failures is more powerful than addressing active errors alone.<br>• Addressing Active Error = temporary behavior change<br>• Fixing Latent Failure = changing the system itself</span></p>
+    </div>
+
+    <h3>2.2.4 تصنيف أخطاء الأداء — عدسة سريرية (Reason's Classification)</h3>
+    <h3>2.2.4 Classifying Performance Breakdowns — A Clinical Lens</h3>
+    
+    <p>صنّف James Reason الأخطاء البشرية إلى أربع فئات رئيسية، كل منها يتطلب تدخلاً مختلفاً:</p>
+    <p><span class="english-term">James Reason classified human errors into four main categories, each requiring different interventions:</span></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>النوع / Type</th>
+                <th>الوصف / Description</th>
+                <th>مثال / Example</th>
+                <th>التدخل الأساسي / Intervention</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Slips</strong><br>زلات</td>
+                <td>نية صحيحة لكن تنفيذ خاطئ؛ عادة بسبب عدم الانتباه.<br><span class="english-term">Correct intention but incorrect execution; usually due to inattention.</span></td>
+                <td>سحب محقنة خاطئة بسبب تشابه العبوات.<br><span class="english-term">Drawing wrong syringe due to package similarity.</span></td>
+                <td>تصميم واضح، توحيد، فصل المتشابهات، تمييز لوني.<br><span class="english-term">Clear design, standardization, separation, color coding.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Lapses</strong><br>هفوات</td>
+                <td>نية صحيحة لكن الذاكرة تخون؛ غالباً بسبب المقاطعات.<br><span class="english-term">Correct intention but memory fails; often due to interruptions.</span></td>
+                <td>نسيان إعطاء مضاد حيوي وقائي.<br><span class="english-term">Forgetting prophylactic antibiotic.</span></td>
+                <td>قوائم التحقق، حماية سير العمل، إنذارات ذكية.<br><span class="english-term">Checklists, workflow protection, smart alarms.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Mistakes</strong><br>أخطاء قرار</td>
+                <td>خطة خاطئة بسبب تقييم غير دقيق أو نقص معرفة.<br><span class="english-term">Wrong plan due to inaccurate assessment or lack of knowledge.</span></td>
+                <td>اختيار دواء غير مناسب لمريض لديه موانع.<br><span class="english-term">Choosing inappropriate drug for contraindicated patient.</span></td>
+                <td>تدريب مستمر، إشراف، أدوات دعم القرار، محاكاة.<br><span class="english-term">Continuous training, supervision, decision support, simulation.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Violations</strong><br>مخالفات</td>
+                <td>تجاوز متعمد لإجراء مقبول؛ قد يكون روتينياً أو استثنائياً.<br><span class="english-term">Intentional deviation from accepted procedure; may be routine or exceptional.</span></td>
+                <td>تخطي Time-Out "لتوفير الوقت".<br><span class="english-term">Skipping Time-Out to "save time".</span></td>
+                <td>ثقافة عادلة، قيادة حازمة، فهم أسباب الانحراف.<br><span class="english-term">Just Culture, firm leadership, understanding deviation reasons.</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>المصطلح / Term</th>
+                <th>التعريف / Definition</th>
+                <th>لماذا مهم؟ / Why Important?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Patient Safety Incident</strong><br>حادثة سلامة المريض</td>
+                <td>حدث أو ظرف كان يمكن أن يؤدي، أو أدى فعلاً، إلى ضرر غير ضروري.<br><span class="english-term">Event or circumstance that could have resulted, or did result, in unnecessary harm.</span></td>
+                <td>يشمل كلاً من الأحداث التي سببت ضرراً وتلك التي لم تسببه—مما يوسع نطاق التعلم.<br><span class="english-term">Includes both harmful and non-harmful events—expanding learning scope.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Near Miss / Close Call</strong><br>حادثة قريبة</td>
+                <td>حدث لم يصل إلى المريض لكنه كان يمكن أن يصل بشكل معقول.<br><span class="english-term">Event that didn't reach patient but could reasonably have done so.</span></td>
+                <td>فرصة ذهبية للتعلم قبل وقوع الضرر الفعلي.<br><span class="english-term">Golden opportunity to learn before actual harm.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Active Error</strong><br>خطأ نشط</td>
+                <td>خطأ في نقطة الرعاية المباشرة بتأثير فوري.<br><span class="english-term">Error at point of direct care with immediate effect.</span></td>
+                <td>الأعراض الظاهرة—لكن ليست السبب الجذري عادة.<br><span class="english-term">Visible symptom—but usually not the root cause.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Latent Failure</strong><br>فشل كامن</td>
+                <td>عيب في التصميم أو التنظيم يخلق ظروفاً تؤدي للأخطاء النشطة.<br><span class="english-term">Design or organizational flaw that creates conditions leading to active errors.</span></td>
+                <td>إصلاحه يمنع أخطاء نشطة متعددة في المستقبل.<br><span class="english-term">Fixing it prevents multiple future active errors.</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="success-box">
+        <p><strong>الرسالة الأساسية:</strong> استخدم لغة محايدة، غير قضائية تشجع الإبلاغ والتعلم—لا اللوم والعقاب.</p>
+        <p><span class="english-term"><strong>Core Message:</strong> Use neutral, non-judgmental language that encourages reporting and learning—not blame and punishment.</span></p>
+    </div>
+
+    <h2>2.3 كيف تتطور الحوادث: نماذج تحول "القصة" إلى "آلية"</h2>
+    <h3>2.3 How Incidents Evolve: Models That Turn "Story" into "Mechanism"</h3>
+    
+    <p>فهم <strong>كيف</strong> تتطور الحوادث—من الظروف الكامنة إلى الخطأ النشط إلى الضرر—يساعدنا على تصميم حواجز فعالة وخطط استرداد قوية.</p>
+    <p><span class="english-term">Understanding <strong>how</strong> incidents evolve—from latent conditions to active error to harm—helps us design effective barriers and robust recovery plans.</span></p>
+
+    <h3>2.3.1 نموذج الجبن السويسري (Swiss Cheese Model) — James Reason</h3>
+    <h3>2.3.1 Swiss Cheese Model — James Reason</h3>
+    
+    <p>النموذج الأكثر شهرة في السلامة الطبية. يُصوِّر الدفاعات كطبقات من الجبن السويسري، كل طبقة بها ثقوب (نقاط ضعف). الضرر يحدث عندما تتراص الثقوب عبر جميع الطبقات، مما يسمح للمسار الضار بالوصول إلى المريض.</p>
+    <p><span class="english-term">The most famous model in medical safety. It depicts defenses as layers of Swiss cheese, each with holes (weaknesses). Harm occurs when holes align across all layers, allowing the hazard pathway to reach the patient.</span></p>
+    
+    <div class="quote-box">
+        HAZARD ➜ [Layer 1: Design] ➜ [Layer 2: Policies] ➜ [Layer 3: Training] ➜ [Layer 4: Supervision] ➜ [Layer 5: Equipment] ➜ [Layer 6: Checks] ➜ PATIENT
+    </div>
+
+    <!-- Swiss Cheese Model - Interactive Visualization -->
+    <div style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); padding: 2rem 1rem; border-radius: 20px; margin: 2rem 0; box-shadow: 0 20px 60px rgba(243, 156, 18, 0.4); overflow-x: auto;">
+        <h3 style="color: white; text-align: center; font-size: 1.8rem; margin-bottom: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+            <i class="fas fa-layer-group"></i> نموذج الجبن السويسري التفاعلي
+            <br><small style="font-size: 0.6em; opacity: 0.9;">Interactive Swiss Cheese Model - James Reason</small>
+        </h3>
+
+        <!-- الرسمة التفاعلية -->
+        <div style="background: white; padding: 2rem 1rem; border-radius: 15px; box-shadow: 0 20px 50px rgba(0,0,0,0.2); position: relative; overflow-x: auto;">
+            
+            <!-- المسار المضيف (Hazard Path) -->
+            <div style="display: flex; flex-wrap: nowrap; align-items: center; gap: 0.8rem; min-width: max-content; justify-content: center;">
+                
+                <!-- نقطة البداية: الخطر -->
+                <div style="flex-shrink: 0; text-align: center;">
+                    <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; box-shadow: 0 10px 30px rgba(231, 76, 60, 0.5);">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <p style="margin: 0.5rem 0 0 0; color: #e74c3c; font-weight: bold; font-size: 0.9rem;">الخطر<br><small style="font-size: 0.8em; opacity: 0.9;">HAZARD</small></p>
+                </div>
+
+                <!-- سهم -->
+                <div style="flex-shrink: 0;">
+                    <i class="fas fa-arrow-left" style="font-size: 1.5rem; color: #e74c3c;"></i>
+                </div>
+
+                <!-- طبقة 1: التصميم -->
+                <div style="flex-shrink: 0; text-align: center;">
+                    <div style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); width: 90px; height: 130px; border-radius: 15px; position: relative; box-shadow: 0 10px 25px rgba(255, 165, 0, 0.3); overflow: hidden;">
+                        <!-- الثقوب -->
+                        <div style="position: absolute; top: 20%; left: 30%; width: 18px; height: 18px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; top: 60%; left: 60%; width: 15px; height: 15px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <!-- النص -->
+                        <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); font-size: 0.75rem; line-height: 1.2;">
+                            التصميم<br><small style="font-size: 0.7em;">Design</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- سهم -->
+                <div style="flex-shrink: 0;">
+                    <i class="fas fa-arrow-left" style="font-size: 1.5rem; color: #f39c12;"></i>
+                </div>
+
+                <!-- طبقة 2: السياسات -->
+                <div style="flex-shrink: 0; text-align: center;">
+                    <div style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); width: 90px; height: 130px; border-radius: 15px; position: relative; box-shadow: 0 10px 25px rgba(255, 165, 0, 0.3); overflow: hidden;">
+                        <div style="position: absolute; top: 25%; left: 40%; width: 18px; height: 18px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; top: 65%; left: 25%; width: 16px; height: 16px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); font-size: 0.75rem; line-height: 1.2;">
+                            السياسات<br><small style="font-size: 0.7em;">Policies</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- سهم -->
+                <div style="flex-shrink: 0;">
+                    <i class="fas fa-arrow-left" style="font-size: 1.5rem; color: #f39c12;"></i>
+                </div>
+
+                <!-- طبقة 3: التدريب -->
+                <div style="flex-shrink: 0; text-align: center;">
+                    <div style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); width: 90px; height: 130px; border-radius: 15px; position: relative; box-shadow: 0 10px 25px rgba(255, 165, 0, 0.3); overflow: hidden;">
+                        <div style="position: absolute; top: 30%; left: 50%; width: 17px; height: 17px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; top: 70%; left: 30%; width: 15px; height: 15px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); font-size: 0.75rem; line-height: 1.2;">
+                            التدريب<br><small style="font-size: 0.7em;">Training</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- سهم -->
+                <div style="flex-shrink: 0;">
+                    <i class="fas fa-arrow-left" style="font-size: 1.5rem; color: #f39c12;"></i>
+                </div>
+
+                <!-- طبقة 4: الإشراف -->
+                <div style="flex-shrink: 0; text-align: center;">
+                    <div style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); width: 90px; height: 130px; border-radius: 15px; position: relative; box-shadow: 0 10px 25px rgba(255, 165, 0, 0.3); overflow: hidden;">
+                        <div style="position: absolute; top: 28%; left: 35%; width: 17px; height: 17px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; top: 68%; left: 55%; width: 16px; height: 16px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); font-size: 0.75rem; line-height: 1.2;">
+                            الإشراف<br><small style="font-size: 0.7em;">Supervision</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- سهم -->
+                <div style="flex-shrink: 0;">
+                    <i class="fas fa-arrow-left" style="font-size: 1.5rem; color: #f39c12;"></i>
+                </div>
+
+                <!-- طبقة 5: المعدات -->
+                <div style="flex-shrink: 0; text-align: center;">
+                    <div style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); width: 90px; height: 130px; border-radius: 15px; position: relative; box-shadow: 0 10px 25px rgba(255, 165, 0, 0.3); overflow: hidden;">
+                        <div style="position: absolute; top: 32%; left: 45%; width: 17px; height: 17px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; top: 72%; left: 30%; width: 15px; height: 15px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); font-size: 0.75rem; line-height: 1.2;">
+                            المعدات<br><small style="font-size: 0.7em;">Equipment</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- سهم -->
+                <div style="flex-shrink: 0;">
+                    <i class="fas fa-arrow-left" style="font-size: 1.5rem; color: #f39c12;"></i>
+                </div>
+
+                <!-- طبقة 6: الفحوصات -->
+                <div style="flex-shrink: 0; text-align: center;">
+                    <div style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); width: 90px; height: 130px; border-radius: 15px; position: relative; box-shadow: 0 10px 25px rgba(255, 165, 0, 0.3); overflow: hidden;">
+                        <div style="position: absolute; top: 27%; left: 50%; width: 17px; height: 17px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; top: 67%; left: 40%; width: 16px; height: 16px; background: rgba(255,255,255,0.9); border-radius: 50%; border: 2px solid #e67e22;"></div>
+                        <div style="position: absolute; bottom: 8px; left: 0; right: 0; text-align: center; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); font-size: 0.75rem; line-height: 1.2;">
+                            الفحوصات<br><small style="font-size: 0.7em;">Checks</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- سهم -->
+                <div style="flex-shrink: 0;">
+                    <i class="fas fa-arrow-left" style="font-size: 1.5rem; color: #2ecc71;"></i>
+                </div>
+
+                <!-- نقطة النهاية: المريض -->
+                <div style="flex-shrink: 0; text-align: center;">
+                    <div style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; box-shadow: 0 10px 30px rgba(46, 204, 113, 0.5);">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <p style="margin: 0.5rem 0 0 0; color: #2ecc71; font-weight: bold; font-size: 0.9rem;">المريض<br><small style="font-size: 0.8em; opacity: 0.9;">PATIENT</small></p>
+                </div>
+            </div>
+
+            <!-- الشرح التوضيحي -->
+            <div style="margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 12px; border-right: 5px solid #f39c12;">
+                <h4 style="color: #f39c12; margin: 0 0 1rem 0; font-size: 1.3rem;">
+                    <i class="fas fa-info-circle"></i> كيف يعمل النموذج:
+                </h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                    <div style="background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                        <p style="color: #2ecc71; font-weight: bold; margin: 0 0 0.8rem 0; font-size: 1.1rem;">
+                            <i class="fas fa-check-circle"></i> في الأيام الآمنة:
+                        </p>
+                        <p style="color: #2c3e50; margin: 0; line-height: 1.8;">
+                            الثقوب <strong>لا تتراص</strong> عبر جميع الطبقات، فيُحجب الخطر ولا يصل إلى المريض. كل طبقة دفاعية تُعوِّض نقاط ضعف الطبقات الأخرى.
+                        </p>
+                    </div>
+                    <div style="background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                        <p style="color: #e74c3c; font-weight: bold; margin: 0 0 0.8rem 0; font-size: 1.1rem;">
+                            <i class="fas fa-times-circle"></i> في اليوم السيئ:
+                        </p>
+                        <p style="color: #2c3e50; margin: 0; line-height: 1.8;">
+                            الثقوب <strong>تتراص بالصدفة</strong> عبر جميع الطبقات، مما يسمح للخطر بالمرور مباشرة إلى المريض ويحدث الضرر.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- الدرس المستفاد -->
+        <div style="background: rgba(255,255,255,0.2); padding: 2rem; border-radius: 15px; margin-top: 2rem; backdrop-filter: blur(10px); border: 2px solid rgba(255,255,255,0.3); text-align: center;">
+            <p style="color: white; font-size: 1.3rem; line-height: 1.9; margin: 0; font-weight: 500;">
+                <i class="fas fa-lightbulb" style="font-size: 1.5rem; margin-left: 10px;"></i>
+                <strong>الدرس الأساسي:</strong>
+                <br><br>
+                <span style="font-size: 1.5rem; font-weight: bold;">"السلامة تعتمد على طبقات الدفاع، ليس على طبقة واحدة مثالية!"</span>
+                <br>
+                <small style="opacity: 0.95; font-size: 1rem;">Safety depends on multiple defense layers, not one perfect layer!</small>
+            </p>
+        </div>
+    </div>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>✓ في الأيام الآمنة الثقوب لا تتراص—الخطر يُحجب<br><span class="english-term">On safe days: holes don't align—hazard blocked</span></td>
+                <td>✗ في اليوم السيئ الثقوب تتراص—الضرر يحدث<br><span class="english-term">On bad day: holes align—harm occurs</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="concept-box">
+        <strong>مثال سريري: حقن كلوريد البوتاسيوم (KCl) عن طريق الخطأ</strong><br>
+        <span class="english-term"><strong>Clinical Example: Accidental Potassium Chloride (KCl) Injection</strong></span>
+        
+        <p><strong>السيناريو:</strong> طبيب تخدير يحقن 10 مل من KCl عالي التركيز بدلاً من محلول ملحي، مما يؤدي إلى توقف القلب.</p>
+        
+        <p><strong>الطبقات والثقوب التي تراصّت:</strong></p>
+        <ul>
+            <li><strong>طبقة التصميم:</strong> ثقب = قوارير متطابقة، ملصقات متشابهة</li>
+            <li><strong>طبقة التخزين:</strong> ثقب = KCl مخزن بجوار محاليل روتينية</li>
+            <li><strong>طبقة السياسات:</strong> ثقب = لا يوجد بروتوكول للتحقق المزدوج</li>
+            <li><strong>طبقة التدريب:</strong> ثقب = تدريب غير كافٍ على أدوية LASA</li>
+            <li><strong>طبقة الممارسة اليومية:</strong> ثقب = ضغط عمل، تعب، مقاطعات</li>
+            <li><strong>طبقة الفحص النهائي:</strong> ثقب = لم يُقرأ الملصق قبل الحقن</li>
+        </ul>
+
+        <p><strong>كيف نُغلق الثقوب؟</strong></p>
+        <ul>
+            <li><strong>تصميم:</strong> قوارير مميزة، ملصقات ملونة كبيرة</li>
+            <li><strong>تخزين:</strong> فصل الأدوية عالية الخطورة تماماً</li>
+            <li><strong>سياسة:</strong> تحقق مزدوج إلزامي</li>
+            <li><strong>تدريب:</strong> محاكاة منتظمة</li>
+            <li><strong>ممارسة:</strong> معالجة عبء العمل، حماية من المقاطعات</li>
+            <li><strong>فحص:</strong> مسح باركود قبل الإعطاء (Forcing Function)</li>
+        </ul>
+    </div>
+
+    <h3>2.3.2 مخطط ربطة العنق (Bow-Tie Diagram)</h3>
+    <h3>2.3.2 Bow-Tie Diagram</h3>
+    
+    <p>مخطط ربطة العنق يُكمل نموذج الجبن السويسري من خلال إضافة بُعد الزمن والتدخلات الاستباقية والتفاعلية:</p>
+    <p><span class="english-term">The Bow-Tie Diagram complements the Swiss Cheese Model by adding the dimension of time and proactive/reactive interventions:</span></p>
+
+    <table>
+        <tbody>
+            <tr>
+                <td><strong>THREATS (التهديدات)</strong><br>• Latent conditions<br>• System weaknesses<br>• Organizational factors</td>
+                <td>➔ <strong>Prevention Barriers (حواجز الوقاية)</strong></td>
+                <td><strong>CRITICAL EVENT (الحدث الحرج)</strong><br>Loss of control</td>
+                <td>➔ <strong>Mitigation Barriers (حواجز التخفيف)</strong></td>
+                <td><strong>CONSEQUENCES (العواقب)</strong><br>• No harm<br>• Minor harm<br>• Major harm<br>• Death</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><strong>الجانب الأيسر (الوقاية):</strong> يُظهر التهديدات والحواجز التي تمنع الحدث الحرج من الوقوع.</p>
+    <p><strong>الجانب الأيمن (التخفيف):</strong> يُظهر العواقب المحتملة والحواجز التي تُقلل الضرر بعد وقوع الحدث.</p>
+
+    <!-- Bow-Tie Diagram - Interactive Visualization -->
+    <div style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); padding: 3rem; border-radius: 20px; margin: 3rem 0; box-shadow: 0 20px 60px rgba(155, 89, 182, 0.4);">
+        <h3 style="color: white; text-align: center; font-size: 2rem; margin-bottom: 2.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+            <i class="fas fa-project-diagram"></i> مخطط ربطة العنق التفاعلي
+            <br><small style="font-size: 0.6em; opacity: 0.9;">Interactive Bow-Tie Diagram for Risk Management</small>
+        </h3>
+
+        <!-- الرسمة التفاعلية -->
+        <div style="background: white; padding: 3rem; border-radius: 15px; box-shadow: 0 20px 50px rgba(0,0,0,0.2);">
+            
+            <!-- المخطط الرئيسي -->
+            <div style="display: grid; grid-template-columns: 2fr 1fr 2fr; gap: 2rem; align-items: center;">
+                
+                <!-- الجانب الأيسر: التهديدات + حواجز الوقاية -->
+                <div>
+                    <!-- التهديدات -->
+                    <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 2rem; border-radius: 12px; margin-bottom: 1.5rem; box-shadow: 0 10px 25px rgba(231, 76, 60, 0.3);">
+                        <h4 style="color: white; margin: 0 0 1rem 0; font-size: 1.3rem; text-align: center;">
+                            <i class="fas fa-exclamation-triangle"></i> التهديدات
+                            <br><small style="font-size: 0.7em; opacity: 0.9;">THREATS</small>
+                        </h4>
+                        <ul style="color: white; margin: 0; padding-right: 1.5rem; line-height: 2; font-size: 0.95rem;">
+                            <li>ظروف كامنة (Latent Conditions)</li>
+                            <li>نقاط ضعف النظام (System Weaknesses)</li>
+                            <li>عوامل تنظيمية (Organizational Factors)</li>
+                            <li>أخطاء بشرية محتملة (Human Errors)</li>
+                        </ul>
+                    </div>
+
+                    <!-- السهم الأول -->
+                    <div style="text-align: center; margin: 1rem 0;">
+                        <i class="fas fa-arrow-left" style="font-size: 2rem; color: #9b59b6;"></i>
+                    </div>
+
+                    <!-- حواجز الوقاية -->
+                    <div style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); padding: 2rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(52, 152, 219, 0.3);">
+                        <h4 style="color: white; margin: 0 0 1rem 0; font-size: 1.3rem; text-align: center;">
+                            <i class="fas fa-shield-alt"></i> حواجز الوقاية
+                            <br><small style="font-size: 0.7em; opacity: 0.9;">PREVENTION BARRIERS</small>
+                        </h4>
+                        <div style="display: grid; gap: 0.8rem;">
+                            <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
+                                <p style="color: white; margin: 0; font-weight: 500; font-size: 0.9rem;">
+                                    <i class="fas fa-check-circle"></i> التصميم الآمن (Safe Design)
+                                </p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
+                                <p style="color: white; margin: 0; font-weight: 500; font-size: 0.9rem;">
+                                    <i class="fas fa-check-circle"></i> البروتوكولات (Protocols)
+                                </p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
+                                <p style="color: white; margin: 0; font-weight: 500; font-size: 0.9rem;">
+                                    <i class="fas fa-check-circle"></i> التدريب (Training)
+                                </p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
+                                <p style="color: white; margin: 0; font-weight: 500; font-size: 0.9rem;">
+                                    <i class="fas fa-check-circle"></i> قوائم التحقق (Checklists)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- المركز: الحدث الحرج -->
+                <div style="text-align: center;">
+                    <div style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); color: white; width: 140px; height: 140px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 15px 40px rgba(243, 156, 18, 0.5); position: relative;">
+                        <i class="fas fa-bolt" style="font-size: 3rem; margin-bottom: 0.5rem;"></i>
+                        <p style="margin: 0; font-weight: bold; font-size: 1rem; line-height: 1.3;">
+                            الحدث<br>الحرج
+                        </p>
+                        <p style="margin: 0.3rem 0 0 0; font-size: 0.7rem; opacity: 0.9;">CRITICAL<br>EVENT</p>
+                        <!-- خط رأسي -->
+                        <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); width: 3px; height: 30px; background: rgba(255,255,255,0.5);"></div>
+                        <div style="position: absolute; bottom: -30px; left: 50%; transform: translateX(-50%); width: 3px; height: 30px; background: rgba(255,255,255,0.5);"></div>
+                    </div>
+                    <p style="color: #f39c12; margin: 2rem 0 0 0; font-weight: bold; font-size: 1rem; text-align: center; line-height: 1.6;">
+                        مثال:<br>
+                        <span style="font-size: 1.1rem;">نقص الأكسجة<br>الشديد</span>
+                        <br><small style="font-size: 0.85em; color: #7f8c8d;">Severe Hypoxia</small>
+                    </p>
+                </div>
+
+                <!-- الجانب الأيمن: حواجز التخفيف + العواقب -->
+                <div>
+                    <!-- حواجز التخفيف -->
+                    <div style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); padding: 2rem; border-radius: 12px; margin-bottom: 1.5rem; box-shadow: 0 10px 25px rgba(46, 204, 113, 0.3);">
+                        <h4 style="color: white; margin: 0 0 1rem 0; font-size: 1.3rem; text-align: center;">
+                            <i class="fas fa-medkit"></i> حواجز التخفيف
+                            <br><small style="font-size: 0.7em; opacity: 0.9;">MITIGATION BARRIERS</small>
+                        </h4>
+                        <div style="display: grid; gap: 0.8rem;">
+                            <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
+                                <p style="color: white; margin: 0; font-weight: 500; font-size: 0.9rem;">
+                                    <i class="fas fa-check-circle"></i> الإنذارات (Alarms)
+                                </p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
+                                <p style="color: white; margin: 0; font-weight: 500; font-size: 0.9rem;">
+                                    <i class="fas fa-check-circle"></i> بروتوكولات الطوارئ (Emergency Protocols)
+                                </p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
+                                <p style="color: white; margin: 0; font-weight: 500; font-size: 0.9rem;">
+                                    <i class="fas fa-check-circle"></i> المعدات الاحتياطية (Backup Equipment)
+                                </p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
+                                <p style="color: white; margin: 0; font-weight: 500; font-size: 0.9rem;">
+                                    <i class="fas fa-check-circle"></i> استدعاء المساعدة (Call for Help)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- السهم الثاني -->
+                    <div style="text-align: center; margin: 1rem 0;">
+                        <i class="fas fa-arrow-right" style="font-size: 2rem; color: #9b59b6;"></i>
+                    </div>
+
+                    <!-- العواقب -->
+                    <div style="background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%); padding: 2rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(127, 140, 141, 0.3);">
+                        <h4 style="color: white; margin: 0 0 1rem 0; font-size: 1.3rem; text-align: center;">
+                            <i class="fas fa-list-ol"></i> العواقب
+                            <br><small style="font-size: 0.7em; opacity: 0.9;">CONSEQUENCES</small>
+                        </h4>
+                        <ul style="color: white; margin: 0; padding-right: 1.5rem; line-height: 2; font-size: 0.95rem;">
+                            <li><span style="color: #2ecc71;">●</span> لا ضرر (No Harm)</li>
+                            <li><span style="color: #f39c12;">●</span> ضرر بسيط (Minor Harm)</li>
+                            <li><span style="color: #e67e22;">●</span> ضرر كبير (Major Harm)</li>
+                            <li><span style="color: #e74c3c;">●</span> وفاة (Death)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الشرح التوضيحي -->
+            <div style="margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 12px; border-right: 5px solid #9b59b6;">
+                <h4 style="color: #9b59b6; margin: 0 0 1rem 0; font-size: 1.3rem;">
+                    <i class="fas fa-info-circle"></i> كيف يعمل مخطط ربطة العنق:
+                </h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                    <div style="background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-right: 4px solid #3498db;">
+                        <p style="color: #3498db; font-weight: bold; margin: 0 0 0.8rem 0; font-size: 1.1rem;">
+                            <i class="fas fa-shield-alt"></i> الجانب الأيسر (الوقاية):
+                        </p>
+                        <p style="color: #2c3e50; margin: 0; line-height: 1.8;">
+                            يُركز على <strong>منع</strong> الحدث الحرج من الوقوع أصلاً عبر تقليل التهديدات وتقوية الحواجز الوقائية.
+                        </p>
+                    </div>
+                    <div style="background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-right: 4px solid #2ecc71;">
+                        <p style="color: #2ecc71; font-weight: bold; margin: 0 0 0.8rem 0; font-size: 1.1rem;">
+                            <i class="fas fa-medkit"></i> الجانب الأيمن (التخفيف):
+                        </p>
+                        <p style="color: #2c3e50; margin: 0; line-height: 1.8;">
+                            يُركز على <strong>تقليل الضرر</strong> بعد حدوث الحدث الحرج عبر الاستجابة السريعة والحد من العواقب.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- الدرس المستفاد -->
+        <div style="background: rgba(255,255,255,0.2); padding: 2rem; border-radius: 15px; margin-top: 2rem; backdrop-filter: blur(10px); border: 2px solid rgba(255,255,255,0.3); text-align: center;">
+            <p style="color: white; font-size: 1.3rem; line-height: 1.9; margin: 0; font-weight: 500;">
+                <i class="fas fa-lightbulb" style="font-size: 1.5rem; margin-left: 10px;"></i>
+                <strong>الدرس الأساسي:</strong>
+                <br><br>
+                <span style="font-size: 1.5rem; font-weight: bold;">"الوقاية + التخفيف = إدارة شاملة للمخاطر!"</span>
+                <br>
+                <small style="opacity: 0.95; font-size: 1rem;">Prevention + Mitigation = Comprehensive Risk Management!</small>
+            </p>
+        </div>
+    </div>
+
+    <div class="concept-box">
+        <strong>مثال: تنبيب المريء بدلاً من الرغامى</strong><br>
+        <span class="english-term"><strong>Example: Esophageal Intubation Instead of Tracheal</strong></span>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>PREVENTION SIDE</th>
+                    <th>CRITICAL EVENT</th>
+                    <th>MITIGATION SIDE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Threats:</strong><br>• Difficult anatomy<br>• Poor view<br>• Inexperience<br>• Equipment unavailable<br><br><strong>Prevention Barriers:</strong><br>• Comprehensive airway assessment<br>• Plan A/B/C/D ready<br>• Full equipment available<br>• Anticipate difficulty<br>• Early call for help</td>
+                    <td><strong>Esophageal Intubation</strong><br>Loss of airway control</td>
+                    <td><strong>Detection Barriers:</strong><br>• Capnography (most important!)<br>• Auscultation<br>• Chest rise observation<br>• SpO2 monitoring<br><br><strong>Recovery Barriers:</strong><br>• Immediate tube removal<br>• Mask ventilation<br>• Reattempt with different technique<br>• Call for help<br>• Difficult airway algorithm<br><br><strong>Consequences:</strong><br>✓ Detected immediately ← no harm<br>✗ Delayed detection ← hypoxia<br>✗✗ Undetected ← brain damage/death</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p><strong>الفرق بين نموذج الجبن السويسري ومخطط ربطة العنق:</strong></p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>الجانب / Aspect</th>
+                <th>Swiss Cheese</th>
+                <th>Bow-Tie</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>التركيز / Focus</strong></td>
+                <td>الطبقات المتعددة والثقوب المتراصة<br><span class="english-term">Multiple layers and aligning holes</span></td>
+                <td>التسلسل الزمني: قبل وبعد الحدث<br><span class="english-term">Temporal sequence: before and after event</span></td>
+            </tr>
+            <tr>
+                <td><strong>الاستخدام الأمثل / Best Use</strong></td>
+                <td>فهم لماذا فشلت الدفاعات<br><span class="english-term">Understanding why defenses failed</span></td>
+                <td>تخطيط الوقاية والاستجابة<br><span class="english-term">Planning prevention and response</span></td>
+            </tr>
+            <tr>
+                <td><strong>الرسالة الأساسية</strong></td>
+                <td>الدفاعات المتعددة ضرورية<br><span class="english-term">Multiple redundant defenses necessary</span></td>
+                <td>نحتاج حواجز قبل وبعد الحدث<br><span class="english-term">Need barriers before AND after</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="success-box">
+        <p><strong>استخدمهما معاً:</strong> الجبن السويسري لفهم الماضي، وربطة العنق للتخطيط للمستقبل.</p>
+    </div>
+
+    <h3>2.3.3 النظام الاجتماعي–التقني (Socio-Technical System)</h3>
+    <h3>2.3.3 Socio-Technical System</h3>
+    
+    <p>الأنظمة الطبية ليست "آلات" بحتة بل أنظمة اجتماعية–تقنية معقدة حيث:</p>
+    <p><span class="english-term">Medical systems are not pure "machines" but complex socio-technical systems where:</span></p>
+
+    <table>
+        <tbody>
+            <tr>
+                <td><strong>الجانب التقني / TECHNICAL</strong><br>• الأجهزة والمعدات<br>• البرمجيات وأنظمة المعلومات<br>• البروتوكولات والإجراءات<br>• التصميم المادي لبيئة العمل<br>• الأدوية والمواد الطبية</td>
+                <td style="text-align: center;">⟷<br>تفاعل<br>Interaction</td>
+                <td><strong>الجانب الاجتماعي / SOCIAL</strong><br>• الأفراد ومهاراتهم<br>• الفرق وديناميكياتها<br>• الثقافة والقيم<br>• التواصل والقيادة<br>• التنظيم والحوافز</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="alert-box">
+        <p style="text-align: center;">⬇</p>
+        <p style="text-align: center;"><strong>السلامة = ناتج التفاعل، ليس مجموع الأجزاء</strong><br><span class="english-term">Safety = Product of Interaction, Not Sum of Parts</span></p>
+    </div>
+
+    <div class="concept-box">
+        <strong>الدرس الأساسي:</strong>
+        <ul>
+            <li>التكنولوجيا الجيدة + الناس السيئون = خطر</li>
+            <li>الناس الجيدون + التكنولوجيا السيئة = خطر</li>
+            <li>التكنولوجيا الجيدة + الناس الجيدون + التفاعل السيئ = خطر</li>
+        </ul>
+        <p>السلامة تتطلب تحسين الجانبين والتفاعل بينهما.</p>
+    </div>
+
+    <h3>2.3.4 من "الشخص" إلى "النظام": تحول النموذج</h3>
+    <h3>2.3.4 From "Person" to "System": The Paradigm Shift</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>الجانب / Aspect</th>
+                <th>نموذج الشخص (قديم)<br><span class="english-term">Person Model (Old)</span></th>
+                <th>نموذج النظام (حديث)<br><span class="english-term">System Model (Modern)</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>الافتراض الأساسي</strong></td>
+                <td>الخطأ نتيجة فشل شخصي<br><span class="english-term">Error is personal failure</span></td>
+                <td>الخطأ نتيجة ظروف نظامية<br><span class="english-term">Error is systemic condition</span></td>
+            </tr>
+            <tr>
+                <td><strong>التركيز</strong></td>
+                <td>الفرد "السيئ"<br><span class="english-term">The "bad" individual</span></td>
+                <td>الظروف التي تسمح بالخطأ<br><span class="english-term">Conditions allowing error</span></td>
+            </tr>
+            <tr>
+                <td><strong>الحل</strong></td>
+                <td>اللوم، العقاب، إعادة التدريب<br><span class="english-term">Blame, punishment, retraining</span></td>
+                <td>إصلاح النظام، تحسين التصميم<br><span class="english-term">Fix system, improve design</span></td>
+            </tr>
+            <tr>
+                <td><strong>الثقافة الناتجة</strong></td>
+                <td>ثقافة اللوم والخوف<br><span class="english-term">Blame and fear culture</span></td>
+                <td>ثقافة التعلم والشفافية<br><span class="english-term">Learning and transparency</span></td>
+            </tr>
+            <tr>
+                <td><strong>الفعالية</strong></td>
+                <td>منخفضة—تحسين مؤقت<br><span class="english-term">Low—temporary improvement</span></td>
+                <td>عالية—تحسين مستدام<br><span class="english-term">High—sustainable improvement</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>النموذج / Model</th>
+                <th>المفهوم الأساسي</th>
+                <th>الاستخدام الأمثل</th>
+                <th>القيود</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Swiss Cheese Model</strong></td>
+                <td>دفاعات متعددة بها ثقوب؛ الضرر عند التراص<br><span class="english-term">Multiple defenses with holes; harm when aligned</span></td>
+                <td>فهم فشل الدفاعات؛ تحليل ما بعد الحدث<br><span class="english-term">Understanding defense failures; post-event analysis</span></td>
+                <td>ثابت (لا يُظهر الزمن)؛ لا يُركز على الاسترداد<br><span class="english-term">Static; doesn't focus on recovery</span></td>
+            </tr>
+            <tr>
+                <td><strong>Bow-Tie Diagram</strong></td>
+                <td>الحدث الحرج في المنتصف؛ الوقاية والتخفيف<br><span class="english-term">Critical event center; prevention and mitigation</span></td>
+                <td>تخطيط الوقاية والاستجابة<br><span class="english-term">Planning prevention and response</span></td>
+                <td>يتطلب معرفة مسبقة بالحدث<br><span class="english-term">Requires prior knowledge of event</span></td>
+            </tr>
+            <tr>
+                <td><strong>Socio-Technical System</strong></td>
+                <td>التفاعل بين الجوانب التقنية والاجتماعية<br><span class="english-term">Interaction between technical and social</span></td>
+                <td>فهم فشل التكنولوجيا الجيدة<br><span class="english-term">Understanding good technology failures</span></td>
+                <td>واسع جداً للتحليل التفصيلي<br><span class="english-term">Too broad for detailed analysis</span></td>
+            </tr>
+            <tr>
+                <td><strong>Person vs System</strong></td>
+                <td>التحول من لوم الفرد للظروف النظامية<br><span class="english-term">Shift from blaming individual to systemic</span></td>
+                <td>تغيير الثقافة؛ تشجيع الإبلاغ<br><span class="english-term">Culture change; encouraging reporting</span></td>
+                <td>قد يُساء فهمه كإزالة للمسؤولية<br><span class="english-term">May be misunderstood as removing accountability</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="success-box">
+        <p><strong>التوصية:</strong> استخدم النماذج المختلفة بشكل تكميلي—لا يوجد نموذج واحد يُغطي كل شيء.</p>
+        <p><span class="english-term"><strong>Recommendation:</strong> Use different models complementarily—no single model covers everything.</span></p>
+    </div>
+
+    <h2>2.4 منظمات الموثوقية العالية (HROs)</h2>
+    <h3>2.4 High Reliability Organizations (HROs)</h3>
+    
+    <p>منظمات الموثوقية العالية (HROs) هي منظمات تعمل في بيئات عالية الخطورة لكنها تحقق معدلات أمان استثنائية. أمثلة: حاملات الطائرات، محطات الطاقة النووية، أنظمة مراقبة الحركة الجوية.</p>
+    <p><span class="english-term">High Reliability Organizations (HROs) are organizations that operate in high-risk environments yet achieve exceptionally safe performance. Examples: aircraft carriers, nuclear power plants, air traffic control systems.</span></p>
+    
+    <div class="concept-box">
+        <p><strong>السؤال المحوري:</strong> كيف تحقق هذه المنظمات موثوقية عالية رغم التعقيد والمخاطر المستمرة؟</p>
+        <p><strong>الجواب:</strong> من خلال خمس خصائص ثقافية وتنظيمية مميزة.</p>
+        <p><span class="english-term"><strong>Central Question:</strong> How do these organizations achieve high reliability despite complexity and constant risks?</span></p>
+        <p><span class="english-term"><strong>Answer:</strong> Through five distinctive cultural and organizational characteristics.</span></p>
+    </div>
+
+    <h3>2.4.1 المبادئ الخمسة لمنظمات الموثوقية العالية</h3>
+    <h3>2.4.1 Five Principles of High Reliability Organizations</h3>
+    
+    <p>حدد Karl Weick وKathleen Sutcliffe خمس خصائص أساسية تميز HROs:</p>
+    <p><span class="english-term">Karl Weick and Kathleen Sutcliffe identified five core characteristics that distinguish HROs:</span></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>المبدأ / Principle</th>
+                <th>الوصف / Description</th>
+                <th>التطبيق في التخدير / Application in Anesthesia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>1. Preoccupation with Failure</strong><br>الانشغال الدائم بالفشل</td>
+                <td>توقع الفشل دائماً؛ البحث الحثيث عن إشارات الضعف؛ عدم الرضا عن النجاح.<br><span class="english-term">Always expect failure; actively search for weakness signals; never be complacent with success.</span></td>
+                <td>• الإبلاغ عن Near Misses<br>• فحوصات المعدات الشاملة<br>• التشكيك في الافتراضات<br>• مراجعة كل حالة غير روتينية<br><span class="english-term">• Report Near Misses<br>• Comprehensive equipment checks<br>• Question assumptions<br>• Review every non-routine case</span></td>
+            </tr>
+            <tr>
+                <td><strong>2. Reluctance to Simplify</strong><br>الإحجام عن التبسيط</td>
+                <td>رفض التفسيرات البسيطة؛ البحث عن التعقيد والفروق الدقيقة؛ تشجيع وجهات النظر المتنوعة.<br><span class="english-term">Reject simple explanations; seek complexity and nuances; encourage diverse perspectives.</span></td>
+                <td>• تحليل RCA عميق<br>• تجنب "خطأ بشري" كسبب نهائي<br>• الاستماع لجميع أعضاء الفريق<br>• تحليل الأنماط والاتجاهات<br><span class="english-term">• Deep RCA analysis<br>• Avoid "human error" as final cause<br>• Listen to all team members<br>• Analyze patterns and trends</span></td>
+            </tr>
+            <tr>
+                <td><strong>3. Sensitivity to Operations</strong><br>الحساسية للعمليات</td>
+                <td>الانتباه المستمر لما يحدث فعلاً في الخطوط الأمامية؛ ردود فعل سريعة للانحرافات الصغيرة.<br><span class="english-term">Constant attention to what's actually happening at front lines; quick response to small deviations.</span></td>
+                <td>• مراقبة مستمرة للعلامات الحيوية<br>• الاستجابة الفورية للتغيرات<br>• التواجد الفعلي بجانب المريض<br>• جولات السلامة المنتظمة<br><span class="english-term">• Continuous vital signs monitoring<br>• Immediate response to changes<br>• Physical presence beside patient<br>• Regular safety rounds</span></td>
+            </tr>
+            <tr>
+                <td><strong>4. Commitment to Resilience</strong><br>الالتزام بالمرونة</td>
+                <td>القدرة على الاحتواء والتعافي من الأخطاء؛ التدريب على إدارة الأزمات؛ الموارد الكافية للاستجابة.<br><span class="english-term">Ability to contain and recover from errors; crisis management training; adequate response resources.</span></td>
+                <td>• محاكاة سيناريوهات الأزمات<br>• خوارزميات إدارة الصعوبات<br>• معدات الطوارئ جاهزة<br>• فرق الاستجابة السريعة<br><span class="english-term">• Crisis scenario simulation<br>• Difficult situation algorithms<br>• Emergency equipment ready<br>• Rapid response teams</span></td>
+            </tr>
+            <tr>
+                <td><strong>5. Deference to Expertise</strong><br>الاحترام للخبرة</td>
+                <td>القرارات تُتخذ بواسطة الأكثر خبرة، بغض النظر عن الرتبة؛ القيادة تتحول للخبير عند الأزمة.<br><span class="english-term">Decisions made by most knowledgeable, regardless of rank; leadership shifts to expert during crisis.</span></td>
+                <td>• ثقافة Speak Up قوية<br>• احترام خبرة الممرضات والفنيين<br>• القيادة المشتركة في الأزمات<br>• التدريب متعدد التخصصات<br><span class="english-term">• Strong Speak Up culture<br>• Respect nurses' and technicians' expertise<br>• Shared leadership in crises<br>• Multidisciplinary training</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="success-box">
+        <p><strong>الرسالة الجوهرية:</strong> هذه المبادئ ليست "سياسات" بل <strong>ثقافة عميقة</strong> تتطلب قيادة متسقة والتزاماً على جميع المستويات.</p>
+        <p><span class="english-term"><strong>Core Message:</strong> These principles are not "policies" but <strong>deep culture</strong> requiring consistent leadership and commitment at all levels.</span></p>
+    </div>
+
+    <!-- بطاقات المبادئ الخمسة HRO -->
+    <div style="margin: 40px 0;">
+        <h4 style="text-align: center; color: #2c5f2d; font-size: 1.4em; margin-bottom: 30px;">
+            <i class="fas fa-star"></i> 
+            المبادئ الخمسة HRO بتفصيل
+            <i class="fas fa-star"></i>
+        </h4>
+        <p style="text-align: center; font-style: italic; color: #555; margin-bottom: 40px;">
+            <span class="english-term">Five HRO Principles — Deep Dive</span>
+        </p>
+
+        <!-- المبدأ 1 -->
+        <div style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%); color: white; padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 6px 20px rgba(238,90,111,0.3);">
+            <h5 style="font-size: 1.3em; margin: 0 0 15px 0; display: flex; align-items: center;">
+                <span style="background: rgba(255,255,255,0.3); width: 50px; height: 50px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-left: 15px; font-size: 1.5em;">1</span>
+                <span>
+                    <strong>Preoccupation with Failure</strong><br>
+                    <span style="font-size: 0.85em; font-weight: normal;">الانشغال الدائم بالفشل</span>
+                </span>
+            </h5>
+            <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
+                    <i class="fas fa-bullseye" style="margin-left: 8px;"></i>
+                    <strong>الجوهر:</strong> توقع الفشل دائماً؛ البحث الحثيث عن إشارات الضعف؛ عدم الرضا عن النجاح.
+                </p>
+                <p style="margin: 10px 0 0 0; font-size: 0.95em; font-style: italic;">
+                    <span class="english-term">Always expect failure; actively search for weakness signals; never be complacent with success.</span>
+                </p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-exclamation-triangle" style="margin-left: 8px;"></i> الإبلاغ عن Near Misses
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-tools" style="margin-left: 8px;"></i> فحوصات المعدات الشاملة
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-question-circle" style="margin-left: 8px;"></i> التشكيك في الافتراضات
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-clipboard-check" style="margin-left: 8px;"></i> مراجعة كل حالة غير روتينية
+                </div>
+            </div>
+        </div>
+
+        <!-- المبدأ 2 -->
+        <div style="background: linear-gradient(135deg, #f39c12 0%, #f1c40f 100%); color: #2c3e50; padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 6px 20px rgba(243,156,18,0.3);">
+            <h5 style="font-size: 1.3em; margin: 0 0 15px 0; display: flex; align-items: center;">
+                <span style="background: rgba(0,0,0,0.1); width: 50px; height: 50px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-left: 15px; font-size: 1.5em; color: white;">2</span>
+                <span>
+                    <strong>Reluctance to Simplify</strong><br>
+                    <span style="font-size: 0.85em; font-weight: normal;">الإحجام عن التبسيط</span>
+                </span>
+            </h5>
+            <div style="background: rgba(0,0,0,0.05); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
+                    <i class="fas fa-puzzle-piece" style="margin-left: 8px;"></i>
+                    <strong>الجوهر:</strong> رفض التفسيرات البسيطة؛ البحث عن التعقيد والفروق الدقيقة؛ تشجيع وجهات النظر المتنوعة.
+                </p>
+                <p style="margin: 10px 0 0 0; font-size: 0.95em; font-style: italic;">
+                    <span class="english-term">Reject simple explanations; seek complexity and nuances; encourage diverse perspectives.</span>
+                </p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                <div style="background: rgba(0,0,0,0.08); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-search" style="margin-left: 8px;"></i> تحليل RCA عميق
+                </div>
+                <div style="background: rgba(0,0,0,0.08); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-ban" style="margin-left: 8px;"></i> تجنب "خطأ بشري" كسبب نهائي
+                </div>
+                <div style="background: rgba(0,0,0,0.08); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-users" style="margin-left: 8px;"></i> الاستماع لجميع أعضاء الفريق
+                </div>
+                <div style="background: rgba(0,0,0,0.08); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-chart-line" style="margin-left: 8px;"></i> تحليل الأنماط والاتجاهات
+                </div>
+            </div>
+        </div>
+
+        <!-- المبدأ 3 -->
+        <div style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); color: white; padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 6px 20px rgba(52,152,219,0.3);">
+            <h5 style="font-size: 1.3em; margin: 0 0 15px 0; display: flex; align-items: center;">
+                <span style="background: rgba(255,255,255,0.3); width: 50px; height: 50px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-left: 15px; font-size: 1.5em;">3</span>
+                <span>
+                    <strong>Sensitivity to Operations</strong><br>
+                    <span style="font-size: 0.85em; font-weight: normal;">الحساسية للعمليات</span>
+                </span>
+            </h5>
+            <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
+                    <i class="fas fa-eye" style="margin-left: 8px;"></i>
+                    <strong>الجوهر:</strong> الانتباه المستمر لما يحدث فعلاً في الخطوط الأمامية؛ ردود فعل سريعة للانحرافات الصغيرة.
+                </p>
+                <p style="margin: 10px 0 0 0; font-size: 0.95em; font-style: italic;">
+                    <span class="english-term">Constant attention to what's actually happening at front lines; quick response to small deviations.</span>
+                </p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-heartbeat" style="margin-left: 8px;"></i> مراقبة مستمرة للعلامات الحيوية
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-bolt" style="margin-left: 8px;"></i> الاستجابة الفورية للتغيرات
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-user-md" style="margin-left: 8px;"></i> التواجد الفعلي بجانب المريض
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-clipboard-list" style="margin-left: 8px;"></i> جولات السلامة المنتظمة
+                </div>
+            </div>
+        </div>
+
+        <!-- المبدأ 4 -->
+        <div style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%); color: white; padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 6px 20px rgba(39,174,96,0.3);">
+            <h5 style="font-size: 1.3em; margin: 0 0 15px 0; display: flex; align-items: center;">
+                <span style="background: rgba(255,255,255,0.3); width: 50px; height: 50px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-left: 15px; font-size: 1.5em;">4</span>
+                <span>
+                    <strong>Commitment to Resilience</strong><br>
+                    <span style="font-size: 0.85em; font-weight: normal;">الالتزام بالمرونة</span>
+                </span>
+            </h5>
+            <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
+                    <i class="fas fa-shield-alt" style="margin-left: 8px;"></i>
+                    <strong>الجوهر:</strong> القدرة على الاحتواء والتعافي من الأخطاء؛ التدريب على إدارة الأزمات؛ الموارد الكافية للاستجابة.
+                </p>
+                <p style="margin: 10px 0 0 0; font-size: 0.95em; font-style: italic;">
+                    <span class="english-term">Ability to contain and recover from errors; crisis management training; adequate response resources.</span>
+                </p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-theater-masks" style="margin-left: 8px;"></i> محاكاة سيناريوهات الأزمات
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-book-medical" style="margin-left: 8px;"></i> خوارزميات إدارة الصعوبات
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-first-aid" style="margin-left: 8px;"></i> معدات الطوارئ جاهزة
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-running" style="margin-left: 8px;"></i> فرق الاستجابة السريعة
+                </div>
+            </div>
+        </div>
+
+        <!-- المبدأ 5 -->
+        <div style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); color: white; padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 6px 20px rgba(155,89,182,0.3);">
+            <h5 style="font-size: 1.3em; margin: 0 0 15px 0; display: flex; align-items: center;">
+                <span style="background: rgba(255,255,255,0.3); width: 50px; height: 50px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-left: 15px; font-size: 1.5em;">5</span>
+                <span>
+                    <strong>Deference to Expertise</strong><br>
+                    <span style="font-size: 0.85em; font-weight: normal;">الاحترام للخبرة</span>
+                </span>
+            </h5>
+            <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
+                    <i class="fas fa-user-graduate" style="margin-left: 8px;"></i>
+                    <strong>الجوهر:</strong> القرارات تُتخذ بواسطة الأكثر خبرة، بغض النظر عن الرتبة؛ القيادة تتحول للخبير عند الأزمة.
+                </p>
+                <p style="margin: 10px 0 0 0; font-size: 0.95em; font-style: italic;">
+                    <span class="english-term">Decisions made by most knowledgeable, regardless of rank; leadership shifts to expert during crisis.</span>
+                </p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-volume-up" style="margin-left: 8px;"></i> ثقافة Speak Up قوية
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-hand-holding-heart" style="margin-left: 8px;"></i> احترام خبرة الممرضات والفنيين
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-hands-helping" style="margin-left: 8px;"></i> القيادة المشتركة في الأزمات
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 6px;">
+                    <i class="fas fa-chalkboard-teacher" style="margin-left: 8px;"></i> التدريب متعدد التخصصات
+                </div>
+            </div>
+        </div>
+
+        <!-- ملخص بصري -->
+        <div style="background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%); color: white; padding: 25px; border-radius: 12px; text-align: center; box-shadow: 0 6px 20px rgba(22,160,133,0.3);">
+            <h5 style="font-size: 1.4em; margin: 0 0 15px 0;">
+                <i class="fas fa-lightbulb"></i>
+                معادلة النجاح HRO
+                <i class="fas fa-lightbulb"></i>
+            </h5>
+            <p style="font-size: 1.2em; margin: 15px 0; line-height: 1.8;">
+                <strong>التوقع المستمر للفشل</strong> 
+                <span style="font-size: 1.5em; margin: 0 10px;">+</span>
+                <strong>التحليل العميق</strong>
+                <span style="font-size: 1.5em; margin: 0 10px;">+</span>
+                <strong>المراقبة اللحظية</strong>
+                <span style="font-size: 1.5em; margin: 0 10px;">+</span>
+                <strong>القدرة على التعافي</strong>
+                <span style="font-size: 1.5em; margin: 0 10px;">+</span>
+                <strong>احترام الخبرة</strong>
+                <span style="font-size: 1.5em; margin: 0 10px;">=</span>
+                <strong style="color: #f1c40f; font-size: 1.3em;">موثوقية عالية</strong>
+            </p>
+            <p style="font-style: italic; font-size: 0.95em; margin-top: 20px;">
+                <span class="english-term">
+                    Continuous Failure Anticipation + Deep Analysis + Real-time Monitoring + Recovery Capability + Respect for Expertise = <strong style="color: #f1c40f;">High Reliability</strong>
+                </span>
+            </p>
+        </div>
+    </div>
+
+    <h3>2.4.2 كيف تُترجم مبادئ HRO إلى ممارسة يومية في التخدير؟</h3>
+    <h3>2.4.2 How Do HRO Principles Translate to Daily Anesthesia Practice?</h3>
+    
+    <div class="concept-box">
+        <strong>سيناريو عملي: صباح نموذجي في قسم تخدير يطبق مبادئ HRO</strong>
+        
+        <p><strong>6:45 صباحاً — Preoccupation with Failure:</strong><br>
+        الطبيب يصل مبكراً، يفحص آلة التخدير بدقة (ليس فقط "Quick Check")—يختبر نظام الأكسجين، دوائر التنفس، الصمامات<br>
+        يراجع تقرير الحوادث القريبة من اليوم السابق—يرى أن زميلاً واجه صعوبة في العثور على دواء نادر؛ يتحقق من وجوده في عربته</p>
+        
+        <p><strong>7:30 صباحاً — Reluctance to Simplify:</strong><br>
+        Time-Out قبل التحريض: "المريض لديه حساسية للبيتا لاكتام المذكورة. هل هذا يعني كل البيتا لاكتام أم البنسلين فقط؟"<br>
+        الممرضة تضيف: "ملفه يقول 'طفح جلدي' مع الأموكسيسيللين"—الطبيب: "ليست حساسية حقيقية إذن، لكن دعونا نستخدم سيفازولين بحذر ونراقب"</p>
+        
+        <p><strong>9:00 صباحاً — Sensitivity to Operations:</strong><br>
+        أثناء حالة روتينية، SpO2 ينخفض من 99% إلى 96%—الطبيب ينتبه فوراً رغم أنه "ضمن الحد الطبيعي"<br>
+        يفحص: اتصال جيد، موضع الأنبوب جيد، لكن يسمع صوت أزيز خفيف—يعطي موسع قصبات وقائياً</p>
+        
+        <p><strong>11:30 صباحاً — Commitment to Resilience:</strong><br>
+        تحريض سريع لحالة طارئة—لا يمكن التنبيب، لا يمكن التهوية بالقناع<br>
+        الفريق ينتقل فوراً إلى Plan C بدون تردد—يُطلب مساعدة، LMA يُدخل، الأكسجة تستعاد، الحالة مستقرة<br>
+        لاحقاً: debriefing سريع—"ما الذي نجح؟ ماذا يمكن تحسينه؟"</p>
+        
+        <p><strong>2:00 ظهراً — Deference to Expertise:</strong><br>
+        فني التخدير يلاحظ صوتاً غريباً من جهاز التهوية<br>
+        يُبلغ الطبيب فوراً—الطبيب لا يتجاهل: "أنت تعرف هذا الجهاز أفضل مني، دعنا نفحصه معاً"<br>
+        يكتشفان تسرباً صغيراً في الدائرة—يُستبدل قبل أن يصبح مشكلة كبيرة</p>
+        
+        <p><span class="english-term"><strong>Practical Scenario: A Model Morning in HRO-Minded Anesthesia Department</strong><br>[Similar timeline showing all five HRO principles in action throughout a typical day]</span></p>
+    </div>
+
+    <h2>2.5 المرونة (Resilience) في أنظمة التخدير</h2>
+    <h3>2.5 Resilience in Anesthesia Systems</h3>
+    
+    <p>المرونة (Resilience) هي <strong>قدرة النظام على التوقع، الاستيعاب، التكيف، والتعافي</strong> من الضغوط والاضطرابات والأحداث غير المتوقعة.</p>
+    <p><span class="english-term">Resilience is <strong>the system's ability to anticipate, absorb, adapt, and recover</strong> from stresses, disruptions, and unexpected events.</span></p>
+
+    <div class="concept-box">
+        <strong>الفرق بين Safety-I و Safety-II:</strong>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>الجانب</th>
+                    <th>Safety-I (التقليدي)</th>
+                    <th>Safety-II (المرونة)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>التعريف</strong></td>
+                    <td>السلامة = غياب الأحداث الضارة<br><span class="english-term">Safety = absence of adverse events</span></td>
+                    <td>السلامة = قدرة النظام على النجاح رغم التعقيد<br><span class="english-term">Safety = system's ability to succeed despite complexity</span></td>
+                </tr>
+                <tr>
+                    <td><strong>التركيز</strong></td>
+                    <td>ما الذي سار بشكل خاطئ؟<br><span class="english-term">What went wrong?</span></td>
+                    <td>ما الذي يسير بشكل صحيح؟<br><span class="english-term">What goes right?</span></td>
+                </tr>
+                <tr>
+                    <td><strong>النهج</strong></td>
+                    <td>منع الفشل<br><span class="english-term">Prevent failure</span></td>
+                    <td>تعزيز النجاح<br><span class="english-term">Enhance success</span></td>
+                </tr>
+                <tr>
+                    <td><strong>الأداء البشري</strong></td>
+                    <td>مصدر للأخطاء<br><span class="english-term">Source of errors</span></td>
+                    <td>مصدر للنجاح والتكيف<br><span class="english-term">Source of success and adaptation</span></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>الدرس:</strong> كلا النهجين مهم—نحتاج منع الفشل (Safety-I) وتعزيز القدرة على التكيف (Safety-II).</p>
+    </div>
+
+    <h3>2.5.1 القدرات الأربع للمرونة</h3>
+    <h3>2.5.1 Four Capacities of Resilience</h3>
+    
+    <p>حدد Erik Hollnagel أربع قدرات أساسية للمرونة:</p>
+    <p><span class="english-term">Erik Hollnagel identified four core capacities of resilience:</span></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>القدرة / Capacity</th>
+                <th>الوصف / Description</th>
+                <th>التطبيق في التخدير / Application in Anesthesia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>1. MONITOR</strong><br>المراقبة</td>
+                <td>المراقبة المستمرة للمؤشرات الحيوية والإشارات المبكرة للمشاكل.<br><span class="english-term">Continuous monitoring of vital indicators and early warning signals.</span></td>
+                <td>• مراقبة مستمرة للعلامات الحيوية<br>• تتبع اتجاهات الأداء<br>• مراجعة بيانات السلامة بانتظام<br>• استطلاعات ثقافة السلامة<br><span class="english-term">• Continuous vital signs monitoring<br>• Track performance trends<br>• Regular safety data review<br>• Safety culture surveys</span></td>
+            </tr>
+            <tr>
+                <td><strong>2. RESPOND</strong><br>الاستجابة</td>
+                <td>القدرة على الاستجابة الفعالة والسريعة للاضطرابات الفعلية.<br><span class="english-term">Ability to respond effectively and quickly to actual disruptions.</span></td>
+                <td>• بروتوكولات إدارة الأزمات<br>• فرق الاستجابة السريعة<br>• معدات الطوارئ جاهزة<br>• تدريب منتظم على السيناريوهات<br><span class="english-term">• Crisis management protocols<br>• Rapid response teams<br>• Emergency equipment ready<br>• Regular scenario training</span></td>
+            </tr>
+            <tr>
+                <td><strong>3. ANTICIPATE</strong><br>التوقع</td>
+                <td>توقع التهديدات والفرص المستقبلية؛ التخطيط الاستباقي.<br><span class="english-term">Anticipate future threats and opportunities; proactive planning.</span></td>
+                <td>• تقييم المخاطر الاستباقي<br>• تخطيط السيناريوهات<br>• تحليل الاتجاهات<br>• التخطيط للطوارئ<br><span class="english-term">• Proactive risk assessment<br>• Scenario planning<br>• Trend analysis<br>• Contingency planning</span></td>
+            </tr>
+            <tr>
+                <td><strong>4. LEARN</strong><br>التعلم</td>
+                <td>التعلم من الخبرات—النجاحات والإخفاقات—وتطبيق الدروس.<br><span class="english-term">Learn from experiences—successes and failures—and apply lessons.</span></td>
+                <td>• تحليل الحوادث (RCA)<br>• مشاركة الدروس المستفادة<br>• مراجعة الوفيات والأمراض<br>• تحديث البروتوكولات بناءً على الخبرة<br><span class="english-term">• Incident analysis (RCA)<br>• Share lessons learned<br>• M&amp;M reviews<br>• Update protocols based on experience</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- رسمة القدرات الأربع للمرونة -->
+    <div style="margin: 40px 0; max-width: 1000px;">
+        <h4 style="text-align: center; color: #16a085; font-size: 1.4em; margin-bottom: 30px;">
+            <i class="fas fa-infinity"></i>
+            دورة المرونة الأربعية — The Four Resilience Cycle
+            <i class="fas fa-infinity"></i>
+        </h4>
+
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; margin-bottom: 30px;">
+            
+            <!-- 1. MONITOR -->
+            <div style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); color: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(52,152,219,0.4); position: relative;">
+                <div style="position: absolute; top: -15px; right: -15px; background: white; color: #3498db; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2em; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">1</div>
+                <h5 style="font-size: 1.5em; margin: 0 0 15px 0; display: flex; align-items: center;">
+                    <i class="fas fa-eye" style="font-size: 1.8em; margin-left: 15px;"></i>
+                    <span>
+                        <strong>MONITOR</strong><br>
+                        <span style="font-size: 0.7em; font-weight: normal;">المراقبة</span>
+                    </span>
+                </h5>
+                <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+                    <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
+                        <strong>"ماذا نراقب الآن؟"</strong>
+                    </p>
+                    <p style="margin: 8px 0 0 0; font-size: 0.9em; font-style: italic;">
+                        <span class="english-term">"What are we watching now?"</span>
+                    </p>
+                </div>
+                <ul style="margin: 15px 0; padding-right: 20px; list-style: none;">
+                    <li style="margin-bottom: 8px;"><i class="fas fa-heartbeat" style="margin-left: 8px;"></i> مراقبة العلامات الحيوية</li>
+                    <li style="margin-bottom: 8px;"><i class="fas fa-chart-line" style="margin-left: 8px;"></i> تتبع اتجاهات الأداء</li>
+                    <li style="margin-bottom: 8px;"><i class="fas fa-file-alt" style="margin-left: 8px;"></i> مراجعة بيانات السلامة</li>
+                    <li><i class="fas fa-clipboard-check" style="margin-left: 8px;"></i> استطلاعات الثقافة</li>
+                </ul>
+            </div>
+
+            <!-- 2. RESPOND -->
+            <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(231,76,60,0.4); position: relative;">
+                <div style="position: absolute; top: -15px; right: -15px; background: white; color: #e74c3c; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2em; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">2</div>
+                <h5 style="font-size: 1.5em; margin: 0 0 15px 0; display: flex; align-items: center;">
+                    <i class="fas fa-bolt" style="font-size: 1.8em; margin-left: 15px;"></i>
+                    <span>
+                        <strong>RESPOND</strong><br>
+                        <span style="font-size: 0.7em; font-weight: normal;">الاستجابة</span>
+                    </span>
+                </h5>
+                <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+                    <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
+                        <strong>"ماذا نفعل عند المشكلة؟"</strong>
+                    </p>
+                    <p style="margin: 8px 0 0 0; font-size: 0.9em; font-style: italic;">
+                        <span class="english-term">"What do we do when problem occurs?"</span>
+                    </p>
+                </div>
+                <ul style="margin: 15px 0; padding-right: 20px; list-style: none;">
+                    <li style="margin-bottom: 8px;"><i class="fas fa-exclamation-circle" style="margin-left: 8px;"></i> بروتوكولات إدارة الأزمات</li>
+                    <li style="margin-bottom: 8px;"><i class="fas fa-running" style="margin-left: 8px;"></i> فرق الاستجابة السريعة</li>
+                    <li style="margin-bottom: 8px;"><i class="fas fa-first-aid" style="margin-left: 8px;"></i> معدات الطوارئ جاهزة</li>
+                    <li><i class="fas fa-theater-masks" style="margin-left: 8px;"></i> تدريب السيناريوهات</li>
+                </ul>
+            </div>
+
+            <!-- 3. ANTICIPATE -->
+            <div style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); color: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(243,156,18,0.4); position: relative;">
+                <div style="position: absolute; top: -15px; right: -15px; background: white; color: #f39c12; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2em; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">3</div>
+                <h5 style="font-size: 1.5em; margin: 0 0 15px 0; display: flex; align-items: center;">
+                    <i class="fas fa-binoculars" style="font-size: 1.8em; margin-left: 15px;"></i>
+                    <span>
+                        <strong>ANTICIPATE</strong><br>
+                        <span style="font-size: 0.7em; font-weight: normal;">التوقع</span>
+                    </span>
+                </h5>
+                <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+                    <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
+                        <strong>"ما الذي قد يحدث لاحقاً؟"</strong>
+                    </p>
+                    <p style="margin: 8px 0 0 0; font-size: 0.9em; font-style: italic;">
+                        <span class="english-term">"What might happen later?"</span>
+                    </p>
+                </div>
+                <ul style="margin: 15px 0; padding-right: 20px; list-style: none;">
+                    <li style="margin-bottom: 8px;"><i class="fas fa-shield-alt" style="margin-left: 8px;"></i> تقييم المخاطر الاستباقي</li>
+                    <li style="margin-bottom: 8px;"><i class="fas fa-chess" style="margin-left: 8px;"></i> تخطيط السيناريوهات</li>
+                    <li style="margin-bottom: 8px;"><i class="fas fa-chart-area" style="margin-left: 8px;"></i> تحليل الاتجاهات</li>
+                    <li><i class="fas fa-map-marked-alt" style="margin-left: 8px;"></i> التخطيط للطوارئ</li>
+                </ul>
+            </div>
+
+            <!-- 4. LEARN -->
+            <div style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%); color: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(39,174,96,0.4); position: relative;">
+                <div style="position: absolute; top: -15px; right: -15px; background: white; color: #27ae60; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2em; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">4</div>
+                <h5 style="font-size: 1.5em; margin: 0 0 15px 0; display: flex; align-items: center;">
+                    <i class="fas fa-graduation-cap" style="font-size: 1.8em; margin-left: 15px;"></i>
+                    <span>
+                        <strong>LEARN</strong><br>
+                        <span style="font-size: 0.7em; font-weight: normal;">التعلم</span>
+                    </span>
+                </h5>
+                <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+                    <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
+                        <strong>"ماذا تعلمنا؟ كيف نتحسن؟"</strong>
+                    </p>
+                    <p style="margin: 8px 0 0 0; font-size: 0.9em; font-style: italic;">
+                        <span class="english-term">"What did we learn? How do we improve?"</span>
+                    </p>
+                </div>
+                <ul style="margin: 15px 0; padding-right: 20px; list-style: none;">
+                    <li style="margin-bottom: 8px;"><i class="fas fa-search" style="margin-left: 8px;"></i> تحليل الحوادث (RCA)</li>
+                    <li style="margin-bottom: 8px;"><i class="fas fa-share-alt" style="margin-left: 8px;"></i> مشاركة الدروس المستفادة</li>
+                    <li style="margin-bottom: 8px;"><i class="fas fa-stethoscope" style="margin-left: 8px;"></i> مراجعة M&M</li>
+                    <li><i class="fas fa-sync-alt" style="margin-left: 8px;"></i> تحديث البروتوكولات</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- الدورة الدائرية -->
+        <div style="background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%); color: white; padding: 30px; border-radius: 15px; text-align: center; box-shadow: 0 8px 25px rgba(22,160,133,0.4);">
+            <h5 style="font-size: 1.4em; margin: 0 0 20px 0;">
+                <i class="fas fa-recycle"></i>
+                دورة مستمرة — Continuous Cycle
+                <i class="fas fa-recycle"></i>
+            </h5>
+            <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; font-size: 1.2em; gap: 15px;">
+                <span style="background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px;"><strong>1. راقب</strong> <span class="english-term">Monitor</span></span>
+                <i class="fas fa-arrow-left" style="font-size: 1.5em;"></i>
+                <span style="background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px;"><strong>2. استجب</strong> <span class="english-term">Respond</span></span>
+                <i class="fas fa-arrow-left" style="font-size: 1.5em;"></i>
+                <span style="background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px;"><strong>3. توقّع</strong> <span class="english-term">Anticipate</span></span>
+                <i class="fas fa-arrow-left" style="font-size: 1.5em;"></i>
+                <span style="background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px;"><strong>4. تعلّم</strong> <span class="english-term">Learn</span></span>
+                <i class="fas fa-arrow-left" style="font-size: 1.5em;"></i>
+                <span style="background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px;"><strong>1. راقب</strong> <span class="english-term">Monitor</span></span>
+            </div>
+            <p style="margin-top: 25px; font-size: 1.1em; font-style: italic;">
+                <i class="fas fa-quote-right"></i>
+                المرونة ليست حالة... بل عملية مستمرة!
+                <i class="fas fa-quote-left"></i>
+            </p>
+            <p style="margin: 10px 0 0 0; font-size: 0.95em;">
+                <span class="english-term">Resilience is not a state... but a continuous process!</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="quote-box">
+        <strong>المرونة في العمل:</strong>
+        <ul>
+            <li><strong>MONITOR:</strong> "ماذا نراقب الآن؟"</li>
+            <li><strong>RESPOND:</strong> "ماذا نفعل عند حدوث مشكلة؟"</li>
+            <li><strong>ANTICIPATE:</strong> "ما الذي يمكن أن يحدث لاحقاً؟"</li>
+            <li><strong>LEARN:</strong> "ماذا تعلمنا؟ كيف نتحسن؟"</li>
+        </ul>
+        <span class="english-term"><strong>Resilience in Action:</strong><br>• <strong>MONITOR:</strong> "What are we watching now?"<br>• <strong>RESPOND:</strong> "What do we do when problem occurs?"<br>• <strong>ANTICIPATE:</strong> "What might happen later?"<br>• <strong>LEARN:</strong> "What did we learn? How do we improve?"</span>
+    </div>
+
+    <h3>2.5.2 مثال تطبيقي شامل: إدارة مجرى هواء صعب غير متوقع</h3>
+    <h3>2.5.2 Comprehensive Application Example: Managing Unexpected Difficult Airway</h3>
+    
+    <p><strong>السيناريو:</strong> مريض روتيني للجراحة الاختيارية. تقييم المجرى الهوائي طبيعي. أثناء التحريض، مفاجأة—لا يمكن التنبيب، صعوبة في التهوية بالقناع.</p>
+    
+    <div class="concept-box">
+        <strong>كيف تظهر المرونة؟</strong>
+        
+        <p><strong>MONITOR (المراقبة):</strong></p>
+        <ul>
+            <li>مراقبة مستمرة: SpO2، capnography، ضغط الدم، معدل القلب</li>
+            <li>ملاحظة مبكرة: SpO2 يبدأ بالانخفاض من 98% إلى 94% في ثوانٍ</li>
+            <li>إدراك فوري: "هذه حالة CICO (Can't Intubate, Can't Oxygenate) محتملة"</li>
+        </ul>
+
+        <p><strong>RESPOND (الاستجابة):</strong></p>
+        <ul>
+            <li>الاستجابة الفورية:
+                <ul>
+                    <li>طلب مساعدة فوراً</li>
+                    <li>إيقاف محاولات التنبيب المتكررة</li>
+                    <li>محاولة تحسين التهوية بالقناع (تقنية two-hand، oral airway)</li>
+                    <li>الانتقال إلى Plan B: LMA</li>
+                </ul>
+            </li>
+            <li>الموارد الجاهزة:
+                <ul>
+                    <li>عربة المجرى الهوائي الصعب متاحة</li>
+                    <li>معدات cricothyroidotomy جاهزة</li>
+                    <li>الفريق مدرب على الخوارزمية</li>
+                </ul>
+            </li>
+            <li>النتيجة: LMA يُدخل بنجاح، الأكسجة تستعاد، الحالة مستقرة</li>
+        </ul>
+
+        <p><strong>ANTICIPATE (التوقع):</strong></p>
+        <ul>
+            <li>التوقع الاستباقي (قبل الحالة):
+                <ul>
+                    <li>رغم التقييم الطبيعي، خطة A/B/C/D كانت محضرة</li>
+                    <li>معدات بديلة في متناول اليد</li>
+                    <li>مساعدة إضافية في الجوار</li>
+                </ul>
+            </li>
+            <li>التوقع أثناء الأزمة:
+                <ul>
+                    <li>"إذا فشل LMA، الخطوة التالية cricothyroidotomy"</li>
+                    <li>"إذا استمر نقص الأكسجة، قد نحتاج ECMO"</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p><strong>LEARN (التعلم):</strong></p>
+        <ul>
+            <li>Debriefing فوري بعد استقرار المريض:
+                <ul>
+                    <li>"ما الذي سار بشكل جيد؟" ← الاستجابة السريعة، العمل الجماعي، توفر المعدات</li>
+                    <li>"ما الذي يمكن تحسينه؟" ← ربما كان يمكن استخدام video laryngoscope في المحاولة الأولى</li>
+                </ul>
+            </li>
+            <li>توثيق ومشاركة الدرس:
+                <ul>
+                    <li>تقرير مفصل يُشارك مع القسم</li>
+                    <li>تحديث بروتوكول المجرى الهوائي الصعب</li>
+                    <li>تدريب محاكاة إضافي للفريق</li>
+                    <li>تحسين توفر video laryngoscope</li>
+                </ul>
+            </li>
+        </ul>
+        <span class="english-term">[English parallel of the scenario showing all four resilience capacities in action]</span>
+    </div>
+
+    <h2>2.6 بناء السلامة: نهج خطوة بخطوة</h2>
+    <h3>2.6 Building Safety: A Step-by-Step Approach</h3>
+    
+    <p>السلامة ليست "برنامجاً" يُشترى ويُركَّب—بل <strong>رحلة مستمرة</strong> من التحسين المنهجي. يمكن تنظيم هذه الرحلة في أربع خطوات رئيسية:</p>
+    <p><span class="english-term">Safety is not a "program" you buy and install—it's a <strong>continuous journey</strong> of systematic improvement. This journey can be organized into four major steps:</span></p>
+
+    <h3>2.6.1 الخطوة الأولى: الوقاية (Prevention)</h3>
+    <h3>2.6.1 Step One: Prevention</h3>
+    
+    <p><strong>الهدف:</strong> منع الأخطاء والحوادث من الوقوع في المقام الأول.</p>
+    <p><span class="english-term"><strong>Goal:</strong> Prevent errors and incidents from occurring in the first place.</span></p>
+    
+    <div class="concept-box">
+        <strong>الاستراتيجيات الرئيسية:</strong>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>الاستراتيجية / Strategy</th>
+                    <th>الوصف / Description</th>
+                    <th>أمثلة عملية / Practical Examples</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>التصميم للسلامة</strong><br>Design for Safety</td>
+                    <td>جعل الأخطاء صعبة الحدوث من خلال التصميم الجيد.<br><span class="english-term">Make errors difficult through good design.</span></td>
+                    <td>• موصلات غير متوافقة للغازات المختلفة<br>• ملصقات ملونة حسب فئة الدواء<br>• تصميم واجهة واضحة للأجهزة<br><span class="english-term">• Non-interchangeable connectors for different gases<br>• Color-coded labels by drug class<br>• Clear device interface design</span></td>
+                </tr>
+                <tr>
+                    <td><strong>التوحيد القياسي</strong><br>Standardization</td>
+                    <td>توحيد المعدات، الإجراءات، وبيئة العمل.<br><span class="english-term">Standardize equipment, procedures, and work environment.</span></td>
+                    <td>• نفس نوع آلة التخدير في كل الغرف<br>• ترتيب موحد لصينية الأدوية<br>• قوائم تحقق موحدة<br><span class="english-term">• Same anesthesia machine model in all rooms<br>• Standardized drug tray layout<br>• Standardized checklists</span></td>
+                </tr>
+                <tr>
+                    <td><strong>الحواجز القهرية</strong><br>Forcing Functions</td>
+                    <td>حواجز تمنع الاستمرار بدون إتمام خطوة حرجة.<br><span class="english-term">Barriers that prevent proceeding without completing critical step.</span></td>
+                    <td>• مسح باركود الدواء قبل الإعطاء<br>• قفل جهاز MRI حتى إزالة المعادن<br>• تنبيه يوقف العملية إذا لم يكتمل Time-Out<br><span class="english-term">• Barcode scan before drug administration<br>• MRI machine locks until metals removed<br>• Alert stops procedure if Time-Out incomplete</span></td>
+                </tr>
+                <tr>
+                    <td><strong>التدريب والمحاكاة</strong><br>Training &amp; Simulation</td>
+                    <td>بناء المهارات والاستعداد من خلال التدريب المنتظم.<br><span class="english-term">Build skills and readiness through regular training.</span></td>
+                    <td>• محاكاة إدارة الأزمات<br>• تدريب CRM (Crisis Resource Management)<br>• ورش عمل مهارات التواصل<br><span class="english-term">• Crisis management simulation<br>• CRM training<br>• Communication skills workshops</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>2.6.2 الخطوة الثانية: الكشف (Detection)</h3>
+    <h3>2.6.2 Step Two: Detection</h3>
+    
+    <p><strong>الهدف:</strong> اكتشاف الأخطاء والانحرافات بأسرع ما يمكن—قبل أن تصبح ضرراً.</p>
+    <p><span class="english-term"><strong>Goal:</strong> Detect errors and deviations as quickly as possible—before they become harm.</span></p>
+    
+    <div class="concept-box">
+        <strong>الاستراتيجيات الرئيسية:</strong>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>الاستراتيجية / Strategy</th>
+                    <th>التطبيق في التخدير / Application in Anesthesia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>المراقبة المستمرة</strong><br>Continuous Monitoring</td>
+                    <td>• مراقبة فسيولوجية: ECG، SpO2، capnography، ضغط الدم، درجة الحرارة<br>• مراقبة تقنية: غاز الاستنشاق، حجم التيدال، ضغط المجرى الهوائي<br>• مراقبة سريرية: ملاحظة الطبيب لعلامات التحذير المبكرة<br><span class="english-term">• Physiological: ECG, SpO2, capnography, BP, temperature<br>• Technical: inspired gas, tidal volume, airway pressure<br>• Clinical: physician observation of early warning signs</span></td>
+                </tr>
+                <tr>
+                    <td><strong>الإنذارات الذكية</strong><br>Smart Alarms</td>
+                    <td>• إنذارات متعددة المستويات (إعلامية، تحذيرية، حرجة)<br>• تقليل False Alarms لمنع Alert Fatigue<br>• إنذارات سياقية (تتكيف مع الحالة السريرية)<br><span class="english-term">• Multi-level alarms (informational, warning, critical)<br>• Reduce false alarms to prevent alert fatigue<br>• Contextual alarms (adapt to clinical situation)</span></td>
+                </tr>
+                <tr>
+                    <td><strong>التحقق المزدوج</strong><br>Double-Checking</td>
+                    <td>• تحقق مزدوج مستقل للأدوية عالية الخطورة<br>• التحقق قبل وبعد العمليات الحرجة<br>• أنظمة التحقق الإلكترونية (مسح الباركود)<br><span class="english-term">• Independent double-check for high-alert medications<br>• Verification before and after critical procedures<br>• Electronic verification systems (barcode scanning)</span></td>
+                </tr>
+                <tr>
+                    <td><strong>قوائم التحقق</strong><br>Checklists</td>
+                    <td>• قائمة فحص الآلة قبل البدء<br>• WHO Surgical Safety Checklist (Sign In, Time Out, Sign Out)<br>• قوائم تحقق خاصة بالإجراءات (مثل التخدير العصبي المحوري)<br><span class="english-term">• Machine check before start<br>• WHO Surgical Safety Checklist<br>• Procedure-specific checklists (e.g., neuraxial anesthesia)</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>2.6.3 الخطوة الثالثة: الاحتواء (Containment)</h3>
+    <h3>2.6.3 Step Three: Containment</h3>
+    
+    <p><strong>الهدف:</strong> عندما يحدث خطأ أو حدث، احتوِ الضرر واسترد الموقف بأسرع ما يمكن.</p>
+    <p><span class="english-term"><strong>Goal:</strong> When error or event occurs, contain harm and recover situation as quickly as possible.</span></p>
+    
+    <div class="concept-box">
+        <strong>الاستراتيجيات الرئيسية:</strong>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>الاستراتيجية / Strategy</th>
+                    <th>التطبيق في التخدير / Application in Anesthesia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>بروتوكولات الطوارئ</strong><br>Emergency Protocols</td>
+                    <td>• خوارزميات واضحة لإدارة الأزمات (المجرى الهوائي الصعب، توقف القلب، الحساسية المفرطة، فرط الحرارة الخبيث)<br>• معدات الطوارئ جاهزة ومتاحة فوراً<br>• تدريب منتظم على السيناريوهات الحرجة<br><span class="english-term">• Clear algorithms for crisis management (difficult airway, cardiac arrest, anaphylaxis, malignant hyperthermia)<br>• Emergency equipment ready and immediately available<br>• Regular training on critical scenarios</span></td>
+                </tr>
+                <tr>
+                    <td><strong>المساعدات المعرفية</strong><br>Cognitive Aids</td>
+                    <td>• ملصقات حائط لخوارزميات الطوارئ<br>• كتيبات جيب للإجراءات النادرة<br>• تطبيقات موبايل (مثل APSF Crisis Checklist)<br><span class="english-term">• Wall posters of emergency algorithms<br>• Pocket handbooks for rare procedures<br>• Mobile apps (e.g., APSF Crisis Checklist)</span></td>
+                </tr>
+                <tr>
+                    <td><strong>فرق الاستجابة السريعة</strong><br>Rapid Response Teams</td>
+                    <td>• طلب مساعدة فوراً عند الحاجة<br>• فريق متعدد التخصصات جاهز للاستجابة<br>• قنوات تواصل واضحة وسريعة<br><span class="english-term">• Call for help immediately when needed<br>• Multidisciplinary team ready to respond<br>• Clear and rapid communication channels</span></td>
+                </tr>
+                <tr>
+                    <td><strong>إدارة الموارد في الأزمات</strong><br>Crisis Resource Management</td>
+                    <td>• قيادة واضحة أثناء الأزمة<br>• توزيع المهام بوضوح<br>• تواصل closed-loop<br>• إعادة تقييم مستمرة<br><span class="english-term">• Clear leadership during crisis<br>• Clear task allocation<br>• Closed-loop communication<br>• Continuous reassessment</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>2.6.4 الخطوة الرابعة: التعلم (Learning)</h3>
+    <h3>2.6.4 Step Four: Learning</h3>
+    
+    <p><strong>الهدف:</strong> التعلم المنهجي من كل حدث—سواء Near Miss أو Adverse Event—وتطبيق الدروس لمنع التكرار.</p>
+    <p><span class="english-term"><strong>Goal:</strong> Systematic learning from every event—whether Near Miss or Adverse Event—and apply lessons to prevent recurrence.</span></p>
+    
+    <div class="concept-box">
+        <strong>الاستراتيجيات الرئيسية:</strong>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>الاستراتيجية / Strategy</th>
+                    <th>التطبيق في التخدير / Application in Anesthesia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>أنظمة الإبلاغ</strong><br>Reporting Systems</td>
+                    <td>• نظام إبلاغ سري، سهل الاستخدام، غير عقابي<br>• تشجيع الإبلاغ عن Near Misses والحوادث البسيطة<br>• ردود فعل سريعة وبناءة على التقارير<br><span class="english-term">• Confidential, easy-to-use, non-punitive reporting system<br>• Encourage reporting of Near Misses and minor incidents<br>• Quick and constructive feedback on reports</span></td>
+                </tr>
+                <tr>
+                    <td><strong>تحليل الأسباب الجذرية</strong><br>Root Cause Analysis</td>
+                    <td>• RCA شامل للأحداث الجسيمة<br>• تقنية 5 Whys للوصول للأسباب العميقة<br>• تحديد الأخطاء الكامنة، ليس فقط النشطة<br><span class="english-term">• Comprehensive RCA for serious events<br>• 5 Whys technique to reach deep causes<br>• Identify latent failures, not just active errors</span></td>
+                </tr>
+                <tr>
+                    <td><strong>مشاركة الدروس</strong><br>Lesson Sharing</td>
+                    <td>• نشرات شهرية بالدروس المستفادة<br>• اجتماعات M&amp;M (Morbidity &amp; Mortality)<br>• مكتبة حالات إلكترونية للرجوع إليها<br><span class="english-term">• Monthly newsletters with lessons learned<br>• M&amp;M (Morbidity &amp; Mortality) meetings<br>• Electronic case library for reference</span></td>
+                </tr>
+                <tr>
+                    <td><strong>إغلاق حلقة التحسين</strong><br>Closing the Improvement Loop</td>
+                    <td>• تدخلات ملموسة بعد كل تحليل<br>• متابعة فعالية التدخلات<br>• تحديث البروتوكولات بناءً على الدروس<br>• قياس التحسن (مؤشرات قبل وبعد)<br><span class="english-term">• Concrete interventions after each analysis<br>• Follow-up on intervention effectiveness<br>• Update protocols based on lessons<br>• Measure improvement (before/after metrics)</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="quote-box">
+        <table>
+            <tbody>
+                <tr>
+                    <td><strong>1. PREVENTION (الوقاية)</strong><br>Design, Standardization,<br>Training, Forcing Functions</td>
+                    <td><strong>2. DETECTION (الكشف)</strong><br>Monitoring, Alarms,<br>Double-Checking, Checklists</td>
+                </tr>
+                <tr>
+                    <td><strong>4. LEARNING (التعلم)</strong><br>Reporting, RCA,<br>Sharing Lessons, Improvement</td>
+                    <td><strong>3. CONTAINMENT (الاحتواء)</strong><br>Emergency Protocols, Cognitive Aids,<br>CRM, Rapid Response</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: center;"><strong>دورة مستمرة—ليس "مشروعاً" بل ثقافة دائمة</strong><br><span class="english-term">Continuous Cycle—Not a "Project" But Permanent Culture</span></p>
+    </div>
+
+    <div class="success-box">
+        <p><strong>الرسالة الأساسية:</strong> السلامة ليست "برنامجاً" نطبقه مرة واحدة—بل <strong>دورة مستمرة</strong> من الوقاية، الكشف، الاحتواء، والتعلم.</p>
+        <p><span class="english-term"><strong>Core Message:</strong> Safety is not a "program" we implement once—but a <strong>continuous cycle</strong> of prevention, detection, containment, and learning.</span></p>
+    </div>
+
+    <h2>2.7 الخلاصة: من المفاهيم إلى الممارسة</h2>
+    <h3>2.7 Summary: From Concepts to Practice</h3>
+    
+    <p>في هذا الفصل، استكشفنا المفاهيم والنماذج الأساسية لعلم السلامة في التخدير. دعونا نربط الأفكار الرئيسية:</p>
+    <p><span class="english-term">In this chapter, we explored fundamental concepts and models of safety science in anesthesia. Let's connect the key ideas:</span></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>المفهوم / Concept</th>
+                <th>الدرس الأساسي / Core Lesson</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>الخطأ البشري</strong><br>Human Error</td>
+                <td>ليس نهاية التحليل بل بدايته—ابحث عن الظروف النظامية التي سمحت بالخطأ.<br><span class="english-term">Not the end of analysis but the beginning—search for systemic conditions that allowed error.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Active vs Latent</strong><br>نشط مقابل كامن</td>
+                <td>إصلاح الأخطاء الكامنة أقوى من معالجة الأخطاء النشطة وحدها—غيّر النظام، لا الفرد فقط.<br><span class="english-term">Fixing latent failures is more powerful than addressing active errors alone—change system, not just individual.</span></td>
+            </tr>
+            <tr>
+                <td><strong>نماذج الحوادث</strong><br>Incident Models</td>
+                <td>استخدم Swiss Cheese لفهم الماضي، Bow-Tie للتخطيط للمستقبل، Socio-Technical لفهم التفاعلات.<br><span class="english-term">Use Swiss Cheese to understand past, Bow-Tie to plan future, Socio-Technical to understand interactions.</span></td>
+            </tr>
+            <tr>
+                <td><strong>HRO Principles</strong><br>مبادئ الموثوقية العالية</td>
+                <td>خمس خصائص: الانشغال بالفشل، الإحجام عن التبسيط، الحساسية للعمليات، الالتزام بالمرونة، الاحترام للخبرة.<br><span class="english-term">Five characteristics: preoccupation with failure, reluctance to simplify, sensitivity to operations, commitment to resilience, deference to expertise.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Resilience</strong><br>المرونة</td>
+                <td>أربع قدرات: المراقبة، الاستجابة، التوقع، التعلم—القدرة على النجاح رغم التعقيد.<br><span class="english-term">Four capacities: monitor, respond, anticipate, learn—ability to succeed despite complexity.</span></td>
+            </tr>
+            <tr>
+                <td><strong>بناء السلامة</strong><br>Building Safety</td>
+                <td>أربع خطوات متكاملة: الوقاية، الكشف، الاحتواء، التعلم—دورة مستمرة، لا مشروع واحد.<br><span class="english-term">Four integrated steps: prevention, detection, containment, learning—continuous cycle, not one-time project.</span></td>
+            </tr>
+            <tr>
+                <td><strong>Person vs System</strong><br>الشخص مقابل النظام</td>
+                <td>التحول من ثقافة اللوم إلى ثقافة التعلم—من "من؟" إلى "لماذا؟" و"كيف نمنع؟"<br><span class="english-term">Shift from blame culture to learning culture—from "who?" to "why?" and "how do we prevent?"</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>من المفاهيم إلى العمل: التطبيق اليومي</h3>
+    <h3>From Concepts to Action: Daily Application</h3>
+    
+    <p><strong>كيف تطبق هذه المفاهيم غداً في عملك؟</strong></p>
+    <p><span class="english-term"><strong>How Do You Apply These Concepts Tomorrow in Your Work?</strong></span></p>
+
+    <div class="concept-box">
+        <strong>خطة عملية للبدء:</strong>
+        
+        <p><strong>1. في بداية يومك (Preoccupation with Failure):</strong><br>
+        خصص 5 دقائق إضافية لفحص الآلة والمعدات بدقة<br>
+        راجع تقرير الحوادث القريبة من اليوم السابق<br>
+        اسأل نفسك: "ما الذي قد يسوء اليوم؟ كيف أستعد؟"</p>
+        
+        <p><strong>2. قبل كل حالة (Reluctance to Simplify):</strong><br>
+        خذ وقتك في Time-Out—لا تستعجل<br>
+        اسأل أسئلة إضافية عن الحساسيات والمخاطر<br>
+        شجع أعضاء الفريق على التحدث إذا لاحظوا شيئاً</p>
+        
+        <p><strong>3. أثناء الحالة (Sensitivity to Operations):</strong><br>
+        راقب العلامات الحيوية باستمرار—لا تنشغل بالأشياء الثانوية<br>
+        انتبه للتغيرات الصغيرة—قد تكون إشارات مبكرة لمشاكل كبيرة<br>
+        ابقَ حاضراً ومركزاً—قلل المقاطعات</p>
+        
+        <p><strong>4. عند الأزمة (Commitment to Resilience):</strong><br>
+        استخدم الخوارزميات والمساعدات المعرفية—لا تعتمد على الذاكرة وحدها<br>
+        اطلب المساعدة مبكراً—لا تنتظر حتى تتفاقم المشكلة<br>
+        وزّع المهام بوضوح، تواصل بشكل closed-loop</p>
+        
+        <p><strong>5. بعد الحالة (Learning):</strong><br>
+        إذا حدثت مشكلة أو Near Miss—أبلغ عنها فوراً<br>
+        شارك في debriefing سريع مع الفريق: "ما الذي سار جيداً؟ ماذا يمكن تحسينه؟"<br>
+        اكتب ملاحظات قصيرة—قد تنساها لاحقاً</p>
+        
+        <p><strong>6. في نهاية اليوم:</strong><br>
+        خذ 5 دقائق للتفكير: "ماذا تعلمت اليوم؟"<br>
+        هل هناك شيء يجب مشاركته مع الفريق؟<br>
+        هل هناك نظام أو إجراء يحتاج تحسيناً؟</p>
+        
+        <span class="english-term">Practical Plan to Start:<br>[English parallel of the daily application plan]</span>
+    </div>
+
+    <div class="success-box">
+        <p><strong>تذكّر دائماً:</strong></p>
+        <p>السلامة ليست "شيئاً إضافياً" نفعله عندما يكون لدينا وقت—بل هي <strong>الطريقة التي نعمل بها</strong> في كل لحظة، في كل حالة، في كل يوم.</p>
+        <p><span class="english-term"><strong>Always Remember:</strong> Safety is not "something extra" we do when we have time—it's <strong>the way we work</strong> every moment, every case, every day.</span></p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>2.8 أسئلة انعكاسية للممارسة الذاتية</h2>
+    <h3>2.8 Reflective Practice Questions</h3>
+
+    <p>استخدم هذه الأسئلة لمراجعة ممارستك الحالية وتطبيق المفاهيم التي نوقشت في هذا الفصل:</p>
+    <p><span class="english-term">Use these questions to review your current practice and apply the concepts discussed in this chapter:</span></p>
+
+    <div class="concept-box">
+        <ol>
+            <li>
+                <strong>تحليل حادثة شخصية (Personal Incident Analysis):</strong><br>
+                فكر في خطأ أو "حادثة قريبة" (Near Miss) تورطت فيها مؤخراً. بدلاً من لوم نفسك، استخدم <strong>نموذج الجبن السويسري</strong> لتحديد ما لا يقل عن ثلاثة "ثقوب" (عوامل نظامية) سمحت بحدوث ذلك.<br>
+                <span class="english-term">Think of an error or "Near Miss" you were recently involved in. Instead of blaming yourself, use the <strong>Swiss Cheese Model</strong> to identify at least three "holes" (systemic factors) that allowed it to happen.</span>
+            </li>
+            <br>
+            <li>
+                <strong>تقييم الموثوقية (Reliability Assessment):</strong><br>
+                طبق مبدأ <strong>"الإنشغال بالفشل" (Preoccupation with Failure)</strong> على بيئة عملك. ما هي العملية الروتينية التي تعتقد أن فريقك أصبح "مرتاحاً جداً" (Complacent) تجاهها، وكيف يمكن أن تفشل؟<br>
+                <span class="english-term">Apply the principle of <strong>"Preoccupation with Failure"</strong> to your work environment. What routine process do you think your team has become too "complacent" about, and how could it fail?</span>
+            </li>
+            <br>
+            <li>
+                <strong>تحديد الفشل الكامن (Identifying Latent Failures):</strong><br>
+                انظر حولك في غرفة التخدير. حدد مثالاً واحداً على <strong>"فشل كامن" (Latent Failure)</strong>—مثل جهاز صعب الاستخدام، أو أدوية متشابهة مخزنة معاً—واقتح حلاً تصميمياً له.<br>
+                <span class="english-term">Look around your anesthesia room. Identify one example of a <strong>"Latent Failure"</strong>—such as a hard-to-use device or look-alike drugs stored together—and propose a design solution for it.</span>
+            </li>
+            <br>
+            <li>
+                <strong>تعزيز المرونة (Enhancing Resilience):</strong><br>
+                في المرة القادمة التي تواجه فيها موقفاً غير متوقع، راقب كيف يستجيب الفريق. هل تحولوا بفعالية من وضع "العمل المعتاد" إلى وضع "الاستجابة للأزمة"؟ هل كان هناك احترام للخبرة (Deference to Expertise)؟<br>
+                <span class="english-term">Next time you face an unexpected situation, observe how the team responds. Did they effectively shift from "business as usual" to "crisis response" mode? Was there Deference to Expertise?</span>
+            </li>
+        </ol>
+    </div>
+
+    <h2>2.9 خاتمة: الرحلة نحو الأمان</h2>
+    <h3>2.9 Conclusion: The Journey Toward Safety</h3>
+
+    <p>لقد انتقلنا في هذا الفصل من النظرة التقليدية التي ترى الخطأ كفشل أخلاقي للفرد، إلى النظرة العلمية الحديثة التي تراه كنتيجة لظروف النظام المعقدة. تعلمنا أن <strong>المرونة</strong> و <strong>الموثوقية العالية</strong> ليست مجرد شعارات، بل هي ممارسات يومية تتطلب الانضباط واليقظة.</p>
+    <p><span class="english-term">In this chapter, we moved from the traditional view seeing error as individual moral failure, to the modern scientific view seeing it as a result of complex system conditions. We learned that <strong>Resilience</strong> and <strong>High Reliability</strong> are not just slogans, but daily practices requiring discipline and vigilance.</span></p>
+
+    <div class="quote-box">
+        <p><strong>الخطوة التالية:</strong> بعد أن فهمنا "لماذا" تحدث الأخطاء و"كيف" نفكر فيها، سننتقل في الفصول القادمة إلى "ماذا" نفعل حيالها بالتحديد—بدءاً من الأدوات العملية للسلامة في الفصل الثالث.</p>
+        <p><span class="english-term"><strong>Next Step:</strong> Having understood "why" errors happen and "how" to think about them, we will move in the coming chapters to "what" specifically to do about them—starting with practical safety tools in Chapter 3.</span></p>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_الثاني_المفاهيم_والنماذج.html";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+    </script>
+
+    <!-- أزرار التنقل السفلية الثابتة -->
+    <div class="bottom-nav">
+        <a href="/" class="home">🏠 الصفحة الرئيسية</a>
+        <a href="/chapters/الفصل_الأول_السلامة_في_التخدير%20(1).html">← الفصل السابق</a>
+        <a href="/chapters/الفصل_الثالث_العوامل_البشرية.html">الفصل التالي →</a>
+    </div>
+
+    <style>
+      /* أزرار التنقل الثابتة في الأسفل */
+      .bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        padding: 15px;
+        box-shadow: 0 -4px 6px rgba(0,0,0,0.15);
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+      }
+
+      .bottom-nav a {
+        background-color: #3b82f6;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        transition: all 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+
+      .bottom-nav a:hover {
+        background-color: #2563eb;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+
+      .bottom-nav a.home {
+        background-color: #22c55e;
+      }
+
+      .bottom-nav a.home:hover {
+        background-color: #16a34a;
+      }
+
+      @media (max-width: 768px) {
+        .bottom-nav {
+          padding: 12px 8px;
+          gap: 8px;
+        }
+        .bottom-nav a {
+          padding: 10px 16px;
+          font-size: 13px;
+        }
+      }
+    </style>
+
+</body></html>

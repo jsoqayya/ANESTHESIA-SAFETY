@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقديم الكتاب: السلامة والجودة في التخدير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #0f172a;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 2.0;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-bottom: 100px; /* Extra space for download button */
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 22px;
+        position: relative;
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 15px;
+        margin-top: 0;
+        line-height: 1.3;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 15px 25px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-right: 8px solid #1e40af;
+        border-radius: 6px;
+        font-size: 26px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        color: #1e40af;
+        font-size: 24px;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        border-bottom: 3px solid #e5e7eb;
+        padding-bottom: 8px;
+        display: inline-block;
+      }
+
+      p {
+        margin-bottom: 22px;
+        text-align: justify;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 24px;
+        color: #374151;
+        margin-bottom: 60px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 30px;
+        line-height: 1.6;
+      }
+
+      .subtitle strong {
+        color: #1e3a8a;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 28px;
+      }
+
+      /* Quotes and Important Boxes */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 2px solid var(--box-blue-border);
+        border-right: 6px solid var(--primary-blue);
+        padding: 25px 30px;
+        margin: 30px 0;
+        font-style: normal;
+        border-radius: 8px;
+        color: #1e3a8a;
+        font-size: 23px;
+        position: relative;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 2px solid var(--box-red-border);
+        border-right: 6px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 8px;
+        font-size: 23px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 2px solid var(--box-green-border);
+        border-right: 6px solid #22c55e;
+        padding: 25px 30px;
+        margin: 30px 0;
+        border-radius: 8px;
+        font-size: 23px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 2px solid var(--box-yellow-border);
+        border-right: 6px solid #eab308;
+        padding: 25px;
+        margin: 30px 0;
+        border-radius: 8px;
+        font-size: 23px;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 25px;
+        padding-right: 35px;
+      }
+      li {
+        margin-bottom: 12px;
+      }
+
+      /* Special text styling */
+      strong {
+        color: #000;
+        font-weight: 800;
+      }
+
+      .author-section {
+        margin-top: 80px;
+        padding-top: 40px;
+        border-top: 3px solid #e5e7eb;
+        text-align: left;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+      }
+
+      .author-name {
+        font-weight: bold;
+        font-size: 22px;
+        color: #1e3a8a;
+        margin-bottom: 8px;
+      }
+      
+      .author-title {
+        font-size: 18px;
+        color: #4b5563;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 30px;
+        letter-spacing: 8px;
+      }
+
+      .verse-text {
+        font-family: 'Amiri', serif;
+        font-size: 28px;
+        color: #047857;
+        text-align: center;
+        display: block;
+        margin: 15px 0;
+        line-height: 1.8;
+      }
+      
+      .hadith-text {
+        font-family: 'Amiri', serif;
+        font-size: 26px;
+        color: #1e40af;
+        text-align: center;
+        display: block;
+        margin: 15px 0;
+        line-height: 1.8;
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        z-index: 1000;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: none;
+      }
+      
+      .download-btn:hover {
+        background-color: #2563eb;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      }
+
+      @media print {
+        body { padding: 0; max-width: 100%; font-size: 18px; }
+        .download-btn { display: none; }
+        h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        .quote-box, .alert-box, .success-box, .concept-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      }
+      
+      @media (max-width: 768px) {
+        body { padding: 25px; padding-bottom: 80px; font-size: 19px; }
+        h1 { font-size: 30px; }
+        h2 { font-size: 24px; }
+        .subtitle { font-size: 18px; }
+        .verse-text { font-size: 24px; }
+        .download-btn {
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80%;
+          justify-content: center;
+        }
+        .download-btn:hover {
+          transform: translateX(-50%) translateY(-2px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h1>تقديم بين يدي الكتاب</h1>
+    
+    <div class="subtitle">
+      <strong>الدكتور عمار أبو الصبح</strong>
+      مؤسس ورئيس جمعية أطباء الألم الأردنية<br>
+      مؤسس ورئيس الاتحاد العالمي لأطباء علاج الألم
+    </div>
+
+    <p>
+      <strong>بسم الله الرحمن الرحيم</strong>
+    </p>
+    <p>
+      الحمد لله الذي علَّم بالقلم، علَّم الإنسان ما لم يعلم، والصلاة والسلام على من بُعث رحمةً للعالمين، القائل: «إن الله كتب الإحسان على كل شيء»، وعلى آله وصحبه ومن تبعهم بإحسان إلى يوم الدين.
+    </p>
+
+    <p>
+      أما بعد؛ فإن مهنة الطب في الإسلام ليست مجرد حرفة بيولوجية، بل هي أمانة شرعية ومسؤولية أخلاقية تضع حياة الإنسان فوق كل اعتبار. 
+      وفي تخصص التخدير تحديدًا يرتفع سقف هذه المسؤولية؛ إذ يقف طبيب التخدير على الثغر الفاصل بين الوعي والغياب، وبين الألم والراحة، بل وفي لحظات حرجة بين الحياة والموت بإذن الله.
+    </p>
+    
+    <p>وبعد…</p>
+    
+    <p>فقد طلب مني الصديق العزيز أن أقدِّم لكتابه: <strong>«دليل السلامة والجودة في التخدير»</strong>.</p>
+    
+    <p>وإذا كان الكتاب يُقرأ من عنوانه — وهو مثل عربي شهير — فإنه يطبق هنا في صورتين:</p>
+
+    <h2>الصورة الأولى: الطبيب جميل السقيا</h2>
+
+    <p>
+      فقد عرفتُه منذ كان مقيمًا في عمّان، وكنت حينها مسؤول البرنامج التعليمي لقسم التخدير. فقرأتُ العنوان مبكرًا (أن هذا الشاب سيكون له شأن في عالم التخدير)؛ فهو مجتهد، مثابر، قارئ، يدمج بين العلم والمعرفة والتطبيق.
+    </p>
+
+    <p>
+      ثم عرفته في جامعة العلوم والتكنولوجيا في صنعاء حيث كنت حينها رئيسًا لقسم التخدير والعمليات، فكان مثالًا لطالب العلم الذي يطبق أحدث المعايير.
+    </p>
+
+    <p>
+      ولم ينقطع تواصلي معه مع مرور السنين، وكنت أراقب تطوره كأخصائي ثم استشاري، وأرقب تميّزه بين زملائه في براعة التفكير وحب التعليم، وظهر ذلك في الدورات وورشات العمل والمحاضرات. وقد تفاجأت بكتابه الأول «ترانيم الكون»، وعرفت أنه صاحب فكر أيضًا.
+    </p>
+
+    <h2>الصورة الثانية: الكتاب الذي يُقرأ من عنوانه</h2>
+
+    <p>
+      فقد أدرك الأطباء المسلمين الأوائل أهمية تسكين الألم كجزء من جودة الرعاية الطبية.
+      فكان <strong>ابن سينا</strong> في كتابه "القانون في الطب" يشير إلى أهمية استخدام المواد المهدئة في العمليات الجراحية، ويتطلب ذلك تقدير الجرعة بدقة لتجنب الهلاك. وهو ما نسميه اليوم علم الجرعات والتركيز، معتبرًا أن الزيادة والنقصان قد تؤدي إلى الهلاك.
+    </p>
+
+    <div class="concept-box">
+      يعد ابن سينا أول من وضع ضوابط دقيقة لاستخدام المواد المخدّرة في القانون في الطب؛ إذ لم يكتفِ بذكر المواد كالأفيون، بل وضع ما نسميه اليوم <strong>"تقييم المخاطر"</strong>. ففي مجلده الأول يقول:
+      <br><br>
+      <em>"يجب أن تنظر في تركيب المخدر وكيفيته وتستعمل أسهله، فربما كان الوجع إن بقي قتل بشدته، والتخدير ربما لم يقتل وإن أضرّ من وجه آخر."</em>
+      <br><br>
+      وهنا نجد أول إشارة طبية للموازنة بين ضرر الألم وضرر المخدّر، وهو صلب علم "الجودة المعاصر".
+    </div>
+
+    <p>
+      كما كان <strong>الرازي</strong> يشدد على أخلاقيات الطبيب وضرورة يقظته التامة، معتبرًا أن الطبيب مؤتمن على بدن المريض ونفسه. ومن هنا نشأت بذور السلامة والجودة؛ إذ لم يكن الهدف مجرد إجراء الجراحة، بل ضمان خروج المريض منها سليمًا معافى.
+    </p>
+
+    <h2>أصول السلامة والجودة في التخدير في القرآن والسنة</h2>
+
+    <p>إن موضوع السلامة والجودة في التخدير يجد أصوله في نصوص القرآن والسنة:</p>
+
+    <h3>في حرمة النفس الإنسانية</h3>
+    <div class="success-box">
+      قال تعالى:
+      <span class="verse-text">﴿وَمَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعاً﴾</span>
+      <small style="display:block; text-align:center; color:#555;">(سورة المائدة، الآية 32)</small>
+    </div>
+    <p>فكل إجراء يقوم به طبيب التخدير لضمان سلامة المريض ومنع تدهور حالته هو إحياء للنفس في ميزان الشرع.</p>
+
+    <h3>أما بالنسبة لإتقان العمل (الجودة)</h3>
+    <div class="quote-box">
+      قال صلى الله عليه وسلم:
+      <span class="hadith-text">«إن الله يحب إذا عمل أحدكم عملًا أن يتقنه»</span>
+      <small style="display:block; text-align:center; color:#555;">(أخرجه أبو يعلى والطبراني، وقد صححه الألباني)</small>
+    </div>
+    <p>والإتقان في التخدير لا يأتي إلا باتباع بروتوكولات السلامة الصارمة واليقظة الدائمة.</p>
+
+    <h3>أما عن رفع الحرج والألم</h3>
+    <div class="success-box">
+      قال تعالى:
+      <span class="verse-text">﴿وَمَا جَعَلَ عَلَيْكُمْ فِي الدِّينِ مِنْ حَرَجٍ﴾</span>
+      <small style="display:block; text-align:center; color:#555;">(سورة الحج، الآية 78)</small>
+    </div>
+    <p>والتخدير هو الوسيلة الأعظم لرفع الحرج والألم عن المريض أثناء الجراحة، وهو تطبيق عملي لمقصد شرعي عظيم.</p>
+
+    <h3>وفي موضوع الأمانة والمسؤولية</h3>
+    <div class="quote-box">
+      قال صلى الله عليه وسلم:
+      <span class="hadith-text">«كلكم راعٍ ومسؤول عن رعيته»</span>
+      <small style="display:block; text-align:center; color:#555;">(متفق عليه)</small>
+    </div>
+    <p>وطبيب التخدير هو الراعي الأول للمريض داخل غرفة العمليات، مسؤول عن تنفسه ونبضه واستقرار علاماته الحيوية.</p>
+
+    <div class="divider">***</div>
+
+    <h2>بين أصالة التراث وتقنيات العصر</h2>
+
+    <p>
+      يأتي هذا الدليل <strong>«دليل السلامة والجودة في التخدير»</strong> متماشيًا مع ما قرّره <strong>ابن خلدون</strong> في كتاب "المقدمة"؛ حيث أفرد فصلًا كاملًا لصناعة الطب معتبرًا إياها من أشرف الصناعات لأن موضوعها بدن الإنسان، وأشار إلى أن الطب يحتاج إلى دقة الملاحظة والخبرة المتراكمة، وأكد أن الخطأ في هذه الصناعة ليس كغيره لأن النفس لا تُعوّض. وهذا المبدأ هو الذي ينطلق منه الكتاب في التركيز على العوامل البشرية وكيفية تجنب الخطأ البشري في التخدير.
+    </p>
+
+    <p>
+      أما <strong>الزهراوي</strong> في "التصريف" فقد اعتمد الجراحة المقرونة بالأمان، وهو عميد الجراحين، وكان يرفض إجراء أي عملية جراحية معقدة دون التأكد من سكون المريض. وللزهراوي في كتابه "التصريف لمن عجز عن التأليف" تشديدٌ على ضرورة معرفة الطبيب بالتشريح الدقيق حتى لا يلمس عصبًا أو وعاءً دمويًا أثناء غياب المريض عن الوعي، وهو ما يتسق مع المهارات العملية في هذا الكتاب.
+    </p>
+
+    <div class="concept-box">
+      هذا الكتاب هو امتداد لذلك الإرث العظيم؛ فبينما استعمل أجدادنا الأطباء المناقيع والإسفنجات بذكاء وحذر، يقدم لنا الدكتور جميل السقيا في هذا الدليل خارطة طريق حديثة تجمع بين التكنولوجيا المتطورة وبين اليقظة الوجدانية والمهنية التي كان عليها علماؤنا المسلمون مثل الرازي وابن سينا.
+    </div>
+
+    <p>
+      إنه كتاب يقرأ الروح قبل أن يراقب الجسد. وهو لا يقف عند حدود كونه مرجعًا تقنيًا، بل هو تجسيد معاصر لمفهوم الفضيلة الطبية التي أرساها علماء المسلمين. فالتكنولوجيا الحديثة في الطب هي أدوات لخدمة الإحسان الذي أمر به الإسلام، وليست بديلًا عن يقظة الطبيب.
+    </p>
+
+    <p>
+      ويوضح الكتاب أن التكنولوجيا الحديثة مثل أجهزة التخدير المتطورة والمراقبة ليست بديلًا عن يقظة الطبيب، بل هي أدوات لخدمة غاية أسمى وهي الإحسان الذي أمر به الإسلام. فكما كان الطبيب المسلم قديمًا يراقب نبض المريض بيده وعينه، يطالبنا هذا الكتاب بمراقبة البيانات الحيوية بذات الروح من المسؤولية والحرص.
+    </p>
+
+    <div class="alert-box" style="background-color: var(--box-blue); border-color: var(--box-blue-border); border-right-color: var(--primary-blue);">
+      إن هذا الدليل يكرّس مفهوم المرابطة داخل غرفة العمليات؛ فكل ثانية يقضيها طبيب التخدير في مراقبة شاشة المؤشرات هي عبادة إذا اقترنت بنية حفظ النفس.
+    </div>
+
+    <p>
+      هذا الكتاب ينقلنا من مجرد إعطاء الدواء إلى إدارة الرحلة الآمنة للمريض، تمامًا كما كان يفعل الرواد الأوائل حين كانوا يراقبون أدق تفاصيل المريض حتى يفيق.
+    </p>
+
+    <p>
+      إنه يمزج بين خبرة الدكتور جميل السقيا وبين إرث ابن سينا والبعد الإنساني. وأعتقد أن الخلاصة التي يخرج بها القارئ من هذا الكتاب هي أن التخدير علم يحيي القلوب قبل أن يغيب العقول؛ وهو العلم الذي يثبت أن المسلمين لم يكونوا مجرد ناقلين لعلوم اليونان، بل كانوا مبدعين في الجانب العلمي والأخلاقي. وهذا الكتاب يواصل تلك المسيرة بتقديم دليل علمي بين دقة المشرط ورحمة العقيدة.
+    </p>
+
+    <p>
+      جودة التخدير وسلامة غرفة العمليات هما انعكاس لضمير الطبيب وتطبيق عملي للإحسان.
+    </p>
+
+    <h2>خاتمة</h2>
+
+    <div class="success-box">
+      في الختام يضعنا هذا الكتاب أمام حقيقة مفادها أن جودة التخدير هي مرآة لضمير الطبيب، وأن السلامة في غرف العمليات هي أصدق تطبيق لقوله تعالى:
+      <br>
+      <span class="verse-text">﴿وَأَحْسِنُوا إِنَّ اللَّهَ يُحِبُّ الْمُحْسِنِينَ﴾</span>
+    </div>
+
+    <div class="author-section">
+      <div class="author-name">الدكتور عمار أبو الصبح</div>
+      <div class="author-title">مؤسس ورئيس جمعية أطباء الألم الأردنية</div>
+      <div class="author-title">مؤسس ورئيس الاتحاد العالمي لأطباء علاج الألم</div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div style="position: fixed; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0.9)); padding: 20px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; gap: 15px; z-index: 1000;">
+      <a href="/chapter/copyright" style="background-color: #6b7280; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-family: 'Noto Kufi Arabic', sans-serif; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; gap: 8px; font-size: 16px;">
+        <span>→</span>
+        <span>السابق: حقوق النشر</span>
+      </a>
+      <a href="/chapter/foreword-sami" style="background-color: #1e3a8a; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-family: 'Noto Kufi Arabic', sans-serif; font-weight: 600; transition: all 0.3s ease; display: flex; align-items: center; gap: 8px; font-size: 16px;">
+        <span>التالي: تقديم د. سامي</span>
+        <span>←</span>
+      </a>
+    </div>
+
+    <style>
+      @media (max-width: 768px) {
+        body { padding-bottom: 120px !important; }
+        div[style*="position: fixed; bottom: 0"] {
+          flex-direction: column;
+          padding: 15px;
+        }
+        div[style*="position: fixed; bottom: 0"] a {
+          width: 100%;
+          justify-content: center;
+          font-size: 15px;
+        }
+      }
+    </style>
+  
+</body></html>

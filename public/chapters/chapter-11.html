@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImIxZjQyNzYzZjkzNGExOTQwMWNkOTFhNjdjY2FhNzdiNjIwNWU2N2EiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzQ0ZWEzMjVlNmVjZWE1OTJf2KfZhNmB2LXZhF_Yp9mE2K3Yp9iv2Ypf2LnYtNixX9ir2YLYp9mB2Klf2KfZhNiz2YTYp9mF2KkuaHRtbC01NDcifSwiZXhwIjoxNzcwMTIwNTIyLCJpYXQiOjE3NzAxMTY5MjIsImFsZyI6IlJTMjU2In0.ESOQ8B2eXPmS496hf5kiyIbuLLTtYkxrQqLZGZhKnpIHabJU1oj5ufbXTZa7z6avDGngb6whAJsEFPPeHyJYrrXw9QYgbdU_uz_CFPT3K3dvKbVJQiPFXqKrWEBjgCaugQEaxGmffDzi4Wfa3S9Sft0c6A4X1wMaX7vJLdO9vVQT9MnZ4QKnbTK8xiP8JzK05DcXpZAgbMRgHbOa2scXiWSnfqbqAL-h8jWQhTlM2OarqdS_ja9RRZxLAvVsB8d0rv6byb1UdrDY8Wg3wSSWuPrf7VVpSvHlo6jjeuDHv5d0IgUkYYqOTu-VtX4Nn3LCODrwVdH6IB6wNFpxcr9n_g","c_44ea325e6ecea592_الفصل_الحادي_عشر_ثقافة_السلامة.html-547")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-09-2025","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل 11 — ثقافة السلامة والثقافة العادلة في قسم التخدير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      @media print {
+        .download-container { display: none; }
+        body { padding-top: 0; }
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Scene Style */
+      .scene-box {
+        background-color: #f8fafc;
+        border-right: 4px solid #64748b;
+        padding: 15px;
+        font-style: italic;
+        margin: 20px 0;
+        color: #475569;
+      }
+      
+      .scene-title {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: block;
+        color: #334155;
+      }
+
+      /* Tables Style */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.95em;
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-align: right;
+      }
+      
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+      }
+      
+      tbody tr:nth-of-type(even) {
+        background-color: #f9fafb;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+        table { display: block; overflow-x: auto; }
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Bar -->
+    
+
+    <!-- Header Section -->
+    <div class="part-title">Part III — Building a Safe Anesthesia System</div>
+    <div class="part-title">الجزء الثالث — بناء نظام تخدير آمن</div>
+    
+    <h1>Chapter 11 — Safety Culture and Just Culture in Anesthesia Departments</h1>
+    <div class="subtitle"><strong>الفصل الحادي عشر — ثقافة السلامة وثقافة العدالة في أقسام التخدير</strong></div>
+
+    <h2>🎯 Chapter Objectives</h2>
+    <h3>أهداف الفصل</h3>
+
+    <div class="concept-box">
+        <p><strong>بنهاية هذا الفصل، ستكون قادراً على:</strong></p>
+        <ul>
+            <li>تعريف ثقافة السلامة (<span class="english-term">Safety Culture</span>) ومناخ السلامة (<span class="english-term">Safety Climate</span>)، وشرح لماذا يُشكِّلان التحدث بصراحة (<span class="english-term">Speaking Up</span>)، العمل الجماعي (<span class="english-term">Teamwork</span>)، والتعلم (<span class="english-term">Learning</span>).</li>
+            
+            <li>بناء “ثقافة الإبلاغ” (<span class="english-term">Reporting Culture</span>) حيث يمكن للموظفين الإبلاغ عن الأخطاء وقرب-الحوادث دون عقاب، وحيث يكون التعلم مرئياً (<span class="english-term">Visible Learning</span>).</li>
+            
+            <li>تطبيق مبادئ الثقافة العادلة (<span class="english-term">Just Culture Principles</span>) للتمييز بين الخطأ (<span class="english-term">Error</span>) والانتهاك (<span class="english-term">Violation</span>)، ومطابقة المساءلة (<span class="english-term">Accountability</span>) مع السلوك دون الإضرار بالتعلم.</li>
+            
+            <li>إدارة السلوك التخريبي (<span class="english-term">Disruptive Behavior</span>) بطريقة تحمي المرضى والموظفين، وتدعم الاحترافية (<span class="english-term">Professionalism</span>) كمتطلب سلامة.</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>📖 11.1 Safety Culture: What is it? (And why does it determine outcomes?)</h2>
+    <h3>11.1 ثقافة السلامة: ما هي؟ (ولماذا تُحدِّد النتائج؟)</h3>
+
+    <p>ثقافة السلامة ليست شعاراً على الحائط.</p>
+    <p>ثقافة السلامة (<span class="english-term">Safety Culture</span>) هي ما يعتقده الموظفون سيحدث عندما يتحدثون بصراحة — هل سيتم دعمهم، تجاهلهم، أم معاقبتهم؟</p>
+    
+    <div class="quote-box">
+        <strong>تعريف:</strong><br>
+        “ثقافة السلامة هي الطرق المشتركة التي تُدار بها السلامة، وتعكس المواقف (<span class="english-term">Attitudes</span>)، المعتقدات (<span class="english-term">Beliefs</span>)، التصورات (<span class="english-term">Perceptions</span>)، والقيم (<span class="english-term">Values</span>) المتعلقة بالسلامة.”
+    </div>
+
+    <p>في سياقات الرعاية الصحية الجراحية/التخدير، تُوصف ثقافة السلامة أيضاً بأنها:</p>
+    <p>“مجموعة من المعتقدات، الأعراف (<span class="english-term">Norms</span>)، المواقف، الأدوار، والممارسات الاجتماعية/التقنية المعنية بتقليل التعرض للظروف الخطرة (<span class="english-term">Minimizing Exposure to Dangerous Conditions</span>).”</p>
+
+    <div class="scene-box">
+        <span class="scene-title">السيناريو الافتتاحي (Opening Scenario)</span>
+        <p>الساعة 07:15 صباحاً، اجتماع صباحي لقسم التخدير. الدكتور خالد — طبيب تخدير مقيم في السنة الثالثة — يُريد طرح قلق حول حالة حدثت البارحة: تأخر في الحصول على الدم المُطابَق في حالة نزيف طارئة، مما أدى إلى قرب-حادثة عالية الشدة. يُفكّر: “هل أتكلم؟ ماذا سيحدث إذا تكلمت؟ هل سأُلام؟ هل سيقول الاستشاري الأكبر: ‘كان يجب أن تطلب الدم أبكر’؟ هل سيتغير شيء؟”</p>
+        <p>يُقرر الصمت. يمر الاجتماع دون مناقشة الحدث. بعد أسبوع، تحدث نفس المشكلة مع طبيب آخر، لكن هذه المرة تصل إلى ضرر فعلي.</p>
+        <p>بعد الحدث الثاني، يُعقد اجتماع طوارئ. يسأل رئيس القسم: “لماذا لم يُبلغ أحد عن المشكلة الأولى؟” الدكتور خالد يُجيب بهدوء: “لأننا لا نعرف ماذا سيحدث إذا أبلغنا. نخاف من اللوم. نخاف أن يُقال لنا: ‘هذا خطؤك أنت’.”</p>
+        <p><strong>*هذه هي ثقافة السلامة في الواقع — ليست ما يُكتب في السياسات، بل ما يشعر به الموظفون عندما يُفكِّرون في التحدث.</strong></p>
+    </div>
+
+    <h3>11.1.1 Safety Climate: The “Right Now” Signal</h3>
+    <h3>11.1.1 مناخ السلامة: الإشارة “الآن”</h3>
+    
+    <p>مناخ السلامة (<span class="english-term">Safety Climate</span>) هو الرؤية الجماعية للسلامة التي تُشكّل بواسطة الأحداث الحديثة أو الحالية، ويمكن أن تؤثر فوراً على السلوك — الفعل أو عدم الفعل (<span class="english-term">Action or Inaction</span>).</p>
+
+    <div class="concept-box">
+        <p><strong>الفرق بين الثقافة والمناخ:</strong></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>ثقافة السلامة (Safety Culture)</th>
+                    <th>مناخ السلامة (Safety Climate)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>عميقة، مستقرة نسبياً، تتطور ببطء</td>
+                    <td>سطحية، متقلبة، تتأثر بسرعة بالأحداث</td>
+                </tr>
+                <tr>
+                    <td>“ماذا نؤمن به عن السلامة؟”</td>
+                    <td>“كيف نشعر حول السلامة الآن؟”</td>
+                </tr>
+                <tr>
+                    <td>تُبنى على مدى سنوات</td>
+                    <td>يمكن أن تتدهور في أيام</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p><strong>التطبيق العملي:</strong> بعد حدث جسيم، يمكن أن يتدهور المناخ بسرعة؛ يجب على القادة استقراره بالشفافية (<span class="english-term">Transparency</span>)، التعلم (<span class="english-term">Learning</span>)، والدعم (<span class="english-term">Support</span>).</p>
+    
+    <div class="success-box">
+        <strong>مثال واقعي:</strong> بعد حالة وعي أثناء التخدير (<span class="english-term">Intraoperative Awareness</span>) مُبلَّغ عنها، ينتشر قلق واضح بين الفريق. الممرضات يتحدثن بصوت منخفض: “هل هذا خطأ الطبيب؟ هل سيُعاقب؟” أطباء التخدير المقيمون يتجنبون التسجيل التفصيلي في نظام التبليغ خوفاً من “فتح قضية ضدهم”.<br><br>
+        رئيس القسم يُدرك أن المناخ في خطر. يُعقد اجتماعاً فورياً، يقول بوضوح: “هذا الحدث ليس لوماً لشخص. هدفنا هو الفهم والتعلم. سنُحلِّل النظام، سنُحدِّد الثغرات، وسنُصلح العملية. شكراً للطبيب الذي أبلغ — هذا هو السلوك الذي نُريده.” في غضون أيام، يعود المناخ للاستقرار، ويزيد عدد التبليغات.
+    </div>
+
+    <h3>11.1.2 Culture Is Built by Leadership Behavior, Not Policy Text</h3>
+    <h3>11.1.2 الثقافة تُبنى بسلوك القيادة، وليس بنص السياسات</h3>
+    
+    <p>ميزة رئيسية لثقافة السلامة هي قيادة تُعزِّز التعلم — قادة يسألون، يستمعون، يدعمون نقل المعرفة، والمراجعات التأملية بعد الأحداث، بحيث يشعر الموظفون بالطمأنينة لتقديم الأفكار والخيارات.</p>
+
+    <div class="alert-box">
+        <strong>قاعدة ذهبية:</strong> ثقافة السلامة ليست ما تقوله السياسة. إنها ما يفعله القائد عندما يسمع خبراً سيئاً.
+    </div>
+
+    <div class="concept-box">
+        <p><strong>مثالان متضادان:</strong></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>القائد “أ” (يقتل الثقافة)</th>
+                    <th>القائد “ب” (يبني الثقافة)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>“لماذا لم تنتبه؟!” (غضب)</td>
+                    <td>“ما الذي حدث؟ دعنا نفهم معاً.” (فضول)</td>
+                </tr>
+                <tr>
+                    <td>“هذا خطؤك.” (لوم)</td>
+                    <td>“ما الذي في النظام جعل هذا ممكناً؟” (تحليل نظامي)</td>
+                </tr>
+                <tr>
+                    <td>“لا تكرر هذا.” (تهديد)</td>
+                    <td>“كيف نمنع هذا من الحدوث لأي شخص؟” (تعلم)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>📢 11.2 Reporting Without Blame: The Engine of Learning</h2>
+    <h3>11.2 الإبلاغ دون لوم: محرك التعلم</h3>
+    
+    <p>ثقافة الإبلاغ (<span class="english-term">Reporting Culture</span>) هي “في قلب” السلامة الهندسية وتعمل فقط عندما يشعر العمال بحرية الإبلاغ عن الأخطاء وقرب-الحوادث دون عقاب.</p>
+    <p>أهم قيمة تنظيمية هي السلامة النفسية (<span class="english-term">Psychological Safety</span>): “إذا أبلغ الموظفون عن الأخطاء، فلن يتم توبيخهم أو انتقامهم.”</p>
+    
+    <p>في مثل هذه البيئات:</p>
+    <ul>
+        <li>تُبلَّغ الأخطاء (<span class="english-term">Errors Are Reported</span>)</li>
+        <li>تُحلَّل دون تحميل اللوم (<span class="english-term">Dissected Without Assigning Blame</span>)</li>
+        <li>تُتخذ خطوات للوقاية في المستقبل (<span class="english-term">Steps Are Taken to Prevent Them in the Future</span>)</li>
+    </ul>
+    <p>← هذه بيئة تعلم (<span class="english-term">Learning Environment</span>) وأساس لمنظمة تعلم (<span class="english-term">Learning Organization</span>).</p>
+
+    <h3>11.2.1 Practical Department Behaviors That Create Psychological Safety</h3>
+    <h3>11.2.1 السلوكيات القسمية العملية التي تخلق السلامة النفسية</h3>
+    
+    <p>السلامة النفسية تُخلق عندما:</p>
+    <ul>
+        <li><strong>✅ يدعو الأطباء الكبار إلى القلق (Senior Clinicians Invite Concerns):</strong>
+            <ul>
+                <li>“ماذا نفوّت؟ (<span class="english-term">What Are We Missing?</span>)”</li>
+                <li>“من لديه قلق لم نناقشه بعد؟”</li>
+            </ul>
+        </li>
+        <li><strong>✅ يستجيب القادة للأخبار السيئة بالفضول (وليس الغضب) (Leaders Respond to Bad News with Curiosity, Not Anger):</strong>
+            <ul>
+                <li>“هذا مثير للاهتمام. أخبرني أكثر.”</li>
+                <li>“شكراً لإبلاغك — هذا بالضبط ما نحتاجه.”</li>
+            </ul>
+        </li>
+        <li><strong>✅ تُرى تغييرات حقيقية بعد التبليغ (Teams See Real Change After Reporting):</strong>
+            <ul>
+                <li>إذا أُبلِغ عن مشكلة وتم تجاهلها ← تموت الثقافة.</li>
+                <li>إذا أُبلِغ عن مشكلة وتم حلها ← تنمو الثقافة.</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <div class="quote-box">
+        هياكل الحوكمة الجراحية أيضاً تُبرز: “خلق بيئة عمل آمنة تُعزِّز الزمالة (<span class="english-term">Collegiality</span>)، الاحترام المتبادل (<span class="english-term">Mutual Respect</span>)، والعمل الجماعي الفعّال (<span class="english-term">Effective Teamwork</span>).”
+    </div>
+
+    <h3>11.2.2 Reporting and Learning Require Feedback Loops</h3>
+    <h3>11.2.2 الإبلاغ والتعلم يتطلبان حلقات تغذية راجعة</h3>
+    
+    <p>ثقافة السلامة رحلة مستمرة تتطلب تعزيزاً ودعماً، مع مشاركة التقدم، الاعتراف به، والاحتفال به.</p>
+    <p><strong>ترجمة:</strong> أنظمة التبليغ يجب ألا تكون صامتة. إذا اختفى التبليغ في فراغ، تتدهور الثقافة.</p>
+
+    <div class="concept-box">
+        <p><strong>مثال عملي: حلقة تغذية راجعة فعّالة</strong></p>
+        <p><strong>الخطوة 1:</strong> طبيب يُبلِّغ عن قرب-حادثة: “كادت أن تُعطى جرعة خاطئة من الهيبارين بسبب تشابه الأمبولات.”</p>
+        <p><strong>الخطوة 2:</strong> القسم يُحقق، يُحدِّد السبب الجذري: “أمبولات متشابهة الشكل، إضاءة ضعيفة، ضغط وقت.”</p>
+        <p><strong>الخطوة 3:</strong> القسم يُنفِّذ إجراءات:</p>
+        <ul>
+            <li>فصل تخزين الأمبولات المتشابهة.</li>
+            <li>تحسين الإضاءة في منطقة تحضير الأدوية.</li>
+            <li>تدقيق مستقل إلزامي لأدوية عالية الخطورة.</li>
+        </ul>
+        <p><strong>الخطوة 4:</strong> القسم يُشارك التعلم:</p>
+        <ul>
+            <li>في اجتماع القسم: “شكراً للدكتور [الاسم] على التبليغ. بسبب تبليغه، أصلحنا [X، Y، Z]. هذا أنقذ مرضى مستقبليين.”</li>
+            <li>في نشرة القسم: “قرب-حادثة الشهر ← الدرس المستفاد ← الإجراءات المُتخذة.”</li>
+        </ul>
+        <p><strong>النتيجة:</strong> الموظفون يشعرون: “تبليغي أحدث فرقاً. سأُبلِّغ مرة أخرى.”</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>⚖️ 11.3 From Blame-Free to Just Culture: Accountability That Protects Learning</h2>
+    <h3>11.3 من الخالي من اللوم إلى الثقافة العادلة: مساءلة تحمي التعلم</h3>
+    
+    <p><strong>التطور التاريخي:</strong> الرعاية الصحية انتقلت من:</p>
+    <ol>
+        <li><strong>1️⃣ اللوم الفردي (<span class="english-term">Individual Blame</span>)</strong> — “ابحث عن الشخص المخطئ واعاقبه.”</li>
+        <li><strong>2️⃣ الاستجابة الخالية من اللوم (<span class="english-term">Blame-Free Response</span>)</strong> — “لا تُعاقب أي شخص أبداً.”</li>
+        <li><strong>3️⃣ الثقافة العادلة (<span class="english-term">Just Culture</span>)</strong> — “ميّز بين الخطأ والانتهاك، وطابق المساءلة مع السلوك.”</li>
+    </ol>
+    
+    <p><strong>لماذا الانتقال إلى الثقافة العادلة؟</strong></p>
+    <p>لأن الجمهور والإداريين يُصرّون بشكل معقول على المساءلة عندما يحدث إهمال (<span class="english-term">Negligence</span>) أو تهور (<span class="english-term">Recklessness</span>).</p>
+    
+    <p>الثقافة العادلة تفترض:</p>
+    <ul>
+        <li>معظم الأخطاء تعكس أخطاء بلا لوم (<span class="english-term">Most Failures Reflect Blameless Errors</span>).</li>
+        <li>قليل من العمال يؤذون المرضى عمداً (<span class="english-term">Few Workers Intentionally Harm Patients</span>).</li>
+        <li>قد يصبحون “ضحايا ثانويين” (<span class="english-term">Second Victims</span>) بعد أخطاء غير مقصودة.</li>
+    </ul>
+
+    <h3>11.3.1 Errors vs Violations: The Most Important Distinction</h3>
+    <h3>11.3.1 الأخطاء مقابل الانتهاكات: التمييز الأكثر أهمية</h3>
+    
+
+<!-- Errors vs Violations Visual - Calm Colors -->
+<div style="margin: 4rem 0; position: relative;">
+    <div style="background: linear-gradient(135deg, #a8b8d8 0%, #c9d6df 100%); padding: 4rem 3rem; border-radius: 30px; box-shadow: 0 20px 60px rgba(168, 184, 216, 0.3); position: relative; overflow: hidden;">
+        
+        <!-- Title -->
+        <div style="text-align: center; margin-bottom: 3.5rem; position: relative; z-index: 1;">
+            <div style="font-size: 4rem; color: #5a7184; margin-bottom: 1rem;"><i class="fas fa-balance-scale"></i></div>
+            <h2 style="color: #3d5a73; font-size: 2.2rem; margin-bottom: 1rem; font-weight: 700;">
+                التمييز الأكثر أهمية
+            </h2>
+            <h3 style="color: #5a7184; font-size: 1.7rem; margin: 0;">
+                Errors vs Violations
+            </h3>
+        </div>
+        
+        <!-- Main Comparison -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; position: relative; z-index: 1; margin-bottom: 3rem;">
+            
+            <!-- Left: Errors -->
+            <div style="background: white; padding: 3rem; border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.3s; border-top: 6px solid #7ba8c0;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)'">
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <div style="font-size: 3.5rem; color: #7ba8c0; margin-bottom: 1rem;"><i class="fas fa-user-circle"></i></div>
+                    <h3 style="color: #7ba8c0; font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 700;">Errors</h3>
+                    <h4 style="color: #95b8cc; font-size: 1.4rem; margin: 0;">الأخطاء</h4>
+                </div>
+                <div style="background: #f0f5f9; padding: 2rem; border-radius: 15px; border-right: 4px solid #7ba8c0;">
+                    <p style="color: #4a5d6e; margin: 0 0 1.5rem 0; font-size: 1.05rem; line-height: 1.9; font-weight: 600;">
+                        <i class="fas fa-circle" style="font-size: 0.5rem; color: #7ba8c0; margin-left: 0.5rem;"></i> <strong style="color: #7ba8c0;">Involuntary Actions</strong><br>
+                        أفعال لا إرادية
+                    </p>
+                    <p style="color: #4a5d6e; margin: 0 0 1.5rem 0; font-size: 1.05rem; line-height: 1.9; font-weight: 600;">
+                        <i class="fas fa-circle" style="font-size: 0.5rem; color: #7ba8c0; margin-left: 0.5rem;"></i> <strong style="color: #7ba8c0;">Human Limitations</strong><br>
+                        ناتجة عن القيود البشرية
+                    </p>
+                    <div style="background: white; padding: 1.5rem; border-radius: 10px; margin-top: 1.5rem;">
+                        <p style="color: #5a7184; margin: 0; font-size: 1rem; line-height: 1.8; font-weight: 600;">
+                            <strong>Examples:</strong> Forgetting, calculation error, misreading under pressure<br>
+                            <strong>أمثلة:</strong> نسيان، خطأ حساب، خطأ قراءة تحت الضغط
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right: Violations -->
+            <div style="background: white; padding: 3rem; border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.3s; border-top: 6px solid #c49a9a;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)'">
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <div style="font-size: 3.5rem; color: #c49a9a; margin-bottom: 1rem;"><i class="fas fa-exclamation-triangle"></i></div>
+                    <h3 style="color: #c49a9a; font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 700;">Violations</h3>
+                    <h4 style="color: #d4b0b0; font-size: 1.4rem; margin: 0;">الانتهاكات</h4>
+                </div>
+                <div style="background: #f9f4f4; padding: 2rem; border-radius: 15px; border-right: 4px solid #c49a9a;">
+                    <p style="color: #4a5d6e; margin: 0 0 1.5rem 0; font-size: 1.05rem; line-height: 1.9; font-weight: 600;">
+                        <i class="fas fa-circle" style="font-size: 0.5rem; color: #c49a9a; margin-left: 0.5rem;"></i> <strong style="color: #c49a9a;">Choices That Can Be Deterred</strong><br>
+                        خيارات يمكن ردعها
+                    </p>
+                    <p style="color: #4a5d6e; margin: 0 0 1.5rem 0; font-size: 1.05rem; line-height: 1.9; font-weight: 600;">
+                        <i class="fas fa-circle" style="font-size: 0.5rem; color: #c49a9a; margin-left: 0.5rem;"></i> <strong style="color: #c49a9a;">Deliberate Deviation</strong><br>
+                        انحراف متعمد عن الإجراءات
+                    </p>
+                    <div style="background: white; padding: 1.5rem; border-radius: 10px; margin-top: 1.5rem;">
+                        <p style="color: #5a7184; margin: 0; font-size: 1rem; line-height: 1.8; font-weight: 600;">
+                            <strong>Examples:</strong> Skipping safety check, ignoring protocol, working under influence<br>
+                            <strong>أمثلة:</strong> تخطي فحص السلامة، تجاهل بروتوكول، العمل تحت تأثير
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Bottom Rules -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; position: relative; z-index: 1;">
+            
+            <!-- Rule 1: Don't Punish Errors -->
+            <div style="background: #f0f5f9; padding: 2rem; border-radius: 20px; border-left: 5px solid #7ba8c0; box-shadow: 0 5px 20px rgba(123, 168, 192, 0.2);">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                    <div style="font-size: 2.5rem; color: #7ba8c0;"><i class="fas fa-times-circle"></i></div>
+                    <h4 style="color: #7ba8c0; font-size: 1.3rem; margin: 0; font-weight: 700;">Don't Punish Errors</h4>
+                </div>
+                <p style="color: #4a5d6e; margin: 0; font-size: 1.05rem; line-height: 1.8; font-weight: 600;">
+                    Punishing genuine errors is not effective for prevention<br>
+                    معاقبة الأخطاء الحقيقية ليست فعّالة للمنع
+                </p>
+            </div>
+            
+            <!-- Rule 2: Don't Tolerate Violations -->
+            <div style="background: #f9f4f4; padding: 2rem; border-radius: 20px; border-left: 5px solid #c49a9a; box-shadow: 0 5px 20px rgba(196, 154, 154, 0.2);">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                    <div style="font-size: 2.5rem; color: #c49a9a;"><i class="fas fa-hand-paper"></i></div>
+                    <h4 style="color: #c49a9a; font-size: 1.3rem; margin: 0; font-weight: 700;">Don't Tolerate Violations</h4>
+                </div>
+                <p style="color: #4a5d6e; margin: 0; font-size: 1.05rem; line-height: 1.8; font-weight: 600;">
+                    Persistent violations are not acceptable<br>
+                    الانتهاكات المستمرة غير مقبولة
+                </p>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+    <div class="alert-box">
+        <p><strong>تمييز حاسم بين:</strong></p>
+        <p><strong>أ) الأخطاء (Errors):</strong></p>
+        <ul>
+            <li>أفعال لا إرادية (<span class="english-term">Involuntary Actions</span>)</li>
+            <li>ناتجة عن القيود البشرية (<span class="english-term">Human Limitations</span>)</li>
+            <li>أمثلة: نسيان، خطأ في الحساب، خطأ في القراءة تحت الضغط</li>
+        </ul>
+        <p><strong>ب) الانتهاكات (Violations):</strong></p>
+        <ul>
+            <li>خيارات يمكن ردعها (<span class="english-term">Choices That Can Be Deterred</span>)</li>
+            <li>انحراف متعمد عن الإجراءات/السياسات (<span class="english-term">Deliberate Deviation from Procedures/Policies</span>)</li>
+            <li>أمثلة: تخطي فحص السلامة عمداً، تجاهل بروتوكول رغم المعرفة به، العمل تحت تأثير مواد</li>
+        </ul>
+    </div>
+
+    <div class="success-box">
+        <p><strong>القاعدة الأساسية:</strong></p>
+        <p>❌ معاقبة شخص ارتكب خطأ حقيقياً ليست طريقة فعّالة لمنع التكرار (<span class="english-term">Punishing a Person Who Made a Genuine Error Is Not an Effective Way to Prevent Recurrence</span>).</p>
+        <p>✅ لكن تجاهل مبادرات السلامة بشكل متكرر ومتعمد يجب اعتباره انتهاكاً؛ الانتهاكات المستمرة غير مقبولة ويجب عدم التسامح معها (<span class="english-term">Persistent Violations Are Not Acceptable and Should Not Be Tolerated</span>).</p>
+    </div>
+
+    <h3>11.3.2 The “Social Contract” of Just Culture</h3>
+    <h3>11.3.2 “العقد الاجتماعي” للثقافة العادلة — ما الذي تدين به المؤسسة للموظفين، وما الذي يدين به الموظفون للمرضى</h3>
+    
+    <p>الثقافة العادلة هي عقد اجتماعي (<span class="english-term">Social Contract</span>):</p>
+    <p><strong>ما تلتزم به المؤسسة:</strong></p>
+    <ul>
+        <li>✅ تلتزم بالسلامة بجهود على مستوى النظام لتسهيل فعل الأشياء الصحيحة (<span class="english-term">System-Level Efforts to Facilitate Doing the Right Things</span>).</li>
+        <li>✅ تلتزم بعدم معاقبة الموظفين على الأخطاء الحقيقية (<span class="english-term">Not to Punish Employees for Genuine Errors</span>).</li>
+    </ul>
+    <p><strong>ما يلتزم به الموظفون:</strong></p>
+    <ul>
+        <li>✅ الامتثال الضميري (<span class="english-term">Conscientious Compliance</span>).</li>
+        <li>✅ دعم مبادرات السلامة (<span class="english-term">Supporting Safety Initiatives</span>).</li>
+    </ul>
+
+    <p><strong>عملياً، هذا يعني:</strong></p>
+    <ul>
+        <li>✅ القسم يُصلح الأخطاء الكامنة (<span class="english-term">Latent Errors</span>) ويدعم الموظفين بعد الأخطاء.</li>
+        <li>✅ القسم يُعالج الخيارات غير الآمنة المتكررة كقضايا احترافية وحوكمة (<span class="english-term">Addresses Repeated Unsafe Choices as Professionalism and Governance Issues</span>).</li>
+    </ul>
+
+    <div class="divider">***</div>
+
+    <h2>🔍 11.4 Accountability vs Punishment: A Practical Anesthesia Approach</h2>
+    <h3>11.4 المساءلة مقابل العقاب: نهج عملي للتخدير</h3>
+    
+    <p>قسم تخدير ناضج يُعامل المساءلة على أنها “امتلاك التحسين” (<span class="english-term">Owning Improvement</span>)، وليس “تحميل اللوم” (<span class="english-term">Assigning Blame</span>).</p>
+
+    <h3>11.4.1 A Simple Response Framework — Use Consistently</h3>
+    <h3>11.4.1 إطار استجابة بسيط (استخدمه بثبات)</h3>
+
+
+    <!-- Response Framework Visual - Just Culture -->
+    <div style="background: linear-gradient(135deg, #e8f5e9 0%, #fff3e0 50%, #ffebee 100%); padding: 30px; border-radius: 25px; margin: 30px 0; box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h3 style="color: #1976d2; font-size: 28px; margin: 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.1);">📊 Response Framework</h3>
+            <h3 style="color: #0d47a1; font-size: 24px; margin: 10px 0 0 0;">إطار الاستجابة — الثقافة العادلة</h3>
+            <p style="color: #555; font-size: 14px; margin-top: 10px; font-style: italic;">Match Response to Intent & Risk</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 900px; margin: 0 auto;">
+            <!-- 1. Human Error -->
+            <div style="background: linear-gradient(135deg, #c8e6c9, #a5d6a7); border-left: 6px solid #66bb6a; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(102,187,106,0.3); transition: all 0.3s; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateX(10px)'; this.style.boxShadow='0 6px 16px rgba(102,187,106,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(102,187,106,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #66bb6a; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">1</div>
+                <h4 style="color: #2e7d32; margin: 0 0 15px 0; font-size: 22px;">✅ Human Error / خطأ بشري</h4>
+                <p style="margin: 10px 0; color: #1b5e20; font-size: 15px;"><strong>Behavior:</strong> Unintentional — slip, lapse, mistake under pressure</p>
+                <p style="margin: 10px 0; color: #1b5e20; font-size: 15px;"><strong>السلوك:</strong> غير مقصود — نسيان، خطأ في القراءة</p>
+                <div style="background: rgba(255,255,255,0.5); padding: 15px; border-radius: 10px; margin-top: 15px;">
+                    <p style="margin: 5px 0; color: #1b5e20; font-weight: bold;">Response / الاستجابة:</p>
+                    <p style="margin: 5px 0; color: #2e7d32;">• Console/Support — Second Victim Awareness</p>
+                    <p style="margin: 5px 0; color: #2e7d32;">• Analyze System Contributors</p>
+                    <p style="margin: 5px 0; color: #2e7d32;">• Strengthen Barriers</p>
+                </div>
+            </div>
+
+            <!-- 2. At-Risk Behavior -->
+            <div style="background: linear-gradient(135deg, #ffe0b2, #ffcc80); border-left: 6px solid #ff9800; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(255,152,0,0.3); transition: all 0.3s; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateX(10px)'; this.style.boxShadow='0 6px 16px rgba(255,152,0,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(255,152,0,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #ff9800; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">2</div>
+                <h4 style="color: #e65100; margin: 0 0 15px 0; font-size: 22px;">🔶 At-Risk Behavior / سلوك محفوف بالمخاطر</h4>
+                <p style="margin: 10px 0; color: #bf360c; font-size: 15px;"><strong>Behavior:</strong> Drift, shortcuts, normalization — "Everyone does this"</p>
+                <p style="margin: 10px 0; color: #bf360c; font-size: 15px;"><strong>السلوك:</strong> انحراف، اختصارات، "الجميع يفعل هذا"</p>
+                <div style="background: rgba(255,255,255,0.5); padding: 15px; border-radius: 10px; margin-top: 15px;">
+                    <p style="margin: 5px 0; color: #bf360c; font-weight: bold;">Response / الاستجابة:</p>
+                    <p style="margin: 5px 0; color: #e65100;">• Coach and Redesign</p>
+                    <p style="margin: 5px 0; color: #e65100;">• Remove Incentives for Unsafe Shortcuts</p>
+                    <p style="margin: 5px 0; color: #e65100;">• Make the Safe Path the Easy Path</p>
+                </div>
+            </div>
+
+            <!-- 3. Reckless Behavior -->
+            <div style="background: linear-gradient(135deg, #ffcdd2, #ef9a9a); border-left: 6px solid #f44336; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(244,67,54,0.3); transition: all 0.3s; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateX(10px)'; this.style.boxShadow='0 6px 16px rgba(244,67,54,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(244,67,54,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #f44336; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">3</div>
+                <h4 style="color: #c62828; margin: 0 0 15px 0; font-size: 22px;">⚠️ Reckless Behavior / سلوك متهور</h4>
+                <p style="margin: 10px 0; color: #b71c1c; font-size: 15px;"><strong>Behavior:</strong> Conscious disregard for substantial risk</p>
+                <p style="margin: 10px 0; color: #b71c1c; font-size: 15px;"><strong>السلوك:</strong> تجاهل واعٍ لخطر كبير</p>
+                <div style="background: rgba(255,255,255,0.5); padding: 15px; border-radius: 10px; margin-top: 15px;">
+                    <p style="margin: 5px 0; color: #b71c1c; font-weight: bold;">Response / الاستجابة:</p>
+                    <p style="margin: 5px 0; color: #c62828;">• Formal Accountability Actions — Not Optional</p>
+                    <p style="margin: 5px 0; color: #c62828;">• Protect Patients and Staff</p>
+                    <p style="margin: 5px 0; color: #c62828;">• Do Not Tolerate Persistent Violations</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Rule -->
+        <div style="background: white; padding: 20px; border-radius: 15px; margin-top: 30px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <p style="font-size: 18px; color: #1976d2; font-weight: bold; margin: 0;">🔑 Consistency Is Culture</p>
+            <p style="font-size: 15px; color: #555; margin: 10px 0 0 0;">الثبات هو الثقافة — Match response to intent, not outcome</p>
+        </div>
+    </div>
+    <div class="concept-box">
+        <h4>1️⃣ خطأ بشري (Human Error) — غير مقصود:</h4>
+        <p><strong>السلوك:</strong> نسيان، خطأ في القراءة، خطأ في الحساب تحت الضغط.</p>
+        <p><strong>الاستجابة:</strong></p>
+        <ul>
+            <li>✅ واسِ/ادعم (<span class="english-term">Console/Support</span>) — وعي “ضحية ثانوية” (<span class="english-term">Second Victim Awareness</span>).</li>
+            <li>✅ حلِّل المساهمين النظاميين (<span class="english-term">Analyze System Contributors</span>) — ما الذي في البيئة/العملية/المعدات سمح بالخطأ؟</li>
+            <li>✅ عزِّز الحواجز والعمل القياسي (<span class="english-term">Strengthen Barriers and Standard Work</span>) — اجعل الخطأ أصعب أو يُكتشف أسرع.</li>
+        </ul>
+    </div>
+
+    <div class="concept-box">
+        <h4>2️⃣ سلوك محفوف بالمخاطر (At-Risk Behavior) — انحراف، اختصارات، تطبيع:</h4>
+        <p><strong>السلوك:</strong> “الجميع يفعل هذا”، “الطريقة الآمنة بطيئة جداً”، “لا أحد يتبع البروتوكول الكامل.”</p>
+        <p><strong>الاستجابة:</strong></p>
+        <p>🔶 درّب وأعد تصميم (<span class="english-term">Coach and Redesign</span>):</p>
+        <ul>
+            <li>أزل الحوافز للاختصارات غير الآمنة.</li>
+            <li>اجعل المسار الآمن هو المسار السهل (<span class="english-term">Make the Safe Path the Easy Path</span>).</li>
+        </ul>
+    </div>
+
+    <div class="alert-box">
+        <h4>3️⃣ سلوك متهور (Reckless Behavior) — تجاهل واعٍ لخطر كبير:</h4>
+        <p><strong>السلوك:</strong> العمل تحت تأثير مواد، تجاهل إنذارات حرجة عمداً، رفض اتباع بروتوكولات سلامة أساسية رغم التحذيرات المتكررة.</p>
+        <p><strong>الاستجابة:</strong></p>
+        <ul>
+            <li>⚠️ إجراءات مساءلة رسمية (<span class="english-term">Formal Accountability Actions</span>) — ليست اختيارية (<span class="english-term">Not Optional</span>).</li>
+            <li>⚠️ احمِ المرضى والموظفين؛ لا تتسامح مع الانتهاكات المستمرة (<span class="english-term">Protect Patients and Staff; Do Not Tolerate Persistent Violations</span>).</li>
+        </ul>
+    </div>
+
+    <p><strong>المفتاح: الثبات هو الثقافة (<span class="english-term">Consistency Is Culture</span>)</strong></p>
+    <p>إذا حصل أشخاص مختلفون على استجابات مختلفة لسلوك مشابه، تصبح ثقافة السلامة “غير آمنة وسياسية” (<span class="english-term">Unsafe and Political</span>).</p>
+
+    <h2>📋 BOX 11.2 — Just Culture Decision Aid — Anesthesia-Ready</h2>
+    <h3>BOX 11.2 — أداة قرار الثقافة العادلة (جاهزة للتخدير)</h3>
+    <div class="concept-box">
+        <table>
+            <thead>
+                <tr>
+                    <th>السؤال</th>
+                    <th>الاستجابة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>هل كان خطأً غير مقصود؟</td>
+                    <td>← دعم + إعادة تصميم نظامي؛ العقاب غير فعّال.</td>
+                </tr>
+                <tr>
+                    <td>هل كان خياراً غير آمن متكرراً / تجاهلاً متعمداً لجهود السلامة؟</td>
+                    <td>← عامله كانتهاك؛ الانتهاكات المستمرة غير مُتسامح معها.</td>
+                </tr>
+                <tr>
+                    <td>هل كان متهوراً (مثلاً: تجاهل واعٍ لخطر كبير)؟</td>
+                    <td>← إجراءات مساءلة رسمية + احمِ المرضى.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>⚠️ 11.5 Handling Disruptive Behavior and Professionalism: Safety Requires Respect</h2>
+    <h3>11.5 التعامل مع السلوك التخريبي والاحترافية: السلامة تتطلب الاحترام</h3>
+    
+    <p>السلوكيات التخريبية تُقوِّض ثقافة السلامة (<span class="english-term">Disruptive Behaviors Undermine a Culture of Safety</span>) (بما في ذلك تلك المُعالجة في إرشادات Joint Commission والأدبيات المهنية حول الأطباء التخريبيين).</p>
+    
+    <div class="alert-box">
+        <p>في التخدير، السلوك التخريبي ليس “شخصية”. إنه عامل خطر (<span class="english-term">Risk Factor</span>):</p>
+        <ul>
+            <li>❌ يُسكت التحدث بصراحة (<span class="english-term">Silences Speaking Up</span>)</li>
+            <li>❌ يزيد أخطاء التسليم (<span class="english-term">Increases Handoff Errors</span>)</li>
+            <li>❌ يكسر العمل الجماعي بالضبط عندما تتطلب الطوارئ تنسيقاً هادئاً (<span class="english-term">Breaks Teamwork Exactly When Emergencies Require Calm Coordination</span>)</li>
+        </ul>
+    </div>
+
+    <h3>11.5.1 What Counts as Disruptive Behavior in Perioperative Care?</h3>
+    <h3>11.5.1 ما الذي يُعتبر سلوكاً تخريبياً في الرعاية الصحية الجراحية؟</h3>
+    <ul>
+        <li>❌ الصراخ، إذلال الموظفين، الترهيب (<span class="english-term">Shouting, Humiliating Staff, Intimidation</span>)</li>
+        <li>❌ رفض اتباع عمليات السلامة (<span class="english-term">Refusal to Follow Safety Processes</span>)</li>
+        <li>❌ الانتقام من التبليغ (<span class="english-term">Retaliating Against Reporting</span>)</li>
+        <li>❌ تواصل غير محترف مزمن يضر بالعمل الجماعي (<span class="english-term">Chronic Unprofessional Communication That Harms Teamwork</span>)</li>
+    </ul>
+
+    <h3>11.5.2 The Safety Response Pathway — Department-Level</h3>
+    <h3>11.5.2 مسار الاستجابة للسلامة (على مستوى القسم)</h3>
+
+    <!-- Disruptive Behavior Pathway Visual - Beautiful & Clear Design -->
+    <div style="background: linear-gradient(135deg, #f3e5f5 0%, #e1f5fe 50%, #fff9c4 100%); padding: 35px; border-radius: 20px; margin: 35px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <div style="text-align: center; margin-bottom: 35px; padding-bottom: 20px; border-bottom: 3px solid #9c27b0;">
+            <h3 style="color: #6a1b9a; font-size: 28px; margin: 0; font-weight: 700; font-family: 'Amiri', serif;">🛡️ Safety Response Pathway</h3>
+            <h3 style="color: #4a148c; font-size: 24px; margin: 12px 0 0 0; font-weight: 600; font-family: 'Amiri', serif;">مسار الاستجابة للسلوك التخريبي</h3>
+            <p style="color: #7b1fa2; font-size: 17px; margin-top: 12px; font-weight: 500;">Protect Safety Culture — Five-Step Response</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 900px; margin: 0 auto;">
+            <!-- Step 1 -->
+            <div style="background: linear-gradient(135deg, #c8e6c9, #a5d6a7); border-right: 8px solid #66bb6a; padding: 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(102,187,106,0.25); position: relative;">
+                <div style="position: absolute; top: 20px; right: 20px; background: #4caf50; color: white; border-radius: 12px; width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 700; font-family: 'Tajawal', sans-serif; box-shadow: 0 3px 8px rgba(76,175,80,0.3);">1</div>
+                <h4 style="color: #2e7d32; margin: 0 0 14px 0; font-size: 20px; font-weight: 700; font-family: 'Tajawal', sans-serif;">🔍 Early Identification / التعرف المبكر</h4>
+                <p style="margin: 8px 0; color: #1b5e20; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Peer Support — دعم الأقران</p>
+                <p style="margin: 8px 0; color: #1b5e20; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Confidential Reporting — إبلاغ سري</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div style="background: linear-gradient(135deg, #bbdefb, #90caf9); border-right: 8px solid #2196f3; padding: 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(33,150,243,0.25); position: relative;">
+                <div style="position: absolute; top: 20px; right: 20px; background: #1976d2; color: white; border-radius: 12px; width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 700; font-family: 'Tajawal', sans-serif; box-shadow: 0 3px 8px rgba(25,118,210,0.3);">2</div>
+                <h4 style="color: #0d47a1; margin: 0 0 14px 0; font-size: 20px; font-weight: 700; font-family: 'Tajawal', sans-serif;">💬 Structured Feedback / تغذية راجعة منظمة</h4>
+                <p style="margin: 8px 0; color: #01579b; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Specific Behaviors — سلوكيات محددة</p>
+                <p style="margin: 8px 0; color: #01579b; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Impact on Safety — تأثير على السلامة</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div style="background: linear-gradient(135deg, #f8bbd0, #f48fb1); border-right: 8px solid #e91e63; padding: 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(233,30,99,0.25); position: relative;">
+                <div style="position: absolute; top: 20px; right: 20px; background: #c2185b; color: white; border-radius: 12px; width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 700; font-family: 'Tajawal', sans-serif; box-shadow: 0 3px 8px rgba(194,24,91,0.3);">3</div>
+                <h4 style="color: #880e4f; margin: 0 0 14px 0; font-size: 20px; font-weight: 700; font-family: 'Tajawal', sans-serif;">🎯 Coaching & Support / تدريب ودعم احترافية</h4>
+                <p style="margin: 8px 0; color: #ad1457; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Physician Support Programs</p>
+                <p style="margin: 8px 0; color: #ad1457; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Communication Coaching</p>
+            </div>
+
+            <!-- Step 4 -->
+            <div style="background: linear-gradient(135deg, #ffe0b2, #ffcc80); border-right: 8px solid #ff9800; padding: 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(255,152,0,0.25); position: relative;">
+                <div style="position: absolute; top: 20px; right: 20px; background: #f57c00; color: white; border-radius: 12px; width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 700; font-family: 'Tajawal', sans-serif; box-shadow: 0 3px 8px rgba(245,124,0,0.3);">4</div>
+                <h4 style="color: #e65100; margin: 0 0 14px 0; font-size: 20px; font-weight: 700; font-family: 'Tajawal', sans-serif;">⚖️ Formal Escalation / تصعيد رسمي</h4>
+                <p style="margin: 8px 0; color: #bf360c; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Performance Improvement Plan</p>
+                <p style="margin: 8px 0; color: #bf360c; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Suspension of Privileges (if necessary)</p>
+            </div>
+
+            <!-- Step 5 -->
+            <div style="background: linear-gradient(135deg, #b2dfdb, #80cbc4); border-right: 8px solid #00bcd4; padding: 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,188,212,0.25); position: relative;">
+                <div style="position: absolute; top: 20px; right: 20px; background: #0097a7; color: white; border-radius: 12px; width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 700; font-family: 'Tajawal', sans-serif; box-shadow: 0 3px 8px rgba(0,151,167,0.3);">5</div>
+                <h4 style="color: #006064; margin: 0 0 14px 0; font-size: 20px; font-weight: 700; font-family: 'Tajawal', sans-serif;">🔄 Follow-Up Monitoring / مراقبة المتابعة</h4>
+                <p style="margin: 8px 0; color: #004d40; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Ensure Behavior Change</p>
+                <p style="margin: 8px 0; color: #004d40; font-size: 17px; line-height: 1.8; font-family: 'Tajawal', sans-serif; font-weight: 500;">• Restore Psychological Safety</p>
+            </div>
+        </div>
+
+        <!-- Key Question -->
+        <div style="background: white; border: 4px solid #9c27b0; padding: 28px; border-radius: 15px; margin-top: 30px; text-align: center; box-shadow: 0 4px 12px rgba(156,39,176,0.2);">
+            <p style="font-size: 22px; color: #6a1b9a; font-weight: 700; margin: 0; font-family: 'Tajawal', sans-serif;">❓ Key Question</p>
+            <p style="font-size: 19px; color: #4a148c; margin: 16px 0 0 0; font-weight: 600; font-family: 'Amiri', serif; line-height: 1.9;">هل يشعر الموظفون بالأمان للتحدث بصراحة مرة أخرى؟</p>
+            <p style="font-size: 17px; color: #7b1fa2; margin: 10px 0 0 0; font-weight: 500;">Do staff feel safe to speak up again?</p>
+        </div>
+    </div>
+    <p>مسار موثوق يعكس منطق الثقافة العادلة:</p>
+    
+    <ul>
+        <li><strong>الخطوة 1 — التعرف المبكر (<span class="english-term">Early Identification</span>):</strong> دعم الأقران (<span class="english-term">Peer Support</span>)، إبلاغ سري (<span class="english-term">Confidential Reporting</span>)</li>
+        
+        <li><strong>الخطوة 2 — تغذية راجعة منظمة (<span class="english-term">Structured Feedback</span>):</strong> سلوكيات محددة (<span class="english-term">Specific Behaviors</span>)، تأثير على السلامة (<span class="english-term">Impact on Safety</span>).<br>
+        <em>مثال: “في [التاريخ]، خلال [الحدث]، تم الإبلاغ عن أنك رفعت صوتك على الممرضة عندما سألت عن جرعة الدواء. هذا منع موظفين آخرين من طرح أسئلة سلامة حرجة في باقي اليوم. هذا سلوك يُعرِّض سلامة المرضى للخطر.”</em></li>
+        
+        <li><strong>الخطوة 3 — تدريب ودعم احترافية (<span class="english-term">Coaching and Professionalism Support</span>) — إذا كان مُتقبّلاً:</strong> برامج دعم الأطباء (<span class="english-term">Physician Support Programs</span>)، تدريب على التواصل (<span class="english-term">Communication Coaching</span>)</li>
+        
+        <li><strong>الخطوة 4 — تصعيد رسمي عبر حوكمة الطاقم الطبي (<span class="english-term">Formal Escalation Through Medical Staff Governance</span>) — إذا استمر أو كان شديداً:</strong> خطة تحسين الأداء (<span class="english-term">Performance Improvement Plan</span>)، تعليق امتيازات (<span class="english-term">Suspension of Privileges</span>) إذا لزم الأمر</li>
+        
+        <li><strong>الخطوة 5 — مراقبة المتابعة (<span class="english-term">Follow-Up Monitoring</span>):</strong> لضمان تغيير السلوك (<span class="english-term">Ensure Behavior Change</span>)، استعادة السلامة النفسية (<span class="english-term">Restore Psychological Safety</span>)</li>
+    </ul>
+    <p>السؤال الرئيسي: “هل يشعر الموظفون بالأمان للتحدث بصراحة مرة أخرى؟”</p>
+    
+    <div class="quote-box">
+        مسؤوليات لجنة الرعاية الصحية الجراحية أيضاً تشمل: “ضمان بيئة عمل آمنة تُعزِّز الزمالة والاحترام المتبادل — هذه حوكمة، وليست آداب اختيارية (<span class="english-term">This Is Governance, Not Optional Etiquette</span>).”
+    </div>
+
+    <h2>📋 BOX 11.3 — Managing Disruptive Behavior (Protecting the Speak-Up Culture)</h2>
+    <h3>BOX 11.3 — إدارة السلوك التخريبي (حماية ثقافة التحدث بصراحة)</h3>
+    <div class="concept-box">
+        <ul>
+            <li>✅ حدِّد السلوكيات التي تُقوِّض السلامة والاحترافية (<span class="english-term">Define Behaviors That Undermine Safety and Professionalism</span>).</li>
+            <li>✅ وفِّر قناة إبلاغ سرية (<span class="english-term">Provide a Confidential Reporting Channel</span>).</li>
+            <li>✅ استخدم تغذية راجعة منظمة + تدريب (<span class="english-term">Use Structured Feedback + Coaching</span>).</li>
+            <li>✅ صعِّد الحالات المستمرة/الشديدة عبر الحوكمة (<span class="english-term">Escalate Persistent/Severe Cases via Governance</span>).</li>
+            <li>✅ قِس استعادة المناخ (<span class="english-term">Measure Climate Recovery</span>): هل يشعر الموظفون بالأمان للتحدث بصراحة مرة أخرى؟</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>📈 11.6 Measuring and Strengthening Culture: Treat Culture as a System You Can Improve</h2>
+    <h3>11.6 قياس وتعزيز الثقافة: عامل الثقافة كنظام يمكنك تحسينه</h3>
+    
+    <p>ثقافة السلامة ليست ببساطة “جيدة” أو “سيئة”. لها أبعاد (<span class="english-term">Dimensions</span>):</p>
+    <ul>
+        <li>أنظمة التبليغ (<span class="english-term">Reporting Systems</span>)</li>
+        <li>الاستجابة/التغذية الراجعة (<span class="english-term">Response/Feedback</span>)</li>
+        <li>الفعالية المُدركة لموظفي السلامة (<span class="english-term">Perceived Effectiveness of Safety Personnel</span>)</li>
+        <li>عدالة المساءلة (<span class="english-term">Accountability Fairness</span>)</li>
+        <li>سلطة الموظفين (<span class="english-term">Employee Authority</span>)</li>
+        <li>توقعات الاحترافية (<span class="english-term">Professionalism Expectations</span>)</li>
+    </ul>
+
+    <div class="success-box">
+        <strong>خطوة عملية:</strong> قيِّم الحالة الحالية ← تدخّل ← أعد التقييم — بالضبط مثل أي دورة تحسين جودة أخرى (<span class="english-term">Assess Current State ← Intervene ← Reassess — Exactly Like Any Other Quality Improvement Cycle</span>).
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>📦 11.7 BOXES </h2>
+    <h3>11.7 الصناديق BOXES</h3>
+
+    <div class="concept-box">
+        <h4>BOX 11.1 — The Three Pillars of Safety Culture in Anesthesia</h4>
+        <h4>الركائز الثلاث لثقافة السلامة في التخدير</h4>
+        <ul>
+            <li><strong>1️⃣ السلامة النفسية (<span class="english-term">Psychological Safety</span>):</strong> يمكن للموظفين التحدث بصراحة دون انتقام.</li>
+            <li><strong>2️⃣ الإبلاغ + التعلم (<span class="english-term">Reporting + Learning</span>):</strong> تُبلَّغ الأخطاء، تُحلَّل دون لوم، وتتبعها خطوات وقاية.</li>
+            <li><strong>3️⃣ تعزيز القيادة (<span class="english-term">Leadership Reinforcement</span>):</strong> القادة يسألون، يستمعون، يدعمون التأمل ونقل المعرفة.</li>
+        </ul>
+    </div>
+
+    <div class="concept-box">
+        <h4>BOX 11.2 — Just Culture Decision Aid</h4>
+        <h4>أداة قرار الثقافة العادلة</h4>
+        <p>(مُكرّرة أعلاه — انظر 11.4.1)</p>
+    </div>
+
+    <div class="concept-box">
+        <h4>BOX 11.3 — Managing Disruptive Behavior</h4>
+        <h4>إدارة السلوك التخريبي</h4>
+        <p>(مُكرّرة أعلاه — انظر 11.5.2)</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>🎓 11.8 End-of-Chapter Tools — Simple and Usable</h2>
+    <h3>11.8 أدوات نهاية الفصل (بسيطة وقابلة للاستخدام)</h3>
+
+    <div class="alert-box">
+        <h4>أسئلة تأمل القسم (Department Reflection Questions):</h4>
+        <ul>
+            <li>1️⃣ هل يعتقد الموظفون أنهم يمكنهم الإبلاغ عن قرب-الحوادث دون عقاب؟</li>
+            <li>2️⃣ هل يستجيب القادة للقلق بالفضول والفعل؟</li>
+            <li>3️⃣ هل نُميِّز بين الخطأ والانتهاك بثبات؟</li>
+            <li>4️⃣ هل لدينا مسار واضح للسلوك التخريبي يحمي الموظفين والمرضى؟</li>
+        </ul>
+    </div>
+
+    <div class="success-box">
+        <h4>خلاصة الفصل 11 (نقاط للأمام — Carry-Forward Points):</h4>
+        <ul>
+            <li>✅ ثقافة السلامة تُشكِّل ما إذا كان الناس يتحدثون بصراحة وما إذا كان التعلم يحدث.</li>
+            <li>✅ ثقافة التبليغ تعمل فقط عندما يكون الموظفون آمنين نفسياً، وتُحلَّل الأخطاء دون لوم، وتتبعها خطوات وقاية.</li>
+            <li>✅ الثقافة العادلة توازن التعلم مع المساءلة بالتمييز بين الأخطاء والانتهاكات؛ معاقبة الخطأ الحقيقي غير فعّالة، لكن الانتهاكات المستمرة لا يمكن التسامح معها.</li>
+            <li>✅ السلوك التخريبي يُقوِّض ثقافة السلامة ويجب إدارته عبر مسار حوكمة عادل ومنظم.</li>
+        </ul>
+    </div>
+
+    <div class="quote-box">
+        <strong>رسالة ختامية:</strong><br>
+        ثقافة السلامة ليست “شعاراً على الحائط”. إنها ما يحدث عندما لا يراقب أحد.<br>
+        إنها ما يشعر به المقيم عندما يُفكِّر في الإبلاغ عن خطأ.<br>
+        إنها ما يفعله الاستشاري عندما يسمع خبراً سيئاً.<br>
+        إنها ما إذا كان الموظف الذي أبلغ عن قرب-حادثة يُشكر أم يُلام.<br>
+        بناء ثقافة السلامة ليس مشروعاً لمرة واحدة — إنه التزام يومي من كل قائد، في كل تفاعل، في كل قرار.
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_الحادي_عشر_ثقافة_السلامة.html";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+    </script>
+
+
+<script src="/static/chapter-enhancements.js"></script>

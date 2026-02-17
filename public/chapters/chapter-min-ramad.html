@@ -1,0 +1,2298 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImIxZjQyNzYzZjkzNGExOTQwMWNkOTFhNjdjY2FhNzdiNjIwNWU2N2EiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzQ0ZWEzMjVlNmVjZWE1OTJf2YXZhl_YsdmF2KfYr1_Yp9mE2LDYp9mD2LHYqV_YqNiq2LXZhdmK2YVf2KfZhNmD2KrYp9ioLmh0bWwtMjkyIn0sImV4cCI6MTc3MDA3NDc3OSwiaWF0IjoxNzcwMDcxMTc5LCJhbGciOiJSUzI1NiJ9.Jpiq8OFMds2-a3eM36gZDeVlvD6aaDcOq2eFkLgCV61nWIyLOKFF2cqUjIk0FMKjZL_jfHHvZXfsk3x-8JLHDXspK_z6apZG2BK3oMq_7YJJoGy3b0lrVqGJUz5GHuaZZXXNMiyBPCCOPQynI8Tz7MnZC9BEFJ-W59rAkjrUtjdMmItjeh_JOrdNBYbKzvZSujJYYYxbh-6xke9ku7zv_BHSSfKy8jTtuxd_C6v5sgm0G5JZpMmmTvQyBYhcx8V1-tQ4S9rQk9T1Sy5LdUcXj75EBLzuTwBb5bxnkBbxEoHvrbBxz2SpE-ZhIACSY4_81QQNHrX56E1enSyQFyRiTw","c_44ea325e6ecea592_من_رماد_الذاكرة_بتصميم_الكتاب.html-292")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-09-2025","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>من رماد الذاكرة - مذكرات طبيب تخدير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px; /* Added padding for the fixed header */
+        box-sizing: border-box;
+        text-align: justify;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      .download-icon {
+        font-size: 1.2em;
+      }
+
+      @media print {
+        .download-container {
+          display: none;
+        }
+        body {
+          padding-top: 40px;
+        }
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 10px;
+        margin-top: 0;
+        line-height: 1.3;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      p {
+        margin-bottom: 18px;
+        text-indent: 0;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 60px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        font-style: italic;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 15px 20px;
+        margin: 20px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 15px 20px;
+        margin: 20px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 4px;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      /* English Terms Styling */
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Bar -->
+    
+
+    <h1>من رماد الذاكرة</h1>
+    <div class="subtitle">مذكرات وقصص من واقع الطب والحياة</div>
+
+    <!-- القصة 1 -->
+    <h2>1. درهم القدسي: الجرح الغائر في الذاكرة</h2>
+    
+    <p>ثمة ليالٍ لا تُمحى من الذاكرة مهما تقادم الزمن، ليالٍ تظل جراحها تنزف في الوجدان حتى بعد أن يندمل كل شيء حولها. منذ عام 2009، وأنا أحمل في صدري ثقلًا لا يخف، كلما مر اسم "درهم القدسي" على لساني أو خاطري، تنهدتُ نفسًا عميقًا كمن يحاول أن يطرد شبح ذكرى لا تفارقه.</p>
+    <p>لم يكن درهم مجرد زميل، بل كان من أعظم من عرفت من الأطباء خُلقًا وخَلقًا. رجلٌ اجتمع فيه الطب بالإنسانية، والعلم بالتواضع، والكفاءة بالرحمة. كان رئيس قسم العناية المركزة، ذلك المكان الذي يحمل على عاتقه أرواحًا تتأرجح بين الحياة والموت.</p>
+    
+    <h3>الليلة التي لم تنته</h3>
+    <p>في تلك الليلة المشؤومة، كان من المفترض أن أكون أنا المناوب. اتصل بي زميلٌ في العناية يستغيث، ظرفٌ طارئ ألمَّ به، وقد اتصل متأخرًا. اعتذرتُ... ولم يجد بديلًا. فحمل درهم، بروح المسؤولية التي عُرف بها، عبء تلك الليلة على كاهله.</p>
+    <p>في ساعات الليل الأولى، فارق الحياة مريضٌ طاعن في السن، أنهكه فشل الأعضاء المتعدد: كلاه لم تعد تُصفي، كبده لم يعد يعمل، وجسده استسلم لقدره المحتوم. لم يكن درهم هو الطبيب المتابع لحالته، لكنه كان الموجود... وهذا كان كافيًا في عرف البعض.</p>
+    <p>عندما اتصل درهم بأهل المريض ليُعلمهم بالخبر المؤلم، لم يسمع عزاءً أو دعاءً، بل سمع تهديدًا صريحًا باردًا كالموت نفسه:</p>
+    
+    <div class="alert-box">
+        "سنأتي لنأخذ الثأر من الطبيب المناوب".
+    </div>
+
+    <h3>الطعنة من الخلف</h3>
+    <p>لم يكن درهم غافلًا. اتصل بأمن المستشفى، بالمدير الطبي، أُحيطت العناية المركزة بحراسة. لكن ماذا تغني الاحتياطات أمام همجية متجذرة في عقول أُشربت ثقافة الثأر؟</p>
+    <p>دخلوا... بأسلحتهم وخناجرهم، اخترقوا كل الحواجز، وكأنهم يقتحمون عرينًا لا مستشفى. وجدوه... الطبيب الذي أفنى عمره في إنقاذ الأرواح. لم يحاوروه، لم يسألوه، لم يمنحوه فرصة دفاع أو تفسير. طعنة من الخلف... غادرة كغدر القدر نفسه، اخترقت صدره، مزقت الشريان تحت الترقوة، وتركته ينزف على أرض المكان الذي طالما أنقذ فيه حياة الآخرين. ثم هربوا... كالجبناء.</p>
+
+    <h3>الليالي الأخيرة</h3>
+    <p>عندما وصلني الخبر، كان كالصاعقة. اهتز كياني، وشعرت بثقل الذنب يجثم على صدري. لو كنتُ أنا المناوب... لو لم أعتذر... لو...</p>
+    <p>قعدتُ معه في العناية المركزة ليلتين متتاليتين، أراقبه وهو موصول بجهاز التنفس الصناعي، جسده يحاول أن يقاوم، والدماء تنزف منه دون توقف. منذ اللحظة الأولى، كان النزيف هائلًا، والجسد المثخن بالجراح لم يعد يحتمل.</p>
+    <p>ظل درهم في العناية قرابة الشهر، يحارب الموت بكل ما تبقى فيه من قوة، بينما كنا نحن نحارب اليأس والغضب والعجز. ثم... في لحظة صمت مريرة، استسلم. توفي درهم... الطبيب الذي لم يقتله المرض، بل قتلته الجهالة.</p>
+
+    <h3>الصرخة الضائعة</h3>
+    <p>اعتصمنا... نحن الأطباء، خرجنا إلى الشوارع، وقفنا أمام رئاسة الوزراء، رفعنا أصواتنا مطالبين بالقصاص، بالعدالة، بأن يُحاسب القتلة. لكن صرختنا ضاعت في صحراء اللامبالاة. لا قانون يحمي، ولا دولة تُنصف، ولا عدالة تُرتجى.</p>
+
+    <h3>العِبرة</h3>
+    <div class="concept-box">
+        <p>تحمل قصة درهم القدسي كل معاني المأساة: مأساة الطبيب في وطن لا يحميه لا قانون ولا دولة، مأساة مهنة الطب التي تحولت إلى مهنة خطرة في بلد ينزف، مأساة مجتمع يقتل منقذيه بسبب جهل متجذر وثقافة ثأر عمياء.</p>
+        <p>لم يكن درهم مسؤولًا عن متابعة ذلك المريض، لم يكن حتى حاضرًا عند وفاته. لكنه كان موجودًا... وهذا كان كافيًا ليدفع حياته ثمنًا لجريمة لم يرتكبها.</p>
+        <p>كلما تذكرت درهم، تساءلت: كم من الأطباء سيُقتلون قبل أن نستيقظ؟ كم من الأرواح الطاهرة ستُزهق قبل أن نُدرك أن السلامة في مهنة التخدير والطب لا تعني فقط سلامة المريض، بل تعني أيضًا سلامة الطبيب؟</p>
+        <p>درهم القدسي... لم تمت ذكراك، بل أصبحت صرخة نحملها في كل كتاب نكتبه، وفي كل درس نعلمه، وفي كل مريض ننقذه.</p>
+    </div>
+    
+    <div class="success-box">
+        رحمك الله يا درهم... وجعل قبرك روضة من رياض الجنة.
+    </div>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 2 -->
+    <h2>2. نم قرير العين يا عبدالله...</h2>
+
+    <h3>أخوّة ليست كالأخوّة</h3>
+    <p>مُذ عرفتُ الدنيا وأنا وعبدالله لم نفترق. لم تكن أخوتنا مجرد صلة قرابة أو جوار، بل كانت تلك الرابطة النادرة التي تُنسج من خيوط الطفولة المشتركة. لعبنا معًا في أزقة القرية، سرنا معًا إلى المدرسة، تشاركنا الضحكات والأحلام، وكبرنا معًا تحت سماء واحدة.</p>
+    <p>كان عبدالله... مختلفًا. في شجاعته لا يُشبهه أحد، وفي حبه للخير ونجدة الناس كان فريدًا. كان من أولئك النادرين الذين يركضون نحو الخطر حين يفر منه الآخرون، الذين يمدون أيديهم للإصلاح حين يشعل الآخرون النيران.</p>
+
+    <h3>المكالمة التي شقّت الزمن</h3>
+    <p>في ذات يوم، بينما كنت منهمكًا في عملي بالمستشفى، رنّ هاتفي. كان عمي على الطرف الآخر... صوته يرتجف، نبرته تختنق بالبكاء، كلماته تتعثر كأنها تخرج من حنجرة مطعونة:</p>
+    <div class="alert-box">
+        "صديقك... عبدالله... أُصيب... وأخوه محمد... قُتِل"
+    </div>
+    <p>لم أستوعب. تجمّد الزمن. توقف كل شيء حولي. كيف؟ لماذا؟ ماذا حدث؟ لم تكن هناك إجابات، فقط صدمة تخترق القلب كرصاصة.</p>
+
+    <h3>الرحلة الأخيرة</h3>
+    <p>كانوا في طريقهم من قريتنا إلى صنعاء، رحلة اعتيادية تستغرق ثلاث ساعات. لكن تلك الرحلة لم تكن عادية، بل كانت محطة الوداع الأخيرة.</p>
+    <p>توجهتُ على الفور، قلبي يخفق بقوة، وعقلي يرفض التصديق. التقيتهم في منتصف الطريق... رأيته... عبدالله، الذي كان بالأمس يضحك ويمرح، ممددًا، جسده ملطخ بالدماء، لكن عينيه ما زالتا تحملان بريق الحياة.</p>
+    <p>رافقته حتى دخلنا المستشفى. دخل غرفة العمليات، وكنت أنا من يُخدّره. يا الله... كيف لي أن أضع القناع على وجه أخي؟ كيف لي أن أُدخله في نوم قد لا يستيقظ منه؟</p>
+    <p>كان لا يزال قادرًا على الكلام، صوته ضعيفًا لكنه واضح. أمسكتُ بيده، اقتربتُ من أذنه، ولقّنته الشهادتين بصوت يحاول أن يتماسك:</p>
+    <div class="success-box">
+        "أشهد أن لا إله إلا الله، وأشهد أن محمدًا رسول الله"
+    </div>
+    <p>ثم همستُ معه الدعاء الذي علّمنا إياه النبي عند النوم:</p>
+    <div class="quote-box">
+        "اللهم إني أسلمتُ نفسي إليك، ووجّهتُ وجهي إليك، وفوّضتُ أمري إليك، وألجأتُ ظهري إليك..."
+    </div>
+    <p>كانت تلك آخر كلمات تبادلناها قبل أن يغيب عن الوعي.</p>
+
+    <h3>عشرة أيام من العذاب والأمل</h3>
+    <p>استمر عبدالله في العناية المركزة عشرة أيام. عشرة أيام كانت كأنها عشرة دهور. كنا نجلس خارج باب العناية، نترقب، ندعو، نأمل، ونتشبث بخيط واهٍ من الأمل.</p>
+    <p>لكن الإصابة كانت قاسية... طلق ناري في البطن، مزّق الأحشاء، أتلف الأعضاء، ونزف منه الدم والحياة معًا.</p>
+    <p>في اليوم العاشر، استسلم جسده. لفظ عبدالله أنفاسه الأخيرة، وصعدت روحه الشجاعة إلى بارئها، تاركة خلفها فراغًا لا يُملأ وحسرة لا تُوصف.</p>
+
+    <h3>الجريمة... والثمن الباهظ</h3>
+    <p>لماذا مات عبدالله؟</p>
+    <p>لم يكن معتديا ، لم يكن طرفًا في نزاع. لقد ذهب ليُصلح بين جيران متخاصمين، ليُطفئ نار الفتنة، ليجمع شمل المتحاربين. لكنه دفع ثمنًا غاليًا... دفع حياته.</p>
+    <p>وقف بين المتقاتلين، حاول أن يفكّ الاشتباك، أن يُسكت صوت السلاح بصوت العقل. لكن رصاصة غادرة - لم تُفرّق بين مُصلح ومُفسد، بين بريء ومُذنب. اخترقت جسده، وأنهت حياة أشجع الرجال.</p>
+
+    <h3>هكذا يذهب الأبطال... ويبقى الحمقى</h3>
+    <p>هكذا هي بلادنا... يذهب أعظم من فيها بسبب حُمق أجهل من فيها. نفقد الشجعان، ونُبقي على الجبناء. نخسر المُصلحين، ونحتفظ بالمُفسدين. نُودّع الذين يحملون مشاعل النور، ونبقى في ظلمة دامسة.</p>
+    <p>عبدالله لم يكن مجرد صديق، بل كان رمزًا للشجاعة والإيثار. كان يمثل ذلك الجيل الذي يُضحّي بنفسه من أجل الآخرين، الذي يُقدّم روحه فداءً للسلام.</p>
+
+    <h3>الدرس الذي لا يُنسى</h3>
+    <div class="concept-box">
+        <p>تعلّمتُ من موت عبدالله درسًا قاسيًا: أن السلامة في مهنة الطب، وفي الحياة عمومًا، لا تعتمد فقط على مهاراتنا وحذرنا، بل تعتمد أيضًا على البيئة التي نعمل فيها، على المجتمع الذي نعيش فيه، على القوانين التي تحمينا أو تُهملنا.</p>
+        <p>عبدالله مات ليس لأنه أخطأ، بل لأنه أحسن. مات لأنه اختار الشجاعة على السلامة، والإصلاح على الحياد. وهذا هو الثمن الذي يدفعه الأخيار في بلاد لا تعرف قيمة الخير.</p>
+    </div>
+
+    <h3>نم قرير العين يا عبدالله</h3>
+    <p>نم قرير العين يا عبدالله... فقد عقمت النساء أن تلد أشجع منك.</p>
+    <p>رحمك الله، وجعل قبرك روضة من رياض الجنة، وجمعنا بك في الفردوس الأعلى، حيث لا رصاص يُطلق، ولا دماء تُسفك، ولا أرواح طاهرة تُزهق.</p>
+    <p>ذكراك باقية... وشجاعتك خالدة... ودروسك محفورة في قلوبنا وفي صفحات هذا الكتاب.</p>
+    
+    <div class="success-box">
+        <p>إلى روح عبدالله... البطل الذي لم يتأخر على من طلب المساعدة ا، البطل الذي حمل قلبًا أشجع من كل الأسلحة</p>
+    </div>
+
+    <!-- القصة 3 -->
+    <h2>3. أول يوم لي في التخدير: درس لا يُنسى</h2>
+
+    <h3>حين يبدأ الطبيب من الصفر</h3>
+    <p>اليوم الأول في أي تخصص طبي هو يوم مهيب، يوم تقف فيه على عتبة عالم جديد، تحمل شهادتك وثقتك المهتزة، وتستعد لمواجهة الواقع الذي لا يرحم المبتدئين.</p>
+    <p>كان ذلك أول يوم لي في قسم التخدير. دخلتُ غرفة العمليات بقلب يخفق، وعينين تراقبان كل تفصيلة، وعقل يحاول أن يستدعي كل ما تعلّمته في الكتب. لكنني لم أكن أعلم أن أول درس حقيقي لن يأتي من الكتب، بل من موقف محرج لن أنساه ما حييت.</p>
+
+    <h3>الأمر البسيط... أو هكذا ظننت</h3>
+    <p>أمرني الدكتور زهير، استشاري التخدير، بمهمة بسيطة - أو هكذا بدت لي:</p>
+    <div class="quote-box">"ضع كانيولا للمريض"</div>
+    <p>كانيولا؟ بسيطة! لقد تعلّمتها في الكلية، شاهدتها مرات، قرأت عنها. كم يمكن أن تكون صعبة؟</p>
+    <p>أحضرتُ الكانيولا، والكحول المعقم، ومسحتُ جلد المريض بعناية، وأدخلتُ الإبرة في الوريد بنجاح. رأيتُ الدم يتدفق في أنبوب الكانيولا... ممتاز! لقد نجحت!</p>
+
+    <h3>حين تحوّل النجاح إلى كابوس</h3>
+    <p>لكن... حين حاولتُ أن أُغلق الكانيولا بوضع السدادة على فوهتها، لم تثبت. حاولت مرة أخرى... لا فائدة. السدادة لا تدخل، والدم بدأ يخرج، يتدفق على يدي، يلطّخ القفازات، يُحرجني.</p>
+    <p>أعدتُ المحاولة... ومرة أخرى... وأخرى. الدم يخرج، والسدادة لا تدخل. يدي تلطّخت بالدم، المريض ينظر إليّ بقلق، والممرضات يتهامسن.</p>
+    <p>وفي تلك اللحظة، سمعتُ صوتًا يقهقه خلفي... إنه الدكتور زهير.</p>
+    <div class="quote-box">"أكل المريض هوا    !" قالها وهو يضحك بصوت عالٍ.</div>
+    <p>شعرتُ بأن الأرض تنشق تحت قدميّ. الحرج كان يخنقني، والدم على يديّ كان يزيد من ارتباكي. نظرتُ إلى الدكتور زهير، متوقعًا أن يتدخل، أن يُنقذني، أن يُريني ما الخطأ.</p>
+    <p>لكنه... لم يتحرك.</p>
+    <p>بقي واقفًا، مبتسمًا، يراقبني وأنا أتخبط، يتابع محاولاتي الفاشلة، ولا يُحرّك ساكنًا.</p>
+    <p>استمر الموقف... ثوانٍ بدت كأنها وقت طويل. أنا أحاول، والدم يخرج، والسدادة لا تدخل، والدكتور زهير يُراقب.</p>
+
+    <p>ثم... كالملاك الذي ينزل من السماء، أتت ممرضة بالصدفة. نظرت إلى يديّ الملطختين بالدم، ونظرت إلى الكانيولا، وابتسمت ابتسامة عارفة.</p>
+    <p>اقتربت مني بهدوء، وأخذت السدادة من يدي، وقالت بصوت لطيف:</p>
+    <div class="success-box">"للسدادة غطاء داخلي... يجب أن تُزيله أولاً لكي تستطيع إغلاق الكانيولا"</div>
+    <p>نظرتُ إلى السدادة... وفعلًا! كان هناك غطاء بلاستيكي صغير يسدّ فتحتها من الداخل. أزالته... ووضعتُ السدادة بسهولة. دخلت بسلاسة، وأُغلقت الكانيولا، وتوقف نزيف الدم.</p>
+
+    <h3>الحكمة خلف القهقهة</h3>
+    <p>شعرتُ بمزيج من الارتياح والإحراج الشديد. كيف لم ألاحظ ذلك الغطاء؟ كيف فاتني هذا التفصيل البسيط؟</p>
+    <p>لكن حين نظرتُ إلى الدكتور زهير، لم أجد في عينيه سخرية، بل حكمة.</p>
+    <p>لقد تركني أتخبط عمدًا. لم يُنقذني مبكرًا، لم يتدخل في اللحظة الأولى. تركني أخطئ، تركني أُحرج، تركني أتعلّم.</p>
+    <p>لأنه كان يعلم أن الدرس الذي يأتي من الخطأ لا يُنسى أبدًا.</p>
+
+    <h3>الدرس الذي لا يُنسى</h3>
+    <div class="concept-box">
+        <p>مرّت سنوات طويلة منذ ذلك اليوم، خدّرتُ مئات، بل آلاف المرضى، وضعتُ كانيولات لا تُعد ولا تُحصى. لكنني في كل مرة، حين أمسك بالسدادة، أتذكر ذلك اليوم. أتذكر الدم على يديّ، وقهقهة الدكتور زهير، والممرضة المنقذة.</p>
+        <p>لم أنسَ أبدًا أن أتفحص وجود الغطاء الداخلي للسدادة.</p>
+    </div>
+
+    <h3>فلسفة التعليم بالخطأ</h3>
+    <p>كان للدكتور زهير حكمة عميقة في طريقة تعليمه. لم يكن يريد أن يُنشئ أطباء يعتمدون عليه في كل خطوة، بل أراد أن يُنشئ أطباء يتعلمون من أخطائهم، يواجهون التحديات بأنفسهم، ويتذكرون الدروس مدى الحياة.</p>
+    <p>التعليم الحقيقي لا يأتي من الإنقاذ السريع، بل من السماح بالفشل تحت المراقبة.</p>
+    <p>لو أنه تدخّل في اللحظة الأولى، لو أنه أرشدني فورًا، لكنتُ نسيتُ الموقف بعد ساعة. لكن لأنه تركني أتخبط، لأنه تركني أُحرج، لأنه تركني أتعلم بالطريقة الصعبة... لم أنسَ أبدًا.</p>
+
+    <h3>السلامة في التفاصيل الصغيرة</h3>
+    <div class="alert-box">
+        <p>هذا الموقف البسيط علّمني درسًا أكبر بكثير من مجرد كيفية وضع كانيولا. علّمني أن السلامة في التخدير تكمن في التفاصيل الصغيرة.</p>
+        <p>كم من الأخطاء الطبية الكبيرة نشأت من تفصيل صغير تم إهماله؟ كم من المضاعفات الخطيرة حدثت بسبب خطوة بسيطة لم تُنفّذ بشكل صحيح؟</p>
+        <p>الكانيولا التي لا تُغلق بشكل صحيح قد تسبب نزيفًا. الدواء الذي يُعطى بجرعة خاطئة قد يقتل. الأنبوب الذي يُوضع في المكان الخاطئ قد يُسبب اختناقًا.</p>
+        <p>التفاصيل الصغيرة ليست صغيرة في الطب... إنها الفرق بين الحياة والموت.</p>
+    </div>
+
+    <h3>شكرًا يا دكتور زهير</h3>
+    <p>اليوم، وأنا أكتب هذا الكتاب عن السلامة في التخدير، أتذكر الدكتور زهير بكل تقدير وامتنان.</p>
+    <p>لم يكن معلّمًا عاديًا، بل كان معلّمًا حكيمًا. علّمني أن الخطأ ليس عيبًا، بل هو فرصة للتعلم. علّمني أن الإحراج اللحظي خير من الخطأ القاتل المستقبلي.</p>
+    <p>شكرًا لك يا دكتور زهير... على قهقهتك التي لم أنسها، وعلى حكمتك التي غيّرت طريقة تعلّمي، وعلى درسك الذي لا يُنسى.</p>
+
+    <h3>الخلاصة</h3>
+    <div class="concept-box">
+        <p>في عالم الطب، وخاصة في التخدير، لا مجال للغرور، ولا مكان للتسرع، ولا عذر لإهمال التفاصيل.</p>
+        <p>كل خطأ صغير قد يتحول إلى كارثة كبيرة. وكل درس نتعلمه من أخطائنا قد يُنقذ حياة في المستقبل.</p>
+        <p>أول يوم لي في التخدير علّمني أكثر من كل الكتب التي قرأتها... علّمني التواضع، والانتباه، وقيمة التعلم من الخطأ.</p>
+    </div>
+    
+    <div class="success-box">
+        إلى كل طبيب مبتدئ: لا تخف من الخطأ، بل تعلّم منه.<br>وإلى كل معلّم حكيم: اتركوا طلابكم يخطئون تحت إشرافكم... فهكذا يتعلّمون.
+    </div>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 4 -->
+    <h2>4. مقالب العم أبو جهاد:  التعليم بالضحك</h2>
+    <p>في عالم غرف العمليات، حيث التوتر يملأ الأجواء والمسؤولية ثقيلة كالجبال، ثمة شخصيات نادرة تُضيء المكان بروحها المرحة، تجعل من الجدية مساحة للابتسامة، ومن الضغط فرصة للتنفس.</p>
+    <p>كان أبو جهاد واحدًا من هؤلاء النوادر.</p>
+    <p>فني تخدير مخضرم، عمل لسنوات طويلة في الخدمات الطبية الملكية في الأردن، خبرته تُعد بعشرات السنين، ومهارته لا يُشق لها غبار. كان على أعتاب التقاعد، لم يتبقَّ له إلا القليل من السنوات، لكن روحه كانت شابة مرحة، ونفسه كانت مُفعمة بحب المزاح.</p>
+    <p>لكن مزاح أبو جهاد لم يكن عاديًا... بل كان مقالب احترافية لا تُحصى ولا تُنسى.</p>
+
+    <h3>المقلب الكلاسيكي: الموجات الكاذبة</h3>
+    <p>من أشهر مقالب أبو جهاد، والذي وقعتُ في شباكه مرارًا وتكرارًا، كان مقلب "الموجات الكاذبة".</p>
+    <p>المشهد يبدأ هكذا:</p>
+    <p>ننتهي من العملية الجراحية، وأوقف جهاز التخدير عن إعطاء الغاز المُخدّر، وأنتظر أن يستيقظ المريض ويبدأ بالتنفس التلقائي. ألتفت إلى شاشة المراقبة، وأُدير ظهري للمريض، وأُركّز عينيّ على موجات الكابنوغراف <span class="english-term">(Capnograph)</span> - تلك الموجات التي تُعبّر عن ثاني أكسيد الكربون الخارج من رئتي المريض.</p>
+    <p>القاعدة بسيطة:</p>
+    <ul>
+        <li>خط مستوٍ = المريض لا يتنفس، لا يزال تحت تأثير التخدير.</li>
+        <li>موجات صعودًا ونزولاً = المريض بدأ بالتنفس، حان وقت إزالة أنبوب الرغامى.</li>
+    </ul>
+    <p>كنت أراقب الشاشة بتركيز، في انتظار تلك الموجات المُنتظرة... وفجأة، تظهر الموجات!</p>
+    <p>صعود... نزول... صعود... نزول... ممتاز! المريض بدأ يتنفس!</p>
+
+    <h3>الفخ ينصب... والضحية تقع</h3>
+    <p>أبدأ على الفور بإجراءات إزالة أنبوب الرغامي من فم المريض. أُحضّر المعدات، أُجهّز القناع، أستعد لسحب الأنبوب. والجراحون والممرضون حولي يتفرّجون... وعلى وجوههم ابتسامات مُريبة يحاولون إخفاءها.</p>
+    <p>أسحب الأنبوب... أضع القناع على وجه المريض لإعطائه الأكسجين... وأنتظر أن يأخذ نفسه الأول.</p>
+    <p>لكن... لا شيء.</p>
+    <p>المريض لا يتنفس. صدره لا يتحرك. لا نفس واحد.</p>
+    <p>أُصاب بالذعر. أنظر إلى الشاشة مرة أخرى... الموجات اختفت! ماذا حدث؟!</p>
+
+    <h3>اللحظة الفاضحة</h3>
+    <p>ألتفت إلى الاستشاري، عيناي واسعتان، صوتي يرتجف:</p>
+    <div class="alert-box">"والله يا دكتور، لقد رأيته يتنفس! رأيت الموجات بأم عيني!"</div>
+    <p>ينظر إليّ الاستشاري بابتسامة عارفة، ويقول بهدوء:</p>
+    <div class="quote-box">"في حدا ضحك عليك؟"</div>
+    <p>وفجأة... تنفجر غرفة العمليات بالضحك.</p>
+    <p>يقهقه الجراحون، تضحك الممرضات، ويُطلق الفنيون العنان لضحكاتهم المكتومة. وفي الزاوية، يقف أبو جهاد، مبتسمًا ابتسامة المنتصر، يداه لا تزالان على صدر المريض.</p>
+
+    <h3>السر المكشوف</h3>
+    <p>اتضح الأمر: كان أبو جهاد يضغط على صدر المريض بإيقاع منتظم، يُحاكي حركة التنفس الطبيعي، فتظهر الموجات على شاشة الكابنوغراف وكأن المريض يتنفس فعلاً!</p>
+    <p>خدعة بسيطة، لكنها احترافية. خبرة عشرات السنين تُستخدم في... مقلب!</p>
+
+    <h3>الدرس خلف الضحكة</h3>
+    <div class="concept-box">
+        <p>وقعتُ في هذا المقلب مرات عديدة، لكنني في كل مرة كنتُ أتعلم درسًا جديدًا:</p>
+        <p>لا تعتمد على الشاشات وحدها... انظر إلى المريض!</p>
+        <p>كانت مقالب أبو جهاد، رغم إحراجها، دروسًا تعليمية مُقنّعة بالمزاح. علّمتني ألا أثق بالأجهزة، وأن أستخدم حواسي كلها: النظر، اللمس، السمع. علّمتني أن الطبيب الجيد لا يُراقب الشاشة فقط، بل يُراقب المريض أولاً.</p>
+        <p>وعلّمتني أيضًا أن الضحك في غرفة العمليات ليس أمرا خاطئا، بل هو أحيانًا ضرورة، لكسر التوتر، ولتخفيف الضغط، ولتذكيرنا بأننا بشر قبل أن نكون أطباء.</p>
+    </div>
+
+    <p>لم يكن أبو جهاد مجرد فني، بل كان معلّمًا بطريقته الخاصة. لم يُلقِ محاضرات، ولم يكتب في دفاتر، لكنه غرس فينا دروسًا لا تُنسى من خلال مقالبه.</p>
+    <p>كان يُعلّمنا التواضع: مهما بلغت خبرتك، يمكن أن تُخدع.</p>
+    <p>كان يُعلّمنا اليقظة: لا تثق بكل ما تراه على الشاشة.</p>
+    <p>كان يُعلّمنا الإنسانية: الضحك يُخفف من ثقل المسؤولية.</p>
+
+    <h3>تحية وفاء</h3>
+    <p>اليوم، وأنا أكتب هذا الكتاب، لا يسعني إلا أن أرفع تحية إجلال وتقدير:</p>
+    <p>تحية لأبو جهاد، الفني المخضرم، صاحب المقالب التي لا تُنسى، والدروس التي تُحفظ بالضحك.</p>
+    <p>تحية لأستاذي يوسف أبو عمران، الذي علّمني فنون التخدير بصبر وحكمة.</p>
+    <p>تحية للدكتور راضي بدر، الذي غرس فيّ حب هذا التخصص وأهمية السلامة فيه.</p>
+    <p>وتحية لجميع من كان لهم فضل عليّ، من أساتذة وزملاء وفنيين، الذين شكّلوا مسيرتي المهنية، وتركوا بصمة في قلبي وذاكرتي.</p>
+
+    <h3>الخلاصة</h3>
+    <div class="concept-box">
+        <p>في عالم الطب الجاد، حيث كل قرار قد يكون مسألة حياة أو موت، ثمة مساحة للضحك، ثمة مكان للمزاح، ثمة حاجة للروح المرحة التي تُخفف من ثقل المسؤولية.</p>
+        <p>لكن الضحك الحقيقي، الضحك الذي يحمل قيمة، هو الضحك الذي يُعلّم، الذي يُنبّه، الذي يُذكّر، الذي يجعلنا أفضل.</p>
+        <p>مقالب أبو جهاد لم تكن مجرد مزحات، بل كانت دروسًا لا تُنسى، مُغلّفة بالضحك.</p>
+        <p>طبعا نحن في نهاية العملية ولا يوجد خطر على سلامة المريض ونبقى نعطي المريض تنفس بالماسك حتى يكون في أمان.</p>
+    </div>
+    
+    <div class="success-box">
+        إلى أبو جهاد، وإلى كل من علّمنا بالحب والمزاح والحكمة... شكرًا من القلب.<br>رحم الله من مات منكم، وحفظ الله من كان حيًا، وجزاكم عنا خير الجزاء.
+    </div>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 5 -->
+    <h2>5. اللحظات التي كادت المريض يخنقني :</h2>
+    
+    <p>في أوائل الألفية الثانية، ظهرت في الأسواق أجهزة جديدة أثارت دهشتنا جميعًا: الهواتف الجوالة الذكية <span class="english-term">(Pocket PC Mobile)</span>.  لم تكن مجرد هواتف، بل كانت أجهزة سحرية تحتوي على ألعاب، وبرامج، وإمكانيات لم نكن نتخيلها. كانت فتنة العصر، ولعبة الجميع.</p>
+    <p>وأنا، كغيري من الشباب في ذلك الوقت، انبهرتُ بها. حملتها معي في كل مكان، حتى إلى غرفة العمليات.</p>
+    <p>لم أكن أعلم أن لحظة انبهار واحدة ستكاد أن تكلفني حياتي... وحياة مريضي.</p>
+
+    <h3>العملية الروتينية... أو هكذا ظننت</h3>
+    <p>كانت عملية روتينية، لا تعقيدات فيها. مريض ضخم الجثة، قوي البنية، أُجريت له عملية جراحية بسيطة. استخدمتُ قناع الحنجرة   ( <span class="english-term">LMA -  Laryngeal Mask Airway</span>)    لتأمين مجرى التنفس، وسارت العملية بسلاسة تامة.</p>
+    <p>انتهت الجراحة، وأطفأتُ غاز التخدير، وبدأتُ مرحلة الإفاقة. المريض في طريقه للاستيقاظ، الوضع مستقر، الأمور تحت السيطرة.</p>
+    <p>كنتُ وحدي في الغرفة. الجراح غادر، الممرضات انشغلن بتنظيف الأدوات. لا أحد معي سواي والمريض.</p>
+
+    <p>في تلك اللحظة، تذكرتُ هاتفي الجديد في جيبي. لعبة صغيرة بدأتُها في الصباح ولم أُكملها. "دقيقة واحدة فقط"، قلتُ لنفسي. المريض لا يزال نائمًا، الأجهزة تُشير إلى استقرار حالته، ما الضرر في لحظة استراحة صغيرة؟</p>
+    <p>أخرجتُ الهاتف... وانغمستُ في اللعبة.</p>
+    <p>ثوانٍ... ربما دقيقة... لا أذكر بالضبط كم من الوقت مرّ. لكنه كان وقتًا كافيًا لحدوث الكارثة.</p>
+
+    <p>فجأة... شعرتُ بحركة. رفعتُ رأسي من الهاتف، ورأيت مشهدًا لا يُنسى:</p>
+    <div class="alert-box">
+        <p>المريض... ذلك الرجل الضخم، القوي، نهض فجأة من طاولة العمليات!</p>
+    </div>
+    <p>لم يستيقظ بهدوء، لم يفتح عينيه ببطء... بل قفز وكأنه خرج من كابوس. وقف على ركبتيه فوق الطاولة، وقناع الحنجرة <span class="english-term">(LMA)</span> لا يزال عالقًا في حلقه، الأنابيب متدلية، الأجهزة تصدر أصوات إنذار.</p>
+    <p>فتح عينيه... لكنهما لم تكونا عيني رجل واعٍ، بل عيني شخص في حالة هذيان ما بعد التخدير <span class="english-term">(Emergence Delirium)</span> - تلك الحالة الخطيرة التي يستيقظ فيها المريض مشوشًا، عنيفًا، لا يعي ما حوله.</p>
+    <p>بدأ يترنح... يكاد يسقط من الطاولة.</p>
+
+    <p>لم يكن أمامي خيار. لا وقت للصراخ طلبًا للمساعدة، لا وقت للتفكير. ركضتُ نحوه وأحتضنته بكل قوتي، محاولًا منعه من السقوط، من إيذاء نفسه، محاولا  انتزاع قناع الحنجرة من حلقه.</p>
+    <p>لكنه... في حالة هذيانه، لم يفهم أنني أحاول إنقاذه.</p>
+    <p>وضع يديه حول رقبتي... وبدأ يخنقني.</p>
+    <p>قوته كانت هائلة، يداه كالكماشة حول عنقي، أصابعه تضغط على حنجرتي، تقطع مجرى الهواء. حاولتُ أن أصرخ، أن أطلب المساعدة، لكن الصوت لم يخرج. كنت مخنوقًا، عاجزًا، محاصرًا بين ذراعي مريضي.</p>
+
+    <h3>لحظات بين الحياة والموت</h3>
+    <p>ثوانٍ بدت كأنها دهور. أنا أحتضنه لمنعه من السقوط، وهو يخنقني دون أن يعي. الأجهزة تصرخ بإنذاراتها، الأنابيب تتدلى، وأنا أحاول أن أتنفس، أحاول أن أبقى واعيًا، أحاول أن أُمسك به حتى لا يسقط.</p>
+    <p>لا أذكر كيف انتهت اللحظات، ربما استعاد المريض بعض وعيه. لكنني نجوتُ... بأعجوبة.</p>
+
+    <h3>الاعتراف والاعتذار</h3>
+    <p>بعد انتهاء كل شيء، بعد أن استقر المريض، واستعاد وعيه الكامل، وأُزيل قناع الحنجرة بأمان، قررتُ أن أفعل شيئًا غير معتاد:</p>
+    <p>حكيتُ له القصة بصراحة.</p>
+    <p>أخبرته بما حدث، كيف استيقظ فجأة، كيف وقف على ركبتيه، كيف وضع يديه حول رقبتي.</p>
+    <p>نظر إليّ بعينين واسعتين، مصدومًا، لا يُصدّق:</p>
+    <div class="quote-box">"أنا فعلت هذا؟! يا إلهي... أنا آسف جدًا يا دكتور!"</div>
+    <p>كان مستغربًا تمامًا، لا يتذكر شيئًا، لا يُصدّق أنه قادر على فعل شيء كهذا. اعتذر بحرارة، بإخلاص، وشعرتُ أنه أكثر صدمة مني.</p>
+
+    <p>هذا الموقف علّمني أقسى وأهم درس في مسيرتي المهنية:</p>
+    <div class="alert-box">
+        <strong>لا تلهُ عن المريض... ولو للحظة واحدة.</strong>
+    </div>
+    <p>مرحلة الإفاقة من التخدير ليست "وقت استراحة". بل هي أخطر مرحلة في العملية كلها. المريض يمر بحالة انتقالية بين اللاوعي والوعي، وفي هذه اللحظات قد يحدث أي شيء:</p>
+    <ul>
+        <li>هذيان ما بعد التخدير <span class="english-term">(Emergence Delirium)</span>: المريض يستيقظ مشوشًا، عنيفًا، خطيرًا.</li>
+        <li>انسداد مجرى التنفس: بسبب ارتخاء عضلات الحلق.</li>
+        <li>استنشاق محتويات المعدة <span class="english-term">(Aspiration)</span>: إذا تقيأ المريض وهو غير واعٍ تمامًا.</li>
+        <li>هبوط حاد في الضغط أو ضربات القلب.</li>
+    </ul>
+    <p>كل هذه المضاعفات قد تحدث في ثوانٍ، وقد تكون قاتلة إذا لم يكن الطبيب حاضرًا، منتبهًا، مستعدًا.</p>
+
+    <h3>حتى يصل المريض إلى بر الأمان</h3>
+    <p>منذ ذلك اليوم، أقسمتُ على نفسي:</p>
+    <p>لن ألهو عن مريضي... لن أنشغل بهاتفي... لن أغفل للحظة... حتى يصل المريض إلى بر الأمان.</p>
+    <p>"بر الأمان" لا يعني فقط أن يستيقظ المريض، بل يعني:</p>
+    <ul>
+        <li>أن يكون واعيًا تمامًا</li>
+        <li>أن يتنفس بشكل طبيعي ومستقل</li>
+        <li>أن تكون علاماته الحيوية مستقرة</li>
+        <li>أن يُنقل بأمان إلى غرفة الإفاقة</li>
+        <li>أن يكون تحت مراقبة مستمرة</li>
+    </ul>
+    <p>فقط عندها... يمكنني أن أرتاح.</p>
+
+    <h3>رسالة إلى كل طبيب تخدير</h3>
+    <p>إلى كل زميل يعمل في هذا التخصص الدقيق:</p>
+    <p>الهاتف يمكن أن ينتظر. اللعبة يمكن أن تُكمل لاحقًا. الرسالة يمكن أن تُقرأ بعد قليل.</p>
+    <p>لكن المريض... لا ينتظر.</p>
+    <p>في ثانية واحدة من الغفلة، قد تحدث كارثة. في لحظة واحدة من الإهمال، قد تُزهق روح.</p>
+    <p>مسؤوليتنا لا تنتهي بانتهاء الجراحة، بل تنتهي فقط حين يصل المريض بأمان إلى بر النجاة.</p>
+
+    <h3>الخلاصة</h3>
+    <div class="concept-box">
+        <p>كادت لحظة إهمال واحدة أن تُنهي حياتي، وحياة مريضي. كاد هاتف صغير أن يتحول إلى أداة ضارة. كادت لعبة تافهة أن تُسبب كارثة.</p>
+        <p>لكنني نجوتُ... وتعلّمتُ.</p>
+        <p>تعلّمتُ أن السلامة في التخدير لا تعتمد فقط على المهارة والمعرفة، بل تعتمد أيضًا على التركيز المستمر، اليقظة الدائمة، والالتزام التام بمراقبة المريض في كل لحظة.</p>
+        <p>المريض أمانة في عنقك... لا تخذله.</p>
+    </div>
+    
+    <div class="success-box">
+        إلى كل من يقرأ هذه القصة... تعلّم من خطئي، ولا تكرره.<br>حتى يصل كل مريض إلى بر الأمان... نحن مسؤولون.
+    </div>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 6 -->
+    <h2>6. لا تغفل عن الحشوة... فقد تكلفك كل شيء</h2>
+    
+    <p>ثمة أيام في حياة الطبيب تجتمع فيها المأساة الشخصية مع الخطر المهني، فتتحول إلى عاصفة لا يمكن نسيانها. كان ذلك يوم جمعة، يوم نادرًا ما نُجري فيه عمليات انتخابية كعمليات التجميل، لكن الظروف اقتضت أن نعمل.</p>
+    <p>كانت عملية تجميل أنف <span class="english-term">(Rhinoplasty)</span> لجراح مرموق، عملية طويلة، دقيقة، تتطلب تركيزًا عاليًا. وأنا، في ذلك الوقت، كنت لا أزال مقيمًا في التخدير، أتعلم، أكتسب الخبرة، وأحمل على كاهلي مسؤولية حياة المرضى.</p>
+    <p>سارت العملية بسلاسة. وضعتُ الحشوة الحلقية <span class="english-term">(Throat Pack)</span> في بداية العملية - تلك القطعة القماشية التي توضع في الحلق لمنع تسرب الدم من الأنف إلى المعدة أثناء الجراحة. إجراء روتيني، ضروري، لكنه محفوف بالخطر إذا نُسي.</p>
+
+    <h3>الصاعقة التي شلّت العقل</h3>
+    <p>وفي نهاية العملية، بينما كنت أستعد لإيقاظ المريض، جاءني اتصال عبر تلفون المستشفى كان جاري في الأردن يقول لي هناك خبر غير سار خذ زوجتك معك ... كان صوتها مختنق بالبكاء:</p>
+    <div class="alert-box">"أبي مات... جلطة مفاجئة..."</div>
+    <p>توقف الزمن. أبوها... الذي كان خالي أيضًا. الرجل الذي أحببته، الذي كان جزءًا من حياتي. رحل فجأة، دون سابق إنذار.</p>
+    <p>نزل الخبر عليّ كالصاعقة. شعرتُ بأن الأرض تميد تحت قدميّ، وأن قلبي يُسحق في صدري. أردتُ أن أركض، أن أترك كل شيء، أن أذهب إلى زوجتي، إلى عائلتي.</p>
+    <p>لكنني... كنتُ مناوبًا. لا يوجد بديل. لا يوجد من يقوم مقامي. المريض لا يزال تحت تأثير التخدير، والعملية لم تنتهِ بعد.</p>
+
+    <h3>الخطأ القاتل</h3>
+    <p>من هول المصيبة، من ثقل الصدمة، من تشتت العقل... نسيتُ إزالة الحشوة.</p>
+    <p>أوقفتُ غاز التخدير، انتظرتُ حتى بدأ المريض يتنفس، سحبتُ أنبوب الرغامى <span class="english-term">(Endotracheal Tube)</span>، ونقلتُ المريض إلى غرفة الإفاقة.</p>
+    <p>كل شيء بدا طبيعيًا... ظاهريًا.</p>
+
+    <h3>الكابوس يبدأ</h3>
+    <p>لكن في غرفة الإفاقة، بدأ الكابوس.</p>
+    <p>المريض لا يستطيع أن يتنفس. يحاول أن يأخذ نفسًا، لكن الهواء لا يدخل. الأنف ينزف، تشبع الأكسجين <span class="english-term">(SpO2)</span> يهبط بسرعة مرعبة: 95%... 90%... 85%... 80%...</p>
+    <p>بدأ المريض يزرق <span class="english-term">(Cyanosis)</span> - لون بشرته يتحول إلى الأزرق، علامة الاختناق.</p>
+
+    <p>ظننتُ فورًا أن المريض دخل في تشنج الحنجرة <span class="english-term">(Laryngospasm)</span> - تلك المضاعفة الخطيرة التي تحدث أحيانًا بعد إزالة الأنبوب، حيث تنقبض عضلات الحنجرة وتسد مجرى التنفس.</p>
+    <p>أعطيتُه فورًا مرخي العضلات ساكساميثونيوم <span class="english-term">(Succinylcholine)</span>، الدواء الذي يُستخدم لفك تشنج الحنجرة. لكن... لم يتحسن شيء.</p>
+    <p>حاولتُ التهوية بالقناع... لا أستطيع. الهواء لا يدخل، كأن هناك انسدادًا كاملاً.</p>
+    <p>القلب يخفق بعنف، الأجهزة تصرخ بإنذاراتها، المريض يختنق أمام عيني، وتشبع الأكسجين يواصل الهبوط: 75%... 70%...</p>
+
+    <h3>القرار السريع... والاكتشاف المُروّع</h3>
+    <p>لم يكن أمامي خيار. قررتُ إعادة التنبيب <span class="english-term">(Re-intubation)</span> - إدخال أنبوب الرغامى مرة أخرى لتأمين مجرى التنفس.</p>
+    <p>فتحتُ فم المريض، أدخلتُ منظار الحنجرة <span class="english-term">(Laryngoscope)</span>، ونظرتُ إلى داخل الحلق...</p>
+    <p>وهناك... رأيتها.</p>
+    <p>الحشوة.</p>
+    <p>لا تزال في مكانها، مُحشورة في البلعوم، تسد مجرى التنفس بالكامل.</p>
+
+    <h3>اللحظة التي تجمّد فيها القلب</h3>
+    <p>توقف كل شيء حولي. شعرتُ بموجة من الرعب، الذنب، الخوف، الصدمة.</p>
+    <p>كيف نسيتُها؟! كيف لم أتذكرها؟!</p>
+    <p>كنتُ قد ارتكبتُ أحد أخطر الأخطاء في التخدير. خطأ قد يقتل المريض. خطأ قد ينهي مستقبلي المهني. خطأ لا يُغتفر.</p>
+    <p>لكن لم يكن هناك وقت للتفكير. سحبتُ الحشوة فورًا، وأدخلتُ الأنبوب، وبدأتُ التهوية.</p>
+    <p>بدأ الأكسجين يدخل إلى الرئتين... بدأ تشبع الأكسجين يرتفع: 75%... 80%... 85%... 90%... 95%...</p>
+    <p>بدأ لون المريض يعود تدريجيًا... نجا.</p>
+
+    <h3>الحزن المضاعف</h3>
+    <p>نجا المريض... لكنني لم أنجُ من حزني.</p>
+    <p>جلستُ بعد أن استقر المريض، ورأسي بين يديّ، أبكي. أبكي على خالي الذي فقدته، وأبكي على الخطأ الذي كدتُ أن أقتل به مريضًا بريئًا. أبكي على لحظة الغفلة التي كادت أن تكلفني كل شيء.</p>
+    <p>الحمد لله أن المريض نجا من موت محقق.</p>
+
+    <h3>تحليل الجذور... ومنع التكرار</h3>
+    <p>بعد أيام، بعد أن تلقيت العزاء في وفاة  خالي وعدتُ إلى العمل، عقدنا اجتماعًا لمناقشة الحالة. لم يكن اجتماع لوم أو عقاب، بل كان اجتماع تعلّم.</p>
+    <p>أجرينا تحليل الأسباب الجذرية <span class="english-term">(Root Cause Analysis)</span>:</p>
+    <ul>
+        <li>السبب المباشر: صدمة نفسية (خبر الوفاة) أدت إلى تشتت ذهني.</li>
+        <li>السبب العميق: عدم وجود نظام تذكير فعّال لإزالة الحشوة.</li>
+    </ul>
+
+    <h3>الحلول التي اعتمدناها</h3>
+    <p>ووضعنا بروتوكولات جديدة لمنع تكرار الخطأ:</p>
+    <p><strong>1. علامة واضحة في سجل التخدير</strong></p>
+    <p>كتابة جملة كبيرة بخط عريض في شارت التخدير:</p>
+    <div class="concept-box">"تم وضع THROAT PACK - يجب إزالته قبل الإفاقة"</div>
+    <p><strong> 2. علامة على لفافة تثبيت الأنبوب</strong></p>
+    <p>وضع ملصق أو شريط ملون على لفافة تثبيت أنبوب الرغامى مكتوب عليه:</p>
+    <div class="concept-box">"THROAT PACK IN - REMOVE BEFORE EXTUBATION"</div>
+    <p><strong> 3. قائمة تدقيق قبل الإفاقة (Pre-Extubation Checklist)</strong></p>
+    <p>تشمل:</p>
+    <ul>
+        <li>☑ هل تم إيقاف الغازات؟</li>
+        <li>☑ هل بدأ المريض بالتنفس؟</li>
+        <li>☑ هل تم إزالة الحشوة الحلقية؟</li>
+        <li>☑ هل المعدات الطارئة جاهزة؟</li>
+    </ul>
+    <p><strong>4. التواصل مع الفريق</strong></p>
+    <p>إبلاغ الممرض/الممرضة في غرفة العمليات بوضع الحشوة، حتى يذكّروني قبل الإفاقة.</p>
+    <p><strong>5. عدم العمل تحت ضغط نفسي شديد</strong></p>
+    <p>إذا تعرض الطبيب لصدمة نفسية كبيرة، يجب أن يُستبدل إن أمكن، أو على الأقل أن يُدعم بزميل آخر.</p>
+
+    <h3>الدرس المؤلم الذي لا يُنسى</h3>
+    <div class="alert-box">
+        <p>هذا الخطأ، رغم ألمه، علّمني أعظم درس في السلامة:</p>
+        <p>لا تعتمد على ذاكرتك وحدها. ضع أنظمة تحميك من نفسك.</p>
+        <p>البشر يخطئون. الأطباء بشر. نحن نتعب، نحزن، نتشتت، ننسى. لكن الأنظمة والبروتوكولات هي التي تحمي المرضى من أخطائنا البشرية.</p>
+    </div>
+
+    <h3>رسالة إلى كل طبيب تخدير</h3>
+    <p>إلى كل زميل يضع حشوة حلقية <span class="english-term">(Throat Pack)</span> في أي عملية:</p>
+    <p>لا تغفل عنها... أبدًا.</p>
+    <p>ضع تذكيرات متعددة:</p>
+    <ul>
+        <li>اكتبها في السجل بخط كبير</li>
+        <li>ضع علامة على الأنبوب</li>
+        <li>أخبر الممرض</li>
+        <li>ضع قائمة تدقيق</li>
+        <li>تأكد مرتين قبل الإفاقة</li>
+    </ul>
+    <div class="alert-box">
+        <p>حشوة منسية = موت محتمل.</p>
+        <p>حياة المريض ومستقبلك المهني يعتمدان على تذكر شيء صغير... لا تنسه.</p>
+    </div>
+
+    <h3>الخلاصة</h3>
+    <div class="concept-box">
+        <p>في لحظة حزن، في لحظة صدمة، في لحظة تشتت، كادت حياة إنسان أن تُزهق.</p>
+        <p>لكنني تعلّمتُ، وطوّرنا الأنظمة، ووضعنا الحلول.</p>
+        <p>الخطأ الذي لا نتعلم منه هو المأساة الحقيقية.</p>
+        <p>أما الخطأ الذي يُحلّل، ويُناقش، وتُتخذ بشأنه إجراءات وقائية، فهو درس يُنقذ أرواحًا في المستقبل.</p>
+    </div>
+    
+    <div class="success-box">
+        إلى روح خالي... رحمك الله وجعل قبرك روضة من رياض الجنة.<br>لن أنسى... ولن أتهاون... ولن أغفل... أبدًا.
+    </div>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 7 -->
+    <h2>7. لا يا بلال! ....</h2>
+    
+    <p>كانت مريضة فرفوشة - بالمعنى الحرفي للكلمة. مرحة، مبتسمة، غير خائفة، تتحدث بثقة وهي تدخل غرفة العمليات. جاءت من أجل إزالة عقدة صغيرة من معصم اليد <span class="english-term">(Ganglion Cyst)</span>، عملية بسيطة، روتينية، لا تستغرق أكثر من نصف ساعة.</p>
+    <p>لم تكن بحاجة إلى تخدير عام، ولا حتى إلى تخدير نصفي. كل ما نحتاجه هو تخدير موضعي لليد فقط. والطريقة المثالية في ذلك الزمان - عندما كنتُ لا أزال مقيمًا - كانت تقنية تُسمى:</p>
+    <p><span class="english-term">Bier Block</span>حصار بير الوريدي</p>
+
+    <h3>التقنية البسيطة... ظاهريًا</h3>
+    <p>تقنية <span class="english-term">Bier Block</span> بسيطة من حيث المبدأ:</p>
+    <ol>
+        <li>نضع كانيولا وريدية في يد المريض</li>
+        <li>نرفع الذراع لإفراغه من الدم</li>
+        <li>نضع ضاغطة هوائية مزدوجة <span class="english-term">(Double Tourniquet)</span> على أعلى العضد - مكونة من لفافتين:
+            <ul>
+                <li>اللفافة القريبة <span class="english-term">(Proximal Cuff)</span></li>
+                <li>اللفافة البعيدة <span class="english-term">(Distal Cuff)</span></li>
+            </ul>
+        </li>
+        <li>ننفخ اللفافة القريبة أولاً لحجز الدورة الدموية</li>
+        <li>نحقن الليدوكائين <span class="english-term">(Lidocaine)</span> داخل أوردة الذراع - يبقى الدواء محصورًا في الذراع فقط</li>
+        <li>بعد 5-10 دقائق، عندما يتخدر الجلد تحت اللفافة القريبة، ننفخ اللفافة البعيدة</li>
+        <li>ثم نُفرّغ اللفافة القريبة لتخفيف الألم من الضغط</li>
+    </ol>
+    <div class="alert-box">
+        القاعدة الذهبية: لا تُفرّغ اللفافة القريبة إلا بعد نفخ اللفافة البعيدة، وإلا... سيتسرب الليدوكائين دفعة واحدة إلى الدورة الدموية العامة ويصل إلى القلب والدماغ، محدثًا تسممًا حادًا.
+    </div>
+
+    <h3>بلال... والخبرة الناقصة</h3>
+    <p>بلال كان فني تخدير جديدًا، لا تزال خبرته قليلة. لكنه كان يساعدني في العمليات، ويتعلم، ويقوم بالمهام البسيطة تحت إشرافي.</p>
+    <p>كانت مهمته في هذه العملية بسيطة: التحكم في الضاغطة الهوائية.</p>
+    <p>أعطيتُه التعليمات بوضوح:</p>
+    <ul>
+        <li>"ننفخ اللفافة القريبة أولاً"</li>
+        <li>"بعد خمس دقائق، ننفخ اللفافة البعيدة أولاً، ثم نُفرّغ القريبة"</li>
+    </ul>
+    <p>بدا الأمر واضحًا... أو هكذا ظننت.</p>
+
+    <h3>الخطأ القاتل</h3>
+    <p>مرت خمس دقائق. المريضة تتحدث وتضحك، الجرّاح جاهز للبدء. حان وقت التبديل بين اللفافتين.</p>
+    <p>نظرتُ إلى بلال وقلت:</p>
+    <div class="quote-box">"الآن يا بلال... انفخ البعيدة وفرّغ القريبة"</div>
+    <p>ففعل... لكن بالعكس.</p>
+    <p>فرّغ اللفافة القريبة أولاً، قبل أن ينفخ البعيدة.</p>
+
+    <div class="alert-box">
+        <p>في تلك الثانية الواحدة، حدث ما لم يكن يجب أن يحدث:</p>
+        <p>جرعة كاملة من الليدوكائين - التي كانت محصورة في أوردة الذراع - انطلقت دفعة واحدة إلى الدورة الدموية العامة. عبرت القلب، وصلت إلى الدماغ، وبدأت سُميّتها القاتلة.</p>
+    </div>
+
+    <h3>من الكلام إلى الكارثة... في ثوانٍ</h3>
+    <p>المريضة كانت تتكلم... وفجأة...</p>
+    <p>توقفت.</p>
+    <p>بدأت ترتجف <span class="english-term">(Seizure - نوبة تشنجية).</span></p>
+    <p>بدأت تزرق <span class="english-term">(Cyanosis).</span></p>
+    <p>فقدت الوعي.</p>
+    <p>سقطت رأسها على الجانب، وتوقفت عن التنفس.</p>
+
+    <h3>التسمم بالمخدر الموضعي: الكابوس الحقيقي</h3>
+    <p>ما حدث هو <span class="english-term">Local Anesthetic Systemic Toxicity (LAST)</span> - تسمم جهازي بالمخدر الموضعي.</p>
+    <p>الأعراض تتطور بسرعة مرعبة:</p>
+    <p>المرحلة الأولى (الجهاز العصبي المركزي):</p>
+    <ul>
+        <li>طنين في الأذن</li>
+        <li>طعم معدني في الفم</li>
+        <li>دوار</li>
+        <li>نوبة تشنجية</li>
+        <li>فقدان الوعي</li>
+    </ul>
+    <p>المرحلة الثانية (القلب):</p>
+    <ul>
+        <li>اضطراب نظم القلب <span class="english-term">(Arrhythmia)</span></li>
+        <li>هبوط حاد في ضغط الدم</li>
+        <li>توقف القلب</li>
+    </ul>
+    <p>المريضة كانت تمر بالمرحلة الأولى... وعلى وشك الدخول في الثانية.</p>
+
+    <h3>الصرخة: "النجدة!"</h3>
+    <p>لم يكن هناك وقت للتفكير. صرخت بأعلى صوتي:</p>
+    <div class="alert-box"><span class="english-term">"HELP ! EmergenY</span></div>
+    <p>وبدأت العمل فورًا:</p>
+    <p>الإجراءات الطارئة:</p>
+    <ol>
+        <li>تأمين مجرى التنفس: المريضة فقدت الوعي وتوقفت عن التنفس</li>
+        <li>التنبيب الرغامي السريع:
+            <ul>
+                <li><span class="english-term">Thiopental</span> (ثيوبنتال) لتعميق التخدير وإيقاف النوبة التشنجية</li>
+                <li><span class="english-term">Succinylcholine</span> (ساكساميثونيوم) لإرخاء العضلات والتنبيب</li>
+            </ul>
+        </li>
+        <li>التهوية بالأكسجين 100%</li>
+        <li>المراقبة الدقيقة لنظم القلب</li>
+    </ol>
+
+    <h3>دخول الاستشاري... وعلاج اضطرابات النظم</h3>
+    <p>وصل الاستشاري مسرعًا. نظر إلى الموقف، وفهم على الفور ما حدث.</p>
+    <p>بدأت اضطرابات نظم القلب تظهر على الشاشة:</p>
+    <ul>
+        <li>خوارج انقباض بطينية <span class="english-term">(PVCs)</span></li>
+        <li>تسرع قلب بطيني <span class="english-term">(Ventricular Tachycardia)</span></li>
+    </ul>
+    <p>بدأ الاستشاري بروتوكول علاج التسمم بالمخدر الموضعي:</p>
+    <ul>
+        <li>استمرار الإنعاش القلبي الرئوي إذا لزم الأمر</li>
+        <li>إعطاء سوائل وريدية لدعم الدورة الدموية</li>
+        <li>أدوية مضادة لاضطراب النظم</li>
+        <li>في الحالات الشديدة (لم نصل إليها لحسن الحظ): <span class="english-term">Lipid Emulsion Therapy</span> - حقن مستحلب دهني لامتصاص الليدوكائين من الدم</li>
+    </ul>
+
+    <h3>لحظات عصيبة لن أنساها</h3>
+    <p>ثوانٍ بدت كساعات. نحن نعمل بسرعة، والمريضة بين الحياة والموت. كل ثانية تأخير تعني خطر توقف القلب.</p>
+    <p>لكن... بفضل الله، ثم السرعة في الاستجابة، بدأت المريضة تستقر:</p>
+    <ul>
+        <li>عاد نظم القلب إلى طبيعته</li>
+        <li>عاد تشبع الأكسجين إلى المستوى الطبيعي</li>
+        <li>بدأت تتنفس تلقائيًا</li>
+    </ul>
+    <p>نجت... بأعجوبة.</p>
+
+    <h3>المواجهة مع رئيس القسم</h3>
+    <p>بعد أن استقرت المريضة، وانتهت الأزمة، جاءني الدكتور مجدي - رئيس قسم التخدير.</p>
+    <p>جلس معي، نظر في عينيّ بنظرة حادة، وبدأ التحقيق:</p>
+    <ul>
+        <li>"ماذا حدث بالضبط؟"</li>
+        <li>"من الذي فرّغ الضاغطة؟"</li>
+        <li>"لماذا لم تراقب بنفسك؟"</li>
+        <li>"هل أعطيت التعليمات بوضوح؟"</li>
+    </ul>
+    <p>أجبتُ على كل سؤال، مُعترفًا بمسؤوليتي. نعم، أعطيتُ التعليمات، لكنني اعتمدتُ على فني عديم الخبرة دون مراقبة دقيقة.</p>
+    <p>ثم قال لي الدكتور مجدي جملة لم ولن أنساها:</p>
+    <div class="quote-box">"أريد هذه الحادثة أن تكون Brain Scar عندك... ندبة في دماغك لا تُمحى أبدًا."</div>
+
+    <h3>Brain Scar: الندبة التي لا تُنسى</h3>
+    <p>فعلًا... كانت ندبة. ندبة لا تُرى بالعين، لكنها محفورة في الذاكرة، في الوجدان، في كل قرار أتخذه بعد ذلك اليوم.</p>
+
+    <h3>الدروس المستفادة</h3>
+    <div class="concept-box">
+        <p><strong>1. لا تفوّض المهام الحرجة لمن يفتقر للخبرة دون مراقبة لصيقة</strong></p>
+        <p>بلال كان فنيًا جديدًا، وأنا أعطيته مهمة حرجة دون أن أراقب تنفيذها بنفسي. كان يجب أن أضع يدي على يده.</p>
+        <p><strong>2. اعرف بروتوكول علاج التسمم بالمخدر الموضعي</strong></p>
+        <p>كل طبيب تخدير يجب أن يعرف بروتوكول <span class="english-term">LAST</span> عن ظهر قلب:</p>
+        <ul>
+            <li>وقف حقن المخدر فورًا</li>
+            <li>طلب المساعدة</li>
+            <li>التهوية بأكسجين 100%</li>
+            <li>السيطرة على النوبات التشنجية</li>
+            <li>دعم القلب والدورة الدموية</li>
+            <li>الاستعداد لإعطاء <span class="english-term">Lipid Emulsion</span> في الحالات الشديدة</li>
+        </ul>
+        <p><strong>3. التواصل الواضح لا يكفي... المراقبة ضرورية</strong></p>
+        <p>أعطيتُ التعليمات بوضوح، لكن بلال أخطأ. التعليمات وحدها لا تكفي، يجب التأكد من التنفيذ الصحيح.</p>
+        <p><strong> 4. Bier Block تقنية بسيطة... لكنها خطيرة إذا أُسيء تنفيذها</strong></p>
+        <p>اليوم، في معظم المستشفيات الحديثة، استُبدلت بتقنيات أكثر أمانًا (مثل التخدير الناحي بالموجات فوق الصوتية). لكن المبدأ واحد: التفاصيل الصغيرة قد تكون قاتلة.</p>
+    </div>
+
+    <h3>رسالة إلى كل طبيب</h3>
+    <p>"لا يا بلال!" - صرخة لم أطلقها في تلك اللحظة، لكنني كنتُ يجب أن أطلقها قبل أن يفعل.</p>
+    <p>إلى كل طبيب يعمل مع فريق:</p>
+    <ul>
+        <li>لا تفترض أن الجميع يفهمون</li>
+        <li>لا تفوّض المهام الحرجة دون مراقبة</li>
+        <li>اشرح، راقب، تأكد، ثم تأكد مرة أخرى</li>
+    </ul>
+    <p>المريض لا يعرف أن بلال مبتدئ. المريض يثق فيك أنت.</p>
+
+    <h3>الخلاصة</h3>
+    <div class="concept-box">
+        <p>خطأ صغير... ثانية واحدة... ترتيب خاطئ... كاد أن يقتل مريضة.</p>
+        <p>لكننا تعلّمنا، وأنقذناها، وحفرنا الدرس في ذاكرتنا.</p>
+        <p><span class="english-term">Brain Scar...</span> فعلًا، يا دكتور مجدي، كانت ندبة لا تُنسى.</p>
+        <p>ندبة علّمتني أن السلامة في التخدير ليست مجرد معرفة علمية، بل يقظة دائمة، ومراقبة مستمرة، ومسؤولية لا تُفوَّض.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 8 -->
+    <h2>8. لحظات صعبة في رحلتي مع التخدير</h2>
+
+    <h3>صرخة الطوارئ</h3>
+    <div class="alert-box"><span class="english-term">"Code Blue! Code Blue! Cardiac Arrest!"</span></div>
+    <p>إنذار توقف القلب يصرخ في أرجاء المستشفى. ذلك الصوت الذي يُجمّد الدم في العروق، الذي يجعل قلبك ينبض بسرعة مضاعفة، الذي يُطلق الأدرينالين في جسدك قبل أن تبدأ بضخه في جسد المريض.</p>
+    <p>ركضتُ.</p>
+    <p>لا وقت للتفكير، لا وقت للاستعداد النفسي. مريض توقف قلبه، وكل ثانية تأخير تعني موت خلايا دماغية لا تُعوَّض.</p>
+    <p>وصلتُ إلى الغرفة... المشهد الذي رأيته أطباء وممرضون يُجرون الإنعاش القلبي الرئوي <span class="english-term">(CPR)</span>المريض على وشك توقف القلب يحتاج الى تأمين مجرى الهواء ، أجهزة المراقبة تصرخ بإنذاراتها، والمريض ممدد، فاقد الوعي، وجهه شاحب.</p>
+
+    <h3>المهمة الأولى: تأمين مجرى التنفس</h3>
+    <p>في حالات توقف القلب، أول أولويات الإنعاش هي:</p>
+    <ul>
+        <li><span class="english-term">C: Circulation</span> (الدورة الدموية - ضغط الصدر)</li>
+        <li><span class="english-term">A: Airway</span> (مجرى التنفس)</li>
+        <li><span class="english-term">B: Breathing</span> (التنفس)</li>
+    </ul>
+    <p>كانت مهمتي واضحة: التنبيب الرغامي <span class="english-term">(Endotracheal Intubation)</span> - إدخال أنبوب في الرغامي لتأمين مجرى التنفس وإعطاء الأكسجين مباشرة إلى الرئتين.</p>
+    <p>أحضرتُ منظار الحنجرة <span class="english-term">(Laryngoscope)</span>، جهّزتُ أنبوب الرغامي، وضعتُ نفسي في الموقع الصحيح عند رأس المريض.</p>
+    <p>فتحتُ فم المريض... أدخلتُ المنظار... ورفعتُ اللسان لأرى الحنجرة...</p>
+
+    <p>وفجأة... تقيأ المريض.</p>
+    <p>ليس تقيؤًا عاديًا، بل انفجار من محتويات المعدة. كل الأكل الذي في معدته، المهضوم وغير المهضوم، مع رائحة الحموضة الكريهة (حمض المعدة ، انطلق كالبركان مباشرة في وجهي.</p>
+    <p>وجهي... عيوني... صدري... غمرني القيء بالكامل.</p>
+
+    <p>الرائحة كانت خانقة، كريهة إلى درجة لا توصف. لكن الأسوأ... لم أعد أرى شيئًا.</p>
+    <p>القيء دخل في عينيّ، اللزوجة غطّت وجهي، المنظار أصبح مبللاً، والرؤية تلاشت.</p>
+    <p>لكن المريض... لا يزال بحاجة إلى التنبيب. لا وقت للتوقف.</p>
+
+    <p>بيد واحدة، وبحركة سريعة، مسحتُ وجهي بأي شيء وجدته - ربما قطعة شاش، ربما كُمّ معطفي الأبيض. لم يكن مسحًا كاملاً، لكنه كان كافيًا لأرى... ولو بشكل ضبابي.</p>
+    <p>نظّفتُ المنظار بسرعة، عدتُ إلى موقعي، وأدخلتُه مرة أخرى في فم المريض.</p>
+    <p>هذه المرة... نجحت.</p>
+    <p>رأيتُ الحنجرة، أدخلتُ الأنبوب، نفختُ البالون، وثبّتُ الأنبوب.</p>
+    <p>تأكدتُ من سلامة التنبيب:</p>
+    <ul>
+        <li>صوت التنفس في الرئتين؟ ✓</li>
+        <li>ارتفاع الصدر؟ ✓</li>
+        <li>موجات ثاني أكسيد الكربون على الشاشة <span class="english-term">(Capnography)</span>؟ ✓</li>
+    </ul>
+    <p>المريض أصبح في أمان... من ناحية مجرى التنفس.</p>
+
+    <h3>الطريق إلى الحمام... ولحظة الانفجار</h3>
+    <p>بعد أن استقر المريض، وتأكدتُ أن الفريق يسيطر على الوضع، توجهتُ إلى الحمام للاغتسال.</p>
+    <p>كنتُ غاضبًا.</p>
+    <p>لا، ليس من المريض - المسكين لم يكن يعي ما يفعل. لكنني كنت غاضبًا من الموقف، من القدر، من كل شيء.</p>
+    <p>غاضب من رائحة القيء التي ما زالت عالقة في أنفي وفمي.</p>
+    <p>غاضب من ملابسي الملطخة.</p>
+    <p>غاضب من الإحساس باللزوجة على بشرتي.</p>
+    <p>غاضب من... كل شيء.</p>
+    <p>كنتُ أمشي بخطوات سريعة، غاضبة، أحاول أن أُنفّس عن غضبي.</p>
+    <p>ففعلتُ ما يفعله الغاضبون... ركلتُ الأرض.</p>
+    <p>لكنني... لم أركل الأرض.</p>
+    <p>ركلتُ حديدة.</p>
+
+    <h3>الألم الذي لا يُوصف</h3>
+    <div class="alert-box">
+        <p>"آآآآه!"</p>
+        <p>ألم حاد، مبرح، يخترق إصبع القدم كالسكين.</p>
+        <p>سقطتُ على الحائط، أمسكتُ قدمي، وشعرتُ بأن إصبعي انكسر، أو على الأقل تهشّم.</p>
+        <p>الألم كان أشد من ألم القيء في وجهي. كان ألمًا جسديًا صريحًا، يصرخ في كل خلية من جسدي.</p>
+    </div>
+
+    <h3>هل تغضب؟ أم تبكي؟ أم تجري؟</h3>
+    <p>وقفتُ هناك، في الممر، ممسكًا بقدمي، ملطخًا بالقيء، ألمي يتصاعد، وعقلي في حالة صراع داخلي:</p>
+    <p>هل أغضب أكثر؟</p>
+    <p>لكن... على من؟ على نفسي؟ على الحديدة؟ على القدر؟</p>
+    <p>هل أبكي؟</p>
+    <p>لكن... هل هذا وقت البكاء؟ أنا طبيب، رجل، محترف... لا يجب أن أبكي!</p>
+    <p>هل أجري؟</p>
+    <p>إلى أين؟ أنا بحاجة للاغتسال، وإصبعي يؤلمني، وأنا واقف في ممر المستشفى كالأحمق!</p>
+    <p>فلا درى ماذا أفعل.</p>
+    <p>جلستُ على الأرض... وأصدرتُ ضحكة هستيرية.</p>
+    <p>ضحكة ممزوجة بالألم، بالإحباط، بالسخرية من الموقف.</p>
+
+    <h3>الدرس العميق... خلف المعاناة</h3>
+    <p>بعد أن اغتسلتُ، وغيّرتُ ملابسي، وفحصتُ إصبعي (لم يكن مكسورًا، لحسن الحظي، لكنه كان متورمًا ومؤلمًا)، جلستُ وحدي في غرفة الاستراحة.</p>
+    <p>وفكّرتُ... لماذا نفعل هذا؟</p>
+    <p>لماذا نتحمّل القيء في وجوهنا؟</p>
+    <p>لماذا نركض لإنقاذ أرواح أناس لا نعرفهم؟</p>
+    <p>لماذا نُعرّض أنفسنا للخطر، للإهانة، للألم؟</p>
+    <p>لماذا؟</p>
+
+    <h3>لأن الأجر عظيم</h3>
+    <p>ثم تذكرتُ قول الله تعالى:</p>
+    <div class="success-box">﴿مَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا﴾ (المائدة: 32)</div>
+    <p>ذلك المريض الذي تقيأ في وجهي... عاد قلبه للنبض.</p>
+    <p>ذلك المريض الذي لم أكن أعرفه... نجا من الموت.</p>
+    <p>ذلك الإنسان الذي لم يشكرني (ولم يكن واعيًا ليشكرني)... عاد إلى أهله.</p>
+
+    <h3>الطب: مهمة إنسانية... لا مهنة مالية</h3>
+    <div class="concept-box">
+        <p>في تلك اللحظة، أدركتُ أن الطب ليس مجرد مهنة، بل هو رسالة.</p>
+        <p>رسالة تتطلب منك أن تُعطي من نفسك، من كرامتك أحيانًا، من راحتك، من وقتك، من صحتك.</p>
+        <p>رسالة لا تُقاس بالمال، ولا بالشكر، ولا بالتقدير.</p>
+        <p>رسالة تُقاس بـحياة أُنقذت، بـعائلة لم تفقد أباها، بـطفل لم يصبح يتيمًا.</p>
+    </div>
+
+    <h3>تحية إلى من جعل الطب رسالة</h3>
+    <p>تحية إلى كل طبيب، ممرض، فني، عامل في المجال الصحي:</p>
+    <ul>
+        <li>الذين يركضون نحو الخطر حين يهرب الآخرون</li>
+        <li>الذين يتحملون القيء والدم والصديد في وجوههم</li>
+        <li>الذين يُضحّون بنومهم، براحتهم، بصحتهم النفسية والجسدية</li>
+        <li>الذين لم يجعلوا المال هدفهم الأول، بل جعلوا إنقاذ الأرواح غايتهم العليا</li>
+    </ul>
+    <p>تحية إلى من يبتغي بعمله وجه الله، لا وجه المال.</p>
+    <p>تحية إلى من يُعامل المريض كأخيه، لا كزبون.</p>
+    <p>تحية إلى من يُقدّم أفضل ما عنده للفقير والغني على حد سواء.</p>
+
+    <h3>الخلاصة</h3>
+    <div class="concept-box">
+        <p>نعم، لحظات في التخدير قد تكون صعبة.</p>
+        <p>بل قد تكون مُذلّة، مُحرجة، مؤلمة.</p>
+        <p>قد تُغطّى بالقيء، قد تُهان، قد تتألم.</p>
+        <p>لكن... أجرك عظيم.</p>
+        <p>﴿مَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا﴾</p>
+        <p>وهذا يكفي.</p>
+    </div>
+
+    <h3>رسالة أخيرة</h3>
+    <p>إلى كل طبيب شاب:</p>
+    <p>لا تجعل المال هدفك الوحيد.</p>
+    <p>نعم، لك حق في عيش كريم، في راتب عادل، في احترام مجتمعي. لكن لا تبع ضميرك.</p>
+    <p>لا تُميّز بين مريض غني ومريض فقير.</p>
+    <p>لا تُهمل مريضًا لأنه لا يملك المال.</p>
+    <p>لا تجعل العيادة الخاصة تُنسيك رسالتك الإنسانية.</p>
+    <p>اجعل عملك عبادة، واجعل نيتك خالصة لله، وسترى البركة في حياتك ورزقك.</p>
+    
+    <div class="success-box">
+        إلى ذلك المريض الذي تقيأ في وجهي... الحمد لله أنك نجوت.<br>وإلى إصبع قدمي الذي تألم... شفاك الله يا إصبعي!<br>وإلى كل من يعمل في الطب بقلب صادق... جزاكم الله خيرًا.<br>مَنْ أَحْيَاهَا... فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا.
+    </div>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 9 -->
+    <h2>9. كابوس الصدمة التحسسية</h2>
+    
+    <p>كانت مناوبة ليلية عادية، أو هكذا بدت. كنتُ قد تخرجتُ حديثًا، لا تزال الثقة تتصارع مع القلق في داخلي، لكنني كنتُ مستعدًا، أو هكذا ظننت.</p>
+    <p>دخل إلى غرفة العمليات طفل جميل، عيناه زرقاوان كالسماء الصافية، ابتسامته بريئة، لا يعي أن جسده الصغير على موعد مع معركة حياة أو موت.</p>
+    <p>كان وحيد أبويه.</p>
+    <p>جاءهم بعد سنوات من المعاناة، بعد محاولات التلقيح الاصطناعي، بعد الدموع والدعوات. كان حلمهم الذي تحقق، فلذة كبدهم التي لا يملكون سواها.</p>
+    <p>الحالة؟ زائدة دودية <span class="english-term">(Appendicitis)</span> - عملية روتينية، بسيطة، آمنة في معظم الأحيان.</p>
+    <p>تحدثتُ مع الوالدين قبل العملية. رأيتُ القلق في عيونهم، لكنني طمأنتُهم:</p>
+    <div class="quote-box">"لا تقلقوا، عملية بسيطة، سيكون بخير بإذن الله"</div>
+    <p>ودخل الطفل إلى غرفة العمليات... مبتسمًا.</p>
+    <p>تلك الابتسامة... لن أنساها أبدًا.</p>
+
+    <p>بدأتُ التخدير بكل ثقة:</p>
+    <ul>
+        <li>البروبوفول <span class="english-term">(Propofol)</span> للتنويم</li>
+        <li>الروكورونيوم <span class="english-term">(Rocuronium)</span> لإرخاء العضلات</li>
+        <li>ثم التنبيب الرغامي - أدخلتُ الأنبوب بمهارة، في المكان الصحيح، من أول محاولة</li>
+    </ul>
+    <p>ممتاز! كل شيء يسير بسلاسة.</p>
+    <p>ثبّتُ الأنبوب، بدأتُ التهوية، وأعطيتُ الإشارة للجرّاح بالبدء.</p>
+
+    <h3>لكن بعد ثوانٍ فقط... بدأ الكابوس.</h3>
+    <h3>العلامة الأولى: تسرع القلب الشديد</h3>
+    <p>نظرتُ إلى الشاشة... نبضات القلب ترتفع بسرعة مرعبة:</p>
+    <ul>
+        <li>120... 140... 160... 180 نبضة في الدقيقة!</li>
+    </ul>
+    <h3>العلامة الثانية: صعوبة التهوية</h3>
+    <p>ضغطتُ على بالون التهوية  <span class="english-term">(Ambu Bag)</span>... مقاومة شديدة!</p>
+    <p>كأنني أحاول ضخ الهواء في جدار خرساني. الهواء لا يدخل، الرئتان لا تتمددان.</p>
+    <h3>العلامة الثالثة: هبوط تشبع الأكسجين</h3>
+    <p><span class="english-term">SpO2</span> (تشبع الأكسجين في الدم) بدأ يتهاوى:</p>
+    <ul>
+        <li>98%... 95%... 90%... 85%... 80%...</li>
+    </ul>
+    <p>الطفل يختنق.</p>
+
+    <h3>التشخيص السريع</h3>
+    <p>عدتُ بسرعة للتأكد من الأنبوب:</p>
+    <ul>
+        <li>هل هو في المكان الصحيح؟ ✓ نعم</li>
+        <li>هل هو مسدود؟ ✗ لا</li>
+        <li>هل انزلق إلى القصبة اليمنى؟ ✗ لا</li>
+    </ul>
+    <p>الأنبوب في مكانه... إذن المشكلة ليست من الأنبوب.</p>
+
+    <h3>النذير الأسوأ: بطء القلب</h3>
+    <p>ثم... العلامة الأخطر:</p>
+    <p>نبضات القلب بدأت تتباطأ:</p>
+    <ul>
+        <li>180... 150... 120... 100... 80... 60... 50... 40...</li>
+    </ul>
+    <div class="alert-box">
+        <p>هذا هو النذير الأسوأ في التخدير.</p>
+        <p>تسرع القلب ← ثم بطء القلب = علامة احتضار.</p>
+        <p>القلب يحاول أن يُعوّض نقص الأكسجين بضخ أسرع، لكن حين يفشل، يستسلم... ويتباطأ... ويتوقف.</p>
+    </div>
+
+    <h3>ماذا يحدث؟!</h3>
+    <p>عقلي يعمل بسرعة فائقة:</p>
+    <ul>
+        <li>التنبيب صعب؟ لا، الأنبوب في مكانه</li>
+        <li>انسداد في الأنبوب؟ لا</li>
+        <li>استرواح الصدر <span class="english-term">(Pneumothorax)</span>؟ ممكن، لكن غير محتمل بهذه السرعة</li>
+        <li>صدمة تحسسية؟ نعم! هذا هو!</li>
+    </ul>
+
+    <h3>الأنافلاكسيس: الكابوس الأسوأ</h3>
+    <p><span class="english-term">Anaphylaxis</span> - الصدمة التحسسية التآقية.</p>
+    <p>أسوأ كابوس لطبيب التخدير.</p>
+    <p>رد فعل تحسسي حاد، مفاجئ، قاتل، يحدث خلال ثوانٍ إلى دقائق بعد التعرض لمادة مُحسّسة.</p>
+    <p>في هذه الحالة، المُحسّس المحتمل كان:</p>
+    <ul>
+        <li>الروكورونيوم <span class="english-term">(Rocuronium)</span> - مُرخي العضلات (أشهر مُسبب للأنافلاكسيس في التخدير)</li>
+        <li>أو البروبوفول (أقل احتمالاً)</li>
+        <li>أو اللاتكس في القفازات أو الأنابيب</li>
+    </ul>
+    <p>الأعراض الكلاسيكية:</p>
+    <ul>
+        <li>تشنج قصبي <span class="english-term">(Bronchospasm)</span> → صعوبة التهوية</li>
+        <li>هبوط حاد في ضغط الدم</li>
+        <li>تسرع ثم بطء في القلب</li>
+        <li>هبوط تشبع الأكسجين</li>
+        <li>توقف القلب... والموت</li>
+    </ul>
+
+    <h3>القرار الحاسم</h3>
+    <p>في تلك اللحظة، مرّت في ذهني ابتسامة الطفل، عيونه الزرقاء، قصة أبويه وكيف جاءهم بعد معاناة.</p>
+    <p>لا... لن يموت هذا الطفل. لن أدعه يموت.</p>
+    <p>لم يكن هناك وقت للتفكير، للتردد، للاستشارة.</p>
+    <p>قراري يجب أن يكون حاسمًا وسريعًا.</p>
+
+    <h3>الأدرينالين: سلاح الإنقاذ</h3>
+    <p>صرختُ:</p>
+    <div class="alert-box"><span class="english-term">"أدرينالين! الآن!"</span></div>
+    <p>أعطيتُ الأدرينالين  <span class="english-term">(Epinephrine/Adrenaline)</span> في الوريد مباشرة، بجرعة محسوبة:</p>
+    <p>10 ميكروغرام لكل كيلوغرام <span class="english-term">(0.01 mg/kg)</span></p>
+    <p>ليس تحت الجلد... بل في الوريد مباشرة.</p>
+    <p>لأن في الصدمة التحسسية تحت التخدير، الطفل لا يملك وقتًا. الحقن تحت الجلد يستغرق دقائق ليصل إلى الدورة الدموية الجهازية... والطفل سيموت قبل ذلك.</p>
+
+    <h3>الانتظار المرعب</h3>
+    <p>ثوانٍ بدت كدهور.</p>
+    <p>أراقب الشاشة... 40 نبضة... 40... 40...</p>
+    <p>ثم... 50... 60... 70... 80...</p>
+    <p>القلب بدأ يستجيب!</p>
+
+    <h3>فك التشنج القصبي</h3>
+    <p>لكن المشكلة الثانية لا تزال قائمة: التشنج القصبي <span class="english-term">(Bronchospasm)</span> - القصبات الهوائية منقبضة، لا تسمح بدخول الهواء.</p>
+    <p>التفتُّ إلى نجيب الذبحاني -  - وصرختُ:</p>
+    <div class="quote-box">"نجيب! بخاخ كومبيفنت! بسرعة!"</div>
+    <p><span class="english-term">Combivent</span> - بخاخ موسع للقصبات، يحتوي على:</p>
+    <ul>
+        <li><span class="english-term">Salbutamol</span> (موسع قصبات)</li>
+        <li><span class="english-term">Ipratropium</span> (مضاد كوليني)</li>
+    </ul>
+    <p>لكن... كانت هناك مشكلة تقنية:</p>
+    <p>كيف نوصل البخاخ مع جهاز التخدير؟</p>
+    <p>البخاخ مصمم للاستخدام ، وليس للتوصيل المباشر مع دائرة التخدير.</p>
+
+    <h3>الابتكار تحت الضغط</h3>
+    <p>لم يكن هناك وقت للتفكير في الحلول "الرسمية".</p>
+    <p>اخترعنا طريقة:</p>
+    <p>وصلنا البخاخ مع أسطوانة أكسجين، ثم ربطناها بـدائرة التنفس في جهاز التخدير.</p>
+    <p>طريقة غير تقليدية، لكنها نجحت.</p>
+    <p>بدأ الدواء يدخل إلى رئتي الطفل... وبدأ التشنج القصبي يفتك... رويدًا رويدًا.</p>
+    <p>بدأتُ أتنفس الصعداء. حرفيًا... أنا والطفل معًا.</p>
+
+    <h3>الاتصال بالاستشاري</h3>
+    <p>بينما كنتُ أُعالج الحالة، اتصلتُ بـالدكتور عمار أبو الصبح - الاستشاري المناوب، الذي كان أستاذًا لي في الأردن وفي اليمن، تعلّمتُ منه الكثير.</p>
+    <p>أخبرته بالحالة بسرعة:</p>
+    <div class="quote-box">"طفل، أنافلاكسيس، أعطيته أدرينالين، بدأ يتحسن"</div>
+    <p>قال بهدوء:</p>
+    <div class="quote-box">"ممتاز، أنا قادم الآن"</div>
+    <p>وصل بسرعة... لكن الطفل كان قد تحسّن.</p>
+    <p>نظر إلى الشاشة، إلى الطفل، إليّ، وقال:</p>
+    <div class="quote-box">"أحسنت. استأنف العملية"</div>
+
+    <h3>استئناف العملية</h3>
+    <p>استأنفنا العملية. أُجريت استئصال الزائدة الدودية بنجاح.</p>
+    <p>خرج الطفل من غرفة العمليات... حيًا.</p>
+    <p>لكن صدره كان متعبًا قليلاً - أثر التشنج القصبي والصدمة التحسسية. احتاج إلى عناية مركزة لفترة وجيزة، لكنه تعافى تمامًا بعدها.</p>
+
+    <h3>اللقاء مع الوالدين</h3>
+    <p>خرجتُ لألتقي الوالدين. كانا ينتظران بقلق شديد.</p>
+    <p>قلتُ لهم:</p>
+    <div class="quote-box">"العملية نجحت، الحمد لله. لكن حدثت مضاعفة... رد فعل تحسسي. تعاملنا معها، وهو الآن بخير"</div>
+    <p>بكت الأم، وعانق الأب كتفي، وقال بصوت مختنق:</p>
+    <div class="quote-box">"جزاك الله خيرًا يا دكتور... هذا كل ما نملك"</div>
+
+    <h3>الدروس المستفادة: بروتوكول الأنافلاكسيس</h3>
+    <div class="concept-box">
+        <p><strong>1. الأنافلاكسيس = أسوأ كوابيسك كطبيب تخدير</strong></p>
+        <p>لا تتأنَّ فيها. كل ثانية تأخير = خطر موت.</p>
+        <p><strong>2. كن دائمًا في حالة استعداد</strong></p>
+        <p>شغّل إنذارات الاستعداد الذهنية:</p>
+        <ul>
+            <li>هل هذا المريض معرّض للحساسية؟</li>
+            <li>هل الأدوية جاهزة؟</li>
+            <li>هل الفريق يعرف البروتوكول؟</li>
+        </ul>
+        <p><strong>3.  بروتوكول علاج الأنافلاكسيس:</strong></p>
+        <p><strong>أ. أوقف المادة المُحسّسة فورًا</strong></p>
+        <ul>
+            <li>أوقف حقن الدواء المُشتبه به</li>
+            <li>أزل اللاتكس إن كان موجودًا</li>
+        </ul>
+        <p><strong>ب. اطلب المساعدة فورًا</strong></p>
+        <p><strong>ج. أعطِ الأدرينالين في الوريد - ليس تحت الجلد!</strong></p>
+        <p>هذا هو الخطأ القاتل الذي يرتكبه البعض:</p>
+        <ul>
+            <li>خارج التخدير (مريض واعٍ): يمكن إعطاء الأدرينالين تحت الجلد أو في العضل</li>
+            <li>تحت التخدير: يجب إعطاؤه في الوريد مباشرة</li>
+        </ul>
+        <p>لماذا؟</p>
+        <p>لأن المريض تحت التخدير في حالة صدمة، الدورة الدموية متأثرة، الحقن تحت الجلد لن يصل للدورة الجهازية بسرعة كافية... والمريض سيموت قبل أن يصل.</p>
+        <p>الجرعة:</p>
+        <ul>
+            <li>10 ميكروغرام/كجم (0.01 mg/kg) وريديًا</li>
+            <li>يمكن تكرارها كل 1-2 دقيقة حسب الحاجة</li>
+        </ul>
+        <p><strong>د. علاج التشنج القصبي</strong></p>
+        <ul>
+            <li>موسعات القصبات (Salbutamol، Combivent)</li>
+            <li>زيادة تركيز الأكسجين إلى 100%</li>
+        </ul>
+        <p><strong>هـ. دعم الدورة الدموية</strong></p>
+        <ul>
+            <li>سوائل وريدية بكميات كبيرة</li>
+            <li>أدوية رافعة للضغط إذا لزم الأمر</li>
+        </ul>
+        <p><strong>و. مضادات الهيستامين والكورتيزون</strong></p>
+        <ul>
+            <li>تُعطى بعد الأدرينالين، ليست بديلاً عنه</li>
+        </ul>
+        <p><strong>4. كن هادئًا، ثابتًا، واثقًا في الله</strong></p>
+        <p>الفزع يقتل المريض قبل الصدمة.</p>
+        <p>طبّق الوسائل ببساطة كما تعلّمتها:</p>
+        <ul>
+            <li>لا تُعقّد الأمور</li>
+            <li>لا تهدر الوقت في حلول صعبة وبعيدة المنال</li>
+            <li>ABC - الأساسيات أولاً</li>
+        </ul>
+        <p><strong>5. لا تخجل من طلب المساعدة</strong></p>
+        <p>حتى لو كنت قد تعاملت مع الحالة... اتصل بالاستشاري.</p>
+    </div>
+
+    <h3>الخلاصة</h3>
+    <div class="concept-box">
+        <p>عيون زرقاء... كادت أن تُغلق إلى الأبد.</p>
+        <p>ابتسامة بريئة... كادت أن تكون الأخيرة.</p>
+        <p>حلم أبوين... كاد أن يتحطم.</p>
+        <p>لكن... بفضل الله، ثم بالقرار الحاسم، والبروتوكول الصحيح، والعمل الجماعي...</p>
+        <p>عاش الطفل.</p>
+    </div>
+
+    <h3>رسالة إلى كل طبيب تخدير</h3>
+    <p>الأنافلاكسيس ليست "إذا حدثت"... بل "عندما تحدث".</p>
+    <p>كن مستعدًا:</p>
+    <ul>
+        <li>اعرف البروتوكول عن ظهر قلب</li>
+        <li>جهّز الأدوية مسبقًا</li>
+        <li>تدرّب على السيناريوهات</li>
+        <li>لا تتردد في إعطاء الأدرينالين وريديًا</li>
+    </ul>
+    <p>حياة مريضك تعتمد على ثوانٍ... لا تُضيّعها.</p>
+    
+    <div class="success-box">
+        إلى ذلك الطفل ذي العيون الزرقاء... أتمنى أن تكون الآن شابًا سعيدًا، لا تذكر شيئًا مما حدث.<br>وإلى والديه... أنتم علّمتموني معنى الأمانة الحقيقية.<br>وإلى نجيب الذبحاني... شكرًا على اختراعك السريع.<br>وإلى د. عمار أبو الصبح... شكرًا على كل ما علّمتني.<br>الحمد لله الذي بنعمته تتم الصالحات.
+    </div>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 10 -->
+    <h2>10. الخبرة ليست كل شيء:  الشجاعة مطلوبة</h2>
+    
+    <p>الدكتور عبدالله السوداني كان من أهدأ الأطباء الذين قابلتهم في حياتي.</p>
+    <p>رجل ذو خبرة كبيرة في التخدير، عمل لسنوات طويلة، مرّ بمئات، بل آلاف الحالات الصعبة. كان يتعامل مع أعقد المواقف بهدوء مُحترف، وكأنه يشرب الشاي في صباح هادئ.</p>
+    <p>لكن... الخبرة ليست كل شيء.</p>
+    <p>في بعض الأحيان، تحتاج إلى شيء أقوى من الخبرة، شيء أصعب من المهارة التقنية.</p>
+    <p>تحتاج إلى الشجاعة.</p>
+
+    <h3>الكابوس الأول: المحاولات المتكررة</h3>
+    <p>جاء طفل صغير إلى غرفة العمليات، يعاني من جسم غريب في القصبات الهوائية <span class="english-term">(Foreign Body in Bronchus)</span> -  ربما حبة فول سوداني، أو قطعة لعبة صغيرة، ابتلعها الطفل ودخلت إلى رئته بدلاً من معدته.</p>
+    <p>الحل : منظار القصبات <span class="english-term">(Rigid Bronchoscopy)</span> -  إجراء دقيق، يتطلب خبرة جراحية عالية.</p>
+    <p>الجراح المناوب كان استشاري جراحة صدر ، لقب كبير، مكانة مرموقة... لكن خبرته في مناظير القصبات لم تكن كبيرة.</p>
+
+    <p>دخل الجراح بالمنظار... لكنه لم يكن سريعًا، لم يكن دقيقًا.</p>
+    <p>بدأ يناور... يدور بالمنظار يمينًا ويسارًا، يحاول أن يجد الجسم الغريب، يدفع، يسحب، يُحرّك.</p>
+    <p>وفي كل مناورة، كان يحرّض منطقة الكارينا  <span class="english-term">(Carina)</span> - تلك المنطقة الحساسة جدًا حيث تتفرع القصبة الهوائية  <span class="english-term">(Trachea)</span> إلى قصبة يمنى ويسرى.</p>
+    <div class="alert-box">
+        <p>الكارينا منطقة شديدة الحساسية:</p>
+        <ul>
+            <li>تحريضها يُسبب تشنج قصبي شديد <span class="english-term">(Bronchospasm)</span></li>
+            <li>المناورات المتكررة تُسبب وذمة <span class="english-term">(Edema/Swelling)</span>  في القصبات</li>
+            <li>الوذمة + التشنج = انسداد جزئي أو كامل في مجرى التنفس</li>
+        </ul>
+    </div>
+
+    <p>الدكتور عبدالله، بخبرته الواسعة، بدأ يُعالج المضاعفات:</p>
+    <ul>
+        <li>أعطى موسعات القصبات <span class="english-term">(Bronchodilators)</span></li>
+        <li>استخدم كل التبخيرات الممكنة</li>
+        <li>زاد تركيز الأكسجين إلى 100%</li>
+        <li>حاول كل ما في ترسانته العلاجية</li>
+    </ul>
+    <p>لكن... الأكسجين لا يتحسن.</p>
+    <p><span class="english-term">SpO2</span> يبقى منخفضًا، الطفل يُكافح من أجل التنفس، والجراح... لا يزال يناور.</p>
+    <p>ظنّ الدكتور عبدالله في البداية أن المشكلة من الجسم الغريب نفسه، لكنه أدرك تدريجيًا أن المشكلة الحقيقية هي المحاولات والمناورات المفرطة.</p>
+    <p>لكنه... لم يستطع أن يوقف الجراح.</p>
+    <p>استحى أن يقول لاستشاري جراحة صدر : "توقف... أنت تؤذي المريض".</p>
+
+    <p>انتهى الإجراء... لكن الطفل لم ينته من المعاناة.</p>
+    <p>احتاج إلى عناية مركزة، قعد الدكتور عبدالله معه حتى وقت متأخر من الليل، يُعالج الوذمة، يُعالج التشنج، يحارب من أجل إبقاء الطفل على قيد الحياة.</p>
+    <p>نجا الطفل... لكن بثمن باهظ.</p>
+
+    <p>بعد ثلاثة أيام، جاءت حالة أخرى:</p>
+    <ul>
+        <li>طفل أقل من سنتين</li>
+        <li>جسم غريب في القصبات</li>
+        <li>نفس الجراح - استشاري الصدر</li>
+        <li>نفس المُخدّر - الدكتور عبدالله</li>
+    </ul>
+    <p>الكابوس على وشك أن يتكرر.</p>
+    <p>الدكتور عبدالله، الرجل الهادئ الذي نادرًا ما يستدعيني، اتصل بي - وأنا الاستشاري المناوب.</p>
+    <p>صوته كان مختلفًا هذه المرة. لم يكن هادئًا كالعادة، بل كان فيه توتر، قلق، استنجاد:</p>
+    <div class="quote-box">"مستحيل أن أعمل مع الزول ده!"</div>
+    <p>فهمتُ على الفور. التاريخ على وشك أن يُعيد نفسه.</p>
+
+    <h3>الوصول... والقرار الحاسم</h3>
+    <p>أتيتُ بسرعة. نظرتُ إلى الحالة:</p>
+    <ul>
+        <li>طفل صغير، أصغر من الأول</li>
+        <li>جسم غريب في القصبات</li>
+        <li>نفس الجراح</li>
+    </ul>
+    <p>لن أدع الكابوس يتكرر.</p>
+
+    <h3>المواجهة: الدفاع عن المريض</h3>
+    <p>توجهتُ مباشرة إلى استشاري جراحة الصدر، نظرتُ في عينيه، وقلتُ بحزم:</p>
+    <div class="quote-box">"دكتور، لن أُخدّر المريض قبل أن نتفق على شروط واضحة."</div>
+    <p>نظر إليّ مستغربًا. لكنني واصلتُ:</p>
+    <div class="quote-box">"المريض الأول دخل العناية المركزة بسبب المناورات المفرطة. لن أدع هذا يتكرر."</div>
+    <p>"الشروط:</p>
+    <ol>
+        <li>دخول سريع - لا مناورات طويلة</li>
+        <li>إذا وجدت الجسم الغريب، لك عشر دقائق فقط لإزالته</li>
+        <li>بعد عشر دقائق، تنسحب - سواء أزلته أو لم تُزله</li>
+        <li>إذا لم توافق على هذه الشروط، لن أُخدّر المريض"</li>
+    </ol>
+
+    <p>ساد صمت ثقيل في الغرفة.</p>
+    <p>الجراح نظر إليّ... لم يتوقع هذه المواجهة.</p>
+    <p>لكنه... أدرك أنني جاد.</p>
+    <p>أدرك أنني لن أتراجع، وأنني مستعد أن أُلغي العملية إذا لم يوافق.</p>
+    <p>فقال:</p>
+    <div class="quote-box">"موافق."</div>
+
+    <p>خدّرتُ الطفل، وراقبتُ الجراح عن كثب.</p>
+    <p>هذه المرة... كان مختلفًا.</p>
+    <p>دخل بسرعة، بدقة، بتركيز.</p>
+    <p>وجد الجسم الغريب.</p>
+    <p>أزاله و انسحب بسرعة.</p>
+    <p>كل شيء استغرق أقل من عشر دقائق.</p>
+    <p>لا مناورات مفرطة. لا تحريض للكارينا. لا تشنج. لا وذمة.</p>
+    <p>خرج الطفل من غرفة العمليات... بدون مضاعفات.</p>
+    <p>استيقظ بسلام، تنفّس بشكل طبيعي، وذهب إلى بيته في نفس اليوم.</p>
+
+    <h3>الدروس المستفادة: الشجاعة قبل الخبرة</h3>
+    <div class="concept-box">
+        <p><strong>1.  الخبرة ليست كل شيء</strong></p>
+        <p>الدكتور عبدالله كانت خبرته أفضل بكثير من خبرتي. لكنه استحى أن يوقف الجراح.</p>
+        <p>لكنني  أدركتُ أن الدفاع عن المريض أهم من الحفاظ على العلاقات المهنية.</p>
+
+        <p><strong> 2. اعرف متى تقول "لا"</strong></p>
+        <p>التخدير ليس خدمة تُطلب، بل شراكة طبية.</p>
+        <p>أنت لست "مقدم خدمة" للجرّاح، بل أنت "شريك" في علاج المريض.</p>
+        <p>إذا رأيت أن الجراح:</p>
+        <ul>
+            <li>يُبالغ في المناورات</li>
+            <li>يُعرّض المريض للخطر</li>
+            <li>لا يملك الخبرة الكافية</li>
+        </ul>
+        <p>من حقك - بل من واجبك - أن تقف وتقول:</p>
+        <div class="quote-box">"توقف. هذا كافٍ. المريض في خطر."</div>
+
+        <p><strong> 3. المواجهة ليست وقاحة... بل مسؤولية</strong></p>
+        <p>مسؤوليتي الأولى هي المريض، ليس راحة الجراح.</p>
+        <p>مسؤوليتي الأولى هي سلامة الطفل، ليس الحفاظ على مشاعر الاستشاري.</p>
+
+        <p><strong>4.  ضع شروطًا واضحة قبل البدء</strong></p>
+        <p>في الحالات الخطيرة أو مع الجراحين عديمي الخبرة في إجراء معين:</p>
+        <p>ضع شروطًا واضحة قبل التخدير:</p>
+        <ul>
+            <li>"كم من الوقت ستحتاج؟"</li>
+            <li>"ما هي خطتك إذا لم تجد الجسم الغريب؟"</li>
+            <li>"ما هي خطة الطوارئ؟"</li>
+            <li>"متى ستنسحب؟"</li>
+        </ul>
+        <p>إذا لم تحصل على إجابات مُرضية... لا تبدأ التخدير.</p>
+
+        <p><strong>5- الدفاع عن المريض حتى لو كان الجراح "كبير وعظيم"</strong></p>
+        <p>لا يهم إذا كان الجراح:</p>
+        <ul>
+            <li>استشاري</li>
+            <li>أستاذ جامعي</li>
+            <li>رئيس قسم</li>
+            <li>له سمعة عظيمة</li>
+        </ul>
+        <p>إذا كان يُعرّض المريض للخطر... يجب أن توقفه.</p>
+        <p>المريض لا يعرف ألقاب الأطباء. المريض يثق فينا جميعًا.</p>
+    </div>
+
+    <h3>الخلاصة</h3>
+    <div class="concept-box">
+        <p>الخبرة مهمة... لكن الشجاعة أهم.</p>
+        <p>المهارة التقنية ضرورية... لكن الدفاع عن المريض واجب.</p>
+        <p>الحفاظ على العلاقات المهنية جيد... لكن إنقاذ حياة المريض أولى.</p>
+    </div>
+
+    <h3>رسالة إلى كل طبيب تخدير</h3>
+    <p>أنت محامي المريض على طاولة العمليات.</p>
+    <p>المريض نائم، لا يستطيع أن يدافع عن نفسه.</p>
+    <p>أنت صوته، أنت حاميه، أنت خط الدفاع الأخير.</p>
+    <p>لا تستحِ أن تقف في وجه أي جراح - مهما كان كبيرًا - إذا رأيت أنه يُعرّض المريض للخطر.</p>
+    <p>قل "لا" حين يجب أن تقول "لا".</p>
+    <p>ضع شروطًا حين يجب أن تضع شروطًا.</p>
+    <p>أوقف العملية حين يجب أن توقفها.</p>
+    <p>الخبرة ليست كل شيء... الشجاعة هي ما تُنقذ الأرواح.</p>
+    
+    <div class="success-box">
+        إلى كل طبيب يجد نفسه في موقف مشابه... كن شجاعًا.<br>دافع عن مريضك... حتى لو كلّفك ذلك.
+    </div>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 11 -->
+    <h2>11. حين عاد من الموت وأشبعني سبا</h2>
+    
+    <p>كانت مناوبة عادية في العناية القلبية، أو هكذا بدت. مرضى القلب يحتاجون إلى مراقبة دقيقة، وأي ثانية قد تكون فاصلة بين الحياة والموت.</p>
+    <p>فجأة... صاح الممرض بصوت عالٍ:</p>
+    <div class="alert-box"><span class="english-term">"دكتور! VF! VF!"</span></div>
+    <p><span class="english-term">Ventricular Fibrillation</span> - رجفان بطيني!</p>
+    <p>أخطر أنواع اضطرابات نظم القلب. القلب يرتجف بشكل عشوائي، لا يضخ الدم، المريض يموت في دقائق إذا لم نتدخل فورًا.</p>
+
+    <p>لم يكن هناك وقت للتفكير. ركضتُ بسرعة خاطفة:</p>
+    <ul>
+        <li>أمسكتُ جهاز إزالة الرجفان <span class="english-term">(Defibrillator)</span></li>
+        <li>وضعتُ اللصاقات على صدر المريض</li>
+        <li>ضبطتُ الطاقة: 200 جول</li>
+        <li>صرختُ: "ابتعدوا! <span class="english-term">Clear!</span>"</li>
+        <li>وضغطتُ الزر</li>
+    </ul>
+
+    <h3>الصدمة الكهربائية</h3>
+    <p><span class="english-term">BOOM!</span></p>
+    <p>انطلقت الصدمة الكهربائية عبر صدر المريض. جسده ارتجف، قفز قليلاً على السرير من قوة الصدمة.</p>
+    <p>نظرتُ إلى الشاشة...</p>
+    <p>نظم جيبي طبيعي! <span class="english-term">(Sinus Rhythm)</span></p>
+    <p>عاد النبض!</p>
+    <p>من الضربة الأولى!</p>
+
+    <p>شعرتُ بموجة من الارتياح. أنقذتُ حياة إنسان في ثوانٍ!</p>
+    <p>هذه هي اللحظات التي نعيش من أجلها كأطباء. اللحظات التي تُشعرك بأن كل التعب، كل السهر، كل المعاناة... تستحق.</p>
+    <p>لكن...</p>
+    <p>فجأة... فتح المريض عينيه.</p>
+    <p>نظر إليّ بعينين غاضبتين، مليئتين بالألم.</p>
+    <p>ثم... صرخ بأعلى صوته:</p>
+    <div class="quote-box">"آآآآآه!  [سباب لا يُذكر]! يا [شتيمة أخرى]! ماذا فعلت بي يا [...]؟!"</div>
+    <p>سبّني بأقذع الألفاظ!</p>
+    <p>سباب لم أسمعه في حياتي، تعابير لم أكن أعرف أنها موجودة، شتائم بإبداع لغوي مُدهش!</p>
+
+    <h3>التراجع... والانفجار بالضحك</h3>
+    <p>تراجعتُ إلى الوراء، مصدومًا، غير مصدق ما أسمعه.</p>
+    <p>الرجل الذي كان قبل ثوانٍ على حافة الموت، يسبّني الآن وكأنني أسوأ شخص في الكون!</p>
+    <p>نظرتُ إلى الممرضات... كانوا يكتمون ضحكاتهم.</p>
+    <p>نظرتُ إلى الممرض... كان يعض على شفتيه ليمنع نفسه من الضحك.</p>
+    <p>ونظرتُ إلى المريض... لا يزال يشتم ويصرخ من الألم.</p>
+    <p>ولم أستطع أن أمنع نفسي...</p>
+    <p>انفجرتُ من الضحك!</p>
+
+    <h3>الصدمة الكهربائية مؤلمة جدًا!</h3>
+    <p>تخيّل أنك تتلقى 200 جول من الكهرباء عبر صدرك. كل عضلة في جسدك تنقبض دفعة واحدة، كأنك تتلقى لكمة كهربائية عملاقة في الصدر.</p>
+    <p>إذا كان المريض واعيًا ، أو إذا استيقظ مباشرة بعد الصدمة... الألم يكون لا يُطاق.</p>
+    <p>ولأن المريض لا يفهم ما حدث، لا يعلم أنه كان ميتًا قبل ثوانٍ، كل ما يعرفه هو:</p>
+    <div class="quote-box">"شخص بثوب أبيض صعقني بالكهرباء!"</div>
+
+    <p>بعد أن هدأ المريض قليلاً، اقتربتُ منه وشرحتُ له:</p>
+    <div class="quote-box">"... قلبك توقف. كنت على وشك الموت. أنقذنا حياتك."</div>
+    <p>نظر إليّ بعينين لا تزالان غاضبتين، لكن مع بعض الارتباك:</p>
+    <div class="quote-box">"ماذا؟ قلبي توقف؟"</div>
+    <div class="quote-box">"نعم. دخلت في رجفان بطيني. لو لم نصعقك بالكهرباء، كنت متّ."</div>
+    <p>صمت المريض... بدأ يستوعب.</p>
+    <p>ثم قال بصوت خافت:</p>
+    <div class="quote-box">"آسف يا دكتور... لم أكن أعلم... الألم كان شديدًا جدًا..."</div>
+    <p>ابتسمتُ:</p>
+    <div class="quote-box">"لا بأس، أنا فاهم. المهم أنك بخير الآن."</div>
+
+    <h3>الدرس الطريف... والعميق</h3>
+    <div class="concept-box">
+        <p>هذه القصة، رغم كونها مضحكة، تحمل دروسًا مهمة:</p>
+        <p><strong>1. الإنعاش القلبي ليس لطيفًا</strong></p>
+        <p>الصدمة الكهربائية، ضغط الصدر، التنبيب... كلها إجراءات عنيفة ومؤلمة.</p>
+        <p>لكنها تُنقذ الأرواح.</p>
+        <p>المريض قد لا يشكرك في اللحظة الأولى، بل قد يسبّك... لكن لاحقًا، حين يفهم أنك أنقذت حياته، سيكون ممتنًا.</p>
+        <p><strong> 2. لا تأخذ ردود أفعال المرضى على محمل شخصي</strong></p>
+        <p>المريض الذي يصرخ، يسبّ، يضرب، يبصق... غالبًا لا يعي ما يفعل.</p>
+        <p>قد يكون في حالة هذيان، ألم شديد، خوف، أو صدمة.</p>
+        <p>لا تأخذ الأمر شخصيًا. أنت تُنقذ حياته، حتى لو لم يُدرك ذلك في اللحظة.</p>
+        <p><strong>4. التواصل بعد الإنعاش مهم</strong></p>
+        <p>بعد أي إنعاش قلبي، من المهم أن تشرح للمريض (إذا كان واعيًا) ماذا حدث، لماذا فعلت ما فعلت، ولماذا شعر بهذا الألم.</p>
+        <p>الفهم يُخفف من الغضب.</p>
+    </div>
+
+    <h3>رسالة إلى كل طبيب</h3>
+    <p>ستُواجه مواقف مشابهة في مسيرتك:</p>
+    <ul>
+        <li>مريض تُنقذه فيصرخ عليك</li>
+        <li>مُصاب تُسعفه فيسبّك</li>
+    </ul>
+    <p>لا تيأس. لا تغضب. لا تأخذ الأمر شخصيًا.</p>
+    <p>أنت تُنقذ أرواحًا... وهذا يكفي.</p>
+    <p>حتى لو لم يشكرك أحد... الله يرى.</p>
+    <div class="success-box">﴿وَمَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا﴾</div>
+    <p>أحيانًا، أفضل شكر تسمعه... هو سباب من شخص كان ميتًا قبل ثوانٍ!</p>
+
+    <div class="divider">***</div>
+
+    <!-- القصة 12 -->
+    <h2>12. ليس سهلًا أن تُخدّر أباك</h2>
+
+    <h3>القاعدة الطبية المعروفة</h3>
+    <p>في الطب، هناك قاعدة غير مكتوبة لكنها متعارف عليها بين الأطباء والعاملين في المجال الصحي:</p>
+    <p>"لا تُعالج أقاربك من الدرجة الأولى"</p>
+    <ul>
+        <li>الجراح لا يُجري عملية لأبيه أو ابنه</li>
+        <li>طبيب القلب لا يُشخّص أمه</li>
+        <li>طبيب التخدير لا يُخدّر زوجته</li>
+    </ul>
+    <p>لماذا؟</p>
+    <p>لأن المشاعر تتدخل، الموضوعية تختفي، القرارات تصبح مشوشة.</p>
+    <p>لكن الحياة... لا تحترم دائمًا القواعد.</p>
+
+    <h3>المنظار بداية القصة</h3>
+    <p>كان منظارًا هضميًا روتينيًا  <span class="english-term">(Gastroscopy)</span> لوالدي.</p>
+    <p>شكوى بسيطة، أعراض قد تكون عادية، قررنا عمل منظار للاطمئنان.</p>
+    <p>دخل والدي إلى غرفة المنظار... مبتسمًا، واثقًا، مطمئنًا.</p>
+    <div class="quote-box">"ابني دكتور... ما في خوف"</div>
+    <p>وأنا... خدّرته، راقبته، انتظرت نتيجة المنظار بقلب مطمئن.</p>
+
+    <h3>الصدمة: ورم في المعدة</h3>
+    <p>ثم... جاءت الصدمة.</p>
+    <p>ورم في المعدة <span class="english-term">(Gastric Tumor).</span></p>
+    <p>ليس التهابًا، ليس قرحة، ليس ارتجاعًا... ورم.</p>
+    <p>أخذنا عينة <span class="english-term">(Biopsy)</span>، وانتظرنا نتيجة التحليل المرضي.</p>
+    <p>الأيام كانت أطول من السنوات.  كل دقيقة كانت كدهر.</p>
+    <p>ثم... جاءت النتيجة:</p>
+    <p><span class="english-term">Carcinoid Tumor</span> -  ورم سرطاوي.</p>
+    <p>نوع نادر من الأورام، ليس الأشرس، لكنه خبيث.</p>
+
+    <h3>التحرك السريع: الأمل لا يزال موجودًا</h3>
+    <p>لم أُضيّع الوقت. تحركتُ بسرعة:</p>
+    <ul>
+        <li>عملنا الفحوصات الكاملة</li>
+        <li>التصوير الطبقي المحوري  <span class="english-term">(CT Scan)</span> للبطن والصدر</li>
+        <li>تحاليل الدم ودلالات الأورام</li>
+    </ul>
+    <p>ثم... جاءت النتيجة المُريحة:</p>
+    <p>الورم لم ينتشر  (حسب الصور)</p>
+    <p>شعرتُ بشعاع أمل. لا يزال هناك فرصة. الاستئصال الجراحي ممكن.</p>
+
+    <p>لكنني... لم أُخبر والدي.</p>
+    <p>لم أقل له: "عندك ورم في المعدة".</p>
+    <p>بل قلت له: "قرحة... قرحة مزعجة، لكنها قابلة للعلاج".</p>
+    <p>كذبتُ عليه لأنني أعرف والدي. </p>
+    <p>أعرف أن الخبر سيُحطّمه، أن معنوياته ستنهار، أن الأمل سيموت قبل الجسد.</p>
+    <p>أردتُ أن أُبقي الأمل حيًا في عينيه، أن يعيش أيامه القادمة بسلام، دون أن يحمل ثقل "السرطان" على كتفيه.</p>
+
+    <p>تكلمتُ مع أفضل الجراحين الذين أعرفهم.</p>
+    <p>شرحتُ لهم الحالة، أريتهم الصور، ناقشتُ معهم الخطة.</p>
+    <p>وافقوا: الاستئصال الجراحي ممكن.</p>
+    <p>حُدّد موعد العملية.</p>
+    <p>دخلتُ مع والدي إلى غرفة العمليات... وكلي أمل.</p>
+
+    <h3>اللحظة التي تحطّم فيها كل شيء</h3>
+    <p>خدّرتُ والدي بيدي. رأيتُ عينيه تُغلقان بهدوء، وجسده يسترخي تحت تأثير التخدير.</p>
+    <p>بدأ الجراح العملية. فتح البطن ... ودخل لاستئصال الورم.</p>
+    <p>لكن بعد دقائق... توقف.</p>
+    <p>نظر إليّ... نظرة لم أنسها أبدًا.</p>
+    <p>نظرة تقول: "آسف".</p>
+    <p>ثم قال بصوت منخفض:</p>
+    <div class="alert-box">"الورم منتشر... في كل مكان".</div>
+
+    <p>عُقد صغيرة <span class="english-term">(Small Nodules)</span>، لم تكن مرئية في التصوير الطبقي المحوري، منتشرة في:</p>
+    <ul>
+        <li>الغشاء البريتواني <span class="english-term">(Peritoneum)</span></li>
+        <li>الأمعاء</li>
+        <li>كل البطن</li>
+    </ul>
+    <p>الاستئصال أصبح مستحيلًا.</p>
+
+    <h3>الانهيار</h3>
+    <p>في تلك اللحظة... لم أكن طبيبًا.</p>
+    <p>لم أكن طبيب التخدير الهادئ، ولا الاستشاري الخبير.</p>
+    <p>كنتُ فقط... ابنًا.</p>
+    <p>ابن يرى أباه ممددًا على طاولة العمليات، بطنه مفتوح، وحُكم الموت البطيء مكتوب في أحشائه.</p>
+    <p>لم أكن مستعدًا لهذا الاحتمال.</p>
+    <p>خارت عزيمتي. انهارت قوتي.</p>
+    <p>شعرتُ بأن الأرض تميد تحت قدميّ، وأن الهواء يختنق في صدري.</p>
+    <p>لم أستطع المواصلة.</p>
+    <p>ناديتُ زميلي بصوت مختنق:</p>
+    <div class="quote-box">"أكمل أنت... من فضلك"</div>
+    <p>وغادرتُ غرفة العمليات.</p>
+
+    <h3>خارج الغرفة: الذكريات والدموع</h3>
+    <p>خرجتُ... وجلستُ في الممر.</p>
+    <p>ووضعتُ رأسي بين يديّ.</p>
+    <p>وبكيت.</p>
+    <p>دارت بي الذكريات من الطفولة:</p>
+    <ul>
+        <li>والدي يحملني على كتفيه</li>
+        <li>والدي يعلّمني القرآن</li>
+        <li>والدي يمسك بيدي في أول يوم مدرسة</li>
+        <li>والدي يفرح بنجاحي في الطب</li>
+        <li>والدي... والدي... والدي...</li>
+    </ul>
+    <p>يصعب على المرء أن يرى مكروهًا يمسّ أباه.</p>
+    <p>يصعب عليك أن تكون طبيبًا حين يكون المريض هو من علّمك معنى الحياة.</p>
+
+    <p>بعد العملية، استيقظ والدي.</p>
+    <p>سألني: "كيف كانت العملية؟"</p>
+    <p>ابتسمتُ ابتسامة متكلفة، وقلت:</p>
+    <div class="quote-box">"كل شيء تمام يا أبي... القرحة كانت أكبر مما توقعنا، لكنهم عالجوها"</div>
+    <p>كذبتُ... مرة أخرى.</p>
+    <p>واستمريت أكذب عليه طيلة سنتين.</p>
+    <p>سنتان كاملتان، وأنا أُخفي عنه الحقيقة، أُخفي عنه أن الورم ينتشر، أن جسده يُستهلك، أن الموت يقترب.</p>
+
+    <h3>الحج: آخر رحلة معًا</h3>
+    <p>في تلك الفترة، ذهبنا معًا إلى الحج.</p>
+    <p>كان ضعيفًا، لكنه كان سعيدًا.</p>
+    <p>طُفنا معًا حول الكعبة، صلّينا معًا في الحرم، دعونا معًا عند الملتزم.</p>
+    <p>ولم يعلم... أنها آخر رحلة.</p>
+
+    <h3>النزاع الطويل</h3>
+    <p>استمر والدي سنتين ينازع الورم.</p>
+    <p>الورم كان يقتله ببطء، يأكل جسده من الداخل، يسرق منه القوة، الشهية، الحياة.</p>
+    <p>عملتُ له عمليتين أخريين:</p>
+    <ul>
+        <li>فك انسداد الأمعاء <span class="english-term">(Bowel Obstruction)</span> مرتين</li>
+    </ul>
+    <p>في كل مرة، كنتُ أدخل غرفة العمليات معه... وأخرج منها أكثر تحطمًا.</p>
+
+    <h3>الرحيل</h3>
+    <p>حتى... انتشر الورم في كل مكان.</p>
+    <p>لم يعد هناك ما يمكن فعله.</p>
+    <p>ووافته المنية.</p>
+    <p>توفاه الله.</p>
+
+    <div class="success-box">
+        <p>رحمك الله يا والدي.</p>
+        <p>وأدخلك الجنة.</p>
+        <p>ما زلتُ أدعو لك في كل صلاة:</p>
+        <p>"اللهم اغفر له وارحمه، وعافه واعف عنه، وأكرم نزله، ووسّع مدخله، واغسله بالماء والثلج والبرد، ونقّه من الخطايا كما يُنقّى الثوب الأبيض من الدنس، وأبدله دارًا خيرًا من داره، وأهلًا خيرًا من أهله، وزوجًا خيرًا من زوجه، وأدخله الجنة، وأعذه من عذاب القبر ومن عذاب النار"</p>
+        <p>وجميع موتى المسلمين.</p>
+    </div>
+
+    <h3>الدروس المؤلمة</h3>
+    <div class="concept-box">
+        <p><strong> 1. ليس سهلًا أن تعالج من تحب</strong></p>
+        <p>القاعدة الطبية صحيحة: لا تُعالج أقاربك من الدرجة الأولى.</p>
+        <p>ليس لأنك غير كفء، بل لأن المشاعر تُعميك، الموضوعية تختفي، والقرارات تصبح أصعب.</p>
+        <p><strong> 2. الكذبة الرحيمة... هل هي صحيحة؟</strong></p>
+        <p>كذبتُ على والدي... وما زلتُ لا أعرف إن كان ذلك صحيحًا أم خطأً.</p>
+        <ul>
+            <li>من جهة: حميتُه من الانهيار النفسي، أبقيتُ الأمل حيًا في عينيه.</li>
+            <li>من جهة أخرى: حرمتُه من حق المعرفة، من الاستعداد للقاء الله، من ترتيب أموره.</li>
+        </ul>
+        <p>هذا قرار صعب، ولا توجد إجابة واحدة صحيحة. كل حالة تختلف.</p>
+        <p><strong> 3. الطب ليس كل شيء</strong></p>
+        <p>تعلّمتُ أن الطب، رغم عظمته، محدود.</p>
+        <p>لا نملك كل الإجابات. لا نستطيع إنقاذ الجميع.</p>
+        <p>نحن بشر... نفعل ما نستطيع... والباقي على الله.</p>
+        <p><strong>4.  الدعاء للوالدين واجب</strong></p>
+        <p>﴿رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا﴾ (الإسراء: 24)</p>
+        <p>الدعاء للوالدين بعد موتهم من أعظم ما يصلهم من الأبناء.</p>
+        <p>﴿وَالَّذِينَ جَاءُوا مِن بَعْدِهِمْ يَقُولُونَ رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ﴾ ( الحشر: 10</p>
+    </div>
+
+    <h3>خاتمة</h3>
+    <p>ليس سهلًا أن تُخدّر أباك.</p>
+    <p>ليس سهلًا أن تراه ينام تحت تأثير التخدير، وأنت تعلم أن الموت يقترب.</p>
+    <p>ليس سهلًا أن تكون طبيبًا... وابنًا... في نفس الوقت.</p>
+    <p>لكنني فخور بأنني كنتُ معه حتى النهاية.</p>
+    <p>فخور بأنني خدّرته، عالجته، رافقته.</p>
+    <p>فخور بأنني أخفيتُ عنه الحقيقة المُرّة، وأبقيتُ الأمل حيًا في قلبه.</p>
+    
+    <div class="success-box">
+        رحمك الله يا والدي... وجمعنا بك في الفردوس الأعلى.<br>اللهم اغفر له وارحمه، وأدخله الجنة، وجميع موتى المسلمين. اللهم آمين.
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        // Clone the document to remove the download button from the downloaded file
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        // Remove the top padding from body in the clone so it looks normal
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "من_رماد_الذاكرة.html";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+    </script>
+
+    <!-- Navigation Footer -->
+    <style>
+        .nav-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0.95));
+            backdrop-filter: blur(10px);
+            border-top: 2px solid #1a5276;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        .nav-btn {
+            padding: 10px 25px;
+            background: linear-gradient(135deg, #1a5276 0%, #2874a6 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-family: 'Cairo', Arial, sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .nav-btn:hover {
+            background: linear-gradient(135deg, #2874a6 0%, #1a5276 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .nav-btn.prev::before {
+            content: '← ';
+        }
+
+        .nav-btn.next::after {
+            content: ' →';
+        }
+
+        .nav-center {
+            font-family: 'Cairo', Arial, sans-serif;
+            font-weight: 600;
+            color: #1a5276;
+            font-size: 16px;
+        }
+
+        /* Add bottom padding to body to prevent content from being hidden behind footer */
+        body {
+            padding-bottom: 80px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-footer {
+                flex-direction: column;
+                gap: 10px;
+                padding: 12px 15px;
+            }
+            
+            .nav-btn {
+                width: 100%;
+                text-align: center;
+            }
+            
+            .nav-center {
+                order: -1;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+
+    <div class="nav-footer">
+        <a href="/chapter/0" class="nav-btn prev">السابق: المقدمة</a>
+        <div class="nav-center">من رماد الذاكرة</div>
+        <a href="/chapter/1" class="nav-btn next">التالي: الفصل الأول</a>
+    </div>
+
+</body></html>
