@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/chapters",
+      "destination": "/chapters.html"
+    },
+    {
+      "source": "/chapter/:id",
+      "destination": "/api/chapter"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/public/$1"
+    }
+  ]
+}

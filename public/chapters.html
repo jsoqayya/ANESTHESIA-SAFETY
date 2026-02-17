@@ -1,0 +1,1001 @@
+
+    <!DOCTYPE html>
+    <html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>فصول الكتاب - دليل السلامة والجودة في التخدير</title>
+        <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+        <style>
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          
+          body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+          }
+          
+          .header {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 3rem 2rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+          }
+          
+          .header h1 {
+            font-family: 'Amiri', serif;
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+          }
+          
+          .header .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
+          }
+          
+          .back-button {
+            display: inline-block;
+            padding: 0.9rem 2.5rem;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+          }
+          
+          .back-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+            background: #f8f9fa;
+          }
+
+          .back-button i {
+            margin-left: 0.5rem;
+          }
+          
+          .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+          }
+          
+          .part-section {
+            margin-bottom: 3rem;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+          }
+
+          .part-section:hover {
+            transform: translateY(-5px);
+          }
+          
+          .part-header-new {
+            display: flex;
+            align-items: center;
+            padding: 2.5rem;
+            background: #f8f9fa;
+            border-bottom: 3px solid #e0e0e0;
+            gap: 2rem;
+          }
+
+          .part-icon-container {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+          }
+
+          .part-icon-container i {
+            color: white;
+            font-size: 2.5rem;
+          }
+
+          .part-info {
+            flex: 1;
+          }
+
+          .part-info h2 {
+            font-family: 'Amiri', serif;
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 0.3rem;
+          }
+
+          .part-subtitle {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-bottom: 0.2rem;
+          }
+
+          .part-english {
+            font-size: 1rem;
+            color: #95a5a6;
+            font-style: italic;
+          }
+
+          .part-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.7rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            white-space: nowrap;
+            box-shadow: 0 3px 10px rgba(102,126,234,0.3);
+          }
+          
+          .chapters-grid-new {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            padding: 2.5rem;
+          }
+          
+          .chapter-card-new {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 1.8rem;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            position: relative;
+            overflow: hidden;
+          }
+
+          .chapter-card-new::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(102,126,234,0.05) 0%, rgba(118,75,162,0.05) 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+          }
+
+          .chapter-card-new:hover::before {
+            opacity: 1;
+          }
+          
+          .chapter-card-new:hover {
+            transform: translateX(-10px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+          }
+
+          .chapter-number-badge {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.3rem;
+            flex-shrink: 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            position: relative;
+            z-index: 1;
+          }
+
+          .chapter-content-new {
+            flex: 1;
+            position: relative;
+            z-index: 1;
+          }
+
+          .chapter-title-new {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 0.4rem;
+          }
+
+          .chapter-subtitle-new {
+            font-size: 1rem;
+            color: #7f8c8d;
+            line-height: 1.5;
+          }
+
+          .chapter-arrow {
+            color: #667eea;
+            font-size: 1.3rem;
+            transition: transform 0.3s ease;
+            position: relative;
+            z-index: 1;
+          }
+
+          .chapter-card-new:hover .chapter-arrow {
+            transform: translateX(-5px);
+          }
+
+          .bottom-nav {
+            text-align: center;
+            padding: 3rem 2rem;
+          }
+
+          .stats-container {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 2rem;
+          }
+
+          .stat-item {
+            text-align: center;
+          }
+
+          .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+          }
+
+          .stat-label {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            margin-top: 0.5rem;
+          }
+
+          @media (max-width: 768px) {
+            .header h1 {
+              font-size: 2.5rem;
+            }
+            .chapters-grid-new {
+              grid-template-columns: 1fr;
+              padding: 1.5rem;
+            }
+            .part-header-new {
+              flex-direction: column;
+              text-align: center;
+            }
+            .chapter-card-new {
+              padding: 1.2rem;
+            }
+          }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1><i class="fas fa-book-open"></i> فصول الكتاب</h1>
+            <p class="subtitle">33 فصلاً شاملاً • 6 أجزاء رئيسية • 100% متوفر</p>
+            <a href="/" class="back-button">
+                <i class="fas fa-home"></i> العودة للرئيسية
+            </a>
+        </div>
+        
+        <div class="container">
+            <div class="stats-container">
+              <div class="stat-item">
+                <div class="stat-number">33</div>
+                <div class="stat-label">فصل كامل</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">6</div>
+                <div class="stat-label">أجزاء رئيسية</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">محتوى متوفر</div>
+              </div>
+            </div>
+
+            
+    <div class="part-section" data-aos="fade-up" data-aos-delay="0">
+      <div class="part-header-new">
+        <div class="part-icon-container" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+          <i class="fas fa-bookmark"></i>
+        </div>
+        <div class="part-info">
+          <h2>المقدمة والمواد الأولية</h2>
+          
+          <p class="part-english">Front Matter</p>
+        </div>
+        <div class="part-badge">6 فصل</div>
+      </div>
+      <div class="chapters-grid-new">
+        
+          <a href="/chapter/copyright" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="0">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              ★
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">حقوق الطبع والنشر</h3>
+              <p class="chapter-subtitle-new">Copyright Notice</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/foreword-ammar" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="50">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              ★
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">تقديم الدكتور عمار أبو الصبح</h3>
+              <p class="chapter-subtitle-new">Foreword by Dr. Ammar Abu Al-Sabah</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/foreword-sami" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="100">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              ★
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">تقديم الدكتور سامي زايد</h3>
+              <p class="chapter-subtitle-new">Foreword by Dr. Sami Zayed</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/contents" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="150">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              ★
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">جدول المحتويات</h3>
+              <p class="chapter-subtitle-new">Table of Contents</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/0" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="200">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              0
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">المقدمة</h3>
+              <p class="chapter-subtitle-new">مقدمة الكتاب</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/min-ramad" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="250">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              ★
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">من رماد الذاكرة</h3>
+              <p class="chapter-subtitle-new">From the Ashes of Memory</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="part-section" data-aos="fade-up" data-aos-delay="100">
+      <div class="part-header-new">
+        <div class="part-icon-container" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <div class="part-info">
+          <h2>الجزء الأول</h2>
+          <p class="part-subtitle">أسس علم السلامة في التخدير</p>
+          
+        </div>
+        <div class="part-badge">4 فصل</div>
+      </div>
+      <div class="chapters-grid-new">
+        
+          <a href="/chapter/1" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="100">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+              1
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الأول</h3>
+              <p class="chapter-subtitle-new">لماذا تهم السلامة في التخدير</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/2" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="150">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+              2
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثاني</h3>
+              <p class="chapter-subtitle-new">ثقافة السلامة والخطأ البشري</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/3" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="200">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+              3
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثالث</h3>
+              <p class="chapter-subtitle-new">العوامل البشرية وبيئة العمل</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/4" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="250">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+              4
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الرابع</h3>
+              <p class="chapter-subtitle-new">العمل الجماعي والتواصل</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="part-section" data-aos="fade-up" data-aos-delay="200">
+      <div class="part-header-new">
+        <div class="part-icon-container" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <div class="part-info">
+          <h2>الجزء الثاني</h2>
+          <p class="part-subtitle">أساليب تحسين الجودة والقياس</p>
+          
+        </div>
+        <div class="part-badge">5 فصل</div>
+      </div>
+      <div class="chapters-grid-new">
+        
+          <a href="/chapter/5" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="200">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);">
+              5
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الخامس</h3>
+              <p class="chapter-subtitle-new">إدارة الجودة في الرعاية المحيطة بالجراحة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/6" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="250">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);">
+              6
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل السادس</h3>
+              <p class="chapter-subtitle-new">التحسين المستمر للجودة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/7" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="300">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);">
+              7
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل السابع</h3>
+              <p class="chapter-subtitle-new">القياس في التخدير</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/8" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="350">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);">
+              8
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثامن</h3>
+              <p class="chapter-subtitle-new">التدقيق والحوكمة السريرية</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/9" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="400">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);">
+              9
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل التاسع</h3>
+              <p class="chapter-subtitle-new">الإبلاغ عن الحوادث وأنظمة التعلم</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="part-section" data-aos="fade-up" data-aos-delay="300">
+      <div class="part-header-new">
+        <div class="part-icon-container" style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <div class="part-info">
+          <h2>الجزء الثالث</h2>
+          <p class="part-subtitle">بناء نظام تخدير آمن</p>
+          
+        </div>
+        <div class="part-badge">5 فصل</div>
+      </div>
+      <div class="chapters-grid-new">
+        
+          <a href="/chapter/10" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="300">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);">
+              10
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل العاشر</h3>
+              <p class="chapter-subtitle-new">تصميم خدمات تخدير موثوقة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/11" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="350">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);">
+              11
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الحادي عشر</h3>
+              <p class="chapter-subtitle-new">ثقافة السلامة والثقافة العادلة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/12" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="400">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);">
+              12
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثاني عشر</h3>
+              <p class="chapter-subtitle-new">التعليم والتدريب وأنظمة الكفاءة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/13" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="450">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);">
+              13
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثالث عشر</h3>
+              <p class="chapter-subtitle-new">أدوات تقييم المخاطر</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/14" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="500">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);">
+              14
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الرابع عشر</h3>
+              <p class="chapter-subtitle-new">قوائم التحقق والمساعدات المعرفية</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="part-section" data-aos="fade-up" data-aos-delay="400">
+      <div class="part-header-new">
+        <div class="part-icon-container" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+          <i class="fas fa-procedures"></i>
+        </div>
+        <div class="part-info">
+          <h2>الجزء الرابع</h2>
+          <p class="part-subtitle">سلامة المرضى عبر مسار الرعاية</p>
+          
+        </div>
+        <div class="part-badge">10 فصل</div>
+      </div>
+      <div class="chapters-grid-new">
+        
+          <a href="/chapter/15" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="400">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              15
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الخامس عشر</h3>
+              <p class="chapter-subtitle-new">السلامة قبل الجراحة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/16" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="450">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              16
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل السادس عشر</h3>
+              <p class="chapter-subtitle-new">السلامة أثناء الجراحة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/17" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="500">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              17
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل السابع عشر</h3>
+              <p class="chapter-subtitle-new">سلامة الأدوية في التخدير</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/18" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="550">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              18
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثامن عشر</h3>
+              <p class="chapter-subtitle-new">سلامة المعدات والمراقبة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/19" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="600">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              19
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل التاسع عشر</h3>
+              <p class="chapter-subtitle-new">منع آليات الضرر الشائعة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/20" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="650">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              20
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل العشرون</h3>
+              <p class="chapter-subtitle-new">سلامة التخدير الناحي</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/21" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="700">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              21
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الحادي والعشرون</h3>
+              <p class="chapter-subtitle-new">سلامة التهدئة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/22" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="750">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              22
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثاني والعشرون</h3>
+              <p class="chapter-subtitle-new">التخدير خارج غرفة العمليات</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/23" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="800">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              23
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثالث والعشرون</h3>
+              <p class="chapter-subtitle-new">سلامة وحدة رعاية ما بعد التخدير</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/24" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="850">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+              24
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الرابع والعشرون</h3>
+              <p class="chapter-subtitle-new">التميز في التسليم</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="part-section" data-aos="fade-up" data-aos-delay="500">
+      <div class="part-header-new">
+        <div class="part-icon-container" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+          <i class="fas fa-users-cog"></i>
+        </div>
+        <div class="part-info">
+          <h2>الجزء الخامس</h2>
+          <p class="part-subtitle">فئات خاصة وسياقات عالية المخاطر</p>
+          
+        </div>
+        <div class="part-badge">6 فصل</div>
+      </div>
+      <div class="chapters-grid-new">
+        
+          <a href="/chapter/25" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="500">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+              25
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الخامس والعشرون</h3>
+              <p class="chapter-subtitle-new">تخدير التوليد</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/26" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="550">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+              26
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل السادس والعشرون</h3>
+              <p class="chapter-subtitle-new">سلامة تخدير الأطفال</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/27" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="600">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+              27
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل السابع والعشرون</h3>
+              <p class="chapter-subtitle-new">جودة التخدير لكبار السن</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/28" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="650">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+              28
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثامن والعشرون</h3>
+              <p class="chapter-subtitle-new">حالات القلب والأوعية الكبرى</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/29" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="700">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+              29
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل التاسع والعشرون</h3>
+              <p class="chapter-subtitle-new">تخدير الصدمات والطوارئ</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/30" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="750">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+              30
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثلاثون</h3>
+              <p class="chapter-subtitle-new">واجهات العناية المركزة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="part-section" data-aos="fade-up" data-aos-delay="600">
+      <div class="part-header-new">
+        <div class="part-icon-container" style="background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <div class="part-info">
+          <h2>الجزء السادس</h2>
+          <p class="part-subtitle">التنفيذ والتعليم والاستدامة</p>
+          
+        </div>
+        <div class="part-badge">2 فصل</div>
+      </div>
+      <div class="chapters-grid-new">
+        
+          <a href="/chapter/31" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="600">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);">
+              31
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الحادي والثلاثون</h3>
+              <p class="chapter-subtitle-new">علم التنفيذ لمشاريع السلامة</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+          <a href="/chapter/32" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="650">
+            <div class="chapter-number-badge" style="background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);">
+              32
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">الفصل الثاني والثلاثون</h3>
+              <p class="chapter-subtitle-new">استدامة التميز</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="part-section" data-aos="fade-up" data-aos-delay="700">
+      <div class="part-header-new">
+        <div class="part-icon-container" style="background: undefined;">
+          <i class="fas undefined"></i>
+        </div>
+        <div class="part-info">
+          <h2>الخاتمة</h2>
+          
+          <p class="part-english">Conclusion</p>
+        </div>
+        <div class="part-badge">1 فصل</div>
+      </div>
+      <div class="chapters-grid-new">
+        
+          <a href="/chapter/33" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="700">
+            <div class="chapter-number-badge" style="background: undefined;">
+              33
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">خاتمة الكتاب</h3>
+              <p class="chapter-subtitle-new">عهدٌ لا ينتهي</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="part-section" data-aos="fade-up" data-aos-delay="800">
+      <div class="part-header-new">
+        <div class="part-icon-container" style="background: undefined;">
+          <i class="fas undefined"></i>
+        </div>
+        <div class="part-info">
+          <h2>المصادر والمراجع</h2>
+          
+          <p class="part-english">References</p>
+        </div>
+        <div class="part-badge">1 فصل</div>
+      </div>
+      <div class="chapters-grid-new">
+        
+          <a href="/chapter/34" class="chapter-card-new" data-aos="zoom-in" data-aos-delay="800">
+            <div class="chapter-number-badge" style="background: undefined;">
+              34
+            </div>
+            <div class="chapter-content-new">
+              <h3 class="chapter-title-new">المصادر والمراجع</h3>
+              <p class="chapter-subtitle-new">References - Vancouver Style</p>
+            </div>
+            <div class="chapter-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+          </a>
+        
+      </div>
+    </div>
+  
+
+            <div class="bottom-nav">
+              <a href="/" class="back-button">
+                <i class="fas fa-arrow-right"></i> العودة للصفحة الرئيسية
+              </a>
+            </div>
+        </div>
+    </body>
+    </html>
+  
