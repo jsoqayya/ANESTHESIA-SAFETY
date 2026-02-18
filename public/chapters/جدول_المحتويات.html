@@ -165,10 +165,25 @@
       }
 
       .nav-center {
-        text-align: center;
-        color: #1a5276;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 28px;
+        background: linear-gradient(135deg, #16a34a, #22c55e);
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-family: 'Cairo', sans-serif;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 15px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      }
+
+      .nav-center:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(22, 163, 74, 0.4);
+        background: linear-gradient(135deg, #15803d, #16a34a);
       }
 
       /* Mobile Responsive */
@@ -605,7 +620,10 @@
     <!-- Navigation Footer -->
     <div class="nav-footer">
         <a href="/chapter/foreword-sami" class="nav-btn prev">السابق: تقديم د. سامي</a>
-        <div class="nav-center">جدول المحتويات</div>
+        <a href="/chapters" class="nav-center">
+          <span>📚</span>
+          <span>العودة إلى الفصول</span>
+        </a>
         <a href="/chapter/0" class="nav-btn next">التالي: المقدمة</a>
     </div>
 

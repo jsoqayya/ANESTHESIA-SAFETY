@@ -736,10 +736,24 @@
             content: ' →';
         }
         .nav-center-static {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #16a34a, #22c55e);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
             font-family: 'Noto Kufi Arabic', Arial, sans-serif;
             font-weight: 600;
-            color: #2563eb;
-            font-size: 16px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .nav-center-static:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(22, 163, 74, 0.3);
+            background: linear-gradient(135deg, #15803d, #16a34a);
         }
         @media (max-width: 768px) {
             .nav-footer-static {
@@ -759,7 +773,10 @@
     </style>
     <div class="nav-footer-static">
         <a href="/chapter/contents" class="nav-btn-static prev">السابق: جدول المحتويات</a>
-        <div class="nav-center-static">المقدمة</div>
+        <a href="/chapters" class="nav-center-static">
+          <span>📚</span>
+          <span>العودة إلى الفصول</span>
+        </a>
         <a href="/chapter/min-ramad" class="nav-btn-static next">التالي: من رماد الذاكرة</a>
     </div>
   

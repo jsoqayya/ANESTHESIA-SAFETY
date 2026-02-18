@@ -2259,10 +2259,25 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         }
 
         .nav-center {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #16a34a, #22c55e);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
             font-family: 'Cairo', Arial, sans-serif;
             font-weight: 600;
-            color: #1a5276;
-            font-size: 16px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .nav-center:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(22, 163, 74, 0.4);
+            background: linear-gradient(135deg, #15803d, #16a34a);
         }
 
         /* Add bottom padding to body to prevent content from being hidden behind footer */
@@ -2291,7 +2306,10 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
 
     <div class="nav-footer">
         <a href="/chapter/0" class="nav-btn prev">السابق: المقدمة</a>
-        <div class="nav-center">من رماد الذاكرة</div>
+        <a href="/chapters" class="nav-center">
+          <span>📚</span>
+          <span>العودة إلى الفصول</span>
+        </a>
         <a href="/chapter/1" class="nav-btn next">التالي: الفصل الأول</a>
     </div>
 
