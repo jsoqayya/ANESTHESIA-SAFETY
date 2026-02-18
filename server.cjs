@@ -192,9 +192,19 @@ function createNavigationButtons(currentId) {
   } else if (numericId === 32) {
     prevId = 31;
     prevTitle = 'الفصل 31';
-    nextId = null; // آخر فصل
+    nextId = 33;
+    nextTitle = 'الخاتمة';
+  } else if (numericId === 33) {
+    prevId = 32;
+    prevTitle = 'الفصل 32';
+    nextId = 34;
+    nextTitle = 'المصادر والمراجع';
+  } else if (numericId === 34) {
+    prevId = 33;
+    prevTitle = 'الخاتمة';
+    nextId = null;
     nextTitle = null;
-  } else if (numericId > 1 && numericId <= 32) {
+  } else if (numericId > 1 && numericId < 32) {
     prevId = numericId - 1;
     prevTitle = `الفصل ${numericId - 1}`;
     nextId = numericId + 1;
