@@ -428,32 +428,7 @@ function commentsSection(chapterNum: number) {
       </div>
     </form>
 
-    <div id="commentsContainer" class="comments-list">
-      <div class="comment-card">
-        <div class="comment-header">
-          <div class="comment-avatar">د</div>
-          <div class="comment-meta">
-            <span class="comment-name">د. محمد الأحمدي</span>
-            <span class="comment-role">استشاري جراحة عامة</span>
-          </div>
-          <div class="comment-stars">★★★★★</div>
-          <span class="comment-date">منذ يومين</span>
-        </div>
-        <p class="comment-text">محتوى رائع ومنظم بشكل احترافي. يغطي جميع جوانب السلامة بطريقة علمية وعملية. أنصح كل فريق طبي بقراءة هذا الكتاب.</p>
-      </div>
-      <div class="comment-card">
-        <div class="comment-header">
-          <div class="comment-avatar" style="background:#7c3aed;">ن</div>
-          <div class="comment-meta">
-            <span class="comment-name">نورة السالم</span>
-            <span class="comment-role">ممرضة غرفة عمليات</span>
-          </div>
-          <div class="comment-stars">★★★★★</div>
-          <span class="comment-date">منذ أسبوع</span>
-        </div>
-        <p class="comment-text">هذا الفصل تحديداً يشرح بدقة ما يحدث في غرفة العمليات يومياً. السيناريوهات الواقعية تجعل المعلومات قابلة للتطبيق فوراً.</p>
-      </div>
-    </div>
+    <div id="commentsContainer" class="comments-list"></div>
   </div>
 
   <script>
