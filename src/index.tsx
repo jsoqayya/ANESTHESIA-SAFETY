@@ -514,74 +514,65 @@ app.get('/', (c) => {
     a { text-decoration: none; color: inherit; }
     ${navbarCSS}
 
-    /* COVER PAGE — fullscreen book cover */
+    /* COVER — image full visible, text below */
     .cover-page {
-      width: 100%; height: 100vh;
-      position: relative; overflow: hidden;
       background: #060e1f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .cover-img-block {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      background: #060e1f;
+      padding-top: 56px; /* navbar height */
     }
     .cover-bg-img {
-      position: absolute; inset: 0;
-      width: 100%; height: 100%;
-      object-fit: cover; object-position: center top;
       display: block;
+      width: auto;
+      max-width: 100%;
+      height: calc(100vh - 56px);
+      object-fit: contain;
+      object-position: center top;
     }
-    .cover-overlay {
-      position: absolute; inset: 0;
-      background: linear-gradient(
-        to bottom,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 55%,
-        rgba(6,14,31,0.75) 80%,
-        rgba(6,14,31,0.96) 100%
-      );
-    }
-    /* ALL TEXT AT BOTTOM */
     .cover-bottom {
-      position: absolute; bottom: 0; left: 0; right: 0;
-      padding: 0 32px 36px;
-      text-align: center; z-index: 2;
+      width: 100%;
+      background: linear-gradient(180deg, #060e1f 0%, #0a1628 60%, #0f2060 100%);
+      padding: 36px 32px 44px;
+      text-align: center;
     }
     .cover-en-label {
       font-family: 'Segoe UI', sans-serif;
-      font-size: 11px; color: rgba(255,255,255,0.5);
+      font-size: 11px; color: rgba(255,255,255,0.45);
       letter-spacing: 2.5px; text-transform: uppercase;
-      direction: ltr; margin-bottom: 10px; display: block;
+      direction: ltr; margin-bottom: 12px; display: block;
     }
     .cover-main-title {
       font-family: 'Noto Kufi Arabic', sans-serif;
       font-size: clamp(22px, 4vw, 40px);
       font-weight: 800; color: #fff;
-      line-height: 1.35; margin-bottom: 10px;
-      text-shadow: 0 2px 16px rgba(0,0,0,0.8);
+      line-height: 1.4; margin-bottom: 12px;
     }
     .cover-main-title .accent { color: #60a5fa; }
     .cover-badge-row {
       display: inline-flex; align-items: center; gap: 8px;
-      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
-      color: rgba(255,255,255,0.85); padding: 6px 18px;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+      color: rgba(255,255,255,0.8); padding: 6px 18px;
       border-radius: 20px;
       font-family: 'Noto Kufi Arabic', sans-serif;
       font-size: 12px; font-weight: 600;
-      margin-bottom: 22px;
+      margin-bottom: 24px;
     }
     .cover-actions {
       display: flex; gap: 14px; justify-content: center;
       flex-wrap: wrap;
     }
-    .scroll-hint {
-      position: absolute; bottom: 8px; left: 50%;
-      transform: translateX(-50%);
-      color: rgba(255,255,255,0.3); font-size: 18px;
-      animation: bounce 2s infinite; z-index: 3;
-    }
-    @keyframes bounce {
-      0%,100% { transform: translateX(-50%) translateY(0); }
-      50% { transform: translateX(-50%) translateY(-8px); }
-    }
     @media (max-width: 600px) {
-      .cover-bottom { padding: 0 14px 32px; }
+      .cover-bottom { padding: 28px 16px 36px; }
       .cover-main-title { font-size: 20px; }
+      .cover-bg-img { height: auto; max-height: 70vh; }
     }
 
     /* HERO — title section below cover */
@@ -935,12 +926,13 @@ app.get('/', (c) => {
 <body>
   ${navbar('home')}
 
-  <!-- ① COVER — fullscreen book cover image -->
+  <!-- ① COVER — image fully visible, text below -->
   <section class="cover-page">
-    <img src="/static/book-cover.png" alt="غلاف الكتاب" class="cover-bg-img" />
-    <div class="cover-overlay"></div>
-
-    <!-- كل النصوص والأزرار في الأسفل فقط -->
+    <!-- الصورة كاملة بدون قطع -->
+    <div class="cover-img-block">
+      <img src="/static/book-cover.png" alt="غلاف الكتاب" class="cover-bg-img" />
+    </div>
+    <!-- كل النصوص والأزرار تحت الصورة -->
     <div class="cover-bottom">
       <span class="cover-en-label">${bookTitleEn}</span>
       <div class="cover-main-title">
@@ -952,7 +944,6 @@ app.get('/', (c) => {
         <a href="/chapter/1" class="btn-outline">ابدأ من الفصل الأول</a>
       </div>
     </div>
-    <div class="scroll-hint">↓</div>
   </section>
 
   <!-- ② HERO — title + desc -->
