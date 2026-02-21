@@ -531,11 +531,12 @@ app.get('/', (c) => {
     }
     .cover-bg-img {
       display: block;
-      width: auto;
-      max-width: min(50vw, 100%);
-      height: calc(100vh - 56px);
-      object-fit: contain;
-      object-position: center top;
+      width: 60vw;
+      max-width: 100%;
+      height: auto;
+    }
+    @media (max-width: 768px) {
+      .cover-bg-img { width: 100%; }
     }
     .cover-bottom {
       width: 100%;
@@ -572,7 +573,6 @@ app.get('/', (c) => {
     @media (max-width: 600px) {
       .cover-bottom { padding: 28px 16px 36px; }
       .cover-main-title { font-size: 20px; }
-      .cover-bg-img { height: auto; max-height: 70vh; }
     }
 
     /* HERO — title section below cover */
