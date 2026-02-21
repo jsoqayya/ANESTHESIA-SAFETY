@@ -523,22 +523,104 @@ app.get('/', (c) => {
       padding: 80px 24px 60px; text-align: center;
       position: relative; overflow: hidden;
     }
-    /* BOOK COVER */
-    .book-cover-wrap {
-      margin: 28px auto 0;
-      display: flex; justify-content: center;
+    /* BOOK COVER SECTION */
+    .book-cover-section {
+      background: linear-gradient(160deg, #060e1f 0%, #0a1628 50%, #0f2060 100%);
+      padding: 70px 24px 80px;
+    }
+    .book-cover-inner {
+      max-width: 1000px; margin: 0 auto;
+      display: flex; align-items: center; gap: 60px;
+      flex-wrap: wrap; justify-content: center;
+    }
+    .book-cover-img-wrap {
+      flex-shrink: 0;
+      perspective: 1000px;
     }
     .book-cover-img {
-      width: 200px;
-      border-radius: 10px;
-      box-shadow: 0 12px 40px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.3);
-      border: 3px solid rgba(255,255,255,0.15);
-      transition: transform 0.3s;
+      width: 320px;
+      border-radius: 12px;
+      box-shadow:
+        0 30px 80px rgba(0,0,0,0.7),
+        0 10px 30px rgba(0,0,0,0.5),
+        6px 0 20px rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.12);
       display: block;
+      transform: rotateY(-8deg) rotateX(2deg);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
     }
-    .book-cover-img:hover { transform: scale(1.04) translateY(-4px); }
-    @media (max-width: 600px) {
-      .book-cover-img { width: 150px; }
+    .book-cover-img:hover {
+      transform: rotateY(-3deg) rotateX(1deg) scale(1.03);
+      box-shadow: 0 40px 100px rgba(0,0,0,0.8), 0 15px 40px rgba(30,58,138,0.4);
+    }
+    .book-cover-info {
+      flex: 1; min-width: 280px;
+    }
+    .book-cover-label {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 11px; color: rgba(255,255,255,0.45);
+      letter-spacing: 2px; text-transform: uppercase;
+      direction: ltr; margin-bottom: 14px;
+    }
+    .book-cover-title {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 26px; font-weight: 800; color: white;
+      line-height: 1.4; margin-bottom: 10px;
+    }
+    .book-cover-en {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 13px; color: rgba(255,255,255,0.5);
+      direction: ltr; margin-bottom: 24px;
+    }
+    .book-cover-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.18);
+      color: rgba(255,255,255,0.75); padding: 6px 16px;
+      border-radius: 20px; font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 12px; margin-bottom: 28px;
+    }
+    .sibling-project {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 14px; padding: 20px 22px;
+      text-decoration: none; display: block;
+      transition: all 0.25s;
+    }
+    .sibling-project:hover {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(99,179,237,0.5);
+      transform: translateY(-2px);
+    }
+    .sibling-label {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 11px; color: #60a5fa;
+      font-weight: 600; letter-spacing: 0.5px;
+      margin-bottom: 8px; display: block;
+    }
+    .sibling-title {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 16px; font-weight: 800; color: white;
+      margin-bottom: 5px;
+    }
+    .sibling-title-en {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 11px; color: rgba(255,255,255,0.45);
+      direction: ltr; margin-bottom: 10px; display: block;
+    }
+    .sibling-desc {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 13px; color: rgba(255,255,255,0.6);
+      line-height: 1.6;
+    }
+    .sibling-arrow {
+      margin-top: 12px;
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 12px; color: #60a5fa;
+      display: flex; align-items: center; gap: 6px;
+    }
+    @media (max-width: 700px) {
+      .book-cover-img { width: 220px; }
+      .book-cover-inner { gap: 36px; }
     }
     .hero::before {
       content: '';
@@ -692,36 +774,52 @@ app.get('/', (c) => {
       font-size: 12px; color: #3b82f6; margin-top: 6px;
     }
 
-    /* AUTHOR SECTION */
-    .author-section {
+    /* ABOUT SECTION */
+    .about-section { background: #f8faff; }
+    .about-card {
       background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 20px; padding: 48px 52px;
+      box-shadow: 0 4px 24px rgba(30,58,138,0.06);
+      position: relative; overflow: hidden;
     }
-    .author-card {
-      background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
-      border: 2px solid #bfdbfe;
-      border-radius: 16px; padding: 40px;
-      display: flex; gap: 30px; align-items: center;
-      flex-wrap: wrap;
+    .about-card::before {
+      content: '';
+      position: absolute; top: 0; right: 0;
+      width: 6px; height: 100%;
+      background: linear-gradient(180deg, #1e3a8a, #2563eb, #60a5fa);
+      border-radius: 0 20px 20px 0;
     }
-    .author-avatar {
-      width: 100px; height: 100px; border-radius: 50%;
-      background: linear-gradient(135deg, #1e3a8a, #2563eb);
-      color: white; display: flex; align-items: center; justify-content: center;
+    .about-intro-line {
       font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 36px; font-weight: 800; flex-shrink: 0;
-      box-shadow: 0 4px 20px rgba(30,58,138,0.2);
+      font-size: 13px; font-weight: 700; color: #2563eb;
+      letter-spacing: 0.5px; margin-bottom: 18px;
+      display: flex; align-items: center; gap: 8px;
     }
-    .author-info h3 {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 22px; font-weight: 800; color: #1e3a8a; margin-bottom: 6px;
-    }
-    .author-title {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 14px; color: #2563eb; font-weight: 600; margin-bottom: 14px;
-    }
-    .author-desc {
+    .about-lines { list-style: none; padding: 0; margin: 0; }
+    .about-lines li {
       font-family: 'Amiri', serif;
-      font-size: 16px; color: #374151; line-height: 1.8;
+      font-size: 18px; color: #1f2937; line-height: 1.9;
+      padding: 12px 0 12px 0;
+      border-bottom: 1px solid #f1f5f9;
+      display: flex; gap: 14px; align-items: flex-start;
+    }
+    .about-lines li:last-child { border-bottom: none; }
+    .about-lines li .line-icon {
+      font-size: 16px; margin-top: 5px; flex-shrink: 0; color: #1e40af;
+    }
+    .about-final {
+      margin-top: 28px; padding: 22px 26px;
+      background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+      border-radius: 12px;
+      font-family: 'Amiri', serif;
+      font-size: 18px; color: white; line-height: 1.9;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      .about-card { padding: 28px 22px; }
+      .about-lines li { font-size: 16px; }
+      .about-final { font-size: 16px; }
     }
 
     /* CTA */
@@ -802,9 +900,29 @@ app.get('/', (c) => {
         </div>
       </div>
 
-      <!-- BOOK COVER -->
-      <div class="book-cover-wrap">
-        <img src="/static/book-cover.png" alt="غلاف كتاب مبادئ السلامة والجودة في غرفة العمليات" class="book-cover-img" />
+    </div>
+  </section>
+
+  <!-- BOOK COVER + SIBLING PROJECT -->
+  <section class="book-cover-section">
+    <div class="book-cover-inner">
+      <div class="book-cover-img-wrap">
+        <img src="/static/book-cover.png" alt="غلاف الكتاب" class="book-cover-img" />
+      </div>
+      <div class="book-cover-info">
+        <div class="book-cover-label">THE BOOK</div>
+        <div class="book-cover-title">مبادئ السلامة والجودة<br>في غرفة العمليات</div>
+        <div class="book-cover-en">OPERATING THEATRE SAFETY & QUALITY PRINCIPLES</div>
+        <div class="book-cover-badge">📚 ${totalChapters} فصلاً • ${parts.length} أجزاء رئيسية</div>
+
+        <!-- رابط مشروع التخدير -->
+        <a href="https://www.anesthesiasafetyguideline.com" target="_blank" class="sibling-project">
+          <span class="sibling-label">🔗 المشروع الشقيق</span>
+          <div class="sibling-title">مبادئ السلامة والجودة في التخدير</div>
+          <span class="sibling-title-en">ANESTHESIA SAFETY GUIDELINE</span>
+          <div class="sibling-desc">الدليل الشامل لسلامة التخدير — ${authorName}</div>
+          <div class="sibling-arrow">← زيارة الموقع</div>
+        </a>
       </div>
     </div>
   </section>
@@ -868,19 +986,48 @@ app.get('/', (c) => {
     </div>
   </section>
 
-  <!-- AUTHOR -->
-  <section class="section author-section">
+  <!-- ABOUT -->
+  <section class="section about-section">
     <div class="section-max">
       <div class="section-title">عن الكتاب</div>
       <div class="section-en">About This Guide</div>
-      <div class="author-card">
-        <div class="author-avatar">ج</div>
-        <div class="author-info">
-          <h3>${authorName}</h3>
-          <div class="author-title">مؤلف الكتاب • مختص في سلامة غرفة العمليات والجودة الجراحية</div>
-          <p class="author-desc">
-            هذا الكتاب هو ثمرة سنوات من البحث والتطبيق الميداني في مجال سلامة غرفة العمليات. يجمع بين النظرية العلمية المبنية على أفضل الممارسات العالمية، والتجربة الحية من على أرض الواقع. هدفه الأسمى: أن تكون غرف العمليات في عالمنا العربي أكثر أماناً وأعلى جودةً لكل مريض.
-          </p>
+      <div class="about-card">
+        <div class="about-intro-line">
+          <span>📘</span> لمحة تعريفية — ${bookTitle}
+        </div>
+        <ul class="about-lines">
+          <li>
+            <span class="line-icon">◆</span>
+            <span>هذا الكتاب ليس أوراقًا تُحفظ في الأدراج، بل <strong>روحُ نظامٍ يحمي الإنسان</strong> حين تكون الثواني أثمن من الكلام.</span>
+          </li>
+          <li>
+            <span class="line-icon">◆</span>
+            <span>هو دليلٌ عمليّ يُحوّل غرفة العمليات من <strong>"اجتهادات أفراد"</strong> إلى <strong>"منظومة مؤسسية"</strong> واضحة، عادلة، قابلة للقياس والتحسين.</span>
+          </li>
+          <li>
+            <span class="line-icon">◆</span>
+            <span>يرسم الطريق من استقبال المريض إلى تسليمه بأمان، عبر سياسات دقيقة وإجراءات خطوة بخطوة <strong>تمنع الخطأ قبل أن يولد.</strong></span>
+          </li>
+          <li>
+            <span class="line-icon">◆</span>
+            <span>وفي قلبه فكرة واحدة: <strong>الجودة ليست شعارًا، بل سلوكٌ يومي</strong> تُشكّله القوائم، والمسارات، والمسؤوليات، والتوثيق.</span>
+          </li>
+          <li>
+            <span class="line-icon">◆</span>
+            <span>يُعيد ترتيب الفريق حول لغة مشتركة: <strong>من يفعل ماذا؟ متى؟ وكيف؟ ولماذا؟ ومتى نُصعّد؟ ومتى نوقف؟</strong></span>
+          </li>
+          <li>
+            <span class="line-icon">◆</span>
+            <span>يجمع بين العلم والخبرة الميدانية ليجعل <strong>القرار في اللحظة الحرجة مدعومًا بالنظام</strong> لا بالحدس وحده.</span>
+          </li>
+          <li>
+            <span class="line-icon">◆</span>
+            <span>يرسّخ ثقافة <strong>"التعلّم بلا لوم"</strong> عبر توحيد البلاغات والتحقيقات والتحسين المستمر، بدل إخفاء الأخطاء أو تكرارها.</span>
+          </li>
+        </ul>
+        <div class="about-final">
+          وفي النهاية يترك في القارئ يقينًا هادئًا:<br>
+          <strong>أن سلامة المريض تُصنع حين يصبح الأمان عادةً… لا بطولةً عابرة.</strong>
         </div>
       </div>
     </div>
