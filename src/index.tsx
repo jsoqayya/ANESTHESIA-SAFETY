@@ -532,7 +532,7 @@ app.get('/', (c) => {
     .cover-bg-img {
       display: block;
       width: auto;
-      max-width: min(520px, 100%);
+      max-width: min(50vw, 100%);
       height: calc(100vh - 56px);
       object-fit: contain;
       object-position: center top;
