@@ -1,7 +1,11 @@
 import { Hono } from 'hono'
+import { serveStatic } from 'hono/cloudflare-workers'
 import { chaptersContent } from './chapters-data'
 
 const app = new Hono()
+
+// Serve static files
+app.use('/static/*', serveStatic({ root: './public' }))
 
 // ======== DATA ========
 const bookTitle = 'مبادئ السلامة والجودة في غرفة العمليات'
@@ -519,6 +523,23 @@ app.get('/', (c) => {
       padding: 80px 24px 60px; text-align: center;
       position: relative; overflow: hidden;
     }
+    /* BOOK COVER */
+    .book-cover-wrap {
+      margin: 28px auto 0;
+      display: flex; justify-content: center;
+    }
+    .book-cover-img {
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.3);
+      border: 3px solid rgba(255,255,255,0.15);
+      transition: transform 0.3s;
+      display: block;
+    }
+    .book-cover-img:hover { transform: scale(1.04) translateY(-4px); }
+    @media (max-width: 600px) {
+      .book-cover-img { width: 150px; }
+    }
     .hero::before {
       content: '';
       position: absolute; inset: 0;
@@ -779,6 +800,11 @@ app.get('/', (c) => {
           <div class="stat-num">100%</div>
           <div class="stat-label">علمي وعملي</div>
         </div>
+      </div>
+
+      <!-- BOOK COVER -->
+      <div class="book-cover-wrap">
+        <img src="/static/book-cover.png" alt="غلاف كتاب مبادئ السلامة والجودة في غرفة العمليات" class="book-cover-img" />
       </div>
     </div>
   </section>
