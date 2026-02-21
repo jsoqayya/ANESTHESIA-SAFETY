@@ -530,44 +530,55 @@ app.get('/', (c) => {
       position: absolute; inset: 0;
       background: linear-gradient(
         to bottom,
-        rgba(6,14,31,0.15) 0%,
-        rgba(6,14,31,0.05) 35%,
-        rgba(6,14,31,0.5) 72%,
-        rgba(6,14,31,0.93) 100%
+        rgba(6,14,31,0.72) 0%,
+        rgba(6,14,31,0.25) 30%,
+        rgba(6,14,31,0.1) 55%,
+        rgba(6,14,31,0.55) 80%,
+        rgba(6,14,31,0.88) 100%
       );
     }
+    /* TEXT AT TOP */
+    .cover-top {
+      position: absolute; top: 0; left: 0; right: 0;
+      padding: 80px 32px 32px;
+      text-align: center; z-index: 2;
+    }
+    .cover-en-label {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 11px; color: rgba(255,255,255,0.5);
+      letter-spacing: 2.5px; text-transform: uppercase;
+      direction: ltr; margin-bottom: 14px; display: block;
+    }
+    .cover-main-title {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: clamp(24px, 4.5vw, 44px);
+      font-weight: 800; color: #fff;
+      line-height: 1.35; margin-bottom: 14px;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+    }
+    .cover-main-title .accent { color: #60a5fa; }
+    .cover-badge-row {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.85); padding: 6px 18px;
+      border-radius: 20px;
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 12px; font-weight: 600;
+    }
+    /* BUTTONS AT BOTTOM */
     .cover-bottom {
       position: absolute; bottom: 0; left: 0; right: 0;
-      padding: 40px 32px 44px;
+      padding: 30px 32px 40px;
       text-align: center; z-index: 2;
     }
     .cover-actions {
       display: flex; gap: 14px; justify-content: center;
-      flex-wrap: wrap; margin-bottom: 28px;
-    }
-    .cover-stats {
-      display: inline-flex;
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 12px; overflow: hidden;
-    }
-    .cover-stat {
-      padding: 12px 22px; text-align: center;
-      border-left: 1px solid rgba(255,255,255,0.1);
-    }
-    .cover-stat:last-child { border-left: none; }
-    .cover-stat-num {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 22px; font-weight: 800; color: white; line-height: 1.1;
-    }
-    .cover-stat-label {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 10px; color: rgba(255,255,255,0.5); margin-top: 3px;
+      flex-wrap: wrap;
     }
     .scroll-hint {
       position: absolute; bottom: 10px; left: 50%;
       transform: translateX(-50%);
-      color: rgba(255,255,255,0.4); font-size: 20px;
+      color: rgba(255,255,255,0.35); font-size: 20px;
       animation: bounce 2s infinite; z-index: 3;
     }
     @keyframes bounce {
@@ -575,9 +586,9 @@ app.get('/', (c) => {
       50% { transform: translateX(-50%) translateY(-8px); }
     }
     @media (max-width: 600px) {
-      .cover-bottom { padding: 24px 14px 36px; }
-      .cover-stat { padding: 10px 12px; }
-      .cover-stat-num { font-size: 18px; }
+      .cover-top { padding: 70px 16px 24px; }
+      .cover-bottom { padding: 20px 14px 34px; }
+      .cover-main-title { font-size: 22px; }
     }
 
     /* HERO — title section below cover */
@@ -935,28 +946,21 @@ app.get('/', (c) => {
   <section class="cover-page">
     <img src="/static/book-cover.png" alt="غلاف الكتاب" class="cover-bg-img" />
     <div class="cover-overlay"></div>
+
+    <!-- العنوان في الأعلى -->
+    <div class="cover-top">
+      <span class="cover-en-label">${bookTitleEn}</span>
+      <div class="cover-main-title">
+        مبادئ <span class="accent">السلامة والجودة</span><br>في غرفة العمليات
+      </div>
+      <div class="cover-badge-row">📖 دليل علمي شامل &nbsp;•&nbsp; ${totalChapters} فصلاً &nbsp;•&nbsp; ${parts.length} أجزاء</div>
+    </div>
+
+    <!-- الأزرار في الأسفل -->
     <div class="cover-bottom">
       <div class="cover-actions">
         <a href="/chapters" class="btn-white">استعرض الفصول ←</a>
         <a href="/chapter/1" class="btn-outline">ابدأ من الفصل الأول</a>
-      </div>
-      <div class="cover-stats">
-        <div class="cover-stat">
-          <div class="cover-stat-num">${totalChapters}</div>
-          <div class="cover-stat-label">فصل شامل</div>
-        </div>
-        <div class="cover-stat">
-          <div class="cover-stat-num">${parts.length}</div>
-          <div class="cover-stat-label">أجزاء رئيسية</div>
-        </div>
-        <div class="cover-stat">
-          <div class="cover-stat-num">WHO</div>
-          <div class="cover-stat-label">معايير دولية</div>
-        </div>
-        <div class="cover-stat">
-          <div class="cover-stat-num">100%</div>
-          <div class="cover-stat-label">علمي وعملي</div>
-        </div>
       </div>
     </div>
     <div class="scroll-hint">↓</div>
@@ -976,7 +980,7 @@ app.get('/', (c) => {
     </div>
   </section>
 
-  <!-- ③ BOOK INFO + SIBLING PROJECT -->
+  <!-- ③ BOOK INFO -->
   <section class="book-cover-section">
     <div class="book-cover-inner">
       <div class="book-cover-img-wrap">
@@ -987,15 +991,14 @@ app.get('/', (c) => {
         <div class="book-cover-title">مبادئ السلامة والجودة<br>في غرفة العمليات</div>
         <div class="book-cover-en">OPERATING THEATRE SAFETY & QUALITY PRINCIPLES</div>
         <div class="book-cover-badge">📚 ${totalChapters} فصلاً • ${parts.length} أجزاء رئيسية</div>
-
-        <!-- رابط مشروع التخدير -->
-        <a href="https://www.anesthesiasafetyguideline.com" target="_blank" class="sibling-project">
-          <span class="sibling-label">🔗 المشروع الشقيق</span>
-          <div class="sibling-title">مبادئ السلامة والجودة في التخدير</div>
-          <span class="sibling-title-en">ANESTHESIA SAFETY GUIDELINE</span>
-          <div class="sibling-desc">الدليل الشامل لسلامة التخدير — ${authorName}</div>
-          <div class="sibling-arrow">← زيارة الموقع</div>
-        </a>
+        <div style="margin-top:24px;">
+          <a href="/chapters" style="
+            display:inline-block; font-family:'Noto Kufi Arabic',sans-serif;
+            font-size:14px; font-weight:700; color:white;
+            background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.3);
+            padding:11px 24px; border-radius:8px; transition:background 0.2s;
+          ">استعرض جميع الفصول ←</a>
+        </div>
       </div>
     </div>
   </section>
