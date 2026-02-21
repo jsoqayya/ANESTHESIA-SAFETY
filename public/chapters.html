@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة الفصول - دليل السلامة والجودة في التخدير</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+        
+        .chapters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .chapter-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: block;
+        }
+        
+        .chapter-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .chapter-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            transition: background 0.3s;
+        }
+        
+        .back-btn:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-btn">← العودة للصفحة الرئيسية</a>
+        
+        <h1>📚 قائمة الفصول</h1>
+        
+        <div class="chapters-grid">
+            <a href="/chapters/من_رماد_الذاكرة.html" class="chapter-card">
+                <div class="chapter-title">من رماد الذاكرة</div>
+                <div>قصص واقعية من غرف العمليات</div>
+            </a>
+            
+            <a href="/chapters/تنسيق مقدمة كتاب السلامة والجودة في التخدير.html" class="chapter-card">
+                <div class="chapter-title">مقدمة الكتاب</div>
+                <div>25 عاماً من الخبرة في سلامة التخدير</div>
+            </a>
+            
+            <a href="/chapters/SAFETY CONTENTS.html" class="chapter-card">
+                <div class="chapter-title">المحتويات</div>
+                <div>فهرس شامل للكتاب</div>
+            </a>
+            
+            <a href="/chapters/الفصل 16 - السلامة أثناء العملية المراقبة وأمان مجرى الهواء.html" class="chapter-card">
+                <div class="chapter-title">الفصل 16</div>
+                <div>السلامة أثناء العملية المراقبة وأمان مجرى الهواء</div>
+            </a>
+            
+            <a href="/chapters/الفصل 17 - سلامة الأدوية في التخدير.html" class="chapter-card">
+                <div class="chapter-title">الفصل 17</div>
+                <div>سلامة الأدوية في التخدير</div>
+            </a>
+            
+            <a href="/chapters/الفصل 18 - سلامة المعدات والمراقبة.html" class="chapter-card">
+                <div class="chapter-title">الفصل 18</div>
+                <div>سلامة المعدات والمراقبة</div>
+            </a>
+            
+            <a href="/chapters/الفصل 19 - السلامة أثناء العمليات الوقاية من آليات الضرر الشائعة.html" class="chapter-card">
+                <div class="chapter-title">الفصل 19</div>
+                <div>السلامة أثناء العمليات الوقاية من آليات الضرر الشائعة</div>
+            </a>
+            
+            <a href="/chapters/الفصل 20 - سلامة التخدير الناحي والاستعداد لـ LAST.html" class="chapter-card">
+                <div class="chapter-title">الفصل 20</div>
+                <div>سلامة التخدير الناحي والاستعداد لـ LAST</div>
+            </a>
+            
+            <a href="/chapters/الفصل 21 - سلامة التهدئة من الخفيفة إلى العميقة.html" class="chapter-card">
+                <div class="chapter-title">الفصل 21</div>
+                <div>سلامة التهدئة من الخفيفة إلى العميقة</div>
+            </a>
+            
+            <a href="/chapters/الفصل 22 - التخدير خارج غرفة العمليات.html" class="chapter-card">
+                <div class="chapter-title">الفصل 22</div>
+                <div>التخدير خارج غرفة العمليات</div>
+            </a>
+            
+            <a href="/chapters/الفصل 23 - سلامة وحدة الإفاقة والوقاية من مضاعفات ما بعد العملية.html" class="chapter-card">
+                <div class="chapter-title">الفصل 23</div>
+                <div>سلامة وحدة الإفاقة والوقاية من مضاعفات ما بعد العملية</div>
+            </a>
+            
+            <a href="/chapters/الفصل 24 - التميز في التسليم نقل المرضى (1).html" class="chapter-card">
+                <div class="chapter-title">الفصل 24</div>
+                <div>التميز في التسليم نقل المرضى</div>
+            </a>
+            
+            <a href="/chapters/الفصل 25 - تخدير الولادة أنظمة أمان للأم والطفل.html" class="chapter-card">
+                <div class="chapter-title">الفصل 25</div>
+                <div>تخدير الولادة أنظمة أمان للأم والطفل</div>
+            </a>
+            
+            <a href="/chapters/الفصل 26 - سلامة تخدير الأطفال وحديثي الولادة.html" class="chapter-card">
+                <div class="chapter-title">الفصل 26</div>
+                <div>سلامة تخدير الأطفال وحديثي الولادة</div>
+            </a>
+            
+            <a href="/chapters/الفصل 27 - جودة التخدير للمرضى المسنين المعتمدة على الهشاشة (1).html" class="chapter-card">
+                <div class="chapter-title">الفصل 27</div>
+                <div>جودة التخدير للمرضى المسنين المعتمدة على الهشاشة</div>
+            </a>
+            
+            <a href="/chapters/الفصل 28 - حالات القلب والأوعية الكبرى ممارسة الموثوقية العالية.html" class="chapter-card">
+                <div class="chapter-title">الفصل 28</div>
+                <div>حالات القلب والأوعية الكبرى ممارسة الموثوقية العالية</div>
+            </a>
+            
+            <a href="/chapters/الخاتمة.html" class="chapter-card">
+                <div class="chapter-title">الخاتمة</div>
+                <div>رسالة دائمة - عشر رسائل تبقى في الذاكرة</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
