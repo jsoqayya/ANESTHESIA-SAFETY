@@ -514,14 +514,85 @@ app.get('/', (c) => {
     a { text-decoration: none; color: inherit; }
     ${navbarCSS}
 
-    /* HERO */
+    /* COVER PAGE — fullscreen book cover */
+    .cover-page {
+      width: 100%; height: 100vh;
+      position: relative; overflow: hidden;
+      background: #060e1f;
+    }
+    .cover-bg-img {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover; object-position: center top;
+      display: block;
+    }
+    .cover-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(6,14,31,0.15) 0%,
+        rgba(6,14,31,0.05) 35%,
+        rgba(6,14,31,0.5) 72%,
+        rgba(6,14,31,0.93) 100%
+      );
+    }
+    .cover-bottom {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      padding: 40px 32px 44px;
+      text-align: center; z-index: 2;
+    }
+    .cover-actions {
+      display: flex; gap: 14px; justify-content: center;
+      flex-wrap: wrap; margin-bottom: 28px;
+    }
+    .cover-stats {
+      display: inline-flex;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 12px; overflow: hidden;
+    }
+    .cover-stat {
+      padding: 12px 22px; text-align: center;
+      border-left: 1px solid rgba(255,255,255,0.1);
+    }
+    .cover-stat:last-child { border-left: none; }
+    .cover-stat-num {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 22px; font-weight: 800; color: white; line-height: 1.1;
+    }
+    .cover-stat-label {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 10px; color: rgba(255,255,255,0.5); margin-top: 3px;
+    }
+    .scroll-hint {
+      position: absolute; bottom: 10px; left: 50%;
+      transform: translateX(-50%);
+      color: rgba(255,255,255,0.4); font-size: 20px;
+      animation: bounce 2s infinite; z-index: 3;
+    }
+    @keyframes bounce {
+      0%,100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(-8px); }
+    }
+    @media (max-width: 600px) {
+      .cover-bottom { padding: 24px 14px 36px; }
+      .cover-stat { padding: 10px 12px; }
+      .cover-stat-num { font-size: 18px; }
+    }
+
+    /* HERO — title section below cover */
     .hero {
-      min-height: 100vh;
       background: linear-gradient(160deg, #0a1628 0%, #0f2660 35%, #1e3a8a 65%, #1e40af 100%);
       display: flex; flex-direction: column;
       align-items: center; justify-content: center;
-      padding: 80px 24px 60px; text-align: center;
+      padding: 70px 24px 60px; text-align: center;
       position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 60% 40%, rgba(59,130,246,0.15) 0%, transparent 70%);
+      pointer-events: none;
     }
     /* BOOK COVER SECTION */
     .book-cover-section {
@@ -621,12 +692,6 @@ app.get('/', (c) => {
     @media (max-width: 700px) {
       .book-cover-img { width: 220px; }
       .book-cover-inner { gap: 36px; }
-    }
-    .hero::before {
-      content: '';
-      position: absolute; inset: 0;
-      background: radial-gradient(ellipse at 60% 40%, rgba(59,130,246,0.15) 0%, transparent 70%);
-      pointer-events: none;
     }
     .hero-inner { position: relative; z-index: 1; max-width: 820px; width: 100%; }
 
@@ -866,7 +931,38 @@ app.get('/', (c) => {
 <body>
   ${navbar('home')}
 
-  <!-- HERO -->
+  <!-- ① COVER — fullscreen book cover image -->
+  <section class="cover-page">
+    <img src="/static/book-cover.png" alt="غلاف الكتاب" class="cover-bg-img" />
+    <div class="cover-overlay"></div>
+    <div class="cover-bottom">
+      <div class="cover-actions">
+        <a href="/chapters" class="btn-white">استعرض الفصول ←</a>
+        <a href="/chapter/1" class="btn-outline">ابدأ من الفصل الأول</a>
+      </div>
+      <div class="cover-stats">
+        <div class="cover-stat">
+          <div class="cover-stat-num">${totalChapters}</div>
+          <div class="cover-stat-label">فصل شامل</div>
+        </div>
+        <div class="cover-stat">
+          <div class="cover-stat-num">${parts.length}</div>
+          <div class="cover-stat-label">أجزاء رئيسية</div>
+        </div>
+        <div class="cover-stat">
+          <div class="cover-stat-num">WHO</div>
+          <div class="cover-stat-label">معايير دولية</div>
+        </div>
+        <div class="cover-stat">
+          <div class="cover-stat-num">100%</div>
+          <div class="cover-stat-label">علمي وعملي</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">↓</div>
+  </section>
+
+  <!-- ② HERO — title + desc -->
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-badge">📖 دليل علمي شامل • ${totalChapters} فصلاً</div>
@@ -877,33 +973,10 @@ app.get('/', (c) => {
       <p class="hero-desc">
         في تلك اللحظات الحرجة حيث لا مجال للخطأ الثاني، يأتي هذا الدليل الشامل ليكون مرجعك الأول في رحلة السلامة الجراحية
       </p>
-      <div class="hero-actions">
-        <a href="/chapters" class="btn-white">استعرض الفصول ←</a>
-        <a href="/chapter/1" class="btn-outline">ابدأ من الفصل الأول</a>
-      </div>
-      <div class="stats-row">
-        <div class="stat-item">
-          <div class="stat-num">${totalChapters}</div>
-          <div class="stat-label">فصل شامل</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">${parts.length}</div>
-          <div class="stat-label">أجزاء رئيسية</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">WHO</div>
-          <div class="stat-label">معايير دولية</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">100%</div>
-          <div class="stat-label">علمي وعملي</div>
-        </div>
-      </div>
-
     </div>
   </section>
 
-  <!-- BOOK COVER + SIBLING PROJECT -->
+  <!-- ③ BOOK INFO + SIBLING PROJECT -->
   <section class="book-cover-section">
     <div class="book-cover-inner">
       <div class="book-cover-img-wrap">
