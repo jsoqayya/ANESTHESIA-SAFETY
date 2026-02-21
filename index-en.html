@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة الدلائل الطبية | د. جميل السقيا</title>
-    <meta name="description" content="منصة شاملة للدلائل الطبية في التخدير وغرفة العمليات - د. جميل السقيا">
+    <title>Medical Guidelines Platform | Dr. Jameel Al-Soqayya</title>
+    <meta name="description" content="Comprehensive medical guidelines platform for anesthesia and operating room safety - Dr. Jameel Al-Soqayya">
     <meta name="author" content="Dr. Jameel Al-Soqayya">
-    <meta name="keywords" content="التخدير, غرفة العمليات, السلامة الطبية, الجودة, الدلائل الطبية">
+    <meta name="keywords" content="anesthesia, operating room, patient safety, medical quality, clinical guidelines">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="منصة الدلائل الطبية | د. جميل السقيا">
-    <meta property="og:description" content="دلائل شاملة للسلامة والجودة في التخدير وغرفة العمليات">
+    <meta property="og:title" content="Medical Guidelines Platform | Dr. Jameel Al-Soqayya">
+    <meta property="og:description" content="Comprehensive guidelines for safety and quality in anesthesia and operating rooms">
     <meta property="og:type" content="website">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
         * {
@@ -26,7 +26,7 @@
         }
 
         body {
-            font-family: 'Cairo', sans-serif;
+            font-family: 'Inter', sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
@@ -48,7 +48,7 @@
         }
 
         .header h1 {
-            font-family: 'Amiri', serif;
+            font-family: 'Merriweather', serif;
             font-size: clamp(2rem, 5vw, 3.5rem);
             margin-bottom: 15px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
@@ -66,18 +66,11 @@
             font-weight: 300;
         }
 
-        .header .english-title {
-            font-family: 'Georgia', serif;
-            font-size: clamp(1.2rem, 3vw, 2rem);
-            margin-top: 20px;
-            opacity: 0.9;
-        }
-
         /* Language Toggle */
         .language-toggle {
             position: fixed;
             top: 20px;
-            left: 20px;
+            right: 20px;
             z-index: 1000;
         }
 
@@ -131,7 +124,7 @@
         }
 
         .book-card.inactive::after {
-            content: 'قريباً';
+            content: 'Coming Soon';
             position: absolute;
             top: 20px;
             right: 20px;
@@ -171,20 +164,12 @@
         }
 
         .book-title {
-            font-family: 'Amiri', serif;
+            font-family: 'Merriweather', serif;
             font-size: 1.5rem;
             font-weight: 700;
             color: #2d3748;
             margin-bottom: 10px;
             line-height: 1.4;
-        }
-
-        .book-title-en {
-            font-family: 'Georgia', serif;
-            font-size: 1rem;
-            color: #667eea;
-            margin-bottom: 15px;
-            font-style: italic;
         }
 
         .book-description {
@@ -276,16 +261,15 @@
 <body>
     <!-- Language Toggle -->
     <div class="language-toggle">
-        <a href="index-en.html">English 🌐</a>
+        <a href="index.html">العربية 🌐</a>
     </div>
 
     <div class="container">
         <!-- Header -->
         <header class="header">
-            <h1>📚 منصة الدلائل الطبية</h1>
-            <p class="subtitle">دلائل شاملة للسلامة والجودة في التخدير وغرفة العمليات</p>
-            <p class="author">د. جميل صقيع القحطاني</p>
-            <p class="english-title">Medical Guidelines Platform</p>
+            <h1>📚 Medical Guidelines Platform</h1>
+            <p class="subtitle">Comprehensive guidelines for safety and quality in anesthesia and operating rooms</p>
+            <p class="author">Dr. Jameel Al-Soqayya</p>
         </header>
 
         <!-- Books Grid -->
@@ -293,69 +277,65 @@
             <!-- Book 1: Anesthesia Safety -->
             <div class="book-card active" onclick="window.location.href='https://www.anesthesiasafetyguideline.com'">
                 <div class="book-image-container">
-                    <img src="images/anesthesia-safety-cover-ar.png" alt="دليل السلامة والجودة في التخدير" class="book-image">
+                    <img src="images/anesthesia-safety-cover-ar.png" alt="Anesthesia Safety & Quality Guideline" class="book-image">
                 </div>
                 <div class="book-info">
-                    <h2 class="book-title">دليل السلامة والجودة في التخدير</h2>
-                    <p class="book-title-en">Anesthesia Safety & Quality Guideline</p>
+                    <h2 class="book-title">Anesthesia Safety & Quality Guideline</h2>
                     <p class="book-description">
-                        دليل شامل يغطي جميع جوانب السلامة والجودة في ممارسة التخدير. يحتوي على 82 فصلاً متخصصاً يجمع 15 عاماً من الخبرة العملية.
+                        A comprehensive guide covering all aspects of safety and quality in anesthesia practice. Contains 82 specialized chapters combining 15 years of practical experience.
                     </p>
-                    <span class="book-status status-available">✓ متاح الآن</span>
+                    <span class="book-status status-available">✓ Available Now</span>
                 </div>
             </div>
 
             <!-- Book 2: Operating Room Safety -->
-            <div class="book-card active" onclick="window.open('https://3000-i9eufw9s4qa47cwhd0ivk-3844e1b6.sandbox.novita.ai/operating-room/index.html', '_blank')">
+            <div class="book-card active" onclick="window.location.href='operating-room/index.html'">
                 <div class="book-image-container">
-                    <img src="images/operating-room-safety-cover-ar.png" alt="مبادئ السلامة والجودة في غرفة العمليات" class="book-image">
+                    <img src="images/operating-room-safety-cover-ar.png" alt="Operating Room Safety & Quality Principles" class="book-image">
                 </div>
                 <div class="book-info">
-                    <h2 class="book-title">مبادئ السلامة والجودة في غرفة العمليات</h2>
-                    <p class="book-title-en">Operating Room Safety & Quality Principles</p>
+                    <h2 class="book-title">Operating Room Safety & Quality Principles</h2>
                     <p class="book-description">
-                        دليل متكامل لمبادئ السلامة والجودة في غرفة العمليات. يشمل البروتوكولات الحديثة والممارسات الآمنة لفريق غرفة العمليات.
+                        A complete guide to safety and quality principles in the operating room. Includes modern protocols and safe practices for the OR team.
                     </p>
-                    <span class="book-status status-available">✓ متاح الآن</span>
+                    <span class="book-status status-available">✓ Available Now</span>
                 </div>
             </div>
 
             <!-- Book 3: Anesthesia Policies (Coming Soon) -->
-            <div class="book-card active" onclick="window.open('https://www.anesthesiasafetyguideline.com', '_blank')">
+            <div class="book-card inactive">
                 <div class="book-image-container">
-                    <img src="images/anesthesia-safety-guideline.png" alt="دليل السياسات والإجراءات في التخدير" class="book-image">
+                    <img src="images/anesthesia-safety-guideline.png" alt="Anesthesia Policies & Procedures Guide" class="book-image">
                 </div>
                 <div class="book-info">
-                    <h2 class="book-title">دليل السياسات والإجراءات في التخدير</h2>
-                    <p class="book-title-en">Anesthesia Policies & Procedures Guide</p>
+                    <h2 class="book-title">Anesthesia Policies & Procedures Guide</h2>
                     <p class="book-description">
-                        دليل تفصيلي للسياسات والإجراءات المعتمدة في أقسام التخدير. يوفر إطاراً تنظيمياً شاملاً للممارسة الآمنة.
+                        A detailed guide to approved policies and procedures in anesthesia departments. Provides a comprehensive organizational framework for safe practice.
                     </p>
-                    <span class="book-status status-available">✓ متاح الآن</span>
+                    <span class="book-status status-coming-soon">⏳ Coming Soon</span>
                 </div>
             </div>
 
             <!-- Book 4: OR Policies (Coming Soon) -->
-            <div class="book-card active" onclick="window.open('https://3000-i9eufw9s4qa47cwhd0ivk-3844e1b6.sandbox.novita.ai/operating-room/index.html', '_blank')">
+            <div class="book-card inactive">
                 <div class="book-image-container">
-                    <img src="images/operating-room-principles.png" alt="دليل السياسات والإجراءات في غرفة العمليات" class="book-image">
+                    <img src="images/operating-room-principles.png" alt="Operating Room Policies & Procedures Guide" class="book-image">
                 </div>
                 <div class="book-info">
-                    <h2 class="book-title">دليل السياسات والإجراءات في غرفة العمليات</h2>
-                    <p class="book-title-en">Operating Room Policies & Procedures Guide</p>
+                    <h2 class="book-title">Operating Room Policies & Procedures Guide</h2>
                     <p class="book-description">
-                        مرجع شامل لسياسات وإجراءات غرفة العمليات. يغطي جميع الجوانب التنظيمية والإدارية لضمان بيئة عمل آمنة.
+                        A comprehensive reference for operating room policies and procedures. Covers all organizational and administrative aspects to ensure a safe working environment.
                     </p>
-                    <span class="book-status status-available">✓ متاح الآن</span>
+                    <span class="book-status status-coming-soon">⏳ Coming Soon</span>
                 </div>
             </div>
         </div>
 
         <!-- Footer -->
         <footer class="footer">
-            <p><strong>د. جميل صقيع القحطاني</strong></p>
-            <p>استشاري تخدير وعناية مركزة | جدة، المملكة العربية السعودية</p>
-            <p>+15 سنة خبرة في التخدير والعناية المركزة</p>
+            <p><strong>Dr. Jameel Al-Soqayya</strong></p>
+            <p>Consultant Anesthesiologist & Intensivist | Jeddah, Saudi Arabia</p>
+            <p>+15 years of experience in anesthesia and critical care</p>
             <p style="margin-top: 20px; font-size: 0.9rem;">
                 📧 <a href="mailto:jsoqayya@gmail.com" style="color: white; text-decoration: none;">jsoqayya@gmail.com</a>
             </p>
