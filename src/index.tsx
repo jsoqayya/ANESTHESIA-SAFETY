@@ -530,31 +530,30 @@ app.get('/', (c) => {
       position: absolute; inset: 0;
       background: linear-gradient(
         to bottom,
-        rgba(6,14,31,0.72) 0%,
-        rgba(6,14,31,0.25) 30%,
-        rgba(6,14,31,0.1) 55%,
-        rgba(6,14,31,0.55) 80%,
-        rgba(6,14,31,0.88) 100%
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0) 55%,
+        rgba(6,14,31,0.75) 80%,
+        rgba(6,14,31,0.96) 100%
       );
     }
-    /* TEXT AT TOP */
-    .cover-top {
-      position: absolute; top: 0; left: 0; right: 0;
-      padding: 80px 32px 32px;
+    /* ALL TEXT AT BOTTOM */
+    .cover-bottom {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      padding: 0 32px 36px;
       text-align: center; z-index: 2;
     }
     .cover-en-label {
       font-family: 'Segoe UI', sans-serif;
       font-size: 11px; color: rgba(255,255,255,0.5);
       letter-spacing: 2.5px; text-transform: uppercase;
-      direction: ltr; margin-bottom: 14px; display: block;
+      direction: ltr; margin-bottom: 10px; display: block;
     }
     .cover-main-title {
       font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: clamp(24px, 4.5vw, 44px);
+      font-size: clamp(22px, 4vw, 40px);
       font-weight: 800; color: #fff;
-      line-height: 1.35; margin-bottom: 14px;
-      text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+      line-height: 1.35; margin-bottom: 10px;
+      text-shadow: 0 2px 16px rgba(0,0,0,0.8);
     }
     .cover-main-title .accent { color: #60a5fa; }
     .cover-badge-row {
@@ -564,21 +563,16 @@ app.get('/', (c) => {
       border-radius: 20px;
       font-family: 'Noto Kufi Arabic', sans-serif;
       font-size: 12px; font-weight: 600;
-    }
-    /* BUTTONS AT BOTTOM */
-    .cover-bottom {
-      position: absolute; bottom: 0; left: 0; right: 0;
-      padding: 30px 32px 40px;
-      text-align: center; z-index: 2;
+      margin-bottom: 22px;
     }
     .cover-actions {
       display: flex; gap: 14px; justify-content: center;
       flex-wrap: wrap;
     }
     .scroll-hint {
-      position: absolute; bottom: 10px; left: 50%;
+      position: absolute; bottom: 8px; left: 50%;
       transform: translateX(-50%);
-      color: rgba(255,255,255,0.35); font-size: 20px;
+      color: rgba(255,255,255,0.3); font-size: 18px;
       animation: bounce 2s infinite; z-index: 3;
     }
     @keyframes bounce {
@@ -586,9 +580,8 @@ app.get('/', (c) => {
       50% { transform: translateX(-50%) translateY(-8px); }
     }
     @media (max-width: 600px) {
-      .cover-top { padding: 70px 16px 24px; }
-      .cover-bottom { padding: 20px 14px 34px; }
-      .cover-main-title { font-size: 22px; }
+      .cover-bottom { padding: 0 14px 32px; }
+      .cover-main-title { font-size: 20px; }
     }
 
     /* HERO — title section below cover */
@@ -947,17 +940,13 @@ app.get('/', (c) => {
     <img src="/static/book-cover.png" alt="غلاف الكتاب" class="cover-bg-img" />
     <div class="cover-overlay"></div>
 
-    <!-- العنوان في الأعلى -->
-    <div class="cover-top">
+    <!-- كل النصوص والأزرار في الأسفل فقط -->
+    <div class="cover-bottom">
       <span class="cover-en-label">${bookTitleEn}</span>
       <div class="cover-main-title">
         مبادئ <span class="accent">السلامة والجودة</span><br>في غرفة العمليات
       </div>
       <div class="cover-badge-row">📖 دليل علمي شامل &nbsp;•&nbsp; ${totalChapters} فصلاً &nbsp;•&nbsp; ${parts.length} أجزاء</div>
-    </div>
-
-    <!-- الأزرار في الأسفل -->
-    <div class="cover-bottom">
       <div class="cover-actions">
         <a href="/chapters" class="btn-white">استعرض الفصول ←</a>
         <a href="/chapter/1" class="btn-outline">ابدأ من الفصل الأول</a>
