@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiNWFlNDg4ZGU5NDlkNmY0OGJhYzU1ZmMwYTE1NzJlZTJmNjExMzciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2JjMTE5NTgyNmI1ZTRmMjVf2KfZhNmB2LXZhF_Yp9mE2KvYp9mG2Ypf2LHYrdmE2Klf2KfZhNmF2LHZiti2Lmh0bWwtODQwIn0sImV4cCI6MTc3MTY0NjYyMSwiaWF0IjoxNzcxNjQzMDIxLCJhbGciOiJSUzI1NiJ9.bGZ3_oB4cf6c7-pZ3DWNZa682CoVLQRwbvNooWsPdje3R08rXyAzH7Dyrwcxg1zIIj3YVWwysqMBrP7Gx0nYVorjhtMPmvf1_P76ufdcZmlacskJiKXEeDbvssdJucgeCCw0xW1NuFOJUMtDPfmmMtzoK6iPaaWnr_05KvjC6gAKUbo5i_XwYhM_BaEmdL5577cxJoy_oHrY98q7CrzmuOmWqFwNO4ae6RmCpZBRVXNrqY-sMXjzXbIxi9VqUJg1XtFjZ0kYhDH6hAVkZNhllCQJN3GAAO8oBB3b_WP52_o9R6jIRZ2540ijNnW6cYYo2XVNkX41DrRBS9Tfy13Jrg","c_bc1195826b5e4f25_الفصل_الثاني_رحلة_المريض.html-840")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+})();</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل الثاني — رحلة المريض في غرفة العمليات: من قرار الجراحة إلى الخروج</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-size: 19px;
+      }
+
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 19px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Tables Style */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.95em;
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-align: right;
+      }
+      
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+      }
+      
+      tbody tr:nth-of-type(even) {
+        background-color: #f9fafb;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* References */
+      .references-list {
+        font-size: 16px;
+        color: #4b5563;
+        direction: ltr;
+        text-align: left;
+        margin-top: 30px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 20px;
+      }
+
+      .references-list li {
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; font-size: 17px; }
+        table { display: block; overflow-x: auto; }
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #2563eb;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      .download-btn:hover {
+        background-color: #1d4ed8;
+        transform: translateY(-2px);
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Button -->
+    
+
+    <div class="part-title">PART I — Foundations of OR Safety &amp; Quality</div>
+    <div class="part-title">الجزء الأول — أسس السلامة والجودة في غرفة العمليات</div>
+    
+    <h1>CHAPTER 2 — OR Patient Journey: From Decision to Discharge</h1>
+    <div class="subtitle">الفصل الثاني — رحلة المريض في غرفة العمليات: من قرار الجراحة إلى الخروج<br>
+    <span style="font-size: 18px;">(Pre-op Pathway • Day-of-Surgery Flow • Intra-op Phases • Recovery-to-Ward Handoffs — OR-side only)<br>
+    (مسار ما قبل العملية • تدفق يوم الجراحة • مراحل ما داخل العملية • التسليم من الإفاقة إلى الجناح — الجانب الخاص بغرفة العمليات فقط)</span></div>
+    
+    <h2>أهداف الفصل / Chapter Aims</h2>
+    <div class="concept-box">
+        <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
+        <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
+        <ol>
+            <li>وصف رحلة المريض في غرفة العمليات كـ <strong>نظام موثوقية متصل (Connected reliability system)</strong>، وليس كخطوات معزولة. (IHI; AHRQ)<br>
+            <span class="english-term">Describe the operating theatre patient journey as a <strong>connected reliability system</strong>, not isolated steps. (IHI; AHRQ)</span></li>
+            
+            <li>تحديد "النقاط الساخنة للفشل" (Failure hotspots) المتوقعة في كل مرحلة انتقال: <strong>قرار الجراحة، الحجز، الجاهزية، الدخول للمسرح، التنفيذ داخل العملية، من غرفة العمليات إلى الإفاقة (OR→PACU)، ومن الإفاقة إلى الجناح (PACU→ward)</strong>. (AHRQ)<br>
+            <span class="english-term">Identify predictable failure hotspots at each transition: <strong>decision-to-operate, booking, readiness, theatre entry, intra-op execution, OR→PACU, PACU→ward</strong>. (AHRQ)</span></li>
+            
+            <li>تصميم ضوابط "البداية الصحيحة" و "النهاية الصحيحة" باستخدام <strong>بوابات الجاهزية (Readiness gates)، التوقف الإلزامي (Hard stops)، العمل القياسي (Standard work)، ومسارات التصعيد (Escalation pathways)</strong>. (The Joint Commission; IHI)<br>
+            <span class="english-term">Design “start-right” and “finish-right” controls using <strong>readiness gates, hard stops, standard work, escalation pathways</strong>. (The Joint Commission; IHI)</span></li>
+            
+            <li>استخدام التواصل المنظم (SBAR/التسليم المنظم والتأكيد المغلق الحلقة) لتقليل تدهور المعلومات. (AHRQ; The Joint Commission)<br>
+            <span class="english-term">Use structured communication (SBAR/structured handoffs and closed-loop confirmation) to reduce information decay. (AHRQ; The Joint Commission)</span></li>
+            
+            <li>تحديد محتوى التسليم (Handoff content) من جانب غرفة العمليات والذي ينقل <strong>الأساسيات الجراحية (Surgical essentials)</strong> بشكل موثوق (العينات، الغرسات، المصارف، فئة الجرح، القيود، محفزات المتابعة) دون تكرار محتوى التخدير. (AORN; WHO SSC)<br>
+            <span class="english-term">Define OR-side handoff content that reliably communicates <strong>surgical essentials</strong> (specimens, implants, drains, wound class, restrictions, follow-up triggers) without duplicating anesthesia content. (AORN; WHO SSC)</span></li>
+            
+            <li>اختيار مجموعة أدنى من <strong>المؤشرات الاستباقية (Leading indicators)</strong> التي تعكس صحة المسار (الإلغاءات التي يمكن الوقاية منها، المعلومات الحرجة المفقودة، اكتمال التسليم، اكتمال التتبع، جودة المهلة/Time-out). (IHI; AHRQ)<br>
+            <span class="english-term">Select a minimal set of <strong>leading indicators</strong> reflecting pathway health (preventable cancellations, missing critical info, handoff completeness, traceability completion, time-out quality). (IHI; AHRQ)</span></li>
+        </ol>
+    </div>
+
+    <h2>السيناريو الافتتاحي / Opening Scenario</h2>
+    <div class="quote-box">
+        <strong>حالة واقعية: "الخطة التي لم تنجُ في الممر"</strong><br>
+        <span class="english-term">A true-to-life case: “The plan that did not survive the corridor” (Real Scientific Story)</span>
+    </div>
+
+    <p>كانت العملية بحد ذاتها غير معقدة. كانت يدا الجراح ثابتتين، وكان الحقل الجراحي نظيفاً، وتطابقت أرقام العد الجراحي (Counts). شعر الفريق بذلك الارتياح المألوف عندما يتم وضع الضمادة ويُنقل المريض إلى عربة النقل.</p>
+    <p><span class="english-term">The operation itself was uncomplicated. The surgeon’s hands were steady, the field was clean, and the counts matched. The team felt that familiar relief when the dressing goes on and the patient is transferred to the trolley.</span></p>
+
+    <p>قبل مغادرة الغرفة، تحدث الجراح بوضوح:<br>
+    "أبقوا المصرف (Drain) على الشفط."<br>
+    "إذا تجاوزت الكمية الخارجة X خلال ساعة، اتصلوا بي."<br>
+    "استمروا في إعطاء المضادات الحيوية لمدة Y ساعة بسبب التلوث."<br>
+    "يُمنع تحميل الوزن (Weight bearing) حتى يتم التقييم."<br>
+    "هذه العينة عاجلة—قوموا بتسميتها وإرسالها فوراً."</p>
+    <p><span class="english-term">Before leaving the room, the surgeon spoke clearly:<br>
+    “Keep the drain on suction.”<br>
+    “If output exceeds X in an hour, call me.”<br>
+    “Continue antibiotics for Y hours because of contamination.”<br>
+    “No weight bearing until review.”<br>
+    “This specimen is urgent—label and send immediately.”</span></p>
+
+    <p>في غرفة العمليات، كان لتلك الكلمات معنى—فالجميع سمعها. ولكن بعد ذلك وصل الواقع الفعلي: نُقلت شاشات المراقبة، أُمّنت الخطوط الوريدية، بدأت الأعمال الورقية، رنت الهواتف، الحالة التالية كانت بحاجة للغرفة، ودخل موظف جديد للمساعدة في النقل. كانت وحدة الإفاقة (PACU) مزدحمة. وكان جناح التنويم يعاني من نقص في الموظفين. عمل الجميع بسرعة، وعمل الجميع بنوايا حسنة.</p>
+    <p><span class="english-term">In the OR, those words had meaning—everyone heard them. But then the real world arrived: monitors moved, lines secured, paperwork started, phone calls rang, the next case needed the room, and a new staff member entered to help transport. The PACU was crowded. The ward was short. Everyone worked fast, and everyone worked with good intention.</span></p>
+
+    <div class="alert-box">
+        <p>بعد بضع ساعات، عاد المريض وهو يعاني من نزيف وضمادة مشبعة بالدم. لم يتم إدارة المصرف (Drain) كما كان مقصوداً. كانت القيود (Restriction) غير واضحة. لم يتم اتباع خطة المضادات الحيوية. لم يقم أحد "بتجاهل" الخطة—<strong>ببساطة، الخطة لم تنجُ من الرحلة</strong>.</p>
+        <p><span class="english-term">A few hours later the patient returned with bleeding and a soaked dressing. The drain was not managed as intended. The restriction was unclear. The antibiotic plan was not followed. Nobody “ignored” the plan— <strong>the plan simply did not survive the journey</strong>.</span></p>
+    </div>
+
+    <p>عندما تمت مراجعة الحالة، لم يكن السبب الجذري شخصاً واحداً. بل كان المسار (The pathway):</p>
+    <ul>
+        <li>خطة الجراحة كانت موجودة ولكن لم تكن مُهيكلة للتسليم (Handoff). (AHRQ)</li>
+        <li>التوثيق كان موجوداً ولكنه لم يكن مُصمماً للاستخدام السريع. (The Joint Commission)</li>
+        <li>حدث النقل تحت ضغط الإنتاج، مما أدى إلى تمييع التفاصيل الحرجة. (IHI)</li>
+        <li>وافترضت غرفة العمليات أن "شخصاً آخر سيعرف".</li>
+    </ul>
+    <p><span class="english-term">When the case was reviewed, the root cause was not one person. It was the pathway:<br>
+    the surgical plan existed but was not structured for handoff, (AHRQ)<br>
+    documentation was present but not designed for rapid use, (The Joint Commission)<br>
+    transfer happened under production pressure, so critical details were diluted, (IHI)<br>
+    and the OR assumed “someone else will know.”</span></p>
+
+    <div class="success-box">
+        <p><strong>الدرس كان مباشراً وغير مريح:</strong> العملية الآمنة ليست مجرد شق جراحي آمن. العملية الآمنة هي <strong>رحلة آمنة</strong>. (AHRQ; IHI)</p>
+        <p><span class="english-term"><strong>The lesson was direct and uncomfortable:</strong> A safe operation is not only a safe incision. A safe operation is a <strong>safe journey</strong>. (AHRQ; IHI)</span></p>
+    </div>
+
+    <h2>2.1 رحلة المريض في غرفة العمليات كنظام للسلامة (الصورة الكبرى) / The OR Patient Journey as a Safety System (The Big Picture)</h2>
+
+    <h3>2.1.1 غرفة العمليات ليست مجرد غرفة؛ إنها سلسلة من القرارات / The OR is not a room; it is a chain of decisions</h3>
+    <p>تتعامل العديد من الفرق مع السلامة على أنها شيء يحدث "داخل المسرح الجراحي". لكن الضرر الكبير في غرفة العمليات غالباً ما يبدأ في مراحل مبكرة (Upstream):</p>
+    <ul>
+        <li>في مرحلة اتخاذ قرار الجراحة (خطة غير واضحة)،</li>
+        <li>أثناء الحجز (صياغة غامضة)،</li>
+        <li>عند مرحلة الجاهزية (غرسات/أدوات مفقودة)،</li>
+        <li>عند النقل (تدهور التسليم/Handoff decay). (AHRQ)</li>
+    </ul>
+    <p>لذلك، يجب هندسة السلامة عبر السلسلة بأكملها، وليس فقط أثناء الشق الجراحي. (IHI)</p>
+    <p><span class="english-term">Many teams treat safety as something that happens “inside the theatre.” But major OR harm often starts upstream: at the decision-to-operate stage (unclear plan), during booking (ambiguous wording), at readiness (missing implants/instruments), at transfer (handoff decay). (AHRQ). Safety therefore must be engineered across the whole chain, not only during incision. (IHI)</span></p>
+
+    <h3>2.1.2 التحولات (Transitions) هي المكان الذي تموت فيه المعلومات / Transitions are where information dies</h3>
+    <p>تشير أدبيات سلامة الرعاية الصحية بشكل متكرر إلى أن عمليات التسليم (Handoffs) وانتقال الرعاية هي مناطق عالية المخاطر بسبب:</p>
+    <ul>
+        <li>انقسام الانتباه (Attention is divided)،</li>
+        <li>تحول المسؤولية (Responsibility shifts)،</li>
+        <li>وتغير شكل المعلومات (منطوقة ← مكتوبة ← مُفترضة). (AHRQ; The Joint Commission)</li>
+    </ul>
+    <p>في رحلة غرفة العمليات، تحدث التحولات بشكل متكرر وسريع. النظام الآمن يتوقع أن المعلومات ستتدهور ما لم تتم حمايتها بهيكل منظم. (AHRQ)</p>
+    <p><span class="english-term">Healthcare safety literature repeatedly identifies handoffs and transitions of care as high-risk zones because: attention is divided, responsibility shifts, and information changes form (spoken → written → assumed). (AHRQ; The Joint Commission). In the OR journey, transitions occur frequently and rapidly. A safe system expects that information will decay unless it is protected by structure. (AHRQ)</span></p>
+
+    <h3>2.1.3 النطاق الخاص بغرفة العمليات في هذا الكتاب (لتجنب التكرار مع التخدير) / OR-side scope in this book</h3>
+    <p>يركز هذا الفصل على محتوى غرفة العمليات والمسار الجراحي:</p>
+    <ul>
+        <li>تحديد الإجراء وسلامة الحجز،</li>
+        <li>بوابات التحقق من الموقع/الإجراء،</li>
+        <li>تخطيط الأدوات/الغرسات/العينات،</li>
+        <li>الجاهزية المعقمة وتخطيط التلوث (نظرة عامة على المسار)،</li>
+        <li>عمليات التسليم من غرفة العمليات إلى الإفاقة (OR-to-PACU) ومن الإفاقة إلى الجناح (PACU-to-ward) التي تؤكد على <strong>الأساسيات الجراحية</strong>. (AORN; WHO SSC)</li>
+    </ul>
+    <p><span class="english-term">This chapter focuses on the OR and surgical pathway content: procedure definition and booking integrity, site/procedure verification gates, instrument/implant/specimen planning, sterile readiness and contamination planning (high-level pathway view), OR-to-PACU and PACU-to-ward handoffs that emphasize <strong>surgical essentials</strong>. (AORN; WHO SSC)</span></p>
+
+    <h2>2.2 خريطة الرحلة (من القرار إلى الخروج) (إطار عملي) / The Journey Map (Decision → Discharge) (A Practical Framework)</h2>
+
+    <h3>2.2.1 المرحلة 1 — قرار الجراحة (بوابة القرار) / Stage 1 — Decision-to-operate (Decision Gate)</h3>
+    <p><strong>الغرض:</strong> تحويل النية السريرية إلى خطة قابلة للتنفيذ وغير غامضة. إذا كانت الخطة غير واضحة، فإن كل حاجز سلامة تالٍ سيصبح أضعف. (IHI)</p>
+    <p>يجب أن يشمل الحد الأدنى من الوضوح في هذه البوابة:</p>
+    <ul>
+        <li>الإجراء المقصود بدقة والجهة/الموقع (Laterality/site) عند الاقتضاء، (The Joint Commission – Universal Protocol)</li>
+        <li>الغرسات/الأجهزة المتوقعة وما إذا كانت أطقم الإعارة (Loaner sets) مطلوبة، (AORN)</li>
+        <li>العينات المتوقعة (ما هي، كم عددها، تعامل خاص)، (AORN; CAP concepts)</li>
+        <li>اعتبارات خطر العدوى (مثل تخطيط الحالات الملوثة)، (WHO SSI; CDC SSI)</li>
+        <li>القيود المتوقعة بعد العملية والوجهة النهائية للمريض. (AORN)</li>
+    </ul>
+    <p><span class="english-term"><strong>Purpose:</strong> Convert clinical intent into an executable, unambiguous plan. If the plan is unclear, every downstream safety barrier becomes weaker. (IHI). Minimum clarity at this gate should include: the exact intended procedure and laterality/site when applicable, expected implants/devices and whether loaner sets are required, expected specimens (what, how many, special handling), infection risk considerations, anticipated post-op restrictions and destination.</span></p>
+
+    <h3>2.2.2 المرحلة 2 — الحجز والجدولة (بوابة الحجز) / Stage 2 — Booking and scheduling (Booking Gate)</h3>
+    <p><strong>الغرض:</strong> تحويل الخطة إلى سجل حجز موحد وقابل للتدقيق.</p>
+    <p>الحجز ليس مجرد عمل إداري—إنه <strong>حاجز سلامة</strong>. (The Joint Commission)</p>
+    <p>يجب أن يلتقط الحجز بشكل موثوق:</p>
+    <ul>
+        <li>المعرفات (Identifiers)،</li>
+        <li>اسم الإجراء بلغة موحدة،</li>
+        <li>الجهة/الموقع،</li>
+        <li>الجراح والخدمة العلاجية،</li>
+        <li>متطلبات الغرسات/الأدوات المعارة،</li>
+        <li>احتياجات المعدات الخاصة (مثل التصوير، الليزر)،</li>
+        <li>احتياجات العزل / علامات مكافحة العدوى،</li>
+        <li>العينات المتوقعة وخطة التسمية،</li>
+        <li>الوجهة المخطط لها بعد العملية. (AORN; The Joint Commission)</li>
+    </ul>
+    <p><span class="english-term"><strong>Purpose:</strong> Turn the plan into a standardized, auditable booking record. Booking is not administration—it is a safety barrier. (The Joint Commission). The booking must reliably capture: identifiers, procedure name in standardized language, laterality/site, surgeon and service, implant/loaner requirements, special equipment needs (e.g., imaging, laser), isolation needs / infection control flags, anticipated specimens and labeling plan, planned post-op destination. (AORN; The Joint Commission)</span></p>
+
+    <h3>2.2.3 المرحلة 3 — التحضير ما قبل الجراحة (بوابة الجاهزية) / Stage 3 — Pre-op preparation (Readiness Gate)</h3>
+    <p><strong>الغرض:</strong> التأكد من أن المريض والنظام جاهزان <strong>فعلياً اليوم</strong>.</p>
+    <p>هذه هي المرحلة التي يتم فيها إما منع الإلغاءات التي يمكن تجنبها والبدايات غير الآمنة—أو السماح بها بصمت. (IHI)</p>
+    <p>تشمل الجاهزية:</p>
+    <ul>
+        <li>اكتمال الموافقة (Consent) وتطابقها مع صياغة الحجز/الإجراء، (The Joint Commission)</li>
+        <li>جاهزية تحديد الموقع (Site marking)، (The Joint Commission – Universal Protocol)</li>
+        <li>جاهزية الأدوات والإمدادات المعقمة (سلامتها وقابلية تتبعها)، (AORN; AAMI ST79)</li>
+        <li>توفر الغرسات وجاهزية تتبعها، (AORN)</li>
+        <li>ملكية توقيت الوقاية بالمضادات الحيوية وخطة توثيقها، (WHO SSI; CDC SSI)</li>
+        <li>خطوات سير العمل للوقاية من الجلطات (VTE)/تقرحات الضغط/انخفاض الحرارة من جانب غرفة العمليات، (NICE guidance)</li>
+        <li>مسار التصعيد عند فشل الجاهزية. (IHI)</li>
+    </ul>
+    <p><span class="english-term"><strong>Purpose:</strong> Confirm that both patient and system are truly ready <strong>today</strong>. This is the stage where preventable cancellations and unsafe starts are either prevented—or silently allowed. (IHI). Readiness includes: consent completeness and match with booking/procedure wording, site marking readiness, instrument and sterile supply readiness (integrity and traceability), implant availability and traceability readiness, antibiotic prophylaxis timing ownership and documentation plan, VTE/pressure/hypothermia prevention workflow steps from OR side, escalation path for readiness failure.</span></p>
+
+    <h3>2.2.4 المرحلة 4 — تدفق يوم الجراحة (بوابة التدفق) / Stage 4 — Day-of-surgery flow (Flow Gate)</h3>
+    <p><strong>الغرض:</strong> البدء بأمان تحت أخطر الظروف: <strong>ضغط الوقت (Time pressure)</strong>.</p>
+    <p>ضغط البدء المتأخر أمر يمكن التنبؤ به؛ لذلك يجب أن تزداد قوة الحاجز—لا أن تنقص—عندما يتأخر الجدول الزمني. (IHI)</p>
+    <p>تشمل ضوابط بوابة التدفق:</p>
+    <ul>
+        <li>التحقق قبل المسرح الذي يتم إجراؤه <strong>قبل</strong> دخول المريض إلى الغرفة، (The Joint Commission)</li>
+        <li>إجراء المهلة (Time-out) كـ <strong>محادثة جماعية</strong>، وليس كطقس سردي، (WHO SSC; AORN)</li>
+        <li>حماية المهام المحمية (العد الجراحي، التسمية) من المقاطعات، (AORN)</li>
+        <li>قواعد واضحة لتغييرات الخطة في اللحظة الأخيرة. (The Joint Commission)</li>
+    </ul>
+    <p><span class="english-term"><strong>Purpose:</strong> Start safely under the most dangerous condition: <strong>time pressure</strong>. Late start pressure is predictable; therefore barrier strength must increase—not decrease—when the schedule slips. (IHI). Flow gate controls include: pre-theatre verification done before the patient enters the room, time-out performed as a <strong>team conversation</strong>, not a recital, protected tasks (counts, labeling) protected from interruptions, clear rules for last-minute plan changes.</span></p>
+
+    <h3>2.2.5 المرحلة 5 — مراحل التنفيذ داخل العملية (بوابة التنفيذ) / Stage 5 — Intra-op phases (Execution Gate)</h3>
+    <p><strong>الغرض:</strong> الحفاظ على السلامة أثناء الإجراءات الأعلى خطورة.</p>
+    <p>العمل داخل العملية هو تسلسل من المراحل، لكل منها مخاطر يمكن التنبؤ بها:</p>
+    <ul>
+        <li>الدخول/وضعية المريض (Positioning)،</li>
+        <li>تأسيس الحقل المعقم،</li>
+        <li>الخطوات الحرجة (الغرسات، خطوات الأوعية الدموية، العينات)،</li>
+        <li>الإغلاق والعد الجراحي (Counts)،</li>
+        <li>الخروج (Sign-out) واكتمال التوثيق. (AORN; WHO SSC)</li>
+    </ul>
+    <p><span class="english-term"><strong>Purpose:</strong> Maintain safety during the highest-risk actions. Intra-op work is a sequence of phases, each with predictable hazards: entry/positioning, sterile field establishment, critical steps (implants, vascular steps, specimens), closure and counts, sign-out and documentation completeness. (AORN; WHO SSC)</span></p>
+
+    <h3>2.2.6 المرحلة 6 — النقل من العمليات إلى الإفاقة (بوابة النقل) / Stage 6 — OR to PACU transfer (Transfer Gate)</h3>
+    <p><strong>الغرض:</strong> ضمان نجاة الخطة الجراحية من الحركة والضوضاء.</p>
+    <p>عمليات التسليم المنظمة تقلل من الحذف (Omission) والغموض. (AHRQ)</p>
+    <p>يجب أن ينقل هذا التسليم بشكل موثوق:</p>
+    <ul>
+        <li>ما تم القيام به (الإجراء الدقيق، الجهة/الموقع)،</li>
+        <li>ما يجب مراقبته (نزيف، فحوصات عصبية وعائية، مشاكل الجرح)،</li>
+        <li>ما يجب القيام به (مصارف، ضمادات، مضادات حيوية، خطة VTE)،</li>
+        <li>ما يجب <strong>ألا</strong> يتم القيام به (القيود/Restrictions)،</li>
+        <li>حالة تتبع العينات والغرسات،</li>
+        <li>محفزات التصعيد (Escalation triggers) وبمن يجب الاتصال. (AORN; AHRQ)</li>
+    </ul>
+    <p><span class="english-term"><strong>Purpose:</strong> Ensure the surgical plan survives movement and noise. Structured handoffs reduce omission and ambiguity. (AHRQ). This handoff must reliably communicate: what was done (exact procedure, side/site), what must be watched (bleeding, neurovascular checks, wound issues), what must be done (drains, dressing, antibiotics, VTE plan), what must not be done (restrictions), specimens and implants traceability status, escalation triggers and who to call.</span></p>
+
+    <h3>2.2.7 المرحلة 7 — من الإفاقة إلى الجناح (بوابة الاستمرارية) / Stage 7 — PACU to ward (Continuation Gate)</h3>
+    <p><strong>الغرض:</strong> استدامة التعافي الآمن بعد وحدة الإفاقة (PACU).</p>
+    <p>يجب أن تكون خطة الجناح قابلة للاستخدام وصريحة:</p>
+    <ul>
+        <li>المصارف (النوع، الشفط، العتبات/Thresholds، متى يتم الاتصال)،</li>
+        <li>خطة الضمادة،</li>
+        <li>استمرار المضادات الحيوية إذا لزم الأمر،</li>
+        <li>القيود والحركة (Mobilization)،</li>
+        <li>اختبارات المتابعة وتوقيتها،</li>
+        <li>علامات التحذير ومسار التصعيد. (AHRQ; The Joint Commission)</li>
+    </ul>
+    <p><span class="english-term"><strong>Purpose:</strong> Sustain safe recovery beyond PACU. A ward plan must be usable and explicit: drains (type, suction, thresholds, when to call), dressing plan, antibiotics continuation if applicable, restrictions and mobilization, follow-up tests and timing, warning signs and escalation pathway. (AHRQ; The Joint Commission)</span></p>
+
+    <h2>2.3 أين يحدث الضرر فعلياً (النقاط الساخنة للفشل حسب المرحلة) / Where Harm Actually Happens (Failure Hotspots by Stage)</h2>
+
+    <div class="concept-box">
+        <h3>2.3.1 الغموض المبدئي: عندما يصبح "شبه الواضح" أمراً خطيراً / Upstream ambiguity</h3>
+        <p>"شبه الواضح" ليس واضحاً بما يكفي للجراحة. الغموض يتصرف مثل العدوى: إنه ينتشر.</p>
+        <p><strong>أمثلة:</strong> اسمين مختلفين لنفس الإجراء (الحجز مقابل ملاحظة العيادة)، "يسار" في مكان و "ثنائي الجانب" في مكان آخر، غرسة مذكورة في العيادة ولكنها مفقودة في الحجز. (The Joint Commission; AORN)</p>
+        <p><span class="english-term">“Almost clear” is not clear enough for surgery. Ambiguity behaves like infection: it spreads. Examples: two names for the same procedure (booking vs clinic note), “left” in one place, “bilateral” in another, implant mentioned in clinic but missing in booking.</span></p>
+
+        <h3>2.3.2 التباين: كلمات مختلفة، معاني مختلفة / Variability: different words, different meaning</h3>
+        <p>التباين في المصطلحات ينتج عنه عدم تطابق (Mismatch). تستخدم غرفة العمليات الموثوقة أسماء إجراءات ونماذج موحدة. (IHI; The Joint Commission)</p>
+        <p><span class="english-term">Variability in terminology produces mismatch. A reliable OR uses standardized procedure names and templates.</span></p>
+
+        <h3>2.3.3 الالتفافات على النظام (Workarounds): السُم الصامت للمسار / Workarounds: the silent pathway toxin</h3>
+        <p>الالتفافات تبدو مفيدة في البداية: "سنوضح ذلك في المسرح"، "سنقوم بتسمية العينات لاحقاً"، "سنستعير الأدوات". لكن الالتفافات تنقل المخاطر إلى اللحظات الأكثر ضغطاً وتُطبع الانحراف (Normalize deviance). (IHI)</p>
+        <p><span class="english-term">Workarounds feel helpful: “We’ll clarify in theatre,” “We’ll label specimens later,” “We’ll borrow instruments.” But workarounds move risk into the most pressured moments and normalize deviance.</span></p>
+
+        <h3>2.3.4 المقاطعات عند الخطوات الحرجة / Interruptions at critical steps</h3>
+        <p>العد الجراحي، تسمية العينات، والتحقق هي إجراءات عرضة للمقاطعات. الموثوقية تتطلب <strong>وقتاً محمياً (Protected time)</strong>، تسلسلاً موحداً، وملكية واضحة. (AORN)</p>
+        <p><span class="english-term">Counts, specimen labeling, and verification are vulnerable to interruptions. Reliability requires protected time, standardized sequence, and clear ownership.</span></p>
+
+        <h3>2.3.5 تدهور التسليم: الخطة تصبح مجرد إشاعة / Handoff decay: the plan becomes a rumor</h3>
+        <p>بدون هيكلة، تصبح عمليات التسليم غامضة: "مستقر، حالة روتينية." "لا شيء خاص." لكن في الجراحة، كلمة "لا شيء خاص" تقتل التفاصيل: تعليمات المصرف، القيود، التلوث، إلحاح العينة، تتبع الغرسة. (AHRQ; AORN)</p>
+        <p><span class="english-term">Without structure, handoffs become vague: “Stable, routine case.” “Nothing special.” But in surgery, “nothing special” kills details: drain instructions, restriction, contamination, specimen urgency, implant traceability.</span></p>
+    </div>
+
+    <h2>2.4 تصميم السلامة مرحلة بمرحلة (ما يجب بناؤه في النظام) / Stage-by-Stage Safety Design (What to Build into the System)</h2>
+
+    <h3>2.4.1 ضوابط بوابة القرار (ابدأ بالوضوح) / Decision Gate controls (Start with clarity)</h3>
+    <p><strong>2.4.1.1 تعريف الإجراء القياسي قبل الحجز:</strong> استخدم قاموساً موحداً لأسماء الإجراءات أو نموذجاً للخدمة بحيث يتم التعبير عن الخطة بنفس الطريقة عبر ملاحظة العيادة، الموافقة، والحجز. (The Joint Commission; IHI)<br>
+    <span class="english-term"><strong>Standard procedure definition before booking:</strong> Use a standard procedure naming dictionary or service-line template so that the plan is expressed the same way across clinic note, consent, and booking.</span></p>
+    
+    <p><strong>2.4.1.2 استراتيجية صريحة للغرسات (Implants):</strong> إذا كان من المحتمل استخدام غرسة، يجب أن تحدد الخطة: نوع الغرسة والشركة المصنعة، نطاق الحجم المتوقع، احتياجات أطقم الإعارة (Loaner sets)، والجدول الزمني للتأكيد. هذه الخطوة التصميمية الواحدة تمنع الارتجال في اللحظة الأخيرة، وتلغي الحالات، والاستبدال غير الآمن. (AORN; IHI)<br>
+    <span class="english-term"><strong>Explicit implant strategy:</strong> If an implant might be used, the plan must specify: implant type and vendor, expected size range, loaner set needs, confirmation timeline. This single design step prevents last-minute improvisation, case cancellations, and unsafe substitution.</span></p>
+    
+    <p><strong>2.4.1.3 استراتيجية العينات كجزء من خطة العملية:</strong> أخطاء العينات شائعة لأن العينات هي "أشياء صغيرة ذات عواقب كبيرة". يجب أن تحدد الخطة: ما هي العينات المتوقعة، التعامل الخاص (طازج، مجمد، ميكروبيولوجي)، الإلحاح ومتطلبات التسمية. (AORN; AHRQ)<br>
+    <span class="english-term"><strong>Specimen strategy as part of the operation plan:</strong> Specimen errors are common because specimens are “small objects with big consequences.” The plan should define: what specimens are expected, special handling (fresh, frozen, microbiology), urgency and labeling requirements.</span></p>
+
+    <h3>2.4.2 ضوابط بوابة الحجز (اجعل الحجز حاجز سلامة) / Booking Gate controls (Make booking a safety barrier)</h3>
+    <p><strong>2.4.2.1 الحد الأدنى لمجموعة بيانات الحجز (Minimum Booking Dataset - MBD):</strong> الحجز "آمن" فقط عندما تكون الحقول الحرجة مكتملة: معرفات المريض، اسم الإجراء الموحد، الجهة/الموقع، الجراح، متطلبات الغرسة، متطلبات المعدات، خطة العينات، علامات العزل، والوجهة المتوقعة بعد العملية. (AORN; The Joint Commission)<br>
+    <span class="english-term"><strong>Minimum Booking Dataset (MBD):</strong> A booking is “safe” only when critical fields are complete: patient identifiers, standardized procedure name, laterality/site, surgeon/service, implant requirement, equipment requirements, specimen plan, isolation flags, anticipated post-op destination.</span></p>
+
+    <p><strong>2.4.2.2 دور التحقق من الحجز (الملكية):</strong> تعيين دور (مثل منسق الحجز أو ممرضة مسؤولة) مسؤول عن التحقق من الاكتمال وحل الغموض <strong>قبل</strong> يوم الجراحة. (IHI)<br>
+    <span class="english-term"><strong>Booking verification role (ownership):</strong> Assign a role (e.g., booking coordinator or charge nurse) responsible for verifying completeness and resolving ambiguity before the day of surgery.</span></p>
+
+    <p><strong>2.4.2.3 قواعد التوقف الإلزامي (Hard-stop) للحقول الحرجة المفقودة:</strong> إذا كانت الجهة/الموقع مطلوبة، فإن فقدانها هو توقف إلزامي. إذا كانت الغرسة مطلوبة، فإن عدم تأكيد الغرسة هو توقف إلزامي. قواعد التوقف الإلزامي ليست بيروقراطية؛ إنها <strong>حماية هندسية للمريض</strong>. (The Joint Commission; IHI)<br>
+    <span class="english-term"><strong>Hard-stop rules for missing critical fields:</strong> If laterality/site is required, missing laterality is a hard stop. If implant is required, missing implant confirmation is a hard stop. Hard stops are not bureaucracy; they are engineered patient protection.</span></p>
+
+    <h3>2.4.3 ضوابط بوابة الجاهزية (إيقاف البدايات غير الآمنة) / Readiness Gate controls (Stop unsafe starts)</h3>
+    <p><strong>2.4.3.1 قائمة التحقق من الجاهزية المنجزة قبل الدخول للمسرح:</strong> يجب أن تتم قائمة التحقق من الجاهزية في وقت مبكر بما يكفي لتصحيح المشاكل دون "التسرع في الدخول إلى المسرح". (AORN)<br>
+    <span class="english-term"><strong>Readiness checklist performed before theatre entry:</strong> The readiness checklist must happen early enough to correct problems without “rushing into theatre.”</span></p>
+
+    <p><strong>2.4.3.2 مسار التصعيد عند فشل الجاهزية:</strong> إذا فشلت الجاهزية، يجب أن يكون هناك تحديد لـ: من يقرر التأخير مقابل المضي قدماً، من يتواصل مع المريض/العائلة، من يحل مشكلة المعدات المفقودة، ومن يوثق القرار. (IHI; The Joint Commission)<br>
+    <span class="english-term"><strong>Escalation pathway when readiness fails:</strong> If readiness fails, there must be: who decides delay vs proceed, who communicates to patient/family, who resolves missing equipment, who documents the decision.</span></p>
+
+    <p><strong>2.4.3.3 مراجعة الإلغاءات التي يمكن الوقاية منها كبرنامج سلامة:</strong> يجب تصنيف الإلغاءات: يمكن الوقاية منها مقابل لا يمكن الوقاية منها، وفئة السبب الجذري (غرسات، توثيق، جاهزية المريض، موظفين، معدات). <strong>الإلغاءات التي يمكن الوقاية منها هي إنذارات مبكرة—إشارات سلامة ترتدي ثوباً تشغيلياً</strong>. (IHI)<br>
+    <span class="english-term"><strong>Preventable cancellation review as a safety program:</strong> Cancellations should be classified: preventable vs non-preventable, root cause category. Preventable cancellations are early warnings—safety signals in operational clothing.</span></p>
+
+    <h3>2.4.4 ضوابط تدفق يوم الجراحة (حماية لحظة البدء) / Day-of-surgery Flow controls (Protect the start moment)</h3>
+    <p><strong>2.4.4.1 التحقق قبل الحركة:</strong> انقل المريض إلى المسرح <strong>فقط</strong> بعد حل عدم التطابق الحرج. يتماشى هذا مع فلسفة الوقاية من الجراحة في الموقع الخاطئ. (The Joint Commission – Universal Protocol)<br>
+    <span class="english-term"><strong>Verify before movement:</strong> Move the patient into theatre only after critical mismatches are resolved. This aligns with wrong-site prevention philosophy.</span></p>
+
+    <p><strong>2.4.4.2 جودة المهلة (Time-out quality):</strong> تكون المهلة (Time-out) فعالة عندما: يتوقف الجميع، يشارك الجميع، يتم حل التباينات، ويشكل الفريق نموذجاً عقلياً مشتركاً (Shared mental model). (WHO SSC; AORN)<br>
+    <span class="english-term"><strong>Time-out quality (not time-out existence):</strong> A time-out is effective when: everyone stops, everyone participates, mismatches are resolved, and the team forms a shared mental model.</span></p>
+
+    <p><strong>2.4.4.3 "اللحظات الدقيقة عالية المخاطر" المحمية:</strong> حدد لحظات محمية (Protected moments): العد الجراحي، تسمية العينات، التحقق من الغرسات. خلال اللحظات المحمية: لا مكالمات هاتفية، لا أسئلة غير ذات صلة، لا تعدد مهام (Multitasking). (AORN)<br>
+    <span class="english-term"><strong>Protected “high-risk micro-moments”:</strong> Define protected moments: counts, specimen labeling, implant verification. During protected moments: no phone calls, no unrelated questions, no multitasking.</span></p>
+
+    <h3>2.4.5 ضوابط التنفيذ داخل العملية (موثوقية المرحلة) / Intra-op Execution controls (Phase reliability)</h3>
+    <ul>
+        <li><strong>المرحلة 1 — الدخول والوضعية (Positioning):</strong> الوضعية ليست "تجهيزاً"؛ إنها إجراء سلامة سريري. الوقاية من تقرحات الضغط وإصابات الأعصاب تعتمد على: الخطة، نقاط الحماية، التوثيق. (AORN; NPIAP)</li>
+        <li><strong>المرحلة 2 — تأسيس الحقل المعقم:</strong> تعتمد موثوقية العقامة على: التحكم في حركة المرور (Traffic control)، الاستجابة الواضحة للاختراقات (Breaks)، وعمليات التنظيف والإعداد المتسقة. (AORN; WHO SSI; CDC SSI)</li>
+        <li><strong>المرحلة 3 — الخطوات الحرجة و"الانتباه المعقم" (Sterile attention):</strong> عند الوصول إلى خطوات حرجة (إدخال الغرسة، أخذ العينة، تحرير الملقط الوعائي)، يجب تقليل الضوضاء والمشتتات في الغرفة. هذا تطبيق عملي للعوامل البشرية. (IHI; AHRQ)</li>
+        <li><strong>المرحلة 4 — الإغلاق، العد الجراحي (Counts)، والخروج (Sign-out):</strong> العد هو <strong>نظام حاجز</strong>، وليس مجرد مهمة. تتطلب التباينات (Discrepancies) خوارزمية محددة وتوقفاً إلزامياً (Hard stop). (AORN) يجب أن يضمن الـ Sign-out اكتمال توثيق العينات والغرسات قبل مغادرة المريض لغرفة العمليات. (WHO SSC)</li>
+    </ul>
+    <p><span class="english-term"><strong>Intra-op Execution controls (Phase reliability):</strong><br>
+    Phase 1 — Entry and positioning is not “setup”; it is a clinical safety action. (AORN)<br>
+    Phase 2 — Sterile field establishment reliability depends on traffic control and clear response to breaks. (WHO SSI)<br>
+    Phase 3 — Critical steps and “sterile attention” require reducing noise and distraction. (IHI; AHRQ)<br>
+    Phase 4 — Closure, counts, sign-out: Counts are a barrier system. Discrepancies need a defined algorithm and hard stop. Sign-out ensures specimen and implant documentation completeness. (WHO SSC; AORN)</span></p>
+
+    <h3>2.4.6 ضوابط بوابة النقل (OR → PACU) / Transfer Gate controls</h3>
+    <p><strong>التسليم الجراحي المنظم (Structured surgical handoff):</strong> عمليات التسليم المنظمة تقلل الحذف وتحسن الاستمرارية. (AHRQ)<br>
+    <strong>التوثيق الذي يطابق الكلام:</strong> يجب أن تتطابق الخطة المنطوقة مع الأوامر المكتوبة والملاحظات المنطوقة. عندما يتباعد التوثيق عن الكلام، سيتبع الجناح الخيار الخاطئ. (The Joint Commission)<br>
+    <strong>عناصر المراقبة الصريحة ومحفزات التصعيد:</strong> "اتصل إذا لزم الأمر" ليست خطة. الخطة الآمنة تحدد: ما يجب مراقبته، العتبات (Thresholds)، وبمن يجب الاتصال. (AHRQ)<br>
+    <span class="english-term"><strong>Transfer Gate controls (OR → PACU):</strong> Structured surgical handoffs reduce omissions. Documentation must match speech. Explicit watch-outs and escalation triggers: “Call if needed” is not a plan. A safe plan defines what to watch, thresholds, and who to call. (AHRQ)</span></p>
+
+    <h3>2.4.7 ضوابط بوابة الاستمرارية (PACU → Ward) / Continuation Gate controls</h3>
+    <p><strong>مجموعة بيانات الاستمرارية الجراحية المكررة والمؤكدة:</strong> كرر التفاصيل الجراحية الأساسية لضمان نجاتها من النقل. (AHRQ)<br>
+    <strong>اكتمال التتبع قبل انتهاء التسليم:</strong> يجب إكمال تسمية العينات وتتبع الغرسات كـ <strong>شرط انتهاء (Done condition)</strong> قبل أن يغادر المريض مسؤولية المسرح بالكامل. (AORN)<br>
+    <span class="english-term"><strong>Continuation Gate controls (PACU → Ward):</strong> Surgical continuity dataset repeated and confirmed. Traceability completion before handoff ends (specimen labeling and implant traceability). (AORN)</span></p>
+
+    <h2>2.5 القصة الحقيقية 2: "الإلغاء الذي كان يمكن تفاديه والذي كاد أن يتحول إلى حدث ضار"</h2>
+    <h3>2.5 Real Story 2: “The preventable cancellation that nearly became a harm event”</h3>
+
+    <div class="quote-box">
+        <p><strong>2.5.1 المشهد (The scene):</strong><br>
+        وصل مريض صائماً، قلقاً، ومستعداً تماماً. أخذ أفراد العائلة إجازة من العمل. رتب الجناح وسيلة النقل. كانت قائمة عمليات غرفة العمليات مزدحمة. عند الفحص النهائي، أدركت الممرضة الدوارة (Circulating nurse) أن طقم الغرسة المطلوب غير متوفر. ذكرت ملاحظة الحجز "احتمال استخدام غرسة"، لكن لم يؤكد أحد أي غرسة. لم يتم التأكيد مع المورد. ولم يتم طلب طقم إعارة (Loaner set) في الوقت المناسب.</p>
+        <p>اقترح موظف مبتدئ: "ربما يمكننا المضي قدماً واستخدام ما لدينا."<br>
+        أوقفت الممرضة المسؤولة الغرفة. وطرحت سؤالاً بسيطاً: <strong>"هل لدينا نطاق الغرسات الصحيح للانتهاء بأمان إذا بدأنا؟"</strong><br>
+        صمت.</p>
+        <p>نظر الجراح إلى الأطقم المتاحة وأدرك أن خيارات الأحجام غير مكتملة. لو بدأوا واكتشفوا عدم تطابق أثناء العملية، لكانوا أُجبروا على ارتجال غير آمن أو إطالة الحالة. تم إلغاء الحالة.</p>
+        <p><span class="english-term"><strong>The scene:</strong> A patient arrived fasting, anxious, and fully prepared... the circulating nurse realized the required implant set was not available... A junior staff member suggested: “Maybe we can proceed and use what we have.” The charge nurse paused the room. She asked a simple question: “Do we have the right implant range to finish safely if we start?”... The case was cancelled.</span></p>
+    </div>
+
+    <div class="concept-box">
+        <p><strong>2.5.2 ماذا شعر الفريق (What the team felt):</strong><br>
+        شعرت الغرفة بالإحباط—الإلغاء مكلف عاطفياً: خيبة أمل المريض، اضطراب الجدول، انزعاج الموظفين، "إهدار الوقت". هذا الألم العاطفي غالباً ما يدفع الأنظمة إلى <strong>بدايات غير آمنة</strong>.</p>
+        
+        <p><strong>2.5.3 ما هو الخطر الحقيقي (What the real risk was):</strong><br>
+        المضي قدماً كان سيزيد من: وقت العملية، خطر النزيف، خطر العدوى (تعرض أطول)، احتمالية استبدال الغرسة، الضغط لقبول معدات "شبه مناسبة". (AORN; WHO SSI; CDC SSI)</p>
+
+        <p><strong>2.5.4 السبب الجذري - حقيقة النظام (The root cause - the system truth):</strong><br>
+        السبب الجذري لم يكن ممرضة أو جراح. كان <strong>المسار (The pathway)</strong>: لم يتم تحديد تخطيط الغرسة عند القرار/الحجز (AORN)، فشل نموذج الحجز في فرض حقول الغرسة (IHI)، لا توجد بوابة جاهزية لتأكيد أطقم الإعارة قبل 24-72 ساعة (IHI)، وشجع ضغط الإنتاج على الالتفافات (IHI).</p>
+
+        <p><strong>2.5.5 الحل - السلامة بالتصميم (The fix - Safety-by-design):</strong><br>
+        أدخل المستشفى: حقل حجز إلزامي ("هل الغرسة مطلوبة؟ نعم/لا؛ النوع؛ نطاق الحجم؛ المورد؛ تاريخ التأكيد") (AORN)، نقطة تحقق جاهزية قبل 48 ساعة من الجراحة (IHI)، وقاعدة تصعيد: "لا يوجد تأكيد للغرسة = لا توجد قائمة نهائية." (IHI). <strong>انخفضت الإلغاءات—والأهم من ذلك، انخفضت البدايات غير الآمنة.</strong></p>
+        
+        <p><span class="english-term"><strong>The fix (Safety-by-design):</strong> The hospital introduced: a mandatory booking field: “Implant required? Y/N; type; sizing range; vendor; confirmation date,” (AORN) a readiness checkpoint 48 hours before surgery, (IHI) an escalation rule: “No implant confirmation = no final list.” (IHI) Cancellations decreased—and, more importantly, unsafe starts decreased.</span></p>
+    </div>
+
+    <h2>2.6 القصة الحقيقية 3: "ارتباك العينات—عندما يتحول ملصق صغير إلى حدث ضخم"</h2>
+    <h3>2.6 Real Story 3: “Specimen confusion—when a tiny label becomes a massive event”</h3>
+
+    <div class="quote-box">
+        <p><strong>2.6.1 المشهد (The scene):</strong><br>
+        تم أخذ عينتين خلال حالة. كان الحقل الجراحي مزدحماً. طلب الجراح "العينة أ" ثم "العينة ب"، ولكل منهما أهمية سريرية مختلفة. وضعت الممرضة المعقمة (Scrub nurse) الحاويات على الطاولة. أعدت الممرضة الدوارة الملصقات. في تلك اللحظة، رن هاتف العمليات: وصل المريض التالي مبكراً، وسأل المنسق عن وقت التبديل (Turnover).<br>
+        مقاطعة صغيرة. تسرع صغير.<br>
+        تم وضع الملصقات—وهي تبدو صحيحة ظاهرياً.<br>
+        لاحقاً، اتصل قسم علم الأمراض: هوية العينة لا تتطابق مع الصورة السريرية.<br>
+        واجه المريض فحوصات متكررة وتأخراً في العلاج.</p>
+        <p><span class="english-term"><strong>The scene:</strong> Two specimens were taken... The scrub nurse placed containers on the table. The circulating nurse prepared labels. At that moment, the OR phone rang... A small interruption. A small rush. The labels were placed—seemingly correct. Later, pathology called: the specimen identity did not match the clinical picture.</span></p>
+    </div>
+
+    <div class="concept-box">
+        <p><strong>2.6.2 لماذا تحدث أخطاء العينات بسهولة جداً؟ (Why specimen errors happen so easily):</strong><br>
+        التعامل مع العينات ضعيف بسبب: المهام تحدث عند الحدود بين الحقل المعقم والتوثيق (AORN)، الغرفة صاخبة ومقاطَعة (AHRQ)، يمكن أن يتم وضع الملصقات بتسرع، والعواقب متأخرة، لذا يبدو الخطر أقل إلحاحاً.</p>
+        
+        <p><strong>2.6.3 تصميم الحاجز لسلامة العينات (Barrier design for specimen safety):</strong><br>
+        تتعامل غرفة العمليات الآمنة مع تسمية العينات كـ "خطوة حرجة": <strong>وقت محمي</strong> (AORN)، <strong>تأكيد القراءة العكسية (Read-back)</strong> لهوية المريض + وصف العينة (AHRQ)، تسمية فورية في نقطة الرعاية (لا توجد كلمة "لاحقاً") (AORN)، والخروج (Sign-out) يشمل "تم التحقق من العينات وإرسالها". (WHO SSC)</p>
+        <p><span class="english-term"><strong>Barrier design for specimen safety:</strong> A safe OR treats specimen labeling like a “critical step”: protected time, (AORN) read-back confirmation of patient ID + specimen description, (AHRQ) immediate labeling at point-of-care (no “later”), (AORN) sign-out includes “specimens verified and sent.” (WHO SSC)</span></p>
+    </div>
+
+    <h2>2.7 عمليات التسليم الخاصة بغرفة العمليات (بدون تكرار التخدير): ما يجب قوله دائماً</h2>
+    <h3>2.7 OR-side Handoffs (Without duplicating anesthesia): What must always be said</h3>
+
+    <h3>2.7.1 لماذا تفشل عمليات التسليم الجراحية تحت الضغط / Why surgical handoffs fail under pressure</h3>
+    <p>معظم عمليات التسليم الجراحية تفشل لأنها: غير مهيكلة، تنظر للوراء ("ماذا حدث") بدلاً من النظر للأمام ("ما يجب أن يحدث تالياً") (AHRQ)، طويلة جداً بحيث لا يستطيع المستمع الاحتفاظ بها، وتفتقر إلى "عناصر المراقبة" ومحفزات التصعيد.</p>
+
+    <h3>2.7.2 الحد الأدنى لمجموعة بيانات التسليم الجراحي (OR → PACU) / The OR Surgical Handoff Minimum Dataset</h3>
+    <p>مجموعة البيانات المهيكلة تقلل الحذف (Omission). (AHRQ)</p>
+    <div class="concept-box">
+        <ul>
+            <li><strong>وضوح الإجراء (Procedure clarity):</strong> الإجراء الدقيق الذي تم إجراؤه (اسم قياسي)، تأكيد الجهة/الموقع. (The Joint Commission; WHO SSC)</li>
+            <li><strong>تفاصيل الجرح والعدوى (Wound and infection):</strong> فئة الجرح (إذا استُخدمت)، نوع الضمادة والجهة، حدث التلوث وخطوات التخفيف. (WHO SSI; CDC SSI; AORN)</li>
+            <li><strong>المصارف والأنابيب والأجهزة (Drains, tubes, and devices):</strong> نوع المصرف/موقعه/إعداد الشفط، التوقعات للمخرجات وعتبات العمل، تعليمات القسطرة/Wound vac/الثغرة (Stoma). (AORN)</li>
+            <li><strong>العينات (Specimens):</strong> العينات المأخوذة وتأكيد الملصقات، طلب علم الأمراض العاجل إن وجد. (AORN; WHO SSC)</li>
+            <li><strong>الغرسات (Implants):</strong> نوع الغرسة واكتمال التتبع، القيود أو الاحتياطات المتعلقة بالغرسة. (AORN)</li>
+            <li><strong>القيود وإعادة التأهيل (Restrictions and rehabilitation):</strong> قيود الأطراف، قيود الوضعية، خطة الحركة. (AORN)</li>
+            <li><strong>عناصر المراقبة ومحفزات التصعيد (Watch-outs and escalation triggers):</strong> ما يجب مراقبته (النزيف، الحالة العصبية الوعائية)، عتبات الاتصال بالجراح/فريق العمليات. (AHRQ)</li>
+        </ul>
+        <p><span class="english-term"><strong>The OR Surgical Handoff Minimum Dataset (OR → PACU):</strong> Procedure clarity, Wound and infection-relevant details, Drains, tubes, and devices, Specimens, Implants, Restrictions and rehabilitation, Watch-outs and escalation triggers. (AHRQ; The Joint Commission; WHO SSC; AORN)</span></p>
+    </div>
+
+    <h3>2.7.3 مجموعة بيانات الاستمرارية (PACU → Ward) / PACU → Ward continuity dataset</h3>
+    <p>يكرر تسليم الجناح ويؤكد على: خطة المصرف، خطة الضمادة والجرح، استمرار المضادات الحيوية (إذا لزم الأمر)، القيود، اختبارات المتابعة، محفزات التصعيد. (AHRQ)</p>
+
+    <h2>2.8 أدوات عملية (مُلحقات جاهزة للاستخدام بملكية غرفة العمليات) / Practical Tools</h2>
+
+    <div class="success-box">
+        <ul>
+            <li><strong>2.8.1 الأداة 1 — خريطة بوابات رحلة المريض في غرفة العمليات (صفحة واحدة):</strong> (القرار ← الحجز ← الجاهزية ← الدخول للمسرح ← Time-out ← التنفيذ ← Sign-out ← النقل ← استمرارية الجناح). لكل خطوة: المالك، الحد الأدنى للبيانات، شروط التوقف الإلزامي، مسار التصعيد، وطريقة التدقيق. (IHI)</li>
+            <br>
+            <li><strong>2.8.2 الأداة 2 — قائمة تحقق بوابة الجاهزية (قبل المسرح):</strong> الموافقة تتطابق مع صياغة الحجز (The Joint Commission)، تحديد الجهة/الموقع (The Joint Commission)، الغرسات مؤكدة (AORN)، الأدوات المعقمة متاحة وتم تأكيد سلامتها (AORN; AAMI)، تأكيد خطة المضادات الحيوية (WHO SSI)، تأكيد خطة العينات (AORN)، علامات العزل واضحة (WHO SSI).</li>
+            <br>
+            <li><strong>2.8.3 الأداة 3 — نص التسليم الجراحي (OR → PACU):</strong> (نص مهيكل يقلل الحذف). (AHRQ)<br>
+            "الإجراء والجهة: ___."<br>
+            "الجرح/الضمادة/التلوث: ___."<br>
+            "المصارف/الأجهزة والعتبات: ___."<br>
+            "العينات: ___؛ تم تأكيد الملصقات: نعم/لا."<br>
+            "الغرسات: ___؛ تم التتبع: نعم/لا."<br>
+            "القيود: ___."<br>
+            "عناصر المراقبة ومحفزات الاتصال: ___."</li>
+            <br>
+            <li><strong>2.8.4 الأداة 4 — سجل النقاط الساخنة للفشل (أداة تعلم للجنة العمليات):</strong> لكل حادثة قريبة/إلغاء: مرحلة الرحلة (IHI)، نوع الفشل، الحاجز الذي فشل، الإجراء التصحيحي والمالك، تاريخ الإغلاق وخطة إعادة التدقيق. (IHI)</li>
+        </ul>
+        <p><span class="english-term"><strong>Practical Tools:</strong> Tool 1 — OR Patient Journey Gate Map. Tool 2 — Readiness Gate Checklist. Tool 3 — Surgical Handoff Script (OR → PACU). Tool 4 — Failure Hotspot Log.</span></p>
+    </div>
+
+    <h2>2.9 القياس (كيف تعرف أن الرحلة تتحسن) / Measurement (How to know the journey is improving)</h2>
+
+    <h3>2.9.1 لماذا تهم المؤشرات الاستباقية / Why leading indicators matter</h3>
+    <p>مقاييس الضرر الناتجة (SSI، الأحداث التي لا ينبغي أن تحدث/Never events) ضرورية ولكنها متأخرة. تعكس المؤشرات الاستباقية (Leading indicators) قوة الحاجز وتسمح بالتصحيح المبكر. (IHI; AHRQ)</p>
+
+    <h3>2.9.2 مؤشرات الأداء الرئيسية المقترحة للرحلة (حد أدنى ولكن بقيمة عالية) / Suggested journey KPIs</h3>
+    <ul>
+        <li>معدل الإلغاءات التي يمكن الوقاية منها (وأهم الأسباب). (IHI)</li>
+        <li>معدل حقول الحجز الحرجة المفقودة. (The Joint Commission; IHI)</li>
+        <li>معدل اجتياز بوابة الجاهزية بدون استثناءات. (IHI)</li>
+        <li>نقاط جودة الـ Time-out المُلاحظة (وليس مجرد الإنجاز). (WHO SSC; AORN)</li>
+        <li>معدل الحوادث القريبة (Near-miss) لتسمية العينات. (AORN; AHRQ)</li>
+        <li>معدل اكتمال تتبع الغرسات. (AORN)</li>
+        <li>درجة اكتمال التسليم (OR→PACU) (البيانات الجراحية). (AHRQ)</li>
+        <li>العودة إلى غرفة العمليات خلال 24-48 ساعة (كإشارات). (IHI)</li>
+    </ul>
+
+    <h3>2.9.3 إغلاق الحلقة: تحويل القياس إلى سلامة / Closing the loop</h3>
+    <p>يجب أن تؤدي لوحة القيادة (Dashboard) إلى تحفيز الإجراءات: ردود فعل خلال وقت محدد، تغييرات في النظام، إعادة تدقيق. (IHI)</p>
+
+    <h2>2.10 خارطة طريق التنفيذ (كيف تبني المسار في مستشفاك) / Implementation Roadmap</h2>
+    <ol>
+        <li><strong>ارسم خريطة سير العمل الحقيقي، وليس سير عمل السياسة:</strong> راقب يوماً كاملاً: التأخيرات، المقاطعات، الالتفافات. الخرائط الحقيقية هي الخرائط الصادقة. (IHI)</li>
+        <li><strong>حدد أهم ثلاث نقاط ساخنة للفشل:</strong> عادة ما تكون: غموض الحجز، فشل جاهزية الغرسة/الأداة، تدهور التسليم. (AHRQ; AORN)</li>
+        <li><strong>ابنِ بوابات مع الملاك والتوقفات الإلزامية:</strong> كل بوابة تتطلب: ملكية، مجموعة بيانات، توقفات إلزامية، وتصعيد. (IHI; The Joint Commission)</li>
+        <li><strong>جرب، حسّن، انشر:</strong> جرب على مسار خدمة واحد (Pilot)، حسّن الأدوات، ثم انشر. (IHI)</li>
+        <li><strong>دقق في الجودة، وليس فقط في وجود الأوراق:</strong> دقق في جودة المهلة، اكتمال التسليم، واكتمال التتبع—وليس فقط في النماذج المكتملة. (WHO SSC; IHI)</li>
+    </ol>
+    <p><span class="english-term"><strong>Implementation Roadmap:</strong> Map the real workflow, not the policy workflow. Identify top three failure hotspots. Build gates with owners and hard stops. Pilot, refine, scale. Audit quality, not paperwork presence. (IHI; The Joint Commission; WHO SSC)</span></p>
+
+    <h2>2.11 الخرافات الشائعة التي تضر بالرحلة / Common Myths That Damage the Journey</h2>
+    <div class="alert-box">
+        <ul>
+            <li><strong>"الرحلة هي وظيفة الجميع، لذلك فهي لا تخص أحداً."</strong><br>
+            <strong>الحقيقة:</strong> المسؤولية الموزعة تتطلب <strong>ملكية صريحة (Explicit ownership)</strong> عند كل بوابة. (IHI)</li>
+            
+            <li><strong>"إذا كان التوثيق موجوداً في مكان ما، فنحن آمنون."</strong><br>
+            <strong>الحقيقة:</strong> تتطلب السلامة معلومات <strong>مهيكلة وقابلة للاستخدام</strong> في نقطة القرار. (The Joint Commission)</li>
+            
+            <li><strong>"عمليات التسليم (Handoffs) هي مجرد حس سليم (Common sense)."</strong><br>
+            <strong>الحقيقة:</strong> الحس السليم يفشل تحت الضغط؛ الهيكلة <strong>تمنع الحذف</strong>. (AHRQ)</li>
+        </ul>
+        <p><span class="english-term"><strong>Myths vs Reality:</strong> “The journey is everyone’s job...” Reality: distributed responsibility requires explicit ownership. “If documentation exists somewhere, we are safe.” Reality: safety requires usable structured information. “Handoffs are common sense.” Reality: common sense fails under pressure; structure prevents omission. (IHI; The Joint Commission; AHRQ)</span></p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>ما يجب أن تتذكره من هذا الفصل / What You Should Remember from This Chapter</h2>
+    <div class="success-box">
+        <p><span class="english-term">Key Memory Messages:</span></p>
+        <ul>
+            <li>العملية الآمنة ليست مجرد شق جراحي آمن؛ إنها <strong>رحلة آمنة (Safe journey)</strong>. (AHRQ)</li>
+            <li>يتركز الضرر عند التحولات (Transitions): الحجز، الجاهزية، التحقق، النقل، واستمرارية الجناح. (AHRQ)</li>
+            <li>ابنِ <strong>بوابات (Gates)</strong> مع الملاك، مجموعات البيانات، التوقفات الإلزامية (Hard stops)، ومسارات التصعيد. (IHI; The Joint Commission)</li>
+            <li>يجب أن تكون عمليات التسليم مهيكلة، تنظر للمستقبل، وتركز على الأساسيات الجراحية. (AHRQ; AORN)</li>
+            <li>قس قوة الحاجز وموثوقية المسار باستخدام المؤشرات الاستباقية (Leading indicators)، وليس النتائج وحدها. (IHI)</li>
+        </ul>
+        <p><span class="english-term">A safe case is not only a safe incision; it is a <strong>safe journey</strong>. Harm concentrates at transitions. Build <strong>gates</strong> with owners, datasets, hard stops, and escalation routes. Handoffs must be structured, forward-looking, and focused on surgical essentials. Measure barrier strength with leading indicators.</span></p>
+    </div>
+
+    <div class="concept-box">
+        <h2>مُلحقات عملية لنهاية الفصل / Chapter-End Practical Inserts</h2>
+        <p><span class="english-term">(Ready for your template)</span></p>
+        
+        <p><strong>المُلحق 1 — بطاقة بوابة رحلة غرفة العمليات / Insert 1 — OR Journey Gate Card</strong><br>
+        ضع قائمة بالمراحل السبع مع المالك + شروط التوقف الإلزامي. (IHI)</p>
+        
+        <p><strong>المُلحق 2 — قائمة تحقق بوابة الجاهزية / Insert 2 — Readiness Gate Checklist</strong><br>
+        (انظر 2.8.2) (AORN; The Joint Commission)</p>
+
+        <p><strong>المُلحق 3 — نص التسليم الجراحي (OR → PACU) / Insert 3 — Surgical Handoff Script</strong><br>
+        (انظر 2.8.3) (AHRQ)</p>
+
+        <p><strong>المُلحق 4 — سجل النقاط الساخنة للفشل / Insert 4 — Failure Hotspot Log</strong><br>
+        (انظر 2.8.4) (IHI)</p>
+    </div>
+
+    <div class="references-list">
+        <h2>المراجع / References</h2>
+        <ol>
+            <li>World Health Organization (WHO). WHO Surgical Safety Checklist and Implementation Resources.</li>
+            <li>The Joint Commission. Universal Protocol for Preventing Wrong Site, Wrong Procedure, Wrong Person Surgery.</li>
+            <li>The Joint Commission. National Patient Safety Goals (Hospital Program).</li>
+            <li>Association of periOperative Registered Nurses (AORN). Guidelines for Perioperative Practice.</li>
+            <li>Agency for Healthcare Research and Quality (AHRQ). Patient Safety: Handoffs and Transitions of Care Resources.</li>
+            <li>Institute for Healthcare Improvement (IHI). Quality Improvement and Measurement Resources (PDSA, reliability, run charts).</li>
+            <li>World Health Organization (WHO). Global Guidelines for the Prevention of Surgical Site Infection.</li>
+            <li>Centers for Disease Control and Prevention (CDC). Guideline for the Prevention of Surgical Site Infection.</li>
+            <li>Association for the Advancement of Medical Instrumentation (AAMI). ANSI/AAMI ST79: Comprehensive Guide to Steam Sterilization and Sterility Assurance in Health Care Facilities.</li>
+        </ol>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        // Clone the document so we don't modify the currently displayed one
+        var clone = document.documentElement.cloneNode(true);
+        
+        // Remove the download button from the saved file
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        // Ensure proper padding is restored in the downloaded file
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        // Create the file and trigger download
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_الثاني_رحلة_المريض.html";
+        document.body.appendChild(a);
+        a.click();
+        
+        // Clean up
+        setTimeout(function() {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }, 100);
+    }
+    </script>
+
+</body></html>

@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiNWFlNDg4ZGU5NDlkNmY0OGJhYzU1ZmMwYTE1NzJlZTJmNjExMzciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2JjMTE5NTgyNmI1ZTRmMjVf2KfZhNmB2LXZhF_Yp9mE2LPYp9iv2LNf2YjYp9mE2LnYtNix2YjZhl_Ys9mE2LPZhNipX9in2YTYqtmI2LHZitivX9mI2KfZhNmF2K7YstmI2YYuaHRtbC01NTIifSwiZXhwIjoxNzcxNjcwMzQyLCJpYXQiOjE3NzE2NjY3NDIsImFsZyI6IlJTMjU2In0.OT6zJ6tjirT0cWlddb9IkqTv3_8XtXSsdp8NusDJ-bcZrir35IemURrDUtMeng4yrhWf_PM5Ji0elJUM52BeRYR9Fl9cBEwQ_XXvoEhVpQV2adndSZTMoLSjOfG06NeXh5cMMs1i9Z-YoDKJ2JSd8sVjuJrgUMGzjt55TvNr-hm5YIP_3WFfpkhCnndyGZxDuUO_dD375ZicYy9azVcvUAIMghp9Rz429kvQZvkR51VVuAlBn6Ci1xF7Y8Z3UL94-fObZXE6fMEqcS7Ao6NVCFOt0NQzuAQa-HrUHITd5hBIesOrNVVZTO5g6kGrmTsrZTKMGaKrNbc96OlrgEWvug","c_bc1195826b5e4f25_الفصل_السادس_والعشرون_سلسلة_التوريد_والمخزون.html-552")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+})();</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل السادس والعشرون — سلسلة التوريد، المخزون المعقم، وإدارة انتهاء الصلاحية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-size: 19px;
+      }
+
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 19px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Tables Style */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.95em;
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-align: right;
+      }
+      
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+      }
+      
+      tbody tr:nth-of-type(even) {
+        background-color: #f9fafb;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* References */
+      .references-list {
+        font-size: 16px;
+        color: #4b5563;
+        direction: ltr;
+        text-align: left;
+        margin-top: 30px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 20px;
+      }
+
+      .references-list li {
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; font-size: 17px; }
+        table { display: block; overflow-x: auto; }
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #2563eb;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      .download-btn:hover {
+        background-color: #1d4ed8;
+        transform: translateY(-2px);
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Button -->
+    
+
+    <div class="part-title">PART V — OR Operations, Flow, and Efficiency Without Safety Trade-offs</div>
+    <div class="part-title">الجزء الخامس — عمليات غرفة العمليات، التدفق، والكفاءة دون المساومة على السلامة</div>
+    
+    <h1>CHAPTER 26 — Supply Chain, Sterile Stock, and Expiry Management</h1>
+    <div class="subtitle">الفصل السادس والعشرون — سلسلة التوريد، المخزون المعقم، وإدارة انتهاء الصلاحية<br>
+    <span style="font-size: 18px;">(Par Levels • Stock Rotation • Urgent Shortages • Waste Reduction Safely)<br>
+    (مستويات المخزون الأساسية • تدوير المخزون • النواقص العاجلة • تقليل الهدر بأمان)</span></div>
+    
+    <h2>أهداف الفصل / Chapter Aims</h2>
+    <div class="concept-box">
+        <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
+        <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
+        <ol>
+            <li>شرح لماذا تُعد سلسلة التوريد والمخزون في غرفة العمليات <strong>نظاماً لسلامة المرضى والعقامة</strong>، وليست مجرد لوجستيات، وكيف أن النواقص تدفع الفرق نحو التفافات (Workarounds) غير آمنة. (AORN; IHI; AHRQ)<br>
+            <span class="english-term">Explain why supply chain and stock in the OR is a <strong>patient safety and sterility system</strong>, not just logistics, and how shortages drive teams toward unsafe workarounds. (AORN; IHI; AHRQ)</span></li>
+            
+            <li>بناء وإدارة <strong>مستويات المخزون الأساسية (Par Levels)</strong> بطريقة تعمل كـ "هوامش أمان" تمنع كلاً من النواقص الخطيرة (التي تسبب التأخير والارتجال) وتكدس المخزون الزائد (الذي يسبب انتهاء الصلاحية والفوضى). (IHI; AHRQ)<br>
+            <span class="english-term">Build and manage <strong>Par Levels</strong> in a way that acts as "safety buffers," preventing both dangerous shortages (causing delay/improvisation) and overstocking (causing expiry/clutter). (IHI; AHRQ)</span></li>
+            
+            <li>تطبيق سياسات <strong>تدوير المخزون وإدارة انتهاء الصلاحية (Stock Rotation and Expiry Management)</strong> لضمان موثوقية العقامة، باستخدام مبادئ الإدارة المرئية وقاعدة "ما تنتهي صلاحيته أولاً، يخرج أولاً" (FEFO). (AORN; AAMI ST79 concepts)<br>
+            <span class="english-term">Apply <strong>Stock Rotation and Expiry Management</strong> policies to ensure sterility reliability, using visual management principles and the FEFO (First Expired, First Out) rule. (AORN; AAMI ST79 concepts)</span></li>
+            
+            <li>تطوير مسار محكوم وآمن للتعامل مع <strong>النواقص العاجلة (Urgent Shortages)</strong> والبدائل (Substitutions)، بحيث لا يتم اللجوء للارتجال دون موافقة الحوكمة. (AHRQ; ECRI concepts)<br>
+            <span class="english-term">Develop a governed and safe pathway for handling <strong>Urgent Shortages</strong> and substitutions, so improvisation does not happen without governance approval. (AHRQ; ECRI concepts)</span></li>
+            
+            <li>تنفيذ استراتيجيات <strong>لتقليل الهدر (Waste Reduction)</strong> بأمان من خلال تحديد الحجم المناسب للحزم، وتوحيد وحدات حفظ المخزون (SKUs)، دون المساومة أبداً على معايير العقامة أو إعادة الاستخدام غير الآمن. (IHI; AORN)<br>
+            <span class="english-term">Implement strategies for safe <strong>Waste Reduction</strong> through right-sizing packs and standardizing SKUs, without ever compromising sterility standards or forcing unsafe reuse. (IHI; AORN)</span></li>
+        </ol>
+    </div>
+
+    <h2>السيناريو الافتتاحي / Opening Narrative</h2>
+    <div class="quote-box">
+        <strong>حالة واقعية: "عندما يتحول نقص بسيط إلى خطر مركب"</strong><br>
+        <span class="english-term">A true-to-life case: “When a simple missing item becomes a compound risk” (Real Scientific Story)</span>
+    </div>
+
+    <p>لقد رأيت جراحين ممتازين، وأطباء تخدير ماهرين، وممرضين منضبطين يفقدون إيقاعهم لأن عنصراً بسيطاً كان مفقوداً. ليس غرسة معقدة. ليس جهازاً نادراً. شيء عادي—أنبوب شفط معقم، حجم معين من خيوط الجراحة، طقم غسيل (Irrigation set)، أو حزمة فرش جراحي (Drape pack).</p>
+    <p><span class="english-term">I have seen excellent surgeons, skilled anesthetists, and disciplined nurses lose their rhythm because a simple item was missing. Not a complex implant. Not a rare device. Something ordinary—sterile suction tubing, a specific size of suture, an irrigation set, a drape pack.</span></p>
+
+    <p>في أحد الصباحات، بدأت حالة متأخرة لأن "الحزمة المعقمة القياسية" (Standard sterile pack) لم تكن متوفرة. قام الفريق بالارتجال من خلال فتح عدة عبوات صغيرة، وبناء طقم بديل على الطاير (On the fly).</p>
+    <p><span class="english-term">One morning, a case started late because a “standard” sterile pack wasn’t available. The team improvised by opening multiple smaller packs, building a substitute set on the fly.</span></p>
+
+    <div class="alert-box">
+        <p>لم يبدُ أي شيء غير آمن في البداية—حتى أدركنا أن هذا الحل الارتجالي (Workaround) خلق ثلاثة مخاطر جديدة في وقت واحد:</p>
+        <p><span class="english-term">Nothing seemed unsafe at first—until we realized the workaround created three new risks at once:</span></p>
+        <ol>
+            <li>الفتحات الإضافية زادت من فرص <strong>التلوث (Contamination)</strong>.</li>
+            <li>عملية <strong>العد الجراحي (Count process)</strong> أصبحت أكثر تعقيداً وعرضة للخطأ.</li>
+            <li><strong>ضغط الوقت (Time pressure)</strong> ارتفع وأثّر على سير العملية. (AORN; AHRQ)</li>
+        </ol>
+    </div>
+
+    <p>في وقت لاحق من ذلك الأسبوع، اكتشفت غرفة أخرى عناصر معقمة منتهية الصلاحية داخل عربة التجهيز الأساسية (Core cart)—لم يقصد أحد إحداث ضرر. النظام ببساطة سمح لانتهاء الصلاحية بالاختباء حتى تم اكتشافه في أسوأ وقت: أثناء تحضير المريض. (AORN; AAMI ST79 concepts)</p>
+    <p><span class="english-term">Later that week, another room discovered expired sterile items inside a core cart—nobody meant harm. The system simply allowed expiry to hide until it was discovered at the worst time: during patient preparation. (AORN; AAMI ST79 concepts)</span></p>
+
+    <div class="success-box">
+        <p>عندها أصبح الأمر واضحاً بالنسبة لي: <strong>سلسلة التوريد ليست لوجستيات. في غرفة العمليات، سلسلة التوريد هي العقامة، والوقت، والسلامة—مُغلفة معاً.</strong> إذا كان المخزون غير مستقر، تُدفع الفرق نحو الاختصارات. إذا كانت إدارة انتهاء الصلاحية ضعيفة، تصبح موثوقية العقامة مقامرة. إذا كانت مستويات التخزين غير واقعية، يقضي الموظفون طاقتهم الإدراكية في "البحث والصيد" بدلاً من رعاية المرضى. (IHI; AHRQ)</p>
+        <p><span class="english-term">That’s when it became clear to me: <strong>Supply chain is not logistics. In the OR, supply chain is sterility, time, and safety—packaged together.</strong> If stock is unstable, teams are pushed toward shortcuts. If expiry management is weak, sterility reliability becomes a gamble. If par levels are unrealistic, staff spend their cognitive energy hunting instead of caring. (IHI; AHRQ)</span></p>
+    </div>
+
+    <p>يدور هذا الفصل حول بناء مستودع غرفة عمليات (OR stockroom) يدعم السلامة السريرية بصمت ولكن بقوة.</p>
+    <p><span class="english-term">This chapter is about building an OR stockroom that quietly but powerfully supports clinical safety.</span></p>
+
+    <h2>26.1 المنطق الأمني لسلسلة التوريد (ليست مجرد صناديق على الرفوف)</h2>
+    <h3>26.1 The Safety Logic of Supply Chain (Not Just Boxes on Shelves)</h3>
+
+    <h3>26.1.1 سلسلة التوريد هي "المنظّم الصامت" لغرفة العمليات / Supply chain is the OR’s silent regulator</h3>
+    <p>عندما تكون الإمدادات متاحة وموثوقة، تبقى الغرفة هادئة. عندما تكون الإمدادات غير متوقعة، ترتفع حركة المرور (يغادر الناس الغرفة للبحث عن الأشياء)، وتُفتح الأبواب، وتزداد أوقات التبديل (Turnover)، ويُصاب الجراحون بالإحباط. <strong>الاستقرار التمويني يساوي الاستقرار السريري.</strong> (IHI)</p>
+    <p><span class="english-term"><strong>26.1.1 Supply chain is the OR’s silent regulator</strong><br>When supplies are available and reliable, the room is calm. When supplies are unpredictable, traffic rises (people leave the room to hunt for things), doors open, turnovers lengthen, and surgeons get frustrated. <strong>Supply stability equals clinical stability.</strong> (IHI)</span></p>
+
+    <h3>26.1.2 الاكتناز (Hoarding) هو أحد أعراض ضعف الثقة / Hoarding is a symptom of poor trust</h3>
+    <p>إذا رأيت ممرضات يخبئن عناصر معينة في أدراج الغرفة أو خزائنها الشخصية، فلا تعاقبهن. الاكتناز (Hoarding) هو تكيف بشري مع نظام غير موثوق. إنهن يحمين مرضاهن. الحل ليس في مصادرة المخبآت، بل في <strong>إصلاح موثوقية التوريد المركزي</strong>. (AHRQ; IHI)</p>
+    <p><span class="english-term"><strong>26.1.2 Hoarding is a symptom of poor trust</strong><br>If you see nurses hiding specific items in room drawers or personal lockers, do not punish them. Hoarding is a human adaptation to an unreliable system. They are protecting their patients. The fix is not to confiscate the stash; the fix is to <strong>make the central supply reliable</strong>. (AHRQ; IHI)</span></p>
+
+    <h2>26.2 مستويات المخزون الأساسية (Par Levels): منطقة الأمان (The Buffer Zone)</h2>
+    <h3>26.2 Par Levels: The Buffer Zone</h3>
+
+    <h3>26.2.1 ما هو مستوى הـ Par؟ / What is a Par Level?</h3>
+    <p>مستوى الـ Par (مستوى التخزين الأساسي) هو الحد الأدنى من كمية العنصر التي يجب أن تكون متاحة في أي وقت لضمان تدفق الحالات دون انقطاع حتى عملية إعادة التعبئة (Restock) التالية. (IHI)</p>
+    <p><span class="english-term"><strong>26.2.1 What is a Par Level?</strong><br>A par level is the minimum quantity of an item that must be available at any given time to ensure uninterrupted case flow until the next restock. (IHI)</span></p>
+
+    <h3>26.2.2 المخاطر المزدوجة للأرقام الخاطئة / The dual risks of wrong numbers</h3>
+    <p>إذا قمت بتعيين الـ Par منخفضاً جداً بهدف "توفير المال" (Lean gone wrong)، فإنك تخلق نواقص تدفع نحو <strong>الالتفافات غير الآمنة (Unsafe workarounds)</strong> وتأخير الحالات.</p>
+    <p>إذا قمت بتعيين الـ Par مرتفعاً جداً بهدف "الشعور بالأمان"، فإنك تخلق <strong>تكدساً (Clutter)</strong>، مما يجعل العثور على الأشياء صعباً ويؤدي حتماً إلى <strong>انتهاء الصلاحية (Expiry)</strong> والهدر. (IHI)</p>
+    <p><span class="english-term"><strong>26.2.2 The dual risks of wrong numbers</strong><br>If you set the par too low to “save money” (Lean gone wrong), you create shortages that drive <strong>unsafe workarounds</strong> and case delays.<br>If you set the par too high to “feel safe,” you create <strong>clutter</strong>, which makes finding things hard and inevitably leads to <strong>expiry</strong> and waste. (IHI)</span></p>
+
+    <h3>26.2.3 الرياضيات المبنية على الواقع / Reality-based math</h3>
+    <p>يجب تعيين مستويات الـ Par بناءً على <strong>الاستخدام الفعلي (Actual usage)</strong> + هامش أمان بسيط. يجب مراجعتها ربع سنوياً لأن تفضيلات الجراحين وأحجام الحالات تتغير. (IHI)</p>
+
+    <h2>26.3 تدوير المخزون وانتهاء الصلاحية (منع المخاطر الصامتة)</h2>
+    <h3>26.3 Stock Rotation and Expiry (Preventing Silent Hazards)</h3>
+
+    <h3>26.3.1 العقامة والتدهور / Sterility and degradation</h3>
+    <p>تعتبر العقامة "مرتبطة بالحدث" (Event-related)، ولكن سلامة العبوات ومواد الأجهزة تتدهور بمرور الوقت. تاريخ انتهاء الصلاحية ليس اقتراحاً؛ إنه <strong>توقف إلزامي لضمان السلامة (Safety hard stop)</strong>. إن استخدام دعامة (Stent) أو خيط جراحي منتهي الصلاحية يعرض المريض لردود فعل غير متوقعة أو فشل ميكانيكي. (AORN; AAMI ST79 concepts)</p>
+    <p><span class="english-term"><strong>26.3.1 Sterility and degradation</strong><br>Sterility is event-related, but packaging integrity and device materials degrade over time. Expiry is not a suggestion; it is a <strong>safety hard stop</strong>. Using an expired stent or suture subjects the patient to unpredictable reactions or mechanical failure. (AORN; AAMI ST79 concepts)</span></p>
+
+    <h3>26.3.2 قاعدة FEFO (ما تنتهي صلاحيته أولاً، يخرج أولاً) / FEFO rule</h3>
+    <p>يجب أن يُخزن المخزون المعقم دائماً باستخدام نظام "ما تنتهي صلاحيته أولاً، يخرج أولاً" (First Expired, First Out) أو FIFO (ما يدخل أولاً يخرج أولاً). المخزون الجديد يوضع دائماً في الخلف أو في الأسفل. المخزون الأقدم يوضع في الأمام. <strong>يجب تدريب الموظفين على عدم أخذ العناصر من الخلف أبداً.</strong> (AORN)</p>
+    <p><span class="english-term"><strong>26.3.2 FEFO rule (First Expired, First Out)</strong><br>Sterile stock must always be stocked using FEFO or FIFO (First In, First Out). New stock goes to the back or bottom. Older stock stays in the front. <strong>Staff must be trained to never grab from the back.</strong> (AORN)</span></p>
+
+    <h3>26.3.3 تدقيق انتهاء الصلاحية ليس عملاً عشوائياً / Expiry audits are not random</h3>
+    <p>لا يجب أن يعتمد فحص تواريخ انتهاء الصلاحية على أوقات الفراغ. يجب تعيينه للموظفين (أو فريق الإمداد) شهرياً. أي عنصر يقترب من انتهاء صلاحيته خلال 30-60 يوماً يجب وضع علامة عليه بصرياً (مثل ملصق ملون) ليتم استخدامه أولاً، أو إزالته إذا كان استخدامه غير محتمل. (IHI)</p>
+    <p><span class="english-term"><strong>26.3.3 Expiry audits are not random</strong><br>Checking expiry dates should not depend on free time. It must be assigned to staff (or supply team) monthly. Anything expiring within 30–60 days should be visually flagged (e.g., color sticker) to be used first, or removed if unlikely to be used. (IHI)</span></p>
+
+    <h2>26.4 النواقص العاجلة (كيفية إدارتها بأمان)</h2>
+    <h3>26.4 Urgent Shortages (How to Manage Them Safely)</h3>
+
+    <h3>26.4.1 النواقص هي أزمات سلامة / Shortages are safety crises</h3>
+    <p>عندما ينقص عنصر أساسي (شفرة معينة، حجم خيط، سائل وريدي/IV fluid)، فإن الغرفة تفقد توازنها. يرتفع خطر الأخطاء (مثل أخطاء الأدوية المتشابهة في الشكل والصوت/LASA، أو الارتجال الجراحي) بشكل حاد. (AHRQ; ECRI concepts)</p>
+    <p><span class="english-term"><strong>26.4.1 Shortages are safety crises</strong><br>When a staple item is short (a specific blade, a suture size, an IV fluid), the room destabilizes. The risk of error (like LASA medication errors, or surgical improvisation) spikes. (AHRQ; ECRI concepts)</span></p>
+
+    <h3>26.4.2 قاعدة الاستبدال المحكوم / The Governed Substitution rule</h3>
+    <div class="alert-box">
+        <p>لا يمكن للممرضين أو الجراحين اتخاذ قرار الاستبدال بمفردهم أثناء الحالة (إلا إذا كان ذلك لإنقاذ حياة المريض). <strong>يجب حوكمة البدائل.</strong></p>
+        <p>إذا كان العنصر أ غير متوفر، فإن البديل بالعنصر ب يجب أن يُوافق عليه طبياً، ويُتواصل بشأنه بوضوح مع جميع الموظفين (لتجنب الارتباك عند التسليم)، ويُوثق.</p>
+        <p><span class="english-term"><strong>26.4.2 The Governed Substitution rule</strong><br>Nurses or surgeons cannot unilaterally decide on a substitute in the middle of a case (unless lifesaving). <strong>Substitutions must be governed.</strong> If Item A is short, the substitute Item B must be medically approved, clearly communicated to all staff (to avoid handoff confusion), and documented.</span></p>
+    </div>
+
+    <h3>26.4.3 التواصل أثناء النواقص (التخلص من المفاجآت)</h3>
+    <p>يجب أن تكون النواقص المعروفة جزءاً من <strong>الاجتماع السريع الصباحي (Morning Huddle)</strong>. لا ينبغي أبداً أن يفتح الجراح مريضاً ويكتشف أن الأداة المفضلة لديه غير متوفرة في المستشفى. إخفاء النواقص هو بمثابة إخفاء للمخاطر. (AHRQ)</p>
+
+    <h2>26.5 تقليل الهدر بأمان (الإدارة الرشيقة مقابل التوفير الرخيص)</h2>
+    <h3>26.5 Waste Reduction Safely (Lean vs. Cheap)</h3>
+
+    <h3>26.5.1 الهدر الهائل في غرفة العمليات / The massive OR waste</h3>
+    <p>تنتج غرف العمليات هدراً هائلاً (مئات الآلاف من الدولارات من الإمدادات المفتوحة غير المستخدمة). تنشأ الرغبة في "تقليل الهدر". (IHI)</p>
+    <p><span class="english-term"><strong>26.5.1 The massive OR waste</strong><br>ORs generate massive waste (hundreds of thousands of dollars of opened, unused supplies). The urge to "reduce waste" arises. (IHI)</span></p>
+
+    <h3>26.5.2 الخطر: "تقليل التكلفة" الأعمى / The danger: blind cost-cutting</h3>
+    <p>إذا فرضت الإدارة تقليصاً أعمى (على سبيل المثال: "توقفوا عن فتح هذه الحزمة الإضافية")، فسيجد الموظفون أنفسهم في منتصف جراحة ينقصهم فيها عنصر حرج، مما يضطرهم إلى فتح الأبواب والركض في الممرات. <strong>هذا الهدر للوقت وزيادة خطر العدوى يكلف أكثر بكثير من العنصر نفسه.</strong> (AORN; IHI)</p>
+    <p><span class="english-term"><strong>26.5.2 The danger: blind cost-cutting</strong><br>If management forces blind reduction (e.g., "stop opening this extra pack"), staff will find themselves mid-surgery missing a critical item, forcing doors open and runners into the hall. <strong>That wasted time and increased infection risk costs far more than the item.</strong> (AORN; IHI)</span></p>
+
+    <h3>26.5.3 الطريقة الآمنة لتقليل الهدر / The safe way to reduce waste</h3>
+    <ul>
+        <li><strong>توحيد وحدات حفظ المخزون (Standardize SKUs):</strong> قلل من تنوع العناصر المتشابهة. إذا كان الجراحون يمكنهم الاتفاق على نوعين من القفازات بدلاً من سبعة، فإن الإدارة ستتحسن، والارتباك سيقل. (IHI)</li>
+        <li><strong>تحجيم حزم الجراحة (Right-size custom packs):</strong> راجع حزم الجراحة (Custom packs) الخاصة بك. إذا كان هناك عنصر يتم رميه دائماً لأنه غير مستخدم، أزله من الحزمة. (IHI; AORN)</li>
+        <li><strong>قاعدة الفتح:</strong> جهز العناصر في الغرفة (Hold in room)، ولكن لا تفتحها (Do not open) حتى يطلبها الجراح بشكل مؤكد.</li>
+    </ul>
+
+    <h2>26.6 القصة الحقيقية 2: "عربة التجهيز التي كانت مزدحمة جداً بالسلامة"</h2>
+    <h3>26.6 Real Story 2: “The Core Cart That Was Too Crowded with Safety”</h3>
+
+    <div class="quote-box">
+        <p>كان هناك مستشفى يمتلك عربة إمدادات مركزية (Core supply cart). كانت الإدارة قلقة جداً من النواقص لدرجة أنهم قاموا بزيادة مستويات الـ Par (تخزين كل شيء) ليضمنوا عدم نفاد أي شيء أبداً.</p>
+        <p><span class="english-term">A hospital had a core supply cart. Management was so worried about shortages that they increased Par levels (stocking everything) to ensure they never ran out.</span></p>
+        
+        <p>كانت النتيجة هي التكدس (Clutter). كانت السلال تفيض. وعندما كانت الممرضات الدوارات في عجلة من أمرهن أثناء الجراحة، كنّ لا يستطعن العثور على الأنبوب الدقيق أو الإبرة المطلوبة بسرعة وسط هذه الفوضى.</p>
+        <p><span class="english-term">The result was clutter. Bins overflowed. When circulating nurses were in a rush during surgery, they could not find the exact tubing or needle quickly among the mess.</span></p>
+        
+        <p>في إحدى الحالات، التقطت ممرضة عنصر التخثر الخاطئ بسبب ازدحام الرف. بعد ذلك، قمنا بتقليل مستويات الـ Par إلى أرقام تعكس <strong>الواقع بدلاً من الخوف</strong>. كما قمنا بإنشاء "وحدة معقمة إضافية" (Add-on sterile module) للاحتياجات النادرة.</p>
+        <p><span class="english-term">In one case, a nurse grabbed the wrong hemostatic agent because the shelf was so crowded. Afterward, we reduced Par levels to reflect <strong>reality rather than fear</strong>, and created an “add-on sterile module” for rare needs.</span></p>
+        
+        <p>انخفض الهدر، وأصبحت الغرفة أسرع—لأن تقليل الفوضى يعني سير عمل أوضح (Clearer workflow). (IHI)</p>
+        <p><span class="english-term">Waste dropped, and the room became faster—because less clutter meant clearer workflow. (IHI)</span></p>
+    </div>
+
+    <h2>26.7 أدوات عملية لسلامة سلسلة التوريد</h2>
+    <h3>26.7 Practical Tools for Supply Chain Safety</h3>
+
+    <div class="success-box">
+        <ul>
+            <li><strong>26.7.1 الأداة 1 — صناديق مستوى المخزون المرئية (Visual Par Level Bins):</strong><br>
+            استخدم نظام السلتين (Two-bin system / Kanban). عندما تفرغ السلة الأمامية، يتم سحبها لطلب إعادة التعبئة، ويستخدم الموظفون السلة الخلفية. هذا يضمن عدم نفاد المخزون ويوفر إشارة مرئية للطلب. (IHI)</li>
+            <br>
+            <li><strong>26.7.2 الأداة 2 — ملصق "ينتهي قريباً" (Expiring Soon Sticker):</strong><br>
+            استخدم ملصقات ملونة زاهية (مثل الأصفر الساطع) لتمييز العناصر التي ستنتهي صلاحيتها خلال الشهر الحالي أو القادم، لتشجيع استخدامها أولاً (FEFO). (AORN)</li>
+            <br>
+            <li><strong>26.7.3 الأداة 3 — بطاقة تبليغ "نقص حرج" (Critical Shortage Flashcard):</strong><br>
+            في الاجتماع الصباحي (Huddle)، يتم الإعلان عن: "النواقص اليوم: العنصر X. البديل المعتمد هو: العنصر Y." يتم تعليق هذه البطاقة على لوحة الغرفة ليراها الجميع. (AHRQ)</li>
+        </ul>
+    </div>
+
+    <h2>26.8 القياس (كيف تعرف أن مخزونك موثوق)</h2>
+    <h3>26.8 Measurement (How to Know Your Stock is Reliable)</h3>
+
+    <h3>26.8.1 المؤشرات الاستباقية / Leading indicators</h3>
+    <ul>
+        <li>النسبة المئوية لتوفر العناصر الأساسية في عربة التجهيز (Stock-out rate). يجب أن يكون قريباً من الصفر. (IHI)</li>
+        <li>الامتثال لعمليات تدقيق انتهاء الصلاحية الشهرية (النسبة المئوية للرفوف التي تم فحصها وتوثيقها).</li>
+        <li>عدد الحوادث الوشيكة أو التأخيرات الناتجة عن "البحث عن إمدادات" (Hunting for supplies) لكل 100 حالة. (AHRQ)</li>
+    </ul>
+
+    <h3>26.8.2 المؤشرات المتأخرة / Lagging indicators</h3>
+    <ul>
+        <li>قيمة (تكلفة) الإمدادات المفتوحة وغير المستخدمة التي تم التخلص منها شهرياً (مؤشر الهدر).</li>
+        <li>تكلفة الإمدادات منتهية الصلاحية التي تم إتلافها.</li>
+    </ul>
+
+    <h2>26.9 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>26.9 The Writer’s Reflection</h3>
+    <p><em>ملاحظة: تم تكييف الترقيم ليتناسب مع التسلسل.</em></p>
+
+    <h3>26.9.1 الفوضى عبء معرفي / Clutter is cognitive load</h3>
+    <p>عندما تكون الرفوف مزدحمة بشكل مفرط، يحتاج الدماغ إلى العمل بجهد أكبر للعثور على الشيء الصحيح. وفي حالات الطوارئ، يؤدي العبء المعرفي المرتفع إلى أخطاء فادحة. الترتيب هو استراتيجية سلامة. (IHI)</p>
+    <p><span class="english-term"><strong>26.9.1 Clutter is cognitive load</strong><br>When shelves are overstuffed, the brain has to work harder to find the right thing. In an emergency, high cognitive load leads to critical errors. Tidiness is a safety strategy. (IHI)</span></p>
+
+    <h3>26.9.2 الموردون ليسوا أعداء، بل شركاء</h3>
+    <p>إنشاء علاقة شفافة مع إدارة المشتريات (Procurement) هو الحل. دعهم يفهمون أن "توفير بضعة دولارات" في أنبوب شفط رخيص قد يكلف المستشفى آلاف الدولارات في وقت غرفة العمليات الضائع بسبب انكساره أثناء الجراحة.</p>
+    <p><span class="english-term"><strong>26.9.2 Procurement is a partner, not an enemy</strong><br>Create a transparent relationship with procurement. Let them understand that "saving a few dollars" on a cheap suction tube might cost the hospital thousands in lost OR time when it breaks mid-surgery.</span></p>
+
+    <div class="divider">***</div>
+
+    <h2>ما يجب أن تتذكره من هذا الفصل / What You Should Remember From This Chapter</h2>
+    <div class="success-box">
+        <p><span class="english-term">Key Memory Messages:</span></p>
+        <ul>
+            <li>مستويات الـ Par هي هوامش أمان (Safety buffers): الانخفاض الشديد يخلق نواقص وحلولاً ارتجالية خطيرة؛ والارتفاع الشديد يخلق انتهاء صلاحية وفوضى. (IHI; AHRQ)<br>
+            <span class="english-term">Par levels are safety buffers: too low creates shortages and risky workarounds; too high creates expiry and clutter.</span></li>
+            
+            <li>التحكم في التدوير وانتهاء الصلاحية يحمي موثوقية العقامة—تطبيق FEFO/FIFO، والإدارة المرئية تمنع "مفاجآت انتهاء الصلاحية". (AORN; AAMI ST79 concepts)<br>
+            <span class="english-term">Rotation and expiry control protect sterility reliability—FEFO/FIFO, visual management, and assigned ownership prevent “expiry surprises.”</span></li>
+            
+            <li>يجب التحكم في الاستجابة للنواقص: بدائل معتمدة، تواصل بين الفريق، وتوثيق—لا ارتجال دون حوكمة. (AHRQ; AORN)<br>
+            <span class="english-term">Shortage response must be controlled: approved substitutions, team communication, documentation, and reporting—no improvisation without governance.</span></li>
+            
+            <li>تقليل الهدر يجب أن يكون آمناً: تحديد الحجم المناسب للعبوات، توحيد وحدات المخزون (SKUs)، وتحسين التدوير—لا تتنازل أبداً عن العقامة أو تفرض إعادة استخدام غير آمنة. (IHI; AORN)<br>
+            <span class="english-term">Waste reduction must be safe: right-size packs, standardize SKUs, improve rotation—never cut corners on sterility or force unsafe reuse.</span></li>
+        </ul>
+    </div>
+
+    <div class="references-list">
+        <h2>المراجع / References</h2>
+        <ol>
+            <li>Association of periOperative Registered Nurses (AORN) — Guidelines for Perioperative Practice (sterile supplies handling, storage integrity, perioperative workflow safety concepts).</li>
+            <li>Association for the Advancement of Medical Instrumentation (AAMI). ANSI/AAMI ST79 (concepts) — Sterility assurance and sterile package handling/storage principles relevant to stock integrity and distribution.</li>
+            <li>Agency for Healthcare Research and Quality (AHRQ) — Patient safety resources (human factors under pressure, interruptions, systems approach, escalation culture).</li>
+            <li>Institute for Healthcare Improvement (IHI) — Reliability and quality improvement resources (standard work, par level logic, waste reduction without harm, visual management).</li>
+            <li>ECRI (concepts) — Supply and technology risk concepts relevant to shortage management and safe substitution principles.</li>
+        </ol>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_السادس_والعشرون_سلسلة_التوريد_والمخزون.html";
+        document.body.appendChild(a);
+        a.click();
+        
+        setTimeout(function() {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }, 100);
+    }
+    </script>
+
+</body></html>

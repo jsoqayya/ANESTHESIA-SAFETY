@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiNWFlNDg4ZGU5NDlkNmY0OGJhYzU1ZmMwYTE1NzJlZTJmNjExMzciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2JjMTE5NTgyNmI1ZTRmMjVf2KfZhNmB2LXZhF_Yp9mE2K7Yp9mF2LNf2YjYp9mE2LnYtNix2YjZhl_YrNin2YfYstmK2Klf2KfZhNmF2LnYr9in2KouaHRtbC0xNTQifSwiZXhwIjoxNzcxNjcwMjAzLCJpYXQiOjE3NzE2NjY2MDMsImFsZyI6IlJTMjU2In0.JD0CvhoA_g115YnFxYyeaknO7KQiEHhtzjNjArU6br_GLeQG79jqDfJaQnW6iOnhYLfG5zlrZG_qT0L67UiuUr8X3EFJzbZoc22zxfmtO59sEdb1r7EnzzZE0qX2QQgQgqIELrFefu0rBihnsQf1I9CK8oD7F9ydGDML37VpQBPmcmKmZHTRJxNaaRGHgENCb3y3o75ARf-7pR87ppMMgdTpdNsU6qAtrzxVVs03t6OdaN6kWRF2UkaR-cbvBkiar0tWDOTq7DjUYtV_TlnfxXBDJXb7UuftrQBefLwLOnDmUkHZptFy1JwGeT2vMFKwZQxrxQQFbTWu8G_uC3HpZQ","c_bc1195826b5e4f25_الفصل_الخامس_والعشرون_جاهزية_المعدات.html-154")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+})();</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل الخامس والعشرون — جاهزية المعدات والصيانة الوقائية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-size: 19px;
+      }
+
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 19px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Tables Style */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.95em;
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-align: right;
+      }
+      
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+      }
+      
+      tbody tr:nth-of-type(even) {
+        background-color: #f9fafb;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* References */
+      .references-list {
+        font-size: 16px;
+        color: #4b5563;
+        direction: ltr;
+        text-align: left;
+        margin-top: 30px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 20px;
+      }
+
+      .references-list li {
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; font-size: 17px; }
+        table { display: block; overflow-x: auto; }
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #2563eb;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      .download-btn:hover {
+        background-color: #1d4ed8;
+        transform: translateY(-2px);
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Button -->
+    
+
+    <div class="part-title">PART V — OR Operations, Flow, and Efficiency Without Safety Trade-offs</div>
+    <div class="part-title">الجزء الخامس — عمليات غرفة العمليات، التدفق، والكفاءة دون المساومة على السلامة</div>
+    
+    <h1>CHAPTER 25 — Equipment Readiness and Preventive Maintenance</h1>
+    <div class="subtitle">الفصل الخامس والعشرون — جاهزية المعدات والصيانة الوقائية<br>
+    <span style="font-size: 18px;">(Daily Readiness Checks • Failure Reporting • Maintenance Governance • Backup)<br>
+    (فحوصات الجاهزية اليومية • الإبلاغ عن الأعطال • حوكمة الصيانة • الأنظمة الاحتياطية)</span></div>
+
+    <h2>أهداف الفصل / Chapter Aims</h2>
+    <div class="concept-box">
+        <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
+        <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
+        <ol>
+            <li>شرح لماذا تُعد جاهزية المعدات <strong>حاجز سلامة سريري (Clinical safety barrier)</strong>، وليست مجرد رفاهية تقنية، وكيف تتحول الافتراضات إلى أضرار. (ECRI; AORN)<br>
+            <span class="english-term">Explain why equipment readiness is a <strong>clinical safety barrier</strong>, not just a technical luxury, and how assumptions turn into harm. (ECRI; AORN)</span></li>
+            
+            <li>تصميم وتنفيذ <strong>فحوصات جاهزية يومية (Daily readiness checks)</strong> تُثبت وظيفة الجهاز قبل دخول المريض إلى الغرفة. (ECRI; AORN)<br>
+            <span class="english-term">Design and implement <strong>daily readiness checks</strong> that prove function before the patient enters the room. (ECRI; AORN)</span></li>
+            
+            <li>تطبيق نظام صارم للإبلاغ عن الأعطال يمنع <strong>"إعادة الاستخدام الصامت" (Silent re-use)</strong> للأجهزة المعيبة (توقف–ضع علامة–أزل–أبلغ–استبدل). (AHRQ; IHI)<br>
+            <span class="english-term">Apply a strict failure reporting system that prevents <strong>silent re-use</strong> of faulty devices (stop–tag–remove–report–replace). (AHRQ; IHI)</span></li>
+            
+            <li>فهم <strong>حوكمة الصيانة (Maintenance governance)</strong> (الصيانة الوقائية PM، اختبار القبول، وإعادة الإدخال للخدمة) لضمان عدم إعادة تدوير عدم اليقين. (AAMI concepts; ECRI)<br>
+            <span class="english-term">Understand <strong>maintenance governance</strong> (PM, acceptance testing, return-to-service) to ensure uncertainty is not recycled. (AAMI concepts; ECRI)</span></li>
+            
+            <li>بناء <strong>أنظمة احتياطية (Backup systems)</strong> وخطط للتعامل مع وقت التعطل (Downtime playbooks) معروفة، قريبة، ومُختبرة. (IHI; NFPA 99 concepts)<br>
+            <span class="english-term">Build <strong>backup systems</strong> and downtime playbooks that are known, near, and tested. (IHI; NFPA 99 concepts)</span></li>
+        </ol>
+    </div>
+    
+    <h2>السيناريو الافتتاحي / Opening Narrative</h2>
+    <div class="quote-box">
+        <strong>حالة واقعية: "اللحظة التي اختفى فيها الشفط"</strong><br>
+        <span class="english-term">A true-to-life case: “The moment suction disappeared” (Real Scientific Story)</span>
+    </div>
+
+    <p>لقد تعلمت مبكراً أن إخفاقات المعدات نادراً ما تعلن عن نفسها بأدب. إنها تنتظر اللحظة التي تكون فيها الغرفة مزدحمة، والمريض في حالة ضعف، والوقت لم يعد حليفك.</p>
+    <p><span class="english-term">I learned early that equipment failures rarely announce themselves politely. They wait for the moment when the room is busy, the patient is vulnerable, and time is no longer your friend.</span></p>
+
+    <p>حالة واحدة لا تزال عالقة في ذاكرتي لأنها لم تكن دراماتيكية—حتى أصبحت كذلك. كانت عملية روتينية، العلامات الحيوية مستقرة، والتدفق طبيعي. ثم زادت الإفرازات فجأة. أراد الجراح شفطاً (Suction). واحتاج طبيب التخدير شفطاً. مدت الممرضة الدوارة يدها إلى جهاز الشفط الجداري، وأدارت المقبض، ولم تسمع شيئاً. كانت العلبة موجودة. وبدا الأنبوب متصلاً. والمنظم كان على وضع "التشغيل/ON". ومع ذلك، كان الشفط غائباً—في الثانية التي كان مهماً فيها.</p>
+    <p><span class="english-term">One case still sits in my memory because it was not dramatic—until it was. A routine operation, stable vitals, normal flow. Then secretions increased suddenly. The surgeon wanted suction. The anesthetist needed suction. The circulating nurse reached for the wall suction, turned the knob, and heard nothing. The canister was there. The tubing looked connected. The regulator was “on.” Yet suction was absent—at the exact second it mattered.</span></p>
+
+    <div class="alert-box">
+        <p>فعلت الغرفة ما تفعله الغرف عندما تفشل الأنظمة: <strong>البطولات (Heroics)</strong>. تم جلب وحدة شفط أخرى من مسرح آخر. تم تبديل الوصلات. ارتجل شخص ما حلاً بديلاً. كان المريض آمناً. لكن الحقيقة كانت واضحة: <strong>لقد كنا نعيش على الافتراضات.</strong></p>
+        <p><span class="english-term">The room did what rooms do when systems fail: <strong>heroics</strong>. Another suction unit was fetched from another theatre. Connectors were swapped. Someone improvised a workaround. The patient was safe. But the truth was clear: <strong>we had been living on assumption.</strong></span></p>
+    </div>
+
+    <p>لاحقاً، عندما تتبعنا السلسلة، كان السبب بسيطاً ومؤلماً: تُركت الوصلة مفكوكة بعد التنظيف ولم يقم أحد <strong>بالتحقق من الوظيفة (Verify function)</strong> في بداية اليوم. لم تفشل المعدة لأنها انكسرت؛ بل فشلت لأن <strong>الجاهزية كانت مُفترضة بدلاً من أن تكون مُثبتة.</strong> (ECRI; AORN)</p>
+    <p><span class="english-term">Later, when we traced the chain, the cause was painfully simple: the connection had been left loose after cleaning and no one had <strong>verified function</strong> at day-start. The equipment didn’t fail because it broke; it failed because <strong>readiness was assumed instead of proven.</strong> (ECRI; AORN)</span></p>
+
+    <div class="success-box">
+        <p>هذا هو سبب وجود هذا الفصل. جاهزية المعدات ليست رفاهية تقنية. إنها حاجز سلامة سريري—هادئ عندما يعمل، ولا يرحم عندما يفشل. (AHRQ; IHI)</p>
+        <p><span class="english-term">That is why this chapter exists. Equipment readiness is not a technical luxury. It is a clinical safety barrier—quiet when it works, unforgiving when it doesn’t. (AHRQ; IHI)</span></p>
+    </div>
+
+    <h2>25.1 وهم "لقد كانت تعمل بالأمس"</h2>
+    <h3>25.1 The Illusion of “It Worked Yesterday”</h3>
+
+    <h3>25.1.1 بيئة غرفة العمليات قاسية / The OR environment is harsh</h3>
+    <p>تتعرض المعدات في غرفة العمليات للسحب، والاصطدام، والبلل، والتعقيم، وتغيير المكونات آلاف المرات. حقيقة أن الكابل كان سليماً يوم الثلاثاء لا تضمن أنه سينقل الطاقة يوم الأربعاء. (ECRI)</p>
+    <p><span class="english-term"><strong>25.1.1 The OR environment is harsh</strong><br>OR equipment is dragged, bumped, wetted, sterilized, and swapped thousands of times. The fact that a cable was intact on Tuesday does not guarantee it will carry power on Wednesday. (ECRI)</span></p>
+
+    <h3>25.1.2 الافتراض هو عدو الموثوقية / Assumption is the enemy of reliability</h3>
+    <p>في غرف العمليات المزدحمة، ينظر الموظفون إلى البرج (Tower) ويقولون: "الضوء الأخضر مضاء، يبدو جاهزاً." لكن الاستعداد المرئي ليس هو الجاهزية الوظيفية. الأنظمة الموثوقة لا تثق في المظاهر؛ إنها تتطلب الإثبات. (IHI; AORN)</p>
+    <p><span class="english-term"><strong>25.1.2 Assumption is the enemy of reliability</strong><br>In busy ORs, staff look at a tower and say, “The green light is on, it looks ready.” But visual readiness is not functional readiness. Reliable systems do not trust appearances; they demand proof. (IHI; AORN)</span></p>
+
+    <h2>25.2 فحوصات الجاهزية اليومية (إثبات الوظيفة اليوم)</h2>
+    <h3>25.2 Daily Readiness Checks (Proving Function Today)</h3>
+
+    <h3>25.2.1 الإثبات، وليس الافتراض / Proof, not assumption</h3>
+    <p>يجب أن تبدأ كل غرفة عمليات روتينها الصباحي بـ "تشغيل ميكانيكي/Mechanical run-through". هذا يختلف عن الصيانة الوقائية (PM) التي تتم شهرياً أو سنوياً. الفحص اليومي يُجيب على سؤال واحد: <strong>"هل ستعمل هذه القطعة في الساعة 8:00 صباحاً لهذا المريض؟"</strong> (ECRI)</p>
+    <p><span class="english-term"><strong>25.2.1 Proof, not assumption</strong><br>Every OR must start its morning routine with a “mechanical run-through.” This is different from monthly or annual PM. The daily check answers one question: <strong>“Will this piece of equipment function at 8:00 a.m. for this patient?”</strong> (ECRI)</span></p>
+
+    <h3>25.2.2 الحد الأدنى من فحص غرفة العمليات الصباحي / The minimum morning OR check</h3>
+    <div class="concept-box">
+        <p>يجب على الممرضة الدوارة أو الفني إثبات ما يلي بشكل مادي قبل دخول المريض الأول:</p>
+        <ul>
+            <li><strong>الشفط (Suction):</strong> قيد التشغيل، الأنابيب متصلة، ويولد ضغطاً سلبياً فعلياً.</li>
+            <li><strong>طاولة العمليات (OR Table):</strong> موصولة بالكهرباء، البطارية مشحونة، وتتحرك في جميع الاتجاهات المقصودة. (AORN)</li>
+            <li><strong>أجهزة الطاقة (Energy Devices):</strong> مولدات الجراحة الكهربائية/الليزر قيد التشغيل، بدون تنبيهات خطأ، دواسات القدم (Foot pedals) متصلة.</li>
+            <li><strong>أبراج الفيديو (Video Towers):</strong> الشاشات، الكاميرات، ومصادر الضوء قيد التشغيل وتم اختبارها.</li>
+            <li><strong>إخلاء الدخان (Smoke Evacuation):</strong> قيد التشغيل والفلتر صالح. (NIOSH concepts)</li>
+        </ul>
+        <p><span class="english-term">The circulating nurse or tech must physically prove the following before the first patient enters: <strong>Suction</strong>: turned on, tubing connected, pulling actual negative pressure. <strong>OR Table</strong>: plugged in, battery charged, articulates in all intended directions. <strong>Energy Devices</strong>: generators on, no error alerts, foot pedals connected. <strong>Video Towers</strong>: screens, cameras, and light sources on and tested. <strong>Smoke Evacuation</strong>: active, filter valid.</span></p>
+    </div>
+
+    <h3>25.2.3 الفحص قبل الاستخدام (Pre-use verification)</h3>
+    <p>إلى جانب الفحص الصباحي، يجب التحقق من أي جهاز يتم جلبه للحالة (مثل المجهر، C-arm، جهاز الليزر) بأنه <strong>يعمل بشكل كامل</strong> قبل بدء الإجراء. انتظار إحضار C-arm ليكتشف الجراح أنه لا يعرض الصور أثناء الجراحة المفتوحة هو فشل تنظيمي. (AORN)</p>
+
+    <h2>25.3 الإبلاغ عن الأعطال (إيقاف إعادة الاستخدام الصامت)</h2>
+    <h3>25.3 Failure Reporting (Stopping the Silent Re-use)</h3>
+
+    <h3>25.3.1 خطر "الوضع مرة أخرى في الخزانة" / The danger of "putting it back in the closet"</h3>
+    <p>يتعطل جهاز. يقوم الطاقم المزدحم بفصله، ويدفعه إلى الممر، ويأخذ بديلاً. الجهاز المكسور يقف هناك. لاحقاً، يراه موظف آخر، يفترض أنه سليم، ويعيده إلى خزانة المعدات. في اليوم التالي، يفشل نفس الجهاز في حالة أخرى. <strong>هذا يُسمى إعادة الاستخدام الصامت.</strong> (IHI; AHRQ)</p>
+    <p><span class="english-term"><strong>25.3.1 The danger of "putting it back in the closet"</strong><br>A device glitches. The busy staff unplugs it, pushes it into the hallway, and grabs a replacement. The broken device sits there. Later, an orderly sees it, assumes it is fine, and pushes it back into the equipment closet. The next day, the same device fails in another case. <strong>This is called silent re-use.</strong> (IHI; AHRQ)</span></p>
+
+    <h3>25.3.2 مسار (توقف–ضع علامة–أزل–أبلغ–استبدل)</h3>
+    <div class="alert-box">
+        <p>عندما تفشل قطعة من المعدات، يجب على غرفة العمليات تنفيذ هذا المسار فوراً (STOP–TAG–REMOVE–REPORT–REPLACE):</p>
+        <ol>
+            <li><strong>توقف (Stop):</strong> توقف عن استخدامه لتجنب الضرر.</li>
+            <li><strong>ضع علامة (Tag):</strong> قم بوضع <strong>"علامة عيب" (Defect Tag)</strong> مادية على الجهاز توضح ما هو الخطأ (مثال: "الكابل ينقطع عند تحريكه"). "لا يعمل" ليست وصفاً كافياً للمهندسين.</li>
+            <li><strong>أزل (Remove):</strong> قم بإزالته من غرفة العمليات ومناطق التخزين النظيفة لمنع إعادة استخدامه.</li>
+            <li><strong>أبلغ (Report):</strong> أدخله في نظام إدارة صيانة المعدات (CMMS) أو الهندسة الطبية (Biomedical engineering).</li>
+            <li><strong>استبدل (Replace):</strong> أحضر معدة عاملة. (AHRQ; ECRI)</li>
+        </ol>
+        <p><span class="english-term">When a piece of equipment fails, the OR must execute this pathway immediately: Stop, Tag, Remove, Report, Replace.</span></p>
+    </div>
+
+    <h2>25.4 حوكمة الصيانة ("السلامة خلف الكواليس")</h2>
+    <h3>25.4 Maintenance Governance (The “Behind-the-Scenes” Safety)</h3>
+
+    <h3>25.4.1 الصيانة الوقائية (PM) لا يمكن تخطيها / PM cannot be skipped</h3>
+    <p>الصيانة الوقائية لا تُعنى فقط بإصلاح الأشياء المكسورة؛ إنها تتعلق باستبدال الأجزاء <em>قبل</em> أن تنكسر (مثل المعايرة، استبدال البطاريات، فحص سلامة العزل). استخدام جهاز تجاوز موعد الصيانة الوقائية (PM) هو انتهاك للامتثال وعامل خطر للسلامة. (AAMI concepts; ECRI)</p>
+    <p><span class="english-term"><strong>25.4.1 PM cannot be skipped</strong><br>Preventive Maintenance (PM) is not just fixing broken things; it is replacing parts <em>before</em> they break (e.g., calibration, battery swaps, insulation integrity checks). Using a device past its PM due date is a compliance violation and a safety risk. (AAMI concepts; ECRI)</span></p>
+
+    <h3>25.4.2 اختبار القبول للمعدات الجديدة / Acceptance testing</h3>
+    <p>عند وصول معدات جديدة (أو معدات مُعارة/Loaner equipment)، لا يمكن لغرفة العمليات استخدامها على مريض بمجرد إخراجها من الصندوق. يجب أن تخضع لاختبار القبول من قبل الهندسة الطبية (Biomed) للتأكد من السلامة الكهربائية والمواصفات الصحيحة. (AAMI concepts)</p>
+
+    <h3>25.4.3 بروتوكول إعادة الإدخال للخدمة / Return-to-service protocol</h3>
+    <p>بعد إصلاح الجهاز، يجب ألا يتم وضعه ببساطة في الغرفة. يجب أن يكون هناك مستند/علامة صريحة بـ "تأكيد الإصلاح" (Repair Confirmed) من قسم Biomed تقر بأن الجهاز تم اختباره وأنه آمن للاستخدام البشري. (ECRI)</p>
+
+    <h2>25.5 الأنظمة الاحتياطية واستعداد وقت التعطل (عندما تفشل الخطة أ)</h2>
+    <h3>25.5 Backup and Downtime Readiness (When Plan A Fails)</h3>
+
+    <h3>25.5.1 الأجهزة ستفشل؛ ما يهم هو الخطة ب (Plan B)</h3>
+    <p>في غرفة العمليات الموثوقة، السؤال ليس "هل سيفشل هذا؟" السؤال هو: <strong>"عندما يفشل هذا، كيف سنتعافى في غضون 60 ثانية؟"</strong> (IHI)</p>
+    <p><span class="english-term"><strong>25.5.1 Devices will fail; Plan B matters</strong><br>In a reliable OR, the question is not "Will this fail?" The question is: <strong>"When this fails, how do we recover in 60 seconds?"</strong> (IHI)</span></p>
+
+    <h3>25.5.2 الاحتياط يجب أن يكون معروفاً وقريباً / Backup must be known and near</h3>
+    <ul>
+        <li><strong>مقبس الطاقة الأحمر (Red Outlets):</strong> يجب توصيل المعدات المنقذة للحياة (أجهزة التنفس، مجازة القلب والرئة/Bypass) بمقابس الطاقة الحمراء (المدعومة بالمولدات الاحتياطية). (NFPA 99 concepts)</li>
+        <li><strong>أجهزة الشفط الاحتياطية (Backup Suction):</strong> إذا فشل الشفط الجداري، يجب أن يعرف الفريق مكان أقرب وحدة شفط محمولة.</li>
+        <li><strong>مصادر الضوء والبطاريات:</strong> يجب أن تتوفر بطاريات مشحونة بالكامل للمثاقب والمناشير وكشافات الرأس في مكان التخزين.</li>
+    </ul>
+
+    <h3>25.5.3 خطط وقت التعطل (Downtime Playbooks)</h3>
+    <p>ماذا تفعل غرفة العمليات إذا انقطع التيار الكهربائي وانقطعت شبكة المستشفى (IT system)؟</p>
+    <ul>
+        <li>هل الموظفون يعرفون أين يجدون الإضاءة الاحتياطية؟</li>
+        <li>كيف سيتم طلب الدم بدون كمبيوتر؟</li>
+        <li>كيف ستعمل سجلات التخدير الورقية؟</li>
+    </ul>
+    <p>تتدرب الفرق الجيدة على هذه السيناريوهات قبل حدوثها في الواقع. (IHI)</p>
+
+    <h2>25.6 أدوات عملية لموثوقية المعدات</h2>
+    <h3>25.6 Practical Tools for Equipment Reliability</h3>
+
+    <div class="success-box">
+        <ul>
+            <li><strong>25.6.1 الأداة 1 — بطاقة التحقق الصباحي للغرفة (Morning Room Check Card):</strong><br>
+            بطاقة بسيطة ملصقة على باب غرفة العمليات. يُوقع عليها التمريض والتخدير كل صباح لإثبات اختبار الشفط، طاولة العمليات، أبراج الفيديو، والغازات. (AORN)</li>
+            <br>
+            <li><strong>25.6.2 الأداة 2 — علامة عيب المعدات (Equipment Defect Tag):</strong><br>
+            علامات حمراء زاهية تُوضع في كل غرفة مع حقول لـ: التاريخ، اسم المبلّغ، <strong>وصف دقيق للمشكلة</strong> (توقف عن كتابة "مكسور"). (AHRQ)</li>
+            <br>
+            <li><strong>25.6.3 الأداة 3 — عربة وقت التعطل (Downtime Cart):</strong><br>
+            عربة طوارئ مجهزة بنماذج ورقية للتوثيق، مصابيح يدوية (Flashlights)، قسائم طلب الدم، وبطاريات إضافية، متوفرة في الردهة المركزية لغرفة العمليات. (IHI)</li>
+        </ul>
+    </div>
+
+    <h2>25.7 القياس (كيف تعرف أن معداتك جاهزة)</h2>
+    <h3>25.7 Measurement (How to Know Your Equipment is Ready)</h3>
+
+    <h3>25.7.1 المؤشرات الاستباقية / Leading indicators</h3>
+    <ul>
+        <li>النسبة المئوية لغرف العمليات التي أتمت بطاقة التحقق الصباحي بالكامل قبل إدخال المريض. (IHI)</li>
+        <li>النسبة المئوية للمعدات (الكبيرة/المنقذة للحياة) التي تم الالتزام بصيانتها الوقائية (PM compliance &gt; 95%). (ECRI)</li>
+        <li>الوقت المستغرق لإصلاح وإعادة إدخال المعدات المعيبة إلى الخدمة.</li>
+    </ul>
+
+    <h3>25.7.2 المؤشرات المتأخرة / Lagging indicators</h3>
+    <ul>
+        <li>تأخيرات أو إلغاءات الحالات بسبب أعطال المعدات.</li>
+        <li>الحوادث الوشيكة (Near-misses) أو الأحداث السلبية (Adverse events) المرتبطة بفشل جهاز طبي داخل العملية.</li>
+    </ul>
+
+    <h2>25.8 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>25.8 The Writer’s Reflection</h3>
+
+    <h3>25.8.1 التكنولوجيا تفشل؛ الأنظمة تنقذ</h3>
+    <p>ستنكسر الأجهزة، وتفرغ البطاريات، وتفشل الشاشات. هذه فيزياء حتمية. ما يحدد سلامة المرضى ليس الكمال التكنولوجي؛ بل <strong>استعداد النظام البشري لإدارة ذلك الفشل.</strong></p>
+    <p><span class="english-term"><strong>25.8.1 Technology fails; systems rescue</strong><br>Machines will break, batteries will drain, screens will fail. That is inevitable physics. What determines patient safety is not technological perfection; it is the <strong>human system's readiness to manage that failure.</strong></span></p>
+
+    <h3>25.8.2 لا تورث المشكلة</h3>
+    <p>عندما تُخفي جهازاً مكسوراً في الخزانة، فأنت تورث مشكلتك للممرضة التالية—والمريض التالي. الإبلاغ عن الأعطال هو من أسمى أشكال احترام زملائك ومرضاك.</p>
+    <p><span class="english-term"><strong>25.8.2 Do not inherit the problem</strong><br>When you hide a broken device in a closet, you are bequeathing your problem to the next nurse—and the next patient. Failure reporting is one of the highest forms of respect for your colleagues and your patients.</span></p>
+
+    <div class="divider">***</div>
+
+    <h2>ما يجب أن تتذكره من هذا الفصل / What You Should Remember From This Chapter</h2>
+    <div class="success-box">
+        <p><span class="english-term">Key Memory Messages:</span></p>
+        <ul>
+            <li>الفحوصات اليومية للجاهزية تُثبت وظيفة الأجهزة <strong>اليوم</strong>—الصيانة الوقائية (PM) وحدها لا تكفي. (ECRI; AORN)<br>
+            <span class="english-term">Daily readiness checks prove function <strong>today</strong>—PM alone is not enough.</span></li>
+            
+            <li>يجب أن يمنع نظام الإبلاغ عن الأعطال إعادة الاستخدام الصامت: توقف–ضع علامة–أزل–أبلغ–استبدل. (AHRQ; IHI)<br>
+            <span class="english-term">Failure reporting must prevent silent re-use: stop–tag–remove–report–replace.</span></li>
+            
+            <li>تتحكم حوكمة الصيانة في الـ PM، اختبار القبول، وإعادة الإدخال للخدمة—لتتوقف غرفة العمليات عن إعادة تدوير عدم اليقين. (AAMI concepts; ECRI)<br>
+            <span class="english-term">Maintenance governance controls PM, acceptance testing, configuration, and return-to-service—so the OR stops recycling uncertainty.</span></li>
+            
+            <li>يجب أن تكون البدائل (Backup) معروفة، قريبة، مُختبرة، ومدعومة بخطط وقت التعطل وتدريبات. (IHI; NFPA 99 concepts)<br>
+            <span class="english-term">Backup must be known, near, tested, and supported by downtime playbooks and drills.</span></li>
+        </ul>
+    </div>
+
+    <div class="references-list">
+        <h2>المراجع / References</h2>
+        <ol>
+            <li>ECRI — Health technology safety / hazard concepts (device readiness, failure modes, risk controls).</li>
+            <li>Association of periOperative Registered Nurses (AORN) — Guidelines for Perioperative Practice (perioperative equipment readiness and safe setup concepts).</li>
+            <li>Agency for Healthcare Research and Quality (AHRQ) — Patient safety resources (systems thinking, reporting culture, learning from near-misses).</li>
+            <li>Institute for Healthcare Improvement (IHI) — Reliability and quality improvement resources (standard work, escalation pathways, learning loops, safety under pressure).</li>
+            <li>Association for the Advancement of Medical Instrumentation (AAMI) (concepts) — Medical equipment management and maintenance governance (PM, acceptance testing, release-to-service discipline).</li>
+            <li>National Fire Protection Association (NFPA) 99 (concepts) — Health care facilities electrical/power safety concepts relevant to backup readiness.</li>
+            <li>National Institute for Occupational Safety and Health (NIOSH) (concepts) — Occupational exposure control concepts supporting smoke evacuation readiness in energy-heavy cases.</li>
+        </ol>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_الخامس_والعشرون_جاهزية_المعدات.html";
+        document.body.appendChild(a);
+        a.click();
+        
+        setTimeout(function() {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }, 100);
+    }
+    </script>
+
+</body></html>

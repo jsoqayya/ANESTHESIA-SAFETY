@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiNWFlNDg4ZGU5NDlkNmY0OGJhYzU1ZmMwYTE1NzJlZTJmNjExMzciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2JjMTE5NTgyNmI1ZTRmMjVf2KfZhNmB2LXZhF_Yp9mE2LnYp9i02LFf2KfZhNiq2LnZgtmK2YVf2YjYp9mE2YXZiNir2YjZgtmK2KkuaHRtbC00MzEifSwiZXhwIjoxNzcxNjQ4MTU1LCJpYXQiOjE3NzE2NDQ1NTUsImFsZyI6IlJTMjU2In0.JtB7Zea_jjx1BT5v_DVcsVbTbql3hEEjjiOurrD1ymuE4tQ7n3eF2H84ELgkpcOri-SgNDoEvRmywco9QQ6GSGQCAcjWNR7f5GXf6Eg0yNQKuC0VcPBGi9_WGBXiOJVkg54aN7ZcJxQbrLaGd34JbldmSjlntnOq1DXj1qA7JOwrfh_YJgxv_6yHK2TgsQaqTW8S6GKM3QCw5UMYZXidWEFqXCYKphfa7s68_vq3CXh6ZSU8xBeZ5Mrz1vJ7s33nGug6aCW_x8VDwKe2Tl9W86ds5TcHy8kuTQwiYpX2lv15cp_n4PwQRPNfLk77V4uOlxscx1uXDXYVaBgDseP9fA","c_bc1195826b5e4f25_الفصل_العاشر_التعقيم_والموثوقية.html-431")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+})();</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل العاشر — تعقيم المسرح الجراحي وموثوقية الحقل المعقم</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-size: 19px;
+      }
+
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 19px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Tables Style */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.95em;
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-align: right;
+      }
+      
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+      }
+      
+      tbody tr:nth-of-type(even) {
+        background-color: #f9fafb;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* References */
+      .references-list {
+        font-size: 16px;
+        color: #4b5563;
+        direction: ltr;
+        text-align: left;
+        margin-top: 30px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 20px;
+      }
+
+      .references-list li {
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; font-size: 17px; }
+        table { display: block; overflow-x: auto; }
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #2563eb;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      .download-btn:hover {
+        background-color: #1d4ed8;
+        transform: translateY(-2px);
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Button -->
+    
+
+    <div class="part-title">PART III — Intraoperative Safety and High Reliability</div>
+    <div class="part-title">الجزء الثالث — السلامة داخل العملية والموثوقية العالية</div>
+    
+    <h1>CHAPTER 10 — Theatre Asepsis and Sterile Field Reliability</h1>
+    <div class="subtitle">الفصل العاشر — تعقيم المسرح الجراحي وموثوقية الحقل المعقم<br>
+    <span style="font-size: 18px;">(Sterile Technique Failures • Traffic/Doors • Field Breaks • Immediate Corrective Actions)<br>
+    (إخفاقات التقنية المعقمة • حركة المرور/الأبواب • اختراقات الحقل • الإجراءات التصحيحية الفورية)</span></div>
+    
+    <h2>أهداف الفصل / Chapter Aims</h2>
+    <div class="concept-box">
+        <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
+        <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
+        <ol>
+            <li>شرح العقامة (Asepsis) كـ <strong>نظام عالي الموثوقية (High-reliability system)</strong> يتكون من (حواجز + سلوكيات + خوارزميات استجابة)، وليس مجرد مفهوم يعتمد على "الشخص الحذر". (AORN; WHO SSI; CDC SSI)<br>
+            <span class="english-term">Explain asepsis as a <strong>high-reliability system</strong> (barriers + behaviors + response algorithms), not a “careful person” concept. (AORN; WHO SSI; CDC SSI)</span></li>
+            
+            <li>التعرف على أنماط الفشل الواقعية للتقنية المعقمة—خاصة "الأمور الطبيعية الصغيرة" (Small normals) التي تزيد بهدوء من خطر التلوث. (AORN; AHRQ)<br>
+            <span class="english-term">Recognize the real-world failure modes of sterile technique—especially the “small normals” that quietly increase contamination risk. (AORN; AHRQ)</span></li>
+            
+            <li>التحكم في حركة المرور في غرفة العمليات وفتح الأبواب من خلال <strong>تصميم الجاهزية (Readiness design)</strong>، وليس من خلال الجدال أو أداء دور الشرطي. (AORN; WHO SSI; IHI)<br>
+            <span class="english-term">Control OR traffic and door openings through <strong>readiness design</strong>, not arguing or policing. (AORN; WHO SSI; IHI)</span></li>
+            
+            <li>الاستجابة لاختراقات الحقل المعقم باستخدام خوارزمية متسقة وقابلة للتعليم تعمل تحت ضغط الوقت وتحمي السلامة النفسية. (AORN; AHRQ; IHI)<br>
+            <span class="english-term">Respond to sterile field breaks using a consistent, teachable algorithm that works under time pressure and protects psychological safety. (AORN; AHRQ; IHI)</span></li>
+            
+            <li>تنفيذ أدوات عملية (بطاقة الاستجابة لاختراق العقامة، سجل فتح الأبواب، تدقيق العقامة، حلقة التعلم) وتتبع مؤشرات الموثوقية بمرور الوقت. (IHI; AORN)<br>
+            <span class="english-term">Implement practical tools (sterile break response card, door-opening log, asepsis audit, learning loop) and track reliability indicators over time. (IHI; AORN)</span></li>
+        </ol>
+    </div>
+
+    <h2>السيناريو الافتتاحي / Opening Scenario</h2>
+    <div class="quote-box">
+        <strong>حالة واقعية: "الاختراق الذي لم يُرد أحد تسميته"</strong><br>
+        <span class="english-term">A true-to-life case: “The break nobody wanted to name” (Real Scientific Story)</span>
+    </div>
+
+    <p>هناك لحظة في كل غرفة عمليات يبدأ فيها الوقت بالضغط. ليس بصوت عالٍ—بل بهدوء. القائمة متأخرة، الهاتف يرن، المساعد مشغول، وتبدأ الغرفة في التعامل مع المقاطعات كأمر طبيعي. في تلك اللحظات، تصبح العقامة (Asepsis) هشة لأن التهديد غير مرئي.</p>
+    <p><span class="english-term">There is a moment in every operating theatre when time begins to push. Not loudly—quietly. The list is behind, the phone rings, the runner is busy, and the room starts to treat interruptions as normal. In those moments, asepsis becomes vulnerable because the threat is invisible.</span></p>
+
+    <p>أتذكر حالة طويلة كان فيها الفريق قوياً وكان المريض مستقراً. أثناء إعادة تموضع جهاز طبي، لامس كم أحدهم حافة الفرش الجراحي (Drape). كانت لمسة خفيفة جداً. رأتها ممرضة مبتدئة. ورآها أيضاً فني التخدير.</p>
+    <p><span class="english-term">I remember a long case where the team was strong and the patient was stable. During a repositioning of equipment, a sleeve brushed the edge of a drape. It was a very light touch. A junior nurse saw it. The anesthesia tech saw it too.</span></p>
+
+    <p>لكن لم يقل أحد شيئاً.</p>
+    <p><span class="english-term">But nobody said anything.</span></p>
+
+    <div class="alert-box">
+        <p>لماذا؟ لأن التحدث بصوت عالٍ في تلك اللحظة يعني إيقاف الحالة، تغيير الملابس المعقمة، وربما إعادة فرش جزء من الحقل، وإثارة غضب الجراح الذي كان يحاول اللحاق بالجدول الزمني. حوّل التسلسل الهرمي (Hierarchy) وضغط الوقت التلوث إلى سر.</p>
+        <p><span class="english-term">Why? Because speaking up at that moment meant stopping the case, changing gowns, possibly re-draping a section, and irritating a surgeon who was trying to catch up on the schedule. Hierarchy and time pressure turned contamination into a secret.</span></p>
+    </div>
+
+    <p>بعد عدة أيام، أُصيب المريض بعدوى عميقة في الموقع الجراحي (Deep SSI) تطلبت جراحة متكررة وأسابيع من المضادات الحيوية. لا يمكننا إثبات أن تلك اللمسة الدقيقة هي ما تسببت في العدوى. لكننا نعلم هذا: <strong>النظام الذي يسمح لاختراق معروف بالمرور بصمت هو نظام يصنع الضرر في النهاية.</strong> (AHRQ; WHO SSI)</p>
+    <p><span class="english-term">Several days later, the patient developed a deep SSI that required repeat surgery and weeks of antibiotics. We cannot prove that specific brush caused it. But we know this: <strong>a system that allows a known break to pass in silence is a system that eventually manufactures harm.</strong> (AHRQ; WHO SSI)</span></p>
+
+    <div class="success-box">
+        <p>الدرس القاسي الذي تتعلمه غرف العمليات هو أن <strong>التعقيم ليس مجرد كيمياء؛ إنه سلوك.</strong> وإذا كان السلوك مكلفاً نفسياً، فستفشل الكيمياء. (AORN; IHI)</p>
+        <p><span class="english-term">The hard lesson ORs learn is that <strong>asepsis is not just chemistry; it is behavior.</strong> And if the behavior is psychologically expensive, the chemistry will fail. (AORN; IHI)</span></p>
+    </div>
+
+    <h2>10.1 العقامة كنظام عالي الموثوقية (وليست مجرد شخص حذر)</h2>
+    <h3>10.1 Asepsis as a High-Reliability System (Not Just a Careful Person)</h3>
+
+    <h3>10.1.1 وهم "الفريق المثالي" / The illusion of the “perfect team”</h3>
+    <p>نحن نعلم الممرضين والجراحين "التقنية المعقمة" كمهارة فردية. لكن الأفراد يتعبون، ويتشتت انتباههم، ويُدفعون للاستعجال. تعتمد الموثوقية العالية على <strong>تصميم النظام (System design)</strong> لتقليل الفرص التي يمكن أن تفشل فيها مهارة الفرد. (IHI)</p>
+    <p><span class="english-term"><strong>10.1.1 The illusion of the “perfect team”</strong><br>We teach nurses and surgeons “sterile technique” as an individual skill. But individuals get tired, distracted, and rushed. High reliability relies on <strong>system design</strong> to reduce the chances that an individual’s skill can fail. (IHI)</span></p>
+
+    <h3>10.1.2 المكونات الثلاثة لنظام العقامة / The three components of an asepsis system</h3>
+    <p>في الممارسة العملية، يتكون نظام العقامة القوي من:</p>
+    <ul>
+        <li><strong>تصميم الحدود (Boundary Design):</strong> فصل واضح بين ما هو معقم وما هو غير معقم (منصات، حقول، تدفق هواء).</li>
+        <li><strong>انضباط السلوك (Behavioral Discipline):</strong> تقليل حركة المرور، والحد من الحركة فوق الحقول المعقمة، وتقليل الأحاديث.</li>
+        <li><strong>خوارزمية الاستجابة (Response Algorithm):</strong> ما يفعله الفريق <em>بالضبط</em> عند حدوث اختراق (Break)، دون إلقاء اللوم. (AORN; WHO SSI)</li>
+    </ul>
+
+    <h2>10.2 أنماط الفشل في العالم الحقيقي: "الأمور الطبيعية الصغيرة"</h2>
+    <h3>10.2 Real-World Failure Modes: The “Small Normals”</h3>
+
+    <h3>10.2.1 التلوث المتقاطع الصامت / Silent cross-contamination</h3>
+    <p>يحدث التلوث في أغلب الأحيان ليس من خلال أخطاء كبيرة، بل عبر قطرات صغيرة من اللعاب أثناء التحدث فوق الجرح المفتوح، أو مرور ذراع غير معقمة بمسافة قريبة جداً من الطاولة، أو تعديل النظارات بظهر القفاز المعقم. (AORN)</p>
+
+    <h3>10.2.2 فخ وقت التبديل (Turnover trap)</h3>
+    <p>عندما تكون الغرفة متأخرة، يتم التسرع في التنظيف البيئي، ويتم فتح الأدوات المعقمة قبل أن تستقر الغرفة تماماً من الحالة السابقة. هذا يربط العبء البيولوجي (Bioburden) بالمريض الجديد. (AORN; CDC SSI)</p>
+
+    <h3>10.2.3 الفشل في إدارة "المنطقة الرمادية"</h3>
+    <p>هل سقطت تلك الإبرة خارج الحقل؟ هل ذلك الجزء من الفرش مبلل (Strike-through)؟ عندما تتجاهل الفرق "المنطقة الرمادية" لصالح السرعة، فإنهم يتبنون التلوث كخيار افتراضي.</p>
+    <p><span class="english-term"><strong>10.2.3 Failing to manage the “grey zone”</strong><br>Did that needle fall outside the field? Is that part of the drape wet (strike-through)? When teams ignore the “grey zone” in favor of speed, they default to contamination.</span></p>
+
+    <h2>10.3 حركة المرور والأبواب: حل مشكلة الجاهزية</h2>
+    <h3>10.3 Traffic and Doors: Solving a Readiness Problem</h3>
+
+    <h3>10.3.1 لماذا تهم الأبواب / Why doors matter</h3>
+    <p>تم تصميم غرف العمليات بضغط إيجابي (Positive pressure) لدفع الهواء المحمل بالملوثات إلى الخارج. في كل مرة يُفتح فيها الباب، تتعطل ديناميكيات تدفق الهواء، ويرتفع عدد الجسيمات المحمولة جواً، ويزداد خطر الإصابة بـ SSI، خاصة في جراحات العظام المعتمدة على الغرسات. (WHO SSI; AORN)</p>
+    <p><span class="english-term"><strong>10.3.1 Why doors matter</strong><br>ORs are designed with positive pressure to push contaminant-laden air out. Every time a door opens, airflow dynamics are disrupted, airborne particle counts spike, and SSI risk increases, especially in implant orthopedics. (WHO SSI; AORN)</span></p>
+
+    <h3>10.3.2 فتح الأبواب هو عرض لضعف الجاهزية / Door opening is a symptom of poor readiness</h3>
+    <p>غالباً ما تصرخ الفرق على بعضها البعض لـ "إبقاء الباب مغلقاً". لكن الشرطة لا تنجح. تفتح الأبواب لأن:</p>
+    <ul>
+        <li>أداة أو غرسة كانت مفقودة (فشل التخطيط).</li>
+        <li>الهاتف رن ولا يوجد من يرد عليه بالداخل.</li>
+        <li>التقييمات ما قبل العملية لم تكتمل (فشل بوابات الجاهزية).</li>
+    </ul>
+    <p>لتقليل حركة المرور، <strong>قم بإصلاح الجاهزية (Fix readiness).</strong> (IHI; AORN)</p>
+
+    <div class="concept-box">
+        <h3>10.3.3 القصة الحقيقية 2: "الغرفة التي قللت فتح الأبواب بنسبة 70%"</h3>
+        <p>قمنا بقياس فتحات الأبواب أثناء عمليات استبدال المفاصل (Joint replacements). كان المتوسط 45 فتحة لكل حالة. كان الجراح غاضباً، ولكن بدلاً من إلقاء اللوم، تتبعنا <strong>السبب</strong>. كانت 80% من الفتحات لـ "رحلات البحث عن إمدادات مفقودة".</p>
+        <p>الحل: أنشأنا قائمة تحقق للمعدات بنسبة 100% <strong>يتم إكمالها قبل الشق الجراحي</strong>، وقمنا بتركيب نظام اتصال داخلي (Intercom). انخفضت فتحات الأبواب إلى 12 لكل حالة. تم حل المشكلة من خلال الحوكمة، وليس الصراخ. (IHI; AORN)</p>
+        <p><span class="english-term">The fix: We created a 100% equipment checklist <strong>completed prior to incision</strong>, and installed an intercom. Door openings dropped to 12 per case. The problem was solved by governance, not shouting. (IHI; AORN)</span></p>
+    </div>
+
+    <h2>10.4 الاستجابة لاختراقات الحقل المعقم (خوارزمية الإجراء الفوري)</h2>
+    <h3>10.4 Responding to Sterile Field Breaks (The Immediate Action Algorithm)</h3>
+
+    <h3>10.4.1 الاختراقات ستحدث؛ الاستجابة هي ما يُهم</h3>
+    <p>لا تتظاهر بأن الاختراقات (Breaks) لا تحدث. صمم النظام للاستجابة لها بشكل مثالي. يجب تدريب غرفة العمليات على "تأمل" (Reflex) عندما يُشتبه في حدوث اختراق.</p>
+    <p><span class="english-term"><strong>10.4.1 Breaks will happen; the response is what counts</strong><br>Do not pretend breaks do not happen. Design the system to respond to them perfectly. The OR must be trained in a "reflex" when a break is suspected.</span></p>
+
+    <h3>10.4.2 الخوارزمية الخماسية: (توقف، صرّح، أصلح، تحقق، وثّق)</h3>
+    <div class="success-box">
+        <ol>
+            <li><strong>توقف (STOP):</strong> الشخص الذي يلاحظ الاختراق يعلن ذلك بوضوح: <em>"توقف من فضلك—أعتقد أن لدينا اختراقاً للعقامة."</em> (AHRQ; WHO SSC)<br>
+            <span class="english-term"><strong>STOP:</strong> The person who notices the break states it clearly: <em>"Pause please—I believe we have a sterility break."</em></span></li>
+            
+            <li><strong>صرّح (STATE):</strong> حدد ما حدث <em>(مثال: "لقد لامست أداة X الكابل غير المعقم.")</em><br>
+            <span class="english-term"><strong>STATE:</strong> Identify what happened <em>(e.g., "Instrument X touched the unsterile cable.")</em></span></li>
+            
+            <li><strong>أصلح (FIX):</strong> استبدل الأداة، أو غيّر القفاز/الرداء، أو قم بإعادة فرش الجزء الملوث (Re-drape).<br>
+            <span class="english-term"><strong>FIX:</strong> Replace the instrument, change the glove/gown, or re-drape the contaminated section.</span></li>
+            
+            <li><strong>تحقق (VERIFY):</strong> يجب أن يتفق الجراح والممرضة المسؤولة على أن الحقل آمن للمضي قدماً. (AORN)<br>
+            <span class="english-term"><strong>VERIFY:</strong> The surgeon and charge nurse must agree the field is safe to proceed. (AORN)</span></li>
+            
+            <li><strong>وثّق (DOCUMENT):</strong> قم بتسجيل الحدث والاستجابة في الملاحظات الجراحية. هذا يسهل المتابعة اللاحقة إذا تطورت العدوى. (AORN; The Joint Commission)<br>
+            <span class="english-term"><strong>DOCUMENT:</strong> Log the event and the response in the operative notes. This facilitates follow-up if an SSI develops. (AORN)</span></li>
+        </ol>
+    </div>
+
+    <h2>10.5 السلامة النفسية: الضابط الخفي للعقامة</h2>
+    <h3>10.5 Psychological Safety: The Hidden Control of Asepsis</h3>
+
+    <h3>10.5.1 الخوف من الجراح يقتل العقامة / Fear of the surgeon kills asepsis</h3>
+    <p>إذا صرخ الجراح في وجه ممرضة لأنها أبلغت عن ثقب في القفاز، فإن تلك الممرضة ستفكر مرتين قبل التحدث في المرة القادمة. يجب على القيادة الجراحية أن تكافئ التحدث بصوت عالٍ، حتى عندما يكون ذلك مزعجاً. (AHRQ)</p>
+    <p><span class="english-term"><strong>10.5.1 Fear of the surgeon kills asepsis</strong><br>If a surgeon yells at a nurse for reporting a glove puncture, that nurse will think twice before speaking up next time. Surgical leadership must reward speaking up, even when it is annoying. (AHRQ)</span></p>
+
+    <h3>10.5.2 القيادة بالقدوة (Role modeling)</h3>
+    <p>أقوى بيان في غرفة العمليات هو عندما يقول الجراح نفسه: <em>"لقد لوثت قفازي للتو. يرجى إعطائي واحداً جديداً."</em> هذا يُطبّع (Normalizes) الصدق بدلاً من الكمال. (IHI)</p>
+    <p><span class="english-term"><strong>10.5.2 Role modeling</strong><br>The most powerful statement in the OR is when the surgeon themselves says: <em>"I just contaminated my glove. Please give me a new one."</em> This normalizes honesty over perfection. (IHI)</span></p>
+
+    <h2>10.6 أدوات عملية لموثوقية العقامة / Practical Tools for Asepsis Reliability</h2>
+
+    <div class="success-box">
+        <ul>
+            <li><strong>10.6.1 الأداة 1 — بطاقة الاستجابة لاختراق العقامة (جيب/حائط):</strong><br>
+            تلخيص خوارزمية (توقف، صرّح، أصلح، تحقق، وثّق). وجودها مكتوبة يمنح الموظفين سلطة استخدامها. (AORN; IHI)</li>
+            <br>
+            <li><strong>10.6.2 الأداة 2 — سجل تدقيق فتح الأبواب (Door-opening audit log):</strong><br>
+            أداة بسيطة للمراقبة (عينة عشوائية): عدد الفتحات خلال ساعة، سبب الفتح. استخدمها في لجان الجودة لتحسين إمداد الغرفة. (IHI)</li>
+            <br>
+            <li><strong>10.6.3 الأداة 3 — قائمة التحقق للتبديل السريع (Turnover Checklist):</strong><br>
+            لتجنب التسرع في التنظيف، حدد 5 أسطح رئيسية عالية اللمس (High-touch surfaces) يجب تنظيفها، وفرض وقت اتصال (Contact time) محدد للمطهر قبل فتح الأدوات المعقمة الجديدة. (AORN)</li>
+        </ul>
+    </div>
+
+    <h2>10.7 القياس (المؤشرات الاستباقية للتعقيم) / Measurement (Leading Indicators of Asepsis)</h2>
+
+    <h3>10.7.1 ابتعد عن قياس "العدوى فقط"</h3>
+    <p>إذا كنت تنتظر حدوث SSI لتعرف ما إذا كان تعقيمك جيداً، فأنت تدير الأمور عبر النظر في المرآة الخلفية. (IHI)</p>
+    <p><span class="english-term"><strong>10.7.1 Move away from "infection only" measurement</strong><br>If you wait for an SSI to know if your asepsis is good, you are managing by looking in the rearview mirror. (IHI)</span></p>
+
+    <h3>10.7.2 المؤشرات الاستباقية الفعالة (Leading KPIs)</h3>
+    <ul>
+        <li>متوسط عدد فتحات الأبواب لكل حالة (لأنواع جراحات محددة). (AORN)</li>
+        <li>النسبة المئوية للاختراقات المعقمة الموثقة (زيادة التوثيق تعني ثقافة أمان أفضل، وليس أسوأ). (AHRQ; IHI)</li>
+        <li>نتائج تدقيق الالتزام بتنظيف التبديل (Turnover cleaning compliance). (AORN)</li>
+        <li>وقت إغلاق الإجراءات المكتشفة في التدقيق. (IHI)</li>
+    </ul>
+
+    <h2>10.14 تأملات الكاتب: ما أود إخبار غرف العمليات الشابة به</h2>
+    <h3>10.14 The Writer’s Reflection: What I’d Tell Young ORs</h3>
+
+    <h3>10.14.1 الصمت هو خطر تلوث / Silence is a contamination risk</h3>
+    <p>في غرف العمليات، يتطلب الأمر شجاعة لوقف الجراح من أجل أمر غير مرئي. غرفة العمليات الآمنة تجعل هذه الشجاعة طبيعية ومحترمة. الصمت هو أكبر خطر للتلوث. (AHRQ)</p>
+    <p><span class="english-term"><strong>10.14.1 Silence is a contamination risk</strong><br>In ORs, it takes courage to stop a surgeon over something invisible. A safe OR makes that courage normal and respected. Silence is a contamination risk. (AHRQ)</span></p>
+
+    <h3>10.14.2 إذا كنت غير متأكد، فاعتبره ملوثاً / If you are unsure, treat it as contaminated</h3>
+    <p>الشك ليس معقماً. اليقين هو المعقم. هذه القاعدة تمنع كلمة "ربما" من الدخول إلى الجرح. (AORN)</p>
+    <p><span class="english-term"><strong>10.14.2 If you are unsure, treat it as contaminated</strong><br>Uncertainty is not sterile. Certainty is sterile. This rule prevents “maybe” from entering the wound. (AORN)</span></p>
+
+    <h3>10.14.3 الأيام المتأخرة تتطلب انضباطاً أقوى / Late days demand stronger discipline</h3>
+    <p>عندما يرتفع الضغط، يجب أن تقوى الحواجز—التحكم في الأبواب، اللحظات المحمية، وانضباط الاستجابة للاختراقات. هكذا تظل المسارح الموثوقة آمنة. (IHI; AORN)</p>
+    <p><span class="english-term"><strong>10.14.3 Late days demand stronger discipline</strong><br>When pressure rises, barriers must strengthen—door control, protected moments, break-response discipline. This is how reliable theatres stay safe. (IHI; AORN)</span></p>
+
+    <div class="divider">***</div>
+
+    <h2>ما يجب أن تتذكره من هذا الفصل / What You Should Remember from This Chapter</h2>
+    <div class="success-box">
+        <p><span class="english-term">Key Memory Messages:</span></p>
+        <ul>
+            <li>العقامة (Asepsis) هي <strong>نظام موثوقية</strong>: حدود + سلوكيات + استجابة للاختراقات + حلقات تعلم. (AORN; WHO SSI)<br>
+            <span class="english-term">Asepsis is a reliability system: boundaries + behavior + break-response + learning loops.</span></li>
+            
+            <li>التحكم في الأبواب هو في الأساس مشكلة <strong>تصميم الجاهزية (Readiness design)</strong>—قم بإصلاح الأسباب المبكرة وتتحسن حركة المرور بشكل طبيعي. (IHI)<br>
+            <span class="english-term">Door control is primarily a readiness design problem—fix upstream causes and traffic improves naturally.</span></li>
+            
+            <li>يجب أن تؤدي اختراقات العقامة إلى إجراءات تصحيحية فورية وموحدة: <strong>توقف–صرّح–أصلح–تحقق–وثّق</strong>. (AORN; AHRQ)<br>
+            <span class="english-term">Sterile breaks must trigger immediate standardized corrective actions: Stop–State–Fix–Verify–Document.</span></li>
+            
+            <li>السلامة النفسية جزء من موثوقية العقامة: الإبلاغ يحمي المرضى. (AHRQ)<br>
+            <span class="english-term">Psychological safety is part of sterility reliability: reporting protects patients.</span></li>
+            
+            <li>قم بقياس المؤشرات الاستباقية وأغلق حلقات التعلم بسرعة. (IHI)<br>
+            <span class="english-term">Measure leading indicators and close learning loops quickly.</span></li>
+        </ul>
+    </div>
+
+    <div class="references-list">
+        <h2>المراجع / References</h2>
+        <ol>
+            <li>Association of periOperative Registered Nurses (AORN). Guidelines for Perioperative Practice (aseptic technique, sterile field management, traffic control, break response).</li>
+            <li>World Health Organization (WHO). Global Guidelines for the Prevention of Surgical Site Infection.</li>
+            <li>Centers for Disease Control and Prevention (CDC). Guideline for the Prevention of Surgical Site Infection.</li>
+            <li>Agency for Healthcare Research and Quality (AHRQ). Patient Safety resources (communication, safety culture, speaking up, learning systems).</li>
+            <li>Institute for Healthcare Improvement (IHI). Reliability and quality improvement resources (standard work, bundles, measurement, learning loops).</li>
+        </ol>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_العاشر_التعقيم_والموثوقية.html";
+        document.body.appendChild(a);
+        a.click();
+        
+        setTimeout(function() {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }, 100);
+    }
+    </script>
+
+</body></html>

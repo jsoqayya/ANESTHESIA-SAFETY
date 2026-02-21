@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiNWFlNDg4ZGU5NDlkNmY0OGJhYzU1ZmMwYTE1NzJlZTJmNjExMzciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2JjMTE5NTgyNmI1ZTRmMjVf2KfZhNmB2LXZhF_Yp9mE2KrYp9iz2Llf2K3YstmF2Klf2KfZhNmI2YLYp9mK2KkuaHRtbC05NzUifSwiZXhwIjoxNzcxNjQ4MTQ2LCJpYXQiOjE3NzE2NDQ1NDYsImFsZyI6IlJTMjU2In0.PRRyLKcXGsvgauNGbeCL9-BTsS3oKGYlxR8YL_ja4bOVN0pUeWEepHrMc5Xnz5rOcQ9CGWPq7BgPCVz0vsayBvzbf1o8S7cmrWVTVOy1NZPQDMmLLCep7MFlno3wfng9MLHPKKRIC46Uj3KvJ_CdccjJK4ZVRh-8jTkUj3YEJdknJbJhYSIVnj0b2xeVBmbF4GAwTnOToEsGDpzD1gKVTSrwPeEXBADmVdZAnfoXdTTOaeOXAbYP8G36tMCnEBrYt5x2LqfUcE1cKeihOTLXZM2ZXp9KRs8_sPKU3AOiF5aC5Hu8BUn9yPUT_Gas3DnEzgSNQVnB_LVNneaM8ujXpQ","c_bc1195826b5e4f25_الفصل_التاسع_حزمة_الوقاية.html-975")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+})();</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل التاسع — الوقاية من الجلطات وإصابات الضغط وانخفاض الحرارة: حزمة بقيادة غرفة العمليات</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-size: 19px;
+      }
+
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 19px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Tables Style */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.95em;
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-align: right;
+      }
+      
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+      }
+      
+      tbody tr:nth-of-type(even) {
+        background-color: #f9fafb;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* References */
+      .references-list {
+        font-size: 16px;
+        color: #4b5563;
+        direction: ltr;
+        text-align: left;
+        margin-top: 30px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 20px;
+      }
+
+      .references-list li {
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; font-size: 17px; }
+        table { display: block; overflow-x: auto; }
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #2563eb;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      .download-btn:hover {
+        background-color: #1d4ed8;
+        transform: translateY(-2px);
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Button -->
+    
+
+    <div class="part-title">PART II — Preoperative Readiness and “Start-Right” Controls</div>
+    <div class="part-title">الجزء الثاني — الجاهزية ما قبل العملية وضوابط "البداية الصحيحة"</div>
+    
+    <h1>CHAPTER 9 — VTE, Pressure Injury, and Hypothermia: OR-Driven Prevention Bundle</h1>
+    <div class="subtitle">الفصل التاسع — الوقاية من الجلطات الوريدية (VTE)، إصابات الضغط، وانخفاض الحرارة: حزمة الوقاية بقيادة غرفة العمليات<br>
+    <span style="font-size: 18px;">(Three “Silent Harms” • OR Responsibilities • Bundled Reliability • Handoff Continuity • Audit-Ready Documentation)<br>
+    (ثلاثة "أضرار صامتة" • مسؤوليات غرفة العمليات • الموثوقية المجمعة • استمرارية التسليم • التوثيق الجاهز للتدقيق)</span></div>
+    
+    <h2>أهداف الفصل / Chapter Aims</h2>
+    <div class="concept-box">
+        <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
+        <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
+        <ol>
+            <li>شرح لماذا تُعد <strong>الجلطات الوريدية (VTE)، وإصابات الضغط، وانخفاض الحرارة المحيط بالجراحة</strong> "أضراراً صامتة" تظهر غالباً بعد العملية—ولكن تتشكل بقوة من خلال قرارات وانضباط غرفة العمليات. (NICE; NPIAP/EPUAP; ASA)<br>
+            <span class="english-term">Explain why <strong>VTE, pressure injury, and perioperative hypothermia</strong> are “silent harms” that often appear after the case—yet are strongly shaped by OR decisions and discipline. (NICE; NPIAP/EPUAP; ASA)</span></li>
+            
+            <li>بناء <strong>حزمة وقاية (Prevention bundle)</strong> بقيادة غرفة العمليات بملكية واضحة، وتوقيت، ومحفزات توقف إلزامي (Hard-stop triggers) عند غياب الضوابط الرئيسية. (IHI; AHRQ)<br>
+            <span class="english-term">Build an OR-driven <strong>prevention bundle</strong> with clear ownership, timing, and hard-stop triggers when key controls are missing. (IHI; AHRQ)</span></li>
+            
+            <li>تنفيذ سير عمل عملي في غرفة العمليات لـ: جاهزية الوقاية الميكانيكية من VTE، وضعية الأمان/حماية الضغط، والتدفئة من مرحلة ما قبل العملية وحتى النقل. (NICE; NPIAP/EPUAP; AORN)<br>
+            <span class="english-term">Implement practical OR workflows for: mechanical VTE prophylaxis readiness, safe positioning/pressure protection, and warming from pre-op through transfer. (NICE; NPIAP/EPUAP; AORN)</span></li>
+            
+            <li>التعرف على أنماط الفشل الواقعية: الجوارب/أجهزة (SCDs) المفقودة، الوضعية السيئة "المؤقتة" التي تصبح دائمة، خطر إصابات الضغط في الحالات الطويلة، انحراف برودة الغرفة، والفقدان أثناء التسليم (Handoff losses). (AHRQ; IHI)<br>
+            <span class="english-term">Recognize real-life failure modes: missing stockings/SCDs, “temporary” poor positioning that becomes permanent, long-case pressure injury risk, cold OR drift, and handoff losses. (AHRQ; IHI)</span></li>
+            
+            <li>قياس الموثوقية باستخدام المؤشرات الاستباقية (اكتمال الحزمة، توثيق الحرارة، فحوصات الوضعية، توفر الأجهزة) وإغلاق حلقة التعلم. (IHI)<br>
+            <span class="english-term">Measure reliability using leading indicators (bundle completion, temperature documentation, positioning checks, device availability) and close the learning loop. (IHI)</span></li>
+        </ol>
+    </div>
+
+    <h2>السيناريو الافتتاحي / Opening Scenario</h2>
+    <div class="quote-box">
+        <strong>حالة واقعية: "المضاعفة التي لم يرها أحد في غرفة العمليات"</strong><br>
+        <span class="english-term">A true-to-life case: “The complication nobody saw in the OR” (Real Scientific Story)</span>
+    </div>
+
+    <p>بعض الأضرار في الجراحة تعلن عن نفسها بصوت عالٍ—النزيف، تشنج الحنجرة، انخفاض ضغط الدم. لكن بعضها الآخر هادئ. إنها لا تصرخ في المسرح الجراحي. بل تهمس لاحقاً.</p>
+    <p><span class="english-term">Some harms in surgery announce themselves loudly—bleeding, laryngospasm, hypotension. Others are quiet. They don’t scream in the theatre. They whisper later.</span></p>
+
+    <p>خضع مريض لإجراء طويل. بدا كل شيء في الغرفة "على ما يرام". شُفي الشق الجراحي. كان الجراح راضياً. وشعرت العائلة بالارتياح.</p>
+    <p><span class="english-term">A patient underwent a long procedure. Everything in the room looked “fine.” The incision healed. The surgeon was satisfied. The family was relieved.</span></p>
+
+    <p>بعد ثلاثة أيام، أُصيب المريض بألم في ربلة الساق (Calf pain) وضيق في التنفس. تم تشخيص انسداد رئوي (Pulmonary embolism - PE).</p>
+    <p><span class="english-term">Three days later, the patient developed calf pain and shortness of breath. A pulmonary embolism was diagnosed.</span></p>
+
+    <div class="alert-box">
+        <p>السؤال الفوري الذي يظهر دائماً—يُقال أحياناً، ويُشعر به أحياناً أخرى—هو: <strong>"كيف حدث هذا رغم أن العملية سارت على ما يرام؟"</strong></p>
+        <p><span class="english-term">The immediate question that always appears—sometimes spoken, sometimes only felt—is: <strong>“How did this happen when the operation went well?”</strong></span></p>
+        
+        <p>عندما تتبعنا الرحلة، وجدنا نمطاً مألوفاً:</p>
+        <ul>
+            <li>كان تقييم خطر VTE موجوداً على الورق، لكن جهاز الوقاية الميكانيكية لم يُطبّق مبكراً لأن الجناح كان مزدحماً وافترضت غرفة العمليات أنه سيتم لاحقاً. (NICE)</li>
+            <li>في الغرفة، كانت الجوارب متاحة، لكن الجهاز الهوائي كان "مؤقتاً" غير متصل أثناء ضبط الوضعية—ثم نُسي. (IHI)</li>
+            <li>لم يؤكد التسليم (Handoff) صراحةً ما إذا كانت الوقاية الميكانيكية نشطة، لذلك انقطعت الاستمرارية. (AHRQ)</li>
+        </ul>
+    </div>
+
+    <p>لم يقصد أحد إحداث ضرر. لقد سمح النظام ببساطة لخطر صامت بالمرور عبر عدة بوابات دون مالك.</p>
+    <p><span class="english-term">Nobody intended harm. The system simply allowed a silent risk to pass through multiple gates without ownership.</span></p>
+
+    <div class="success-box">
+        <p>علّمتني تلك الحالة مبدأً أقوم بتدريسه الآن بشكل متكرر: <strong>إذا كان الضرر صامتاً، يجب على النظام أن يتحدث نيابة عنه.</strong> يتطلب خطر VTE، وإصابة الضغط، وانخفاض الحرارة صوتاً للنظام—نقاط تحقق، نصوص، وملكية—لأن المريض لا يمكنه الشكوى حتى يفوت الأوان. (AHRQ; IHI)</p>
+        <p><span class="english-term">That case taught me a principle I now teach repeatedly: <strong>If the harm is silent, the system must speak for it.</strong> VTE, pressure injury, and hypothermia require a system voice—checkpoints, scripts, and ownership—because the patient cannot complain until it is too late. (AHRQ; IHI)</span></p>
+    </div>
+
+    <h2>9.1 لماذا تنتمي هذه الأضرار الثلاثة معاً (عقلية الحزمة)</h2>
+    <h3>9.1 Why These Three Harms Belong Together (A Bundle Mindset)</h3>
+
+    <h3>9.1.1 إنها أضرار مختلفة بنفس النمط / Different harms with the same pattern</h3>
+    <p>لا تتطابق الجلطات الوريدية (VTE)، وإصابات الضغط، وانخفاض الحرارة سريرياً، لكنها تشترك في نمط سلامة:</p>
+    <p><span class="english-term">VTE, pressure injury, and hypothermia are not identical clinically, but they share a safety pattern:</span></p>
+    <ul>
+        <li>الخطر يتراكم بمرور الوقت،</li>
+        <li>غرفة العمليات تضع العديد من الظروف،</li>
+        <li>الضرر يظهر غالباً بعد مغادرة المريض للغرفة،</li>
+        <li>والوقاية تتطلب <strong>الموثوقية (Reliability)</strong> أكثر من البطولات. (IHI)</li>
+    </ul>
+
+    <h3>9.1.2 إنها "غير مرئية" ما لم تصمم رؤيتها / “Invisible” unless you design visibility</h3>
+    <p>تبدأ إصابة الضغط كنقص تروية (Ischemia) تحت الجلد. يبدأ انخفاض الحرارة كانحراف. وتبدأ VTE كجلطة تتشكل بهدوء.</p>
+    <p>إذا انتظرت حتى "تلاحظ"، فستلاحظ متأخراً. ولهذا السبب تؤكد الإرشادات على <strong>حزم الوقاية الاستباقية</strong>. (NPIAP/EPUAP; NICE)</p>
+    <p><span class="english-term">Pressure injury begins as ischemia under skin. Hypothermia begins as a drift. VTE begins as a clot forming quietly. If you wait to “notice,” you will notice late. That’s why guidance emphasizes proactive prevention bundles. (NPIAP/EPUAP; NICE)</span></p>
+
+    <h3>9.1.3 الحزم تمنع التجزئة / Bundles prevent fragmentation</h3>
+    <p>إذا عولجت كل مشكلة على حدة، تصبح الملكية مُخففة (Diluted). نهج الحزمة يخلق طقساً واحداً بقيادة غرفة العمليات: الجاهزية ← التنفيذ ← استمرارية التسليم. (IHI)</p>
+    <p><span class="english-term">If each issue is treated separately, ownership becomes diluted. A bundle approach creates one OR-driven ritual: readiness → execution → handoff continuity. (IHI)</span></p>
+
+    <h2>9.2 مسؤولية غرفة العمليات: ما يسيطر عليه المسرح (حتى عندما يوثق الآخرون)</h2>
+    <h3>9.2 OR Responsibility: What the Theatre Controls (Even When Others Document)</h3>
+
+    <h3>9.2.1 الوقاية من VTE: الغرفة تتحكم في التفعيل المبكر والاستمرارية</h3>
+    <p>حتى لو وصف الفريق الطبي الوقاية (Prophylaxis)، فإن المسرح يتحكم فيما إذا كانت:</p>
+    <ul>
+        <li>الوقاية الميكانيكية مطبقة ونشطة،</li>
+        <li>تبقى نشطة أثناء الإجراءات الطويلة،</li>
+        <li>ويتم تسليمها بوضوح. (NICE; AHRQ)</li>
+    </ul>
+    <p><span class="english-term"><strong>9.2.1 VTE: the OR controls early activation and continuity</strong><br>Even if medical teams prescribe prophylaxis, the theatre controls whether: mechanical prophylaxis is applied and active, it stays active during long procedures, it is clearly handed off. (NICE; AHRQ)</span></p>
+
+    <h3>9.2.2 إصابة الضغط: غرفة العمليات تتحكم في واقع الوضعية</h3>
+    <p>ضبط الوضعية (Positioning) في المسرح ليس "تجهيزاً". إنه عمل سريري له عواقب طويلة. تؤكد إرشادات الوقاية على إعادة توزيع الضغط، حماية البروزات العظمية، وإعادة التقييم أثناء الإجراءات الطويلة. (NPIAP/EPUAP; AORN)</p>
+    <p><span class="english-term"><strong>9.2.2 Pressure injury: the OR controls positioning reality</strong><br>Theatre positioning is not “setup.” It is a clinical act with long consequences. Prevention guidance emphasizes pressure redistribution, protection of bony prominences, and reassessment during long procedures. (NPIAP/EPUAP; AORN)</span></p>
+
+    <h3>9.2.3 انخفاض الحرارة: الغرفة تتحكم في البيئة الحرارية وسير العمل</h3>
+    <p>تعتمد الوقاية من انخفاض الحرارة المحيط بالجراحة على ممارسات التدفئة، تقليل التعرض، تدفئة السوائل عند الاقتضاء، ومراقبة الحرارة—خاصة في الحالات الطويلة أو عالية الخطورة. (NICE; ASA concepts)</p>
+
+    <h2>9.3 حزمة الوقاية بقيادة غرفة العمليات (بوابة "الأضرار الصامتة الثلاثة")</h2>
+    <h3>9.3 The OR-Driven Prevention Bundle (The “Three Silent Harms Gate”)</h3>
+
+    <h3>9.3.1 لماذا تهم البوابة / Why a gate matters</h3>
+    <p>في الحياة الواقعية، يفترض الناس:</p>
+    <ul>
+        <li>"الجناح سيقوم بوضع الجوارب،"</li>
+        <li>"الإفاقة (PACU) ستقوم بتدفئة المريض،"</li>
+        <li>"سنعيد ضبط الوضعية لاحقاً."</li>
+    </ul>
+    <p><strong>الافتراض هو عدو الموثوقية.</strong> تحول البوابة الافتراضات إلى تأكيدات. (IHI)</p>
+    <p><span class="english-term">In real life, people assume: “Ward will do stockings,” “PACU will warm the patient,” “We’ll reposition later.” Assumption is the enemy of reliability. A gate turns assumptions into confirmations. (IHI)</span></p>
+
+    <h3>9.3.2 بوابة الحزمة: الحد الأدنى للبيانات قبل الشق الجراحي / Minimum dataset</h3>
+    <p>قبل الشق الجراحي (أو كامتداد للـ Time-out)، قم بتأكيد:</p>
+    <div class="concept-box">
+        <ul>
+            <li><strong>9.3.2.1 جاهزية الوقاية الميكانيكية من VTE (عند الاستطباب):</strong>
+                <ul>
+                    <li>الجوارب/SCD متوفرة ومطبقة،</li>
+                    <li>الجهاز متصل ويعمل كما هو مخطط،</li>
+                    <li>أي موانع (Contraindication) موثقة. (NICE)</li>
+                </ul>
+            </li>
+            <li><strong>9.3.2.2 جاهزية حماية الضغط:</strong>
+                <ul>
+                    <li>الوضعية المخطط لها مؤكدة،</li>
+                    <li>نقاط الضغط محمية (الكعبان، العجز، المرفقان، الوجه/العينان في وضعية الانبطاح Prone)،</li>
+                    <li>الدعامات الخاصة جاهزة (وسادات الجل، ألواح الذراع)،</li>
+                    <li>تم الإعلان عن خطة إعادة الفحص في الحالات الطويلة. (NPIAP/EPUAP; AORN)</li>
+                </ul>
+            </li>
+            <li><strong>9.3.2.3 الجاهزية الحرارية:</strong>
+                <ul>
+                    <li>تم تأكيد خطة التدفئة (الهواء القسري، بطانيات دافئة، تدفئة السوائل عند الحاجة)،</li>
+                    <li>تم توثيق درجة الحرارة الأساسية (Baseline) حيثما أمكن،</li>
+                    <li>تم الإعلان عن خطة مراقبة الحرارة في الحالات الطويلة. (NICE; ASA concepts)</li>
+                </ul>
+            </li>
+        </ul>
+        <p>هذا ليس "عملاً إضافياً". <strong>إنه احترافية غرفة العمليات جُعلت مرئية.</strong> (IHI)</p>
+        <p><span class="english-term">This is not “extra work.” It is OR professionalism made visible. (IHI)</span></p>
+    </div>
+
+    <h2>9.4 الوقاية من VTE: نموذج الموثوقية لجانب غرفة العمليات</h2>
+    <h3>9.4 VTE Prevention: The OR-Side Reliability Model</h3>
+
+    <h3>9.4.1 الخطر شائع، والوقاية بسيطة غالباً—لكن يسهل تفويتها</h3>
+    <p>تؤكد إرشادات الوقاية من VTE على تقييم المخاطر واستراتيجيات الوقاية (الميكانيكية والدوائية). من جانب غرفة العمليات، الوقاية الميكانيكية هي الضابط الأكثر وضوحاً. (NICE)</p>
+    <p><span class="english-term"><strong>9.4.1 VTE risk is common, prevention is often simple—but easy to miss</strong><br>VTE prevention guidance emphasizes risk assessment and prophylaxis strategies (mechanical and pharmacologic). From the OR side, mechanical prophylaxis is the most visible control. (NICE)</span></p>
+
+    <h3>9.4.2 أنماط فشل غرفة العمليات الشائعة (ما رأيته مراراً وتكراراً)</h3>
+    <ul>
+        <li>الجهاز غير متوفر في الغرفة، لذا "لاحقاً"،</li>
+        <li>الجوارب مطبقة لكن جهاز SCD غير متصل،</li>
+        <li>الجهاز فُصل لضبط الوضعية ولم يتم إعادة تشغيله أبداً،</li>
+        <li>المريض مُغطى بالفرش وأصوات إنذار الجهاز يتم تجاهلها،</li>
+        <li>التسليم (Handoff) يفشل في تأكيد حالة الوقاية. (AHRQ; IHI)</li>
+    </ul>
+
+    <div class="concept-box">
+        <h3>9.4.3 القصة الحقيقية 2: "جهاز SCD الذي كان 'مُشغّلاً' في أذهان الجميع"</h3>
+        <p><strong>Real Story 2: “The SCD that was ‘on’ in everyone’s mind”</strong></p>
+        <p>حالة طويلة. تم وضع المريض بعناية. الجوارب كانت عليه. وُضعت أكمام SCD (الضغط الهوائي). <strong>افترض الجميع أنه يعمل.</strong></p>
+        <p>بعد ساعتين، لاحظت ممرضة دوارة أن الجهاز موصول بالكهرباء ولكنه غير مُشغل. كانت الأكمام صامتة. كانت الغرفة مشغولة ولم يقصد أحد نسيان ذلك.</p>
+        <p>لم تقم تلك الممرضة بتشغيله بهدوء والمضي قدماً. لقد قالت بصوت عالٍ:<br>
+        <strong>"جهاز VTE كان مطفأً. يتم تشغيله الآن. يرجى تدوين ذلك في السجل وفي التسليم (Handoff)."</strong></p>
+        <p>كانت تلك الجملة الواحدة مهمة. لقد خلقت الوعي وصححت النظام في اللحظة—ودربت ذاكرة الفريق للحالة القادمة. (IHI)</p>
+        <p><span class="english-term">Two hours later, a circulating nurse noticed the machine was plugged in but not switched on... She said out loud: “VTE device was off. Turning on now. Please note in record and handoff.” That one sentence mattered. It created awareness and corrected the system in the moment—and it trained the team’s memory for the next case. (IHI)</span></p>
+    </div>
+
+    <h3>9.4.4 ضوابط غرفة العمليات العملية للوقاية الميكانيكية من VTE</h3>
+    <ul>
+        <li>تأكيد توفر الجهاز عند بوابة الجاهزية، (IHI)</li>
+        <li>التأكيد اللفظي للتشغيل أثناء بوابة الـ Time-out/الحزمة، (IHI)</li>
+        <li>امتلاك صريح للفصل/إعادة الاتصال أثناء تغيير الوضعيات، (AORN)</li>
+        <li>يشمل التسليم "الوقاية من VTE نشطة/غير نشطة والسبب." (AHRQ)</li>
+    </ul>
+
+    <h2>9.5 الوقاية من إصابات الضغط: الوضعية كإجراء سريري</h2>
+    <h3>9.5 Pressure Injury Prevention: Positioning as a Clinical Procedure</h3>
+
+    <h3>9.5.1 إصابات الضغط ليست مشاكل تمريضية؛ إنها ضرر محيط بالجراحة</h3>
+    <p>تؤطر الإرشادات الحديثة إصابة الضغط كضرر يمكن الوقاية منه مع مسؤولية متعددة التخصصات. (NPIAP/EPUAP)</p>
+
+    <h3>9.5.2 عوامل الخطر في غرفة العمليات يمكن التنبؤ بها / Predictable OR risk factors</h3>
+    <ul>
+        <li>مدة طويلة،</li>
+        <li>انعدام الحركة تحت التخدير،</li>
+        <li>وضعية الانبطاح (Prone) أو بضع الحصاة (Lithotomy)،</li>
+        <li>انخفاض ضغط الدم (متعدد العوامل)،</li>
+        <li>الهشاشة وضعف تحمل الأنسجة،</li>
+        <li>ضغط الأجهزة (الأنابيب، الخطوط، الأقنعة). (NPIAP/EPUAP; AORN)</li>
+    </ul>
+
+    <div class="alert-box">
+        <h3>9.5.3 القصة الحقيقية 3: "الكعب الذي لم يره أحد"</h3>
+        <p><strong>Real Story 3: “The heel that no one saw”</strong></p>
+        <p>مريض مسن هش خضع لإجراء طويل. بدت الوضعية كافية. اُستخدم التوسيد (Padding)—على الأقل، هذا ما اعتقده الجميع.</p>
+        <p>بعد يومين، ظهرت قرحة في الكعب. سألت عائلة المريض: <strong>"لماذا حدث هذا في المستشفى؟"</strong></p>
+        <p>في المراجعة، اكتشفنا شيئاً بسيطاً ومؤلماً: كان الكعب يرتكز على حافة صلبة <strong>بعد تعديل الوضعية في منتصف الحالة</strong>، ولم يقم أحد بإعادة فحص موثقة لنقاط الضغط بعد ذلك.</p>
+        <p>هذا ما أعنيه بالضرر الصامت: إنه يبدأ بهدوء في الدقيقة 40 ويصبح مرئياً في اليوم الثاني.</p>
+        <p>بعد ذلك، طبقنا قاعدة: للحالات التي تتجاوز مدة معينة (Threshold)، تنادي الممرضة الدوارة بـ <strong>"فحص الوضعية" (Position check)</strong> على فترات محددة—الكعبان، العجز، الذراعان، الوجه/العينان—دون انتظار حدوث مشكلة. (NPIAP/EPUAP; AORN)</p>
+        <p><span class="english-term">In the review, we discovered something painfully simple: the heel was resting against a hard edge after repositioning mid-case, and no one did a documented pressure-point recheck afterward. This is what I mean by silent harm: it begins quietly at minute 40 and becomes visible at day 2. (NPIAP/EPUAP; AORN)</span></p>
+    </div>
+
+    <h3>9.5.4 عناصر حزمة إصابة الضغط لغرفة العمليات / OR-side bundle elements</h3>
+    <ul>
+        <li>توثيق الوضعية المخطط لها والأجهزة الوقائية، (AORN)</li>
+        <li>حماية نقاط الضغط الرئيسية عن قصد (يجب أن يكون الكعبان "عائمين/Floating" حيثما كان ذلك مناسباً)، (NPIAP/EPUAP)</li>
+        <li>تجنب ضغط الأجهزة (أنابيب تحت الطرف، أربطة مشدودة)، (AORN)</li>
+        <li>إعادة التقييم أثناء الحالات الطويلة وبعد إعادة التموضع الكبيرة. (NPIAP/EPUAP)</li>
+    </ul>
+
+    <h2>9.6 الوقاية من انخفاض الحرارة: انحراف الحرارة الذي يسرق التعافي</h2>
+    <h3>9.6 Hypothermia Prevention: The Temperature Drift That Steals Recovery</h3>
+
+    <h3>9.6.1 انخفاض الحرارة هو أكثر من "الشعور بالبرد"</h3>
+    <p>يرتبط انخفاض الحرارة المحيط بالجراحة (Perioperative hypothermia) بزيادة المضاعفات مثل الارتعاش، وعدم الراحة، وقد يساهم في نتائج سلبية—ومن هنا يأتي تأكيد الإرشادات على التدفئة النشطة والمراقبة. (NICE; ASA concepts)</p>
+    <p><span class="english-term"><strong>9.6.1 Hypothermia is more than “feeling cold”</strong><br>Perioperative hypothermia is associated with increased complications such as shivering, discomfort, and may contribute to adverse outcomes—hence guideline emphasis on active warming and monitoring. (NICE; ASA concepts)</span></p>
+
+    <h3>9.6.2 لماذا يحدث انخفاض الحرارة حتى في "الغرف الجيدة"</h3>
+    <ul>
+        <li>بيئة محيطة باردة،</li>
+        <li>التعرض أثناء التحضير/الفرش (Prep/drape)،</li>
+        <li>سوائل وريدية غير مدفأة،</li>
+        <li>مدة طويلة مع فقدان الحرارة،</li>
+        <li><strong>تأخير بدء التدفئة بحجة "سنبدأ لاحقاً".</strong> (NICE)</li>
+    </ul>
+
+    <div class="concept-box">
+        <h3>9.6.3 القصة الحقيقية 4: "المريض المرتعش الذي علمنا التوقيت"</h3>
+        <p><strong>Real Story 4: “The shivering patient who taught us timing”</strong></p>
+        <p>وصل مريض إلى وحدة الإفاقة (PACU) يرتعش بعنف، في حالة ضيق، وغير قادر على الراحة. كانت الجراحة "ناجحة"، لكن تجربة المريض كانت بائسة.</p>
+        <p>عندما نظرنا للوراء: بدأت التدفئة متأخراً. كانت بطانية الهواء القسري متوفرة لكن <strong>لم يتم توصيلها مبكراً</strong> لأن الفريق كان مشغولاً.</p>
+        <p>بعد ذلك، غيرنا عادة واحدة: يتم تحضير التدفئة بالهواء القسري (Forced-air warming) <strong>وتفعيلها مبكراً</strong> (حسب الاقتضاء) بدلاً من الانتظار حتى يبرد المريض بالفعل. <strong>الوقاية تتفوق على الإنقاذ.</strong> (NICE)</p>
+        <p><span class="english-term">After that, we changed one habit: Forced-air warming is prepared and activated early (as appropriate) rather than waiting until the patient is already cold. Prevention beats rescue. (NICE)</span></p>
+    </div>
+
+    <h3>9.6.4 عناصر الحزمة الحرارية لغرفة العمليات / OR-side thermal bundle</h3>
+    <ul>
+        <li>التدفئة المسبقة (Pre-warming) أو البطانيات الدافئة عند الاقتضاء، (NICE)</li>
+        <li>بدء التدفئة بالهواء القسري مبكراً للحالات الطويلة أو المرضى المعرضين للخطر، (NICE)</li>
+        <li>تدفئة السوائل عند توقع كميات كبيرة، (NICE)</li>
+        <li>مراقبة الحرارة وتوثيقها على فترات محددة للحالات الطويلة. (ASA concepts; NICE)</li>
+    </ul>
+
+    <h2>9.7 حلقة التواصل: جعل الحزمة تنجو من عمليات التسليم (Handoffs)</h2>
+    <h3>9.7 The Communication Loop: Making the Bundle Survive Handoffs</h3>
+
+    <h3>9.7.1 تسليم غرفة العمليات-للإفاقة يجب أن يحمل حالة الحزمة</h3>
+    <p>إذا كان التسليم يقول "حالة مستقرة وروتينية"، لكنه يفشل في ذكر:</p>
+    <ul>
+        <li>حالة جهاز VTE،</li>
+        <li>خطر إصابة الضغط والوضعية المستخدمة،</li>
+        <li>اتجاه الحرارة وخطة التدفئة،</li>
+    </ul>
+    <p>فإن الفريق التالي لا يمكنه متابعة الوقاية بشكل موثوق. (AHRQ)</p>
+    <p><span class="english-term"><strong>9.7.1 The OR-to-PACU handoff must carry the bundle status</strong><br>If the handoff says “stable, routine,” but fails to mention: VTE device status, pressure injury risk and position used, temperature trend and warming plan, then the next team cannot continue prevention reliably. (AHRQ)</span></p>
+
+    <h3>9.7.2 هيكل تسليم بسيط وموجّه للمستقبل / Simple forward-looking handoff</h3>
+    <p>أضف ثلاث جمل لتسليم غرفة العمليات:</p>
+    <ul>
+        <li><strong>"الوقاية من VTE: ____ نشطة / غير نشطة؛ السبب ____."</strong> (NICE; AHRQ)</li>
+        <li><strong>"الوضعية: ____؛ نقاط الضغط محمية؛ أي مخاوف: ____."</strong> (NPIAP/EPUAP; AHRQ)</li>
+        <li><strong>"الحرارة: آخر قراءة ____؛ التدفئة مستمرة / الخطة ____."</strong> (NICE; AHRQ)</li>
+    </ul>
+    <p>الكلمات الصغيرة تمنع المضاعفات الكبيرة. (AHRQ; IHI)</p>
+
+    <h2>9.8 معايير التوقف والتصعيد للحزمة (متى تتوقف)</h2>
+    <h3>9.8 Stop Criteria and Escalation for the Bundle (When to Pause)</h3>
+
+    <h3>9.8.1 عندما لا يمكن تنفيذ الحزمة، يجب على الغرفة أن تقرر بوعي</h3>
+    <p>أمثلة يكون فيها التوقف منطقياً:</p>
+    <ul>
+        <li>الوقاية الميكانيكية مستطبة (Indicated) لكن غير متوفرة ولا توجد خطة بديلة موثقة، (NICE)</li>
+        <li>وضعية عالية الخطورة مُخطط لها لكن الدعامات المطلوبة غير متوفرة، (AORN)</li>
+        <li>عطل في معدات التدفئة في حالة طويلة عالية الخطورة بدون خطة تخفيف. (NICE)</li>
+    </ul>
+    <p>هذا ليس تشدداً (Rigidity)—إنه الصدق. يجب على غرفة العمليات أن تختار: أصلح الآن أو اقبل المخاطرة بوعي مع التصعيد والتوثيق. (IHI)</p>
+    <p><span class="english-term">This is not rigidity—it is honesty. The OR must choose: fix now or accept risk consciously with escalation and documentation. (IHI)</span></p>
+
+    <h3>9.8.2 الاستثناءات يجب أن تُحكم / Exceptions must be governed</h3>
+    <p>قد تتطلب الطوارئ المضي قدماً بينما يتم ترتيب التخفيف (Mitigation). لكن الاستثناءات يجب أن توثق وتُراجع. (IHI)</p>
+
+    <h2>9.9 أدوات عملية (جاهزة للاستخدام) / Practical Tools</h2>
+
+    <div class="success-box">
+        <ul>
+            <li><strong>9.9.1 الأداة 1 — بوابة "الأضرار الصامتة الثلاثة" (60-90 ثانية):</strong><br>
+            قبل الشق الجراحي تأكد:
+                <ul>
+                    <li><strong>VTE:</strong> الجهاز مُطبق + نشط (أو مانع الاستعمال موثق). (NICE)</li>
+                    <li><strong>الضغط:</strong> الوضعية مؤكدة + النقاط الرئيسية محمية + خطة إعادة فحص للحالة الطويلة. (NPIAP/EPUAP; AORN)</li>
+                    <li><strong>الحرارة:</strong> طريقة التدفئة بدأت/مخططة + خطة المراقبة. (NICE)</li>
+                </ul>
+            </li>
+            <br>
+            <li><strong>9.9.2 الأداة 2 — نص موقت إعادة الفحص للحالات الطويلة (Long-Case Recheck):</strong><br>
+            على فترات محددة مسبقاً (مثلاً: كل ساعتين أو بعد تعديل الوضعية):
+                <ul>
+                    <li>"فحص الوضعية: الكعبان/العجز/الذراعان/الوجه/العينان." (NPIAP/EPUAP; AORN)</li>
+                    <li>"جهاز VTE لا يزال نشطاً؟" (NICE)</li>
+                    <li>"اتجاه الحرارة؟" (NICE)</li>
+                </ul>
+            </li>
+            <br>
+            <li><strong>9.9.3 الأداة 3 — إضافة حزمة التسليم (OR→PACU):</strong><br>
+            الإضافة ذات الثلاثة أسطر كما في 9.7.2. (AHRQ)</li>
+            <br>
+            <li><strong>9.9.4 الأداة 4 — قائمة مصغرة لجاهزية المعدات:</strong><br>
+            جهاز SCD موجود ويعمل، وسادات تخفيف الضغط متوفرة للوضعيات عالية الخطورة، جهاز التدفئة جاهز + البطانية متوفرة. (NICE; NPIAP/EPUAP)</li>
+        </ul>
+    </div>
+
+    <h2>9.10 القياس (كيف تثبت الموثوقية) / Measurement (How You Prove Reliability)</h2>
+
+    <h3>9.10.1 المؤشرات الاستباقية / Leading indicators</h3>
+    <ul>
+        <li>% الحالات المؤهلة التي تم تنشيط الوقاية الميكانيكية VTE لها <strong>قبل الشق الجراحي</strong>. (NICE)</li>
+        <li>% الحالات الطويلة التي تحتوي على إعادة فحص موثق لنقاط الضغط على فترات. (NPIAP/EPUAP; AORN)</li>
+        <li>% الحالات التي تحتوي على مراقبة حرارة موثقة وتدفئة نشطة عند الاستطباب. (NICE)</li>
+        <li>درجة اكتمال التسليم (Handoff) لعناصر الحزمة الثلاثة. (AHRQ)</li>
+        <li>تسجيل إخفاقات توفر المعدات (SCD/تدفئة/دعامات الوضعية). (IHI)</li>
+    </ul>
+
+    <h3>9.10.2 المؤشرات المتأخرة / Lagging indicators</h3>
+    <p>أحداث VTE بعد العملية، نسبة حدوث إصابات الضغط (المرحلة والموقع)، ومعدلات انخفاض الحرارة في الإفاقة (PACU) ونسبة الارتعاش. (NICE; NPIAP/EPUAP concepts)</p>
+
+    <h3>9.10.3 سرعة حلقة التعلم / Learning-loop speed</h3>
+    <p>الوقت من فشل التدقيق أو الحدث ← إلى الإصلاح ← إلى إعادة التدقيق. (IHI)</p>
+
+    <h2>9.11 تأملات الكاتب (بعد سنوات في المسرح الجراحي) / The Writer’s Reflection</h2>
+
+    <h3>9.11.1 غرفة العمليات هي المكان الذي تصبح فيه الوقاية حقيقية</h3>
+    <p>العيادات تُقيّم الخطر. والسياسات تصف الوقاية. لكن المسرح هو المكان الذي تصبح فيه الوقاية مادية (Physical): أكمام متصلة، كعاب محمية، تدفئة مُفعلة.</p>
+    <p><span class="english-term"><strong>9.11.1 The OR is where prevention becomes real</strong><br>Clinics assess risk. Policies describe prevention. But the theatre is where prevention becomes physical: sleeves connected, heels protected, warming activated.</span></p>
+
+    <h3>9.11.2 هذه الأضرار هي "عقوبات هادئة" للأنظمة المتعجلة</h3>
+    <p>عندما يعود المريض بجلطة، أو قرحة، أو ارتعاش لا يُحتمل، لا أحد يتذكر اللحظة المتعجلة في المسرح. <strong>لكن جسد المريض يتذكر.</strong></p>
+    <p><span class="english-term"><strong>9.11.2 These harms are “quiet punishments” for rushed systems</strong><br>When a patient returns with a clot, a sore, or unbearable shivering, nobody remembers the rushed moment in theatre. <strong>But the patient’s body remembers.</strong></span></p>
+
+    <h3>9.11.3 قاعدتي / My rule</h3>
+    <p>عندما يكون الضرر صامتاً، يجب أن نكون صاخبين بوقايتنا: قلها، افحصها، وثقها، وسلّمها. (AHRQ; IHI)</p>
+    <p><span class="english-term"><strong>9.11.3 My rule</strong><br>When the harm is silent, we must be loud with our prevention: <strong>say it, check it, document it, hand it over.</strong> (AHRQ; IHI)</span></p>
+
+    <div class="divider">***</div>
+
+    <h2>ما يجب أن تتذكره من هذا الفصل / What You Should Remember from This Chapter</h2>
+    <div class="success-box">
+        <p><span class="english-term">Key Memory Messages:</span></p>
+        <ul>
+            <li>VTE، إصابات الضغط، وانخفاض الحرارة هي "أضرار صامتة" تتشكل بواسطة موثوقية غرفة العمليات أكثر من التقنية الجراحية. (NICE; NPIAP/EPUAP)<br>
+            <span class="english-term">VTE, pressure injury, and hypothermia are “silent harms” shaped by OR reliability more than surgical technique.</span></li>
+            
+            <li>استخدم بوابة حزمة بقيادة غرفة العمليات قبل الشق الجراحي: جهاز VTE نشط، حماية الضغط مؤكدة، خطة التدفئة نشطة. (IHI)<br>
+            <span class="english-term">Use an OR-driven bundle gate before incision: VTE device active, pressure protection confirmed, warming plan active.</span></li>
+            
+            <li>تتطلب الحالات الطويلة إعادة فحص—يجب أن تستمر الوقاية، وليس فقط أن تبدأ. (NPIAP/EPUAP; NICE)<br>
+            <span class="english-term">Long cases require rechecks—prevention must continue, not only start.</span></li>
+            
+            <li>عمليات التسليم (Handoffs) يجب أن تحمل حالة الحزمة وإلا ستنكسر الوقاية عند الانتقال. (AHRQ)<br>
+            <span class="english-term">Handoffs must carry bundle status or prevention will break at the transition.</span></li>
+            
+            <li>قس موثوقية الحاجز بالمؤشرات الاستباقية وأغلق حلقات التعلم بسرعة. (IHI)<br>
+            <span class="english-term">Measure barrier reliability with leading indicators and close learning loops quickly.</span></li>
+        </ul>
+    </div>
+
+    <div class="references-list">
+        <h2>المراجع / References</h2>
+        <ol>
+            <li>NICE. Venous thromboembolism: reducing the risk for patients in hospital (VTE risk and prophylaxis principles).</li>
+            <li>NICE. Inadvertent perioperative hypothermia: prevention and management (warming and monitoring principles).</li>
+            <li>National Pressure Injury Advisory Panel (NPIAP) / European Pressure Ulcer Advisory Panel (EPUAP). Pressure injury prevention guidance.</li>
+            <li>Association of periOperative Registered Nurses (AORN). Guidelines for perioperative positioning, skin integrity protection, and perioperative practice.</li>
+            <li>Agency for Healthcare Research and Quality (AHRQ). Patient Safety resources (handoffs, safety culture, communication).</li>
+            <li>Institute for Healthcare Improvement (IHI). Reliability and quality improvement resources (bundles, measurement, learning loops).</li>
+            <li>American Society of Anesthesiologists (ASA). Perioperative temperature management guidance concepts (temperature monitoring and warming practices).</li>
+        </ol>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_التاسع_حزمة_الوقاية.html";
+        document.body.appendChild(a);
+        a.click();
+        
+        setTimeout(function() {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }, 100);
+    }
+    </script>
+
+</body></html>

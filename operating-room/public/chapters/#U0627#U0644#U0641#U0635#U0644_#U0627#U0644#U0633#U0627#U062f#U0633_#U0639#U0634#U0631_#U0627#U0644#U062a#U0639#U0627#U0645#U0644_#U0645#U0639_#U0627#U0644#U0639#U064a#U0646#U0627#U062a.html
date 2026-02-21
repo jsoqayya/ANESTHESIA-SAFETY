@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiNWFlNDg4ZGU5NDlkNmY0OGJhYzU1ZmMwYTE1NzJlZTJmNjExMzciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2JjMTE5NTgyNmI1ZTRmMjVf2KfZhNmB2LXZhF_Yp9mE2LPYp9iv2LNf2LnYtNixX9in2YTYqti52KfZhdmEX9mF2Llf2KfZhNi52YrZhtin2KouaHRtbC03MTQifSwiZXhwIjoxNzcxNjY4MDgwLCJpYXQiOjE3NzE2NjQ0ODAsImFsZyI6IlJTMjU2In0.bINMFl3nInihK-Vqc3HoTqjA8fkDm_ev1Du7hfNs-zWQzjjba05kHzqaWDeYJBwF82_DIVEDaRWSn5ZlsPnA9KZmaFu1cM54DWtgwzVnTdLS99_63HJjkM18Oi3KCtSZEXzj64KNQ-3CNvv3IJ9fuEVLasG0xLJa-8gV2UlgO30II1GRbW3srN9Rb5aXNq9XAsGVThF9RtBXC2SoWmU3I2DvVOcLf0XLYd1NcePrIddAhmCIKKZRR-9zVC6kMVdH3IYBEKm6QJCF8Wj1GjfceI1CGlr2IYi-5a9umVYSudKsu5hxuZhi_zJTwnka3ZKJrfUo27XbKhZNTszAz6RZkg","c_bc1195826b5e4f25_الفصل_السادس_عشر_التعامل_مع_العينات.html-714")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+})();</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل السادس عشر — التعامل مع العينات وتسميتها: أخطاء لا يُتسامح معها</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-size: 19px;
+      }
+
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 19px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Tables Style */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.95em;
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-align: right;
+      }
+      
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+      }
+      
+      tbody tr:nth-of-type(even) {
+        background-color: #f9fafb;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* References */
+      .references-list {
+        font-size: 16px;
+        color: #4b5563;
+        direction: ltr;
+        text-align: left;
+        margin-top: 30px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 20px;
+      }
+
+      .references-list li {
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; font-size: 17px; }
+        table { display: block; overflow-x: auto; }
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #2563eb;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      .download-btn:hover {
+        background-color: #1d4ed8;
+        transform: translateY(-2px);
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Button -->
+    
+
+    <div class="part-title">PART III — Intraoperative Safety and High Reliability</div>
+    <div class="part-title">الجزء الثالث — السلامة داخل العملية والموثوقية العالية</div>
+    
+    <h1>CHAPTER 16 — Specimen Handling and Labelling: Zero-Tolerance Errors</h1>
+    <div class="subtitle">الفصل السادس عشر — التعامل مع العينات وتسميتها: أخطاء لا يُتسامح معها<br>
+    <span style="font-size: 18px;">(Specimen-ID Chain • Intra-op Labelling Discipline • Pathology Communication • Near-Miss Traps)<br>
+    (سلسلة هوية العينة • انضباط التسمية داخل العملية • التواصل مع علم الأمراض • فخاخ الحوادث الوشيكة)</span></div>
+    
+    <h2>أهداف الفصل / Chapter Aims</h2>
+    <div class="concept-box">
+        <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
+        <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
+        <ol>
+            <li>وصف <strong>سلسلة هوية العينة (Specimen-ID chain)</strong> كـ "سلسلة عهدة" صارمة (جمع ← تسمية ← تحقق ← توثيق ← نقل ← استلام) وشرح لماذا يمكن أن تؤدي حلقة واحدة ضعيفة إلى تشخيص خاطئ أو علاج خاطئ. (AORN; AHRQ)<br>
+            <span class="english-term">Describe the <strong>specimen-ID chain</strong> as a strict chain of custody (collect → label → verify → document → transport → receive) and explain why a single weak link can become wrong diagnosis or wrong treatment. (AORN; AHRQ)</span></li>
+            
+            <li>بناء <strong>انضباط التسمية داخل العملية (Intraoperative labelling discipline)</strong>: التسمية في نقطة الرعاية (Point-of-care)، اللحظات المحمية (Protected moments)، التحقق بالقراءة العكسية (Read-back verification)، وقواعد "عينة واحدة في كل مرة" التي تصمد أمام المقاطعات. (AORN; AHRQ; WHO SSC)<br>
+            <span class="english-term">Build <strong>intraoperative labelling discipline</strong>: point-of-care labeling, protected moments, read-back verification, and “one specimen at a time” rules that survive interruptions. (AORN; AHRQ; WHO SSC)</span></li>
+            
+            <li>التواصل الفعال مع قسم علم الأمراض (Pathology): الواصفات الصحيحة للعينة، الجهة/المستوى (Laterality/level)، توجيه الحواف (Margin orientation)، التعامل الخاص (طازج/مجمد/ميكرو)، والإلحاح—باستخدام لغة الحلقة المغلقة. (AORN; AHRQ)<br>
+            <span class="english-term">Communicate effectively with pathology: correct specimen descriptors, laterality/level, margin orientation, special handling (fresh/frozen/micro), and urgency—using closed-loop language. (AORN; AHRQ)</span></li>
+            
+            <li>التعرف على <strong>فخاخ الحوادث الوشيكة (Near-miss traps)</strong> وإبطال مفعولها: الحاويات المتعددة، الأسماء المتشابهة، "التسمية لاحقاً"، المقاطعات، التسليم (Handoffs)، الأكواب غير المسماة، وافتراض أن "شخصاً آخر سيعرف". (AHRQ; IHI)<br>
+            <span class="english-term">Recognize and neutralize <strong>near-miss traps</strong>: multiple containers, similar names, “label later,” interruptions, handoffs, unlabeled cups, and “someone else will know.” (AHRQ; IHI)</span></li>
+            
+            <li>تنفيذ أدوات جاهزة للتدقيق: نص القراءة العكسية للعينة، قاعدة اللحظة المحمية، الإبلاغ عن الحوادث الوشيكة، ومقاييس الجودة لسلامة العينات. (IHI; AHRQ)<br>
+            <span class="english-term">Implement audit-ready tools: specimen read-back script, protected moment rule, near-miss reporting, and quality metrics for specimen integrity. (IHI; AHRQ)</span></li>
+        </ol>
+    </div>
+
+    <h2>السيناريو الافتتاحي / Opening Scenario</h2>
+    <div class="quote-box">
+        <strong>حالة واقعية: "وعاء صغير حمل قراراً يمس الحياة"</strong><br>
+        <span class="english-term">A true-to-life case: “A small jar that carried a life decision” (Real Scientific Story)</span>
+    </div>
+
+    <p>في غرفة العمليات، يمكن أن تكون العينة (Specimen) أصغر جسم في الغرفة—ومع ذلك تظل الأثقل. بضعة مليمترات من الأنسجة يمكن أن تقرر العلاج الكيميائي، أو الخصوبة، أو البتر، أو الطمأنينة. هذا الاحترام هو سبب أهمية هذا الفصل.</p>
+    <p><span class="english-term">In the OR, a specimen can be the smallest object in the room—and still be the heaviest. A few millimeters of tissue can decide chemotherapy, fertility, amputation, or reassurance. That respect is why this chapter matters.</span></p>
+
+    <p>في أحد الصباحات، كان جراح يزيل آفة في الثدي. أُخذت العينة ومُررِت إلى الممرضة المعقمة (Scrub nurse)، التي وضعتها في كوب صغير من الستانلس ستيل على الطاولة الخلفية (Back table). ثم، حدث نزيف من وعاء دموي صغير. تحول انتباه الغرفة على الفور. طُلبت أدوات، واستُخدم الشفط (Suction). تم حل النزيف في غضون دقائق.</p>
+    <p><span class="english-term">One morning, a surgeon was removing a breast lesion. The specimen was taken and passed to the scrub nurse, who placed it in a small stainless-steel cup on the back table. Then, a small vessel bled. The room’s attention shifted immediately. Instruments were requested, suction was used. The bleeding was resolved within minutes.</span></p>
+
+    <p>عندما استقرت الغرفة، سأل الجراح: "هل أرسلتم ذلك المقطع التجميدي (Frozen section)؟"<br>
+    نظرت الممرضة المعقمة إلى الطاولة الخلفية. كان هناك كوبان من الستانلس ستيل. أحدهما يحتوي على العينة. والآخر يحتوي على قطعة من نسيج شحمي طبيعي تم إزالتها أثناء الكي (Cautery clearance). كلاهما لم يكن يحمل ملصقاً.</p>
+    <p><span class="english-term">When the room settled, the surgeon asked: “Did you send that frozen section?”<br>
+    The scrub nurse looked at the back table. There were two stainless-steel cups. One contained the specimen. One contained a piece of normal fatty tissue removed during cautery clearance. Both were unlabeled.</span></p>
+
+    <div class="alert-box">
+        <p>شعرت الممرضة ببرودة تسري في جسدها. قالت: "لدينا قطعتان من الأنسجة هنا. أنا لست متأكدة أي منهما هي العينة الأساسية."</p>
+        <p><span class="english-term">The nurse felt a cold wave. She said: “We have two pieces of tissue here. I am not sure which is the primary specimen.”</span></p>
+    </div>
+
+    <p>اضطر الجراح إلى إيقاف العملية، وكسر التعقيم، وفحص القطعتين يدوياً لتحديد آفة السرطان المشتبه بها. لقد حالفهم الحظ؛ كان الفرق واضحاً. لكن لو كانت القطعتان متشابهتين، لكان المريض سيستيقظ دون أن يعرف ما إذا كان السرطان قد أُزيل أم لا.</p>
+    <p><span class="english-term">The surgeon had to pause, break scrub, and manually inspect the two pieces to identify the suspected cancer lesion. They were lucky; the difference was obvious. But if the pieces had been similar, the patient would have woken up not knowing if the cancer was removed.</span></p>
+
+    <div class="success-box">
+        <p>لا تحدث أخطاء العينات لأن الممرضات غير مباليات. إنها تحدث لأن <strong>السرعة والمقاطعات تُكسر سلسلة هوية العينة</strong>. عندما تعتمد العينة على الذاكرة بدلاً من الملصق الفوري، فإنك تلعب "الروليت الروسي" (لعبة حظ مميتة) مع تشخيص المريض. (AORN; AHRQ)</p>
+        <p><span class="english-term">Specimen errors do not happen because nurses are careless. They happen because <strong>speed and interruptions break the specimen-ID chain</strong>. When a specimen relies on memory instead of an immediate label, you are playing Russian roulette with a patient’s diagnosis. (AORN; AHRQ)</span></p>
+    </div>
+
+    <h2>16.1 سلسلة هوية العينة (سلسلة العهدة)</h2>
+    <h3>16.1 The Specimen-ID Chain (Chain of Custody)</h3>
+
+    <h3>16.1.1 العينة ليست "قطعة"؛ إنها بيانات مريض</h3>
+    <p>منذ لحظة قطع الأنسجة، تصبح جزءاً حاسماً من السجل الطبي للمريض. يجب أن تُدار هذه الأنسجة بنفس صرامة الدم المخصص لنقل الدم (Transfusion). (AORN)</p>
+    <p><span class="english-term"><strong>16.1.1 A specimen is not a "piece"; it is patient data</strong><br>From the moment tissue is cut, it becomes a critical piece of the patient’s medical record. That tissue must be managed with the same strictness as blood meant for transfusion. (AORN)</span></p>
+
+    <h3>16.1.2 خطوات سلسلة العهدة الست / The six chain-of-custody steps</h3>
+    <p>إذا انكسرت أي من هذه الروابط، فإن التشخيص بأكمله ينهار:</p>
+    <div class="concept-box">
+        <ol>
+            <li><strong>الجمع (Collect):</strong> يقوم الجراح بالقطع والتمرير، مُحدداً ماهية العينة <em>بصوت عالٍ</em>.</li>
+            <li><strong>التسمية (Label):</strong> يتم تحضير الملصق <em>في نقطة الرعاية (Point of care)</em> في غرفة العمليات، وليس في الممر.</li>
+            <li><strong>التحقق (Verify):</strong> تقرأ الممرضة الملصق <em>بصوت عالٍ (Read-back)</em> للتأكيد مع الجراح.</li>
+            <li><strong>التوثيق (Document):</strong> يتم تسجيلها في السجل الجراحي أثناء الـ Sign-out. (WHO SSC)</li>
+            <li><strong>النقل (Transport):</strong> يتم تسليمها يداً بيد أو عبر نظام هوائي (Pneumatic) آمن، دون أن تُترك أبداً دون رقابة.</li>
+            <li><strong>الاستلام (Receive):</strong> يؤكد قسم علم الأمراض (Pathology) التطابق بين الوعاء، والطلب، وعينة الأنسجة. (AORN; AHRQ)</li>
+        </ol>
+        <p><span class="english-term">Collect → Label → Verify → Document → Transport → Receive. (AORN; AHRQ)</span></p>
+    </div>
+
+    <h2>16.2 انضباط التسمية داخل العملية (في نقطة الرعاية)</h2>
+    <h3>16.2 Intraoperative Labelling Discipline (Point of Care)</h3>
+
+    <h3>16.2.1 التسمية في نقطة الرعاية (لا توجد كلمة "لاحقاً")</h3>
+    <p>الكلمة الأكثر خطورة في إدارة العينات هي "لاحقاً". <em>"سأضع الملصق لاحقاً،" "سأقوم بتسميتها بعد هذه الخطوة."</em> "لاحقاً" هو الوقت الذي تحدث فيه المقاطعات ويختفي السياق. <strong>يجب وضع الملصق على الوعاء بمجرد وضع العينة فيه.</strong> (AORN)</p>
+    <p><span class="english-term"><strong>16.2.1 Point-of-care labelling (There is no "later")</strong><br>The most dangerous word in specimen management is “later.” <em>"I’ll label it later," "I’ll name it after this step."</em> "Later" is when interruptions happen and context disappears. <strong>The container must be labeled as soon as the specimen is placed in it.</strong> (AORN)</span></p>
+
+    <h3>16.2.2 قاعدة "عينة واحدة في كل مرة" / "One specimen at a time"</h3>
+    <p>إذا كان الجراح يزيل آفات متعددة (مثل الخزعات/Biopsies المتعددة)، فلا يجب أبداً تجميعها على الطاولة الخلفية لتُسمى لاحقاً كدفعة واحدة. تعامل مع عينة واحدة بالكامل (الجمع، وضع الملصق، التحقق) قبل الانتقال إلى العينة التالية. هذا يمنع تبديل الأوعية. (AHRQ)</p>
+    <p><span class="english-term"><strong>16.2.2 The "one specimen at a time" rule</strong><br>If a surgeon is removing multiple lesions, they must never be batched on the back table to be labeled all at once. Process one specimen completely (collect, label, verify) before moving to the next. This prevents vessel swaps. (AHRQ)</span></p>
+
+    <h3>16.2.3 التحقق بالقراءة العكسية (Read-back) (اللحظة المحمية)</h3>
+    <p>التسمية الصامتة عرضة للخطأ. يجب أن تكون خطوة التسمية <strong>لحظة محمية (Protected moment)</strong> خالية من المشتتات.</p>
+    <div class="success-box">
+        <p><strong>قاعدة التمريض:</strong> تمسك الممرضة الوعاء ذو الملصق وتقرأ بصوت عالٍ: <em>"أقوم بإرسال عينة للمريض [الاسم الكامل]، الموصوفة كـ [الجهة والوصف الدقيق]."</em><br>
+        يجب على الجراح الرد: <em>"هذا صحيح."</em> (AHRQ; WHO SSC)</p>
+        <p><span class="english-term"><strong>Nursing Rule:</strong> The nurse holds the labeled container and reads out loud: <em>"I am sending a specimen for [Full Name], described as [Exact laterality and description]."</em> The surgeon must reply: <em>"That is correct."</em> (AHRQ; WHO SSC)</span></p>
+    </div>
+
+    <h2>16.3 التواصل مع علم الأمراض (كلمات تصنع الفارق)</h2>
+    <h3>16.3 Communicating with Pathology (Words That Matter)</h3>
+
+    <h3>16.3.1 الدقة تتفوق على الافتراض / Precision beats assumption</h3>
+    <p>طبيب علم الأمراض (Pathologist) لا يمكنه رؤية المريض. إنهم يرون فقط الوعاء والكلمات التي تكتبها. إذا كتبت "كتلة"، فقد جعلت عملهم خطيراً. إذا كتبت "كتلة من الثدي الأيمن، الربع العلوي الخارجي، الحافة العلوية محددة بخيط حرير"، فقد أعطيتهم خريطة. (AORN)</p>
+    <p><span class="english-term"><strong>16.3.1 Precision beats assumption</strong><br>The pathologist cannot see the patient. They only see the jar and the words you write. If you write "mass," you have made their job dangerous. If you write "right breast mass, upper outer quadrant, superior margin marked with silk tie," you have given them a map. (AORN)</span></p>
+
+    <h3>16.3.2 متطلبات التعامل الخاص (التعرف عليها وتوضيحها)</h3>
+    <p>يجب أن يعرف فريق غرفة العمليات بوضوح ما إذا كانت العينة تحتاج إلى:</p>
+    <ul>
+        <li><strong>مقطع تجميدي (Frozen section):</strong> للتحليل الفوري داخل العملية (يُرسل جافاً/طازجاً، وليس في الفورمالين).</li>
+        <li><strong>الفورمالين (Formalin):</strong> للتثبيت الروتيني (تجنبه للعينات التي تتطلب زراعة حية أو دراسات جينية معينة).</li>
+        <li><strong>الميكروبيولوجيا (Microbiology):</strong> يُرسل في محلول ملحي أو وعاء معقم للزراعة (Culture).</li>
+        <li><strong>حصوات/أسنان:</strong> تُرسل جافة. (AORN)</li>
+    </ul>
+    <p>وضع عينة "مقطع تجميدي" في الفورمالين يدمرها إلى الأبد.</p>
+    <p><span class="english-term">Placing a "frozen section" specimen into formalin destroys it forever.</span></p>
+
+    <h2>16.4 "فخاخ الحوادث الوشيكة" (كيف تفشل الفرق الجيدة)</h2>
+    <h3>16.4 The "Near-Miss Traps" (How Good Teams Fail)</h3>
+
+    <div class="alert-box">
+        <h3>16.4.1 فخ "الأسماء المتشابهة" / The "similar names" trap</h3>
+        <p>إذا قمت بطباعة دفعة من ملصقات المرضى في بداية اليوم (ممارسة شائعة ولكنها خطيرة)، فقد تلتقط الممرضة ملصق مريض الحالة الأولى وتضعه على وعاء عينة مريض الحالة الثانية. <strong>قاعدة: لا تجلب أبداً ملصقات مريض إلى الغرفة لا تعود للمريض الموجود على الطاولة.</strong> (IHI; AHRQ)</p>
+        <p><span class="english-term">If you print a batch of patient labels at the start of the day, a nurse might grab the first case’s label and put it on the second case’s jar. <strong>Rule: Never bring labels into a room that do not belong to the patient currently on the table.</strong> (IHI; AHRQ)</span></p>
+        
+        <h3>16.4.2 فخ "التسليم والمناولة" / The handoff trap</h3>
+        <p>تستلم ممرضة التبديل (Relief nurse) الغرفة. تقول الممرضة المغادرة: "العينات هناك على الطاولة." إذا لم تكن تلك العينات مسماة <em>بالفعل</em> ومُدرجة في الـ Sign-out، فإن ممرضة التبديل أصبحت الآن في وضع تخمين. (AHRQ)</p>
+        
+        <h3>16.4.3 فخ "الملصق على الغطاء" / The "label on the lid" trap</h3>
+        <p>إذا وضعت الملصق على الغطاء، وقام قسم علم الأمراض بفك أغطية ثلاثة أوعية في وقت واحد، فستنفصل الملصقات عن العينات. <strong>قاعدة: ضع الملصق دائماً على الوعاء نفسه، وليس على الغطاء.</strong> (AORN)</p>
+        <p><span class="english-term">If you put the label on the lid, and pathology unscrews three lids at once, the labels are now separated from the specimens. <strong>Rule: Always place the label on the container itself, never just on the lid.</strong> (AORN)</span></p>
+    </div>
+
+    <h2>16.5 القصة الحقيقية 2: "الكوب غير المسمى على الطاولة الخلفية"</h2>
+    <h3>16.5 Real Story 2: “The unlabeled cup on the back table”</h3>
+
+    <div class="quote-box">
+        <p><strong>المشهد:</strong> حالة أذن وأنف وحنجرة (ENT). طلب الجراح بعض المحلول الملحي (Saline) للغسيل، ودواءً موضعياً (Local anesthetic)، وكان هناك أيضاً عينة صغيرة من الأنسجة مأخوذة للزراعة (Culture). كانت جميعها في أكواب صغيرة متشابهة من الستانلس ستيل على الطاولة الخلفية للممرضة المعقمة. لم يكن لأي منها ملصق معقم.</p>
+        <p><span class="english-term"><strong>The scene:</strong> An ENT case. The surgeon asked for some saline for irrigation, some local anesthetic, and there was also a small tissue specimen taken for culture. All three were in identical small stainless-steel cups on the scrub nurse's back table. None had a sterile label.</span></p>
+        
+        <p><strong>الخطر:</strong> كاد الجراح أن يحقن دواءً موضعياً ولكنه كان سيأخذ المحلول الملحي الممزوج بالدم من وعاء العينة. تم تجنب الحدث، لكنه كشف عن خطر مروع.</p>
+        <p><span class="english-term"><strong>The danger:</strong> The surgeon almost injected local anesthetic but reached for the bloody saline from the specimen cup. The event was caught, but it exposed a terrifying risk.</span></p>
+    </div>
+
+    <p><strong>إصلاح النظام:</strong><br>
+    تتطلب الممارسة المعقمة الحديثة أن <strong>يتم تسمية كل سائل وكل عينة على الحقل المعقم بمجرد سحبها أو أخذها.</strong> استخدم أقلام تحديد معقمة أو ملصقات معقمة مطبوعة مسبقاً. الأكواب غير المسماة هي حقول ألغام. (AORN; ISMP)</p>
+    <p><span class="english-term"><strong>The system fix:</strong> Modern sterile practice requires that <strong>every fluid and every specimen on the sterile field must be labeled the moment it is drawn or taken.</strong> Use sterile markers or pre-printed sterile labels. Unlabeled cups are minefields. (AORN; ISMP)</span></p>
+
+    <h2>16.6 أدوات عملية لموثوقية العينات</h2>
+    <h3>16.6 Practical Tools for Specimen Reliability</h3>
+
+    <div class="success-box">
+        <ul>
+            <li><strong>16.6.1 الأداة 1 — نص القراءة العكسية للعينة (The Read-Back Script):</strong><br>
+            مطبوع كملصق صغير على محطة الممرضة الدوارة: <em>"لدينا عينة لـ [اسم المريض]، [تاريخ الميلاد]، وهي عبارة عن [وصف]. هل هذا صحيح دكتور؟"</em> (AHRQ; WHO SSC)</li>
+            <br>
+            <li><strong>16.6.2 الأداة 2 — نموذج استلام قسم علم الأمراض (Pathology Receipt Log):</strong><br>
+            يجب أن يوقع الناقل وقسم علم الأمراض على استلام العينة، مع تأكيد تطابق الملصق مع الطلب قبل مغادرة الناقل. يغلق هذا سلسلة العهدة. (AORN)</li>
+            <br>
+            <li><strong>16.6.3 الأداة 3 — تأكيد الـ Sign-out (قائمة منظمة الصحة العالمية):</strong><br>
+            تتطلب قائمة التحقق من السلامة الجراحية (SSC) قبل خروج المريض أن تؤكد الممرضة بصوت عالٍ: <em>"تم تسمية العينة بوضوح (بما في ذلك اسم المريض)."</em> هذا هو الحاجز الأخير. (WHO SSC)</li>
+        </ul>
+    </div>
+
+    <h2>16.7 القياس (كيف تعرف أن النظام يعمل)</h2>
+    <h3>16.7 Measurement (How You Know It Works)</h3>
+
+    <h3>16.7.1 المؤشرات الاستباقية / Leading indicators</h3>
+    <ul>
+        <li>النسبة المئوية للمهلات (Time-outs / Sign-outs) الملاحظة حيث حدثت قراءة عكسية (Read-back) للعينة بشكل صحيح. (WHO SSC)</li>
+        <li>عدد الحوادث الوشيكة (Near-misses) المبلغ عنها والمتعلقة بالعينات (ارتفاع هذا الرقم يعني أن الثقافة تتحسن، والموظفون يكتشفون الأخطاء مبكراً). (IHI; AHRQ)</li>
+    </ul>
+
+    <h3>16.7.2 المؤشرات المتأخرة / Lagging indicators</h3>
+    <ul>
+        <li>عدد العينات المرفوضة من قبل قسم علم الأمراض بسبب أخطاء في التسمية أو التوثيق أو عدم وجود وعاء مناسب.</li>
+        <li>أحداث العينات المفقودة أو التي لا يمكن تعويضها (Lost/irreplaceable specimen events). (AORN)</li>
+    </ul>
+
+    <h2>16.15 تأملات الكاتب (العينة هي قصة مستقبلية)</h2>
+    <h3>16.15 The Writer’s Reflection (A specimen is a future story)</h3>
+    <p><em>ملاحظة: تم الاحتفاظ بالترقيم كما هو في النص الأصلي.</em></p>
+
+    <h3>16.15.1 العينة هي قصة مستقبلية / A specimen is a future story</h3>
+    <p>العينة هي قصة عن جسد المريض. إذا أرفقنا الاسم الخاطئ، فإننا نكتب القصة الخاطئة—وشخص آخر سيتصرف بناءً عليها لاحقاً.</p>
+    <p><span class="english-term"><strong>16.15.1 A specimen is a future story</strong><br>A specimen is a story about the patient’s body. If we attach the wrong name, we write the wrong story—and someone else acts on it later.</span></p>
+
+    <h3>16.15.2 عدم التسامح لا يعني القسوة / Zero-tolerance does not mean harshness</h3>
+    <p>عدم التسامح يعني <strong>عدم التسامح مع الغموض</strong>—مع معاملة الأشخاص بكرامة. الغرف الأكثر أماناً تتحدث بهدوء ووضوح. (AHRQ)</p>
+    <p><span class="english-term"><strong>16.15.2 Zero-tolerance does not mean harshness</strong><br>Zero-tolerance means zero tolerance for ambiguity—while treating people with dignity. The safest rooms speak calmly and clearly. (AHRQ)</span></p>
+
+    <h3>16.15.3 قاعدتي / My rule</h3>
+    <p>إذا لم أستطع قول هوية العينة بصوت عالٍ بثقة تامة، فهي ليست جاهزة لمغادرة الغرفة. (AORN; AHRQ)</p>
+    <p><span class="english-term"><strong>16.15.3 My rule</strong><br>If I cannot say the specimen identity out loud with confidence, it is not ready to leave the room. (AORN; AHRQ)</span></p>
+
+    <div class="divider">***</div>
+
+    <h2>ما يجب أن تتذكره من هذا الفصل / What You Should Remember from This Chapter</h2>
+    <div class="success-box">
+        <p><span class="english-term">Key Memory Messages:</span></p>
+        <ul>
+            <li>سلامة العينة هي سلسلة عهدة (Chain of custody)؛ قم بالتسمية في نقطة الرعاية، تحقق بالقراءة العكسية، وثّق، وسلّم بوضوح. (AORN; AHRQ)<br>
+            <span class="english-term">Specimen integrity is a chain of custody; label at point of care, verify with read-back, document and hand off with clarity.</span></li>
+            
+            <li>احمِ عملية التسمية باستخدام قواعد "عينة واحدة في كل مرة" واللحظات المحمية للتغلب على المقاطعات. (AHRQ; IHI)<br>
+            <span class="english-term">Protect labeling with “one specimen at a time” and protected moments to defeat interruptions.</span></li>
+            
+            <li>يتطلب التواصل مع علم الأمراض واصفات (Descriptors) دقيقة وتسليماً مغلق الحلقة للعينات العاجلة. (AORN; AHRQ)<br>
+            <span class="english-term">Pathology communication requires precise descriptors and closed-loop handoffs for urgent specimens.</span></li>
+            
+            <li>فخاخ الحوادث الوشيكة (Near-miss traps) يمكن التنبؤ بها—صمم نظامك لمنعها وتعلم منها بسرعة. (IHI)<br>
+            <span class="english-term">Near-miss traps are predictable—design your system to prevent them and learn from them fast.</span></li>
+        </ul>
+    </div>
+
+    <div class="references-list">
+        <h2>المراجع / References</h2>
+        <ol>
+            <li>Association of periOperative Registered Nurses (AORN). Guidelines for Perioperative Practice (specimen management, labeling discipline, perioperative communication concepts).</li>
+            <li>Agency for Healthcare Research and Quality (AHRQ). Patient Safety resources (communication, closed-loop verification, safety culture, learning systems).</li>
+            <li>World Health Organization (WHO). WHO Surgical Safety Checklist and Implementation Resources (sign-out specimen confirmation and team communication concepts).</li>
+            <li>Institute for Healthcare Improvement (IHI). Reliability and quality improvement resources (standard work, measurement, learning loops, human factors under pressure).</li>
+        </ol>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_السادس_عشر_التعامل_مع_العينات.html";
+        document.body.appendChild(a);
+        a.click();
+        
+        setTimeout(function() {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }, 100);
+    }
+    </script>
+
+</body></html>

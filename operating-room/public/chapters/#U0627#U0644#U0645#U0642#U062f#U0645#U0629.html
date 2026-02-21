@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiNWFlNDg4ZGU5NDlkNmY0OGJhYzU1ZmMwYTE1NzJlZTJmNjExMzciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2JjMTE5NTgyNmI1ZTRmMjVf2KfZhNmF2YLYr9mF2Klf2LPYsdiv2YrYqV_Yt9mI2YrZhNipLmh0bWwtMTM3In0sImV4cCI6MTc3MTY3OTY0OSwiaWF0IjoxNzcxNjc2MDQ5LCJhbGciOiJSUzI1NiJ9.F32KWb7VshzrwI-cle14we0KIyRh48j6CcVyO5xmCN6-WZ5Pd10BFPdXIcL6UgaiHbfqGMLZA6mkYs3yr7Ub2-THuKH7dSALKrQlqK4EQrdaEW7uQ5fgy_HjiXydKjLOIQI-z1Z1PrjNQcL49PoVYEYojFiML0tIiz2rX4Pc_d9eFWLengMCF8x6DqOLdwwFZu2S0o3qpplKzVYw99mOynBSgMAb37h6jK3Vu-7bYAxRUdb-43ajqbPgY9QA8g24xXr3j8sZZ3LpAxbghg8KtGBO6TtK0B9Pe4ZmOgbTl9cArlDY8cACuMtFXea9NHUXt91FB3jNTexEwSmmmULWTQ","c_bc1195826b5e4f25_المقدمة_سردية_طويلة.html-137")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+})();</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقدمة المؤلف - مبادئ السلامة والجودة في العمليات</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800;900&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #1e3a8a;
+        --secondary-blue: #2563eb;
+        --light-blue-bg: #eff6ff;
+        --text-dark: #0f172a;
+        --text-muted: #475569;
+        --border-color: #e2e8f0;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 2.4; /* زيادة التباعد لراحة القراءة الطويلة */
+        color: var(--text-dark);
+        background-color: #f8fafc;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 60px 50px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-size: 23px; /* خط كبير ومريح */
+      }
+
+      .content-wrapper {
+        background-color: #ffffff;
+        padding: 70px 80px;
+        border-radius: 12px;
+        box-shadow: 0 10px 40px -5px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 900;
+        color: var(--primary-blue);
+        text-align: center;
+        font-size: 46px;
+        margin-bottom: 20px;
+        line-height: 1.4;
+      }
+
+      .subtitle {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        text-align: center;
+        font-size: 26px;
+        color: var(--text-muted);
+        margin-bottom: 70px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid #fbbf24;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: var(--secondary-blue);
+        font-size: 32px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        position: relative;
+        padding-right: 25px;
+      }
+
+      h2::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 10%;
+        height: 80%;
+        width: 8px;
+        background-color: var(--secondary-blue);
+        border-radius: 4px;
+      }
+
+      p {
+        margin-bottom: 35px;
+        text-justify: inter-word;
+      }
+
+      .drop-cap:first-letter {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-size: 4em;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: -15px;
+        line-height: 0.9;
+        color: var(--primary-blue);
+        text-shadow: 2px 2px 0px rgba(37, 99, 235, 0.1);
+      }
+
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 8px solid var(--primary-blue);
+        padding: 40px;
+        margin: 60px 0;
+        border-radius: 10px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+        color: var(--primary-blue);
+        text-align: center;
+        line-height: 1.9;
+        box-shadow: inset 0 2px 10px rgba(0,0,0,0.03);
+      }
+
+      .highlight-text {
+        color: var(--secondary-blue);
+        font-weight: bold;
+      }
+
+      .signature {
+        margin-top: 100px;
+        text-align: left;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        color: var(--primary-blue);
+        border-top: 2px solid var(--border-color);
+        padding-top: 40px;
+        line-height: 1.5;
+      }
+      
+      .signature-title {
+        font-size: 20px;
+        color: var(--text-muted);
+        font-weight: 600;
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #2563eb;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      .download-btn:hover {
+        background-color: #1d4ed8;
+        transform: translateY(-2px);
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px 10px; font-size: 19px; }
+        .content-wrapper { padding: 40px 25px; }
+        h1 { font-size: 34px; }
+        h2 { font-size: 26px; }
+      }
+    </style>
+</head>
+<body style="padding-top: 60px;">
+
+    <!-- Download Button -->
+    
+
+    <div class="content-wrapper">
+        <h1>مقدمة المؤلف</h1>
+        <div class="subtitle">ربع قرن بين مبضع الجراح ونبض الأجهزة..<br>من وهم "البطولات الفردية" إلى هندسة "الأنظمة الآمنة"</div>
+
+        <p class="drop-cap">خمسة وعشرون عاماً.. حين أكتب هذا الرقم الآن وأتأمله على الورق، أشعر بثقل السنين وبكثافة اللحظات التي لا يمكن اختزالها في مجرد مسيرة مهنية أو سيرة ذاتية تُعلق على جدار. خمسة وعشرون عاماً قضيتها أتنقل بين أروقة المستشفيات وغرف العمليات، أقف تحت تلك الأضواء الساطعة الباردة التي لا ترحم الزيف، أستنشق رائحة المعقمات التي تترسخ في الذاكرة حتى تصير جزءاً من التكوين الشخصي، وأصغي إلى ذلك الإيقاع الرتيب والمهيب لأجهزة مراقبة النبض؛ ذلك الرنين الذي يعلمك معنى "الاستقرار" حين يهدأ، ويكشف لك هشاشة الإنسان وضعفه المطلق حين يتغير إيقاعه فجأة.</p>
+
+        <p>في تلك المساحة المغلقة، المعزولة عن ضجيج العالم الخارجي، حيث لا أحد يرى ما يحدث للمريض إلا نحن، تعلمتُ أن قيمة العمل الطبي لا تكمن فقط فيما ننجزه أمام عدسات الكاميرات أو في المؤتمرات الطبية، بل تكمن أساساً فيما نحفظه من أمانة في اللحظات التي لا يراقبنا فيها أحد. لطالما نظرتُ إلى غرفة العمليات على أنها "حرمٌ مُقدس". وأنا هنا لا أستخدم هذا التعبير من باب المبالغة الأدبية أو التنظير الفلسفي، بل لأصف حقيقةً أخلاقية وروحية عشتها بشكل يومي. إنها المكان الوحيد تقريباً على وجه الأرض، الذي يسلمك فيه إنسان غريب أثمن ما يملك، دون قيد أو شرط. يسلمك وعيه، وكرامة جسده، وأنفاسه، وربما حياته بأكملها. يدخل إليك وهو يعلم يقيناً أنه سيغيب عن الوعي، وأنه لن يرى مَن الذي فعل ماذا، ولن يسمع كيف تواصلتم، ولن يعرف إن كنتم متعبين أو منهكين تحت ضغط الوقت. ومع ذلك، يغمض عينيه ويثق بنا.</p>
+
+        <p>هذه الثقة المطلقة ليست "مجاملة" من المريض، إنها تفويض كامل لا يمنحه الإنسان بسهولة إلا حين يشعر أنه لا يملك خياراً آخر. ومن هنا، ومن هذا السرير الدافئ في تلك الغرفة الباردة، يأتي الحمل الأخلاقي الذي يفوق الجبال وزناً: أن تكون أنت والفريق حراساً لهذا التفويض، ليس بالحماسة وحدها، ولا بالنيات الطيبة، بل بالعلم، وبالتواضع، وبالنظام الصارم الذي لا يسمح للضعف البشري بأن يتحول إلى ضرر يصيب من وضع ثقته المطلقة فينا.</p>
+
+        <h2>الفراغ المؤلم في مكتبتنا العربية</h2>
+
+        <p>قد تسألني أيها القارئ الكريم: لماذا هذا الكتاب؟ ولماذا الآن؟ ولماذا باللغة العربية تحديداً؟</p>
+        
+        <p>على مدار سنوات عملي الطويلة كطبيب وممارس وقيادي، كنت أقف مراراً أمام أرفف المكتبات الطبية والمحتوى المتاح بلغتنا الأم، وكنت أشعر بتناقض مؤلم. لقد حققنا في عالمنا العربي تقدماً هائلاً في ترجمة وتأليف الكتب التي تشرح "كيف تجري عملية جراحية معقدة"، و"كيف تخدر مريضاً يعاني من أمراض مزمنة"، و"كيف تشخص مرضاً نادراً". لدينا مراجع طبية سريرية وتقنية ممتازة تخرج أجيالاً من الأطباء البارعين.</p>
+
+        <p>ولكن، حين كنت أبحث عن إجابة للسؤال الذي يسبق كل تلك المهارات: <strong>كيف نُدير هذا المسرح الجراحي بأمان؟</strong> كيف نبني "أنظمة" تمنع الخطأ الجراحي قبل حدوثه؟ كيف نتعامل مع العوامل البشرية وتأثيرها على جودة الرعاية؟ كيف نؤسس لثقافة تمنع القياس الوهمي وتحفز الإبلاغ الصادق؟... هنا كنت أجد فراغاً مخيفاً وموحشاً.</p>
+
+        <p>المحتوى العربي المتخصص في "سلامة المرضى داخل غرف العمليات" والمبني على علوم الإدارة الحديثة والجودة والموثوقية يكاد يكون غائباً تماماً، أو مقتصراً على مقالات مترجمة بشكل متناثر لا تشكل منهجاً يمكن الاعتماد عليه. نحن في عالمنا العربي بارعون جداً في استيراد أحدث الأجهزة الطبية والروبوتات الجراحية، لكننا غالباً ما ننسى "استيراد أو بناء ثقافة النظام" التي تشغل هذه الأجهزة بأمان. لا زلنا في كثير من مستشفياتنا نعتمد على "الشطارة الفردية" وعلى "المعرفة المتوارثة"، ونفتقر بشدة إلى منهجية مكتوبة، معتمدة، وقابلة للتطبيق، تُهندس السلامة كنظام متكامل لا يقبل الاختراق.</p>
+
+        <p>في بيئة عالية المخاطر كغرفة العمليات، الفراغ المعرفي لا يبقى فراغاً؛ بل يُملأ تلقائياً بالارتجال، وبالمحاولات الفردية غير الموثقة، وبالاعتماد على الحظ الذي قد ينقذنا مرة ولكنه سيفشل في مرات قادمة. من هنا، أخذت على عاتقي عهداً بأن أضع خلاصة هذا الربع قرن، بكل ما تخلله من دماء وعرق ودموع، من نجاحات مبهرة وإخفاقات قاسية، في هذا السفر الشامل ليكون المرجع الأول لكل من ينطق بلغة الضاد ويعمل في هذا الحرم المقدس.</p>
+
+        <h2>موت وهم "البطولة الفردية"</h2>
+
+        <p>دعني أصارحك بحقيقة قاسية استغرقت مني سنوات لأتقبلها. عندما بدأت مسيرتي في غرف العمليات، كنت كغيري من الأطباء الشباب، مسكوناً بوهم "البطولة". كنا نُعجب ونسحر بذلك الجراح الذي يحسم الأمور في اللحظات الحرجة بسرعة البرق، وبالممرضة التي تعرف كل شيء وتتدارك الأخطاء قبل أن تقع، وبالطبيب الذي "لا يغفل ولا ينام". كانت ثقافتنا الطبية، في كثير من الأقسام، تُقدس المهارة الفردية وتخلق منها هالة أسطورية. كنا نربط السلامة بوجود شخص خارق محدد: "إذا كان الدكتور فلان موجوداً فالأمور بخير"، وكأن سلامة المريض تعتمد على جدول مناوبات هذا البطل الفرد.</p>
+
+        <p>كان هذا الوهم مريحاً جداً للقيادات، لأن الحل الإداري يصبح بسيطاً جداً: ابحث عن العبقري، ضعه في مقدمة المشهد، ثم اترك النظام الإداري والتشغيلي متهالكاً كما هو.</p>
+
+        <p>لكن السنوات في غرفة العمليات لا تجامل أحداً، والواقع السريري كفيل بتحطيم الأوهام قطعة قطعة. لقد رأيت بأم عيني جراحين من الطراز العالمي يرتكبون أخطاءً بسيطة ولكنها كارثية تحت ضغط الوقت والإرهاق المتراكم. ورأيت ممرضات من ذوات الخبرة الواسعة يلتبس عليهن الأمر بين عبوتين دوائيتين متشابهتين، لأن عقولنا البشرية—مهما بلغت من الخبرة والذكاء—تتعرض للخداع وتنهار قدراتها التحليلية حين تتشابه الأشياء، وتتزايد المقاطعات، وتزدحم اللحظة الحرجة.</p>
+
+        <p>رأيت فريقاً يضم ألمع الأسماء الطبية يتعثر ويكاد يفقد مريضاً لأن التواصل بينهم كان معدوماً، ورأيت في المقابل فريقاً من أطباء وممرضين "متوسطي الخبرة" يتجاوزون أزمة قلبية عاصفة بسلام تام، لأن نظام العمل بينهم كان واضحاً، ولأنهم تدربوا معاً، ولأن كل فرد فيهم كان يعرف دوره بدقة متناهية.</p>
+
+        <div class="quote-box">
+            حينها بدأت الحقيقة تتشكل داخلي وتتجذر لتصبح حجر الأساس لهذا الكتاب بأكمله: إن البشر، مهما كانوا أذكياء ومهرة ومخلصين، سيقعون حتماً في الخطأ إذا صُممت بيئة العمل بطريقة تفترض أنهم ملائكة لا يخطئون. السلامة ليست بطولة فردية، بل هي هندسة نظام يتوقع الضعف البشري ويحتويه بذكاء.
+        </div>
+
+        <p>لقد ولى عصر البطولات الفردية في الطب الحديث. نحن اليوم لا نحتاج إلى أبطال ينقذون الموقف في اللحظة الأخيرة وبطريقة هوليودية؛ بل نحتاج إلى <strong>"أنظمة هادئة، صارمة، وموثوقة"</strong> تجعل الحاجة إلى الأبطال أمراً نادراً جداً. نحتاج إلى تصميم مسار عمل يجعل السلوك الآمن هو السلوك الأسهل، ويجعل الخطأ أمراً شاقاً يتطلب اختراق حواجز متعددة.</p>
+
+        <h2>قوة التواصل: عندما يصبح الكلام علاجاً</h2>
+
+        <p>إذا كان هناك درس واحد أتمنى أن يخرج به كل ممارس من هذا الكتاب، فهو أن <span class="highlight-text">التواصل في غرفة العمليات ليس مهارة شخصية تعتمد على المزاج أو اللباقة، بل هو "إجراء طبي" منقذ للحياة.</span></p>
+
+        <p>لقد أفردت في هذا الكتاب مساحات واسعة للحديث عن العوامل البشرية، والتسلسل الهرمي (Hierarchy)، وتدرج السلطة الذي يخنق الحقيقة. في الكثير من الكوارث الطبية التي حُللت أسبابها حول العالم، كان هناك دائماً شخص في الغرفة—غالباً ما يكون ممرضاً مبتدئاً، أو فنياً، أو طبيباً مقيماً—رأى الخطأ وهو يتشكل ككرة الثلج، لكنه التزم الصمت. التزم الصمت خوفاً من سطوة الجراح الأقدم، أو خشية إثارة جلبة، أو رهبة من أن يُقال له "أنت لا تعرف شيئاً".</p>
+
+        <p>الصمت في غرفة العمليات هو قاتل صامت. عندما لا يملك الممارس الشجاعة، ولا توفر له البيئة الأمان ليقول: "قف، أنا لست مرتاحاً لهذه الخطوة"، فإننا نكون قد فقدنا آخر وأهم حواجز السلامة. في هذا الكتاب، سنؤسس لثقافة "التحدث بصوت عالٍ" (Speaking up). سنتعلم كيف نُهندس التواصل ليصبح مغلق الحلقة (Closed-loop)، وكيف نحول قائمة التحقق الجراحية (Checklist) من ورقة روتينية يملؤها السأم، إلى محادثة جماعية حية تخلق نموذجاً عقلياً مشتركاً لكل من في الغرفة.</p>
+
+        <p>أؤكد لك، وبناءً على خبرة دقيقة: إن فريقاً متواضع المهارة الفردية، ولكنه يمتلك تواصلاً فعالاً، وبيئة تسمح بالاعتراض المهني، هو أكثر أماناً للمريض بآلاف المرات من فريق يضم عباقرة متغطرسين لا يتحدثون مع بعضهم البعض.</p>
+
+        <h2>ثقافة عدم اللوم (No-Blame Culture): القضاء على ثقافة الانتقام</h2>
+
+        <p>من أهم الركائز الفلسفية والعملية التي بُني عليها هذا المرجع هو المحاربة الشرسة لـ "ثقافة اللوم". للأسف، في العديد من مستشفياتنا، عندما يقع خطأ ما، يكون رد الفعل الإداري الأول والأسرع هو تفعيل وضعية صيد الساحرات: "مَن فعل هذا؟ مَن المخطئ؟ يجب أن نُعاقب شخصاً ليكون عبرة لغيره!".</p>
+
+        <p>إن العقاب الفوري والصراخ بحثاً عن كبش فداء قد يُرضي الغرور الإداري اللحظي، وقد يوهم الإدارة بأنها "حازمة وتتخذ إجراءات"، لكنه في الحقيقة يدمر مستقبل المؤسسة بأكملها. عندما تعاقب موظفاً لأنه أبلغ بصدق وشفافية عن خطأ غير مقصود أو حادثة وشيكة، فإنك لا تمنع الخطأ من التكرار، بل أنت في الواقع تُدرب الغرفة بأكملها، بل والمستشفى بأكمله، على قاعدة واحدة: <strong>"في المرة القادمة، ادفنوا أخطاءكم في الظلام واخفوها جيداً."</strong></p>
+
+        <p>الخوف هو قاتل السلامة. يجب أن نتحول جذرياً من التساؤل السطحي "مَن المخطئ؟" إلى التساؤل العميق والمنهجي: <strong>"كيف سمح نظامنا، وإجراءاتنا، وبيئتنا لهذا الخطأ بالحدوث؟"</strong></p>
+
+        <p>نحن بشر، والأخطاء البشرية حتمية ولن تتوقف أبداً. ولكن يجب أن نتبنى ما يُعرف بـ "الثقافة العادلة" (Just Culture). هذه الثقافة لا تعني التسيب أو الفوضى، بل تعني التمييز الدقيق بين "الخطأ البشري غير المقصود" الذي يستوجب دعم الموظف وتغيير النظام، و"السلوك المحفوف بالمخاطر" الذي يستوجب التوجيه وإعادة التدريب، وبين "السلوك المتهور المتعمد" وهو الوحيد الذي يستوجب المحاسبة والعقاب. فقط من خلال زرع هذه الثقافة العادلة، ستنهمر تقارير الحوادث الوشيكة (Near-misses)، وهي التي أعتبرها "الذهب الخالص" و"الكنز الحقيقي" لأي مؤسسة طبية تسعى للتعلم من أخطائها المجانية قبل أن تدفع ثمنها من أرواح مرضاها.</p>
+
+        <h2>دعوة شخصية: كيف تقرأ هذا الكتاب؟</h2>
+
+        <p>يا زميلي ورفيق المهنة، أياً كان موقعك الإداري أو السريري؛ لم أكتب هذا المرجع ليُوضع على أرفف المكاتب الأنيقة للمديرين كقطعة ديكور أو دليل يُعرض لجهات الاعتماد فقط. لقد صممت هذا الكتاب ليكون دليلاً عملياً يتلطخ بحبر ملاحظاتك، ويُطوى في جيوب معطفك الطبي، ويوضع على مكاتب التمريض، ومحطات التخدير، وفي غرف استراحة الأطباء ليثير النقاش والجدل.</p>
+
+        <p>لقد قسمت الكتاب إلى أجزاء تأخذك في رحلة متدرجة؛ تبدأ من أسس السلامة وتأسيس الحوكمة، لتنتقل بك إلى بوابات الجاهزية الصارمة قبل أن يلمس المشرط جسد المريض. ثم نغوص معاً في أدق تفاصيل العدوى، والتعقيم، وسلامة الأدوات وتتبع الغرسات. بعدها ندخل إلى ساحة المعركة الحقيقية داخل العملية لمنع "الأحداث التي لا ينبغي أن تحدث أبداً" كالعمليات في الموقع الخاطئ أو نسيان الأدوات الجراحية. ولم أغفل أبداً الجانب التشغيلي؛ فخصصت فصولاً لكيفية تحقيق التدفق والكفاءة وسرعة التبديل (Turnover) دون أن نبيع سلامة المريض من أجل كسب بضع دقائق. وأخيراً، وضعت لك في الجزء الأخير منهجية متكاملة للقياس، وبناء لوحات القيادة (Dashboards) الصادقة، وطرق التحقيق في الحوادث، لتضمن استدامة كل ما بنيته.</p>
+
+        <p>ستجد في نهاية كل فصل قسماً تحت عنوان <strong>"أدوات عملية"</strong>. هذه ليست نظريات، بل هي بطاقات، ونماذج، وخوارزميات، ونصوص محادثة جاهزة للتطبيق الفوري في مستشفاك صباح الغد. وستجد أيضاً فقرة <strong>"ما يجب أن تتذكره"</strong> لتكون بوصلتك السريعة في زحمة العمل.</p>
+
+        <p>لا أطلب منك أن تطبق كل ما في هذا الكتاب دفعة واحدة؛ فثقافة السلامة تُبنى تراكماً كالبناء الشامخ، ولا تُفرض بالانفجارات الإدارية المفاجئة. كل ما أطلبه منك هو أن تختار من هذا الكتاب أمراً واحداً فقط يُغير يومك غداً. قد يكون قراراً بتبني "توقف إلزامي" عند تعارض وثيقة طبية. قد يكون تطبيق قاعدة "لا يُسمح بكوب دواء دون ملصق". قد يكون تخصيص دقيقتين لاجتماع سريع (Huddle) قبل بدء القائمة الجراحية. أي شيء، مهما بدا صغيراً، إذا طُبق بالتزام وموثوقية، فإنه يُحدث أثراً كبيراً.</p>
+
+        <div class="quote-box">
+            نحن لا نُحسن السلامة حين نُطالب البشر أن يكونوا ملائكة بلا ضعف...<br>
+            نحن نُحسن السلامة حين نبني نظاماً يرحم ضعف البشر، ويحمي المريض منه.
+        </div>
+
+        <p>أضع بين يديك عصارة ربع قرن من الشغف، والألم، والقلق، والسهر، والتعلم المستمر. أضعه بين يديك راجياً من الله عز وجل أن يكون هذا الكتاب لبنةً أساسية ومفصلية في بناء ثقافة سلامة راسخة وعلمية في غرف العمليات في عالمنا العربي. أتمنى أن يكون هذا المرجع درعاً يحمي مرضانا من أذى لا يستحقونه، ونبراساً ينير درب الأجيال القادمة من الممارسين، لنجعل من مستشفياتنا بيئات لا تعتمد على الأبطال، لأنها آمنة بالتصميم.</p>
+
+        <p style="text-align: center; font-size: 28px; color: var(--primary-blue); font-weight: bold; margin-top: 50px;">معاً... نصنع الفرق، ونحمي الحياة.</p>
+
+        <div class="signature">
+            د. جميل السقيا<br>
+            <span class="signature-title">استشاري التخدير والعناية المركزة</span>
+        </div>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '60px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "المقدمة_سردية_طويلة.html";
+        document.body.appendChild(a);
+        a.click();
+        
+        setTimeout(function() {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }, 100);
+    }
+    </script>
+
+</body></html>

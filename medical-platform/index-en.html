@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Guidelines Platform | Dr. Jameel Al-Soqayya</title>
+    <meta name="description" content="Comprehensive medical guidelines platform for anesthesia and operating room safety - Dr. Jameel Al-Soqayya">
+    <meta name="author" content="Dr. Jameel Al-Soqayya">
+    <meta name="keywords" content="anesthesia, operating room, patient safety, medical quality, clinical guidelines">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Medical Guidelines Platform | Dr. Jameel Al-Soqayya">
+    <meta property="og:description" content="Comprehensive guidelines for safety and quality in anesthesia and operating rooms">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+            margin-bottom: 40px;
+            animation: fadeInDown 0.8s ease;
+        }
+
+        .header h1 {
+            font-family: 'Merriweather', serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header .subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.3rem);
+            opacity: 0.95;
+            margin-bottom: 10px;
+        }
+
+        .header .author {
+            font-size: clamp(0.9rem, 2vw, 1.1rem);
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        /* Language Toggle */
+        .language-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .language-toggle a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .language-toggle a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        /* Books Grid */
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .book-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: all 0.4s ease;
+            animation: fadeInUp 0.8s ease;
+            position: relative;
+        }
+
+        .book-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .book-card.active {
+            cursor: pointer;
+        }
+
+        .book-card.inactive {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        .book-card.inactive::after {
+            content: 'Coming Soon';
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #ff6b6b;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            z-index: 10;
+        }
+
+        .book-image-container {
+            position: relative;
+            width: 100%;
+            padding-top: 141.4%; /* A4 ratio */
+            overflow: hidden;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .book-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .book-card.active:hover .book-image {
+            transform: scale(1.05);
+        }
+
+        .book-info {
+            padding: 25px;
+        }
+
+        .book-title {
+            font-family: 'Merriweather', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .book-description {
+            color: #4a5568;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .book-status {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .status-available {
+            background: #48bb78;
+            color: white;
+        }
+
+        .status-coming-soon {
+            background: #fc8181;
+            color: white;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+            margin-top: 60px;
+            opacity: 0.9;
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .book-card:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .book-card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .book-card:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .book-card:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .books-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <a href="index.html">العربية 🌐</a>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>📚 Medical Guidelines Platform</h1>
+            <p class="subtitle">Comprehensive guidelines for safety and quality in anesthesia and operating rooms</p>
+            <p class="author">Dr. Jameel Al-Soqayya</p>
+        </header>
+
+        <!-- Books Grid -->
+        <div class="books-grid">
+            <!-- Book 1: Anesthesia Safety -->
+            <div class="book-card active" onclick="window.location.href='https://www.anesthesiasafetyguideline.com'">
+                <div class="book-image-container">
+                    <img src="images/anesthesia-safety-cover-ar.png" alt="Anesthesia Safety & Quality Guideline" class="book-image">
+                </div>
+                <div class="book-info">
+                    <h2 class="book-title">Anesthesia Safety & Quality Guideline</h2>
+                    <p class="book-description">
+                        A comprehensive guide covering all aspects of safety and quality in anesthesia practice. Contains 82 specialized chapters combining 15 years of practical experience.
+                    </p>
+                    <span class="book-status status-available">✓ Available Now</span>
+                </div>
+            </div>
+
+            <!-- Book 2: Operating Room Safety -->
+            <div class="book-card active" onclick="window.location.href='operating-room/index.html'">
+                <div class="book-image-container">
+                    <img src="images/operating-room-safety-cover-ar.png" alt="Operating Room Safety & Quality Principles" class="book-image">
+                </div>
+                <div class="book-info">
+                    <h2 class="book-title">Operating Room Safety & Quality Principles</h2>
+                    <p class="book-description">
+                        A complete guide to safety and quality principles in the operating room. Includes modern protocols and safe practices for the OR team.
+                    </p>
+                    <span class="book-status status-available">✓ Available Now</span>
+                </div>
+            </div>
+
+            <!-- Book 3: Anesthesia Policies (Coming Soon) -->
+            <div class="book-card inactive">
+                <div class="book-image-container">
+                    <img src="images/anesthesia-safety-guideline.png" alt="Anesthesia Policies & Procedures Guide" class="book-image">
+                </div>
+                <div class="book-info">
+                    <h2 class="book-title">Anesthesia Policies & Procedures Guide</h2>
+                    <p class="book-description">
+                        A detailed guide to approved policies and procedures in anesthesia departments. Provides a comprehensive organizational framework for safe practice.
+                    </p>
+                    <span class="book-status status-coming-soon">⏳ Coming Soon</span>
+                </div>
+            </div>
+
+            <!-- Book 4: OR Policies (Coming Soon) -->
+            <div class="book-card inactive">
+                <div class="book-image-container">
+                    <img src="images/operating-room-principles.png" alt="Operating Room Policies & Procedures Guide" class="book-image">
+                </div>
+                <div class="book-info">
+                    <h2 class="book-title">Operating Room Policies & Procedures Guide</h2>
+                    <p class="book-description">
+                        A comprehensive reference for operating room policies and procedures. Covers all organizational and administrative aspects to ensure a safe working environment.
+                    </p>
+                    <span class="book-status status-coming-soon">⏳ Coming Soon</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p><strong>Dr. Jameel Al-Soqayya</strong></p>
+            <p>Consultant Anesthesiologist & Intensivist | Jeddah, Saudi Arabia</p>
+            <p>+15 years of experience in anesthesia and critical care</p>
+            <p style="margin-top: 20px; font-size: 0.9rem;">
+                📧 <a href="mailto:jsoqayya@gmail.com" style="color: white; text-decoration: none;">jsoqayya@gmail.com</a>
+            </p>
+            <p style="margin-top: 30px; font-size: 0.85rem; opacity: 0.8;">
+                © 2026 Dr. Jameel Al-Soqayya. All rights reserved.
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Prevent clicking on inactive cards
+        document.querySelectorAll('.book-card.inactive').forEach(card => {
+            card.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+            });
+        });
+
+        // Add smooth scroll behavior
+        document.documentElement.style.scrollBehavior = 'smooth';
+    </script>
+</body>
+</html>

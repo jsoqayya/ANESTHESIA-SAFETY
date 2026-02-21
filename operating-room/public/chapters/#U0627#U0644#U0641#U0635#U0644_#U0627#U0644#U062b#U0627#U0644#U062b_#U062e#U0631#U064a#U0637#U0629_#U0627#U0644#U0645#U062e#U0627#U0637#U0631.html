@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiNWFlNDg4ZGU5NDlkNmY0OGJhYzU1ZmMwYTE1NzJlZTJmNjExMzciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2JjMTE5NTgyNmI1ZTRmMjVf2KfZhNmB2LXZhF_Yp9mE2KvYp9mE2Ktf2K7YsdmK2LfYqV_Yp9mE2YXYrtin2LfYsS5odG1sLTQwNiJ9LCJleHAiOjE3NzE2NDY4NjYsImlhdCI6MTc3MTY0MzI2NiwiYWxnIjoiUlMyNTYifQ.AfJYgpVSfiz83kTd2CExwpzNfTG8UvEHqc-c4JSWlc47I_4gWNO1UCQYFI5VQJJd69t7fAasgk-Ge8bQedU53u0c7e1vLZ4KYzR0TdIYNodif9ZQ1fNyER0TBHADG4hTQVgoaoCa4PH01cF8MHWdVFa5d7m1ZBp0tmTwmGEJPcHy40qhwQE1ZupbtFYiHw-sZxir1zz6QdrxylLVYl_mDxidfEKZALNnXrSadeXnW3NqUhsV-TpJRERhqw9i8NZKDRFd2vRRqeDHmPBlURu32oYGD9HCeIOmQPXOF3PdfZgHl1AfQAbp1k7gNTOYzK5iiz8DErsK-xaOaxBq_YodLg","c_bc1195826b5e4f25_الفصل_الثالث_خريطة_المخاطر.html-406")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+})();</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل الثالث — خريطة مخاطر غرفة العمليات: السريرية، التشغيلية، البيئية، والقانونية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-size: 19px;
+      }
+
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 19px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Tables Style */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.95em;
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-align: right;
+      }
+      
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+      }
+      
+      tbody tr:nth-of-type(even) {
+        background-color: #f9fafb;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* References */
+      .references-list {
+        font-size: 16px;
+        color: #4b5563;
+        direction: ltr;
+        text-align: left;
+        margin-top: 30px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 20px;
+      }
+
+      .references-list li {
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; font-size: 17px; }
+        table { display: block; overflow-x: auto; }
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #2563eb;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      .download-btn:hover {
+        background-color: #1d4ed8;
+        transform: translateY(-2px);
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Button -->
+    
+
+    <div class="part-title">PART I — Foundations of OR Safety &amp; Quality</div>
+    <div class="part-title">الجزء الأول — أسس السلامة والجودة في غرفة العمليات</div>
+    
+    <h1>CHAPTER 3 — OR Risk Map: Clinical, Operational, Environmental, Legal</h1>
+    <div class="subtitle">الفصل الثالث — خريطة مخاطر غرفة العمليات: السريرية، التشغيلية، البيئية، والقانونية<br>
+    <span style="font-size: 18px;">(Risk Taxonomy • Risk Matrix • High-Severity Hazards • Escalation Pathways)<br>
+    (تصنيف المخاطر • مصفوفة المخاطر • المخاطر عالية الشدة • مسارات التصعيد)</span></div>
+    
+    <h2>أهداف الفصل / Chapter Aims</h2>
+    <div class="concept-box">
+        <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
+        <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
+        <ol>
+            <li>بناء <strong>تصنيف عملي لمخاطر غرفة العمليات (OR risk taxonomy)</strong> يغطي المجالات السريرية، التشغيلية، البيئية، والقانونية. (ISO 31000 concepts; AHRQ)<br>
+            <span class="english-term">Build a practical <strong>OR risk taxonomy</strong> that covers clinical, operational, environmental, and legal domains. (ISO 31000 concepts; AHRQ)</span></li>
+            
+            <li>استخدام <strong>مصفوفة المخاطر (Risk matrix)</strong> بشكل صحيح (الاحتمالية × التأثير) وفهم قيودها فيما يتعلق بالمخاطر عالية الشدة أو "الأحداث التي لا ينبغي أن تحدث" (Never events). (ISO 31000 concepts; IHI)<br>
+            <span class="english-term">Use a <strong>risk matrix</strong> correctly (likelihood × impact) and understand its limitations in high-severity “never event” hazards. (ISO 31000 concepts; IHI)</span></li>
+            
+            <li>تحديد أكثر <strong>مخاطر غرفة العمليات عالية الشدة (High-severity hazards)</strong> شيوعاً، وأنواع حواجزها الأقوى (التوقف الإلزامي/Hard stops، وظائف الإجبار/Forcing functions، التكرار، إمكانية التتبع). (WHO SSC; The Joint Commission; AORN)<br>
+            <span class="english-term">Identify the most common <strong>high-severity OR hazards</strong> and their strongest barrier types (hard stops, forcing functions, redundancy, traceability). (WHO SSC; The Joint Commission; AORN)</span></li>
+            
+            <li>تصميم <strong>مسارات تصعيد (Escalation pathways)</strong> تعمل تحت الضغط الحقيقي، مع محفزات (Triggers) واضحة، وأدوار، وسلطة لـ "إيقاف الخط" (Stop the line). (The Joint Commission; IHI)<br>
+            <span class="english-term">Design <strong>escalation pathways</strong> that work under real pressure, with clear triggers, roles, and authority to “stop the line.” (The Joint Commission; IHI)</span></li>
+            
+            <li>تحويل رسم خريطة المخاطر إلى إجراءات فعلية: ضوابط ذات أولوية، عمليات تدقيق، وحلقة تعلم (Learning loop). (IHI; AHRQ)<br>
+            <span class="english-term">Convert risk mapping into action: prioritized controls, audits, and a learning loop. (IHI; AHRQ)</span></li>
+        </ol>
+    </div>
+
+    <h2>السيناريو الافتتاحي / Opening Scenario</h2>
+    <div class="quote-box">
+        <strong>حالة واقعية: "اليوم الذي تعلمت فيه غرفة العمليات المعنى الحقيقي لـ 'الخطر'"</strong><br>
+        <span class="english-term">A true-to-life case: “The day the OR learned what ‘risk’ really means” (Real Scientific Story)</span>
+    </div>
+
+    <p>بدأ كأي يوم مزدحم: قائمة عمليات ممتلئة، بداية متأخرة، حالات متتالية. حدثان غير متوقعين قبل الظهر.</p>
+    <p><span class="english-term">It began like any busy day: full list, late start, back-to-back cases. Two unexpected events occurred before noon.</span></p>
+
+    <p>أولاً، حادثة قريبة (Near-miss): وصلت صينية الغرسات (Implant tray)، لكن كان هناك مكون رئيسي مفقود. اقترح أحد الموظفين استعارة جزء مشابه من طقم آخر—"يجب أن يناسب". تردد الجراح، ثم طلب التأكيد. لم يستطع أحد تأكيد التوافق بثقة.</p>
+    <p><span class="english-term">First, a near-miss: an implant tray arrived, but one key component was missing. A staff member suggested borrowing a similar part from another set—“it should fit.” The surgeon hesitated, then asked for confirmation. No one could confidently confirm compatibility.</span></p>
+
+    <p>ثانياً، عدم تطابق في التوثيق: نص الحجز على اسم إجراء معين، واستخدمت الموافقة صياغة مختلفة، وأشار تقرير التصوير إلى تفصيل دقيق غير منعكس في القائمة. التقطت المهلة (Time-out) عدم التطابق، لكن الغرفة شعرت بالضغط: "إذا توقفنا الآن، سينهار اليوم بأكمله."</p>
+    <p><span class="english-term">Second, a documentation mismatch: the booking said one procedure name, the consent used different wording, and the imaging report pointed to a nuance not reflected on the list. The time-out caught the mismatch, but the room felt the pressure: “If we stop now, the whole day collapses.”</span></p>
+
+    <p>بحلول فترة ما بعد الظهر، حدث ثالث: لوحظ خطأ في ملصق العينة—بعد أن غادرت العينة الغرفة بالفعل. ركضت الممرضة الدوارة (Circulating nurse) خلفها، وصححت السلسلة قبل أن تصبح غير قابلة للإصلاح.</p>
+    <p><span class="english-term">By afternoon, a third event: a specimen label error was noticed—after the specimen had already left the room. The circulating nurse ran after it, corrected the chain before it became irreversible.</span></p>
+
+    <div class="alert-box">
+        <p>في نهاية اليوم، اجتمعت قيادة غرفة العمليات. ثلاثة أحداث—لم ينتهِ أي منها بضرر. ومع ذلك شعر الجميع بعدم الارتياح.</p>
+        <p><span class="english-term">At the end of the day, the OR leadership gathered. Three events—none ended in harm. Yet everyone felt unsettled.</span></p>
+    </div>
+
+    <p>لخصت إحدى الممرضات الخبيرات الأمر ببساطة: "لقد نجونا اليوم، ولكن ليس لأن النظام كان آمناً. <strong>لقد نجونا لأننا كنا محظوظين—ولأن بضعة أشخاص أصبحوا أبطالاً</strong>."</p>
+    <p><span class="english-term">One senior nurse summarized it simply: “We survived today, but not because the system was safe. <strong>We survived because we got lucky—and because a few people became heroes.</strong>”</span></p>
+
+    <div class="success-box">
+        <p>أصبحت تلك الجملة نقطة التحول. قررت غرفة العمليات التوقف عن التعامل مع السلامة كمجموعة من القواعد المتناثرة والبدء في التعامل معها كـ <strong>نظام مُدار المخاطر (Risk-managed system)</strong>: تحديد المخاطر، تقييم المخاطر، بناء الحواجز، وإنشاء قواعد تصعيد تحمي الموظفين والمرضى. (IHI; AHRQ)</p>
+        <p><span class="english-term">That sentence became the turning point. The OR decided to stop treating safety as a set of scattered rules and start treating it as a <strong>risk-managed system</strong>: identify hazards, rate risks, build barriers, and create escalation rules that protect staff and patients. (IHI; AHRQ)</span></p>
+    </div>
+
+    <h2>3.1 ماذا يعني "الخطر" في غرفة العمليات (أساسيات الخطر لواقع غرفة العمليات)</h2>
+    <h3>3.1 What “Risk” Means in the Operating Theatre (Risk Basics for OR Reality)</h3>
+
+    <h3>3.1.1 الخطر ليس الخوف؛ الخطر هو الاحتمالية والعاقبة / Risk is not fear; risk is probability and consequence</h3>
+    <p>في الرعاية الصحية، غالباً ما يُشعر بـ "الخطر" عاطفياً—"أنا لا أحب هذه الحالة"، "هذا يبدو غير آمن". هذا الحدس مهم، لكن الأنظمة تحتاج إلى لغة مشتركة.</p>
+    <p><span class="english-term">In healthcare, “risk” is often felt emotionally—“I don’t like this case,” “this feels unsafe.” That intuition matters, but systems need a shared language.</span></p>
+    
+    <p>تشغيلياً، الخطر هو:</p>
+    <ul>
+        <li><strong>الاحتمالية (Likelihood):</strong> كم مرة يمكن أن يحدث هذا؟</li>
+        <li><strong>التأثير (Impact):</strong> ما مدى السوء إذا حدث؟ (ISO 31000 concepts)</li>
+    </ul>
+    <p><span class="english-term">Operationally, risk is: <strong>Likelihood</strong>: how often could this happen? <strong>Impact</strong>: how bad would it be if it happens?</span></p>
+    
+    <p>تحتاج غرفة العمليات إلى كليهما: الحدس البشري لاكتشاف الحالات الشاذة (Anomalies) والأدوات المنظمة لمنع تطبيع الخطر. (IHI)</p>
+    <p><span class="english-term">The OR needs both: human intuition to detect anomalies and structured tools to prevent normalization of danger. (IHI)</span></p>
+
+    <h3>3.1.2 غرفة العمليات هي نظام عالي المخاطر حتى عندما يكون الضرر نادراً / The OR is a high-risk system even when harm is rare</h3>
+    <p>بعض المخاطر نادرة ولكنها كارثية (الجراحة في الموقع الخاطئ، العناصر المتروكة، حريق غرفة العمليات). إذا قمت بتقييم الخطر فقط بناءً على "التكرار" (Frequency)، فسوف تقلل من حماية المخاطر عالية الشدة. (The Joint Commission; WHO SSC)</p>
+    <p><span class="english-term">Some hazards are rare but catastrophic (wrong-site surgery, retained items, OR fire). If you rate risk only by “frequency,” you will under-protect high-severity hazards. (The Joint Commission; WHO SSC)</span></p>
+    
+    <p>لذلك، يجب أن تعامل إدارة مخاطر غرفة العمليات بعض المخاطر على أنها <strong>"مخاطر يجب ألا تحدث" (Must-not-happen hazards)</strong> حيث تكون قوة الضابط (Control strength) غير قابلة للتفاوض. (The Joint Commission)</p>
+    <p><span class="english-term">Therefore, OR risk management must treat certain hazards as <strong>“must-not-happen hazards”</strong> where the control strength is non-negotiable. (The Joint Commission)</span></p>
+
+    <h3>3.1.3 الغرض من خريطة المخاطر / The purpose of a risk map</h3>
+    <p>خريطة المخاطر ليست مجرد عمل ورقي. إنها أداة اتخاذ قرار تجيب على:</p>
+    <p><span class="english-term">A risk map is not paperwork. It is a decision tool that answers:</span></p>
+    <ul>
+        <li>ما الذي يمكن أن يؤذي المرضى أو الموظفين؟ (<strong>المخاطر / Hazards</strong>)</li>
+        <li>كيف يحدث هذا هنا؟ (<strong>المحفزات المحلية / Local triggers</strong>)</li>
+        <li>ما هي الحواجز القوية بما فيه الكفاية؟ (<strong>الضوابط / Controls</strong>)</li>
+        <li>من لديه السلطة لإيقاف التدفق غير الآمن؟ (<strong>التصعيد / Escalation</strong>)</li>
+        <li>كيف سنعرف ما إذا كنا نتحسن؟ (<strong>المقاييس / Metrics</strong>) (IHI; AHRQ)</li>
+    </ul>
+    <p><span class="english-term">What can hurt patients or staff? (hazards). How does it happen here? (local triggers). Which barriers are strong enough? (controls). Who has authority to stop unsafe flow? (escalation). How will we know if we are improving? (metrics).</span></p>
+
+    <h2>3.2 تصنيف مخاطر غرفة العمليات (المجالات الأربعة) / OR Risk Taxonomy (The Four Domains)</h2>
+
+    <div class="concept-box">
+        <h3>3.2.1 الخطر السريري (ضرر المريض من العمليات السريرية) / Clinical risk</h3>
+        <p>يشمل الخطر السريري:</p>
+        <ul>
+            <li>المريض الخاطئ / الإجراء الخاطئ / الموقع الخاطئ (The Joint Commission – Universal Protocol)</li>
+            <li>عدوى الموقع الجراحي (SSI) وإخفاقات التلوث (WHO SSI; CDC SSI)</li>
+            <li>العناصر الجراحية المتروكة (AORN)</li>
+            <li>التسمية الخاطئة للعينات وسلسلة الأخطاء التشخيصية (AORN; AHRQ)</li>
+            <li>إصابات الوضعية (الأعصاب/الضغط/العين) (AORN; NPIAP/EPUAP)</li>
+            <li>تصاعد النزيف (Hemorrhage) والتأخير في الاستجابة (IHI concepts of escalation)</li>
+            <li>التعامل مع الأدوية في الحقل المعقم (خارج نطاق التخدير) (ISMP; AORN)</li>
+            <li>عدم تطابق الغرسات أو إخفاقات إمكانية التتبع (AORN)</li>
+        </ul>
+        <p><span class="english-term"><strong>Clinical risk includes:</strong> wrong patient / wrong procedure / wrong site, surgical site infection and contamination failures, retained surgical items, specimen mislabeling and diagnostic error chain, positioning injuries (nerve/pressure/eye), hemorrhage escalation and delay in response, medication handling on sterile field (non-anesthesia scope), implant mismatch or traceability failures.</span></p>
+
+        <hr>
+
+        <h3>3.2.2 الخطر التشغيلي (التدفق، السعة، الموظفين، إخفاقات الجاهزية) / Operational risk</h3>
+        <p>يشمل الخطر التشغيلي:</p>
+        <ul>
+            <li>الإلغاءات التي يمكن الوقاية منها والبدايات المتأخرة (IHI)</li>
+            <li>أطقم الإعارة (Loaner sets) غير المكتملة وإخفاقات جاهزية المعدات (AORN; ECRI)</li>
+            <li>عبء الجدولة الزائد الذي ينتج عنه التفافات/اختصارات (Shortcuts) (IHI)</li>
+            <li>نقص الموظفين وعدم تطابق مزيج المهارات (Skill-mix) (AORN)</li>
+            <li>ضغط التبديل (Turnover pressure) الذي يقلل من جودة التنظيف والتحقق (AORN; WHO SSI)</li>
+        </ul>
+        <p>الإخفاقات التشغيلية ليست "مشاكل كفاءة فقط". في غرفة العمليات، يتحول الضغط التشغيلي إلى خطر ضرر سريري. (IHI)</p>
+        <p><span class="english-term"><strong>Operational risk includes:</strong> preventable cancellations and late starts, incomplete loaner sets and equipment readiness failures, scheduling overload producing shortcuts, staff shortages and skill-mix mismatch, turnover pressure degrading cleaning and verification. Operational failures are not “efficiency problems only.” In OR, operational pressure becomes clinical harm risk.</span></p>
+
+        <hr>
+
+        <h3>3.2.3 الخطر البيئي والتكنولوجي (المرفق، الأجهزة، مخاطر البيئة) / Environmental and technology risk</h3>
+        <p>يشمل الخطر البيئي:</p>
+        <ul>
+            <li>مخاطر حريق غرفة العمليات (APSF/ASA; AORN; ECRI)</li>
+            <li>الحروق الجراحية الكهربائية وإخفاقات العزل (AORN; ECRI)</li>
+            <li>التعرض للدخان الجراحي (NIOSH; AORN)</li>
+            <li>قضايا التدفئة والتهوية والتكييف (HVAC)/الضغط/تدفق الهواء وتأثيرات حركة المرور/فتح الأبواب (AORN; WHO SSI)</li>
+            <li>إخفاقات التعقيم وتلوث الأدوات (AAMI ST79; AORN)</li>
+            <li>فشل الأجهزة، الإنذارات، والالتفافات (Workarounds) (ECRI)</li>
+        </ul>
+        <p><span class="english-term"><strong>Environmental risk includes:</strong> OR fire hazards, electrosurgical burns and insulation failures, surgical smoke exposure, HVAC/pressure/airflow issues and traffic/door opening impacts, sterilization failures and instrument contamination, device failure, alarms, and workarounds.</span></p>
+
+        <hr>
+
+        <h3>3.2.4 الخطر القانوني والتنظيمي (التوثيق، الموافقة، إمكانية التتبع) / Legal and regulatory risk</h3>
+        <p>الخطر القانوني ليس منفصلاً عن السلامة—غالباً ما يكون مؤشراً على ضعف السلامة:</p>
+        <ul>
+            <li>عدم تطابق الموافقة والتوثيق غير المكتمل (The Joint Commission)</li>
+            <li>الفشل في اتباع توقعات البروتوكول العالمي (Universal Protocol) (The Joint Commission)</li>
+            <li>الافتقار إلى إمكانية تتبع الغرسات وتوثيقها (AORN)</li>
+            <li>الإبلاغ غير المكتمل عن الحوادث والفشل في التعلم (AHRQ)</li>
+            <li>مسارات التدقيق الضعيفة وعدم الالتزام بالسياسات (Joint Commission survey practices concepts)</li>
+        </ul>
+        <p>غرفة العمليات الآمنة تكتب ما تفعله، وتفعل ما تكتبه، وتُثبت ذلك. (The Joint Commission)</p>
+        <p><span class="english-term"><strong>Legal risk is not separate from safety—it is often an indicator of safety weakness:</strong> consent mismatch and incomplete documentation, failure to follow Universal Protocol expectations, lack of implant traceability and documentation, incomplete incident reporting and failure to learn, poor audit trails and policy non-adherence. A safe OR writes what it does, does what it writes, and proves it.</span></p>
+    </div>
+
+    <h2>3.3 مصفوفة المخاطر (كيف تستخدمها دون أن تُضللك) / The Risk Matrix</h2>
+
+    <h3>3.3.1 المصفوفة الكلاسيكية (الاحتمالية × التأثير) / The classic matrix</h3>
+    <p>تساعد المصفوفة البسيطة في تحديد الأولويات:</p>
+    <ul>
+        <li><strong>الاحتمالية (Likelihood):</strong> نادر / عرضي / متكرر</li>
+        <li><strong>التأثير (Impact):</strong> طفيف / معتدل / شديد / كارثي (ISO 31000 concepts)</li>
+    </ul>
+    <p>لكن في غرفة العمليات، تتطلب الأحداث النادرة-الكارثية ضوابط قوية حتى لو كانت "الاحتمالية" منخفضة. (The Joint Commission)</p>
+    <p><span class="english-term">A simple matrix helps prioritize: <strong>Likelihood</strong>: rare / occasional / frequent. <strong>Impact</strong>: minor / moderate / severe / catastrophic. But in OR, rare-catastrophic events require strong controls even if “likelihood” is low.</span></p>
+
+    <h3>3.3.2 التفكير ثنائي المستويات: "مخاطر المصفوفة" مقابل "المخاطر غير القابلة للتفاوض" / Two-tier thinking</h3>
+    <p>لتجنب نقص الحماية، افصل المخاطر إلى:</p>
+    <p><span class="english-term">To avoid under-protection, separate hazards into:</span></p>
+    <table>
+        <thead>
+            <tr>
+                <th>الفئة / Tier</th>
+                <th>الوصف والضوابط / Description &amp; Controls</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>الفئة أ (Tier A)</strong><br>مخاطر غير قابلة للتفاوض<br><span class="english-term">Non-negotiable hazards</span></td>
+                <td>(أحداث لا ينبغي أن تحدث / Never events). تتطلب توقفاً إلزامياً (Hard stops) / وظائف إجبار (Forcing functions) وعمليات تدقيق قوية للحواجز. (WHO SSC; The Joint Commission; AORN)<br>
+                <span class="english-term">Require hard stops/forcing functions and strong barrier audits.</span></td>
+            </tr>
+            <tr>
+                <td><strong>الفئة ب (Tier B)</strong><br>مخاطر مُدارة بالمصفوفة<br><span class="english-term">Matrix-managed hazards</span></td>
+                <td>تُعطى الأولوية حسب الاحتمالية والتأثير وتُحسّن من خلال التحسين المستمر للجودة (Continuous QI). (IHI)<br>
+                <span class="english-term">Prioritize by likelihood and impact and improve through continuous QI.</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>3.3.3 تسجيل المخاطر ليس النهاية؛ تصميم الحواجز هو الهدف / Risk scoring is not the end</h3>
+    <p>يكون تقييم الخطر مفيداً فقط إذا أدى إلى:</p>
+    <ul>
+        <li>حواجز محددة (defined barriers)،</li>
+        <li>ملكية معينة (assigned ownership)،</li>
+        <li>طرق تدقيق (audit methods)،</li>
+        <li>محفزات تصعيد (escalation triggers). (IHI)</li>
+    </ul>
+    <p><span class="english-term">A risk score is useful only if it leads to: defined barriers, assigned ownership, audit methods, escalation triggers.</span></p>
+
+    <h2>3.4 المخاطر عالية الشدة في غرفة العمليات (ما يجب ألا يفلت أبداً) / High-Severity Hazards in the OR</h2>
+
+    <div class="concept-box">
+        <h4>3.4.1 المريض الخاطئ / الإجراء الخاطئ / الموقع الخاطئ<br><span class="english-term">Wrong patient / wrong procedure / wrong site</span></h4>
+        <ul>
+            <li><strong>لماذا يحدث:</strong> عدم تطابق التوثيق، مهلة (Time-out) ضعيفة، الصمت الهرمي (Hierarchy silence)، تغييرات اللحظة الأخيرة. (The Joint Commission; WHO SSC)<br>
+            <span class="english-term">Why it happens: documentation mismatch, weak time-out, hierarchy silence, last-minute changes.</span></li>
+            <li><strong>أقوى الحواجز:</strong> عناصر البروتوكول العالمي (التحقق قبل الإجراء، تحديد الموقع، Time-out). تدقيق جودة المهلة. توقف إلزامي (Hard stop) عند التباينات. (IHI; AORN)<br>
+            <span class="english-term">Strongest barriers: Universal Protocol elements, time-out quality audits, hard stop for mismatches.</span></li>
+        </ul>
+
+        <hr>
+
+        <h4>3.4.2 العناصر الجراحية المتروكة (الإسفنج، الإبر، الأدوات)<br><span class="english-term">Retained surgical items (sponges, needles, instruments)</span></h4>
+        <ul>
+            <li><strong>لماذا يحدث:</strong> المقاطعات أثناء العد، الإغلاق المتسرع، لحظات عد غير متسقة، التعامل غير الرسمي مع التباينات. (AORN)<br>
+            <span class="english-term">Why it happens: interruptions during counts, rushed closure, inconsistent count moments, informal discrepancy handling.</span></li>
+            <li><strong>أقوى الحواجز:</strong> عملية ولحظات عد موحدة. وقت عد محمي وقاعدة "عدم المقاطعة". خوارزمية التباين + محفزات التصوير + توقف إلزامي للإغلاق. (AORN)<br>
+            <span class="english-term">Strongest barriers: standardized count process and moments, protected count time, discrepancy algorithm + imaging triggers + closure hard stop.</span></li>
+        </ul>
+
+        <hr>
+
+        <h4>3.4.3 التسمية الخاطئة للعينات وفقدان السلامة التشخيصية<br><span class="english-term">Specimen mislabeling and loss of diagnostic integrity</span></h4>
+        <ul>
+            <li><strong>لماذا يحدث:</strong> تعدد المهام، المقاطعات، التسمية المتأخرة، أوصاف العينات غير الواضحة. (AHRQ; AORN)<br>
+            <span class="english-term">Why it happens: multitasking, interruptions, delayed labeling, unclear specimen descriptions.</span></li>
+            <li><strong>أقوى الحواجز:</strong> التسمية في نقطة الرعاية (Point-of-care) مع تأكيد القراءة العكسية (Read-back). وقت محمي للتعامل مع العينات. الخروج (Sign-out) يشمل التحقق من العينة. (AORN; AHRQ; WHO SSC)<br>
+            <span class="english-term">Strongest barriers: point-of-care labeling with read-back confirmation, protected moment for specimen handling, sign-out includes specimen verification.</span></li>
+        </ul>
+
+        <hr>
+
+        <h4>3.4.4 تصاعد خطر عدوى الموقع الجراحي (التلوث، اختراق العقامة)<br><span class="english-term">Surgical site infection risk escalation (contamination, breaks in sterility)</span></h4>
+        <ul>
+            <li><strong>لماذا يحدث:</strong> حركة المرور/فتح الأبواب، تنظيف التبديل المتسرع، اختراقات الحقل المعقم غير المدارة، إخفاقات توقيت المضادات الحيوية. (WHO SSI; CDC SSI; AORN)<br>
+            <span class="english-term">Why it happens: traffic/door opening, rushed turnover cleaning, sterile field breaks not managed, antibiotic timing failures.</span></li>
+            <li><strong>أقوى الحواجز:</strong> قواعد حقل معقم موحدة واستجابة واضحة للاختراقات. معايير التنظيف البيئي ومراقبتها. موثوقية عملية الوقاية بالمضادات الحيوية. (AORN; WHO SSI; CDC SSI)<br>
+            <span class="english-term">Strongest barriers: standardized sterile field rules and response to breaks, environmental cleaning standards and monitoring, antibiotic prophylaxis process reliability.</span></li>
+        </ul>
+
+        <hr>
+
+        <h4>3.4.5 حريق غرفة العمليات ومخاطر أجهزة الطاقة<br><span class="english-term">OR fire and energy device hazards</span></h4>
+        <ul>
+            <li><strong>لماذا يحدث:</strong> مصادر الاشتعال + بيئة غنية بالأكسجين + وقود؛ جاهزية ضعيفة للفريق للاستجابة الفورية. (APSF/ASA; AORN; ECRI)<br>
+            <span class="english-term">Why it happens: ignition sources + oxygen-rich environment + fuels; poor team readiness for immediate response.</span></li>
+            <li><strong>أقوى الحواجز:</strong> تقييم خطر الحريق وقائمة تحقق الوقاية. تدريبات وبروتوكول استجابة فورية. ممارسات الجراحة الكهربائية الآمنة وفحوصات المعدات. (AORN; APSF/ASA; ECRI)<br>
+            <span class="english-term">Strongest barriers: OR fire risk assessment and prevention checklist, drills and immediate response protocol, safe electrosurgery practices and equipment checks.</span></li>
+        </ul>
+
+        <hr>
+
+        <h4>3.4.6 عدم تطابق الغرسات وفشل إمكانية التتبع<br><span class="english-term">Implant mismatch and traceability failure</span></h4>
+        <ul>
+            <li><strong>لماذا يحدث:</strong> حجز ضعيف، فجوات في أطقم الإعارة (Loaner sets)، التفافات التوثيق، فقدان التقاط UDI (المعرف الفريد للجهاز). (AORN)<br>
+            <span class="english-term">Why it happens: poor booking, loaner set gaps, documentation shortcuts, missing UDI capture.</span></li>
+            <li><strong>أقوى الحواجز:</strong> توقف إلزامي (Hard stops) في الحجز لتأكيد الغرسة. سير عمل التقاط UDI والتدقيق. خطة جاهزية للاستجابة للاستدعاء (Recall). (AORN; IHI; ECRI)<br>
+            <span class="english-term">Strongest barriers: booking hard stops for implant confirmation, UDI/traceability capture workflow and audit, recall response plan readiness.</span></li>
+        </ul>
+    </div>
+
+    <h2>3.5 القصة الحقيقية 2: "خطر بدا تشغيلياً—لكنه كان سريرياً"</h2>
+    <h3>3.5 Real Story 2: “A risk that looked operational—but was clinical” (Narrative + Analysis)</h3>
+
+    <div class="quote-box">
+        <p><strong>3.5.1 المشهد (The scene):</strong><br>
+        قائمة جراحة العظام، حجم كبير، ضغط عالٍ. تأخرت الحالة الأولى. طلب المنسق تبديلاً أسرع. الحالة الثانية احتاجت نظام غرسة معين. وصل ممثل الشركة الموردة مع طقم إعارة (Loaner set)—لكنه كان غير مكتمل. أداة صغيرة واحدة كانت مفقودة.</p>
+        <p>اقترح أحد الموظفين: "دعونا نمضي قدماً ونرتجل. سنتدبر الأمر."<br>
+        سأل الجراح: "هل يمكننا ضمان الانتهاء بأمان بدون هذا المكون؟"<br>
+        لم يستطع أحد ذلك.</p>
+        <p><span class="english-term"><strong>The scene:</strong> Orthopedics list, high volume, high pressure... The vendor representative arrived with a loaner set—but it was incomplete. One small tool was missing. A staff member suggested: “Let’s proceed and improvise. We’ll manage.” The surgeon asked: “Can we guarantee we can finish safely without that component?” No one could.</span></p>
+    </div>
+
+    <p><strong>3.5.2 الضغط (The pressure):</strong><br>
+    شعر الجميع بتكلفة التوقف: ستنهار القائمة، سينتظر المرضى، سيبقى الموظفون لوقت متأخر. أصبح الضغط التشغيلي تهديداً سريرياً. (IHI)</p>
+    <p><span class="english-term"><strong>The pressure:</strong> Everyone felt the cost of stopping... Operational pressure became a clinical threat.</span></p>
+
+    <div class="alert-box">
+        <p><strong>3.5.3 سلسلة الخطر (The risk chain):</strong></p>
+        <ul>
+            <li><strong>الخطر (Hazard):</strong> عدم اكتمال نظام الغرسة. (AORN)</li>
+            <li><strong>المحفز (Trigger):</strong> ضغط الوقت + الرغبة في تجنب الإلغاء. (IHI)</li>
+            <li><strong>ضعف الحاجز (Barrier weakness):</strong> لا توجد نقطة تحقق إلزامية للتأكيد قبل 24-48 ساعة. (IHI)</li>
+            <li><strong>الضرر المحتمل (Potential harm):</strong> إطالة الإجراء، ملاءمة ضعيفة للغرسة، استبدال غير آمن، خطر العدوى من الوقت المطول. (WHO SSI; CDC SSI)</li>
+        </ul>
+        <p><span class="english-term"><strong>The risk chain:</strong> Hazard: implant system incompleteness. Trigger: time pressure + desire to avoid cancellation. Barrier weakness: no mandatory confirmation checkpoint 24–48 hours prior. Potential harm: prolonged procedure, poor implant fit, unsafe substitution, infection risk.</span></p>
+    </div>
+
+    <div class="success-box">
+        <p><strong>3.5.4 الحل - تصميم النظام (The fix - system design):</strong></p>
+        <p>قامت غرفة العمليات بتنفيذ:</p>
+        <ul>
+            <li>خطوة "التحقق من اكتمال طقم الإعارة" قبل القائمة النهائية. (AORN)</li>
+            <li><strong>توقف إلزامي (Hard stop):</strong> "لا يوجد تأكيد للطقم الكامل = إعادة جدولة ما لم تكن حالة طارئة." (IHI)</li>
+            <li><strong>التصعيد (Escalation):</strong> تقرر الممرضة المسؤولة + رئيس الجراحين؛ التوثيق مطلوب. (The Joint Commission)</li>
+        </ul>
+        <p>هذا هو الموضوع الأساسي: <strong>السلامة التشغيلية هي سلامة سريرية في ثوب مختلف.</strong> (IHI)</p>
+        <p><span class="english-term"><strong>The fix:</strong> The OR implemented: a “loaner set completeness verification” step... hard stop: “No complete set confirmation = reschedule unless emergency.” escalation: charge nurse + surgeon lead decide. This is the theme: <strong>operational safety is clinical safety in disguise.</strong></span></p>
+    </div>
+
+    <h2>3.6 مسارات التصعيد (كيف تقوم غرفة العمليات الآمنة بـ "إيقاف الخط")</h2>
+    <h3>3.6 Escalation Pathways (How a Safe OR “Stops the Line”)</h3>
+
+    <h3>3.6.1 التصعيد هو حاجز، وليس موقفاً/سلوكاً / Escalation is a barrier, not an attitude</h3>
+    <p>تقول العديد من غرف العمليات "يمكن لأي شخص التحدث بصوت عالٍ (Speak up)"، ولكن بدون مسار مُصمم، يعتمد التحدث على الشخصية والشجاعة. غرفة العمليات الآمنة تصمم التصعيد كـ <strong>سير عمل يمكن التنبؤ به</strong>. (IHI; AHRQ)</p>
+    <p><span class="english-term">Many ORs say “anyone can speak up,” but without a designed pathway, speaking up depends on personality and courage. A safe OR designs escalation as a predictable workflow.</span></p>
+
+    <h3>3.6.2 سُلّم التصعيد (من، متى، كيف) / The escalation ladder (who, when, how)</h3>
+    <p>يتضمن سلم التصعيد العملي ما يلي:</p>
+    <ul>
+        <li><strong>عبارة الإيقاف الفوري (Immediate pause phrase):</strong> ("توقف—فحص سلامة / Pause—safety check.")</li>
+        <li><strong>الحل المحلي (Local resolution):</strong> (تأكيد الممرضة الدوارة + المعقمة + الجراح)</li>
+        <li><strong>تصعيد الممرضة المسؤولة (Charge nurse escalation):</strong> (سلطة تأخير البدء)</li>
+        <li><strong>مدير المسرح / مشرف العمليات (Theatre manager / OR supervisor):</strong> (حشد الموارد)</li>
+        <li><strong>قائد الخدمة الجراحية / الاستشاري المناوب (Surgical service lead / on-call consultant):</strong> (القرار السريري)</li>
+        <li><strong>التصعيد للمستشفى (Hospital escalation):</strong> (إدارة المخاطر، القيادة) (IHI)</li>
+    </ul>
+    <p><span class="english-term">A practical escalation ladder includes: Immediate pause phrase, Local resolution, Charge nurse escalation, Theatre manager / OR supervisor, Surgical service lead / on-call consultant, Hospital escalation.</span></p>
+
+    <h3>3.6.3 المحفزات غير القابلة للتفاوض (التصعيد التلقائي) / Non-negotiable triggers (automatic escalation)</h3>
+    <div class="alert-box">
+        <p>أمثلة على محفزات التصعيد التلقائي:</p>
+        <ul>
+            <li>عدم تطابق بين الحجز/الموافقة/تحديد الموقع (The Joint Commission)</li>
+            <li>تباين في العد الجراحي لم يُحل (AORN)</li>
+            <li>عدم يقين في هوية العينة (AORN; AHRQ)</li>
+            <li>اختراق الحقل المعقم دون تخفيف (Mitigation) محلول (AORN; WHO SSI)</li>
+            <li>مكون غرسة حيوي مفقود (AORN)</li>
+        </ul>
+        <p><span class="english-term">Examples of automatic escalation triggers: mismatch between booking/consent/site marking, unresolved count discrepancy, specimen identity uncertainty, sterile field break with unresolved mitigation, missing critical implant component.</span></p>
+    </div>
+
+    <h3>3.6.4 السلامة النفسية: الشرط لعمل التصعيد / Psychological safety: the condition for escalation</h3>
+    <p>إذا كان الموظفون يخشون الإذلال أو العقاب، فسوف يفشل التصعيد. نموذج الثقافة العادلة (Just Culture) يدعم التصعيد من خلال فصل أنواع الأخطاء والتركيز على تحسين النظام. (AHRQ; IHI)</p>
+    <p><span class="english-term">If staff fear humiliation or punishment, escalation will fail. A Just Culture model supports escalation by separating error types and focusing on system improvement.</span></p>
+
+    <h2>3.7 أدوات عملية لبناء خريطة مخاطر غرفة العمليات الخاصة بك (جاهزة للاستخدام)</h2>
+    <h3>3.7 Practical Tools for Building Your OR Risk Map (Ready-to-Use)</h3>
+
+    <div class="concept-box">
+        <p><strong>الأداة 1 — سجل مخاطر غرفة العمليات (هيكل من صفحة واحدة) / Tool 1 — OR Risk Register</strong></p>
+        <p>لكل خطر: مُعرف الخطر/العنوان، المجال (Domain: سريري/تشغيلي/بيئي/قانوني)، وصف الخطر، المحفزات/العوامل المساهمة، الحواجز الحالية، تصنيف قوة الحاجز (ضعيف/معتدل/قوي)، الاحتمالية/التأثير، فئة الخطر (Tier A غير قابل للتفاوض مقابل Tier B مُدار بالمصفوفة)، المالك (Owner)، محفز التصعيد، طريقة التدقيق، الإجراءات التصحيحية وتواريخ الاستحقاق. (ISO 31000 concepts; IHI)</p>
+        <p><span class="english-term">For each risk: Risk ID / title, Domain, Hazard description, Triggers / contributing factors, Existing barriers, Barrier strength rating, Likelihood / Impact, Risk tier, Owner, Escalation trigger, Audit method, Corrective actions and due dates.</span></p>
+
+        <hr>
+
+        <p><strong>الأداة 2 — خريطة الخطر-المحفز-الحاجز (نسخة سريعة بجانب السرير) / Tool 2 — Hazard–Trigger–Barrier Map</strong></p>
+        <ul>
+            <li><strong>الخطر (Hazard):</strong> ______ (مثال: الموقع الخاطئ) (The Joint Commission)</li>
+            <li><strong>المحفزات (Triggers):</strong> ______ (ضغط وقت، عدم تطابق، مقاطعة) (IHI)</li>
+            <li><strong>الحواجز (Barriers):</strong> ______ (تحديد موقع، Time-out، توقف إلزامي) (WHO SSC)</li>
+            <li><strong>أنماط الفشل (Failure modes):</strong> ______ (Time-out طقسي، ملكية غير واضحة) (AORN)</li>
+            <li><strong>الإصلاح (Fix):</strong> ______ (توحيد، تدقيق، نص تصعيد) (IHI)</li>
+        </ul>
+        <p><span class="english-term">Hazard: ___. Triggers: ___. Barriers: ___. Failure modes: ___. Fix: ___.</span></p>
+
+        <hr>
+
+        <p><strong>الأداة 3 — بطاقة التصعيد (للحائط/الجيب) / Tool 3 — Escalation Card</strong></p>
+        <ul>
+            <li>"توقف—فحص سلامة / Pause—safety check."</li>
+            <li>"تم العثور على عدم تطابق بين ___ و ___."</li>
+            <li>"لا يمكننا المضي قدماً حتى يتم الحل." (The Joint Commission; AORN)</li>
+            <li><strong>التصعيد إلى (Escalate to):</strong> الممرضة المسؤولة ← مشرف العمليات ← قائد الخدمة</li>
+            <li><strong>قائمة محفزات التوقف الإلزامي:</strong> (العد، الموقع، العينة، الغرسة، العقامة) (AORN)</li>
+        </ul>
+        <p><span class="english-term">“Pause—safety check.” “Mismatch found between ___ and ___.” “We cannot proceed until resolved.” Escalate to: Charge nurse → OR supervisor → service lead. Hard stop triggers list.</span></p>
+
+        <hr>
+
+        <p><strong>الأداة 4 — درجة تدقيق الحاجز (الجودة، وليس مربع الاختيار) / Tool 4 — Barrier Audit Score</strong></p>
+        <p>بدلاً من "تم إنجاز الـ Time-out"، سجل: هل توقف الجميع؟ هل تم نطق الجهة (Laterality) وتأكيدها؟ هل تم حل عدم اليقين بشأن التصوير/الخطة؟ هل كانت البيئة هادئة بما يكفي للسمع؟ (WHO SSC; IHI)</p>
+        <p><span class="english-term">Instead of “time-out done,” score: was everyone stopped? was laterality spoken and confirmed? was imaging/plan uncertainty resolved? was the environment quiet enough to hear?</span></p>
+    </div>
+
+    <h2>3.8 القياس: كيف تعرف أن خريطة المخاطر الخاصة بك تعمل / Measurement</h2>
+
+    <h3>3.8.1 المؤشرات الاستباقية تعكس قوة الحاجز / Leading indicators reflect barrier strength</h3>
+    <p>تتبع المقاييس التي تُظهر ما إذا كانت الحواجز موثوقة، وليس فقط ما إذا كان الضرر قد حدث. (IHI; AHRQ)</p>
+    <p><span class="english-term">Track measures that show whether barriers are reliable, not only whether harm occurred.</span></p>
+
+    <h3>3.8.2 مؤشرات الأداء المقترحة لخريطة المخاطر (المجموعة الأولية) / Suggested OR risk-map KPIs</h3>
+    <ul>
+        <li>درجة جودة الـ Time-out المُلاحظة (WHO SSC; AORN)</li>
+        <li>معدل تباين العد الجراحي + الامتثال لخوارزمية التباين (AORN)</li>
+        <li>معدل الحوادث القريبة (Near-miss) للعينات (AHRQ; AORN)</li>
+        <li>معدل اكتمال تتبع الغرسات (AORN)</li>
+        <li>فتحات الأبواب لكل حالة (مُعينة/Sampled) (AORN; WHO SSI)</li>
+        <li>اختراقات الحقل المعقم الموثقة والمدارة (AORN)</li>
+        <li>أحداث إيقاف الخط (Stop-the-line) ونتائجها (IHI)</li>
+        <li>فئات الإلغاء التي يمكن الوقاية منها (IHI)</li>
+    </ul>
+
+    <h3>3.8.3 توقعات حلقة التعلم / Learning loop expectations</h3>
+    <p>غرفة العمليات الناضجة تضع قاعدة: كل حادثة قريبة عالية الشدة يجب أن تؤدي إلى إجراء في النظام وإعادة تدقيق خلال فترة محددة. (IHI; AHRQ)</p>
+    <p><span class="english-term">A mature OR sets a rule: every high-severity near-miss must lead to a system action and re-audit within a defined period.</span></p>
+
+    <h2>3.9 خارطة طريق التنفيذ (من الخريطة إلى الممارسة اليومية) / Implementation Roadmap</h2>
+
+    <ol>
+        <li><strong>3.9.1 الخطوة 1 — ابنِ تصنيفك المحلي:</strong> لا تنسخ قائمة عامة. قم ببناء قائمة محلية باستخدام بيانات الحوادث والإلغاءات والشكاوى وقصص الموظفين. (AHRQ; IHI)<br>
+        <span class="english-term"><strong>Step 1 — Build your local taxonomy:</strong> Do not copy a generic list. Build a local list using your incident data, cancellations, complaints, and staff stories.</span></li>
+        
+        <li><strong>3.9.2 الخطوة 2 — حدد "المخاطر التي يجب ألا تحدث" (Tier A):</strong> اتفق كقيادة: هذه المخاطر تتطلب حواجز وتوقفات إلزامية غير قابلة للتفاوض. (The Joint Commission)<br>
+        <span class="english-term"><strong>Step 2 — Identify Tier A “must-not-happen hazards”:</strong> Agree as leadership: these hazards require non-negotiable barriers and hard stops.</span></li>
+        
+        <li><strong>3.9.3 الخطوة 3 — عيِّن الملكية وسلطة التصعيد:</strong> كل خطر له مالك. كل توقف إلزامي له خط سلطة. (IHI)<br>
+        <span class="english-term"><strong>Step 3 — Assign ownership and escalation authority:</strong> Every risk has an owner. Every hard stop has an authority line.</span></li>
+        
+        <li><strong>3.9.4 الخطوة 4 — اجعل الحواجز مرئية وقابلة للتدقيق:</strong> يجب أن تكون الحواجز: بسيطة، موحدة، يصعب تجاوزها، قابلة للملاحظة، ومقاسة. (IHI)<br>
+        <span class="english-term"><strong>Step 4 — Make barriers visible and auditable:</strong> Barriers must be: simple, standardized, hard to bypass, observable, measured.</span></li>
+        
+        <li><strong>3.9.5 الخطوة 5 — درب وتمرن على مسار التصعيد:</strong> إذا كانت المرة الأولى التي يمارس فيها الناس التصعيد هي أثناء الأزمة، فسيفشل. قم بعمل تدريبات للنصوص والأدوار. (IHI; AORN)<br>
+        <span class="english-term"><strong>Step 5 — Train and drill the escalation pathway:</strong> If the first time people practice escalation is during crisis, it will fail. Drill scripts and roles.</span></li>
+    </ol>
+
+    <h2>3.10 القصة الحقيقية 3: "مثلث الحريق الذي لم يره أحد"</h2>
+    <h3>3.10 Real Story 3: “The fire triangle nobody saw” (Narrative + Analysis)</h3>
+
+    <div class="quote-box">
+        <p><strong>3.10.1 المشهد (The scene):</strong><br>
+        حالة جراحة رأس ورقبة. حقل غني بالأكسجين. الفرش الجراحي (Drapes) موضوع بإحكام. استُخدم الكي الكهربائي (Electrocautery). ركز الجميع على الدقة الجراحية. حدثت شرارة صغيرة، وللحظة، ظهر لهب بالقرب من الفرش. تفاعل الفريق بسرعة. تمت السيطرة على اللهب. لم يحدث أي ضرر.</p>
+        <p><span class="english-term"><strong>The scene:</strong> A head-and-neck case. Oxygen-rich field. Drapes positioned tightly. Electrocautery used. Everyone focused on surgical precision. A small spark occurred, and for a moment, flame appeared near the drapes. The team reacted quickly. The flame was controlled. No harm occurred.</span></p>
+    </div>
+
+    <div class="concept-box">
+        <p><strong>3.10.2 الخطر الخفي (The hidden risk):</strong><br>
+        كان مثلث الحريق موجوداً: مصدر اشتعال (الكي الكهربائي)، مؤكسد (الأكسجين)، وقود (الفرش، محلول التحضير). (APSF/ASA; AORN)</p>
+
+        <p><strong>3.10.3 لماذا يحدث هذا (Why this happens):</strong><br>
+        لأن "الحريق" يبدو نادراً، تتعامل معه الفرق كأمر نظري. لكن المخاطر النادرة-الكارثية تتطلب استجابات مُتدرب عليها وفحوصات وقائية. (AORN; APSF/ASA; ECRI)</p>
+
+        <p><strong>3.10.4 الحل (The fix):</strong><br>
+        أدخلت غرفة العمليات: خطوة تقييم خطر الحريق وقائمة تحقق الوقاية، تدريبات وتعيين أدوار وبروتوكول استجابة فورية، وتعليم حول وقت تجفيف محلول التحضير والتواصل بشأن التحكم في الأكسجين. (AORN; APSF/ASA)</p>
+        
+        <p><span class="english-term"><strong>The hidden risk:</strong> The fire triangle was present: ignition source, oxidizer, fuel. <strong>Why this happens:</strong> Because “fire” feels rare, teams treat it as theoretical. <strong>The fix:</strong> The OR introduced: a fire risk assessment step, drills, education on prep solution drying time.</span></p>
+    </div>
+
+    <h2>3.11 الأخطاء الشائعة في إدارة مخاطر غرفة العمليات (ما يجب تجنبه)</h2>
+    <h3>3.11 Common Mistakes in OR Risk Management (What to Avoid)</h3>
+
+    <div class="alert-box">
+        <ul>
+            <li><strong>3.11.1 الخطأ: "لدينا سياسات، وبالتالي تتم إدارة المخاطر"</strong><br>
+            السياسات بدون عمليات تدقيق للحواجز وسلطة تصعيد تصبح حماية ورقية. (IHI)<br>
+            <span class="english-term">Mistake: “We have policies, therefore risk is managed.” Policy without barrier audits and escalation authority become paper protection.</span></li>
+            
+            <li><strong>3.11.2 الخطأ: التعامل مع المخاطر النادرة-الكارثية كأولوية منخفضة</strong><br>
+            يجب حماية الموقع الخاطئ، العناصر المتروكة، حرائق العمليات، وإخفاقات هوية العينات بغض النظر عن تكرارها. (The Joint Commission; AORN)<br>
+            <span class="english-term">Mistake: treating rare-catastrophic hazards as low priority. These must be protected regardless of frequency.</span></li>
+            
+            <li><strong>3.11.3 الخطأ: خرائط مخاطر يبنيها المديرون فقط</strong><br>
+            يرى موظفو الخطوط الأمامية الخطر أولاً. يجب بناء خريطة المخاطر بشكل مشترك مع أولئك الذين يعملون في الغرفة. (AHRQ)<br>
+            <span class="english-term">Mistake: risk maps built by managers only. Frontline staff see risk first. A risk map must be co-built.</span></li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>ما يجب أن تتذكره من هذا الفصل / What You Should Remember from This Chapter</h2>
+    <div class="success-box">
+        <p><span class="english-term">Key Memory Messages:</span></p>
+        <ul>
+            <li>تحتاج غرفة العمليات إلى <strong>خريطة مخاطر ذات أربعة مجالات</strong>: سريرية، تشغيلية، بيئية، وقانونية. (AHRQ; ISO 31000)<br>
+            <span class="english-term">The OR needs a <strong>four-domain risk map</strong>: clinical, operational, environmental, and legal.</span></li>
+            
+            <li>بعض المخاطر <strong>غير قابلة للتفاوض</strong>: احمها بتوقفات إلزامية وحواجز قوية بغض النظر عن التكرار. (The Joint Commission)<br>
+            <span class="english-term">Some hazards are <strong>non-negotiable</strong>: protect them with hard stops and strong barriers regardless of frequency.</span></li>
+            
+            <li>تقييم الخطر لا فائدة منه بدون تصميم الحاجز، الملكية، التدقيق، ومحفزات التصعيد. (IHI)<br>
+            <span class="english-term">A risk score is useless without barrier design, ownership, auditing, and escalation triggers.</span></li>
+            
+            <li>الضغط التشغيلي يصبح ضرراً سريرياً ما لم يقم النظام بتقوية الحواجز عندما ينحرف اليوم. (IHI)<br>
+            <span class="english-term">Operational pressure becomes clinical harm unless the system strengthens barriers when the day slips.</span></li>
+            
+            <li>يجب أن يكون التصعيد <strong>سير عمل مُصمم</strong>، وليس صفة شخصية. (IHI; AHRQ)<br>
+            <span class="english-term">Escalation must be a <strong>designed workflow</strong>, not a personality trait.</span></li>
+        </ul>
+    </div>
+
+    <div class="concept-box">
+        <h2>مُلحقات عملية لنهاية الفصل / Chapter-End Practical Inserts</h2>
+        <p><span class="english-term">(Ready for your template)</span></p>
+        
+        <p><strong>المُلحق 1 — نموذج سجل مخاطر غرفة العمليات (صفحة واحدة) / Insert 1 — OR Risk Register Template</strong><br>
+        (انظر 3.7.1) (ISO 31000 concepts; IHI)</p>
+        
+        <p><strong>المُلحق 2 — محفزات التوقف الإلزامي (مخاطر الفئة أ) / Insert 2 — Hard Stop Triggers (Tier A Hazards)</strong></p>
+        <ul>
+            <li>عدم تطابق المريض/الإجراء/الموقع ← أوقف وصعّد (The Joint Commission)</li>
+            <li>تباين العد لم يُحل ← أوقف الإغلاق وصعّد (AORN)</li>
+            <li>عدم يقين بهوية العينة ← أوقف الإرسال وصعّد (AORN; AHRQ)</li>
+            <li>اختراق العقامة غير مُدار ← أوقف وصعّد (AORN; WHO SSI)</li>
+            <li>مكون غرسة حيوي مفقود ← أوقف وصعّد (AORN)</li>
+        </ul>
+
+        <p><strong>المُلحق 3 — بطاقة سلم التصعيد / Insert 3 — Escalation Ladder Card</strong><br>
+        (انظر 3.6.2) (IHI)</p>
+
+        <p><strong>المُلحق 4 — ورقة نقاط تدقيق الحاجز / Insert 4 — Barrier Audit Score Sheet</strong><br>
+        جودة الـ Time-out، موثوقية العد، موثوقية التعامل مع العينات. (WHO SSC; AORN; IHI)</p>
+    </div>
+
+    <div class="references-list">
+        <h2>المراجع / References</h2>
+        <ol>
+            <li>The Joint Commission. Universal Protocol for Preventing Wrong Site, Wrong Procedure, Wrong Person Surgery.</li>
+            <li>The Joint Commission. National Patient Safety Goals (Hospital Program).</li>
+            <li>World Health Organization (WHO). WHO Surgical Safety Checklist and Implementation Resources.</li>
+            <li>Association of periOperative Registered Nurses (AORN). Guidelines for Perioperative Practice.</li>
+            <li>World Health Organization (WHO). Global Guidelines for the Prevention of Surgical Site Infection.</li>
+            <li>Centers for Disease Control and Prevention (CDC). Guideline for the Prevention of Surgical Site Infection.</li>
+            <li>Agency for Healthcare Research and Quality (AHRQ). Patient Safety Resources (including transitions, reporting, safety culture).</li>
+            <li>Institute for Healthcare Improvement (IHI). Quality Improvement and Reliability Resources (PDSA, run charts, human factors in improvement).</li>
+            <li>ECRI. Patient Safety and Device/Technology Hazard Guidance (perioperative focus).</li>
+            <li>Association for the Advancement of Medical Instrumentation (AAMI). ANSI/AAMI ST79: Steam Sterilization and Sterility Assurance in Health Care Facilities.</li>
+            <li>Institute for Safe Medication Practices (ISMP). Medication Safety Guidance for Procedural Areas (sterile-field labeling/handling).</li>
+            <li>National Institute for Occupational Safety and Health (NIOSH). Guidance on Surgical Smoke and Occupational Exposure Controls.</li>
+            <li>National Pressure Injury Advisory Panel (NPIAP) / European Pressure Ulcer Advisory Panel (EPUAP). Pressure Injury Prevention Guidance.</li>
+            <li>Anesthesia Patient Safety Foundation (APSF) / American Society of Anesthesiologists (ASA). Operating Room Fire Safety Guidance and Education Resources.</li>
+            <li>ISO 31000. Risk Management — Guidelines (conceptual framework for taxonomy and risk process).</li>
+        </ol>
+    </div>
+
+    <!-- Download Script -->
+    <script>
+    function downloadHTML() {
+        var clone = document.documentElement.cloneNode(true);
+        
+        var btn = clone.querySelector('#downloadBar');
+        if (btn) btn.remove();
+        
+        var body = clone.querySelector('body');
+        if (body) body.style.paddingTop = '40px';
+
+        var htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+        var blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = "الفصل_الثالث_خريطة_المخاطر.html";
+        document.body.appendChild(a);
+        a.click();
+        
+        setTimeout(function() {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }, 100);
+    }
+    </script>
+
+</body></html>
