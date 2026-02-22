@@ -382,6 +382,7 @@ function navbar(active: string, prevNum?: number, nextNum?: number) {
     </a>
     <div class="nav-links">
       ${prevNum ? `<a href="/chapter/${prevNum}" class="nav-link">← الفصل ${prevNum}</a>` : ''}
+      <a href="/portal" class="nav-link" style="background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);">🏠 منصة الكتب</a>
       <a href="/" class="nav-link ${active === 'home' ? 'active' : ''}">الرئيسية</a>
       <a href="/chapters" class="nav-link ${active === 'chapters' ? 'active' : ''}">📚 الفصول</a>
       ${nextNum ? `<a href="/chapter/${nextNum}" class="nav-link">الفصل ${nextNum} ←</a>` : ''}
@@ -634,7 +635,7 @@ app.get('/portal', (c) => {
     <div class="books-grid">
 
       <!-- كتاب ١ — أعلى يمين: مبادئ السلامة في التخدير → anesthesiasafetyguideline.com -->
-      <a href="https://www.anesthesiasafetyguideline.com" class="book-card" target="_blank">
+      <a href="https://anesthesiasafetyguideline.com" class="book-card" target="_blank" rel="noopener noreferrer">
         <div class="book-img-wrap">
           <img src="/static/anesthesia-cover.png" alt="غلاف دليل السلامة والجودة في التخدير" />
         </div>
