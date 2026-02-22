@@ -469,6 +469,246 @@ function commentsSection(chapterNum: number) {
   </script>`
 }
 
+// ======== PORTAL PAGE — الصفحة الجامعة للمشروعين ========
+app.get('/portal', (c) => {
+  const html = `<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منصة الدلائل الطبية — د. جميل السقيا</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #0a1628 0%, #1e3a8a 50%, #1e40af 100%);
+      min-height: 100vh;
+      padding: 50px 20px 60px;
+      direction: rtl;
+    }
+
+    /* HEADER */
+    .header {
+      text-align: center;
+      color: white;
+      margin-bottom: 60px;
+    }
+    .header-label {
+      font-size: 12px; letter-spacing: 3px;
+      color: rgba(255,255,255,0.45);
+      text-transform: uppercase; direction: ltr;
+      margin-bottom: 18px; display: block;
+    }
+    .header h1 {
+      font-family: 'Amiri', serif;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      color: white; line-height: 1.4;
+      margin-bottom: 10px;
+    }
+    .header .sub {
+      font-family: 'Cairo', sans-serif;
+      font-size: clamp(0.9rem, 2vw, 1.1rem);
+      color: rgba(255,255,255,0.55);
+      direction: ltr; letter-spacing: 1px;
+    }
+
+    /* GRID */
+    .books-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 36px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    /* CARD */
+    .book-card {
+      background: white;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+      text-decoration: none; color: inherit;
+      display: block;
+    }
+    .book-card:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+    }
+    .book-card.unavailable {
+      opacity: 0.6;
+      cursor: default;
+      pointer-events: none;
+    }
+
+    /* IMAGE */
+    .book-img-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 141%;
+      background: linear-gradient(135deg, #e8edf5, #c3cfe2);
+      overflow: hidden;
+    }
+    .book-img-wrap img {
+      position: absolute;
+      inset: 0; width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .book-card:hover .book-img-wrap img { transform: scale(1.06); }
+
+    /* PLACEHOLDER for missing cover */
+    .book-img-placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: white; text-align: center; padding: 30px;
+    }
+    .placeholder-icon { font-size: 60px; margin-bottom: 16px; }
+    .placeholder-title {
+      font-family: 'Amiri', serif;
+      font-size: 1.3rem; font-weight: 700; line-height: 1.6;
+    }
+
+    /* INFO */
+    .book-info { padding: 24px 26px 28px; }
+    .book-title {
+      font-family: 'Amiri', serif;
+      font-size: 1.35rem; font-weight: 700;
+      color: #1e293b; margin-bottom: 6px; line-height: 1.5;
+    }
+    .book-title-en {
+      font-size: 0.82rem; color: #3b82f6;
+      font-family: 'Georgia', serif; font-style: italic;
+      margin-bottom: 12px; display: block;
+    }
+    .book-desc {
+      font-size: 0.88rem; color: #64748b;
+      line-height: 1.7; margin-bottom: 18px;
+    }
+    .book-badge {
+      display: inline-block;
+      padding: 7px 18px; border-radius: 20px;
+      font-weight: 700; font-size: 0.82rem;
+    }
+    .badge-available {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: white;
+    }
+    .badge-soon {
+      background: #fef3c7; color: #92400e;
+    }
+
+    /* FOOTER */
+    .footer {
+      text-align: center; color: white;
+      padding: 60px 20px 20px; margin-top: 20px;
+    }
+    .footer h3 {
+      font-family: 'Amiri', serif;
+      font-size: 1.6rem; margin-bottom: 10px;
+    }
+    .footer p { font-size: 0.9rem; color: rgba(255,255,255,0.6); margin: 6px 0; }
+    .footer .copy { margin-top: 24px; font-size: 0.8rem; color: rgba(255,255,255,0.35); }
+
+    @media (max-width: 700px) {
+      .books-grid { grid-template-columns: 1fr; gap: 24px; }
+      body { padding: 36px 14px 40px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <span class="header-label">DR. JAMEEL AL-SOQAYYA — MEDICAL GUIDELINES PLATFORM</span>
+      <h1>مبادئ السلامة والجودة<br>في التخدير وغرفة العمليات</h1>
+      <div class="sub">Safety & Quality Principles in Anesthesia and Operating Room</div>
+    </div>
+
+    <div class="books-grid">
+
+      <!-- كتاب ١ — التخدير -->
+      <a href="https://www.anesthesiasafetyguideline.com" class="book-card" target="_blank">
+        <div class="book-img-wrap">
+          <div class="book-img-placeholder">
+            <div class="placeholder-icon">💉</div>
+            <div class="placeholder-title">دليل السلامة والجودة<br>في التخدير</div>
+          </div>
+        </div>
+        <div class="book-info">
+          <h2 class="book-title">دليل السلامة والجودة في التخدير</h2>
+          <span class="book-title-en">Anesthesia Safety & Quality Guideline</span>
+          <p class="book-desc">دليل شامل يغطي جميع جوانب السلامة والجودة في ممارسة التخدير. يحتوي على 34 فصلاً متخصصاً مبنياً على أحدث المعايير الدولية.</p>
+          <span class="book-badge badge-available">✓ متاح الآن</span>
+        </div>
+      </a>
+
+      <!-- كتاب ٢ — غرفة العمليات -->
+      <a href="/" class="book-card">
+        <div class="book-img-wrap">
+          <img src="/static/book-cover.png" alt="غلاف كتاب غرفة العمليات" />
+        </div>
+        <div class="book-info">
+          <h2 class="book-title">مبادئ السلامة والجودة في غرفة العمليات</h2>
+          <span class="book-title-en">Operating Room Safety & Quality Principles</span>
+          <p class="book-desc">دليل متكامل لمبادئ السلامة والجودة في غرفة العمليات. ${totalChapters} فصلاً متخصصاً و ${parts.length} أجزاء رئيسية.</p>
+          <span class="book-badge badge-available">✓ متاح الآن</span>
+        </div>
+      </a>
+
+      <!-- كتاب ٣ — قريباً -->
+      <div class="book-card unavailable">
+        <div class="book-img-wrap">
+          <div class="book-img-placeholder" style="background:linear-gradient(135deg,#374151,#6b7280);">
+            <div class="placeholder-icon">📋</div>
+            <div class="placeholder-title">دليل السياسات والإجراءات<br>في التخدير</div>
+          </div>
+        </div>
+        <div class="book-info">
+          <h2 class="book-title">دليل السياسات والإجراءات في التخدير</h2>
+          <span class="book-title-en">Anesthesia Policies & Procedures Guide</span>
+          <p class="book-desc">دليل تفصيلي للسياسات والإجراءات المعتمدة في أقسام التخدير.</p>
+          <span class="book-badge badge-soon">⏳ قريباً</span>
+        </div>
+      </div>
+
+      <!-- كتاب ٤ — قريباً -->
+      <div class="book-card unavailable">
+        <div class="book-img-wrap">
+          <div class="book-img-placeholder" style="background:linear-gradient(135deg,#374151,#6b7280);">
+            <div class="placeholder-icon">🏥</div>
+            <div class="placeholder-title">دليل السياسات والإجراءات<br>في غرفة العمليات</div>
+          </div>
+        </div>
+        <div class="book-info">
+          <h2 class="book-title">دليل السياسات والإجراءات في غرفة العمليات</h2>
+          <span class="book-title-en">Operating Room Policies & Procedures Guide</span>
+          <p class="book-desc">مرجع شامل لسياسات وإجراءات غرفة العمليات والإدارة الآمنة.</p>
+          <span class="book-badge badge-soon">⏳ قريباً</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <h3>د. جميل السقيا</h3>
+      <p>استشاري تخدير وعناية مركزة | جدة، المملكة العربية السعودية</p>
+      <p>خبرة تمتد لأكثر من 25 سنة في التخدير والجودة والسلامة</p>
+      <div class="copy">© 2026 Dr. Jameel Al-Soqayya — All Rights Reserved</div>
+    </div>
+
+  </div>
+</body>
+</html>`
+  return c.html(html)
+})
+
 // ======== HOME PAGE ========
 app.get('/', (c) => {
   const html = `<!DOCTYPE html>
