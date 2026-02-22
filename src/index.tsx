@@ -635,13 +635,13 @@ app.get('/portal', (c) => {
     <div class="books-grid">
 
       <!-- كتاب ١ — أعلى يمين: مبادئ السلامة في التخدير → anesthesiasafetyguideline.com -->
-      <a href="https://anesthesiasafetyguideline.com" class="book-card" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.anesthesiasafetyguideline.com" class="book-card" target="_blank" rel="noopener noreferrer">
         <div class="book-img-wrap">
           <img src="/static/anesthesia-cover.png" alt="غلاف دليل السلامة والجودة في التخدير" />
         </div>
         <div class="book-info">
-          <h2 class="book-title">مبادئ السلامة والجودة في التخدير</h2>
-          <span class="book-title-en">Anesthesia Safety & Quality Principles</span>
+          <h2 class="book-title">دليل السلامة والجودة في التخدير</h2>
+          <span class="book-title-en">Anesthesia Safety & Quality Guideline</span>
           <p class="book-desc">دليل شامل يغطي جميع جوانب السلامة والجودة في ممارسة التخدير. مبنياً على أحدث المعايير الدولية.</p>
           <span class="book-badge badge-available">✓ متاح الآن</span>
         </div>
@@ -690,7 +690,7 @@ app.get('/portal', (c) => {
 
     <div class="footer">
       <h3>د. جميل السقيا</h3>
-      <p>استشاري تخدير وعناية مركزة | جدة، المملكة العربية السعودية</p>
+      <p>استشاري تخدير وعناية مركزة | المملكة العربية السعودية</p>
       <p>خبرة تمتد لأكثر من 25 سنة في التخدير والجودة والسلامة</p>
       <div class="copy">© 2026 Dr. Jameel Al-Soqayya — All Rights Reserved</div>
     </div>
