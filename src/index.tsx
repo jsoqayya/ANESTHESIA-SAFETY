@@ -633,63 +633,54 @@ app.get('/portal', (c) => {
 
     <div class="books-grid">
 
-      <!-- كتاب ١ — التخدير -->
+      <!-- كتاب ١ — أعلى يمين: مبادئ السلامة في التخدير → anesthesiasafetyguideline.com -->
       <a href="https://www.anesthesiasafetyguideline.com" class="book-card" target="_blank">
         <div class="book-img-wrap">
-          <div class="book-img-placeholder">
-            <div class="placeholder-icon">💉</div>
-            <div class="placeholder-title">دليل السلامة والجودة<br>في التخدير</div>
-          </div>
+          <img src="/static/anesthesia-cover.png" alt="غلاف دليل السلامة والجودة في التخدير" />
         </div>
         <div class="book-info">
-          <h2 class="book-title">دليل السلامة والجودة في التخدير</h2>
-          <span class="book-title-en">Anesthesia Safety & Quality Guideline</span>
-          <p class="book-desc">دليل شامل يغطي جميع جوانب السلامة والجودة في ممارسة التخدير. يحتوي على 34 فصلاً متخصصاً مبنياً على أحدث المعايير الدولية.</p>
+          <h2 class="book-title">مبادئ السلامة والجودة في التخدير</h2>
+          <span class="book-title-en">Anesthesia Safety & Quality Principles</span>
+          <p class="book-desc">دليل شامل يغطي جميع جوانب السلامة والجودة في ممارسة التخدير. مبنياً على أحدث المعايير الدولية.</p>
           <span class="book-badge badge-available">✓ متاح الآن</span>
         </div>
       </a>
 
-      <!-- كتاب ٢ — غرفة العمليات -->
+      <!-- كتاب ٢ — أعلى يسار: مبادئ السلامة في غرفة العمليات → المشروع الحالي -->
       <a href="/" class="book-card">
         <div class="book-img-wrap">
-          <img src="/static/book-cover.png" alt="غلاف كتاب غرفة العمليات" />
+          <img src="/static/book-cover.png" alt="غلاف كتاب مبادئ السلامة والجودة في غرفة العمليات" />
         </div>
         <div class="book-info">
           <h2 class="book-title">مبادئ السلامة والجودة في غرفة العمليات</h2>
           <span class="book-title-en">Operating Room Safety & Quality Principles</span>
-          <p class="book-desc">دليل متكامل لمبادئ السلامة والجودة في غرفة العمليات. ${totalChapters} فصلاً متخصصاً و ${parts.length} أجزاء رئيسية.</p>
+          <p class="book-desc">دليل متكامل لمبادئ السلامة والجودة في غرفة العمليات. ${totalChapters} فصلاً متخصصاً في ${parts.length} أجزاء رئيسية.</p>
           <span class="book-badge badge-available">✓ متاح الآن</span>
         </div>
       </a>
 
-      <!-- كتاب ٣ — قريباً -->
+      <!-- كتاب ٣ — أسفل يمين: دليل السياسات في التخدير → قريباً -->
       <div class="book-card unavailable">
         <div class="book-img-wrap">
-          <div class="book-img-placeholder" style="background:linear-gradient(135deg,#374151,#6b7280);">
-            <div class="placeholder-icon">📋</div>
-            <div class="placeholder-title">دليل السياسات والإجراءات<br>في التخدير</div>
-          </div>
+          <img src="/static/anesthesia-policies-cover.png" alt="غلاف دليل السياسات والإجراءات في التخدير" />
         </div>
         <div class="book-info">
           <h2 class="book-title">دليل السياسات والإجراءات في التخدير</h2>
           <span class="book-title-en">Anesthesia Policies & Procedures Guide</span>
-          <p class="book-desc">دليل تفصيلي للسياسات والإجراءات المعتمدة في أقسام التخدير.</p>
+          <p class="book-desc">دليل تفصيلي للسياسات والإجراءات المعتمدة في أقسام التخدير وفق أحدث المعايير الدولية.</p>
           <span class="book-badge badge-soon">⏳ قريباً</span>
         </div>
       </div>
 
-      <!-- كتاب ٤ — قريباً -->
+      <!-- كتاب ٤ — أسفل يسار: دليل السياسات في غرفة العمليات → قريباً -->
       <div class="book-card unavailable">
         <div class="book-img-wrap">
-          <div class="book-img-placeholder" style="background:linear-gradient(135deg,#374151,#6b7280);">
-            <div class="placeholder-icon">🏥</div>
-            <div class="placeholder-title">دليل السياسات والإجراءات<br>في غرفة العمليات</div>
-          </div>
+          <img src="/static/or-policies-cover.png" alt="غلاف دليل السياسات والإجراءات في غرفة العمليات" />
         </div>
         <div class="book-info">
           <h2 class="book-title">دليل السياسات والإجراءات في غرفة العمليات</h2>
           <span class="book-title-en">Operating Room Policies & Procedures Guide</span>
-          <p class="book-desc">مرجع شامل لسياسات وإجراءات غرفة العمليات والإدارة الآمنة.</p>
+          <p class="book-desc">مرجع شامل لسياسات وإجراءات غرفة العمليات والإدارة الآمنة وفق المعايير الدولية.</p>
           <span class="book-badge badge-soon">⏳ قريباً</span>
         </div>
       </div>
