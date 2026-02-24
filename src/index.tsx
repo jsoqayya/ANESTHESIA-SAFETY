@@ -1,11 +1,15 @@
 import { Hono } from 'hono'
 import { serveStatic } from 'hono/cloudflare-workers'
 import { chaptersContent } from './chapters-data'
+import anesthesiaPolicies from './anesthesia-policies'
 
 const app = new Hono()
 
 // Serve static files
 app.use('/static/*', serveStatic({ root: './public' }))
+
+// Mount Anesthesia Policies & Procedures book
+app.route('/anesthesia-policies', anesthesiaPolicies)
 
 // ======== DATA ========
 const bookTitle = 'مبادئ السلامة والجودة في غرفة العمليات'
@@ -660,18 +664,18 @@ app.get('/portal', (c) => {
         </div>
       </a>
 
-      <!-- كتاب ٣ — أسفل يمين: دليل السياسات في التخدير → قريباً -->
-      <div class="book-card unavailable">
+      <!-- كتاب ٣ — أسفل يمين: دليل السياسات في التخدير → متاح الآن -->
+      <a href="/anesthesia-policies" class="book-card">
         <div class="book-img-wrap">
           <img src="/static/anesthesia-policies-cover.png" alt="غلاف دليل السياسات والإجراءات في التخدير" />
         </div>
         <div class="book-info">
           <h2 class="book-title">دليل السياسات والإجراءات في التخدير</h2>
           <span class="book-title-en">Anesthesia Policies & Procedures Guide</span>
-          <p class="book-desc">دليل تفصيلي للسياسات والإجراءات المعتمدة في أقسام التخدير وفق أحدث المعايير الدولية.</p>
-          <span class="book-badge badge-soon">⏳ قريباً</span>
+          <p class="book-desc">دليل تفصيلي للسياسات والإجراءات المعتمدة في أقسام التخدير. 13 قسماً و 30 نموذجاً جاهزاً.</p>
+          <span class="book-badge badge-available">✓ متاح الآن</span>
         </div>
-      </div>
+      </a>
 
       <!-- كتاب ٤ — أسفل يسار: دليل السياسات في غرفة العمليات → قريباً -->
       <div class="book-card unavailable">
