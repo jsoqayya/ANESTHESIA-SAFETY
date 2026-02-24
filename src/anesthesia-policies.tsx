@@ -233,314 +233,471 @@ ap.get('/', (c) => {
   <title>${bookTitle}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Kufi+Arabic:wght@300;400;600;700;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Kufi+Arabic:wght@300;400;600;800&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
     body {
-      font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif;
-      background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 30%, #99f6e4 60%, #f0fdfa 100%);
-      min-height: 100vh;
-      color: #1c1917;
+      font-family: "Amiri", serif;
+      color: #1f2937; background: #fff;
+      direction: rtl; text-align: right;
     }
-    .hero-header {
-      background: linear-gradient(135deg, #042f2e 0%, #0f766e 50%, #0d9488 100%);
-      padding: 40px 20px 50px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
+    a { text-decoration: none; color: inherit; }
+
+    /* ── NAVBAR (fixed) ── */
+    .ap-navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
+      background: linear-gradient(135deg, #042f2e 0%, #0f766e 60%, #0d9488 100%);
+      height: 56px; display: flex; align-items: center;
+      justify-content: space-between; padding: 0 20px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.35);
+      font-family: "Noto Kufi Arabic", sans-serif;
     }
-    .hero-header::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 60%);
+    .ap-navbar .brand {
+      display: flex; align-items: center; gap: 8px;
+      text-decoration: none; flex-shrink: 0;
     }
-    .hero-header h1 {
-      font-family: 'Amiri', serif;
-      font-size: clamp(1.6rem, 4vw, 2.8rem);
-      color: white;
-      font-weight: 700;
-      line-height: 1.4;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
-      position: relative;
+    .brand-icon {
+      width: 32px; height: 32px;
+      background: rgba(255,255,255,0.2); border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px;
     }
-    .hero-header .subtitle {
-      font-size: 0.9rem;
-      color: rgba(255,255,255,0.8);
-      margin-top: 8px;
-      font-weight: 400;
-      letter-spacing: 0.05em;
-      position: relative;
+    .brand-text {
+      color: white; font-size: 12px; font-weight: 700;
+      white-space: nowrap; max-width: 200px;
+      overflow: hidden; text-overflow: ellipsis;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
     }
-    .hero-header .badge-row {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-top: 20px;
-      flex-wrap: wrap;
-      position: relative;
+    .ap-navbar .nav-links {
+      display: flex; align-items: center; gap: 6px; flex-wrap: nowrap;
     }
-    .hero-header .badge {
-      background: rgba(255,255,255,0.15);
-      color: white;
-      padding: 6px 16px;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      border: 1px solid rgba(255,255,255,0.3);
-      backdrop-filter: blur(4px);
+    .ap-navbar .nav-links a {
+      color: rgba(255,255,255,0.9); text-decoration: none;
+      font-size: 12px; padding: 6px 11px; border-radius: 7px;
+      white-space: nowrap; font-weight: 600; transition: background 0.2s;
+      background: rgba(255,255,255,0.1);
     }
-    .nav-bar {
-      background: rgba(255,255,255,0.9);
-      backdrop-filter: blur(10px);
-      padding: 12px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 10px;
-      border-bottom: 1px solid #99f6e4;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      flex-wrap: wrap;
+    .ap-navbar .nav-links a.active { background: rgba(255,255,255,0.25); font-weight: 700; }
+    .ap-navbar .nav-links a:hover { background: rgba(255,255,255,0.2); }
+    .nav-spacer { height: 56px; }
+
+    /* ── COVER PAGE (dark, full image) ── */
+    .cover-page {
+      background: #03201f;
+      display: flex; flex-direction: column; align-items: center;
     }
-    .nav-bar a {
-      text-decoration: none;
-      font-size: 13px;
-      font-weight: 600;
-      padding: 7px 14px;
-      border-radius: 8px;
-      transition: all 0.2s;
+    .cover-img-block {
+      width: 100%; display: flex;
+      justify-content: center; align-items: flex-start;
+      background: #03201f;
     }
-    .nav-bar .btn-portal {
-      background: linear-gradient(135deg, #042f2e, #0f766e);
-      color: white;
+    .cover-bg-img {
+      display: block; width: 58vw; max-width: 780px; height: auto;
     }
-    .nav-bar .btn-sections {
-      background: #f0fdfa;
-      color: #0f766e;
-      border: 1px solid #99f6e4;
+    @media (max-width: 768px) { .cover-bg-img { width: 92vw; } }
+    .cover-bottom {
+      width: 100%;
+      background: linear-gradient(180deg, #03201f 0%, #042f2e 55%, #064e3b 100%);
+      padding: 36px 32px 50px; text-align: center;
     }
-    .nav-bar .book-name {
-      font-weight: 700;
-      color: #042f2e;
-      font-size: 14px;
+    .cover-en-label {
+      font-family: "Segoe UI", sans-serif;
+      font-size: 11px; color: rgba(255,255,255,0.4);
+      letter-spacing: 2.5px; text-transform: uppercase;
+      direction: ltr; margin-bottom: 12px; display: block;
     }
-    .content-area {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 40px 16px 60px;
+    .cover-main-title {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: clamp(20px, 3.8vw, 38px);
+      font-weight: 800; color: #fff; line-height: 1.45; margin-bottom: 12px;
     }
-    .cover-section {
-      display: flex;
-      gap: 30px;
-      align-items: flex-start;
-      margin-bottom: 50px;
-      flex-wrap: wrap;
+    .cover-main-title .accent { color: #34d399; }
+    .cover-badge-row {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.18);
+      color: rgba(255,255,255,0.8); padding: 6px 20px; border-radius: 20px;
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 12px; font-weight: 600; margin-bottom: 26px;
     }
-    .cover-img {
-      width: 180px;
-      height: 240px;
-      object-fit: cover;
-      border-radius: 12px;
-      box-shadow: 0 12px 40px rgba(0,0,0,0.2);
-      flex-shrink: 0;
+    .cover-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn-white {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 15px; font-weight: 700; background: white; color: #042f2e;
+      padding: 13px 30px; border-radius: 10px; transition: all 0.25s;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.25); display: inline-block;
     }
-    .cover-info {
-      flex: 1;
-      min-width: 220px;
+    .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.3); }
+    .btn-outline-w {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 15px; font-weight: 600; background: transparent; color: white;
+      padding: 13px 30px; border-radius: 10px;
+      border: 2px solid rgba(255,255,255,0.35); transition: all 0.25s; display: inline-block;
     }
-    .cover-info h2 {
-      font-family: 'Amiri', serif;
-      font-size: 1.5rem;
-      color: #042f2e;
-      font-weight: 700;
-      margin-bottom: 12px;
+    .btn-outline-w:hover { background: rgba(255,255,255,0.1); }
+    @media (max-width: 600px) {
+      .cover-bottom { padding: 26px 16px 38px; }
+      .cover-main-title { font-size: 20px; }
     }
-    .cover-info p {
-      font-size: 0.95rem;
-      color: #374151;
-      line-height: 1.7;
-      margin-bottom: 10px;
+
+    /* ── HERO SECTION ── */
+    .ap-hero {
+      background: linear-gradient(160deg, #042f2e 0%, #065f46 40%, #0f766e 70%, #0d9488 100%);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 70px 24px 60px; text-align: center;
+      position: relative; overflow: hidden;
     }
-    .stats-row {
-      display: flex;
-      gap: 12px;
-      margin-top: 16px;
-      flex-wrap: wrap;
+    .ap-hero::before {
+      content: ""; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 60% 40%, rgba(52,211,153,0.12) 0%, transparent 70%);
+      pointer-events: none;
     }
-    .stat-box {
-      background: white;
-      border-radius: 10px;
-      padding: 10px 18px;
-      text-align: center;
-      border: 1px solid #99f6e4;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    .ap-hero-inner { position: relative; z-index: 1; max-width: 820px; width: 100%; }
+    .ap-hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.25);
+      color: rgba(255,255,255,0.9); padding: 8px 22px; border-radius: 30px; margin-bottom: 28px;
+      font-family: "Noto Kufi Arabic", sans-serif; font-size: 13px; font-weight: 600;
     }
-    .stat-box .num {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #0f766e;
+    .ap-hero-en {
+      font-family: "Segoe UI", sans-serif; font-size: 12px; color: rgba(255,255,255,0.45);
+      letter-spacing: 2.5px; margin-bottom: 14px;
+      text-transform: uppercase; direction: ltr;
     }
-    .stat-box .lbl {
-      font-size: 0.75rem;
-      color: #6b7280;
+    .ap-hero-title {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: clamp(24px, 4.5vw, 44px);
+      font-weight: 800; color: white; line-height: 1.35; margin-bottom: 22px;
     }
-    .btn-primary {
-      display: inline-block;
-      background: linear-gradient(135deg, #042f2e, #0f766e);
-      color: white;
-      padding: 12px 28px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.95rem;
-      margin-top: 20px;
-      transition: opacity 0.2s;
-      box-shadow: 0 4px 12px rgba(15,118,110,0.3);
+    .ap-hero-title .accent { color: #34d399; }
+    .ap-hero-desc {
+      font-family: "Amiri", serif; font-size: 18px; color: rgba(255,255,255,0.72);
+      line-height: 1.8; max-width: 620px; margin: 0 auto 36px;
     }
-    .btn-primary:hover { opacity: 0.9; }
-    .sections-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    .ap-stats-row {
+      display: flex; justify-content: center; gap: 0;
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 14px; overflow: hidden; max-width: 500px; margin: 0 auto;
+    }
+    .ap-stat-item {
+      flex: 1; padding: 18px 12px; text-align: center;
+      border-left: 1px solid rgba(255,255,255,0.12);
+    }
+    .ap-stat-item:last-child { border-left: none; }
+    .ap-stat-num {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 28px; font-weight: 800; color: white; line-height: 1.1;
+    }
+    .ap-stat-label {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 4px;
+    }
+
+    /* ── BOOK INFO SECTION (dark 3D book) ── */
+    .ap-book-section {
+      background: linear-gradient(160deg, #03201f 0%, #042f2e 50%, #053d30 100%);
+      padding: 70px 24px 80px;
+    }
+    .ap-book-inner {
+      max-width: 1000px; margin: 0 auto;
+      display: flex; align-items: center; gap: 60px;
+      flex-wrap: wrap; justify-content: center;
+    }
+    .ap-book-img-wrap { flex-shrink: 0; perspective: 1000px; }
+    .ap-book-img {
+      width: 300px; border-radius: 12px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.7), 0 10px 30px rgba(0,0,0,0.5), 6px 0 20px rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.1); display: block;
+      transform: rotateY(-8deg) rotateX(2deg);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .ap-book-img:hover {
+      transform: rotateY(-3deg) rotateX(1deg) scale(1.03);
+      box-shadow: 0 40px 100px rgba(0,0,0,0.8), 0 15px 40px rgba(15,118,110,0.4);
+    }
+    @media (max-width: 700px) { .ap-book-img { width: 200px; } .ap-book-inner { gap: 36px; } }
+    .ap-book-info { flex: 1; min-width: 280px; }
+    .ap-book-label {
+      font-family: "Segoe UI", sans-serif; font-size: 11px; color: rgba(255,255,255,0.4);
+      letter-spacing: 2px; text-transform: uppercase; direction: ltr; margin-bottom: 14px;
+    }
+    .ap-book-title {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 26px; font-weight: 800; color: white; line-height: 1.4; margin-bottom: 10px;
+    }
+    .ap-book-en {
+      font-family: "Segoe UI", sans-serif; font-size: 12px; color: rgba(255,255,255,0.45);
+      direction: ltr; margin-bottom: 20px;
+    }
+    .ap-book-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.18);
+      color: rgba(255,255,255,0.75); padding: 6px 16px; border-radius: 20px;
+      font-family: "Noto Kufi Arabic", sans-serif; font-size: 12px; margin-bottom: 26px;
+    }
+    .ap-book-cta {
+      display: inline-block; font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 14px; font-weight: 700; color: white;
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3);
+      padding: 11px 26px; border-radius: 9px; transition: background 0.2s;
+    }
+    .ap-book-cta:hover { background: rgba(255,255,255,0.18); }
+
+    /* ── ABOUT / INTRO OVERVIEW ── */
+    .ap-about { background: #f8fffe; padding: 70px 24px; }
+    .ap-about-max { max-width: 920px; margin: 0 auto; }
+    .ap-section-title {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 28px; font-weight: 800; color: #042f2e;
+      margin-bottom: 6px; text-align: center;
+    }
+    .ap-section-en {
+      font-family: "Segoe UI", sans-serif; font-size: 12px; color: #9ca3af;
+      text-align: center; direction: ltr; letter-spacing: 1.5px;
+      margin-bottom: 40px; text-transform: uppercase;
+    }
+    .ap-about-card {
+      background: white; border: 1px solid #d1fae5; border-radius: 20px;
+      padding: 46px 50px;
+      box-shadow: 0 4px 24px rgba(15,118,110,0.07);
+      position: relative; overflow: hidden;
+    }
+    .ap-about-card::before {
+      content: ""; position: absolute; top: 0; right: 0;
+      width: 6px; height: 100%;
+      background: linear-gradient(180deg, #042f2e, #0f766e, #34d399);
+      border-radius: 0 20px 20px 0;
+    }
+    @media (max-width: 600px) { .ap-about-card { padding: 28px 22px; } }
+    .ap-about-intro {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 13px; font-weight: 700; color: #0f766e;
+      letter-spacing: 0.5px; margin-bottom: 20px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .ap-about-lines { list-style: none; padding: 0; margin: 0; }
+    .ap-about-lines li {
+      font-family: "Amiri", serif; font-size: 18px; color: #1f2937; line-height: 1.9;
+      padding: 12px 0; border-bottom: 1px solid #f0fdf4;
+      display: flex; gap: 14px; align-items: flex-start;
+    }
+    .ap-about-lines li:last-child { border-bottom: none; }
+    .li-icon { font-size: 15px; margin-top: 6px; flex-shrink: 0; color: #0f766e; }
+    @media (max-width: 600px) { .ap-about-lines li { font-size: 16px; } }
+    .ap-about-final {
+      margin-top: 28px; padding: 22px 26px;
+      background: linear-gradient(135deg, #042f2e 0%, #0f766e 100%);
+      border-radius: 12px; font-family: "Amiri", serif;
+      font-size: 18px; color: white; line-height: 1.9; text-align: center;
+    }
+    @media (max-width: 600px) { .ap-about-final { font-size: 16px; } }
+
+    /* ── SECTIONS GRID ── */
+    .ap-sections-sec { background: #f0fdf4; padding: 70px 24px; }
+    .ap-sections-max { max-width: 960px; margin: 0 auto; }
+    .ap-sections-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
       gap: 16px;
-      margin-bottom: 40px;
     }
-    .section-card {
-      background: white;
-      border-radius: 14px;
-      padding: 20px;
-      border: 1px solid #99f6e4;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    .ap-sec-card {
+      background: white; border-radius: 14px; padding: 20px;
+      border: 1px solid #a7f3d0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
       transition: transform 0.2s, box-shadow 0.2s;
-      text-decoration: none;
-      color: inherit;
-      display: block;
+      text-decoration: none; color: inherit; display: block;
     }
-    .section-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(15,118,110,0.15);
-    }
-    .section-card .sec-id {
+    .ap-sec-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(15,118,110,0.15); }
+    .ap-sec-id {
       display: inline-block;
       background: linear-gradient(135deg, #0d9488, #0f766e);
-      color: white;
-      padding: 3px 12px;
-      border-radius: 6px;
-      font-weight: 700;
-      font-size: 0.85rem;
-      margin-bottom: 10px;
+      color: white; padding: 3px 12px; border-radius: 6px;
+      font-weight: 700; font-size: 0.85rem; margin-bottom: 10px;
+      font-family: "Noto Kufi Arabic", sans-serif;
     }
-    .section-card h3 {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: #042f2e;
-      margin-bottom: 4px;
+    .ap-sec-card h3 {
+      font-size: 0.95rem; font-weight: 700; color: #042f2e; margin-bottom: 4px;
+      font-family: "Noto Kufi Arabic", sans-serif;
     }
-    .section-card .sec-en {
-      font-size: 0.8rem;
-      color: #6b7280;
+
+    /* ── CTA ── */
+    .ap-cta {
+      background: linear-gradient(135deg, #042f2e, #065f46, #0f766e);
+      text-align: center; padding: 70px 24px; color: white;
     }
-    .section-h2 {
-      font-family: 'Amiri', serif;
-      font-size: 1.4rem;
-      color: #042f2e;
-      font-weight: 700;
-      margin-bottom: 20px;
-      padding-bottom: 10px;
-      border-bottom: 2px solid #0f766e;
+    .ap-cta h2 {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 26px; font-weight: 800; margin-bottom: 14px;
     }
-    .footer {
-      text-align: center;
-      padding: 30px 20px;
-      background: linear-gradient(135deg, #042f2e, #0f766e);
-      color: rgba(255,255,255,0.85);
-      font-size: 0.85rem;
+    .ap-cta p {
+      font-family: "Amiri", serif; font-size: 17px; color: rgba(255,255,255,0.75);
+      max-width: 520px; margin: 0 auto 28px; line-height: 1.8;
     }
-    .footer .author {
-      font-size: 1rem;
-      font-weight: 700;
-      color: white;
-      margin-bottom: 4px;
+    .ap-cta-btn {
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 16px; font-weight: 700; background: white; color: #042f2e;
+      padding: 14px 36px; border-radius: 10px; transition: all 0.2s;
+      display: inline-block; box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     }
+    .ap-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.25); }
+
+    /* ── FOOTER ── */
+    .ap-footer {
+      background: #01130f; color: rgba(255,255,255,0.45);
+      text-align: center; padding: 28px 24px;
+      font-family: "Noto Kufi Arabic", sans-serif;
+      font-size: 13px; line-height: 1.8;
+    }
+    .ap-footer strong { color: rgba(255,255,255,0.8); }
   </style>
 </head>
 <body>
-  <!-- Nav Bar -->
-  <div class="nav-bar">
-    <span class="book-name">💊 ${bookTitle}</span>
-    <div style="display:flex;gap:8px;flex-wrap:wrap;">
-      <a href="/portal" class="btn-portal">🏠 منصة الكتب</a>
-      <a href="/anesthesia-policies/sections" class="btn-sections">📚 تصفح الأقسام</a>
-    </div>
-  </div>
 
-  <!-- Hero -->
-  <div class="hero-header">
-    <h1>دليل السياسات والإجراءات في التخدير</h1>
-    <p class="subtitle">Anesthesia Policies & Procedures Manual</p>
-    <div class="badge-row">
-      <span class="badge">📋 ${total} قسم</span>
-      <span class="badge">📄 ${totalForms} نموذج</span>
-      <span class="badge">🏥 تخدير وعناية مركزة</span>
-      <span class="badge">© 2026</span>
+  <!-- ① NAVBAR (fixed) -->
+  <nav class="ap-navbar">
+    <a href="/anesthesia-policies" class="brand">
+      <div class="brand-icon">💊</div>
+      <span class="brand-text">${bookTitle}</span>
+    </a>
+    <div class="nav-links">
+      <a href="/portal">🏠 المنصة</a>
+      <a href="/anesthesia-policies" class="active">الرئيسية</a>
+      <a href="/anesthesia-policies/sections">📚 الأقسام</a>
     </div>
-  </div>
+  </nav>
+  <div class="nav-spacer"></div>
 
-  <div class="content-area">
-    <!-- Cover + Info -->
-    <div class="cover-section">
-      <img src="/static/anesthesia-policies-cover.png" alt="غلاف الدليل" class="cover-img" />
-      <div class="cover-info">
-        <h2>دليل السياسات والإجراءات في التخدير</h2>
-        <p>دليل شامل ومتكامل يغطي جميع سياسات وإجراءات قسم التخدير والعناية المركزة، مُصمَّم وفق أعلى معايير الجودة والسلامة الطبية العالمية.</p>
-        <p>يشمل الدليل ${total} قسماً رئيسياً تغطي كافة جوانب الممارسة السريمية للتخدير، من التقييم قبل التخدير إلى نماذج التوثيق والرقابة الجودة.</p>
-        <div class="stats-row">
-          <div class="stat-box">
-            <div class="num">${total}</div>
-            <div class="lbl">قسم</div>
-          </div>
-          <div class="stat-box">
-            <div class="num">${totalForms}</div>
-            <div class="lbl">نموذج</div>
-          </div>
-          <div class="stat-box">
-            <div class="num">A–M</div>
-            <div class="lbl">أقسام</div>
-          </div>
-        </div>
-        <a href="/anesthesia-policies/sections" class="btn-primary">📚 تصفح الأقسام كاملة</a>
+  <!-- ② COVER — full image, text block below -->
+  <section class="cover-page">
+    <div class="cover-img-block">
+      <img src="/static/anesthesia-policies-cover.png" alt="غلاف دليل السياسات والإجراءات في التخدير" class="cover-bg-img" />
+    </div>
+    <div class="cover-bottom">
+      <span class="cover-en-label">Anesthesia Policies &amp; Procedures Manual</span>
+      <div class="cover-main-title">
+        دليل <span class="accent">السياسات والإجراءات</span><br>في التخدير
+      </div>
+      <div class="cover-badge-row">📋 ${total} قسماً &nbsp;•&nbsp; 📄 ${totalForms} نموذجاً &nbsp;•&nbsp; 🏥 مرجع مؤسسي شامل</div>
+      <div class="cover-actions">
+        <a href="/anesthesia-policies/sections" class="btn-white">تصفح الأقسام ←</a>
+        <a href="/anesthesia-policies/section/A" class="btn-outline-w">ابدأ من القسم الأول</a>
       </div>
     </div>
+  </section>
 
-    <!-- Sections Grid -->
-    <h2 class="section-h2">📂 أقسام الدليل</h2>
-    <div class="sections-grid">
-      ${sectionOrder.map(id => `
-        <a href="/anesthesia-policies/section/${id}" class="section-card">
-          <span class="sec-id">Section ${id}</span>
-          <h3>${sectionTitles[id]}</h3>
-        </a>
-      `).join('')}
+  <!-- ③ HERO — title + stats -->
+  <section class="ap-hero">
+    <div class="ap-hero-inner">
+      <div class="ap-hero-badge">📖 مرجع مؤسسي شامل • ${total} قسماً • ${totalForms} نموذجاً</div>
+      <div class="ap-hero-en">ANESTHESIA POLICIES &amp; PROCEDURES GUIDE</div>
+      <h1 class="ap-hero-title">
+        دليل <span class="accent">السياسات والإجراءات</span><br>في التخدير
+      </h1>
+      <p class="ap-hero-desc">
+        سياسات وإجراءات واضحة وقابلة للتطبيق الفوري لأقسام التخدير، مُصمَّمة لتوحيد الممارسة السريرية وتعزيز سلامة المريض
+      </p>
+      <div class="ap-stats-row">
+        <div class="ap-stat-item">
+          <div class="ap-stat-num">${total}</div>
+          <div class="ap-stat-label">قسم</div>
+        </div>
+        <div class="ap-stat-item">
+          <div class="ap-stat-num">${totalForms}</div>
+          <div class="ap-stat-label">نموذج</div>
+        </div>
+        <div class="ap-stat-item">
+          <div class="ap-stat-num">A–M</div>
+          <div class="ap-stat-label">أقسام</div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <!-- Author -->
-    <div style="background:white;border-radius:14px;padding:24px;border:1px solid #99f6e4;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,0.05);">
-      <div style="font-size:2rem;margin-bottom:8px;">👨‍⚕️</div>
-      <div style="font-family:'Amiri',serif;font-size:1.2rem;font-weight:700;color:#042f2e;margin-bottom:4px;">${authorName}</div>
-      <div style="font-size:0.85rem;color:#6b7280;">Dr. Jameel Al-Soqayya</div>
-      <div style="font-size:0.85rem;color:#6b7280;margin-top:4px;">استشاري تخدير وعناية مركزة | المملكة العربية السعودية</div>
-      <div style="font-size:0.8rem;color:#0f766e;margin-top:4px;">خبرة تزيد على 25 عاماً في الممارسة الطبية</div>
+  <!-- ④ BOOK INFO (dark + 3D book image) -->
+  <section class="ap-book-section">
+    <div class="ap-book-inner">
+      <div class="ap-book-img-wrap">
+        <img src="/static/anesthesia-policies-cover.png" alt="غلاف الدليل" class="ap-book-img" />
+      </div>
+      <div class="ap-book-info">
+        <div class="ap-book-label">THE GUIDE</div>
+        <div class="ap-book-title">دليل السياسات والإجراءات<br>في التخدير</div>
+        <div class="ap-book-en">ANESTHESIA POLICIES &amp; PROCEDURES MANUAL</div>
+        <div class="ap-book-badge">📚 ${total} قسماً • ${totalForms} نموذجاً جاهزاً للاستخدام</div>
+        <a href="/anesthesia-policies/sections" class="ap-book-cta">استعرض جميع الأقسام ←</a>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <footer class="footer">
-    <div class="author">${authorName} – Dr. Jameel Al-Soqayya</div>
-    <div>استشاري تخدير وعناية مركزة | المملكة العربية السعودية</div>
-    <div style="margin-top:8px;opacity:0.7;">© 2026 جميع الحقوق محفوظة</div>
+  <!-- ⑤ ABOUT / INTRO OVERVIEW -->
+  <section class="ap-about">
+    <div class="ap-about-max">
+      <div class="ap-section-title">عن الدليل</div>
+      <div class="ap-section-en">About This Guide</div>
+      <div class="ap-about-card">
+        <div class="ap-about-intro">
+          <span>📘</span> لمحة تعريفية — دليل السياسات والإجراءات في التخدير
+        </div>
+        <ul class="ap-about-lines">
+          <li>
+            <span class="li-icon">◆</span>
+            <span>هذا الدليل يُقدّم <strong>سياسات وإجراءات واضحة وقابلة للتطبيق المباشر</strong> لأقسام التخدير، مُصمَّمة لتحويل الممارسة السريرية من اجتهادات فردية إلى <strong>منظومة مؤسسية موحّدة ومقننة.</strong></span>
+          </li>
+          <li>
+            <span class="li-icon">◆</span>
+            <span>يضمّ الدليل <strong>نماذج جاهزة وقوائم تحقق ومسارات سريرية</strong> تُغطي كامل دورة رعاية المريض؛ من التقييم قبل التخدير، عبر التخدير الجراحي، وحتى التعافي والخروج الآمن.</span>
+          </li>
+          <li>
+            <span class="li-icon">◆</span>
+            <span>يعمل هذا الدليل <strong>مرجعاً مؤسسياً تطبيقياً</strong> مكمّلاً لـ "دليل السلامة والجودة في التخدير"، إذ يُترجم مبادئ السلامة إلى إجراءات يومية قابلة للتوثيق والرقابة والتحسين.</span>
+          </li>
+          <li>
+            <span class="li-icon">◆</span>
+            <span>يستهدف الدليل <strong>أطباء التخدير، والممرضين المختصين، والفنيين، ومديري الجودة والسلامة</strong> في المنشآت الصحية الراغبة في توحيد ممارساتها وفق المعايير الدولية.</span>
+          </li>
+          <li>
+            <span class="li-icon">◆</span>
+            <span>يسعى الدليل إلى <strong>توحيد الممارسة السريرية وتعزيز سلامة المريض</strong> من خلال تحديد مسؤوليات واضحة، وبروتوكولات موثّقة، وأدوات مراجعة قابلة للقياس والتدقيق.</span>
+          </li>
+        </ul>
+        <div class="ap-about-final">
+          الهدف النهائي: <strong>أن تكون كل إجراءات التخدير موحّدة، موثّقة، وآمنة</strong> —<br>
+          لأن سلامة المريض تبدأ قبل التخدير وتنتهي بعد الإفاقة الآمنة.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ SECTIONS GRID -->
+  <section class="ap-sections-sec">
+    <div class="ap-sections-max">
+      <div class="ap-section-title" style="color:#042f2e;">📂 أقسام الدليل</div>
+      <div class="ap-section-en">Guide Sections</div>
+      <div class="ap-sections-grid">
+        ${sectionOrder.map(id => `
+          <a href="/anesthesia-policies/section/${id}" class="ap-sec-card">
+            <span class="ap-sec-id">Section ${id}</span>
+            <h3>${sectionTitles[id]}</h3>
+          </a>
+        `).join('')}
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑦ CTA -->
+  <section class="ap-cta">
+    <h2>ابدأ رحلتك نحو قسم تخدير أكثر أماناً وكفاءة</h2>
+    <p>كل قسم خطوة نحو ممارسة مؤسسية أفضل، وسياسات أوضح، ومريض أكثر أماناً</p>
+    <a href="/anesthesia-policies/sections" class="ap-cta-btn">استعرض جميع الأقسام ←</a>
+  </section>
+
+  <!-- ⑧ FOOTER -->
+  <footer class="ap-footer">
+    <strong>${authorName} — Dr. Jameel Al-Soqayya</strong><br>
+    استشاري تخدير وعناية مركزة | المملكة العربية السعودية<br>
+    <span style="margin-top:6px;display:inline-block;font-size:12px;opacity:0.6;">© 2026 جميع الحقوق محفوظة</span>
   </footer>
+
 </body>
 </html>`)
 })
