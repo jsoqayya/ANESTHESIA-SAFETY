@@ -184,6 +184,35 @@ function commentsSection(pageId: string) {
   </script>`
 }
 
+// ── buildFormPage — forms: full-width, no side padding, no comments ────────
+function buildFormPage(
+  title: string,
+  css: string,
+  body: string,
+  navHtml: string
+): string {
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${title} | ${bookTitle}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    ${css}
+    /* Allow form's own CSS to control body layout fully */
+    body { padding-top: 0 !important; margin: 0 !important; }
+    .max-w-5xl { max-width: 64rem; }
+  </style>
+</head>
+<body>
+${navHtml}
+${body}
+</body>
+</html>`
+}
+
 // ── buildPage ──────────────────────────────────────────────────────────────
 function buildPage(
   title: string,
@@ -551,7 +580,7 @@ ap.get('/', (c) => {
           <li>
             <span class="ip-bullet">◆</span>
             <span>
-              يمتاز الدليل بأنه <strong>ثنائي اللغة (عربي وإنجليزي)</strong>، مما يجعله ملائماً للبيئات الطبية متعددة الجنسيات، ومتوافقاً مع متطلبات الاعتماد الدولي من هيئتَي <strong>JCI</strong> و<strong>CBAHI</strong> وغيرهما من هيئات الاعتماد المعتمدة دولياً. كما يلتزم بمعايير منظمتَي <strong>ASA</strong> و<strong>ESAIC</strong> المهنيتين.
+              يمتاز الدليل بأنه متوافقٌ مع متطلبات الاعتماد الدولي من هيئتَي <strong>JCI</strong> و<strong>CBAHI</strong> وغيرهما من هيئات الاعتماد المعتمدة دولياً. كما يلتزم بمعايير منظمتَي <strong>ASA</strong> و<strong>ESAIC</strong> المهنيتين، مما يجعله ملائماً للبيئات الطبية المتنوعة ومتعددة الجنسيات.
             </span>
           </li>
           <li>
@@ -824,7 +853,7 @@ ap.get('/form/:id', (c) => {
   )
 
   const title = `${id.replace('f','F-')}: ${formTitles[id] || ''}`
-  const page = buildPage(title, form.css, form.body, navHtml, commentsSection(id))
+  const page = buildFormPage(title, form.css, form.body, navHtml)
   return c.html(page)
 })
 
