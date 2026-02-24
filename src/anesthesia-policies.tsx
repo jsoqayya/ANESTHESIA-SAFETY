@@ -225,6 +225,13 @@ ${extraBottom}
 ap.get('/', (c) => {
   const total = sectionOrder.length
   const totalForms = formOrder.length
+
+  const sectionIcons: Record<string,string> = {
+    A:'⚖️', B:'🔍', C:'💉', D:'🛏️', E:'😴',
+    F:'🏨', G:'🦴', H:'🔧', I:'🚨', J:'🧴',
+    K:'📢', L:'📊', M:'📋'
+  }
+
   return c.html(`<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -233,341 +240,383 @@ ap.get('/', (c) => {
   <title>${bookTitle}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Kufi+Arabic:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Kufi+Arabic:wght@300;400;600;800;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body {
-      font-family: "Amiri", serif;
-      color: #1f2937; background: #fff;
-      direction: rtl; text-align: right;
-    }
+    body { font-family: 'Noto Kufi Arabic', sans-serif; color: #f0fdfa; background: #021a18; direction: rtl; text-align: right; }
     a { text-decoration: none; color: inherit; }
 
-    /* ── NAVBAR (fixed) ── */
-    .ap-navbar {
+    /* ─── TOP NAVBAR ─────────────────────────────────────────── */
+    .top-nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
-      background: linear-gradient(135deg, #042f2e 0%, #0f766e 60%, #0d9488 100%);
-      height: 56px; display: flex; align-items: center;
-      justify-content: space-between; padding: 0 20px;
-      box-shadow: 0 2px 16px rgba(0,0,0,0.35);
-      font-family: "Noto Kufi Arabic", sans-serif;
+      height: 56px; display: flex; align-items: center; justify-content: space-between;
+      padding: 0 20px;
+      background: rgba(2,26,24,0.85);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(20,184,166,0.25);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.5);
     }
-    .ap-navbar .brand {
-      display: flex; align-items: center; gap: 8px;
-      text-decoration: none; flex-shrink: 0;
+    .top-nav .brand {
+      display: flex; align-items: center; gap: 9px;
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 13px; font-weight: 700; color: #ccfbf1;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 220px;
     }
-    .brand-icon {
-      width: 32px; height: 32px;
-      background: rgba(255,255,255,0.2); border-radius: 8px;
+    .top-nav .brand-icon {
+      width: 30px; height: 30px; border-radius: 8px;
+      background: linear-gradient(135deg, #0d9488, #0f766e);
       display: flex; align-items: center; justify-content: center;
-      font-size: 16px;
+      font-size: 15px; flex-shrink: 0;
     }
-    .brand-text {
-      color: white; font-size: 12px; font-weight: 700;
-      white-space: nowrap; max-width: 200px;
-      overflow: hidden; text-overflow: ellipsis;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    .top-nav .nav-links { display: flex; align-items: center; gap: 6px; }
+    .top-nav .nav-links a {
+      font-size: 12px; font-weight: 600; padding: 6px 12px; border-radius: 7px;
+      color: rgba(255,255,255,0.85); transition: all 0.2s;
     }
-    .ap-navbar .nav-links {
-      display: flex; align-items: center; gap: 6px; flex-wrap: nowrap;
+    .top-nav .nav-links .btn-portal {
+      background: linear-gradient(135deg, #0f766e, #0d9488);
+      border: none; color: white;
     }
-    .ap-navbar .nav-links a {
-      color: rgba(255,255,255,0.9); text-decoration: none;
-      font-size: 12px; padding: 6px 11px; border-radius: 7px;
-      white-space: nowrap; font-weight: 600; transition: background 0.2s;
-      background: rgba(255,255,255,0.1);
+    .top-nav .nav-links .btn-sections {
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(20,184,166,0.35);
     }
-    .ap-navbar .nav-links a.active { background: rgba(255,255,255,0.25); font-weight: 700; }
-    .ap-navbar .nav-links a:hover { background: rgba(255,255,255,0.2); }
-    .nav-spacer { height: 56px; }
+    .top-nav .nav-links a:hover { background: rgba(255,255,255,0.18); }
 
-    /* ── COVER PAGE (dark, full image) ── */
+    /* ─── COVER SECTION ──────────────────────────────────────── */
     .cover-page {
-      background: #03201f;
+      background: #021a18;
       display: flex; flex-direction: column; align-items: center;
     }
     .cover-img-block {
-      width: 100%; display: flex;
-      justify-content: center; align-items: flex-start;
-      background: #03201f;
+      width: 100%; display: flex; justify-content: center; align-items: flex-start;
+      background: #021a18; padding-top: 56px;
     }
     .cover-bg-img {
-      display: block; width: 58vw; max-width: 780px; height: auto;
+      display: block; width: 60vw; max-width: 700px; height: auto;
     }
     @media (max-width: 768px) { .cover-bg-img { width: 92vw; } }
     .cover-bottom {
       width: 100%;
-      background: linear-gradient(180deg, #03201f 0%, #042f2e 55%, #064e3b 100%);
-      padding: 36px 32px 50px; text-align: center;
+      background: linear-gradient(180deg, #021a18 0%, #042f2e 55%, #065f46 100%);
+      padding: 40px 32px 50px; text-align: center;
     }
     .cover-en-label {
-      font-family: "Segoe UI", sans-serif;
-      font-size: 11px; color: rgba(255,255,255,0.4);
-      letter-spacing: 2.5px; text-transform: uppercase;
-      direction: ltr; margin-bottom: 12px; display: block;
+      font-family: 'Segoe UI', sans-serif; font-size: 11px;
+      color: rgba(255,255,255,0.4); letter-spacing: 2.5px;
+      text-transform: uppercase; direction: ltr;
+      margin-bottom: 14px; display: block;
     }
     .cover-main-title {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: clamp(20px, 3.8vw, 38px);
-      font-weight: 800; color: #fff; line-height: 1.45; margin-bottom: 12px;
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: clamp(22px, 4vw, 42px); font-weight: 900;
+      color: #fff; line-height: 1.35; margin-bottom: 14px;
     }
-    .cover-main-title .accent { color: #34d399; }
+    .cover-main-title .accent { color: #2dd4bf; }
     .cover-badge-row {
       display: inline-flex; align-items: center; gap: 8px;
-      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.18);
-      color: rgba(255,255,255,0.8); padding: 6px 20px; border-radius: 20px;
-      font-family: "Noto Kufi Arabic", sans-serif;
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(20,184,166,0.3);
+      color: rgba(255,255,255,0.75); padding: 7px 20px; border-radius: 22px;
       font-size: 12px; font-weight: 600; margin-bottom: 26px;
     }
-    .cover-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-    .btn-white {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 15px; font-weight: 700; background: white; color: #042f2e;
-      padding: 13px 30px; border-radius: 10px; transition: all 0.25s;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.25); display: inline-block;
+    .cover-actions {
+      display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
     }
-    .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.3); }
-    .btn-outline-w {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 15px; font-weight: 600; background: transparent; color: white;
-      padding: 13px 30px; border-radius: 10px;
-      border: 2px solid rgba(255,255,255,0.35); transition: all 0.25s; display: inline-block;
+    .btn-teal {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 14px; font-weight: 700; padding: 12px 26px; border-radius: 9px;
+      background: linear-gradient(135deg, #0f766e, #0d9488);
+      color: white; transition: opacity 0.2s, transform 0.2s;
+      box-shadow: 0 4px 14px rgba(13,148,136,0.4);
     }
-    .btn-outline-w:hover { background: rgba(255,255,255,0.1); }
+    .btn-teal:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-outline-teal {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 14px; font-weight: 700; padding: 12px 26px; border-radius: 9px;
+      background: rgba(255,255,255,0.06); border: 1.5px solid rgba(20,184,166,0.45);
+      color: #ccfbf1; transition: all 0.2s;
+    }
+    .btn-outline-teal:hover { background: rgba(20,184,166,0.15); border-color: #2dd4bf; }
     @media (max-width: 600px) {
-      .cover-bottom { padding: 26px 16px 38px; }
-      .cover-main-title { font-size: 20px; }
+      .cover-bottom { padding: 28px 16px 40px; }
+      .cover-main-title { font-size: 22px; }
     }
 
-    /* ── HERO SECTION ── */
-    .ap-hero {
-      background: linear-gradient(160deg, #042f2e 0%, #065f46 40%, #0f766e 70%, #0d9488 100%);
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      padding: 70px 24px 60px; text-align: center;
-      position: relative; overflow: hidden;
+    /* ─── HERO (TAGLINE) SECTION ─────────────────────────────── */
+    .hero-section {
+      background: linear-gradient(160deg, #042f2e 0%, #065f46 40%, #0f766e 80%, #0d9488 100%);
+      display: flex; flex-direction: column; align-items: center;
+      justify-content: center; padding: 70px 24px 60px;
+      text-align: center; position: relative; overflow: hidden;
     }
-    .ap-hero::before {
-      content: ""; position: absolute; inset: 0;
-      background: radial-gradient(ellipse at 60% 40%, rgba(52,211,153,0.12) 0%, transparent 70%);
+    .hero-section::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 40%, rgba(20,184,166,0.18) 0%, transparent 70%);
       pointer-events: none;
     }
-    .ap-hero-inner { position: relative; z-index: 1; max-width: 820px; width: 100%; }
-    .ap-hero-badge {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.25);
-      color: rgba(255,255,255,0.9); padding: 8px 22px; border-radius: 30px; margin-bottom: 28px;
-      font-family: "Noto Kufi Arabic", sans-serif; font-size: 13px; font-weight: 600;
+    .hero-inner { position: relative; z-index: 1; max-width: 820px; width: 100%; }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(20,184,166,0.4);
+      color: #ccfbf1; padding: 6px 18px; border-radius: 20px;
+      font-size: 12px; font-weight: 600; margin-bottom: 22px;
     }
-    .ap-hero-en {
-      font-family: "Segoe UI", sans-serif; font-size: 12px; color: rgba(255,255,255,0.45);
-      letter-spacing: 2.5px; margin-bottom: 14px;
-      text-transform: uppercase; direction: ltr;
+    .hero-title-en {
+      font-family: 'Segoe UI', sans-serif; font-size: 12px;
+      color: rgba(255,255,255,0.4); letter-spacing: 2px;
+      text-transform: uppercase; direction: ltr; margin-bottom: 14px;
     }
-    .ap-hero-title {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: clamp(24px, 4.5vw, 44px);
-      font-weight: 800; color: white; line-height: 1.35; margin-bottom: 22px;
+    .hero-title {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: clamp(24px, 4.5vw, 44px); font-weight: 900;
+      color: white; line-height: 1.4; margin-bottom: 20px;
     }
-    .ap-hero-title .accent { color: #34d399; }
-    .ap-hero-desc {
-      font-family: "Amiri", serif; font-size: 18px; color: rgba(255,255,255,0.72);
-      line-height: 1.8; max-width: 620px; margin: 0 auto 36px;
-    }
-    .ap-stats-row {
-      display: flex; justify-content: center; gap: 0;
-      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 14px; overflow: hidden; max-width: 500px; margin: 0 auto;
-    }
-    .ap-stat-item {
-      flex: 1; padding: 18px 12px; text-align: center;
-      border-left: 1px solid rgba(255,255,255,0.12);
-    }
-    .ap-stat-item:last-child { border-left: none; }
-    .ap-stat-num {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 28px; font-weight: 800; color: white; line-height: 1.1;
-    }
-    .ap-stat-label {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 4px;
+    .hero-title .accent { color: #2dd4bf; }
+    .hero-desc {
+      font-family: 'Cairo', sans-serif;
+      font-size: clamp(14px, 2vw, 17px); color: rgba(255,255,255,0.75);
+      line-height: 1.85; max-width: 680px; margin: 0 auto;
     }
 
-    /* ── BOOK INFO SECTION (dark 3D book) ── */
-    .ap-book-section {
-      background: linear-gradient(160deg, #03201f 0%, #042f2e 50%, #053d30 100%);
+    /* ─── BOOK INFO SECTION ──────────────────────────────────── */
+    .book-info-section {
+      background: linear-gradient(160deg, #021a18 0%, #042f2e 50%, #065f46 100%);
       padding: 70px 24px 80px;
     }
-    .ap-book-inner {
+    .book-info-inner {
       max-width: 1000px; margin: 0 auto;
       display: flex; align-items: center; gap: 60px;
       flex-wrap: wrap; justify-content: center;
     }
-    .ap-book-img-wrap { flex-shrink: 0; perspective: 1000px; }
-    .ap-book-img {
+    .book-img-wrap { flex-shrink: 0; perspective: 1000px; }
+    .book-img-3d {
       width: 300px; border-radius: 12px;
       box-shadow: 0 30px 80px rgba(0,0,0,0.7), 0 10px 30px rgba(0,0,0,0.5), 6px 0 20px rgba(0,0,0,0.4);
-      border: 1px solid rgba(255,255,255,0.1); display: block;
+      border: 1px solid rgba(255,255,255,0.1);
+      display: block;
       transform: rotateY(-8deg) rotateX(2deg);
       transition: transform 0.4s ease, box-shadow 0.4s ease;
     }
-    .ap-book-img:hover {
+    .book-img-3d:hover {
       transform: rotateY(-3deg) rotateX(1deg) scale(1.03);
-      box-shadow: 0 40px 100px rgba(0,0,0,0.8), 0 15px 40px rgba(15,118,110,0.4);
+      box-shadow: 0 40px 100px rgba(0,0,0,0.8), 0 15px 40px rgba(13,148,136,0.4);
     }
-    @media (max-width: 700px) { .ap-book-img { width: 200px; } .ap-book-inner { gap: 36px; } }
-    .ap-book-info { flex: 1; min-width: 280px; }
-    .ap-book-label {
-      font-family: "Segoe UI", sans-serif; font-size: 11px; color: rgba(255,255,255,0.4);
-      letter-spacing: 2px; text-transform: uppercase; direction: ltr; margin-bottom: 14px;
+    @media (max-width: 600px) { .book-img-3d { width: 220px; } }
+    .book-info-text { flex: 1; min-width: 280px; }
+    .book-info-label {
+      font-family: 'Segoe UI', sans-serif; font-size: 11px;
+      color: rgba(255,255,255,0.4); letter-spacing: 2px;
+      text-transform: uppercase; direction: ltr; margin-bottom: 14px;
     }
-    .ap-book-title {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 26px; font-weight: 800; color: white; line-height: 1.4; margin-bottom: 10px;
+    .book-info-title {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 28px; font-weight: 900; color: white;
+      line-height: 1.4; margin-bottom: 10px;
     }
-    .ap-book-en {
-      font-family: "Segoe UI", sans-serif; font-size: 12px; color: rgba(255,255,255,0.45);
-      direction: ltr; margin-bottom: 20px;
+    .book-info-en {
+      font-family: 'Segoe UI', sans-serif; font-size: 13px;
+      color: rgba(255,255,255,0.45); direction: ltr; margin-bottom: 22px;
     }
-    .ap-book-badge {
+    .book-info-badge {
       display: inline-flex; align-items: center; gap: 8px;
-      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(20,184,166,0.3);
       color: rgba(255,255,255,0.75); padding: 6px 16px; border-radius: 20px;
-      font-family: "Noto Kufi Arabic", sans-serif; font-size: 12px; margin-bottom: 26px;
+      font-size: 12px; margin-bottom: 28px;
     }
-    .ap-book-cta {
-      display: inline-block; font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 14px; font-weight: 700; color: white;
-      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3);
-      padding: 11px 26px; border-radius: 9px; transition: background 0.2s;
+    .stats-strip {
+      display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 28px;
     }
-    .ap-book-cta:hover { background: rgba(255,255,255,0.18); }
+    .stat-chip {
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(20,184,166,0.25);
+      border-radius: 10px; padding: 12px 18px; text-align: center; min-width: 70px;
+    }
+    .stat-chip .snum {
+      font-size: 1.6rem; font-weight: 900; color: #2dd4bf; display: block;
+    }
+    .stat-chip .slbl {
+      font-size: 0.7rem; color: rgba(255,255,255,0.55); display: block; margin-top: 2px;
+    }
 
-    /* ── ABOUT / INTRO OVERVIEW ── */
-    .ap-about { background: #f8fffe; padding: 70px 24px; }
-    .ap-about-max { max-width: 920px; margin: 0 auto; }
-    .ap-section-title {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 28px; font-weight: 800; color: #042f2e;
-      margin-bottom: 6px; text-align: center;
-    }
-    .ap-section-en {
-      font-family: "Segoe UI", sans-serif; font-size: 12px; color: #9ca3af;
-      text-align: center; direction: ltr; letter-spacing: 1.5px;
-      margin-bottom: 40px; text-transform: uppercase;
-    }
-    .ap-about-card {
-      background: white; border: 1px solid #d1fae5; border-radius: 20px;
-      padding: 46px 50px;
-      box-shadow: 0 4px 24px rgba(15,118,110,0.07);
+    /* ─── INTRO SECTION ──────────────────────────────────────── */
+    .intro-section {
+      background: linear-gradient(180deg, #065f46 0%, #042f2e 100%);
+      padding: 70px 24px 80px;
       position: relative; overflow: hidden;
     }
-    .ap-about-card::before {
-      content: ""; position: absolute; top: 0; right: 0;
-      width: 6px; height: 100%;
-      background: linear-gradient(180deg, #042f2e, #0f766e, #34d399);
-      border-radius: 0 20px 20px 0;
+    .intro-section::before {
+      content: ''; position: absolute; top: -60px; right: -80px;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(20,184,166,0.12) 0%, transparent 70%);
+      pointer-events: none;
     }
-    @media (max-width: 600px) { .ap-about-card { padding: 28px 22px; } }
-    .ap-about-intro {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 13px; font-weight: 700; color: #0f766e;
-      letter-spacing: 0.5px; margin-bottom: 20px;
-      display: flex; align-items: center; gap: 8px;
+    .intro-inner { max-width: 900px; margin: 0 auto; position: relative; z-index: 1; }
+    .section-heading {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: clamp(22px, 3.5vw, 34px); font-weight: 900;
+      color: #fff; margin-bottom: 6px;
     }
-    .ap-about-lines { list-style: none; padding: 0; margin: 0; }
-    .ap-about-lines li {
-      font-family: "Amiri", serif; font-size: 18px; color: #1f2937; line-height: 1.9;
-      padding: 12px 0; border-bottom: 1px solid #f0fdf4;
-      display: flex; gap: 14px; align-items: flex-start;
+    .section-heading-en {
+      font-family: 'Segoe UI', sans-serif; font-size: 11px;
+      color: rgba(255,255,255,0.35); letter-spacing: 2px;
+      text-transform: uppercase; direction: ltr; margin-bottom: 30px; display: block;
     }
-    .ap-about-lines li:last-child { border-bottom: none; }
-    .li-icon { font-size: 15px; margin-top: 6px; flex-shrink: 0; color: #0f766e; }
-    @media (max-width: 600px) { .ap-about-lines li { font-size: 16px; } }
-    .ap-about-final {
-      margin-top: 28px; padding: 22px 26px;
-      background: linear-gradient(135deg, #042f2e 0%, #0f766e 100%);
-      border-radius: 12px; font-family: "Amiri", serif;
-      font-size: 18px; color: white; line-height: 1.9; text-align: center;
+    .intro-divider {
+      width: 60px; height: 3px;
+      background: linear-gradient(90deg, #2dd4bf, #0d9488);
+      border-radius: 2px; margin-right: 0; margin-bottom: 36px;
     }
-    @media (max-width: 600px) { .ap-about-final { font-size: 16px; } }
+    .intro-desc {
+      font-family: 'Cairo', sans-serif;
+      font-size: clamp(15px, 2vw, 17px); color: rgba(255,255,255,0.82);
+      line-height: 2; margin-bottom: 32px;
+    }
+    .intro-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 18px; margin-bottom: 40px;
+    }
+    .intro-card {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(20,184,166,0.2);
+      border-radius: 14px; padding: 22px 20px;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .intro-card:hover { background: rgba(20,184,166,0.1); border-color: rgba(20,184,166,0.5); }
+    .intro-card .ic-icon { font-size: 1.8rem; margin-bottom: 10px; }
+    .intro-card .ic-title {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 15px; font-weight: 800; color: #ccfbf1; margin-bottom: 8px;
+    }
+    .intro-card .ic-text {
+      font-family: 'Cairo', sans-serif;
+      font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.7;
+    }
+    .audience-list {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;
+    }
+    .audience-tag {
+      background: rgba(20,184,166,0.15); border: 1px solid rgba(20,184,166,0.35);
+      color: #ccfbf1; padding: 6px 14px; border-radius: 20px;
+      font-family: 'Cairo', sans-serif; font-size: 13px; font-weight: 600;
+    }
 
-    /* ── SECTIONS GRID ── */
-    .ap-sections-sec { background: #f0fdf4; padding: 70px 24px; }
-    .ap-sections-max { max-width: 960px; margin: 0 auto; }
-    .ap-sections-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    /* ─── SECTIONS GRID ──────────────────────────────────────── */
+    .sections-section {
+      background: #f0fdfa; padding: 70px 24px 80px;
+    }
+    .sections-heading {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: clamp(20px, 3vw, 30px); font-weight: 900;
+      color: #042f2e; margin-bottom: 6px;
+    }
+    .sections-heading-en {
+      font-family: 'Segoe UI', sans-serif; font-size: 11px;
+      color: #6b7280; letter-spacing: 2px; text-transform: uppercase;
+      direction: ltr; margin-bottom: 30px; display: block;
+    }
+    .sections-divider {
+      width: 60px; height: 3px;
+      background: linear-gradient(90deg, #0d9488, #14b8a6);
+      border-radius: 2px; margin-right: 0; margin-bottom: 36px;
+    }
+    .sections-inner { max-width: 1000px; margin: 0 auto; }
+    .sections-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
       gap: 16px;
     }
-    .ap-sec-card {
-      background: white; border-radius: 14px; padding: 20px;
-      border: 1px solid #a7f3d0;
+    .sec-card {
+      background: white; border-radius: 14px; padding: 22px 18px;
+      border: 1px solid #99f6e4;
       box-shadow: 0 2px 10px rgba(0,0,0,0.04);
-      transition: transform 0.2s, box-shadow 0.2s;
       text-decoration: none; color: inherit; display: block;
+      transition: transform 0.2s, box-shadow 0.2s;
     }
-    .ap-sec-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(15,118,110,0.15); }
-    .ap-sec-id {
-      display: inline-block;
+    .sec-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 28px rgba(13,148,136,0.18);
+    }
+    .sec-card .sc-top {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 12px;
+    }
+    .sec-card .sc-icon {
+      width: 38px; height: 38px; border-radius: 10px;
       background: linear-gradient(135deg, #0d9488, #0f766e);
-      color: white; padding: 3px 12px; border-radius: 6px;
-      font-weight: 700; font-size: 0.85rem; margin-bottom: 10px;
-      font-family: "Noto Kufi Arabic", sans-serif;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
     }
-    .ap-sec-card h3 {
-      font-size: 0.95rem; font-weight: 700; color: #042f2e; margin-bottom: 4px;
-      font-family: "Noto Kufi Arabic", sans-serif;
+    .sec-card .sc-id {
+      font-size: 11px; font-weight: 800; color: #0f766e; letter-spacing: 0.5px;
+      text-transform: uppercase; display: block;
+    }
+    .sec-card .sc-num { font-size: 11px; color: #9ca3af; }
+    .sec-card h3 {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 14px; font-weight: 700; color: #042f2e; margin: 0;
     }
 
-    /* ── CTA ── */
-    .ap-cta {
-      background: linear-gradient(135deg, #042f2e, #065f46, #0f766e);
-      text-align: center; padding: 70px 24px; color: white;
+    /* ─── AUTHOR SECTION ─────────────────────────────────────── */
+    .author-section {
+      background: linear-gradient(160deg, #042f2e 0%, #021a18 100%);
+      padding: 60px 24px; text-align: center;
     }
-    .ap-cta h2 {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 26px; font-weight: 800; margin-bottom: 14px;
+    .author-card {
+      max-width: 480px; margin: 0 auto;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(20,184,166,0.25);
+      border-radius: 20px; padding: 40px 32px;
     }
-    .ap-cta p {
-      font-family: "Amiri", serif; font-size: 17px; color: rgba(255,255,255,0.75);
-      max-width: 520px; margin: 0 auto 28px; line-height: 1.8;
+    .author-avatar {
+      width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 18px;
+      background: linear-gradient(135deg, #0d9488, #14b8a6);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 36px;
     }
-    .ap-cta-btn {
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 16px; font-weight: 700; background: white; color: #042f2e;
-      padding: 14px 36px; border-radius: 10px; transition: all 0.2s;
-      display: inline-block; box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    .author-name {
+      font-family: 'Amiri', serif; font-size: 1.5rem; font-weight: 700;
+      color: #ccfbf1; margin-bottom: 6px;
     }
-    .ap-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.25); }
+    .author-name-en {
+      font-family: 'Segoe UI', sans-serif; font-size: 13px;
+      color: rgba(255,255,255,0.45); direction: ltr; margin-bottom: 14px;
+    }
+    .author-role {
+      font-family: 'Cairo', sans-serif; font-size: 14px;
+      color: rgba(255,255,255,0.65); line-height: 1.7;
+    }
+    .author-exp {
+      display: inline-block; margin-top: 14px;
+      background: rgba(20,184,166,0.15); border: 1px solid rgba(20,184,166,0.3);
+      color: #2dd4bf; padding: 5px 16px; border-radius: 20px;
+      font-size: 12px; font-weight: 600;
+    }
 
-    /* ── FOOTER ── */
-    .ap-footer {
-      background: #01130f; color: rgba(255,255,255,0.45);
-      text-align: center; padding: 28px 24px;
-      font-family: "Noto Kufi Arabic", sans-serif;
-      font-size: 13px; line-height: 1.8;
+    /* ─── FOOTER ─────────────────────────────────────────────── */
+    .main-footer {
+      background: #010e0d; padding: 28px 20px; text-align: center;
+      border-top: 1px solid rgba(20,184,166,0.15);
     }
-    .ap-footer strong { color: rgba(255,255,255,0.8); }
+    .main-footer .f-name {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 15px; font-weight: 700; color: #ccfbf1; margin-bottom: 4px;
+    }
+    .main-footer .f-sub { font-size: 12px; color: rgba(255,255,255,0.4); }
   </style>
 </head>
 <body>
 
-  <!-- ① NAVBAR (fixed) -->
-  <nav class="ap-navbar">
-    <a href="/anesthesia-policies" class="brand">
+  <!-- ① TOP NAVBAR -->
+  <nav class="top-nav">
+    <div class="brand">
       <div class="brand-icon">💊</div>
-      <span class="brand-text">${bookTitle}</span>
-    </a>
+      <span>${bookTitle}</span>
+    </div>
     <div class="nav-links">
-      <a href="/portal">🏠 المنصة</a>
-      <a href="/anesthesia-policies" class="active">الرئيسية</a>
-      <a href="/anesthesia-policies/sections">📚 الأقسام</a>
+      <a href="/portal" class="btn-portal">🏠 منصة الكتب</a>
+      <a href="/anesthesia-policies/sections" class="btn-sections">📚 الأقسام</a>
     </div>
   </nav>
-  <div class="nav-spacer"></div>
 
-  <!-- ② COVER — full image, text block below -->
+  <!-- ② FULL-PAGE COVER IMAGE + TEXT BELOW -->
   <section class="cover-page">
     <div class="cover-img-block">
       <img src="/static/anesthesia-policies-cover.png" alt="غلاف دليل السياسات والإجراءات في التخدير" class="cover-bg-img" />
@@ -577,33 +626,143 @@ ap.get('/', (c) => {
       <div class="cover-main-title">
         دليل <span class="accent">السياسات والإجراءات</span><br>في التخدير
       </div>
-      <div class="cover-badge-row">📋 ${total} قسماً &nbsp;•&nbsp; 📄 ${totalForms} نموذجاً &nbsp;•&nbsp; 🏥 مرجع مؤسسي شامل</div>
+      <div class="cover-badge-row">📋 ${total} قسم &nbsp;•&nbsp; 📄 ${totalForms} نموذج &nbsp;•&nbsp; 🏥 تخدير وعناية مركزة</div>
       <div class="cover-actions">
-        <a href="/anesthesia-policies/sections" class="btn-white">تصفح الأقسام ←</a>
-        <a href="/anesthesia-policies/section/A" class="btn-outline-w">ابدأ من القسم الأول</a>
+        <a href="/anesthesia-policies/sections" class="btn-teal">تصفح الأقسام ←</a>
+        <a href="/anesthesia-policies/section/A" class="btn-outline-teal">ابدأ من القسم الأول</a>
       </div>
     </div>
   </section>
 
-  <!-- ③ HERO — title + stats -->
-  <section class="ap-hero">
-    <div class="ap-hero-inner">
-      <div class="ap-hero-badge">📖 مرجع مؤسسي شامل • ${total} قسماً • ${totalForms} نموذجاً</div>
-      <div class="ap-hero-en">ANESTHESIA POLICIES &amp; PROCEDURES GUIDE</div>
-      <h1 class="ap-hero-title">
+  <!-- ③ HERO TAGLINE -->
+  <section class="hero-section">
+    <div class="hero-inner">
+      <div class="hero-badge">📖 مرجع مؤسسي متكامل • ${total} قسماً • ${totalForms} نموذجاً</div>
+      <div class="hero-title-en">Anesthesia Policies &amp; Procedures Guide</div>
+      <h1 class="hero-title">
         دليل <span class="accent">السياسات والإجراءات</span><br>في التخدير
       </h1>
-      <p class="ap-hero-desc">
-        سياسات وإجراءات واضحة وقابلة للتطبيق الفوري لأقسام التخدير، مُصمَّمة لتوحيد الممارسة السريرية وتعزيز سلامة المريض
+      <p class="hero-desc">
+        مرجع مؤسسي عملي يُوفّر سياسات وإجراءات واضحة وقابلة للتطبيق تغطي رعاية التخدير
+        قبل العملية وأثناءها وبعدها، مع نماذج وقوائم تدقيق وأدوات توثيق داعمة
+        لضمان أعلى مستويات الجودة والسلامة.
       </p>
-      <div class="ap-stats-row">
-        <div class="ap-stat-item">
-          <div class="ap-stat-num">${total}</div>
-          <div class="ap-stat-label">قسم</div>
+    </div>
+  </section>
+
+  <!-- ④ BOOK INFO WITH 3D COVER -->
+  <section class="book-info-section">
+    <div class="book-info-inner">
+      <div class="book-img-wrap">
+        <img src="/static/anesthesia-policies-cover.png" alt="غلاف الدليل" class="book-img-3d" />
+      </div>
+      <div class="book-info-text">
+        <div class="book-info-label">THE GUIDE</div>
+        <div class="book-info-title">دليل السياسات والإجراءات<br>في التخدير</div>
+        <div class="book-info-en">ANESTHESIA POLICIES &amp; PROCEDURES MANUAL</div>
+        <div class="book-info-badge">📚 ${total} قسماً • ${totalForms} نموذجاً ومستماراً</div>
+        <div class="stats-strip">
+          <div class="stat-chip"><span class="snum">${total}</span><span class="slbl">قسم</span></div>
+          <div class="stat-chip"><span class="snum">${totalForms}</span><span class="slbl">نموذج</span></div>
+          <div class="stat-chip"><span class="snum">A–M</span><span class="slbl">أقسام</span></div>
         </div>
-        <div class="ap-stat-item">
-          <div class="ap-stat-num">${totalForms}</div>
-          <div class="ap-stat-label">نموذج</div>
+        <a href="/anesthesia-policies/sections" style="
+          display:inline-block; font-family:'Noto Kufi Arabic',sans-serif;
+          font-size:14px; font-weight:700; color:white;
+          background:rgba(255,255,255,0.12); border:1.5px solid rgba(20,184,166,0.4);
+          padding:12px 26px; border-radius:9px; transition:background 0.2s;
+        ">استعرض جميع الأقسام ←</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ لمحة تعريفية -->
+  <section class="intro-section">
+    <div class="intro-inner">
+      <div class="section-heading">لمحة تعريفية</div>
+      <span class="section-heading-en">About This Guide</span>
+      <div class="intro-divider"></div>
+      <p class="intro-desc">
+        يُعدّ <strong style="color:#2dd4bf;">دليل السياسات والإجراءات في التخدير</strong>
+        مرجعاً مؤسسياً عملياً يهدف إلى توفير سياسات وإجراءات واضحة وقابلة للتطبيق،
+        تغطي رعاية التخدير <strong style="color:#99f6e4;">قبل العملية وأثناءها وبعدها</strong>.
+        يضمّ الدليل نماذج وقوائم تدقيق وأدوات توثيق متكاملة تدعم كل مرحلة من مراحل
+        التخدير السريري، ويُكمّل دليلَ السلامة والجودة في غرفة العمليات ليشكّلا معاً
+        مرجعاً مؤسسياً شاملاً في مجال التخدير وغرفة العمليات.
+      </p>
+      <div class="intro-cards">
+        <div class="intro-card">
+          <div class="ic-icon">🎯</div>
+          <div class="ic-title">الهدف</div>
+          <div class="ic-text">توفير سياسات وإجراءات واضحة وقابلة للتطبيق، تضمن رعاية تخدير آمنة وعالية الجودة في جميع مراحلها.</div>
+        </div>
+        <div class="intro-card">
+          <div class="ic-icon">📋</div>
+          <div class="ic-title">المحتوى</div>
+          <div class="ic-text">يشمل ${total} قسماً من A إلى M، مع ${totalForms} نموذجاً وقائمة تدقيق وأداة توثيق لكل مرحلة سريرية.</div>
+        </div>
+        <div class="intro-card">
+          <div class="ic-icon">🔗</div>
+          <div class="ic-title">الارتباط بالمرجع الأساسي</div>
+          <div class="ic-text">يُكمّل دليلَ مبادئ السلامة والجودة في غرفة العمليات، ليشكّلا معاً مرجعاً مؤسسياً شاملاً متكاملاً.</div>
+        </div>
+      </div>
+      <div class="section-heading" style="font-size:20px;margin-bottom:10px;">الفئات المستهدفة</div>
+      <span class="section-heading-en" style="margin-bottom:16px;">Target Audience</span>
+      <div class="audience-list">
+        <span class="audience-tag">👨‍⚕️ أطباء التخدير</span>
+        <span class="audience-tag">👩‍⚕️ ممرضو التخدير</span>
+        <span class="audience-tag">🔬 فنيو التخدير</span>
+        <span class="audience-tag">📊 مديرو الجودة والسلامة</span>
+        <span class="audience-tag">🏥 قيادات غرفة العمليات</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ SECTIONS GRID -->
+  <section class="sections-section">
+    <div class="sections-inner">
+      <div class="sections-heading">📂 أقسام الدليل</div>
+      <span class="sections-heading-en">Guide Sections A – M</span>
+      <div class="sections-divider"></div>
+      <div class="sections-grid">
+        ${sectionOrder.map((id, i) => `
+          <a href="/anesthesia-policies/section/${id}" class="sec-card">
+            <div class="sc-top">
+              <div class="sc-icon">${sectionIcons[id] || '📄'}</div>
+              <div>
+                <span class="sc-id">Section ${id}</span>
+                <span class="sc-num">${String(i+1).padStart(2,'0')} / ${total}</span>
+              </div>
+            </div>
+            <h3>${sectionTitles[id]}</h3>
+          </a>
+        `).join('')}
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑦ AUTHOR -->
+  <section class="author-section">
+    <div class="author-card">
+      <div class="author-avatar">👨‍⚕️</div>
+      <div class="author-name">${authorName}</div>
+      <div class="author-name-en">Dr. Jameel Al-Soqayya</div>
+      <div class="author-role">استشاري تخدير وعناية مركزة<br>المملكة العربية السعودية</div>
+      <span class="author-exp">خبرة تزيد على 25 عاماً في الممارسة الطبية</span>
+    </div>
+  </section>
+
+  <!-- ⑧ FOOTER -->
+  <footer class="main-footer">
+    <div class="f-name">${authorName} – Dr. Jameel Al-Soqayya</div>
+    <div class="f-sub">© 2026 جميع الحقوق محفوظة | دليل السياسات والإجراءات في التخدير</div>
+  </footer>
+
+</body>
+</html>`)
+})
+
         </div>
         <div class="ap-stat-item">
           <div class="ap-stat-num">A–M</div>
