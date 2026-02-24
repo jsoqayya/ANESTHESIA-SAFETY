@@ -763,104 +763,6 @@ ap.get('/', (c) => {
 </html>`)
 })
 
-        </div>
-        <div class="ap-stat-item">
-          <div class="ap-stat-num">A–M</div>
-          <div class="ap-stat-label">أقسام</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ④ BOOK INFO (dark + 3D book image) -->
-  <section class="ap-book-section">
-    <div class="ap-book-inner">
-      <div class="ap-book-img-wrap">
-        <img src="/static/anesthesia-policies-cover.png" alt="غلاف الدليل" class="ap-book-img" />
-      </div>
-      <div class="ap-book-info">
-        <div class="ap-book-label">THE GUIDE</div>
-        <div class="ap-book-title">دليل السياسات والإجراءات<br>في التخدير</div>
-        <div class="ap-book-en">ANESTHESIA POLICIES &amp; PROCEDURES MANUAL</div>
-        <div class="ap-book-badge">📚 ${total} قسماً • ${totalForms} نموذجاً جاهزاً للاستخدام</div>
-        <a href="/anesthesia-policies/sections" class="ap-book-cta">استعرض جميع الأقسام ←</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ⑤ ABOUT / INTRO OVERVIEW -->
-  <section class="ap-about">
-    <div class="ap-about-max">
-      <div class="ap-section-title">عن الدليل</div>
-      <div class="ap-section-en">About This Guide</div>
-      <div class="ap-about-card">
-        <div class="ap-about-intro">
-          <span>📘</span> لمحة تعريفية — دليل السياسات والإجراءات في التخدير
-        </div>
-        <ul class="ap-about-lines">
-          <li>
-            <span class="li-icon">◆</span>
-            <span>هذا الدليل يُقدّم <strong>سياسات وإجراءات واضحة وقابلة للتطبيق المباشر</strong> لأقسام التخدير، مُصمَّمة لتحويل الممارسة السريرية من اجتهادات فردية إلى <strong>منظومة مؤسسية موحّدة ومقننة.</strong></span>
-          </li>
-          <li>
-            <span class="li-icon">◆</span>
-            <span>يضمّ الدليل <strong>نماذج جاهزة وقوائم تحقق ومسارات سريرية</strong> تُغطي كامل دورة رعاية المريض؛ من التقييم قبل التخدير، عبر التخدير الجراحي، وحتى التعافي والخروج الآمن.</span>
-          </li>
-          <li>
-            <span class="li-icon">◆</span>
-            <span>يعمل هذا الدليل <strong>مرجعاً مؤسسياً تطبيقياً</strong> مكمّلاً لـ "دليل السلامة والجودة في التخدير"، إذ يُترجم مبادئ السلامة إلى إجراءات يومية قابلة للتوثيق والرقابة والتحسين.</span>
-          </li>
-          <li>
-            <span class="li-icon">◆</span>
-            <span>يستهدف الدليل <strong>أطباء التخدير، والممرضين المختصين، والفنيين، ومديري الجودة والسلامة</strong> في المنشآت الصحية الراغبة في توحيد ممارساتها وفق المعايير الدولية.</span>
-          </li>
-          <li>
-            <span class="li-icon">◆</span>
-            <span>يسعى الدليل إلى <strong>توحيد الممارسة السريرية وتعزيز سلامة المريض</strong> من خلال تحديد مسؤوليات واضحة، وبروتوكولات موثّقة، وأدوات مراجعة قابلة للقياس والتدقيق.</span>
-          </li>
-        </ul>
-        <div class="ap-about-final">
-          الهدف النهائي: <strong>أن تكون كل إجراءات التخدير موحّدة، موثّقة، وآمنة</strong> —<br>
-          لأن سلامة المريض تبدأ قبل التخدير وتنتهي بعد الإفاقة الآمنة.
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ⑥ SECTIONS GRID -->
-  <section class="ap-sections-sec">
-    <div class="ap-sections-max">
-      <div class="ap-section-title" style="color:#042f2e;">📂 أقسام الدليل</div>
-      <div class="ap-section-en">Guide Sections</div>
-      <div class="ap-sections-grid">
-        ${sectionOrder.map(id => `
-          <a href="/anesthesia-policies/section/${id}" class="ap-sec-card">
-            <span class="ap-sec-id">Section ${id}</span>
-            <h3>${sectionTitles[id]}</h3>
-          </a>
-        `).join('')}
-      </div>
-    </div>
-  </section>
-
-  <!-- ⑦ CTA -->
-  <section class="ap-cta">
-    <h2>ابدأ رحلتك نحو قسم تخدير أكثر أماناً وكفاءة</h2>
-    <p>كل قسم خطوة نحو ممارسة مؤسسية أفضل، وسياسات أوضح، ومريض أكثر أماناً</p>
-    <a href="/anesthesia-policies/sections" class="ap-cta-btn">استعرض جميع الأقسام ←</a>
-  </section>
-
-  <!-- ⑧ FOOTER -->
-  <footer class="ap-footer">
-    <strong>${authorName} — Dr. Jameel Al-Soqayya</strong><br>
-    استشاري تخدير وعناية مركزة | المملكة العربية السعودية<br>
-    <span style="margin-top:6px;display:inline-block;font-size:12px;opacity:0.6;">© 2026 جميع الحقوق محفوظة</span>
-  </footer>
-
-</body>
-</html>`)
-})
-
 // ── SECTIONS LIST ──────────────────────────────────────────────────────────
 ap.get('/sections', (c) => {
   const total = sectionOrder.length
