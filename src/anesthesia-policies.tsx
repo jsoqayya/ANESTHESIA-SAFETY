@@ -15,19 +15,19 @@ const authorName   = 'د. جميل السقيا'
 const sectionOrder = ['A','B','C','D','E','F','G','H','I','J','K','L','M']
 
 const sectionTitles: Record<string, string> = {
-  A: 'Governance & Scope',
-  B: 'Pre-Anesthesia Assessment',
-  C: 'Intraoperative Care',
-  D: 'Post-Anesthesia Care',
-  E: 'Airway Management',
-  F: 'Non-OR Anesthesia (NORA)',
-  G: 'Regional & Neuraxial',
-  H: 'Equipment & Monitoring',
-  I: 'Emergency & Critical Events',
-  J: 'Medication Safety',
-  K: 'Quality & Reporting',
-  L: 'Education & Competency',
-  M: 'Forms & Checklists',
+  A: 'الحوكمة والنطاق',
+  B: 'التقييم قبل التخدير',
+  C: 'الرعاية أثناء العملية',
+  D: 'رعاية ما بعد التخدير',
+  E: 'إدارة مجرى الهواء',
+  F: 'التخدير خارج غرف العمليات (NORA)',
+  G: 'التخدير الإقليمي والنخاعي',
+  H: 'المعدات والمراقبة',
+  I: 'الطوارئ والأحداث الحرجة',
+  J: 'سلامة الأدوية',
+  K: 'الجودة والتدقيق',
+  L: 'التعليم والكفاءات',
+  M: 'النماذج وقوائم التحقق',
 }
 
 const formOrder = ['f01','f02','f03','f04','f05','f06','f07','f08','f09','f10',
@@ -67,29 +67,43 @@ const formTitles: Record<string, string> = {
   f30: 'Critical Incident / Near Miss Report',
 }
 
-// ── Navbar HTML ────────────────────────────────────────────────────────────
+// ── Navbar HTML ─────────────────────────────────────────────────────────────
+// Large, clear navigation buttons for section pages
 function navbar(active: string, prevLink?: string, prevLabel?: string, nextLink?: string, nextLabel?: string) {
+  const base = `display:inline-flex;align-items:center;gap:8px;text-decoration:none;
+    font-family:'Cairo','Noto Kufi Arabic',sans-serif;font-weight:800;
+    border-radius:10px;white-space:nowrap;letter-spacing:0.2px;transition:all 0.2s;`
+  const btnNav    = base + `font-size:15px;color:white;background:rgba(255,255,255,0.16);
+    border:2px solid rgba(255,255,255,0.38);padding:10px 22px;`
+  const btnActive = base + `font-size:15px;color:#042f2e;background:white;
+    border:2px solid white;box-shadow:0 2px 14px rgba(0,0,0,0.25);padding:10px 22px;`
+  const btnPortal = base + `font-size:15px;color:white;background:rgba(255,255,255,0.26);
+    border:2px solid rgba(255,255,255,0.55);padding:10px 22px;`
+  const btnDir    = base + `font-size:14px;color:#042f2e;background:#34d399;
+    border:2px solid #34d399;padding:10px 20px;box-shadow:0 2px 10px rgba(52,211,153,0.4);`
+
   return `
   <nav style="position:fixed;top:0;left:0;right:0;z-index:9999;
-    background:linear-gradient(135deg,#042f2e 0%,#0f766e 60%,#0d9488 100%);
-    height:56px;display:flex;align-items:center;justify-content:space-between;
-    padding:0 16px;box-shadow:0 2px 16px rgba(0,0,0,0.4);font-family:'Inter',sans-serif;">
-    <a href="/anesthesia-policies" style="display:flex;align-items:center;gap:8px;text-decoration:none;flex-shrink:0;">
-      <div style="width:32px;height:32px;background:rgba(255,255,255,0.2);border-radius:8px;
-        display:flex;align-items:center;justify-content:center;font-size:16px;">💊</div>
-      <span style="color:white;font-size:12px;font-weight:700;
-        white-space:nowrap;max-width:180px;overflow:hidden;text-overflow:ellipsis;
-        text-shadow:0 1px 2px rgba(0,0,0,0.3);">${bookTitle}</span>
+    background:linear-gradient(135deg,#042f2e 0%,#0f766e 55%,#0d9488 100%);
+    height:76px;display:flex;align-items:center;justify-content:space-between;
+    padding:0 24px;box-shadow:0 4px 28px rgba(0,0,0,0.55);">
+    <a href="/anesthesia-policies" style="display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0;min-width:0;">
+      <div style="width:46px;height:46px;background:rgba(255,255,255,0.2);border-radius:12px;
+        display:flex;align-items:center;justify-content:center;font-size:24px;
+        border:2px solid rgba(255,255,255,0.38);flex-shrink:0;">💊</div>
+      <span style="color:white;font-size:14px;font-weight:800;
+        white-space:nowrap;max-width:200px;overflow:hidden;text-overflow:ellipsis;
+        text-shadow:0 1px 4px rgba(0,0,0,0.4);">${bookTitle}</span>
     </a>
-    <div style="display:flex;align-items:center;gap:5px;flex-wrap:nowrap;">
-      ${prevLink ? `<a href="${prevLink}" style="color:rgba(255,255,255,0.9);text-decoration:none;font-size:11px;padding:5px 9px;border-radius:6px;background:rgba(255,255,255,0.12);white-space:nowrap;">← ${prevLabel}</a>` : ''}
-      <a href="/portal" style="color:rgba(255,255,255,0.9);text-decoration:none;font-size:11px;padding:5px 10px;border-radius:6px;background:rgba(255,255,255,0.2);border:1px solid rgba(255,255,255,0.4);white-space:nowrap;">🏠 المنصة</a>
-      <a href="/anesthesia-policies" style="color:rgba(255,255,255,0.9);text-decoration:none;font-size:11px;padding:5px 9px;border-radius:6px;${active==='home'?'background:rgba(255,255,255,0.3);font-weight:700;':'background:rgba(255,255,255,0.1);'}white-space:nowrap;">الرئيسية</a>
-      <a href="/anesthesia-policies/sections" style="color:rgba(255,255,255,0.9);text-decoration:none;font-size:11px;padding:5px 9px;border-radius:6px;${active==='sections'?'background:rgba(255,255,255,0.3);font-weight:700;':'background:rgba(255,255,255,0.1);'}white-space:nowrap;">📚 الأقسام</a>
-      ${nextLink ? `<a href="${nextLink}" style="color:rgba(255,255,255,0.9);text-decoration:none;font-size:11px;padding:5px 9px;border-radius:6px;background:rgba(255,255,255,0.12);white-space:nowrap;">${nextLabel} →</a>` : ''}
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:nowrap;flex-shrink:0;">
+      ${prevLink ? `<a href="${prevLink}" style="${btnDir}">&#8594;&nbsp;${prevLabel}</a>` : ''}
+      <a href="/portal" style="${btnPortal}">🏠 المنصة</a>
+      <a href="/anesthesia-policies" style="${active==='home' ? btnActive : btnNav}">الرئيسية</a>
+      <a href="/anesthesia-policies/sections" style="${active==='sections' ? btnActive : btnNav}">📚 الأقسام</a>
+      ${nextLink ? `<a href="${nextLink}" style="${btnDir}">${nextLabel}&nbsp;&#8592;</a>` : ''}
     </div>
   </nav>
-  <div style="height:56px;"></div>`
+  <div style="height:76px;"></div>`
 }
 
 // ── Comments section ───────────────────────────────────────────────────────
@@ -112,70 +126,65 @@ function commentsSection(pageId: string) {
         <span id="ratingStars_${safeId}" style="font-size:22px;cursor:pointer;letter-spacing:3px;">★★★★★</span>
       </div>
       <textarea id="commentText_${safeId}" placeholder="شاركنا رأيك أو ملاحظاتك..." rows="4"
-        style="width:100%;padding:12px 14px;border:1px solid #99f6e4;border-radius:8px;
-          font-family:'Cairo',sans-serif;font-size:14px;resize:vertical;outline:none;box-sizing:border-box;"></textarea>
+        style="width:100%;padding:12px 14px;border:1px solid #99f6e4;border-radius:8px;font-family:'Cairo',sans-serif;font-size:14px;resize:vertical;outline:none;margin-bottom:12px;"></textarea>
       <button onclick="submitComment_${safeId}()"
-        style="margin-top:12px;background:linear-gradient(135deg,#042f2e,#0f766e);color:white;border:none;
-          padding:12px 30px;border-radius:8px;font-family:'Cairo',sans-serif;
-          font-size:14px;font-weight:700;cursor:pointer;">
-        إرسال التعليق ✓
+        style="background:linear-gradient(135deg,#042f2e,#0f766e);color:white;border:none;padding:11px 28px;border-radius:9px;font-family:'Cairo',sans-serif;font-size:14px;font-weight:700;cursor:pointer;">
+        إرسال التعليق
       </button>
     </div>
   </div>
   <script>
-    let apRating_${safeId} = 5;
-    (function() {
-      const stars = document.getElementById('ratingStars_${safeId}');
-      if (stars) {
-        stars.addEventListener('click', function(e) {
-          const rect = this.getBoundingClientRect();
-          const x = e.clientX - rect.left;
-          const w = rect.width / 5;
-          apRating_${safeId} = Math.ceil(x / w);
-          this.textContent = '★'.repeat(apRating_${safeId}) + '☆'.repeat(5 - apRating_${safeId});
-        });
-      }
-    })();
-    function submitComment_${safeId}() {
-      const name = document.getElementById('commentName_${safeId}').value || 'زائر';
-      const role = document.getElementById('commentRole_${safeId}').value;
-      const text = document.getElementById('commentText_${safeId}').value.trim();
-      if (!text) { alert('الرجاء كتابة تعليق'); return; }
-      const key = 'ap_comments_${safeId}';
-      const comments = JSON.parse(localStorage.getItem(key) || '[]');
-      comments.unshift({ name, role, text, rating: apRating_${safeId}, date: new Date().toLocaleDateString('ar-SA') });
-      localStorage.setItem(key, JSON.stringify(comments));
-      loadComments_${safeId}();
-      document.getElementById('commentText_${safeId}').value = '';
-      document.getElementById('commentName_${safeId}').value = '';
-      document.getElementById('commentRole_${safeId}').value = '';
+  (function(){
+    var sid = '${safeId}';
+    var rating = 5;
+    var stars = document.getElementById('ratingStars_'+sid);
+    if(stars){
+      stars.addEventListener('mouseover',function(e){
+        var idx = Array.from(stars.children||[]).indexOf(e.target);
+      });
+      stars.addEventListener('click',function(e){
+        var txt = stars.textContent||'';
+        var pos = e.offsetX / stars.offsetWidth;
+        rating = Math.max(1,Math.ceil(pos*5));
+        stars.textContent = '★'.repeat(rating)+'☆'.repeat(5-rating);
+      });
     }
-    function loadComments_${safeId}() {
-      const key = 'ap_comments_${safeId}';
-      const comments = JSON.parse(localStorage.getItem(key) || '[]');
-      const container = document.getElementById('commentsContainer_${safeId}');
-      if (!container) return;
-      container.innerHTML = comments.map(c => \`
-        <div style="background:white;border-radius:10px;padding:16px;margin-bottom:12px;border:1px solid #ccfbf1;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px;">
-            <div>
-              <strong style="font-family:'Cairo',sans-serif;color:#042f2e;">\${c.name}</strong>
-              \${c.role ? \`<span style="font-size:12px;color:#6b7280;margin-right:8px;">• \${c.role}</span>\` : ''}
-            </div>
-            <div style="display:flex;align-items:center;gap:8px;">
-              <span style="color:#f59e0b;font-size:14px;">\${'★'.repeat(c.rating)}\${'☆'.repeat(5-c.rating)}</span>
-              <span style="font-size:11px;color:#9ca3af;">\${c.date}</span>
-            </div>
-          </div>
-          <p style="font-family:'Cairo',sans-serif;font-size:14px;color:#374151;margin:0;line-height:1.6;">\${c.text}</p>
-        </div>
-      \`).join('');
+    function loadComments(){
+      var key='comments_'+sid;
+      var data=JSON.parse(localStorage.getItem(key)||'[]');
+      var cont=document.getElementById('commentsContainer_'+sid);
+      if(!cont)return;
+      if(!data.length){cont.innerHTML='<p style="color:#9ca3af;font-family:Cairo,sans-serif;font-size:14px;">لا توجد تعليقات بعد. كن أول من يعلّق!</p>';return;}
+      cont.innerHTML=data.map(function(c){
+        return '<div style="background:white;border-radius:10px;padding:16px;margin-bottom:12px;border:1px solid #ccfbf1;box-shadow:0 1px 4px rgba(0,0,0,0.05);">'
+          +'<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">'
+          +'<span style="font-family:Cairo,sans-serif;font-weight:700;color:#042f2e;font-size:14px;">'+(c.name||'مجهول')+'</span>'
+          +(c.role?'<span style="background:#f0fdfa;color:#0f766e;padding:2px 8px;border-radius:6px;font-size:12px;">'+c.role+'</span>':'')
+          +'<span style="color:#f59e0b;font-size:16px;margin-right:auto;">'+'★'.repeat(c.rating||5)+'</span>'
+          +'</div>'
+          +'<p style="font-family:Cairo,sans-serif;font-size:14px;color:#374151;line-height:1.7;margin:0 0 6px;">'+c.text+'</p>'
+          +'<span style="font-size:11px;color:#9ca3af;">'+c.date+'</span>'
+          +'</div>';
+      }).join('');
     }
-    loadComments_${safeId}();
+    window['submitComment_'+sid]=function(){
+      var name=(document.getElementById('commentName_'+sid)||{value:''}).value;
+      var role=(document.getElementById('commentRole_'+sid)||{value:''}).value;
+      var text=(document.getElementById('commentText_'+sid)||{value:''}).value;
+      if(!text.trim())return alert('الرجاء كتابة تعليق');
+      var key='comments_'+sid;
+      var data=JSON.parse(localStorage.getItem(key)||'[]');
+      data.unshift({name:name,role:role,rating:rating,text:text,date:new Date().toLocaleDateString('ar-SA')});
+      localStorage.setItem(key,JSON.stringify(data));
+      (document.getElementById('commentText_'+sid)||{value:''}).value='';
+      loadComments();
+    };
+    loadComments();
+  })();
   </script>`
 }
 
-// ── Build a full page from original HTML body + CSS ────────────────────────
+// ── buildPage ──────────────────────────────────────────────────────────────
 function buildPage(
   title: string,
   css: string,
@@ -184,7 +193,6 @@ function buildPage(
   extraBottom: string = '',
   sectionId?: string
 ): string {
-  // In Section M, replace form-id spans with clickable links
   let processedBody = body
   if (sectionId === 'M') {
     processedBody = body.replace(
@@ -206,7 +214,6 @@ function buildPage(
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <style>
     ${css}
-    /* Override body padding to account for fixed navbar */
     body { padding-top: 0 !important; }
     .max-w-5xl { max-width: 64rem; }
   </style>
@@ -225,13 +232,6 @@ ${extraBottom}
 ap.get('/', (c) => {
   const total = sectionOrder.length
   const totalForms = formOrder.length
-
-  const sectionIcons: Record<string,string> = {
-    A:'⚖️', B:'🔍', C:'💉', D:'🛏️', E:'😴',
-    F:'🏨', G:'🦴', H:'🔧', I:'🚨', J:'🧴',
-    K:'📢', L:'📊', M:'📋'
-  }
-
   return c.html(`<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -240,501 +240,396 @@ ap.get('/', (c) => {
   <title>${bookTitle}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Kufi+Arabic:wght@300;400;600;800;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Kufi+Arabic:wght@300;400;600;800&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: 'Noto Kufi Arabic', sans-serif; color: #f0fdfa; background: #021a18; direction: rtl; text-align: right; }
+    body { font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif; color: #1f2937; background: #fff; direction: rtl; text-align: right; }
     a { text-decoration: none; color: inherit; }
 
-    /* ─── TOP NAVBAR ─────────────────────────────────────────── */
-    .top-nav {
+    /* ── FIXED TOP NAVBAR ── */
+    .ap-nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
-      height: 56px; display: flex; align-items: center; justify-content: space-between;
-      padding: 0 20px;
-      background: rgba(2,26,24,0.85);
-      backdrop-filter: blur(14px);
-      border-bottom: 1px solid rgba(20,184,166,0.25);
-      box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+      background: linear-gradient(135deg,#042f2e 0%,#0f766e 55%,#0d9488 100%);
+      height: 76px; display: flex; align-items: center;
+      justify-content: space-between; padding: 0 28px;
+      box-shadow: 0 4px 28px rgba(0,0,0,0.55);
     }
-    .top-nav .brand {
-      display: flex; align-items: center; gap: 9px;
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 13px; font-weight: 700; color: #ccfbf1;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 220px;
+    .ap-nav .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; flex-shrink: 0; }
+    .ap-nav .brand-icon {
+      width: 46px; height: 46px; background: rgba(255,255,255,0.2); border-radius: 12px;
+      border: 2px solid rgba(255,255,255,0.38); display: flex; align-items: center;
+      justify-content: center; font-size: 24px; flex-shrink: 0;
     }
-    .top-nav .brand-icon {
-      width: 30px; height: 30px; border-radius: 8px;
-      background: linear-gradient(135deg, #0d9488, #0f766e);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 15px; flex-shrink: 0;
+    .ap-nav .brand-text {
+      color: white; font-size: 14px; font-weight: 800; max-width: 220px;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.4);
     }
-    .top-nav .nav-links { display: flex; align-items: center; gap: 6px; }
-    .top-nav .nav-links a {
-      font-size: 12px; font-weight: 600; padding: 6px 12px; border-radius: 7px;
-      color: rgba(255,255,255,0.85); transition: all 0.2s;
+    .ap-nav .nav-links { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+    .ap-nav .nav-links a {
+      display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+      font-family: 'Cairo', sans-serif; font-size: 15px; font-weight: 800;
+      padding: 10px 22px; border-radius: 10px; white-space: nowrap; border: 2px solid;
+      transition: all 0.2s;
     }
-    .top-nav .nav-links .btn-portal {
-      background: linear-gradient(135deg, #0f766e, #0d9488);
-      border: none; color: white;
+    .ap-nav .btn-portal  { color: white; background: rgba(255,255,255,0.26); border-color: rgba(255,255,255,0.55); }
+    .ap-nav .btn-nav     { color: white; background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.38); }
+    .ap-nav .btn-active  { color: #042f2e; background: white; border-color: white; box-shadow: 0 2px 14px rgba(0,0,0,0.25); }
+    .ap-nav .btn-sections {
+      color: #042f2e; background: #34d399; border-color: #34d399;
+      box-shadow: 0 2px 12px rgba(52,211,153,0.45);
     }
-    .top-nav .nav-links .btn-sections {
-      background: rgba(255,255,255,0.1); border: 1px solid rgba(20,184,166,0.35);
-    }
-    .top-nav .nav-links a:hover { background: rgba(255,255,255,0.18); }
+    .ap-nav .btn-sections:hover { background: #2dd4aa; transform: translateY(-1px); }
+    .ap-nav .btn-portal:hover, .ap-nav .btn-nav:hover { background: rgba(255,255,255,0.28); }
 
-    /* ─── COVER SECTION ──────────────────────────────────────── */
-    .cover-page {
-      background: #021a18;
-      display: flex; flex-direction: column; align-items: center;
+    /* ── HERO / COVER ── */
+    .hero-wrap {
+      padding-top: 76px;
+      background: linear-gradient(180deg, #041410 0%, #061a17 40%, #082520 80%, #0a2e2a 100%);
+      min-height: 100vh; display: flex; flex-direction: column; align-items: center;
     }
-    .cover-img-block {
-      width: 100%; display: flex; justify-content: center; align-items: flex-start;
-      background: #021a18; padding-top: 56px;
+    .cover-spotlight {
+      width: 100%; display: flex; justify-content: center; align-items: flex-end;
+      padding: 60px 24px 0; position: relative;
     }
-    .cover-bg-img {
-      display: block; width: 60vw; max-width: 700px; height: auto;
-    }
-    @media (max-width: 768px) { .cover-bg-img { width: 92vw; } }
-    .cover-bottom {
-      width: 100%;
-      background: linear-gradient(180deg, #021a18 0%, #042f2e 55%, #065f46 100%);
-      padding: 40px 32px 50px; text-align: center;
-    }
-    .cover-en-label {
-      font-family: 'Segoe UI', sans-serif; font-size: 11px;
-      color: rgba(255,255,255,0.4); letter-spacing: 2.5px;
-      text-transform: uppercase; direction: ltr;
-      margin-bottom: 14px; display: block;
-    }
-    .cover-main-title {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: clamp(22px, 4vw, 42px); font-weight: 900;
-      color: #fff; line-height: 1.35; margin-bottom: 14px;
-    }
-    .cover-main-title .accent { color: #2dd4bf; }
-    .cover-badge-row {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: rgba(255,255,255,0.07); border: 1px solid rgba(20,184,166,0.3);
-      color: rgba(255,255,255,0.75); padding: 7px 20px; border-radius: 22px;
-      font-size: 12px; font-weight: 600; margin-bottom: 26px;
-    }
-    .cover-actions {
-      display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
-    }
-    .btn-teal {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 14px; font-weight: 700; padding: 12px 26px; border-radius: 9px;
-      background: linear-gradient(135deg, #0f766e, #0d9488);
-      color: white; transition: opacity 0.2s, transform 0.2s;
-      box-shadow: 0 4px 14px rgba(13,148,136,0.4);
-    }
-    .btn-teal:hover { opacity: 0.9; transform: translateY(-1px); }
-    .btn-outline-teal {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 14px; font-weight: 700; padding: 12px 26px; border-radius: 9px;
-      background: rgba(255,255,255,0.06); border: 1.5px solid rgba(20,184,166,0.45);
-      color: #ccfbf1; transition: all 0.2s;
-    }
-    .btn-outline-teal:hover { background: rgba(20,184,166,0.15); border-color: #2dd4bf; }
-    @media (max-width: 600px) {
-      .cover-bottom { padding: 28px 16px 40px; }
-      .cover-main-title { font-size: 22px; }
-    }
-
-    /* ─── HERO (TAGLINE) SECTION ─────────────────────────────── */
-    .hero-section {
-      background: linear-gradient(160deg, #042f2e 0%, #065f46 40%, #0f766e 80%, #0d9488 100%);
-      display: flex; flex-direction: column; align-items: center;
-      justify-content: center; padding: 70px 24px 60px;
-      text-align: center; position: relative; overflow: hidden;
-    }
-    .hero-section::before {
-      content: ''; position: absolute; inset: 0;
-      background: radial-gradient(ellipse at 50% 40%, rgba(20,184,166,0.18) 0%, transparent 70%);
+    .cover-spotlight::before {
+      content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+      width: 700px; height: 700px;
+      background: radial-gradient(ellipse at center, rgba(52,211,153,0.10) 0%, transparent 70%);
       pointer-events: none;
     }
-    .hero-inner { position: relative; z-index: 1; max-width: 820px; width: 100%; }
-    .hero-badge {
-      display: inline-block;
-      background: rgba(255,255,255,0.1); border: 1px solid rgba(20,184,166,0.4);
-      color: #ccfbf1; padding: 6px 18px; border-radius: 20px;
-      font-size: 12px; font-weight: 600; margin-bottom: 22px;
-    }
-    .hero-title-en {
-      font-family: 'Segoe UI', sans-serif; font-size: 12px;
-      color: rgba(255,255,255,0.4); letter-spacing: 2px;
-      text-transform: uppercase; direction: ltr; margin-bottom: 14px;
-    }
-    .hero-title {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: clamp(24px, 4.5vw, 44px); font-weight: 900;
-      color: white; line-height: 1.4; margin-bottom: 20px;
-    }
-    .hero-title .accent { color: #2dd4bf; }
-    .hero-desc {
-      font-family: 'Cairo', sans-serif;
-      font-size: clamp(14px, 2vw, 17px); color: rgba(255,255,255,0.75);
-      line-height: 1.85; max-width: 680px; margin: 0 auto;
-    }
-
-    /* ─── BOOK INFO SECTION ──────────────────────────────────── */
-    .book-info-section {
-      background: linear-gradient(160deg, #021a18 0%, #042f2e 50%, #065f46 100%);
-      padding: 70px 24px 80px;
-    }
-    .book-info-inner {
-      max-width: 1000px; margin: 0 auto;
-      display: flex; align-items: center; gap: 60px;
-      flex-wrap: wrap; justify-content: center;
-    }
-    .book-img-wrap { flex-shrink: 0; perspective: 1000px; }
-    .book-img-3d {
-      width: 300px; border-radius: 12px;
-      box-shadow: 0 30px 80px rgba(0,0,0,0.7), 0 10px 30px rgba(0,0,0,0.5), 6px 0 20px rgba(0,0,0,0.4);
-      border: 1px solid rgba(255,255,255,0.1);
+    .cover-main-img {
       display: block;
-      transform: rotateY(-8deg) rotateX(2deg);
-      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      width: min(460px, 78vw);
+      height: auto;
+      border-radius: 14px;
+      box-shadow:
+        0 60px 140px rgba(0,0,0,0.9),
+        0 24px 60px rgba(0,0,0,0.65),
+        10px 0 36px rgba(0,0,0,0.5),
+        0 0 0 1px rgba(255,255,255,0.07);
+      transform: perspective(1400px) rotateY(-6deg) rotateX(2deg);
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+      position: relative; z-index: 1;
     }
-    .book-img-3d:hover {
-      transform: rotateY(-3deg) rotateX(1deg) scale(1.03);
-      box-shadow: 0 40px 100px rgba(0,0,0,0.8), 0 15px 40px rgba(13,148,136,0.4);
+    .cover-main-img:hover {
+      transform: perspective(1400px) rotateY(-2deg) rotateX(1deg) scale(1.02);
+      box-shadow: 0 70px 160px rgba(0,0,0,0.95), 0 28px 70px rgba(16,185,129,0.18);
     }
-    @media (max-width: 600px) { .book-img-3d { width: 220px; } }
-    .book-info-text { flex: 1; min-width: 280px; }
-    .book-info-label {
-      font-family: 'Segoe UI', sans-serif; font-size: 11px;
-      color: rgba(255,255,255,0.4); letter-spacing: 2px;
-      text-transform: uppercase; direction: ltr; margin-bottom: 14px;
-    }
-    .book-info-title {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 28px; font-weight: 900; color: white;
-      line-height: 1.4; margin-bottom: 10px;
-    }
-    .book-info-en {
-      font-family: 'Segoe UI', sans-serif; font-size: 13px;
-      color: rgba(255,255,255,0.45); direction: ltr; margin-bottom: 22px;
-    }
-    .book-info-badge {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: rgba(255,255,255,0.07); border: 1px solid rgba(20,184,166,0.3);
-      color: rgba(255,255,255,0.75); padding: 6px 16px; border-radius: 20px;
-      font-size: 12px; margin-bottom: 28px;
-    }
-    .stats-strip {
-      display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 28px;
-    }
-    .stat-chip {
-      background: rgba(255,255,255,0.07); border: 1px solid rgba(20,184,166,0.25);
-      border-radius: 10px; padding: 12px 18px; text-align: center; min-width: 70px;
-    }
-    .stat-chip .snum {
-      font-size: 1.6rem; font-weight: 900; color: #2dd4bf; display: block;
-    }
-    .stat-chip .slbl {
-      font-size: 0.7rem; color: rgba(255,255,255,0.55); display: block; margin-top: 2px;
-    }
+    @media (max-width: 600px) { .cover-main-img { width: 86vw; } }
 
-    /* ─── INTRO SECTION ──────────────────────────────────────── */
-    .intro-section {
-      background: linear-gradient(180deg, #065f46 0%, #042f2e 100%);
-      padding: 70px 24px 80px;
+    .cover-text-block {
+      width: 100%; text-align: center;
+      padding: 48px 24px 60px;
+      background: linear-gradient(180deg, transparent 0%, rgba(4,20,16,0.7) 30%, #041410 100%);
+    }
+    .cover-en-tag {
+      font-family: 'Segoe UI', sans-serif; font-size: 11px; letter-spacing: 3px;
+      text-transform: uppercase; direction: ltr; color: rgba(255,255,255,0.36);
+      display: block; margin-bottom: 18px;
+    }
+    .cover-title-ar {
+      font-family: 'Noto Kufi Arabic', sans-serif; font-size: clamp(30px,5vw,54px);
+      font-weight: 800; color: white; line-height: 1.35; margin-bottom: 20px;
+    }
+    .cover-title-ar .green { color: #34d399; }
+    .cover-stats-row {
+      display: inline-flex; align-items: stretch; gap: 0;
+      background: rgba(255,255,255,0.07); border: 1.5px solid rgba(255,255,255,0.14);
+      border-radius: 18px; overflow: hidden; margin: 0 auto 36px; max-width: 600px;
+    }
+    .csr-item { padding: 16px 28px; text-align: center; border-left: 1px solid rgba(255,255,255,0.12); }
+    .csr-item:last-child { border-left: none; }
+    .csr-num { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 30px; font-weight: 800; color: white; line-height: 1; }
+    .csr-lbl { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 11px; color: rgba(255,255,255,0.48); margin-top: 4px; }
+    .cover-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-green-lg {
+      font-family: 'Noto Kufi Arabic', sans-serif; font-size: 17px; font-weight: 800;
+      background: linear-gradient(135deg,#059669,#10b981); color: white;
+      padding: 16px 40px; border-radius: 12px; display: inline-block;
+      box-shadow: 0 4px 24px rgba(16,185,129,0.4); transition: all 0.25s;
+    }
+    .btn-green-lg:hover { transform: translateY(-3px); box-shadow: 0 10px 36px rgba(16,185,129,0.55); }
+    .btn-outline-lg {
+      font-family: 'Noto Kufi Arabic', sans-serif; font-size: 17px; font-weight: 700;
+      background: transparent; color: white; padding: 16px 40px; border-radius: 12px;
+      border: 2px solid rgba(255,255,255,0.38); display: inline-block; transition: all 0.25s;
+    }
+    .btn-outline-lg:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
+
+    /* ── INTRO SECTION ── */
+    .intro-section { background: #f8fffe; padding: 86px 24px; }
+    .sec-max { max-width: 1000px; margin: 0 auto; }
+    .sec-title { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 34px; font-weight: 800; color: #042f2e; text-align: center; margin-bottom: 6px; }
+    .sec-subtitle { font-family: 'Segoe UI', sans-serif; font-size: 12px; color: #9ca3af; text-align: center; direction: ltr; letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 52px; }
+
+    .intro-card {
+      background: white; border: 1.5px solid #ccfbf1; border-radius: 28px;
+      padding: 58px 64px; box-shadow: 0 8px 40px rgba(15,118,110,0.09);
       position: relative; overflow: hidden;
     }
-    .intro-section::before {
-      content: ''; position: absolute; top: -60px; right: -80px;
-      width: 400px; height: 400px;
-      background: radial-gradient(circle, rgba(20,184,166,0.12) 0%, transparent 70%);
-      pointer-events: none;
+    .intro-card::before {
+      content: ''; position: absolute; top: 0; right: 0; width: 8px; height: 100%;
+      background: linear-gradient(180deg, #042f2e 0%, #0f766e 50%, #34d399 100%);
+      border-radius: 0 28px 28px 0;
     }
-    .intro-inner { max-width: 900px; margin: 0 auto; position: relative; z-index: 1; }
-    .section-heading {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: clamp(22px, 3.5vw, 34px); font-weight: 900;
-      color: #fff; margin-bottom: 6px;
+    .intro-head {
+      display: flex; align-items: center; gap: 14px;
+      font-family: 'Noto Kufi Arabic', sans-serif; font-size: 16px; font-weight: 800;
+      color: #0f766e; margin-bottom: 36px; padding-bottom: 20px;
+      border-bottom: 2px solid #f0fdfa;
     }
-    .section-heading-en {
-      font-family: 'Segoe UI', sans-serif; font-size: 11px;
-      color: rgba(255,255,255,0.35); letter-spacing: 2px;
-      text-transform: uppercase; direction: ltr; margin-bottom: 30px; display: block;
+    .intro-head-icon { font-size: 30px; }
+    .intro-points { list-style: none; padding: 0; margin: 0; }
+    .intro-points li {
+      font-family: 'Amiri', serif; font-size: 20px; color: #111827;
+      line-height: 2; padding: 18px 0; border-bottom: 1px solid #f0fdfa;
+      display: flex; gap: 18px; align-items: flex-start;
     }
-    .intro-divider {
-      width: 60px; height: 3px;
-      background: linear-gradient(90deg, #2dd4bf, #0d9488);
-      border-radius: 2px; margin-right: 0; margin-bottom: 36px;
+    .intro-points li:last-child { border-bottom: none; }
+    .ip-bullet { color: #0f766e; font-size: 18px; margin-top: 8px; flex-shrink: 0; font-weight: 900; }
+    .intro-closing {
+      margin-top: 40px; padding: 30px 36px;
+      background: linear-gradient(135deg, #042f2e 0%, #0f766e 100%);
+      border-radius: 16px; font-family: 'Amiri', serif;
+      font-size: 21px; color: white; line-height: 2.1; text-align: center;
     }
-    .intro-desc {
-      font-family: 'Cairo', sans-serif;
-      font-size: clamp(15px, 2vw, 17px); color: rgba(255,255,255,0.82);
-      line-height: 2; margin-bottom: 32px;
-    }
-    .intro-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 18px; margin-bottom: 40px;
-    }
-    .intro-card {
-      background: rgba(255,255,255,0.05); border: 1px solid rgba(20,184,166,0.2);
-      border-radius: 14px; padding: 22px 20px;
-      transition: background 0.2s, border-color 0.2s;
-    }
-    .intro-card:hover { background: rgba(20,184,166,0.1); border-color: rgba(20,184,166,0.5); }
-    .intro-card .ic-icon { font-size: 1.8rem; margin-bottom: 10px; }
-    .intro-card .ic-title {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 15px; font-weight: 800; color: #ccfbf1; margin-bottom: 8px;
-    }
-    .intro-card .ic-text {
-      font-family: 'Cairo', sans-serif;
-      font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.7;
-    }
-    .audience-list {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;
-    }
-    .audience-tag {
-      background: rgba(20,184,166,0.15); border: 1px solid rgba(20,184,166,0.35);
-      color: #ccfbf1; padding: 6px 14px; border-radius: 20px;
-      font-family: 'Cairo', sans-serif; font-size: 13px; font-weight: 600;
+    @media (max-width: 700px) {
+      .intro-card { padding: 30px 24px; }
+      .intro-points li { font-size: 18px; }
+      .intro-closing { font-size: 18px; padding: 22px 24px; }
     }
 
-    /* ─── SECTIONS GRID ──────────────────────────────────────── */
-    .sections-section {
-      background: #f0fdfa; padding: 70px 24px 80px;
+    /* ── AUDIENCE GRID ── */
+    .audience-section { background: white; padding: 76px 24px 66px; }
+    .audience-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 18px; }
+    .aud-card {
+      background: #f0fdfa; border: 1.5px solid #99f6e4; border-radius: 16px;
+      padding: 24px 22px; display: flex; gap: 16px; align-items: flex-start;
+      transition: all 0.2s;
     }
-    .sections-heading {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: clamp(20px, 3vw, 30px); font-weight: 900;
-      color: #042f2e; margin-bottom: 6px;
-    }
-    .sections-heading-en {
-      font-family: 'Segoe UI', sans-serif; font-size: 11px;
-      color: #6b7280; letter-spacing: 2px; text-transform: uppercase;
-      direction: ltr; margin-bottom: 30px; display: block;
-    }
-    .sections-divider {
-      width: 60px; height: 3px;
-      background: linear-gradient(90deg, #0d9488, #14b8a6);
-      border-radius: 2px; margin-right: 0; margin-bottom: 36px;
-    }
-    .sections-inner { max-width: 1000px; margin: 0 auto; }
-    .sections-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 16px;
-    }
+    .aud-card:hover { border-color: #0f766e; box-shadow: 0 4px 20px rgba(15,118,110,0.13); transform: translateY(-3px); }
+    .aud-icon { font-size: 30px; flex-shrink: 0; }
+    .aud-title { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 15px; font-weight: 800; color: #042f2e; margin-bottom: 6px; }
+    .aud-desc { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #4b5563; line-height: 1.75; }
+
+    /* ── SECTIONS GRID ── */
+    .sections-section { background: linear-gradient(135deg,#f0fdfa,#ccfbf1 50%,#f0fdfa); padding: 76px 24px; }
+    .sections-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap: 18px; }
     .sec-card {
-      background: white; border-radius: 14px; padding: 22px 18px;
-      border: 1px solid #99f6e4;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
-      text-decoration: none; color: inherit; display: block;
-      transition: transform 0.2s, box-shadow 0.2s;
+      background: white; border-radius: 16px; padding: 24px;
+      border: 1.5px solid #99f6e4; box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+      transition: all 0.2s; text-decoration: none; color: inherit; display: block;
     }
-    .sec-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 10px 28px rgba(13,148,136,0.18);
+    .sec-card:hover { transform: translateY(-5px); box-shadow: 0 12px 32px rgba(15,118,110,0.18); border-color: #0f766e; }
+    .sec-badge {
+      display: inline-block; background: linear-gradient(135deg,#059669,#0f766e);
+      color: white; padding: 4px 14px; border-radius: 8px; font-weight: 800;
+      font-size: 13px; margin-bottom: 12px; font-family: 'Segoe UI', sans-serif; letter-spacing: 0.5px;
     }
-    .sec-card .sc-top {
-      display: flex; align-items: center; gap: 10px; margin-bottom: 12px;
-    }
-    .sec-card .sc-icon {
-      width: 38px; height: 38px; border-radius: 10px;
-      background: linear-gradient(135deg, #0d9488, #0f766e);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 18px; flex-shrink: 0;
-    }
-    .sec-card .sc-id {
-      font-size: 11px; font-weight: 800; color: #0f766e; letter-spacing: 0.5px;
-      text-transform: uppercase; display: block;
-    }
-    .sec-card .sc-num { font-size: 11px; color: #9ca3af; }
-    .sec-card h3 {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 14px; font-weight: 700; color: #042f2e; margin: 0;
-    }
+    .sec-card h3 { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 15px; font-weight: 700; color: #042f2e; line-height: 1.6; }
 
-    /* ─── AUTHOR SECTION ─────────────────────────────────────── */
-    .author-section {
-      background: linear-gradient(160deg, #042f2e 0%, #021a18 100%);
-      padding: 60px 24px; text-align: center;
+    /* ── SIBLING / COMPANION ── */
+    .dark-section { background: linear-gradient(160deg,#061a18 0%,#082420 50%,#0a2e2a 100%); padding: 76px 24px; }
+    .sibling-card {
+      background: rgba(255,255,255,0.05); border: 1.5px solid rgba(255,255,255,0.14);
+      border-radius: 18px; padding: 28px 32px; text-decoration: none; display: block;
+      max-width: 640px; margin: 0 auto; transition: all 0.25s;
     }
-    .author-card {
-      max-width: 480px; margin: 0 auto;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(20,184,166,0.25);
-      border-radius: 20px; padding: 40px 32px;
-    }
-    .author-avatar {
-      width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 18px;
-      background: linear-gradient(135deg, #0d9488, #14b8a6);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 36px;
-    }
-    .author-name {
-      font-family: 'Amiri', serif; font-size: 1.5rem; font-weight: 700;
-      color: #ccfbf1; margin-bottom: 6px;
-    }
-    .author-name-en {
-      font-family: 'Segoe UI', sans-serif; font-size: 13px;
-      color: rgba(255,255,255,0.45); direction: ltr; margin-bottom: 14px;
-    }
-    .author-role {
-      font-family: 'Cairo', sans-serif; font-size: 14px;
-      color: rgba(255,255,255,0.65); line-height: 1.7;
-    }
-    .author-exp {
-      display: inline-block; margin-top: 14px;
-      background: rgba(20,184,166,0.15); border: 1px solid rgba(20,184,166,0.3);
-      color: #2dd4bf; padding: 5px 16px; border-radius: 20px;
-      font-size: 12px; font-weight: 600;
-    }
+    .sibling-card:hover { background: rgba(255,255,255,0.1); border-color: rgba(52,211,153,0.5); transform: translateY(-4px); }
+    .sibling-tag { font-size: 13px; color: #34d399; font-weight: 700; margin-bottom: 10px; display: block; }
+    .sibling-title { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 20px; font-weight: 800; color: white; margin-bottom: 8px; }
+    .sibling-desc { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.8; }
+    .sibling-arrow { margin-top: 14px; font-size: 14px; color: #34d399; font-weight: 700; }
 
-    /* ─── FOOTER ─────────────────────────────────────────────── */
-    .main-footer {
-      background: #010e0d; padding: 28px 20px; text-align: center;
-      border-top: 1px solid rgba(20,184,166,0.15);
-    }
-    .main-footer .f-name {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 15px; font-weight: 700; color: #ccfbf1; margin-bottom: 4px;
-    }
-    .main-footer .f-sub { font-size: 12px; color: rgba(255,255,255,0.4); }
+    .cta-section { background: linear-gradient(135deg,#042f2e,#0f766e); text-align: center; padding: 76px 24px; color: white; }
+    .cta-section h2 { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 30px; font-weight: 800; margin-bottom: 16px; }
+    .cta-section p { font-family: 'Amiri', serif; font-size: 19px; color: rgba(255,255,255,0.78); max-width: 600px; margin: 0 auto 36px; line-height: 2; }
+    .btn-cta-w { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 17px; font-weight: 800; background: white; color: #042f2e; padding: 16px 44px; border-radius: 12px; display: inline-block; transition: all 0.2s; }
+    .btn-cta-w:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,0,0,0.25); }
+
+    /* ── AUTHOR ── */
+    .author-section { background: #f8fffe; padding: 56px 24px; }
+    .author-card { max-width: 520px; margin: 0 auto; background: white; border: 1.5px solid #99f6e4; border-radius: 22px; padding: 40px 44px; text-align: center; box-shadow: 0 4px 24px rgba(15,118,110,0.09); }
+    .author-avatar { font-size: 56px; margin-bottom: 14px; }
+    .author-name { font-family: 'Amiri', serif; font-size: 1.6rem; font-weight: 700; color: #042f2e; margin-bottom: 4px; }
+    .author-name-en { font-size: 14px; color: #6b7280; margin-bottom: 12px; }
+    .author-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #374151; line-height: 1.8; }
+    .author-exp { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #0f766e; margin-top: 10px; font-weight: 700; }
+
+    /* ── FOOTER ── */
+    .ap-footer { background: #041410; color: rgba(255,255,255,0.45); text-align: center; padding: 30px 24px; font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; line-height: 1.9; }
   </style>
 </head>
 <body>
 
   <!-- ① TOP NAVBAR -->
-  <nav class="top-nav">
-    <div class="brand">
+  <nav class="ap-nav">
+    <a href="/anesthesia-policies" class="brand">
       <div class="brand-icon">💊</div>
-      <span>${bookTitle}</span>
-    </div>
+      <span class="brand-text">${bookTitle}</span>
+    </a>
     <div class="nav-links">
-      <a href="/portal" class="btn-portal">🏠 منصة الكتب</a>
+      <a href="/portal" class="btn-portal">🏠 المنصة</a>
+      <a href="/anesthesia-policies" class="btn-active">الرئيسية</a>
       <a href="/anesthesia-policies/sections" class="btn-sections">📚 الأقسام</a>
     </div>
   </nav>
 
-  <!-- ② FULL-PAGE COVER IMAGE + TEXT BELOW -->
-  <section class="cover-page">
-    <div class="cover-img-block">
-      <img src="/static/anesthesia-policies-cover.png" alt="غلاف دليل السياسات والإجراءات في التخدير" class="cover-bg-img" />
+  <!-- ② COVER IMAGE HERO -->
+  <div class="hero-wrap">
+    <div class="cover-spotlight">
+      <img src="/static/anesthesia-policies-cover.png" alt="غلاف دليل السياسات والإجراءات في التخدير" class="cover-main-img" />
     </div>
-    <div class="cover-bottom">
-      <span class="cover-en-label">Anesthesia Policies &amp; Procedures Manual</span>
-      <div class="cover-main-title">
-        دليل <span class="accent">السياسات والإجراءات</span><br>في التخدير
+    <div class="cover-text-block">
+      <span class="cover-en-tag">ANESTHESIA POLICIES &amp; PROCEDURES MANUAL — DR. JAMEEL AL-SOQAYYA — 2026</span>
+      <div class="cover-title-ar">
+        دليل <span class="green">السياسات والإجراءات</span><br>في التخدير
       </div>
-      <div class="cover-badge-row">📋 ${total} قسم &nbsp;•&nbsp; 📄 ${totalForms} نموذج &nbsp;•&nbsp; 🏥 تخدير وعناية مركزة</div>
-      <div class="cover-actions">
-        <a href="/anesthesia-policies/sections" class="btn-teal">تصفح الأقسام ←</a>
-        <a href="/anesthesia-policies/section/A" class="btn-outline-teal">ابدأ من القسم الأول</a>
+      <div class="cover-stats-row">
+        <div class="csr-item"><div class="csr-num">${total}</div><div class="csr-lbl">قسماً رئيسياً</div></div>
+        <div class="csr-item"><div class="csr-num">${totalForms}</div><div class="csr-lbl">نموذجاً جاهزاً</div></div>
+        <div class="csr-item"><div class="csr-num">A – M</div><div class="csr-lbl">تغطية شاملة</div></div>
+        <div class="csr-item"><div class="csr-num">2026</div><div class="csr-lbl">إصدار</div></div>
+      </div>
+      <div class="cover-btns">
+        <a href="/anesthesia-policies/sections" class="btn-green-lg">استعرض الأقسام ←</a>
+        <a href="/anesthesia-policies/section/A" class="btn-outline-lg">ابدأ من القسم الأول</a>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- ③ HERO TAGLINE -->
-  <section class="hero-section">
-    <div class="hero-inner">
-      <div class="hero-badge">📖 مرجع مؤسسي متكامل • ${total} قسماً • ${totalForms} نموذجاً</div>
-      <div class="hero-title-en">Anesthesia Policies &amp; Procedures Guide</div>
-      <h1 class="hero-title">
-        دليل <span class="accent">السياسات والإجراءات</span><br>في التخدير
-      </h1>
-      <p class="hero-desc">
-        مرجع مؤسسي عملي يُوفّر سياسات وإجراءات واضحة وقابلة للتطبيق تغطي رعاية التخدير
-        قبل العملية وأثناءها وبعدها، مع نماذج وقوائم تدقيق وأدوات توثيق داعمة
-        لضمان أعلى مستويات الجودة والسلامة.
-      </p>
-    </div>
-  </section>
-
-  <!-- ④ BOOK INFO WITH 3D COVER -->
-  <section class="book-info-section">
-    <div class="book-info-inner">
-      <div class="book-img-wrap">
-        <img src="/static/anesthesia-policies-cover.png" alt="غلاف الدليل" class="book-img-3d" />
-      </div>
-      <div class="book-info-text">
-        <div class="book-info-label">THE GUIDE</div>
-        <div class="book-info-title">دليل السياسات والإجراءات<br>في التخدير</div>
-        <div class="book-info-en">ANESTHESIA POLICIES &amp; PROCEDURES MANUAL</div>
-        <div class="book-info-badge">📚 ${total} قسماً • ${totalForms} نموذجاً ومستماراً</div>
-        <div class="stats-strip">
-          <div class="stat-chip"><span class="snum">${total}</span><span class="slbl">قسم</span></div>
-          <div class="stat-chip"><span class="snum">${totalForms}</span><span class="slbl">نموذج</span></div>
-          <div class="stat-chip"><span class="snum">A–M</span><span class="slbl">أقسام</span></div>
-        </div>
-        <a href="/anesthesia-policies/sections" style="
-          display:inline-block; font-family:'Noto Kufi Arabic',sans-serif;
-          font-size:14px; font-weight:700; color:white;
-          background:rgba(255,255,255,0.12); border:1.5px solid rgba(20,184,166,0.4);
-          padding:12px 26px; border-radius:9px; transition:background 0.2s;
-        ">استعرض جميع الأقسام ←</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ⑤ لمحة تعريفية -->
+  <!-- ③ FULL INTRODUCTORY OVERVIEW / نبذة تعريفية شاملة -->
   <section class="intro-section">
-    <div class="intro-inner">
-      <div class="section-heading">لمحة تعريفية</div>
-      <span class="section-heading-en">About This Guide</span>
-      <div class="intro-divider"></div>
-      <p class="intro-desc">
-        يُعدّ <strong style="color:#2dd4bf;">دليل السياسات والإجراءات في التخدير</strong>
-        مرجعاً مؤسسياً عملياً يهدف إلى توفير سياسات وإجراءات واضحة وقابلة للتطبيق،
-        تغطي رعاية التخدير <strong style="color:#99f6e4;">قبل العملية وأثناءها وبعدها</strong>.
-        يضمّ الدليل نماذج وقوائم تدقيق وأدوات توثيق متكاملة تدعم كل مرحلة من مراحل
-        التخدير السريري، ويُكمّل دليلَ السلامة والجودة في غرفة العمليات ليشكّلا معاً
-        مرجعاً مؤسسياً شاملاً في مجال التخدير وغرفة العمليات.
-      </p>
-      <div class="intro-cards">
-        <div class="intro-card">
-          <div class="ic-icon">🎯</div>
-          <div class="ic-title">الهدف</div>
-          <div class="ic-text">توفير سياسات وإجراءات واضحة وقابلة للتطبيق، تضمن رعاية تخدير آمنة وعالية الجودة في جميع مراحلها.</div>
+    <div class="sec-max">
+      <div class="sec-title">نبذة تعريفية عن الدليل</div>
+      <div class="sec-subtitle">Introductory Overview</div>
+
+      <div class="intro-card">
+        <div class="intro-head">
+          <span class="intro-head-icon">📘</span>
+          <span>دليل السياسات والإجراءات في التخدير — لمحة تعريفية شاملة</span>
         </div>
-        <div class="intro-card">
-          <div class="ic-icon">📋</div>
-          <div class="ic-title">المحتوى</div>
-          <div class="ic-text">يشمل ${total} قسماً من A إلى M، مع ${totalForms} نموذجاً وقائمة تدقيق وأداة توثيق لكل مرحلة سريرية.</div>
+        <ul class="intro-points">
+          <li>
+            <span class="ip-bullet">◆</span>
+            <span>
+              <strong>دليل السياسات والإجراءات في التخدير</strong> هو مرجع مؤسسي عملي شامل، يُقدّم سياسات وإجراءات واضحة ومفصّلة وقابلة للتطبيق الفوري في أقسام التخدير، مبنيّة على أحدث المعايير الدولية المعتمدة. يختلف هذا الدليل عن الكتب النظرية في أنه أداة عمل يومية جاهزة للتطبيق المباشر داخل المنظومة الصحية.
+            </span>
+          </li>
+          <li>
+            <span class="ip-bullet">◆</span>
+            <span>
+              يتضمن الدليل <strong>نماذج سريرية جاهزة وقوائم تحقق مفصّلة (${totalForms} نموذجاً وقائمة)</strong> تشمل جميع مراحل رعاية المريض: من التقييم قبل التخدير ومرحلة اليقظة حتى الموافقة الطبية المستنيرة، ومرور بإدارة مجرى الهواء، والتوثيق الجراحي، وانتهاءً بعناية ما بعد التخدير في وحدة الإفاقة (PACU). هذه النماذج قابلة للتكيّف مع متطلبات كل مؤسسة صحية.
+            </span>
+          </li>
+          <li>
+            <span class="ip-bullet">◆</span>
+            <span>
+              يعمل هذا الدليل كـ<strong>مرجع مؤسسي تكميلي</strong> لكتاب <em>"دليل السلامة والجودة في التخدير"</em>؛ فبينما يُرسي الكتاب الأول مبادئ السلامة والجودة وفلسفتها، يتولّى هذا الدليل الجانب الإجرائي والسياساتي التطبيقي، مما يحقق التكامل الكامل ويبني منظومة شاملة للجودة والسلامة في قسم التخدير.
+            </span>
+          </li>
+          <li>
+            <span class="ip-bullet">◆</span>
+            <span>
+              هدفه الأساسي <strong>توحيد الممارسة السريرية</strong> داخل المؤسسة الصحية وتقليص التباين غير المبرر بين الممارسين، مما يؤدي مباشرةً إلى تعزيز سلامة المريض ورفع مستوى جودة الخدمة الطبية المقدّمة. الدليل يُجيب على السؤال الجوهري: "كيف نُطبّق ذلك بشكل موحّد وآمن وقابل للقياس؟"
+            </span>
+          </li>
+          <li>
+            <span class="ip-bullet">◆</span>
+            <span>
+              يُغطّي الدليل <strong>${total} قسماً رئيسياً (A حتى M)</strong>: الحوكمة والنطاق (A)، التقييم قبل التخدير (B)، الرعاية أثناء الجراحة (C)، رعاية ما بعد التخدير والإفاقة PACU (D)، إدارة مجرى الهواء (E)، التخدير خارج غرف العمليات NORA (F)، التخدير الإقليمي والنخاعي (G)، المعدات والمراقبة (H)، الطوارئ والأحداث الحرجة (I)، سلامة الأدوية والعقاقير المخدرة (J)، الجودة والتدقيق والمؤشرات (K)، التعليم والكفاءات (L)، والنماذج وقوائم التحقق (M).
+            </span>
+          </li>
+          <li>
+            <span class="ip-bullet">◆</span>
+            <span>
+              <strong>الفئات المستهدفة</strong> من هذا الدليل هي: أطباء التخدير (استشاريون ومقيمون)، ممرضات وممرضو التخدير وغرف العمليات، فنيو التخدير والمعدات الطبية، مديرو ومنسّقو الجودة والسلامة المؤسسية، قيادات أقسام التخدير والجراحة، والمتدربون والطلاب الذين يبنون كفاءتهم السريرية. الدليل مُصمَّم بحيث يُفيد كل مستوى من هذه الفئات بما يتناسب مع احتياجاته.
+            </span>
+          </li>
+          <li>
+            <span class="ip-bullet">◆</span>
+            <span>
+              يمتاز الدليل بأنه <strong>ثنائي اللغة (عربي وإنجليزي)</strong>، مما يجعله ملائماً للبيئات الطبية متعددة الجنسيات، ومتوافقاً مع متطلبات الاعتماد الدولي من هيئتَي <strong>JCI</strong> و<strong>CBAHI</strong> وغيرهما من هيئات الاعتماد المعتمدة دولياً. كما يلتزم بمعايير منظمتَي <strong>ASA</strong> و<strong>ESAIC</strong> المهنيتين.
+            </span>
+          </li>
+          <li>
+            <span class="ip-bullet">◆</span>
+            <span>
+              يُرسّخ ثقافة <strong>التحسين المستمر والتعلّم من الأحداث</strong> من خلال توحيد آليات البلاغات والتحقيقات وتحليل الأسباب الجذرية، بدلاً من إخفاء الأخطاء أو تكرارها. يُضمّن الدليل نماذج متخصصة للحوادث الحرجة والتقارير السريرية تدعم بناء مؤسسة أكثر أماناً ومرونةً وقدرةً على الاستجابة.
+            </span>
+          </li>
+        </ul>
+        <div class="intro-closing">
+          دليل يحوّل <strong>السياسات إلى ثقافة</strong> و<strong>الإجراءات إلى عادة يومية</strong>،<br>
+          ليكون المريض في مركز كل قرار، وسلامته النتيجةَ الطبيعية لكل إجراء.
         </div>
-        <div class="intro-card">
-          <div class="ic-icon">🔗</div>
-          <div class="ic-title">الارتباط بالمرجع الأساسي</div>
-          <div class="ic-text">يُكمّل دليلَ مبادئ السلامة والجودة في غرفة العمليات، ليشكّلا معاً مرجعاً مؤسسياً شاملاً متكاملاً.</div>
-        </div>
-      </div>
-      <div class="section-heading" style="font-size:20px;margin-bottom:10px;">الفئات المستهدفة</div>
-      <span class="section-heading-en" style="margin-bottom:16px;">Target Audience</span>
-      <div class="audience-list">
-        <span class="audience-tag">👨‍⚕️ أطباء التخدير</span>
-        <span class="audience-tag">👩‍⚕️ ممرضو التخدير</span>
-        <span class="audience-tag">🔬 فنيو التخدير</span>
-        <span class="audience-tag">📊 مديرو الجودة والسلامة</span>
-        <span class="audience-tag">🏥 قيادات غرفة العمليات</span>
       </div>
     </div>
   </section>
 
-  <!-- ⑥ SECTIONS GRID -->
+  <!-- ④ AUDIENCE / الفئات المستهدفة -->
+  <section class="audience-section">
+    <div class="sec-max">
+      <div class="sec-title">الفئات المستهدفة</div>
+      <div class="sec-subtitle">Target Audience</div>
+      <div class="audience-grid">
+        <div class="aud-card">
+          <div class="aud-icon">👨‍⚕️</div>
+          <div>
+            <div class="aud-title">أطباء التخدير</div>
+            <div class="aud-desc">استشاريون وأطباء مقيمون يبحثون عن مرجع سياساتي مؤسسي شامل يعزز ممارستهم اليومية ويوحّدها.</div>
+          </div>
+        </div>
+        <div class="aud-card">
+          <div class="aud-icon">👩‍⚕️</div>
+          <div>
+            <div class="aud-title">ممرضات وممرضو التخدير</div>
+            <div class="aud-desc">فريق التمريض المتخصص في غرف العمليات ووحدة رعاية ما بعد التخدير (PACU) والعناية المركزة.</div>
+          </div>
+        </div>
+        <div class="aud-card">
+          <div class="aud-icon">🔬</div>
+          <div>
+            <div class="aud-title">الفنيون والتقنيون</div>
+            <div class="aud-desc">فنيو التخدير والمعدات الطبية، ومشغّلو أجهزة الدعم الحيوي، والفريق الفني الداعم في الغرفة الجراحية.</div>
+          </div>
+        </div>
+        <div class="aud-card">
+          <div class="aud-icon">📊</div>
+          <div>
+            <div class="aud-title">مديرو الجودة والسلامة</div>
+            <div class="aud-desc">المختصون في اعتماد المؤسسات الصحية، وضبط الجودة، وإدارة المخاطر، والامتثال للمعايير الدولية JCI وCBAHI.</div>
+          </div>
+        </div>
+        <div class="aud-card">
+          <div class="aud-icon">🏛️</div>
+          <div>
+            <div class="aud-title">قيادات الأقسام</div>
+            <div class="aud-desc">رؤساء أقسام التخدير، ومديرو التمريض، والمشرفون على البرامج الطبية وتطوير الكفاءات المؤسسية.</div>
+          </div>
+        </div>
+        <div class="aud-card">
+          <div class="aud-icon">🎓</div>
+          <div>
+            <div class="aud-title">المتدربون والمقيمون</div>
+            <div class="aud-desc">أطباء المقيمون وطلاب التمريض الذين يبنون كفاءتهم السريرية ويحتاجون مرجعاً تطبيقياً يوثّق التعلّم من اليوم الأول.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ SECTIONS GRID -->
   <section class="sections-section">
-    <div class="sections-inner">
-      <div class="sections-heading">📂 أقسام الدليل</div>
-      <span class="sections-heading-en">Guide Sections A – M</span>
-      <div class="sections-divider"></div>
+    <div class="sec-max">
+      <div class="sec-title">📂 أقسام الدليل</div>
+      <div class="sec-subtitle">Manual Sections A – M</div>
       <div class="sections-grid">
-        ${sectionOrder.map((id, i) => `
+        ${sectionOrder.map(id => `
           <a href="/anesthesia-policies/section/${id}" class="sec-card">
-            <div class="sc-top">
-              <div class="sc-icon">${sectionIcons[id] || '📄'}</div>
-              <div>
-                <span class="sc-id">Section ${id}</span>
-                <span class="sc-num">${String(i+1).padStart(2,'0')} / ${total}</span>
-              </div>
-            </div>
+            <span class="sec-badge">Section ${id}</span>
             <h3>${sectionTitles[id]}</h3>
           </a>
         `).join('')}
@@ -742,21 +637,50 @@ ap.get('/', (c) => {
     </div>
   </section>
 
-  <!-- ⑦ AUTHOR -->
-  <section class="author-section">
-    <div class="author-card">
-      <div class="author-avatar">👨‍⚕️</div>
-      <div class="author-name">${authorName}</div>
-      <div class="author-name-en">Dr. Jameel Al-Soqayya</div>
-      <div class="author-role">استشاري تخدير وعناية مركزة<br>المملكة العربية السعودية</div>
-      <span class="author-exp">خبرة تزيد على 25 عاماً في الممارسة الطبية</span>
+  <!-- ⑥ COMPANION BOOK -->
+  <section class="dark-section">
+    <div class="sec-max" style="text-align:center;">
+      <div style="font-family:'Noto Kufi Arabic',sans-serif;font-size:30px;font-weight:800;color:white;margin-bottom:8px;">المرجع الشقيق</div>
+      <div style="font-family:'Segoe UI',sans-serif;font-size:12px;color:rgba(255,255,255,0.4);letter-spacing:2.5px;text-transform:uppercase;direction:ltr;margin-bottom:44px;">Companion Reference</div>
+      <a href="https://www.anesthesiasafetyguideline.com" target="_blank" rel="noopener" class="sibling-card">
+        <span class="sibling-tag">📘 يكمل هذا الدليل — Companion Volume</span>
+        <div class="sibling-title">دليل السلامة والجودة في التخدير</div>
+        <div class="sibling-desc">
+          الكتاب المرجعي الذي يتكامل مع هذا الدليل — يغطي مبادئ السلامة والجودة، ومنهجيات التحسين المستمر، وإدارة المخاطر في ممارسة التخدير. يُنصح بقراءة الدليلين معاً لتحقيق التكامل الكامل وبناء منظومة مؤسسية متكاملة.
+        </div>
+        <div class="sibling-arrow">🔗 زيارة الموقع — anesthesiasafetyguideline.com ←</div>
+      </a>
     </div>
   </section>
 
-  <!-- ⑧ FOOTER -->
-  <footer class="main-footer">
-    <div class="f-name">${authorName} – Dr. Jameel Al-Soqayya</div>
-    <div class="f-sub">© 2026 جميع الحقوق محفوظة | دليل السياسات والإجراءات في التخدير</div>
+  <!-- ⑦ AUTHOR -->
+  <section class="author-section">
+    <div class="sec-max">
+      <div class="author-card">
+        <div class="author-avatar">👨‍⚕️</div>
+        <div class="author-name">${authorName}</div>
+        <div class="author-name-en">Dr. Jameel Al-Soqayya</div>
+        <div class="author-role">
+          استشاري تخدير وعناية مركزة | المملكة العربية السعودية<br>
+          Consultant Anesthesiologist &amp; Intensivist
+        </div>
+        <div class="author-exp">خبرة تزيد على 25 عاماً في الممارسة الطبية والجودة والسلامة</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑧ CTA -->
+  <section class="cta-section">
+    <h2>ابدأ رحلتك نحو قسم تخدير أكثر أماناً</h2>
+    <p>كل قسم خطوة نحو ممارسة موحّدة، ومريض أكثر أماناً، وفريق أكثر ثقةً وكفاءة</p>
+    <a href="/anesthesia-policies/sections" class="btn-cta-w">استعرض جميع الأقسام ←</a>
+  </section>
+
+  <!-- ⑨ FOOTER -->
+  <footer class="ap-footer">
+    <div style="color:rgba(255,255,255,0.82);font-weight:800;font-size:14px;margin-bottom:5px;">${authorName} – Dr. Jameel Al-Soqayya</div>
+    <div>استشاري تخدير وعناية مركزة | المملكة العربية السعودية</div>
+    <div style="margin-top:10px;font-size:12px;">© 2026 جميع الحقوق محفوظة</div>
   </footer>
 
 </body>
@@ -767,65 +691,74 @@ ap.get('/', (c) => {
 ap.get('/sections', (c) => {
   const total = sectionOrder.length
   const totalForms = formOrder.length
+  const navHtml = navbar('sections')
   return c.html(`<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الأقسام | ${bookTitle}</title>
-  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&family=Noto+Kufi+Arabic:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Cairo', sans-serif; background: linear-gradient(135deg, #f0fdfa, #ccfbf1); min-height: 100vh; }
-    .header {
-      background: linear-gradient(135deg, #042f2e, #0f766e);
-      padding: 30px 20px;
+    body { font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif; background: linear-gradient(135deg, #f0fdfa, #ccfbf1); min-height: 100vh; direction: rtl; text-align: right; }
+    a { text-decoration: none; color: inherit; }
+
+    .page-header {
+      background: linear-gradient(135deg, #042f2e, #0f766e, #0d9488);
+      padding: 40px 20px 36px;
       text-align: center;
       color: white;
     }
-    .header h1 { font-family: 'Amiri', serif; font-size: 2rem; margin-bottom: 6px; }
-    .header p { font-size: 0.9rem; opacity: 0.8; }
-    .nav { background: rgba(255,255,255,0.9); padding: 10px 20px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; justify-content: space-between; border-bottom: 1px solid #99f6e4; }
-    .nav a { text-decoration: none; font-size: 13px; padding: 7px 14px; border-radius: 8px; font-weight: 600; }
-    .nav .portal { background: linear-gradient(135deg, #042f2e, #0f766e); color: white; }
-    .nav .home { background: #f0fdfa; color: #0f766e; border: 1px solid #99f6e4; }
-    .content { max-width: 900px; margin: 0 auto; padding: 30px 16px 60px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+    .page-header h1 {
+      font-family: 'Noto Kufi Arabic', sans-serif; font-size: 2.2rem; font-weight: 800; margin-bottom: 8px;
+    }
+    .page-header p { font-size: 1rem; opacity: 0.78; font-family: 'Cairo', sans-serif; }
+
+    .content { max-width: 960px; margin: 0 auto; padding: 36px 16px 70px; }
+
+    .section-label {
+      font-family: 'Noto Kufi Arabic', sans-serif; font-size: 1.1rem; font-weight: 800;
+      color: #042f2e; margin-bottom: 20px; padding-bottom: 10px;
+      border-bottom: 3px solid #0f766e;
+    }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-bottom: 48px; }
     .card {
-      background: white; border-radius: 14px; padding: 24px;
-      border: 1px solid #99f6e4; box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      background: white; border-radius: 16px; padding: 24px;
+      border: 1.5px solid #99f6e4; box-shadow: 0 2px 12px rgba(0,0,0,0.05);
       text-decoration: none; color: inherit; display: block;
-      transition: transform 0.2s, box-shadow 0.2s;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
     }
-    .card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(15,118,110,0.15); }
-    .card .badge { display: inline-block; background: linear-gradient(135deg, #0d9488, #0f766e); color: white; padding: 4px 14px; border-radius: 8px; font-size: 0.85rem; font-weight: 700; margin-bottom: 12px; }
-    .card h2 { font-size: 1rem; font-weight: 700; color: #042f2e; }
-    .forms-section { margin-top: 40px; }
-    .forms-section h2 { font-family: 'Amiri', serif; font-size: 1.4rem; color: #042f2e; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #0f766e; }
-    .forms-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 10px 28px rgba(15,118,110,0.17); border-color: #0f766e; }
+    .card .badge {
+      display: inline-block; background: linear-gradient(135deg, #0d9488, #0f766e);
+      color: white; padding: 5px 16px; border-radius: 9px; font-size: 0.88rem;
+      font-weight: 800; margin-bottom: 12px; font-family: 'Segoe UI', sans-serif; letter-spacing: 0.5px;
+    }
+    .card h2 { font-size: 1rem; font-weight: 700; color: #042f2e; line-height: 1.6; font-family: 'Noto Kufi Arabic', sans-serif; }
+
+    .forms-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
     .form-card {
-      background: white; border-radius: 10px; padding: 14px 16px;
-      border: 1px solid #99f6e4; text-decoration: none; color: inherit;
-      display: block; transition: background 0.2s;
+      background: white; border-radius: 12px; padding: 16px 18px;
+      border: 1.5px solid #99f6e4; text-decoration: none; color: inherit;
+      display: block; transition: all 0.2s;
     }
-    .form-card:hover { background: #f0fdfa; }
-    .form-card .fid { font-size: 0.75rem; color: #0f766e; font-weight: 700; margin-bottom: 4px; }
-    .form-card .ftitle { font-size: 0.85rem; color: #374151; }
+    .form-card:hover { background: #f0fdfa; border-color: #0f766e; transform: translateY(-2px); }
+    .form-card .fid { font-size: 0.78rem; color: #0f766e; font-weight: 800; margin-bottom: 5px; font-family: 'Segoe UI', sans-serif; letter-spacing: 0.5px; }
+    .form-card .ftitle { font-size: 0.88rem; color: #374151; line-height: 1.5; }
   </style>
 </head>
 <body>
-  <div class="nav">
-    <span style="font-weight:700;color:#042f2e;">💊 ${bookTitle}</span>
-    <div style="display:flex;gap:8px;">
-      <a href="/portal" class="portal">🏠 منصة الكتب</a>
-      <a href="/anesthesia-policies" class="home">الرئيسية</a>
-    </div>
+  ${navHtml}
+
+  <div class="page-header">
+    <h1>📂 أقسام الدليل</h1>
+    <p>${total} قسماً رئيسياً · ${totalForms} نموذجاً وقائمة تحقق · الأقسام A – M</p>
   </div>
-  <div class="header">
-    <h1>📂 الأقسام</h1>
-    <p>${total} قسماً | ${totalForms} نموذجاً</p>
-  </div>
+
   <div class="content">
+    <div class="section-label">الأقسام الرئيسية</div>
     <div class="grid">
       ${sectionOrder.map(id => `
         <a href="/anesthesia-policies/section/${id}" class="card">
@@ -835,16 +768,14 @@ ap.get('/sections', (c) => {
       `).join('')}
     </div>
 
-    <div class="forms-section">
-      <h2>📄 النماذج والاستمارات (Section M)</h2>
-      <div class="forms-grid">
-        ${formOrder.map(id => `
-          <a href="/anesthesia-policies/form/${id}" class="form-card">
-            <div class="fid">${id.toUpperCase().replace('F','F-').replace('F--','F-')}</div>
-            <div class="ftitle">${formTitles[id]}</div>
-          </a>
-        `).join('')}
-      </div>
+    <div class="section-label">📄 النماذج والاستمارات (Section M)</div>
+    <div class="forms-grid">
+      ${formOrder.map(id => `
+        <a href="/anesthesia-policies/form/${id}" class="form-card">
+          <div class="fid">${id.replace('f','F-').replace('F--','F-')}</div>
+          <div class="ftitle">${formTitles[id]}</div>
+        </a>
+      `).join('')}
     </div>
   </div>
 </body>
@@ -887,12 +818,12 @@ ap.get('/form/:id', (c) => {
   const navHtml = navbar(
     'forms',
     prevId ? `/anesthesia-policies/form/${prevId}` : '/anesthesia-policies/section/M',
-    prevId ? prevId.toUpperCase() : 'Section M',
+    prevId ? prevId.replace('f','F-') : 'Section M',
     nextId ? `/anesthesia-policies/form/${nextId}` : undefined,
-    nextId ? nextId.toUpperCase() : undefined
+    nextId ? nextId.replace('f','F-') : undefined
   )
 
-  const title = `${id.toUpperCase()}: ${formTitles[id] || ''}`
+  const title = `${id.replace('f','F-')}: ${formTitles[id] || ''}`
   const page = buildPage(title, form.css, form.body, navHtml, commentsSection(id))
   return c.html(page)
 })

@@ -779,9 +779,6 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section B<br><span class="text-teal-600">Pre-Anesthesia Assessment</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete 22-Page Verbatim Transcription: Pre-Anesthesia / Pre-Procedure Assessment and Readiness (OR + NORA + Procedural Sedation).
-            </p>
         </header>
 
         <!-- MAIN POLICY CARD -->
@@ -1608,9 +1605,6 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section C<br><span class="text-teal-600">Intra-Anesthesia Care</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete Verbatim Transcription: Intra-Anesthesia Care (Operating Room and Non-Operating Room Anesthesia Locations).
-            </p>
         </header>
 
         <!-- MAIN POLICY CARD -->
@@ -2295,9 +2289,6 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section D<br><span class="text-blue-600">Post-Anesthesia (PACU)</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete Verbatim Transcription: Post-Anesthesia Care Unit (PACU) Management and Recovery Standards (All Locations).
-            </p>
         </header>
 
         <!-- MAIN POLICY CARD -->
@@ -3278,9 +3269,6 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section E<br><span class="text-indigo-600">Procedural Sedation</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete Verbatim Transcription: Procedural Sedation Program (Minimal / Moderate / Deep) — Governance, Privileging, Assessment, Monitoring, Medications, Recovery, Adverse Events, Pediatrics.
-            </p>
         </header>
 
         <!-- MAIN POLICY CARD -->
@@ -3951,9 +3939,6 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section F<br><span class="text-violet-600">NORA Services</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete Verbatim Transcription: Non-Operating Room Anesthesia (NORA) Services — "Same Standard, Different Location". General NORA, Site Approval, Location-Specific Policies, Transport, and Recovery.
-            </p>
         </header>
 
         <!-- MAIN POLICY CARD -->
@@ -4601,9 +4586,6 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section G<br><span class="text-emerald-600">Regional &amp; Neuraxial</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete Verbatim Transcription: Regional &amp; Neuraxial Anesthesia Service (Spinal / Epidural / CSE / Peripheral Nerve Blocks / Continuous Catheters).
-            </p>
         </header>
 
         <!-- MAIN POLICY CARD -->
@@ -7398,9 +7380,6 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section J<br><span class="text-cyan-600">Infection Prevention</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete Verbatim Transcription: Infection Prevention &amp; Environmental Safety for Anesthesia Services.
-            </p>
         </header>
 
         <!-- TABLE OF CONTENTS CARD -->
@@ -7942,9 +7921,6 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section K<br><span class="text-fuchsia-600">Communication &amp; Handover</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete Verbatim Transcription: Communication, Handover, and Documentation Standards (OR / NORA / PACU).
-            </p>
         </header>
 
         <!-- TABLE OF CONTENTS CARD -->
@@ -8498,9 +8474,6 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section L<br><span class="text-slate-600">Quality &amp; Performance</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete Verbatim Transcription: Quality, Audit, KPIs, and Continuous Improvement for Anesthesia &amp; Procedural Sedation Services.
-            </p>
         </header>
 
         <!-- TABLE OF CONTENTS CARD -->
