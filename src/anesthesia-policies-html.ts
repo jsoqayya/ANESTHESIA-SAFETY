@@ -1,14 +1,10 @@
 // دليل السياسات والإجراءات في التخدير - Full HTML Data
 // Auto-generated - DO NOT EDIT MANUALLY
 
-export interface SectionHtml {
-  css: string;
-  body: string;
-}
+export interface SectionHtml { css: string; body: string; }
 
 export const apSectionsHtml: Record<string, SectionHtml> = {
-  A: {
-    css: `body {
+  A: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -81,17 +77,14 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-teal-600 pl-8">
             <h1 class="text-5xl md:text-7xl font-black text-slate-900 uppercase tracking-tighter leading-none mb-4">
                 Section A<br><span class="text-teal-600">Governance &amp; Scope</span>
             </h1>
-            <p class="text-slate-500 font-medium text-xl max-w-3xl leading-relaxed italic opacity-80">
-                Complete verbatim transcription. Character-for-character reproduction of approved policies.
-            </p>
+            
         </header>
 
         <!-- A1: SCOPE OF SERVICES -->
@@ -697,19 +690,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <div class="flex justify-center items-center space-x-6 mb-6 opacity-40">
-            <span class="text-[10px] font-black uppercase tracking-widest">CBAHI Standards</span>
-            <span class="text-[10px] font-black uppercase tracking-widest">ASA Guidelines</span>
-            <span class="text-[10px] font-black uppercase tracking-widest">WHO Safety</span>
-        </div>
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section A (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  B: {
-    css: `body {
+    <!-- FOOTER -->` },
+  B: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -790,8 +772,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-teal-600 pl-8">
@@ -827,26 +808,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                     </table>
                 </div>
 
-                <!-- APPROVALS -->
-                <div class="mt-12 text-center">
-                    <h2 class="text-xl font-bold uppercase tracking-widest mb-8">APPROVALS</h2>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-                        <div class="signature-block">
-                            <strong>Chair, Dept of Anesthesiology</strong><br>
-                            Dr. [Name]<br>
-                            Date: ____/____/____
-                        </div>
-                        <div class="signature-block">
-                            <strong>Chief Medical Officer</strong><br>
-                            Dr. [Name]<br>
-                            Date: ____/____/____
-                        </div>
-                        <div class="signature-block">
-                            <strong>Director of Nursing</strong><br>
-                            [Name]<br>
-                            Date: ____/____/____
-                        </div>
-                    </div>
+                
                 </div>
             </div>
             
@@ -1557,14 +1519,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section B (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  C: {
-    css: `body {
+    <!-- FOOTER -->` },
+  C: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -1645,8 +1601,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-teal-600 pl-8">
@@ -1697,25 +1652,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                     </table>
                 </div>
 
-                <!-- APPROVALS -->
-                <div class="mt-12 text-center">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-                        <div class="signature-block">
-                            <strong>Chief of Anesthesia</strong><br><br><br>
-                            <p>__________________________</p>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Medical Director</strong><br><br><br>
-                            <p>__________________________</p>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Chair, Quality Committee</strong><br><br><br>
-                            <p>__________________________</p>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
             
@@ -2266,14 +2203,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section C (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  D: {
-    css: `body {
+    <!-- FOOTER -->` },
+  D: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -2357,8 +2288,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-blue-600 pl-8">
@@ -2403,23 +2333,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                     </table>
                 </div>
 
-                <!-- APPROVALS -->
-                <div class="mt-12 text-center">
-                    <h4 class="font-bold uppercase tracking-widest mb-8 text-left">Approvals:</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-                        <div class="signature-block">
-                            <strong>Medical Director, Anesthesia</strong><br><br><br>
-                            <p>Date: __________________</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Chief Nursing Officer</strong><br><br><br>
-                            <p>Date: __________________</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Medical Director, PACU</strong><br><br><br>
-                            <p>Date: __________________</p>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
             
@@ -3272,14 +3186,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section D (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  E: {
-    css: `body {
+    <!-- FOOTER -->` },
+  E: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -3363,8 +3271,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-indigo-600 pl-8">
@@ -3409,23 +3316,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                     </table>
                 </div>
 
-                <!-- APPROVALS -->
-                <div class="mt-12 text-center">
-                    <h4 class="font-bold uppercase tracking-widest mb-8 text-left">Approvals:</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-                        <div class="signature-block">
-                            <strong>Chair, Dept of Anesthesiology</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Chief Medical Officer</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Director of Nursing</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
             
@@ -3968,14 +3859,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section E (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  F: {
-    css: `body {
+    <!-- FOOTER -->` },
+  F: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -4059,8 +3944,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-violet-600 pl-8">
@@ -4106,23 +3990,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                     </table>
                 </div>
 
-                <!-- APPROVALS -->
-                <div class="mt-12 text-center">
-                    <h4 class="font-bold uppercase tracking-widest mb-8 text-left">Approvals:</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-                        <div class="signature-block">
-                            <strong>Chair, Dept of Anesthesiology</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Chief Medical Officer</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Director of Nursing</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
             
@@ -4641,14 +4509,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section F (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  G: {
-    css: `body {
+    <!-- FOOTER -->` },
+  G: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -4732,8 +4594,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-emerald-600 pl-8">
@@ -4779,23 +4640,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                     </table>
                 </div>
 
-                <!-- APPROVALS -->
-                <div class="mt-12 text-center">
-                    <h4 class="font-bold uppercase tracking-widest mb-8 text-left">Approvals:</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-                        <div class="signature-block">
-                            <strong>Chair, Dept of Anesthesiology</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Chief Medical Officer</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Director of Nursing</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
             
@@ -5325,14 +5170,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section G (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  H: {
-    css: `body {
+    <!-- FOOTER -->` },
+  H: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -5415,8 +5254,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-amber-600 pl-8">
@@ -6522,14 +6360,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section H (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  I: {
-    css: `body {
+    <!-- FOOTER -->` },
+  I: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -6612,8 +6444,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-red-700 pl-8">
@@ -7476,14 +7307,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section I (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  J: {
-    css: `body {
+    <!-- FOOTER -->` },
+  J: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -7566,8 +7391,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-cyan-600 pl-8">
@@ -7643,23 +7467,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                     </table>
                 </div>
 
-                <!-- APPROVALS -->
-                <div class="mt-12 text-center">
-                    <h4 class="font-bold uppercase tracking-widest mb-8 text-left">Approvals:</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-                        <div class="signature-block">
-                            <strong>Chair, Dept of Anesthesiology</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Chief Medical Officer</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Director of Infection Control</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
             
@@ -8043,14 +7851,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section J (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  K: {
-    css: `body {
+    <!-- FOOTER -->` },
+  K: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -8133,8 +7935,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-fuchsia-600 pl-8">
@@ -8211,23 +8012,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                     </table>
                 </div>
 
-                <!-- APPROVALS -->
-                <div class="mt-12 text-center">
-                    <h4 class="font-bold uppercase tracking-widest mb-8 text-left">Approvals:</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-                        <div class="signature-block">
-                            <strong>Chair, Dept of Anesthesiology</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Chief Medical Officer</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Director of Nursing</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
             
@@ -8622,14 +8407,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section K (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  L: {
-    css: `body {
+    <!-- FOOTER -->` },
+  L: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -8712,8 +8491,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-slate-600 pl-8">
@@ -8790,23 +8568,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                     </table>
                 </div>
 
-                <!-- APPROVALS -->
-                <div class="mt-12 text-center">
-                    <h4 class="font-bold uppercase tracking-widest mb-8 text-left">Approvals:</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-                        <div class="signature-block">
-                            <strong>Chair, Dept of Anesthesiology</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Director of Quality &amp; Safety</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                        <div class="signature-block">
-                            <strong>Chief Medical Officer</strong><br><br><br>
-                            <p>Date: ____/____/____</p>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
             
@@ -9234,14 +8996,8 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
-        <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section L (Full Verbatim Transcription)</p>
-        <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
-  M: {
-    css: `body {
+    <!-- FOOTER -->` },
+  M: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
             color: #0f172a;
@@ -9314,8 +9070,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
             display: none;
             z-index: 100;
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);
-        }`,
-    body: `<div class="max-w-5xl mx-auto">
+        }`, body: `<div class="max-w-5xl mx-auto">
 
         <!-- HEADER -->
         <header class="mb-20 border-l-8 border-sky-600 pl-8">
@@ -9682,13 +9437,11 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
     <footer class="max-w-5xl mx-auto mt-20 border-t border-slate-200 pt-12 pb-24 text-center">
         <p class="text-[10px] font-black text-slate-400 uppercase tracking-[0.4em]">Anesthesia Department - Section M (Sequentially Renumbered)</p>
         <p class="text-[9px] text-slate-300 uppercase mt-2">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>`,
-  },
+    </footer>` },
 };
 
 export const apFormsHtml: Record<string, SectionHtml> = {
-  f01: {
-    css: `@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+  f01: { css: `@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
       body {
         max-width: 880px;
@@ -9931,8 +9684,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         .download-container {
           display: none !important;
         }
-      }`,
-    body: `<!-- Download Buttons -->
+      }`, body: `<!-- Download Buttons -->
     <div class="download-container">
       <button class="download-btn" onclick="downloadDocument()">
         <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
@@ -11582,10 +11334,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <div class="footer">
       <div>Form F-03 | Version 2.0 | CBAHI/JCI Compliant</div>
       <div>Page 1 of 1</div>
-    </div>`,
-  },
-  f02: {
-    css: `body {
+    </div>` },
+  f02: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f1f5f9;
             color: #0f172a;
@@ -11701,8 +11451,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -11934,10 +11683,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f03: {
-    css: `/* A4 Page Setup */
+    <!-- Scripts for actions -->` },
+  f03: { css: `/* A4 Page Setup */
       @page {
         size: A4;
         margin: 15mm;
@@ -12131,8 +11878,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
           size: A4;
           margin: 15mm;
         }
-      }`,
-    body: `<a href="#" class="download-btn" onclick="window.print()">
+      }`, body: `<a href="#" class="download-btn" onclick="window.print()">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
@@ -12441,10 +12187,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <div style="text-align: center; font-size: 7.5pt; margin-top: 4mm; padding-top: 2mm; border-top: 1px solid #ccc; color: #666">
       <strong>Form F-04</strong> | Airway Assessment &amp; Difficult Airway Plan | <strong>Version 1.0</strong> | Page 1 of 1 | 
       <strong style="color: #cc0000">Medical Record - Permanent</strong>
-    </div>`,
-  },
-  f04: {
-    css: `@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+    </div>` },
+  f04: { css: `@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
       body {
@@ -12660,8 +12404,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
           padding: 0;
           margin: 1.5cm;
         }
-      }`,
-    body: `<!-- Download Buttons (JavaScript functionality assumed handled by wrapper or simple print) -->
+      }`, body: `<!-- Download Buttons (JavaScript functionality assumed handled by wrapper or simple print) -->
     <div class="download-container">
       <button class="download-btn" onclick="window.print()">
         <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
@@ -13829,10 +13572,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 .hidden-scrollbar::-webkit-scrollbar {
   display: none; /* Chrome/Safari */
 }
-</style><div class="hidden-scrollbar" style="flex: 1 1 0%; display: flex; flex-direction: column; overflow: hidden auto; min-height: 0px; max-height: 100%; height: 100%; overscroll-behavior: contain; touch-action: pan-y; pointer-events: auto; padding-bottom: 60px;"><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 1;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/ai-detector.1cfd5b1a.svg" alt="AI Detector" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">AI Detector</div><div style="font-size: 12px; color: rgb(107, 114, 128); margin-top: 2px; font-weight: normal;">20/20 free checks remaining</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 1;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/ai-paraphraser-tool.96afd38b.svg" alt="AI Paraphraser Tool" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">AI Paraphraser Tool</div><div style="font-size: 12px; color: rgb(107, 114, 128); margin-top: 2px; font-weight: normal;">10/10 free paraphrases remaining</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/ai-humanizer.9b56170e.svg" alt="AI Humanizer" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">AI Humanizer</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/ask-tool.896d97e3.svg" alt="Question Solver" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Question Solver</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/human-typer.f7df0235.svg" alt="Auto Typer" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Auto Typer</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/replicate.308869f9.svg" alt="Writing Style Replicator" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Writing Style Replicator</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/img-detect.5ebb9a58.svg" alt="AI Image Detector" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">AI Image Detector</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/citation.7a933b37.svg" alt="Citation Generator" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Citation Generator</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/aibot.b8d8687a.svg" alt="Chat with Page" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Chat with Page</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div style="border-top: 1px solid rgb(229, 231, 235);"></div><div style="height: 96px; flex-shrink: 0;"></div></div></div></div></div></div></div></template></div><div id="ud-floating-button-nested" style="display: none;"></div>`,
-  },
-  f05: {
-    css: `body {
+</style><div class="hidden-scrollbar" style="flex: 1 1 0%; display: flex; flex-direction: column; overflow: hidden auto; min-height: 0px; max-height: 100%; height: 100%; overscroll-behavior: contain; touch-action: pan-y; pointer-events: auto; padding-bottom: 60px;"><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 1;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/ai-detector.1cfd5b1a.svg" alt="AI Detector" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">AI Detector</div><div style="font-size: 12px; color: rgb(107, 114, 128); margin-top: 2px; font-weight: normal;">20/20 free checks remaining</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 1;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/ai-paraphraser-tool.96afd38b.svg" alt="AI Paraphraser Tool" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">AI Paraphraser Tool</div><div style="font-size: 12px; color: rgb(107, 114, 128); margin-top: 2px; font-weight: normal;">10/10 free paraphrases remaining</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/ai-humanizer.9b56170e.svg" alt="AI Humanizer" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">AI Humanizer</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/ask-tool.896d97e3.svg" alt="Question Solver" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Question Solver</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/human-typer.f7df0235.svg" alt="Auto Typer" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Auto Typer</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/replicate.308869f9.svg" alt="Writing Style Replicator" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Writing Style Replicator</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/img-detect.5ebb9a58.svg" alt="AI Image Detector" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">AI Image Detector</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/citation.7a933b37.svg" alt="Citation Generator" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Citation Generator</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div role="button" tabindex="0" style="padding: 15px 20px; display: flex; align-items: center; cursor: pointer; position: relative; user-select: none; opacity: 0.6;"><img src="chrome-extension://gbeiplkijfihbcieiihmeemjejohbiho/aibot.b8d8687a.svg" alt="Chat with Page" width="50" height="50" style="pointer-events: none;"><div style="display: flex; flex-direction: column; justify-content: center; margin-left: 15px; flex: 1 1 0%; pointer-events: none;"><div style="font-size: 18px; font-weight: 600; color: rgb(24, 24, 27); display: flex; align-items: center; justify-content: space-between;">Chat with Page</div><div style="font-size: 12px; color: rgb(239, 68, 68); margin-top: 2px; font-weight: 500;">Sign up free to unlock</div></div></div><div style="border-bottom: 1px solid rgb(203, 213, 225); width: 100%;"></div><div style="border-top: 1px solid rgb(229, 231, 235);"></div><div style="height: 96px; flex-shrink: 0;"></div></div></div></div></div></div></div></template></div><div id="ud-floating-button-nested" style="display: none;"></div>` },
+  f05: { css: `body {
         max-width: 1200px; /* Wider for landscape-style content */
         margin: 0 auto;
         padding: 40px;
@@ -14039,8 +13780,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
           margin: 0;
           border: none;
         }
-      }`,
-    body: `<a href="#" class="download-btn" onclick="window.print()">
+      }`, body: `<a href="#" class="download-btn" onclick="window.print()">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
@@ -15433,10 +15173,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     <div style="text-align: right; font-size: 8pt; margin-top: 10px; color: #666">
       Form F-07B | Regional Anesthesia Extended | Version 2.0 | Page 2 of 2
-    </div>`,
-  },
-  f06: {
-    css: `body {
+    </div>` },
+  f06: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f1f5f9;
             color: #0f172a;
@@ -15552,8 +15290,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -15828,10 +15565,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f07: {
-    css: `/* A4 Page Setup */
+    <!-- Scripts for actions -->` },
+  f07: { css: `/* A4 Page Setup */
       @page {
         size: A4;
         margin: 15mm;
@@ -16043,8 +15778,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
           size: A4;
           margin: 15mm;
         }
-      }`,
-    body: `<a href="#" class="download-btn" onclick="window.print()">
+      }`, body: `<a href="#" class="download-btn" onclick="window.print()">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
@@ -16609,10 +16343,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
       ">
       <strong>Form F-08/F-09</strong> | Post-Anesthesia Care Record | <strong>Version 1.0</strong> | Page 1 of 1 |
       <strong style="color: #cc0000">Medical Record - Permanent</strong>
-    </div>`,
-  },
-  f08: {
-    css: `body {
+    </div>` },
+  f08: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f1f5f9;
             color: #0f172a;
@@ -16742,8 +16474,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { size: landscape; margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -17057,10 +16788,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f09: {
-    css: `/* A4 Page Setup */
+    <!-- Scripts for actions -->` },
+  f09: { css: `/* A4 Page Setup */
       @page {
         size: A4;
         margin: 15mm;
@@ -17262,8 +16991,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
           size: A4;
           margin: 15mm;
         }
-      }`,
-    body: `<a href="#" class="download-btn" onclick="window.print()">
+      }`, body: `<a href="#" class="download-btn" onclick="window.print()">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
@@ -17968,10 +17696,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
       ">
       <strong>Form F-10</strong> | Handover Tool: OR to PACU/ICU (SBAR) | <strong>Version 2.0</strong> | Page 1 of 2 |
       <strong style="color: #cc0000">Medical Record - Permanent</strong>
-    </div>`,
-  },
-  f10: {
-    css: `/* A4 Page Setup */
+    </div>` },
+  f10: { css: `/* A4 Page Setup */
       @page {
         size: A4;
         margin: 15mm;
@@ -18183,8 +17909,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
           size: A4;
           margin: 15mm;
         }
-      }`,
-    body: `<a href="#" class="download-btn" onclick="window.print()">
+      }`, body: `<a href="#" class="download-btn" onclick="window.print()">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
@@ -18749,10 +18474,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
       ">
       <strong>Form F-08/F-09</strong> | Post-Anesthesia Care Record | <strong>Version 1.0</strong> | Page 1 of 1 |
       <strong style="color: #cc0000">Medical Record - Permanent</strong>
-    </div>`,
-  },
-  f11: {
-    css: `/* A4 Page Setup */
+    </div>` },
+  f11: { css: `/* A4 Page Setup */
       @page {
         size: A4;
         margin: 15mm;
@@ -18953,8 +18676,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
           size: A4;
           margin: 15mm;
         }
-      }`,
-    body: `<a href="#" class="download-btn" onclick="window.print()">
+      }`, body: `<a href="#" class="download-btn" onclick="window.print()">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
@@ -19866,10 +19588,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
       ">
       <strong>Form F-11</strong> | Acute Pain Service Daily Rounds | <strong>Version 1.0</strong> | Page 2 of 2 |
       <strong style="color: #cc0000">Medical Record - Permanent</strong>
-    </div>`,
-  },
-  f12: {
-    css: `/* A4 Page Setup */
+    </div>` },
+  f12: { css: `/* A4 Page Setup */
       @page {
         size: A4;
         margin: 15mm;
@@ -20072,8 +19792,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
           size: A4;
           margin: 15mm;
         }
-      }`,
-    body: `<a href="#" class="download-btn" onclick="window.print()">
+      }`, body: `<a href="#" class="download-btn" onclick="window.print()">
       <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
@@ -20986,10 +20705,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
       <strong>Form F-17</strong> | Blood Product / Massive Transfusion Record | <strong>Version 1.0</strong> | Page 2 of
       2 | <strong style="color: #cc0000">Medical Record - Permanent</strong><br>
       MMU.5 (Blood Management) • COP.5 (Transfusion) • IPSG.1 (Patient ID) • ACC.3 (Assessment) • CBAHI/JCI Standards
-    </div>`,
-  },
-  f13: {
-    css: `body {
+    </div>` },
+  f13: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f1f5f9;
             color: #0f172a;
@@ -21124,8 +20841,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -21483,10 +21199,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f14: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f14: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f1f5f9;
             color: #0f172a;
@@ -21626,8 +21340,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -21900,10 +21613,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f15: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f15: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f1f5f9;
             color: #0f172a;
@@ -22040,8 +21751,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -22281,10 +21991,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f16: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f16: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -22356,8 +22064,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -22683,10 +22390,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f17: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f17: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -22761,8 +22466,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -22965,10 +22669,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f18: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f18: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -23043,8 +22745,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -23346,10 +23047,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f19: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f19: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -23437,8 +23136,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -23728,10 +23426,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f20: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f20: { css: `body {
             font-family: 'Inter', sans-serif;
             background-color: #f1f5f9;
             color: #0f172a;
@@ -23866,8 +23562,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -24116,10 +23811,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f21: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f21: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -24195,8 +23888,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -24371,10 +24063,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f22: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f22: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -24450,8 +24140,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -24585,10 +24274,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f23: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f23: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -24664,8 +24351,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -24844,10 +24530,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f24: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f24: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -24924,8 +24608,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -25084,10 +24767,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f25: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f25: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -25167,8 +24848,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -25340,10 +25020,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f26: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f26: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -25433,8 +25111,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -25646,10 +25323,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f27: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f27: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -25726,8 +25401,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -25929,10 +25603,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f28: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f28: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -26009,8 +25681,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -26196,10 +25867,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f29: {
-    css: `body {
+    <!-- Scripts for actions -->` },
+  f29: { css: `body {
             margin: 0;
             padding: 0;
             background-color: #f1f5f9;
@@ -26276,8 +25945,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             }
             .no-print { display: none !important; }
             @page { margin: 0.5cm; }
-        }`,
-    body: `<!-- Toast Notification -->
+        }`, body: `<!-- Toast Notification -->
     
 
     <!-- Action Buttons (No Print) -->
@@ -26423,10 +26091,8 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         </div>
     </div>
 
-    <!-- Scripts for actions -->`,
-  },
-  f30: {
-    css: `/* A4 Page Setup */
+    <!-- Scripts for actions -->` },
+  f30: { css: `/* A4 Page Setup */
       @page {
         size: A4;
         margin: 15mm;
@@ -26646,8 +26312,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
           size: A4;
           margin: 15mm;
         }
-      }`,
-    body: `<a href="#" class="download-btn" onclick="window.print()">
+      }`, body: `<a href="#" class="download-btn" onclick="window.print()">
       <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
@@ -27215,6 +26880,5 @@ export const apFormsHtml: Record<string, SectionHtml> = {
       <strong style="color: #cc0000">CONFIDENTIAL - NOT PART OF MEDICAL RECORD</strong><br>
       COP.3 (Quality &amp; Patient Safety) • COP.7 (High-Risk Processes) • GLD.7 (Quality Management) • IPSG.1 • CBAHI/JCI
       Standards
-    </div>`,
-  },
+    </div>` },
 };
