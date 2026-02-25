@@ -14,20 +14,21 @@ const authorName   = 'د. جميل السقيا'
 // ── Section order for prev/next navigation ────────────────────────────────
 const sectionOrder = ['A','B','C','D','E','F','G','H','I','J','K','L','M']
 
-const sectionTitles: Record<string, string> = {
-  A: 'الحوكمة والنطاق',
-  B: 'التقييم قبل التخدير',
-  C: 'الرعاية أثناء العملية',
-  D: 'رعاية ما بعد التخدير',
-  E: 'إدارة مجرى الهواء',
-  F: 'التخدير خارج غرف العمليات (NORA)',
-  G: 'التخدير الإقليمي والنخاعي',
-  H: 'المعدات والمراقبة',
-  I: 'الطوارئ والأحداث الحرجة',
-  J: 'سلامة الأدوية',
-  K: 'الجودة والتدقيق',
-  L: 'التعليم والكفاءات',
-  M: 'النماذج وقوائم التحقق',
+// sectionTitles: English (as in sections) + Arabic translation
+const sectionTitles: Record<string, { en: string; ar: string }> = {
+  A: { en: 'Governance & Scope',            ar: 'الحوكمة والنطاق' },
+  B: { en: 'Pre-Anesthesia Assessment',     ar: 'التقييم قبل التخدير' },
+  C: { en: 'Intra-Anesthesia Care',         ar: 'الرعاية أثناء التخدير' },
+  D: { en: 'Post-Anesthesia (PACU)',        ar: 'رعاية ما بعد التخدير — PACU' },
+  E: { en: 'Procedural Sedation',           ar: 'التخدير الإجرائي' },
+  F: { en: 'NORA Services',                 ar: 'خدمات التخدير خارج غرفة العمليات' },
+  G: { en: 'Regional & Neuraxial',          ar: 'التخدير الإقليمي والنخاعي' },
+  H: { en: 'Equipment & Med Safety',        ar: 'المعدات وسلامة الأدوية' },
+  I: { en: 'Crisis & Emergency Response',   ar: 'الطوارئ والأحداث الحرجة' },
+  J: { en: 'Infection Prevention',          ar: 'الوقاية من العدوى' },
+  K: { en: 'Communication & Handover',      ar: 'التواصل وتسليم المريض' },
+  L: { en: 'Quality & Performance',         ar: 'الجودة والأداء' },
+  M: { en: 'Forms & Checklists',            ar: 'النماذج وقوائم التحقق' },
 }
 
 const formOrder = ['f01','f02','f03','f04','f05','f06','f07','f08','f09','f10',
@@ -184,7 +185,7 @@ function commentsSection(pageId: string) {
   </script>`
 }
 
-// ── buildFormPage — forms: full-width, no side padding, no comments ────────
+// ── buildFormPage — forms: full-width centered, no side padding, no comments ─
 function buildFormPage(
   title: string,
   css: string,
@@ -201,14 +202,25 @@ function buildFormPage(
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <style>
     ${css}
-    /* Allow form's own CSS to control body layout fully */
-    body { padding-top: 0 !important; margin: 0 !important; }
+    /* Universal centering override for all forms */
+    html, body {
+      padding-top: 0 !important;
+      /* Do NOT override margin here — let each form control it */
+    }
+    /* Wrap the entire form content in a centered container */
+    .form-page-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 16px 60px;
+    }
     .max-w-5xl { max-width: 64rem; }
   </style>
 </head>
 <body>
 ${navHtml}
+<div class="form-page-wrap">
 ${body}
+</div>
 </body>
 </html>`
 }
@@ -568,7 +580,7 @@ ap.get('/', (c) => {
           <li>
             <span class="ip-bullet">◆</span>
             <span>
-              يُغطّي الدليل <strong>${total} قسماً رئيسياً (A حتى M)</strong>: الحوكمة والنطاق (A)، التقييم قبل التخدير (B)، الرعاية أثناء الجراحة (C)، رعاية ما بعد التخدير والإفاقة PACU (D)، إدارة مجرى الهواء (E)، التخدير خارج غرف العمليات NORA (F)، التخدير الإقليمي والنخاعي (G)، المعدات والمراقبة (H)، الطوارئ والأحداث الحرجة (I)، سلامة الأدوية والعقاقير المخدرة (J)، الجودة والتدقيق والمؤشرات (K)، التعليم والكفاءات (L)، والنماذج وقوائم التحقق (M).
+              يُغطّي الدليل <strong>${total} قسماً رئيسياً (A حتى M)</strong>: الحوكمة والنطاق (A)، التقييم قبل التخدير (B)، الرعاية أثناء التخدير (C)، رعاية ما بعد التخدير — PACU (D)، التخدير الإجرائي (E)، خدمات NORA خارج غرف العمليات (F)، التخدير الإقليمي والنخاعي (G)، المعدات وسلامة الأدوية (H)، الطوارئ والأحداث الحرجة (I)، الوقاية من العدوى (J)، التواصل وتسليم المريض (K)، الجودة والأداء (L)، والنماذج وقوائم التحقق (M).
             </span>
           </li>
           <li>
@@ -659,7 +671,8 @@ ap.get('/', (c) => {
         ${sectionOrder.map(id => `
           <a href="/anesthesia-policies/section/${id}" class="sec-card">
             <span class="sec-badge">Section ${id}</span>
-            <h3>${sectionTitles[id]}</h3>
+            <h3 style="font-family:'Segoe UI',sans-serif;font-size:14px;font-weight:700;color:#042f2e;margin-bottom:5px;direction:ltr;text-align:left;">${sectionTitles[id].en}</h3>
+            <p style="font-family:'Noto Kufi Arabic',sans-serif;font-size:13px;color:#6b7280;line-height:1.5;direction:rtl;text-align:right;">${sectionTitles[id].ar}</p>
           </a>
         `).join('')}
       </div>
@@ -792,7 +805,8 @@ ap.get('/sections', (c) => {
       ${sectionOrder.map(id => `
         <a href="/anesthesia-policies/section/${id}" class="card">
           <span class="badge">Section ${id}</span>
-          <h2>${sectionTitles[id]}</h2>
+          <h2 style="font-family:'Segoe UI',sans-serif;direction:ltr;text-align:left;margin-bottom:4px;">${sectionTitles[id].en}</h2>
+          <p style="font-family:'Noto Kufi Arabic',sans-serif;font-size:13px;color:#6b7280;direction:rtl;text-align:right;margin:0;">${sectionTitles[id].ar}</p>
         </a>
       `).join('')}
     </div>
@@ -829,7 +843,7 @@ ap.get('/section/:id', (c) => {
     nextId
   )
 
-  const title = `Section ${id}: ${sectionTitles[id] || ''}`
+  const title = `Section ${id}: ${sectionTitles[id]?.en || id}`
   const page = buildPage(title, sec.css, sec.body, navHtml, commentsSection(id), id)
   return c.html(page)
 })
