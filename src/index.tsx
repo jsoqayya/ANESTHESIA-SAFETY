@@ -4,6 +4,7 @@ import { chaptersContent } from './chapters-data'
 import anesthesiaPolicies from './anesthesia-policies'
 // @ts-ignore
 import orPolicies from './or-policies'
+import orToc from './or-toc'
 
 const app = new Hono()
 
@@ -15,6 +16,9 @@ app.route('/anesthesia-policies', anesthesiaPolicies)
 
 // Mount Operating Room Policies & Procedures book
 app.route('/or-policies', orPolicies)
+
+// Mount OR Policies Table of Contents
+app.route('/or-policies/toc', orToc)
 
 // ======== DATA ========
 const bookTitle = 'مبادئ السلامة والجودة في غرفة العمليات'

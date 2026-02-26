@@ -152,12 +152,14 @@ function navbar(active: string, prevLink?: string, prevLabel?: string, nextLink?
         ${nextLink ? `<a href="${nextLink}" class="snb-sections">${nextLabel} &#8592;</a>` : ''}
         <a href="/portal" class="snb-portal">🏠 البوابة</a>
         <a href="/or-policies" class="${active==='home' ? 'snb-active' : 'snb-nav'}">الرئيسية</a>
+        <a href="/or-policies/toc" class="${active==='toc' ? 'snb-active' : 'snb-nav'}">📋 جدول المحتويات</a>
         <a href="/or-policies/sections" class="${active==='sections' ? 'snb-active' : 'snb-sections'}">📚 الأقسام</a>
       </div>
     </div>
     <div class="or-snav-r2">
       <a href="/portal" class="snb-portal">🏠 البوابة</a>
       <a href="/or-policies" class="${active==='home' ? 'snb-active' : 'snb-nav'}">الرئيسية</a>
+      <a href="/or-policies/toc" class="${active==='toc' ? 'snb-active' : 'snb-nav'}">📋 محتويات</a>
       <a href="/or-policies/sections" class="${active==='sections' ? 'snb-active' : 'snb-sections'}">📚 الأقسام</a>
     </div>
     ${hasPrevNext ? `
@@ -521,6 +523,7 @@ or.get('/', (c) => {
       <div class="nav-btns">
         <a href="/portal" class="btn-portal">🏠</a>
         <a href="/or-policies" class="btn-active">الرئيسية</a>
+        <a href="/or-policies/toc" class="btn-nav">📋 محتويات</a>
         <a href="/or-policies/sections" class="btn-sections">📚 الأقسام</a>
       </div>
     </div>
@@ -544,6 +547,7 @@ or.get('/', (c) => {
       </div>
       <div class="cover-btns">
         <a href="/or-policies/sections" class="btn-blue-lg">استعرض الأقسام ←</a>
+        <a href="/or-policies/toc" class="btn-outline-lg">📋 جدول المحتويات</a>
         <a href="/or-policies/section/s01" class="btn-outline-lg">ابدأ من القسم الأول</a>
       </div>
     </div>
@@ -637,7 +641,10 @@ or.get('/', (c) => {
     <div class="sec-max">
       <h2>ابدأ باستعراض الدليل الآن</h2>
       <p>تصفّح ${total} قسماً و${totalForms} نموذجاً — جميعها جاهزة للتطبيق الفوري في مؤسستك الصحية.</p>
-      <a href="/or-policies/sections" class="btn-cta-w">استعرض جميع الأقسام ←</a>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+        <a href="/or-policies/sections" class="btn-cta-w">استعرض جميع الأقسام ←</a>
+        <a href="/or-policies/toc" class="btn-cta-w" style="background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.7);">📋 جدول المحتويات الكامل</a>
+      </div>
     </div>
   </section>
 
