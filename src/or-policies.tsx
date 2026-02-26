@@ -14,26 +14,27 @@ const or = new Hono()
 const bookTitle  = 'دليل السياسات والإجراءات في غرفة العمليات'
 const authorName = 'د. جميل السقيا'
 
-// ── Section order ─────────────────────────────────────────────────────────
-const sectionOrder = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P']
+// ── Section order (s01–s17 matching actual SEC 1–15 + SEC 11 split into 3 parts) ─
+const sectionOrder = ['s01','s02','s03','s04','s05','s06','s07','s08','s09','s10','s11','s12','s13','s14','s15','s16','s17']
 
 const sectionTitles: Record<string, { en: string; ar: string }> = {
-  A: { en: 'Governance & Structure',         ar: 'الحوكمة والهيكل التنظيمي' },
-  B: { en: 'Staff Qualifications & Training',ar: 'مؤهلات الكوادر والتدريب' },
-  C: { en: 'Quality & Patient Safety',       ar: 'الجودة وسلامة المريض' },
-  D: { en: 'Ethics & Patient Rights',        ar: 'الأخلاقيات وحقوق المريض' },
-  E: { en: 'OR Flow & Scheduling',           ar: 'تدفق العمل والجدولة' },
-  F: { en: 'IPSG Patient Safety Goals',      ar: 'أهداف سلامة المريض الدولية' },
-  G: { en: 'Intraoperative Safety',          ar: 'السلامة داخل العمليات' },
-  H: { en: 'Surgical Safety Policies 1–3',   ar: 'سياسات السلامة الجراحية ١–٣' },
-  I: { en: 'Surgical Safety Policies 4–7',   ar: 'سياسات السلامة الجراحية ٤–٧' },
-  J: { en: 'Surgical Safety Policies 8–13',  ar: 'سياسات السلامة الجراحية ٨–١٣' },
-  K: { en: 'Infection Prevention & Control', ar: 'الوقاية من العدوى ومكافحتها' },
-  L: { en: 'Medication Management',          ar: 'إدارة الأدوية' },
-  M: { en: 'Equipment & Environment',        ar: 'المعدات والبيئة' },
-  N: { en: 'Documentation & Records',        ar: 'التوثيق والسجلات' },
-  O: { en: 'Emergency & Critical Events',    ar: 'الطوارئ والأحداث الحرجة' },
-  P: { en: 'Forms & Checklists',             ar: 'النماذج وقوائم التحقق' },
+  s01: { en: 'SEC 1 — Operating Theatre Governance & Scope of Service',              ar: 'القسم ١ — حوكمة غرفة العمليات ونطاق الخدمة' },
+  s02: { en: 'SEC 2 — Workforce, Privileging & Competency (SQE)',                    ar: 'القسم ٢ — الكوادر البشرية والامتيازات والكفاءة' },
+  s03: { en: 'SEC 3 — Quality, Patient Safety & Audit System (QPS)',                 ar: 'القسم ٣ — الجودة وسلامة المريض ونظام التدقيق' },
+  s04: { en: 'SEC 4 — Ethics, Patient Dignity & Privacy (Islamic Culture)',           ar: 'القسم ٤ — الأخلاقيات وكرامة المريض والخصوصية' },
+  s05: { en: 'SEC 5 — Scheduling, Booking & Pre-Operative Readiness',                ar: 'القسم ٥ — الجدولة والحجز والتحضير قبل الجراحة' },
+  s06: { en: 'SEC 6 — Patient Identification, Consent & Procedure Verification (IPSG)', ar: 'القسم ٦ — تعريف المريض والموافقة والتحقق من الإجراء' },
+  s07: { en: 'SEC 7 — Handover and Transfers (OT Responsibilities)',                  ar: 'القسم ٧ — تسليم المريض والنقل' },
+  s08: { en: 'SEC 8 — PACU / Recovery Room Interface',                               ar: 'القسم ٨ — واجهة غرفة الإفاقة (PACU)' },
+  s09: { en: 'SEC 9 — Infection Prevention & Control in Operating Theatre (PCI)',     ar: 'القسم ٩ — الوقاية من العدوى ومكافحتها' },
+  s10: { en: 'SEC 10 — Medication Management in Operating Theatre (MMU)',             ar: 'القسم ١٠ — إدارة الأدوية في غرفة العمليات' },
+  s11: { en: 'SEC 11 (Part A) — Intra-Operative Safety & Conduct (11.1–11.3)',       ar: 'القسم ١١-أ — السلامة داخل العمليات (١١.١–١١.٣)' },
+  s12: { en: 'SEC 11 (Part B) — Intra-Operative Safety & Conduct (11.4–11.7)',       ar: 'القسم ١١-ب — السلامة داخل العمليات (١١.٤–١١.٧)' },
+  s13: { en: 'SEC 11 (Part C) — Intra-Operative Safety & Conduct (11.8–11.13)',      ar: 'القسم ١١-ج — السلامة داخل العمليات (١١.٨–١١.١٣)' },
+  s14: { en: 'SEC 12 — Surgical Instruments & Equipment (HCT / FMS)',                ar: 'القسم ١٢ — الأدوات الجراحية والمعدات' },
+  s15: { en: 'SEC 13 — OT Facility Safety (FMS)',                                    ar: 'القسم ١٣ — سلامة منشأة غرفة العمليات' },
+  s16: { en: 'SEC 14 — OT Emergency Coordination (FMS / IPSG)',                      ar: 'القسم ١٤ — تنسيق الطوارئ في غرفة العمليات' },
+  s17: { en: 'SEC 15 — Specialty Operating Theatre Workflows',                       ar: 'القسم ١٥ — مسارات العمل في غرف العمليات المتخصصة' },
 }
 
 const formOrder = ['f01','f02','f03','f04','f05','f06','f07','f08','f09','f10',
@@ -85,7 +86,7 @@ function navbar(active: string, prevLink?: string, prevLabel?: string, nextLink?
       display:flex;align-items:center;padding:9px 14px 8px;
     }
     .or-snav-brand {
-      display:flex;align-items:center;gap:8px;text-decoration:none;
+      display:flex;align-items:center;gap:8px;text-decoration:none;flex:1;min-width:0;
     }
     .or-snav-icon {
       width:34px;height:34px;background:rgba(255,255,255,0.2);border-radius:8px;
@@ -94,7 +95,8 @@ function navbar(active: string, prevLink?: string, prevLabel?: string, nextLink?
     }
     .or-snav-title {
       color:white;font-size:12px;font-weight:800;
-      white-space:nowrap;text-shadow:0 1px 4px rgba(0,0,0,0.4);
+      white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+      text-shadow:0 1px 4px rgba(0,0,0,0.4);max-width:140px;
     }
     .or-snav-r2 {
       display:flex;align-items:center;justify-content:center;
@@ -127,7 +129,7 @@ function navbar(active: string, prevLink?: string, prevLabel?: string, nextLink?
     @media (min-width:700px) {
       .or-snav-r1 { height:68px;padding:0 22px;justify-content:space-between; }
       .or-snav-r2,.or-snav-r3 { display:none!important; }
-      .or-snav-title { font-size:14px; }
+      .or-snav-title { font-size:14px;max-width:300px; }
       .or-snav-icon { width:40px;height:40px;font-size:20px; }
       .or-snav-spacer { height:68px!important; }
       .or-snav-desk-btns { display:flex!important;align-items:center;gap:9px; }
@@ -259,17 +261,7 @@ ${body}
 }
 
 // ── buildPage ──────────────────────────────────────────────────────────────
-function buildPage(title: string, css: string, body: string, navHtml: string, extraBottom: string = '', sectionId?: string): string {
-  let processedBody = body
-  if (sectionId === 'P') {
-    processedBody = body.replace(
-      /<span class="form-id[^"]*">(F-(OT-\d+|\d+))<\/span>/g,
-      (match, fullId, num) => {
-        const fid = 'f' + num.padStart(2, '0')
-        return `<a href="/or-policies/form/${fid}" class="form-id" style="display:inline-block;cursor:pointer;text-decoration:none;transition:opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">${fullId} 🔗</a>`
-      }
-    )
-  }
+function buildPage(title: string, css: string, body: string, navHtml: string, extraBottom: string = ''): string {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -287,7 +279,7 @@ function buildPage(title: string, css: string, body: string, navHtml: string, ex
 <body>
 ${navHtml}
 <div style="padding: 20px 16px 60px;">
-${processedBody}
+${body}
 </div>
 ${extraBottom}
 </body>
@@ -478,12 +470,14 @@ or.get('/', (c) => {
       border: 1.5px solid #93c5fd; box-shadow: 0 2px 10px rgba(0,0,0,0.05);
       transition: all 0.2s; text-decoration: none; color: inherit; display: block;
     }
+    .sec-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(29,78,216,0.15); border-color: #1d4ed8; }
     .sec-badge {
       display: inline-block; background: linear-gradient(135deg,#1d4ed8,#1e3a5f);
       color: white; padding: 3px 12px; border-radius: 7px; font-weight: 800;
-      font-size: 12px; margin-bottom: 10px; font-family: 'Segoe UI', sans-serif;
+      font-size: 11px; margin-bottom: 10px; font-family: 'Segoe UI', sans-serif;
     }
-    .sec-card h3 { font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 700; color: #1e3a5f; line-height: 1.5; }
+    .sec-card h3 { font-family: 'Segoe UI', sans-serif; font-size: 12px; font-weight: 700; color: #1e3a5f; line-height: 1.5; direction: ltr; text-align: left; margin-bottom: 4px; }
+    .sec-card p  { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #6b7280; direction: rtl; text-align: right; margin: 0; }
 
     /* ── COMPANION ── */
     .dark-section { background: linear-gradient(160deg,#0a1628 0%,#0f1f40 50%,#122050 100%); padding: 52px 16px; }
@@ -545,12 +539,12 @@ or.get('/', (c) => {
       <div class="cover-stats-row">
         <div class="csr-item"><div class="csr-num">${total}</div><div class="csr-lbl">قسماً رئيسياً</div></div>
         <div class="csr-item"><div class="csr-num">${totalForms}</div><div class="csr-lbl">نموذجاً جاهزاً</div></div>
-        <div class="csr-item"><div class="csr-num">A – P</div><div class="csr-lbl">تغطية شاملة</div></div>
+        <div class="csr-item"><div class="csr-num">SEC 1–15</div><div class="csr-lbl">تغطية شاملة</div></div>
         <div class="csr-item"><div class="csr-num">2026</div><div class="csr-lbl">إصدار</div></div>
       </div>
       <div class="cover-btns">
         <a href="/or-policies/sections" class="btn-blue-lg">استعرض الأقسام ←</a>
-        <a href="/or-policies/section/A" class="btn-outline-lg">ابدأ من القسم الأول</a>
+        <a href="/or-policies/section/s01" class="btn-outline-lg">ابدأ من القسم الأول</a>
       </div>
     </div>
   </div>
@@ -569,7 +563,7 @@ or.get('/', (c) => {
           <li><span class="ip-bullet">◆</span><span><strong>دليل السياسات والإجراءات في غرفة العمليات</strong> هو مرجع مؤسسي عملي شامل يُقدّم سياسات وإجراءات واضحة ومفصّلة وقابلة للتطبيق الفوري في أقسام غرفة العمليات، مبنيّة على أحدث المعايير الدولية المعتمدة.</span></li>
           <li><span class="ip-bullet">◆</span><span>يضع الدليل في مقدمة أولوياته <strong>سياسات السلامة الجراحية الأساسية</strong>، وعلى رأسها: سياسة تعريف المريض باستخدام معرفين، والتحقق من الموافقة المستنيرة، وتأكيد وسم موضع الجراحة، وتطبيق <strong>قائمة منظمة الصحة العالمية لسلامة الجراحة (WHO Surgical Safety Checklist)</strong> بمراحلها الثلاث: Sign-In وTime-Out وSign-Out.</span></li>
           <li><span class="ip-bullet">◆</span><span>يتضمن الدليل <strong>${totalForms} نموذجاً وقائمة تحقق جاهزة للتطبيق</strong>، تشمل: نموذج قائمة العمليات، قائمة التحقق قبل الجراحة، نموذج العدّ الجراحي، نموذج الغرسات، سجل تسليم المريض، ونماذج التوثيق والتصعيد.</span></li>
-          <li><span class="ip-bullet">◆</span><span>يُغطّي الدليل <strong>${total} قسماً رئيسياً (A حتى P)</strong>: الحوكمة والهيكل التنظيمي، مؤهلات الكوادر والتدريب، الجودة وسلامة المريض، الأخلاقيات وحقوق المريض، تدفق العمل والجدولة، أهداف سلامة المريض الدولية (IPSG)، السلامة داخل العمليات، سياسات السلامة الجراحية المتعددة، الوقاية من العدوى، إدارة الأدوية، المعدات والبيئة، التوثيق والسجلات، الطوارئ والأحداث الحرجة، والنماذج وقوائم التحقق.</span></li>
+          <li><span class="ip-bullet">◆</span><span>يُغطّي الدليل <strong>${total} قسماً رئيسياً (SEC 1 حتى SEC 15)</strong>: الحوكمة ونطاق الخدمة، الكوادر البشرية والكفاءة، الجودة وسلامة المريض، الأخلاقيات وحقوق المريض، الجدولة والتحضير قبل الجراحة، أهداف السلامة الدولية (IPSG)، التسليم والنقل، غرفة الإفاقة (PACU)، الوقاية من العدوى، إدارة الأدوية، السلامة داخل العمليات (ثلاثة أجزاء)، الأدوات والمعدات، سلامة المنشأة، الطوارئ، ومسارات العمل المتخصصة.</span></li>
           <li><span class="ip-bullet">◆</span><span>يستعرض الدليل <strong>السياسات داخل العمليات (Intra-operative Policies)</strong> التي تُمثّل العمود الفقري لسلامة المريض: الانضباط والتحكم بالدخول والخروج، المحافظة على الحقل المعقم، العدّ الجراحي، منع بقاء جسم غريب (RSI Prevention)، التعامل مع العينات، تتبع الغرسات، وسياسات الدياثيرمي والدخان الجراحي.</span></li>
           <li><span class="ip-bullet">◆</span><span><strong>الفئات المستهدفة:</strong> جراحو غرف العمليات، الممرضون والتقنيون، مديرو الجودة والسلامة، قيادات أقسام غرفة العمليات، والمتدربون والطلاب الذين يبنون كفاءتهم السريرية.</span></li>
           <li><span class="ip-bullet">◆</span><span>يمتاز الدليل بتوافقه مع متطلبات الاعتماد من هيئتَي <strong>JCI</strong> و<strong>CBAHI</strong>، مع التركيز على السياسات الأكثر تدقيقاً في معايير CBAHI داخل بيئة العمليات.</span></li>
@@ -603,13 +597,13 @@ or.get('/', (c) => {
   <section class="sections-section">
     <div class="sec-max">
       <div class="sec-title">أقسام الدليل</div>
-      <div class="sec-subtitle">Manual Sections A – P</div>
+      <div class="sec-subtitle">Manual Sections — SEC 1 to SEC 15</div>
       <div class="sections-grid">
         ${sectionOrder.map(id => `
           <a href="/or-policies/section/${id}" class="sec-card">
-            <span class="sec-badge">Section ${id}</span>
-            <h3 style="font-family:'Segoe UI',sans-serif;direction:ltr;text-align:left;margin-bottom:4px;">${sectionTitles[id].en}</h3>
-            <p style="font-family:'Noto Kufi Arabic',sans-serif;font-size:12px;color:#6b7280;direction:rtl;text-align:right;margin:0;">${sectionTitles[id].ar}</p>
+            <span class="sec-badge">${sectionTitles[id].en.split('—')[0].trim()}</span>
+            <h3>${sectionTitles[id].en.includes('—') ? sectionTitles[id].en.split('—').slice(1).join('—').trim() : sectionTitles[id].en}</h3>
+            <p>${sectionTitles[id].ar}</p>
           </a>
         `).join('')}
       </div>
@@ -642,7 +636,7 @@ or.get('/', (c) => {
   <section class="cta-section">
     <div class="sec-max">
       <h2>ابدأ باستعراض الدليل الآن</h2>
-      <p>تصفّح الأقسام ${total} والنماذج ${totalForms} — جميعها جاهزة للتطبيق الفوري في مؤسستك الصحية.</p>
+      <p>تصفّح ${total} قسماً و${totalForms} نموذجاً — جميعها جاهزة للتطبيق الفوري في مؤسستك الصحية.</p>
       <a href="/or-policies/sections" class="btn-cta-w">استعرض جميع الأقسام ←</a>
     </div>
   </section>
@@ -708,11 +702,12 @@ or.get('/sections', (c) => {
     .card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(29,78,216,0.15); border-color: #1d4ed8; }
     .card .badge {
       display: inline-block; background: linear-gradient(135deg, #1d4ed8, #1e3a5f);
-      color: white; padding: 4px 12px; border-radius: 8px; font-size: 0.82rem;
-      font-weight: 800; margin-bottom: 10px; font-family: 'Segoe UI', sans-serif;
+      color: white; padding: 4px 10px; border-radius: 8px; font-size: 0.75rem;
+      font-weight: 800; margin-bottom: 8px; font-family: 'Segoe UI', sans-serif;
+      direction: ltr; white-space: nowrap;
     }
-    .card h2 { font-size: 0.92rem; font-weight: 700; color: #1e3a5f; line-height: 1.5; font-family: 'Segoe UI', sans-serif; margin-bottom: 3px; direction: ltr; text-align: left; }
-    .card p { font-size: 0.82rem; color: #6b7280; font-family: 'Noto Kufi Arabic', sans-serif; margin: 0; }
+    .card h2 { font-size: 0.85rem; font-weight: 700; color: #1e3a5f; line-height: 1.5; font-family: 'Segoe UI', sans-serif; margin-bottom: 4px; direction: ltr; text-align: left; }
+    .card p  { font-size: 0.82rem; color: #6b7280; font-family: 'Noto Kufi Arabic', sans-serif; margin: 0; direction: rtl; text-align: right; }
     .forms-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
     @media (min-width:400px) { .forms-grid { grid-template-columns: repeat(2,1fr); } }
     @media (min-width:700px) { .forms-grid { grid-template-columns: repeat(3,1fr); } }
@@ -722,32 +717,35 @@ or.get('/sections', (c) => {
       display: block; transition: all 0.2s;
     }
     .form-card:hover { border-color: #1d4ed8; box-shadow: 0 4px 12px rgba(29,78,216,0.1); }
-    .form-card .fid { font-size: 0.75rem; color: #1d4ed8; font-weight: 800; margin-bottom: 4px; font-family: 'Segoe UI', sans-serif; }
-    .form-card .ftitle { font-size: 0.82rem; color: #374151; line-height: 1.45; }
+    .form-card .fid { font-size: 0.75rem; color: #1d4ed8; font-weight: 800; margin-bottom: 4px; font-family: 'Segoe UI', sans-serif; direction: ltr; }
+    .form-card .ftitle { font-size: 0.82rem; color: #374151; line-height: 1.45; direction: ltr; text-align: left; }
   </style>
 </head>
 <body>
   ${navHtml}
   <div class="page-header">
     <h1>📂 أقسام الدليل</h1>
-    <p>${total} قسماً رئيسياً · ${totalForms} نموذجاً وقائمة تحقق · الأقسام A – P</p>
+    <p>${total} قسماً رئيسياً · ${totalForms} نموذجاً وقائمة تحقق · SEC 1 – SEC 15</p>
   </div>
   <div class="content">
-    <div class="section-label">الأقسام الرئيسية</div>
+    <div class="section-label">الأقسام الرئيسية — SEC 1 to SEC 15</div>
     <div class="grid">
-      ${sectionOrder.map(id => `
+      ${sectionOrder.map(id => {
+        const secNum = sectionTitles[id].en.split('—')[0].trim()
+        const secTitle = sectionTitles[id].en.includes('—') ? sectionTitles[id].en.split('—').slice(1).join('—').trim() : sectionTitles[id].en
+        return `
         <a href="/or-policies/section/${id}" class="card">
-          <span class="badge">Section ${id}</span>
-          <h2>${sectionTitles[id].en}</h2>
+          <span class="badge">${secNum}</span>
+          <h2>${secTitle}</h2>
           <p>${sectionTitles[id].ar}</p>
-        </a>
-      `).join('')}
+        </a>`
+      }).join('')}
     </div>
     <div class="section-label">📄 النماذج والاستمارات</div>
     <div class="forms-grid">
-      ${formOrder.map(id => `
+      ${formOrder.map((id, i) => `
         <a href="/or-policies/form/${id}" class="form-card">
-          <div class="fid">${id.replace('f','F-OT-').replace('F-OT-0','F-OT-').replace('F-OT-','F-OT-')}</div>
+          <div class="fid">F-OT-${String(i+1).padStart(2,'0')}</div>
           <div class="ftitle">${formTitles[id]}</div>
         </a>
       `).join('')}
@@ -759,7 +757,7 @@ or.get('/sections', (c) => {
 
 // ── SECTION PAGE ───────────────────────────────────────────────────────────
 or.get('/section/:id', (c) => {
-  const id = c.req.param('id').toUpperCase()
+  const id = c.req.param('id').toLowerCase()
   const sec = orSectionsHtml[id]
   if (!sec) return c.text('Section not found', 404)
 
@@ -767,16 +765,19 @@ or.get('/section/:id', (c) => {
   const prevId = idx > 0 ? sectionOrder[idx - 1] : undefined
   const nextId = idx < sectionOrder.length - 1 ? sectionOrder[idx + 1] : undefined
 
+  const prevLabel = prevId ? sectionTitles[prevId]?.en.split('—')[0].trim() : undefined
+  const nextLabel = nextId ? sectionTitles[nextId]?.en.split('—')[0].trim() : undefined
+
   const navHtml = navbar(
     'sections',
     prevId ? `/or-policies/section/${prevId}` : undefined,
-    prevId,
+    prevLabel,
     nextId ? `/or-policies/section/${nextId}` : undefined,
-    nextId
+    nextLabel
   )
 
-  const title = `Section ${id}: ${sectionTitles[id]?.en || id}`
-  const page = buildPage(title, sec.css, sec.body, navHtml, commentsSection(id), id)
+  const titleEn = sec.titleEn || sectionTitles[id]?.en || id
+  const page = buildPage(titleEn, sec.css, sec.body, navHtml, commentsSection(id))
   return c.html(page)
 })
 
@@ -792,13 +793,13 @@ or.get('/form/:id', (c) => {
 
   const navHtml = navbar(
     'forms',
-    prevId ? `/or-policies/form/${prevId}` : '/or-policies/section/P',
-    prevId ? 'F-OT-' + prevId.replace('f','') : 'Section P',
+    prevId ? `/or-policies/form/${prevId}` : '/or-policies/sections',
+    prevId ? `F-OT-${String(idx).padStart(2,'0')}` : 'الأقسام',
     nextId ? `/or-policies/form/${nextId}` : undefined,
-    nextId ? 'F-OT-' + nextId.replace('f','') : undefined
+    nextId ? `F-OT-${String(idx+2).padStart(2,'0')}` : undefined
   )
 
-  const title = `F-OT-${id.replace('f','')}: ${formTitles[id] || ''}`
+  const title = `F-OT-${String(idx+1).padStart(2,'0')}: ${formTitles[id] || ''}`
   const page = buildFormPage(title, form.css, form.body, navHtml)
   return c.html(page)
 })

@@ -1,13 +1,12 @@
-// OR Policies Sections HTML - Auto-generated
+// OR Policies Sections HTML - Regenerated with correct SEC numbering
 // Operating Room Policies & Procedures Guide
 
-// دليل السياسات والإجراءات في غرفة العمليات - Full HTML Data
-// Operating Room Policies & Procedures Guide
-// Dr. Jameel Al-Soqayya
-
-/** @type {Record<string, {css:string,body:string}>} */
+/** @type {Record<string, {css:string, body:string, titleEn:string, titleAr:string}>} */
 export const orSectionsHtml = {
-  A: { css: `body {
+  s01: {
+    titleEn: 'SEC 1 — Operating Theatre Governance & Scope of Service',
+    titleAr: 'القسم ١ — حوكمة غرفة العمليات ونطاق الخدمة',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -61,9 +60,8 @@ export const orSectionsHtml = {
         .theme-indigo li::before { color: #6366f1; }
         .theme-cyan li::before { color: #06b6d4; }
         .theme-fuchsia li::before { color: #d946ef; }
-        .theme-orange li::before { color: #f97316; }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.my-6{margin-top:1.5rem;margin-bottom:1.5rem}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.mt-1{margin-top:0.25rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-x-8{column-gap:2rem}.gap-y-3{row-gap:0.75rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-r-lg{border-top-right-radius:0.5rem;border-bottom-right-radius:0.5rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-amber-500{--tw-border-opacity:1;border-color:rgb(245 158 11 / var(--tw-border-opacity, 1))}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-pink-400{--tw-border-opacity:1;border-color:rgb(244 114 182 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235 / var(--tw-bg-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/30{background-color:rgb(250 245 255 / 0.3)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-800{--tw-gradient-from:#1e293b var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 41 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-4{padding:1rem}.p-8{padding:2rem}.px-1{padding-left:0.25rem;padding-right:0.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-2{padding-bottom:0.5rem}.pl-3{padding-left:0.75rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-amber-900{--tw-text-opacity:1;color:rgb(120 53 15 / var(--tw-text-opacity, 1))}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        .theme-orange li::before { color: #f97316; }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -646,8 +644,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  B: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_GOV_01.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s02: {
+    titleEn: 'SEC 2 — Workforce, Privileging & Competency (SQE)',
+    titleAr: 'القسم ٢ — الكوادر البشرية والامتيازات والكفاءة',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -706,9 +741,8 @@ export const orSectionsHtml = {
         .theme-green li::before { color: #22c55e; }
         .theme-slate li::before { color: #64748b; }
         .theme-purple li::before { color: #a855f7; }
-        .theme-pink li::before { color: #ec4899; }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-t{border-top-width:1px}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-cyan-200{--tw-border-opacity:1;border-color:rgb(165 243 252 / var(--tw-border-opacity, 1))}.border-indigo-200{--tw-border-opacity:1;border-color:rgb(199 210 254 / var(--tw-border-opacity, 1))}.border-orange-100{--tw-border-opacity:1;border-color:rgb(255 237 213 / var(--tw-border-opacity, 1))}.border-orange-200{--tw-border-opacity:1;border-color:rgb(254 215 170 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-100\\/50{background-color:rgb(207 250 254 / 0.5)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-100\\/50{background-color:rgb(224 231 255 / 0.5)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-800{--tw-gradient-from:#1e293b var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 41 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-orange-500{--tw-gradient-to:#f97316 var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-2{padding-bottom:0.5rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-5{grid-template-columns:repeat(5, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        .theme-pink li::before { color: #ec4899; }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -1546,8 +1580,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  C: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_SQE_01.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s03: {
+    titleEn: 'SEC 3 — Quality, Patient Safety & Audit System (QPS)',
+    titleAr: 'القسم ٣ — الجودة وسلامة المريض ونظام التدقيق',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -1616,9 +1687,8 @@ export const orSectionsHtml = {
         .theme-green li::before { color: #22c55e; }
         .theme-slate li::before { color: #64748b; }
         .theme-purple li::before { color: #a855f7; }
-        .theme-pink li::before { color: #ec4899; }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-4{margin-left:1rem}.ml-6{margin-left:1.5rem}.ml-8{margin-left:2rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-t{border-top-width:1px}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/20{background-color:rgb(253 242 248 / 0.2)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-800{--tw-gradient-from:#1e293b var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 41 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-2{padding-bottom:0.5rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        .theme-pink li::before { color: #ec4899; }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -2552,8 +2622,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  D: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_QPS_01.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s04: {
+    titleEn: 'SEC 4 — Ethics, Patient Dignity & Privacy (Islamic Culture)',
+    titleAr: 'القسم ٤ — الأخلاقيات وكرامة المريض والخصوصية',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -2622,9 +2729,8 @@ export const orSectionsHtml = {
         .theme-green li::before { color: #22c55e; }
         .theme-slate li::before { color: #64748b; }
         .theme-purple li::before { color: #a855f7; }
-        .theme-pink li::before { color: #ec4899; }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-t{border-top-width:1px}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-800{--tw-gradient-from:#1e293b var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 41 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-2{padding-bottom:0.5rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        .theme-pink li::before { color: #ec4899; }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -3434,8 +3540,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  E: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_ETH_01.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s05: {
+    titleEn: 'SEC 5 — Scheduling, Booking & Pre-Operative Readiness',
+    titleAr: 'القسم ٥ — الجدولة والحجز والتحضير قبل الجراحة',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -3504,9 +3647,8 @@ export const orSectionsHtml = {
         .theme-green li::before { color: #22c55e; }
         .theme-slate li::before { color: #64748b; }
         .theme-purple li::before { color: #a855f7; }
-        .theme-pink li::before { color: #ec4899; }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-1{margin-top:0.25rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.list-inside{list-style-position:inside}.list-disc{list-style-type:disc}.list-none{list-style-type:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-r-2xl{border-top-right-radius:1rem;border-bottom-right-radius:1rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-indigo-600{--tw-border-opacity:1;border-color:rgb(79 70 229 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50{--tw-bg-opacity:1;background-color:rgb(238 242 255 / var(--tw-bg-opacity, 1))}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-700{--tw-gradient-from:#047857 var(--tw-gradient-from-position);--tw-gradient-to:rgb(4 120 87 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-800{--tw-gradient-from:#1e293b var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 41 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-teal-600{--tw-gradient-to:#0d9488 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-2{padding-bottom:0.5rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-indigo-800{--tw-text-opacity:1;color:rgb(55 48 163 / var(--tw-text-opacity, 1))}.text-indigo-900{--tw-text-opacity:1;color:rgb(49 46 129 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        .theme-pink li::before { color: #ec4899; }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -4370,8 +4512,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  F: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_FLOW_01.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s06: {
+    titleEn: 'SEC 6 — Patient Identification, Consent & Procedure Verification (IPSG)',
+    titleAr: 'القسم ٦ — تعريف المريض والموافقة والتحقق من الإجراء',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -4440,9 +4619,8 @@ export const orSectionsHtml = {
         .theme-green li::before { color: #22c55e; }
         .theme-slate li::before { color: #64748b; }
         .theme-purple li::before { color: #a855f7; }
-        .theme-pink li::before { color: #ec4899; }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-1{margin-top:0.25rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-t{border-top-width:1px}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-800{--tw-gradient-from:#1e293b var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 41 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-2{padding-bottom:0.5rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        .theme-pink li::before { color: #ec4899; }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -5444,8 +5622,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  G: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_IPSG_01.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s07: {
+    titleEn: 'SEC 7 — Handover and Transfers (OT Responsibilities)',
+    titleAr: 'القسم ٧ — تسليم المريض والنقل',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -5514,9 +5729,8 @@ export const orSectionsHtml = {
         .theme-green li::before { color: #22c55e; }
         .theme-slate li::before { color: #64748b; }
         .theme-purple li::before { color: #a855f7; }
-        .theme-pink li::before { color: #ec4899; }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-t{border-top-width:1px}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-2{padding-bottom:0.5rem}.pt-4{padding-top:1rem}.pt-5{padding-top:1.25rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        .theme-pink li::before { color: #ec4899; }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -6314,8 +6528,2369 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  H: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_FLOW_02.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s08: {
+    titleEn: 'SEC 8 — PACU / Recovery Room Interface',
+    titleAr: 'القسم ٨ — واجهة غرفة الإفاقة (PACU)',
+    css: `body{font-family:Cairo,sans-serif;}`,
+    body: `<div style="max-width:900px;margin:0 auto;padding:40px 20px;font-family:Cairo,sans-serif;direction:rtl;text-align:right;"><h1 style="color:#1e3a5f;border-bottom:3px solid #1d4ed8;padding-bottom:12px;">SEC 8 — PACU / Recovery Room Interface</h1><h2 style="color:#374151;font-size:18px;margin-top:16px;">القسم ٨ — واجهة غرفة الإفاقة (PACU)</h2><p style="color:#6b7280;margin-top:20px;font-size:15px;line-height:2;">هذا القسم مُدمج ضمن وثيقة التسليم والنقل (القسم ٧). يُرجى مراجعة سياسة Handover للاطلاع على إجراءات PACU.</p></div>`
+  },
+  s09: {
+    titleEn: 'SEC 9 — Infection Prevention & Control in Operating Theatre (PCI)',
+    titleAr: 'القسم ٩ — الوقاية من العدوى ومكافحتها في غرفة العمليات',
+    css: `body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f7f6;
+        }
+        .heading-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #e2e8f0; }
+        ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+        
+        .glass-header {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Card Hover Effects */
+        .policy-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .policy-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .custom-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .custom-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .custom-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: -2px;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        
+        .alpha-list {
+            list-style-type: lower-alpha;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .alpha-list li {
+            margin-bottom: 0.25rem;
+        }
+        
+        /* Colored list bullets based on parent theme */
+        .theme-blue li::before { color: #3b82f6; }
+        .theme-emerald li::before { color: #10b981; }
+        .theme-violet li::before { color: #8b5cf6; }
+        .theme-amber li::before { color: #f59e0b; }
+        .theme-rose li::before { color: #f43f5e; }
+        .theme-teal li::before { color: #14b8a6; }
+        .theme-indigo li::before { color: #6366f1; }
+        .theme-cyan li::before { color: #06b6d4; }
+        .theme-fuchsia li::before { color: #d946ef; }
+        .theme-sky li::before { color: #0ea5e9; }
+        .theme-orange li::before { color: #f97316; }
+        .theme-red li::before { color: #ef4444; }
+        .theme-green li::before { color: #22c55e; }
+        .theme-slate li::before { color: #64748b; }
+        .theme-purple li::before { color: #a855f7; }
+        .theme-pink li::before { color: #ec4899; }`,
+    body: `<!-- Premium Navbar -->
+    
+
+    <!-- Hero Section -->
+    <div class="bg-slate-900 relative overflow-hidden shadow-xl">
+        <div class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-slate-900 to-blue-900 opacity-90"></div>
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-500 rounded-full blur-[100px] opacity-20"></div>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 text-center">
+            <span class="inline-block px-4 py-1.5 bg-blue-500/20 text-blue-200 border border-blue-400/30 rounded-full text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
+                Policy &amp; Procedure Document
+            </span>
+            <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
+                OT-PCI-01 (SEC 9) — Infection Prevention &amp; Environmental Control in Operating Theatre
+            </h1>
+            <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">(ONE Comprehensive Policy — PCI / FMS)</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12 -mt-12 relative z-20">
+        
+        <!-- Meta Information Card -->
+        <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Department</span>
+                    <span class="block text-sm font-semibold text-slate-800">Operating Theatre (OT)<br>General Hospital</span>
+                </div>
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Version &amp; Dates</span>
+                    <span class="block text-sm font-semibold text-slate-800">Version: 1.0<br>Effective: ___/___/20__<br>Review: ___/___/20__</span>
+                </div>
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+                    <span class="block text-sm font-semibold text-slate-800">OT Director/Chair + OT Nurse Manager + IPC Lead</span>
+                </div>
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code &amp; Approval</span>
+                    <span class="block text-sm font-semibold text-slate-800">OT-PCI-01<br>Approved By: _________</span>
+                </div>
+            </div>
+            
+            <div class="mt-6 pt-5 border-t border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Applies To:</span>
+                    <span class="block text-sm font-medium text-slate-700">OT nurses/technologists, surgeons and procedural teams while in OT, anesthesia teams for IPC behaviors in OT environment, CSSD interface staff, housekeeping/environmental services, engineering/FMS, vendors/observers/students entering OT zones.</span>
+                </div>
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Cross-References:</span>
+                    <span class="block text-sm font-medium text-slate-700">IPP-OT-003 / 004 / 005 / 006 / 007 / 010 / 011 / 013</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 1.0: Blue Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-blue-700 to-blue-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
+            </div>
+            <div class="p-8 text-slate-700 space-y-6 leading-relaxed bg-blue-50/30">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">1.1 Purpose Statement</h3>
+                    <ul class="custom-list theme-blue space-y-2">
+                        <li><strong class="text-slate-800">1.1.1</strong> To establish a single, comprehensive Operating Theatre infection prevention and environmental control system that reduces microbial contamination, prevents surgical site infections (SSI), and ensures a controlled, auditable environment across patient pathways, staff behaviors, room discipline, and cleaning/disinfection practices. (iris.who.int)</li>
+                        <li><strong class="text-slate-800">1.1.2</strong> To standardize OT zones, attire, traffic discipline, hand hygiene/surgical scrub, aseptic technique (gowning/gloving/draping), sterile field maintenance, isolation workflows, cleaning/turnover processes, spill management, equipment decontamination, sterile supplies handling, CSSD interfaces, and linen management under one policy.</li>
+                        <li><strong class="text-slate-800">1.1.3</strong> To ensure compliance with evidence-based international guidance for SSI prevention and infection prevention best practices (WHO/CDC) and engineering/environmental control principles relevant to operating rooms (ASHRAE/ASHE Standard 170 concepts such as pressure relationships and environmental control). (iris.who.int)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2.0: Emerald Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-emerald-600 to-teal-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/30 space-y-6">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">2.1 Included</h3>
+                    <ul class="custom-list theme-emerald space-y-2">
+                        <li><strong class="text-slate-800">2.1.1</strong> All OT areas including unrestricted, semi-restricted, restricted zones, operating rooms, sterile core interfaces, scrub areas, storage areas, and OT corridors.</li>
+                        <li><strong class="text-slate-800">2.1.2</strong> All surgical cases (elective/urgent/emergency), including isolation cases and high-risk procedures.</li>
+                        <li><strong class="text-slate-800">2.1.3</strong> Environmental controls (traffic, doors, pressure relationships, temperature/humidity monitoring and logging where applicable), cleaning/disinfection, and workflow discipline.</li>
+                        <li><strong class="text-slate-800">2.1.4</strong> CSSD interface requirements from point-of-use pre-cleaning through transport and loaner tray governance.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">2.2 Excluded (Managed by Separate Policies)</h3>
+                    <ul class="custom-list theme-emerald space-y-2">
+                        <li><strong class="text-slate-800">2.2.1</strong> Detailed antimicrobial stewardship and antibiotic prescribing protocols (covered in Pharmacy/AMS policy); OT verifies compliance with required documentation only.</li>
+                        <li><strong class="text-slate-800">2.2.2</strong> Detailed engineering commissioning standards and mechanical system design calculations (covered in FMS/Engineering policy); OT defines operational expectations and monitoring interfaces.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3.0: Violet Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-violet-600 to-purple-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 DEFINITIONS</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-violet-50/30">
+                <ul class="custom-list theme-violet space-y-3">
+                    <li><strong class="text-slate-900">3.1 Unrestricted Zone:</strong> Area where street clothes may be permitted (e.g., public corridors outside OT suite, designated administrative zones).</li>
+                    <li><strong class="text-slate-900">3.2 Semi-Restricted Zone:</strong> Area where surgical attire is required; traffic controlled (e.g., clean corridors, sterile core access corridors).</li>
+                    <li><strong class="text-slate-900">3.3 Restricted Zone:</strong> Operating rooms and sterile field–critical areas; highest discipline; masks and head coverings required as per policy.</li>
+                    <li><strong class="text-slate-900">3.4 SSI (Surgical Site Infection):</strong> Infection related to an operative procedure occurring at/near the surgical incision within defined surveillance periods; preventable proportion is significant with evidence-based strategies. (CDC Stacks)</li>
+                    <li><strong class="text-slate-900">3.5 Aseptic Technique:</strong> Practices that prevent contamination of the sterile field and operative site.</li>
+                    <li><strong class="text-slate-900">3.6 Event-Related Sterility:</strong> Sterility of packaged items maintained until an event compromises package integrity rather than a fixed time alone (facility policy defines shelf life approach).</li>
+                    <li><strong class="text-slate-900">3.7 Contact Time:</strong> Minimum wet time required for a disinfectant to be effective; must follow product label requirements.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 4.0: Amber Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-amber-500 to-orange-400 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 POLICY STATEMENT</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-amber-50/30">
+                <ul class="custom-list theme-amber space-y-3">
+                    <li><strong class="text-slate-900">4.1</strong> The OT shall maintain a clean, dust-controlled environment with minimal storage and controlled activity, including monitored ventilation/pressure relationships as applicable to facility design and policy. (ASHRAE)</li>
+                    <li><strong class="text-slate-900">4.2</strong> The OT shall implement a controlled zoning system and enforce attire, traffic, and door discipline to reduce microbial burden and airborne contamination risk. (Aorn.org)</li>
+                    <li><strong class="text-slate-900">4.3</strong> The OT shall implement evidence-based SSI prevention practices across the intraoperative phase including hand hygiene, surgical scrub, skin antisepsis with alcohol-based agents where appropriate, sterile gowning/gloving, draping, and sterile field maintenance. (iris.who.int)</li>
+                    <li><strong class="text-slate-900">4.4</strong> Cleaning and disinfection shall be performed between cases and at end-of-day/terminal intervals using approved agents, verified contact times, and documented sign-off, consistent with CDC environmental cleaning and disinfection guidance.</li>
+                    <li><strong class="text-slate-900">4.5</strong> OT shall apply standard precautions for all patients and implement enhanced workflows for isolation cases, including PPE, route control, and environmental cleaning sign-off.</li>
+                    <li><strong class="text-slate-900">4.6</strong> Sterile supplies, instruments, and linen shall be handled and transported using clean-to-dirty separation and controlled workflows, aligned with recognized sterile processing guidance and infection control principles. (The ANSI Blog)</li>
+                    <li><strong class="text-slate-900">4.7</strong> Noncompliance is a patient safety risk. The OT shall monitor compliance through audits and corrective actions.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 5.0: Rose Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-rose-600 to-pink-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 RESPONSIBILITIES</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-rose-50/30 space-y-6">
+                
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.1 OT Director/Chair</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.1.1</strong> Ensures enforcement of OT IPC standards and escalation of systemic failures (HVAC issues, repeated door discipline failure, cleaning noncompliance, sterile supply defects).</li>
+                        <li><strong class="text-slate-800">5.1.2</strong> Chairs or delegates OT IPC review within OTMC/QPS.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.2 OT Nurse Manager</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.2.1</strong> Ensures training, competency validation, and daily supervision of IPC practices.</li>
+                        <li><strong class="text-slate-800">5.2.2</strong> Ensures availability of supplies: PPE, hand hygiene products, scrub supplies, sterile drapes, spill kits, disinfectants, label/contact time guides.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.3 IPC Lead / Infection Control Practitioner</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.3.1</strong> Provides oversight, audits, outbreak advice, and liaison with OT leadership.</li>
+                        <li><strong class="text-slate-800">5.3.2</strong> Supports SSI surveillance metrics and improvement projects (bundles).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.4 OT Charge Nurse (Per Shift)</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.4.1</strong> Enforces zoning, attire, traffic, and door discipline.</li>
+                        <li><strong class="text-slate-800">5.4.2</strong> Ensures cleaning/turnover is completed and documented before next patient.</li>
+                        <li><strong class="text-slate-800">5.4.3</strong> Ensures isolation workflows and PPE readiness.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.5 Circulating Nurse</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.5.1</strong> Ensures sterile field protection and contamination response.</li>
+                        <li><strong class="text-slate-800">5.5.2</strong> Verifies skin prep completion and draping discipline.</li>
+                        <li><strong class="text-slate-800">5.5.3</strong> Coordinates equipment cleaning between patients as per policy.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.6 Scrub Nurse/Technologist</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.6.1</strong> Maintains aseptic technique within the sterile field and participates in contamination response actions.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.7 Housekeeping/Environmental Services (EVS)</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.7.1</strong> Performs between-case cleaning and terminal cleaning using approved products and documented contact times.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.8 CSSD</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.8.1</strong> Ensures reprocessing meets standards, supports transport/loaner tray governance, and communicates defects/nonconformities. (The ANSI Blog)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.9 Engineering/FMS</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.9.1</strong> Maintains ventilation, pressure relationships, temperature/humidity performance, preventive maintenance logs, and responds to OT environmental alarms/events. (ASHRAE)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 6.0 (General Environmental): Teal Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-12 policy-card">
+            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">6.0 GENERAL ENVIRONMENTAL CONTROL REQUIREMENTS</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/30 space-y-6">
+                
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">6.1 Cleanliness and Storage Discipline</h3>
+                    <ul class="custom-list theme-teal space-y-2">
+                        <li><strong class="text-slate-800">6.1.1</strong> OT areas shall be kept clean, dust-controlled, and free of unnecessary storage.</li>
+                        <li><strong class="text-slate-800">6.1.2</strong> Only essential items shall be kept in restricted areas; excess storage increases dust load and cleaning complexity.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">6.2 Ventilation, Pressure, Temperature, and Humidity (Operational Expectations)</h3>
+                    <ul class="custom-list theme-teal space-y-2">
+                        <li><strong class="text-slate-800">6.2.1</strong> Operating rooms shall maintain appropriate pressure relationships (typically positive to adjacent spaces where required) per facility design standards and commissioning documentation; pressure relationships and tolerances should be defined and monitored by engineering/FMS. (ASHRAE)</li>
+                        <li><strong class="text-slate-800">6.2.2</strong> Temperature and relative humidity shall be maintained within facility-approved ranges; the OT shall coordinate with engineering/FMS to log and respond to out-of-range events. (ASHRAE)</li>
+                        <li><strong class="text-slate-800">6.2.3</strong> OT shall implement operational controls that protect airflow performance: minimize door opening, limit traffic, and avoid unnecessary movement during critical phases. (aornjournal.onlinelibrary.wiley.com)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">6.3 Eating/Drinking/Personal Items Control</h3>
+                    <ul class="custom-list theme-teal space-y-2">
+                        <li><strong class="text-slate-800">6.3.1</strong> Eating, drinking, and smoking are prohibited in clinical OT zones except in designated areas; personal items are controlled to reduce contamination risk.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 7 Header -->
+        <div class="mb-6 mt-12">
+            <h2 class="text-3xl heading-serif font-bold text-slate-800 border-b-2 border-slate-300 pb-2">7.0 PROCEDURES — PART III / SEC 9</h2>
+            <p class="text-slate-500 font-medium italic mt-2">(Sections 9.1–9.17 are mandatory components of this single policy.)</p>
+        </div>
+
+        <!-- Section 9.1: Cyan Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.1 OT ZONING (UNRESTRICTED / SEMI-RESTRICTED / RESTRICTED)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.1.1 Objectives</h4>
+                    <ul class="custom-list theme-cyan space-y-2">
+                        <li><strong class="text-slate-800">9.1.1.1</strong> To create a controlled gradient of microbial reduction from outer areas to sterile-critical zones.</li>
+                        <li><strong class="text-slate-800">9.1.1.2</strong> To reduce airborne and contact contamination of sterile supplies and operative fields.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.1.2 Zone Definitions and Access Rules</h4>
+                    
+                    <p class="font-bold text-slate-800 mt-2">9.1.2.1 Unrestricted Zone</p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) Examples: outer corridors, reception outside OT suite, administrative areas.</li>
+                        <li>b) Attire: street clothes may be permitted; OT attire not required unless entering semi-restricted/restricted zones.</li>
+                        <li>c) Access: public and staff access controlled according to facility security policy.</li>
+                    </ul>
+
+                    <p class="font-bold text-slate-800">9.1.2.2 Semi-Restricted Zone</p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) Examples: clean corridors within OT suite, sterile core access corridors, clean supply areas.</li>
+                        <li>b) Attire: scrub attire required; head covering as per facility policy; footwear policy enforced. (Aorn.org)</li>
+                        <li>c) Traffic: controlled; only authorized personnel.</li>
+                    </ul>
+
+                    <p class="font-bold text-slate-800">9.1.2.3 Restricted Zone</p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) Examples: operating rooms, scrub areas adjacent to OR, sterile field–critical areas.</li>
+                        <li>b) Attire: scrub attire + head covering; mask required when open sterile supplies are present or per facility rule for restricted zones. (Aorn.org)</li>
+                        <li>c) Behavior: strict door discipline; minimal personnel; controlled conversation and movement.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.1.3 Physical Controls and Signage</h4>
+                    <ul class="custom-list theme-cyan space-y-2">
+                        <li><strong class="text-slate-800">9.1.3.1</strong> Zones shall be clearly marked with signage and floor plans.</li>
+                        <li><strong class="text-slate-800">9.1.3.2</strong> Entry/exit routes shall be defined to support clean-to-dirty flow and prevent cross-contamination.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.1.4 Monitoring</h4>
+                    <ul class="custom-list theme-cyan space-y-2">
+                        <li><strong class="text-slate-800">9.1.4.1</strong> Charge nurse conducts daily zone compliance checks.</li>
+                        <li><strong class="text-slate-800">9.1.4.2</strong> Monthly audits include traffic, attire compliance, and door discipline.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.2: Indigo Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.2 OT ATTIRE &amp; DRESS CODE (IPP-OT-003)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.2.1 Objectives</h4>
+                    <ul class="custom-list theme-indigo space-y-2">
+                        <li><strong class="text-slate-800">9.2.1.1</strong> To reduce shedding of microorganisms and particles into the OT environment and sterile field.</li>
+                        <li><strong class="text-slate-800">9.2.1.2</strong> To enforce consistent attire practices aligned with semi-restricted and restricted zone requirements. (Aorn.org)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.2.2 Scrub Attire Standards</h4>
+                    <ul class="custom-list theme-indigo space-y-2">
+                        <li><strong class="text-slate-800">9.2.2.1</strong> Scrub attire shall be worn in semi-restricted and restricted areas only; street clothes are not permitted beyond defined unrestricted zones.</li>
+                        <li><strong class="text-slate-800">9.2.2.2</strong> Scrub attire shall be clean, facility-laundered where policy requires, and changed when visibly soiled or after contamination events.</li>
+                        <li><strong class="text-slate-800">9.2.2.3</strong> Changing areas and routes shall be controlled so staff do not enter restricted zones without proper attire.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.2.3 Head and Hair Covering</h4>
+                    <ul class="custom-list theme-indigo space-y-2">
+                        <li><strong class="text-slate-800">9.2.3.1</strong> Hair/scalp shall be covered upon entry to semi-restricted and restricted areas; facial hair coverage rules follow facility policy. (Aorn.org)</li>
+                        <li><strong class="text-slate-800">9.2.3.2</strong> If reusable head coverings are permitted, laundering frequency and method must be defined by the facility. (Aorn.org)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.2.4 Masks and Eye Protection</h4>
+                    <ul class="custom-list theme-indigo space-y-2">
+                        <li><strong class="text-slate-800">9.2.4.1</strong> Surgical masks shall be worn in restricted areas according to facility policy, especially when sterile supplies are open and during sterile procedures.</li>
+                        <li><strong class="text-slate-800">9.2.4.2</strong> Eye/face protection shall be used when splash/spray risk exists (blood/body fluids).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.2.5 Footwear</h4>
+                    <p><strong class="text-slate-800">9.2.5.1</strong> Footwear shall be dedicated or protected per policy; shoe covers used when required by facility rule and removed upon leaving restricted zones if policy mandates.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.2.6 Personal Items</h4>
+                    <ul class="custom-list theme-indigo space-y-2">
+                        <li><strong class="text-slate-800">9.2.6.1</strong> Jewelry, watches, and nonessential items are restricted in sterile-critical zones.</li>
+                        <li><strong class="text-slate-800">9.2.6.2</strong> Mobile phone use is restricted; if permitted in specific areas, hand hygiene must be performed before and after handling devices.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.2.7 Attire Noncompliance</h4>
+                    <p><strong class="text-slate-800">9.2.7.1</strong> Immediate correction required; repeated noncompliance escalated to OT manager and addressed through competency and HR processes.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.3: Fuchsia Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.3 TRAFFIC CONTROL / DOOR OPENING DISCIPLINE (IPP-OT-004)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
+                
+                <p class="text-sm italic text-slate-500">(Expanded scientific explanatory text required.)</p>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.3.1 Objectives</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.3.1.1</strong> To reduce airborne microbial contamination by controlling the primary drivers of particle disruption: movement, door opening, and personnel density.</li>
+                        <li><strong class="text-slate-800">9.3.1.2</strong> To maintain positive pressure and designed airflow patterns that protect the sterile field, recognizing that frequent door openings disrupt pressure gradients and airflow stability. (ASHRAE)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.3.2 Scientific Rationale</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.3.2.1</strong> The operating room environment is designed to limit microbial load through controlled ventilation and airflow distribution. When doors open, pressure relationships may be disrupted, allowing movement of airborne particles and potentially microorganisms from adjacent zones into the OR. (ASHRAE)</li>
+                        <li><strong class="text-slate-800">9.3.2.2</strong> Studies and perioperative literature describe frequent door openings as common and associated with increased contamination risk; therefore, traffic reduction is a recognized quality and safety target. (aornjournal.onlinelibrary.wiley.com)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.3.3 Core Traffic Rules (Mandatory)</h4>
+                    
+                    <p class="font-bold text-slate-800 mt-2">9.3.3.1 Keep OR Doors Closed</p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) OR doors shall remain closed except for necessary entry/exit and essential supply transfer.</li>
+                        <li>b) Doors must not be propped open.</li>
+                        <li>c) Door opening is minimized especially during: skin incision, implant insertion, wound closure, and sterile field setup.</li>
+                    </ul>
+
+                    <p class="font-bold text-slate-800">9.3.3.2 Only Necessary Personnel</p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) Only essential staff are permitted in the OR.</li>
+                        <li>b) Nonessential observers are limited, approved, and supervised (see SEC 4 ethics/observers rules).</li>
+                    </ul>
+
+                    <p class="font-bold text-slate-800">9.3.3.3 Define Entry/Exit Routes</p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) Staff shall use designated routes and entrances.</li>
+                        <li>b) Clean items enter via clean routes; soiled items exit via defined routes to prevent cross-traffic.</li>
+                    </ul>
+
+                    <p class="font-bold text-slate-800">9.3.3.4 Supply Planning to Reduce Door Openings</p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) Case carts and supply staging shall be prepared before patient entry.</li>
+                        <li>b) Preference cards and procedure-specific packs should be used to minimize ad-hoc retrieval.</li>
+                        <li>c) “Runner” role (outside OR) should retrieve additional items when needed to reduce door opening frequency and crowding inside OR.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.3.4 Door Opening Discipline (Operational Controls)</h4>
+                    <p class="mb-1"><strong class="text-slate-800">9.3.4.1</strong> Door opening events shall be treated as controllable process steps, not casual behaviors.</p>
+                    <p class="mb-1"><strong class="text-slate-800">9.3.4.2 Charge nurse establishes expected behaviors:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) knock before entry</li>
+                        <li>b) enter/exit quickly, close door fully</li>
+                        <li>c) avoid conversation at doorway</li>
+                        <li>d) avoid holding door open while waiting</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.3.5 High-Risk Period Controls (Enhanced)</h4>
+                    <p class="mb-1"><strong class="text-slate-800">9.3.5.1 During implant cases, orthopedic arthroplasty, and other high-risk SSI procedures, enhanced door discipline applies:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) restrict entry after Time-Out unless urgent</li>
+                        <li>b) designate runner outside OR</li>
+                        <li>c) pre-position all anticipated implant trays and sizes.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.3.6 Communication and Culture</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.3.6.1</strong> Door/traffic discipline is a team responsibility; leadership must support respectful reminders.</li>
+                        <li><strong class="text-slate-800">9.3.6.2</strong> A simple script is approved: “Door closed for sterile safety.”</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.3.7 Monitoring and Auditing</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.3.7.1</strong> OT shall conduct at least monthly audits of door openings/traffic.</li>
+                        <li><strong class="text-slate-800">9.3.7.2</strong> Thresholds may be defined locally (e.g., door openings per hour); audit results must drive corrective actions and workflow redesign.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.3.8 Corrective Actions</h4>
+                    <p><strong class="text-slate-800">9.3.8.1</strong> Recurrent door opening causes (missing supplies, unclear preference cards, equipment storage location) must be corrected by system redesign rather than repeated reminders alone.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.4: Sky Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.4 HAND HYGIENE + SURGICAL HAND SCRUB (IPP-OT-005)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.4.1 Objectives</h4>
+                    <ul class="custom-list theme-sky space-y-2">
+                        <li><strong class="text-slate-800">9.4.1.1</strong> To reduce transient flora and minimize transmission risk to patients and sterile supplies.</li>
+                        <li><strong class="text-slate-800">9.4.1.2</strong> To standardize surgical hand antisepsis before donning sterile attire, aligned with WHO hand hygiene guidance. (www3.paho.org)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.4.2 Hand Hygiene Indications in OT</h4>
+                    <p class="mb-1"><strong class="text-slate-800">9.4.2.1 Perform hand hygiene:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) on entering and leaving the OR</li>
+                        <li>b) before and after patient contact</li>
+                        <li>c) after contact with contaminated surfaces</li>
+                        <li>d) after glove removal</li>
+                        <li>e) before handling sterile supplies (if not scrubbed)</li>
+                        <li>f) after touching personal devices.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.4.3 Alcohol-Based Hand Rub vs Soap and Water</h4>
+                    <ul class="custom-list theme-sky space-y-2">
+                        <li><strong class="text-slate-800">9.4.3.1</strong> Use alcohol-based hand rub (ABHR) for routine hand hygiene when hands are not visibly soiled. (www3.paho.org)</li>
+                        <li><strong class="text-slate-800">9.4.3.2</strong> Use soap and water when hands are visibly soiled or after contact with spore-forming organisms as per IPC policy.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.4.4 Surgical Hand Antisepsis (Scrub) — Standard</h4>
+                    <p class="mb-1"><strong class="text-slate-800">9.4.4.1</strong> Scrub sinks must be maintained in good working order with adequate supplies.</p>
+                    <p class="mb-1"><strong class="text-slate-800">9.4.4.2 Surgical scrub may be performed by:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) antimicrobial soap scrub (timed method) OR</li>
+                        <li>b) alcohol-based surgical hand rub with persistent activity, following manufacturer IFU and facility policy. (www3.paho.org)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.4.5 Scrub Technique (Minimum Requirements)</h4>
+                    <ul class="custom-list theme-sky space-y-2">
+                        <li><strong class="text-slate-800">9.4.5.1</strong> Remove jewelry; nails short; no artificial nails.</li>
+                        <li><strong class="text-slate-800">9.4.5.2</strong> Use approved nail cleaning method at first scrub of the day if facility policy requires.</li>
+                        <li><strong class="text-slate-800">9.4.5.3</strong> Follow defined scrub duration/steps per product and policy; keep hands above elbows; avoid splashing.</li>
+                        <li><strong class="text-slate-800">9.4.5.4</strong> Dry hands with sterile towel before gowning and gloving (for traditional scrub method).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.4.6 Compliance Monitoring</h4>
+                    <p><strong class="text-slate-800">9.4.6.1</strong> Direct observation audits, with feedback and corrective actions.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.5: Orange Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.5 STERILE GOWNING (IPP-OT-006)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.5.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.5.1.1</strong> To create a sterile barrier between sterile field and the wearer’s clothing/skin.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.5.2 Timing and Preconditions</h4>
+                    <ul class="custom-list theme-orange space-y-2">
+                        <li><strong class="text-slate-800">9.5.2.1</strong> Gowning occurs after surgical hand antisepsis and before gloving.</li>
+                        <li><strong class="text-slate-800">9.5.2.2</strong> Sterile gown package integrity must be checked before opening.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.5.3 Technique (Standard)</h4>
+                    <ul class="custom-list theme-orange space-y-2">
+                        <li><strong class="text-slate-800">9.5.3.1</strong> Open gown using aseptic method; avoid touching outside surfaces with nonsterile hands.</li>
+                        <li><strong class="text-slate-800">9.5.3.2</strong> Don gown without contaminating outer surface; circulating nurse assists with back closure using nonsterile technique.</li>
+                        <li><strong class="text-slate-800">9.5.3.3</strong> If contamination is suspected at any point: stop, remove, and re-gown.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.5.4 Gown Removal</h4>
+                    <p><strong class="text-slate-800">9.5.4.1</strong> Remove gowns appropriately and dispose/contain before leaving restricted area when contaminated or at case end.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.6: Teal Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.6 STERILE GLOVING (IPP-OT-007)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.6.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.6.1.1</strong> To maintain sterile barrier for hands and prevent contamination of sterile field.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.6.2 Technique (Standard)</h4>
+                    <ul class="custom-list theme-teal space-y-2">
+                        <li><strong class="text-slate-800">9.6.2.1</strong> Closed-glove technique is preferred after gowning.</li>
+                        <li><strong class="text-slate-800">9.6.2.2</strong> Double gloving is recommended for high-risk procedures per local risk assessment; change outer gloves when contaminated or punctured.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.6.3 Glove Integrity and Change</h4>
+                    <p class="mb-1"><strong class="text-slate-800">9.6.3.1 Change gloves:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) when puncture suspected</li>
+                        <li>b) after contact with nonsterile surfaces</li>
+                        <li>c) after handling contaminated items</li>
+                        <li>d) when moving from dirty to clean tasks within sterile field.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.6.4 Glove Removal</h4>
+                    <p><strong class="text-slate-800">9.6.4.1</strong> Remove gloves before leaving restricted zones when contaminated and perform hand hygiene after glove removal.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.7: Red Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.7 SURGICAL SKIN ANTISEPSIS (IPP-OT-010)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.7.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.7.1.1</strong> To reduce skin microbial load at operative site immediately before incision to reduce SSI risk.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.7.2 Evidence-Based Expectations</h4>
+                    <p><strong class="text-slate-800">9.7.2.1</strong> CDC SSI guideline supports intraoperative skin preparation with an antiseptic containing alcohol unless contraindicated. (CDC Stacks)</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.7.3 Pre-Skin Prep Verification</h4>
+                    <ul class="custom-list theme-red space-y-2">
+                        <li><strong class="text-slate-800">9.7.3.1</strong> Confirm correct site/side and marking verification per OT-IPSG policy.</li>
+                        <li><strong class="text-slate-800">9.7.3.2</strong> Check for contraindications (allergy, mucous membrane exposure risk, ignition risk management with alcohol solutions).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.7.4 Standard Skin Prep Procedure</h4>
+                    <ul class="custom-list theme-red space-y-2">
+                        <li><strong class="text-slate-800">9.7.4.1</strong> Use approved antiseptic product per facility formulary and manufacturer IFU.</li>
+                        <li><strong class="text-slate-800">9.7.4.2</strong> Apply from incision site outward using sterile technique; avoid retracing from dirty to clean.</li>
+                        <li><strong class="text-slate-800">9.7.4.3</strong> Respect required contact time and allow complete drying before draping and before use of electrosurgical devices when alcohol-based prep used (fire risk control).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.7.5 Special Situations</h4>
+                    <ul class="custom-list theme-red space-y-2">
+                        <li><strong class="text-slate-800">9.7.5.1</strong> Pediatric/neonate skin sensitivity: use appropriate agent and technique per policy.</li>
+                        <li><strong class="text-slate-800">9.7.5.2</strong> Hair removal: only when necessary; use clippers, not razors (if included in facility SSI bundle approach). (iris.who.int)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.7.6 Documentation</h4>
+                    <p><strong class="text-slate-800">9.7.6.1</strong> Record agent, site, time applied, and confirmation of drying (as required).</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.8: Indigo Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.8 DRAPING (IPP-OT-011)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.8.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.8.1.1</strong> To isolate operative site from surrounding nonsterile areas and provide a sterile working field.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.8.2 Principles</h4>
+                    <ul class="custom-list theme-indigo space-y-2">
+                        <li><strong class="text-slate-800">9.8.2.1</strong> Drapes are handled only by scrubbed personnel.</li>
+                        <li><strong class="text-slate-800">9.8.2.2</strong> Draping proceeds from incision site outward; avoid reaching over nonsterile areas.</li>
+                        <li><strong class="text-slate-800">9.8.2.3</strong> Maintain drape integrity; secure to prevent slippage.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.8.3 Specialty Draping Requirements</h4>
+                    <p><strong class="text-slate-800">9.8.3.1</strong> Implant cases may require specialized drapes; ensure correct packs are available before case start.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.8.4 Drape Failure</h4>
+                    <p><strong class="text-slate-800">9.8.4.1</strong> If drape is contaminated or falls below sterile field: replace if possible; document and report per contamination response.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.9: Cyan Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.9 MAINTAINING STERILE FIELD &amp; CONTAMINATION RESPONSE (IPP-OT-013)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.9.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.9.1.1</strong> To maintain a sterile field throughout the procedure and respond decisively to contamination to protect the patient.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.9.2 Core Sterile Field Rules</h4>
+                    <p class="mb-1"><strong class="text-slate-800">9.9.2.1 Sterile items remain sterile only when:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) within the sterile field boundaries</li>
+                        <li>b) continuously observed</li>
+                        <li>c) protected from moisture compromise</li>
+                        <li>d) not touched by nonsterile surfaces/personnel.</li>
+                    </ul>
+                    <p class="mb-1"><strong class="text-slate-800">9.9.2.2 Movement discipline:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) sterile personnel remain within sterile zone; nonsterile personnel maintain distance from sterile field</li>
+                        <li>b) passing: sterile-to-sterile and nonsterile-to-nonsterile only.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.9.3 Contamination Definitions (Operational)</h4>
+                    <ul class="custom-list theme-cyan space-y-2">
+                        <li><strong class="text-slate-800">9.9.3.1 Major contamination:</strong> sterile instrument dropped, nonsterile contact with wound/sterile instruments, wet pack/compromised packaging, unknown sterility.</li>
+                        <li><strong class="text-slate-800">9.9.3.2 Minor contamination:</strong> contamination limited to noncritical area with immediate correction possible (as defined by risk assessment).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.9.4 Contamination Response Algorithm (Mandatory)</h4>
+                    <ul class="custom-list theme-cyan space-y-2">
+                        <li><strong class="text-slate-800">9.9.4.1</strong> Stop the action immediately.</li>
+                        <li><strong class="text-slate-800">9.9.4.2</strong> Announce contamination clearly.</li>
+                        <li><strong class="text-slate-800">9.9.4.3</strong> Remove contaminated item from sterile field.</li>
+                        <li><strong class="text-slate-800">9.9.4.4</strong> Replace with sterile item (new instrument, new drape, re-glove, re-gown as needed).</li>
+                        <li><strong class="text-slate-800">9.9.4.5</strong> Assess whether wound contamination occurred; surgeon/IPC notified as appropriate.</li>
+                        <li><strong class="text-slate-800">9.9.4.6</strong> Document event and report if significant or repeated.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.9.5 Wet Packs / Compromised Packaging</h4>
+                    <p><strong class="text-slate-800">9.9.5.1</strong> Considered nonsterile; do not use; segregate and return to CSSD with documentation; investigate per CSSD policy.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.9.6 Sterile Field Monitoring</h4>
+                    <p><strong class="text-slate-800">9.9.6.1</strong> Circulating nurse monitors traffic, door discipline, and behaviors threatening sterile field.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.10: Fuchsia Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.10 ISOLATION CASE WORKFLOW (PPE, ROUTES, CLEANING SIGN-OFF)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.10.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.10.1.1</strong> To prevent transmission of pathogens during operative care and protect patients and staff using standard and transmission-based precautions.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.10.2 Pre-Case Planning</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.10.2.1</strong> Identify isolation type (contact/droplet/airborne) before patient transfer.</li>
+                        <li><strong class="text-slate-800">9.10.2.2</strong> Assign designated OR if facility policy requires; minimize equipment brought into room.</li>
+                        <li><strong class="text-slate-800">9.10.2.3</strong> Prepare PPE station and waste disposal plan.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.10.3 Patient Routing</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.10.3.1</strong> Use predetermined route to minimize exposure to other patients/areas.</li>
+                        <li><strong class="text-slate-800">9.10.3.2</strong> Limit corridor time; keep doors closed.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.10.4 PPE Rules</h4>
+                    <p><strong class="text-slate-800">9.10.4.1</strong> PPE per IPC policy and risk assessment; don/doff in correct sequence; hand hygiene performed at each step.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.10.5 Equipment Controls</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.10.5.1</strong> Use disposable items where appropriate.</li>
+                        <li><strong class="text-slate-800">9.10.5.2</strong> Reusable equipment must be cleaned/disinfected according to IFU and policy before leaving room.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.10.6 Post-Case Environmental Cleaning and Sign-Off</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.10.6.1</strong> Perform enhanced cleaning/terminal cleaning as required by pathogen and policy.</li>
+                        <li><strong class="text-slate-800">9.10.6.2</strong> Cleaning sign-off required before next case.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.10.7 Documentation</h4>
+                    <p><strong class="text-slate-800">9.10.7.1</strong> Isolation checklist completed and retained as record.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.11: Orange Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.11 BETWEEN-CASE CLEANING &amp; TURNOVER (ROLES, AGENTS, CONTACT TIME)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.11.1 Objectives</h4>
+                    <ul class="custom-list theme-orange space-y-2">
+                        <li><strong class="text-slate-800">9.11.1.1</strong> To remove bioburden and reduce cross-contamination between patients.</li>
+                        <li><strong class="text-slate-800">9.11.1.2</strong> To standardize EVS/OT responsibilities and ensure disinfectant contact time compliance.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.11.2 Role Allocation</h4>
+                    <ul class="custom-list theme-orange space-y-2">
+                        <li><strong class="text-slate-800">9.11.2.1</strong> EVS: floors, environmental surfaces, high-touch areas, waste removal, terminal routines per checklist.</li>
+                        <li><strong class="text-slate-800">9.11.2.2</strong> OT staff: immediate removal of sharps, containment of instruments for CSSD, wiping of anesthesia/OT equipment per assigned responsibilities (as defined by local split).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.11.3 Between-Case Cleaning Steps (Minimum)</h4>
+                    <ul class="custom-list theme-orange space-y-2">
+                        <li><strong class="text-slate-800">9.11.3.1</strong> Remove waste and soiled linen in closed bags.</li>
+                        <li><strong class="text-slate-800">9.11.3.2</strong> Clean and disinfect high-touch surfaces: OR table surfaces, light handles (if touched), door handles, touch screens, carts, stools, cords where appropriate.</li>
+                        <li><strong class="text-slate-800">9.11.3.3</strong> Use approved disinfectant and ensure required wet contact time per label.</li>
+                        <li><strong class="text-slate-800">9.11.3.4</strong> Spot-clean visible soil before disinfection.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.11.4 Turnover Sequencing</h4>
+                    <p><strong class="text-slate-800">9.11.4.1</strong> Clean from cleaner areas to dirtier areas; high-touch surfaces prioritized.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.11.5 Documentation</h4>
+                    <p><strong class="text-slate-800">9.11.5.1</strong> Between-case cleaning checklist signed by EVS and verified by charge nurse/circulating nurse.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.12: Teal Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.12 END-OF-DAY / TERMINAL CLEANING</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.12.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.12.1.1</strong> To reduce environmental reservoir contamination after daily activities, addressing surfaces not fully cleaned during turnover.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.12.2 Terminal Cleaning Standards</h4>
+                    <p class="mb-1"><strong class="text-slate-800">9.12.2.1 Follow CDC environmental cleaning procedures and local terminal cleaning protocol; ensure thorough cleaning of:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) OR table base and wheels</li>
+                        <li>b) anesthesia work areas (as assigned)</li>
+                        <li>c) monitors/cables (per IFU)</li>
+                        <li>d) lights, booms, walls where indicated</li>
+                        <li>e) floors (wet clean) and corners.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.12.3 Contact Time Compliance</h4>
+                    <p><strong class="text-slate-800">9.12.3.1</strong> Must follow disinfectant label instructions; document product used and completion time.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.12.4 Terminal Cleaning Sign-Off</h4>
+                    <p><strong class="text-slate-800">9.12.4.1</strong> Required sign-off by EVS and verification by OT supervisor.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.13: Red Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.13 BLOOD/BODY FLUID SPILL MANAGEMENT</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.13.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.13.1.1</strong> To prevent exposure and environmental contamination from blood/body fluids and ensure safe decontamination.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.13.2 Spill Kit Availability</h4>
+                    <p><strong class="text-slate-800">9.13.2.1</strong> Spill kits must be available in OT areas and checked daily.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.13.3 Immediate Actions</h4>
+                    <ul class="custom-list theme-red space-y-2">
+                        <li><strong class="text-slate-800">9.13.3.1</strong> Restrict access to spill area.</li>
+                        <li><strong class="text-slate-800">9.13.3.2</strong> Don appropriate PPE.</li>
+                        <li><strong class="text-slate-800">9.13.3.3</strong> Absorb and remove visible material first, then disinfect using approved product per contact time.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.13.4 Sharps Safety</h4>
+                    <p><strong class="text-slate-800">9.13.4.1</strong> Do not pick up sharps with hands; use tools; dispose in sharps container.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.13.5 Documentation</h4>
+                    <p><strong class="text-slate-800">9.13.5.1</strong> Significant spills and exposures reported via incident system; repeated spills trigger process review.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.14: Sky Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.14 EQUIPMENT CLEANING BETWEEN PATIENTS</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.14.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.14.1.1</strong> To prevent transmission via shared devices (monitors, cables, pumps, tourniquet systems, positioning aids).</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.14.2 Classification and IFU</h4>
+                    <p><strong class="text-slate-800">9.14.2.1</strong> Follow device IFU and disinfection/sterilization guidance for noncritical surfaces; CDC provides recommendations for disinfection of noncritical surfaces and equipment.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.14.3 Minimum Standards</h4>
+                    <p class="mb-1"><strong class="text-slate-800">9.14.3.1 Clean and disinfect:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) monitor controls and touch screens</li>
+                        <li>b) cables and probes (per IFU)</li>
+                        <li>c) infusion pumps surfaces</li>
+                        <li>d) suction handles and canisters (as applicable)</li>
+                        <li>e) positioning devices and straps.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.14.4 Accountability</h4>
+                    <p><strong class="text-slate-800">9.14.4.1</strong> Each OR shall have an equipment cleaning responsibility matrix signed by OT and EVS leadership.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.14.5 Documentation</h4>
+                    <p><strong class="text-slate-800">9.14.5.1</strong> Equipment cleaning checklist completed between cases for defined items.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.15: Indigo Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.15 STERILE SUPPLIES HANDLING, STORAGE, EVENT-RELATED STERILITY</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.15.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.15.1.1</strong> To ensure sterile supplies remain sterile until point of use and are protected from events that compromise packaging.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.15.2 Receiving and Storage</h4>
+                    <p><strong class="text-slate-800">9.15.2.1</strong> Store sterile supplies in clean, dry, temperature-controlled areas; protect from dust, moisture, crushing, and overhandling.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.15.3 Handling Rules</h4>
+                    <p class="mb-1"><strong class="text-slate-800">9.15.3.1 Inspect packaging integrity before bringing into OR:</strong></p>
+                    <ul class="alpha-list ml-6 mb-2">
+                        <li>a) no tears/punctures</li>
+                        <li>b) seals intact</li>
+                        <li>c) no moisture/wet packs</li>
+                        <li>d) indicators appropriate.</li>
+                    </ul>
+                    <p><strong class="text-slate-800">9.15.3.2</strong> Do not use compromised packages; return to CSSD with documentation.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.15.4 Event-Related Sterility Approach</h4>
+                    <p><strong class="text-slate-800">9.15.4.1</strong> Sterility is considered maintained unless an event compromises packaging or storage integrity; facility policy defines shelf life and audit method; sterile processing standards discuss sterility assurance and handling controls.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.15.5 Expiry Management</h4>
+                    <ul class="custom-list theme-indigo space-y-2">
+                        <li><strong class="text-slate-800">9.15.5.1</strong> Check expiration dates and rotate stock (FIFO/FEFO).</li>
+                        <li><strong class="text-slate-800">9.15.5.2</strong> Expired items removed immediately and documented.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.16: Fuchsia Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.16 CSSD INTERFACE: POINT-OF-USE PRE-CLEANING, TRANSPORT, LOANER TRAYS GOVERNANCE</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.16.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.16.1.1</strong> To ensure instruments are protected from drying bioburden, transported safely, and reprocessed reliably with traceable documentation.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.16.2 Point-of-Use Pre-Cleaning (Immediate Post-Use)</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.16.2.1</strong> Remove gross soil promptly; keep instruments moist per policy (e.g., damp towel or approved enzymatic spray if permitted by IFU).</li>
+                        <li><strong class="text-slate-800">9.16.2.2</strong> Segregate delicate instruments and sharps; protect tips.</li>
+                        <li><strong class="text-slate-800">9.16.2.3</strong> Do not soak powered instruments unless IFU permits.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.16.3 Safe Transport</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.16.3.1</strong> Use closed, leak-proof, labeled transport containers/carts.</li>
+                        <li><strong class="text-slate-800">9.16.3.2</strong> Maintain clean-to-dirty separation routes.</li>
+                        <li><strong class="text-slate-800">9.16.3.3</strong> Transport promptly to CSSD decontamination area; do not store soiled instruments in clean corridors.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.16.4 Loaner Trays / Vendor Sets Governance</h4>
+                    <ul class="custom-list theme-fuchsia space-y-2">
+                        <li><strong class="text-slate-800">9.16.4.1</strong> Loaner sets must arrive within defined time window before surgery to allow complete reprocessing and inspection.</li>
+                        <li><strong class="text-slate-800">9.16.4.2</strong> Documentation must include: tray list, delivery time, CSSD receipt time, release time, and missing/damaged item log.</li>
+                        <li><strong class="text-slate-800">9.16.4.3</strong> Any late delivery jeopardizing safe reprocessing triggers escalation and potential case delay/cancellation under OT flow policy.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.16.5 Sterilization Failure and Nonconformities</h4>
+                    <p><strong class="text-slate-800">9.16.5.1</strong> If sterility indicators fail or wet packs occur, follow CSSD failure investigation process aligned with sterile processing guidance.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 9.17: Cyan Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12 policy-card">
+            <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">9.17 LINEN HANDLING &amp; CLEAN/DIRTY SEPARATION</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.17.1 Objectives</h4>
+                    <p><strong class="text-slate-800">9.17.1.1</strong> To prevent spread of contamination via textiles and ensure safe handling and transport.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.17.2 Handling Rules</h4>
+                    <ul class="custom-list theme-cyan space-y-2">
+                        <li><strong class="text-slate-800">9.17.2.1</strong> Handle soiled linen as contaminated; avoid shaking.</li>
+                        <li><strong class="text-slate-800">9.17.2.2</strong> Place into designated bags at point of use; close before transport.</li>
+                        <li><strong class="text-slate-800">9.17.2.3</strong> Separate clean and soiled linen storage and routes; do not store in corridors or mixed areas.</li>
+                        <li><strong class="text-slate-800">9.17.2.4</strong> Follow facility laundry process consistent with environmental infection control guidance.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">9.17.3 Linen in Isolation Cases</h4>
+                    <p><strong class="text-slate-800">9.17.3.1</strong> Use appropriate bagging and labeling per IPC policy; transport using defined route.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 8.0: Orange Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">8.0 TRAINING AND COMPETENCY</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">8.1 All OT staff must complete orientation and annual refreshers on:</h3>
+                    <ul class="custom-list theme-orange space-y-2">
+                        <li><strong class="text-slate-800">8.1.1</strong> zoning and attire requirements</li>
+                        <li><strong class="text-slate-800">8.1.2</strong> traffic/door discipline and its impact on environment</li>
+                        <li><strong class="text-slate-800">8.1.3</strong> WHO hand hygiene and surgical scrub technique</li>
+                        <li><strong class="text-slate-800">8.1.4</strong> sterile gowning/gloving, draping, sterile field maintenance</li>
+                        <li><strong class="text-slate-800">8.1.5</strong> isolation workflows and PPE practice</li>
+                        <li><strong class="text-slate-800">8.1.6</strong> cleaning/turnover/terminal cleaning with correct contact time</li>
+                        <li><strong class="text-slate-800">8.1.7</strong> CSSD interface and instrument transport safety</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong class="text-slate-800">8.2</strong> Competency validation includes direct observation checklists (Appendices).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 9.0: Red Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">9.0 MONITORING, AUDIT, AND KPI REQUIREMENTS</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">9.1 Audit Program (Minimum Monthly Audits)</h3>
+                    <ul class="custom-list theme-red space-y-2">
+                        <li><strong class="text-slate-800">9.1.1</strong> Zone compliance and attire compliance.</li>
+                        <li><strong class="text-slate-800">9.1.2</strong> Door opening and traffic discipline (count per hour, reasons).</li>
+                        <li><strong class="text-slate-800">9.1.3</strong> Hand hygiene and scrub compliance (observation).</li>
+                        <li><strong class="text-slate-800">9.1.4</strong> Skin antisepsis compliance (agent, drying time documentation) aligned with CDC/WHO guidance.</li>
+                        <li><strong class="text-slate-800">9.1.5</strong> Cleaning/terminal cleaning completion and contact time compliance.</li>
+                        <li><strong class="text-slate-800">9.1.6</strong> Sterile supplies integrity defects and wet pack rate.</li>
+                        <li><strong class="text-slate-800">9.1.7</strong> CSSD interface: tray completeness defects, loaner tray timing compliance.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">9.2 KPIs (Minimum Set)</h3>
+                    <ul class="custom-list theme-red space-y-2">
+                        <li><strong class="text-slate-800">9.2.1</strong> SSI bundle compliance (selected measures as per hospital program).</li>
+                        <li><strong class="text-slate-800">9.2.2</strong> Door openings per hour (trend, high-risk cases).</li>
+                        <li><strong class="text-slate-800">9.2.3</strong> Hand hygiene compliance rate.</li>
+                        <li><strong class="text-slate-800">9.2.4</strong> Between-case cleaning compliance and contact time compliance.</li>
+                        <li><strong class="text-slate-800">9.2.5</strong> Wet pack/pack integrity failure rate and corrective actions.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 10.0: Green Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">10.0 NONCOMPLIANCE AND ESCALATION</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20 space-y-4">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">10.1 Critical noncompliance includes:</h3>
+                    <ul class="custom-list theme-emerald space-y-2">
+                        <li><strong class="text-slate-800">10.1.1</strong> entering restricted zones without required attire</li>
+                        <li><strong class="text-slate-800">10.1.2</strong> propping OR doors open or repeated unnecessary door opening</li>
+                        <li><strong class="text-slate-800">10.1.3</strong> failure to perform hand hygiene/surgical scrub per policy</li>
+                        <li><strong class="text-slate-800">10.1.4</strong> proceeding with compromised sterile supplies (wet pack/torn wrapper)</li>
+                        <li><strong class="text-slate-800">10.1.5</strong> initiating next case without documented between-case cleaning completion</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong class="text-slate-800">10.2</strong> Critical noncompliance triggers immediate correction, documentation, and escalation to OT manager and IPC.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 11.0: Slate Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden policy-card mb-8">
+            <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">11.0 REFERENCES (ENGLISH)</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-slate-50">
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.1 WHO</strong>
+                            <span class="text-sm text-slate-600">Global guidelines for the prevention of surgical site infection (2018 edition).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.2 CDC</strong>
+                            <span class="text-sm text-slate-600">Guideline for the Prevention of Surgical Site Infection, 2017 (JAMA Surgery PDF / CDC stacks).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.3 WHO</strong>
+                            <span class="text-sm text-slate-600">Guidelines on Hand Hygiene in Health Care (2009).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.4 ASHRAE/ASHE</strong>
+                            <span class="text-sm text-slate-600">Standard 170 addenda (ventilation expectations and operational considerations).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.5 CDC</strong>
+                            <span class="text-sm text-slate-600">Environmental Cleaning Procedures (terminal cleaning order and principles).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.6 CDC</strong>
+                            <span class="text-sm text-slate-600">Summary recommendations for disinfection and sterilization (disinfectant label and contact time).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.7 CDC/HICPAC</strong>
+                            <span class="text-sm text-slate-600">Guidelines for environmental infection control in healthcare facilities (laundry/textiles and environmental control).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.8 ANSI/AAMI ST79</strong>
+                            <span class="text-sm text-slate-600">Resources and summaries for steam sterilization and sterility assurance principles (sterile processing interface).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.9 AORN</strong>
+                            <span class="text-sm text-slate-600">Surgical attire guidance (semi-restricted/restricted area practices).</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Premium Footer -->
+    <footer class="bg-slate-900 text-center py-10 mt-auto border-t border-slate-800">
+        <p class="text-[11px] font-semibold text-slate-400 tracking-[0.2em] uppercase">Operating Theatre - SEC 9 (INFECTION PREVENTION)</p>
+        <p class="text-[10px] text-slate-500 uppercase mt-2 tracking-widest">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
+    </footer>
+
+    <!-- Toast Message -->
+    <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
+
+    <!-- Scripts -->
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_PCI_01.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s10: {
+    titleEn: 'SEC 10 — Medication Management in Operating Theatre (MMU)',
+    titleAr: 'القسم ١٠ — إدارة الأدوية في غرفة العمليات',
+    css: `body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f7f6;
+        }
+        .heading-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #e2e8f0; }
+        ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+        
+        .glass-header {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Card Hover Effects */
+        .policy-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .policy-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .custom-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .custom-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .custom-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: -2px;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        
+        .alpha-list {
+            list-style-type: lower-alpha;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .alpha-list li {
+            margin-bottom: 0.25rem;
+        }
+        
+        /* Colored list bullets based on parent theme */
+        .theme-blue li::before { color: #3b82f6; }
+        .theme-emerald li::before { color: #10b981; }
+        .theme-violet li::before { color: #8b5cf6; }
+        .theme-amber li::before { color: #f59e0b; }
+        .theme-rose li::before { color: #f43f5e; }
+        .theme-teal li::before { color: #14b8a6; }
+        .theme-indigo li::before { color: #6366f1; }
+        .theme-cyan li::before { color: #06b6d4; }
+        .theme-fuchsia li::before { color: #d946ef; }
+        .theme-sky li::before { color: #0ea5e9; }
+        .theme-orange li::before { color: #f97316; }
+        .theme-red li::before { color: #ef4444; }
+        .theme-green li::before { color: #22c55e; }
+        .theme-slate li::before { color: #64748b; }
+        .theme-purple li::before { color: #a855f7; }
+        .theme-pink li::before { color: #ec4899; }`,
+    body: `<!-- Premium Navbar -->
+    
+
+    <!-- Hero Section -->
+    <div class="bg-slate-900 relative overflow-hidden shadow-xl">
+        <div class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-slate-900 to-blue-900 opacity-90"></div>
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-500 rounded-full blur-[100px] opacity-20"></div>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 text-center">
+            <span class="inline-block px-4 py-1.5 bg-blue-500/20 text-blue-200 border border-blue-400/30 rounded-full text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
+                Policy &amp; Procedure Document
+            </span>
+            <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
+                OT-MMU-01 (SEC 10) — Medication Management in Operating Theatre (OT Scope)
+            </h1>
+            <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">ONE Policy (MMU / IPSG)</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12 -mt-12 relative z-20">
+        
+        <!-- Meta Information Card -->
+        <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Department</span>
+                    <span class="block text-sm font-semibold text-slate-800">Operating Theatre (OT)<br>General Hospital</span>
+                </div>
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Version &amp; Dates</span>
+                    <span class="block text-sm font-semibold text-slate-800">Version: 1.0<br>Effective: ___/___/20__<br>Review: ___/___/20__</span>
+                </div>
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+                    <span class="block text-sm font-semibold text-slate-800">OT Director/Chair + OT Nurse Manager + Pharmacy Rep + OT QPS Lead</span>
+                </div>
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code &amp; Approval</span>
+                    <span class="block text-sm font-semibold text-slate-800">OT-MMU-01<br>Approved By: _________</span>
+                </div>
+            </div>
+            
+            <div class="mt-6 pt-5 border-t border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Applies To:</span>
+                    <span class="block text-sm font-medium text-slate-700">OT nurses, OT technologists, surgeons/procedural teams for OT-managed medications and sterile field solutions, environmental staff where medication storage is within their areas, and pharmacy staff responsible for inspections/restocking.</span>
+                </div>
+                <div>
+                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Cross-References:</span>
+                    <span class="block text-sm font-medium text-slate-700">OT-QPS-01 for reporting; OT-IPSG-01 for identification; Pharmacy/Controlled Drugs Policy for legal compliance</span>
+                </div>
+            </div>
+
+            <div class="mt-4 pt-4 border-t border-slate-100">
+                <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Exclusions (clarity of scope):</span>
+                <span class="block text-sm font-medium text-slate-700">Anesthesia medication carts/workflows are governed by the Anesthesia Department and Pharmacy policies; this OT policy applies to medications stored, handled, prepared, or administered under OT nursing/technologist workflow and to sterile-field medications/solutions used by the surgical team (e.g., local anesthetic in bowls/syringes, irrigation additives, dyes, hemostatic solutions) and any medications stored in OT stock areas.</span>
+            </div>
+        </div>
+
+        <!-- Accreditation Alignment -->
+        <div class="bg-indigo-50 border-l-4 border-indigo-500 rounded-r-2xl shadow-sm overflow-hidden mb-8 policy-card">
+            <div class="p-6 text-slate-800">
+                <h3 class="font-bold text-indigo-900 mb-3 text-lg">Accreditation Alignment:</h3>
+                <ul class="custom-list theme-indigo space-y-2">
+                    <li><strong class="text-slate-800">CBAHI</strong> medication safety standards require secure, properly labeled medication storage within required temperature/humidity/light protection and restricted access.</li>
+                    <li><strong class="text-slate-800">Joint Commission / JCI</strong> medication management standards emphasize safe storage, labeling, administration verification, and qualified personnel. (Joint Commission International)</li>
+                    <li><strong class="text-slate-800">Perioperative medication safety guidance</strong> emphasizes sterile-field labeling, “no unlabeled containers,” and structured controls to prevent high-risk medication errors. (ECRI and ISMP)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 1.0: Blue Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-blue-700 to-blue-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
+            </div>
+            <div class="p-8 text-slate-700 space-y-6 leading-relaxed bg-blue-50/30">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">1.1 Purpose Statement</h3>
+                    <ul class="custom-list theme-blue space-y-2">
+                        <li><strong class="text-slate-800">1.1.1</strong> To ensure medications within OT scope are stored, secured, prepared, labeled, handled, and returned/wasted safely and consistently.</li>
+                        <li><strong class="text-slate-800">1.1.2</strong> To prevent wrong-drug, wrong-concentration, wrong-route, and wrong-patient medication events through standardized sterile-field labeling, LASA segregation, high-alert controls, controlled drug accountability, temperature monitoring, expiry checks, and error reporting with a learning loop. (ECRI and ISMP)</li>
+                        <li><strong class="text-slate-800">1.1.3</strong> To comply with OT-relevant requirements of CBAHI medication management standards (secure storage, appropriate conditions, organized labeling/arrangement, limited access) and with perioperative medication safety best practices.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2.0: Emerald Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-emerald-600 to-teal-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/30 space-y-6">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">2.1 Included</h3>
+                    <ul class="custom-list theme-emerald space-y-2">
+                        <li><strong class="text-slate-800">2.1.1</strong> Medication storage areas inside OT (clean store, medication cupboard, medication refrigerator/freezer if present, controlled drug cabinet if present, satellite medication rooms under OT).</li>
+                        <li><strong class="text-slate-800">2.1.2</strong> Sterile-field medications/solutions prepared in the operating room (syringes, bowls, cups, basins, irrigation additives, topical agents, dyes), including labeling requirements and transfer rules. (ECRI and ISMP)</li>
+                        <li><strong class="text-slate-800">2.1.3</strong> High-alert medication controls when such medications are stored or handled in OT areas (e.g., concentrated electrolytes, heparin, insulin, neuromuscular blockers if stocked in OT, opioids if OT keeps controlled stock).</li>
+                        <li><strong class="text-slate-800">2.1.4</strong> Controlled medications kept in OT (if applicable): receipt, storage, endorsed access, shift counts, discrepancy escalation, returns/wastage documentation, and auditing.</li>
+                        <li><strong class="text-slate-800">2.1.5</strong> Medication error reporting from OT with feedback and corrective actions (OT QPS interface).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">2.2 Excluded</h3>
+                    <ul class="custom-list theme-emerald space-y-2">
+                        <li><strong class="text-slate-800">2.2.1</strong> Anesthesia department medication preparation/administration systems (e.g., anesthesia workstation syringes) — covered by anesthesia/pharmacy policy; however, sterile-field labeling and OT environment storage rules still apply to shared OR space.</li>
+                        <li><strong class="text-slate-800">2.2.2</strong> Pharmacy sterile compounding procedures and clean room standards — governed by Pharmacy policy and applicable standards.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3.0: Violet Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-violet-600 to-purple-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 DEFINITIONS</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-violet-50/30">
+                <ul class="custom-list theme-violet space-y-3">
+                    <li><strong class="text-slate-900">3.1 LASA (Look-Alike/Sound-Alike):</strong> Medications with similar names or packaging that increase substitution risk; requires segregation and label enhancements.</li>
+                    <li><strong class="text-slate-900">3.2 High-Alert Medication (HAM):</strong> Medications with heightened risk of causing significant harm when used in error (e.g., concentrated electrolytes, insulin, anticoagulants, opioids); requires additional safeguards.</li>
+                    <li><strong class="text-slate-900">3.3 Sterile Field Medication Container:</strong> Any syringe, bowl, cup, basin, or bulb syringe on the sterile field containing a medication/solution. (ECRI and ISMP)</li>
+                    <li><strong class="text-slate-900">3.4 Independent Double-Check:</strong> A separate verification by a second qualified person without being guided by the first checker; applied to defined high-alert processes.</li>
+                    <li><strong class="text-slate-900">3.5 Beyond-Use/Expiry Time:</strong> The time after preparation when a product should not be used, as defined by manufacturer label, institutional policy, and risk assessment. (ECRI and ISMP)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 4.0: Amber Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-amber-500 to-orange-400 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 POLICY STATEMENT</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-amber-50/30">
+                <ul class="custom-list theme-amber space-y-3">
+                    <li><strong class="text-slate-900">4.1</strong> Medications stored in OT shall be secure, organized, properly labeled, and maintained within required temperature/humidity/light protection, with access restricted to authorized personnel.</li>
+                    <li><strong class="text-slate-900">4.2</strong> No unlabeled medication containers are permitted in OT practice areas or on the sterile field; all prepared syringes/solutions/bowls/cups/basins must be labeled immediately after preparation and remain labeled until administration. (ECRI and ISMP)</li>
+                    <li><strong class="text-slate-900">4.3</strong> LASA medications shall be risk-assessed and controlled through segregation, Tall-Man lettering (where adopted), shelf/bin labeling, and standardized selection processes.</li>
+                    <li><strong class="text-slate-900">4.4</strong> High-alert medications within OT scope shall have enhanced safeguards including segregation, clear warning labeling, standardized concentrations, and independent double-checks where applicable.</li>
+                    <li><strong class="text-slate-900">4.5</strong> Controlled medications kept in OT (if present) shall be stored in locked cabinets, dispensed/accessed only by authorized staff, documented for every receipt/use/return/wastage, and reconciled with discrepancy escalation pathways.</li>
+                    <li><strong class="text-slate-900">4.6</strong> Expired/damaged medications shall be labeled and separated from usable stock until removal/destruction through pharmacy process; storage areas shall be inspected at least monthly by pharmaceutical care per policy.</li>
+                    <li><strong class="text-slate-900">4.7</strong> Medication errors, near misses, and hazardous conditions shall be reported and reviewed with feedback and corrective actions using the OT QPS learning loop and perioperative medication safety improvement methods.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 5.0: Rose Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-rose-600 to-pink-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 ROLES AND RESPONSIBILITIES</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-rose-50/30 space-y-6">
+                
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.1 OT Director/Chair</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.1.1</strong> Ensures governance, resources, and compliance monitoring for OT medication safety systems.</li>
+                        <li><strong class="text-slate-800">5.1.2</strong> Escalates repeated safety risks to OTMC/QPS and Hospital Leadership.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.2 OT Nurse Manager</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.2.1</strong> Ensures implementation, staff training, and competency validation.</li>
+                        <li><strong class="text-slate-800">5.2.2</strong> Ensures physical controls: locked storage, temperature logs, labeling supplies, LASA bins, high-alert labels, controlled drug accountability tools.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.3 OT Charge Nurse (Shift Lead)</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.3.1</strong> Ensures daily readiness: storage locked, temperature logs completed, expired separation bin used, sterile-field labels available.</li>
+                        <li><strong class="text-slate-800">5.3.2</strong> Ensures immediate corrective actions when unsafe practices are observed (unlabeled syringe, unsecured meds, missing counts/discrepancies).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.4 Pharmacy Representative / Pharmaceutical Care</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.4.1</strong> Performs (or coordinates) monthly inspections of OT medication storage areas for availability, stock level, expiry date, and storage conditions per CBAHI expectations/policy.</li>
+                        <li><strong class="text-slate-800">5.4.2</strong> Maintains formulary decisions, LASA list, high-alert list, and provides standardized labels/solutions where feasible.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.5 Circulating Nurse (OR)</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.5.1</strong> Ensures sterile-field medication transfer and labeling rules are followed; ensures unlabeled containers are not present. (ECRI and ISMP)</li>
+                        <li><strong class="text-slate-800">5.5.2</strong> Coordinates safe medication availability and returns/wastage documentation for OT-managed meds.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.6 Scrub Nurse/Technologist</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.6.1</strong> Applies sterile-field labeling and “one medication at a time” transfer rules; confirms label correctness with circulating nurse where required. (ECRI and ISMP)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">5.7 All Staff</h3>
+                    <ul class="custom-list theme-rose space-y-2">
+                        <li><strong class="text-slate-800">5.7.1</strong> Follow policy; report errors/near-misses/hazards; participate in audits and corrective actions.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 6 Header -->
+        <div class="mb-6 mt-12">
+            <h2 class="text-3xl heading-serif font-bold text-slate-800 border-b-2 border-slate-300 pb-2">6.0 PROCEDURES (SEC 10.1 – 10.7)</h2>
+        </div>
+
+        <!-- Section 10.1: Cyan Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">10.1 STORAGE, SECURITY, TEMPERATURE MONITORING</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.1.1 Medication Storage Area Standards</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.1.1.1 All OT medication storage areas shall be:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) clean, dry, organized, and clearly labeled</li>
+                        <li>b) protected from inappropriate heat, humidity, and light as required</li>
+                        <li>c) access-controlled (locked when not in use) and limited to authorized staff</li>
+                    </ul>
+
+                    <p class="font-bold text-slate-800">10.1.1.2 Storage arrangement shall use organized segregation to reduce selection errors:</p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) separate by route (injectable vs topical vs irrigation additives)</li>
+                        <li>b) separate emergency items from routine items</li>
+                        <li>c) separate high-alert medications and LASA medications (see 10.3 and 10.4)</li>
+                    </ul>
+
+                    <p class="font-bold text-slate-800">10.1.1.3 Multi-dose vials (if permitted) shall follow pharmacy policy for dating, storage, and discard after opening; OT shall not retain opened vials beyond policy.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.1.2 Security Controls (Routine Medications)</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.1.2.1 Keys/access codes to medication cupboards are controlled:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) assigned to authorized roles</li>
+                        <li>b) not shared inappropriately</li>
+                        <li>c) documented if policy requires sign-in/out.</li>
+                    </ul>
+                    <p><strong class="text-slate-800">10.1.2.2</strong> Medications shall not be left unattended on open counters in semi-restricted/restricted zones except during active case preparation with direct supervision.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.1.3 Refrigerated / Frozen Storage and Temperature Monitoring</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.1.3.1</strong> Refrigerators/freezers used for medications shall be dedicated (no food/drink), labeled, and locked where policy requires.</p>
+                    <p class="mb-1"><strong class="text-slate-800">10.1.3.2 Temperature monitoring:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) Continuous digital monitoring is preferred when available; otherwise, minimum-maximum thermometer with manual documentation is required.</li>
+                        <li>b) Temperatures are recorded at least daily (or per hospital policy) and reviewed by charge nurse/manager.</li>
+                        <li>c) Acceptable ranges are defined by manufacturer requirements and Pharmacy policy; deviations trigger immediate action.</li>
+                    </ul>
+
+                    <p class="font-bold text-slate-800">10.1.3.3 Out-of-range response algorithm:</p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) quarantine affected medications (do not use)</li>
+                        <li>b) notify charge nurse and pharmacy immediately</li>
+                        <li>c) document the event, duration if known, and corrective action</li>
+                        <li>d) pharmacy determines disposition (use/return/discard) based on stability guidance.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.1.4 Monthly Storage Area Inspections (Pharmacy)</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.1.4.1</strong> All OT medication storage areas are inspected at least monthly by pharmaceutical care to ensure proper storage conditions, stock levels, expiry checks, and organization.</p>
+                    <p><strong class="text-slate-800">10.1.4.2</strong> Inspection findings generate corrective actions with deadlines and re-checks.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 10.2: Indigo Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">10.2 LABELING OF PREPARED SOLUTIONS/SYRINGES ON THE STERILE FIELD</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.2.1 Core Rule</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.2.1.1</strong> Every medication or solution transferred to the sterile field and placed into a syringe/bowl/cup/basin must be labeled immediately after filling and must remain labeled up to the point of administration. (ECRI and ISMP)</p>
+                    <p><strong class="text-slate-800">10.2.1.2</strong> Never label an empty syringe/bowl/cup/basin in anticipation of use (pre-labeling is prohibited). (ECRI and ISMP)</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.2.2 Label Type and Quality</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.2.2.1</strong> Use sterile pre-printed labels on the sterile field whenever possible. (ECRI and ISMP)</p>
+                    <p class="mb-1"><strong class="text-slate-800">10.2.2.2 When blank sterile labels are used:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) write clearly with smudge-proof marker</li>
+                        <li>b) avoid abbreviations unless approved</li>
+                        <li>c) ensure label adheres and remains legible during procedure.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.2.3 Minimum Label Content (Sterile Field)</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.2.3.1 For practitioner-prepared syringes/solutions, labels shall include at minimum:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) medication/solution full name</li>
+                        <li>b) strength/concentration (or dose when applicable)</li>
+                        <li>c) initials/name of preparer</li>
+                        <li>d) preparation time and expiry/time when required by policy (especially when not used promptly or when stability is short) (ECRI and ISMP)</li>
+                    </ul>
+                    <p><strong class="text-slate-800">10.2.3.2</strong> Color-coded class labels alone are not sufficient as the only identifier. (ECRI and ISMP)</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.2.4 “One at a Time” Transfer Rule</h4>
+                    <p><strong class="text-slate-800">10.2.4.1</strong> Transfer only one medication/solution at a time to the sterile field and label it immediately before any other medication/solution is transferred. (This prevents mix-ups when multiple unlabeled containers exist even briefly.) (aornjournal.onlinelibrary.wiley.com)</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.2.5 Verification at the Point of Transfer</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.2.5.1 When the circulating nurse hands medication/solution to the sterile field:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) scrub person reads the label on the source container aloud</li>
+                        <li>b) circulating nurse confirms verbally</li>
+                        <li>c) transfer occurs</li>
+                        <li>d) scrub person labels immediately and confirms label content (name + concentration).</li>
+                    </ul>
+                    <p><strong class="text-slate-800">10.2.5.2</strong> For high-alert medications (see 10.4), apply independent double-check where defined.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.2.6 Labeling of Irrigation Solutions and Additives</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.2.6.1 Any additive placed into an irrigation container must be labeled with:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) additive name</li>
+                        <li>b) total amount added</li>
+                        <li>c) final concentration where applicable</li>
+                        <li>d) time prepared</li>
+                        <li>e) preparer initials.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.2.7 If a Container Is Found Unlabeled</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.2.7.1</strong> An unlabeled syringe/bowl/cup/basin is treated as unknown and must be discarded immediately (do not attempt to “guess”). (ECRI and ISMP)</p>
+                    <p><strong class="text-slate-800">10.2.7.2</strong> Report as a near-miss/hazard event under OT QPS.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 10.3: Fuchsia Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">10.3 LASA CONTROLS + SEGREGATION</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.3.1 LASA Risk Assessment and List</h4>
+                    <p><strong class="text-slate-800">10.3.1.1</strong> Pharmacy maintains a facility LASA list and reviews new additions; OT maintains an OT-specific LASA map for medications stocked in OT.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.3.2 Storage Segregation Controls</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.3.2.1 LASA medications shall not be stored adjacent when possible; use:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) separated bins</li>
+                        <li>b) shelf dividers</li>
+                        <li>c) warning labels</li>
+                        <li>d) Tall-Man lettering on shelf labels where adopted.</li>
+                    </ul>
+                    <p class="mb-1"><strong class="text-slate-800">10.3.2.2 LASA items shall be stored in a way that supports selection discipline:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) one bin = one medication/strength whenever feasible</li>
+                        <li>b) avoid “mixed bins” of multiple strengths.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.3.3 Packaging and Procurement Controls</h4>
+                    <p><strong class="text-slate-800">10.3.3.1</strong> When feasible, pharmacy shall procure distinct packaging presentations or unit-dose labeling to reduce confusion; high-risk confusing presentations are escalated to P&amp;T committee.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.3.4 Selection and Preparation Controls</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.3.4.1</strong> Staff shall read the full medication name and concentration before selection and again before opening/transfer to sterile field.</p>
+                    <p><strong class="text-slate-800">10.3.4.2</strong> Where feasible, use barcode scanning outside sterile field; sterile-field labels may be exempt from machine-readable requirements but should still follow standardization principles. (ECRI and ISMP)</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 10.4: Sky Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">10.4 HIGH-ALERT MEDICATION HANDLING (OT DOUBLE-CHECK WHERE APPLICABLE)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.4.1 High-Alert Medication (HAM) Governance</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.4.1.1</strong> OT recognizes high-alert medications as those with heightened harm potential and implements additional safeguards, consistent with international definitions.</p>
+                    <p><strong class="text-slate-800">10.4.1.2</strong> Pharmacy maintains the facility HAM list; OT identifies which HAMs are stocked/used under OT scope (e.g., concentrated electrolytes for irrigation? topical thrombin? heparinized saline? insulin in special situations?).</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.4.2 Concentrated Electrolytes Controls</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.4.2.1</strong> Concentrated electrolyte solutions require strict controls including standardized limited concentrations, preference for premixed solutions where possible, and high-risk warning labeling.</p>
+                    <p class="mb-1"><strong class="text-slate-800">10.4.2.2 Concentrated electrolytes should not be routinely available in patient care areas unless clinically necessary and approved; if stocked in OT, they must be:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) stored in a segregated, clearly labeled high-alert bin</li>
+                        <li>b) access-controlled</li>
+                        <li>c) used only for approved indications</li>
+                        <li>d) independently double-checked prior to preparation and prior to transfer to sterile field (where applicable).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.4.3 Independent Double-Check Rules (OT)</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.4.3.1 OT applies independent double-check for defined high-alert steps when OT is responsible for preparation/transfer, such as:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) preparation of a high-alert solution or dilution</li>
+                        <li>b) addition of high-alert additives to irrigation</li>
+                        <li>c) preparation of high-risk local anesthetic concentrations for surgeon use if policy defines it as high-alert.</li>
+                    </ul>
+                    
+                    <p class="font-bold text-slate-800">10.4.3.2 Double-check elements:</p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) drug name</li>
+                        <li>b) concentration/strength and volume</li>
+                        <li>c) final concentration if diluted</li>
+                        <li>d) labeling completeness (10.2)</li>
+                        <li>e) intended use/site/route.</li>
+                    </ul>
+                    
+                    <p class="font-bold text-slate-800">10.4.3.3 Both checkers sign/initial the High-Alert Double-Check form (Appendix E).</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.4.4 Restricted Storage and “Do Not Stock” Decisions</h4>
+                    <p><strong class="text-slate-800">10.4.4.1</strong> OT shall not stock unnecessary HAM items; stock decisions require pharmacy approval and risk assessment.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 10.5: Orange Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">10.5 CONTROLLED MEDICATIONS KEPT IN OT (ENDORSEMENT, DISCREPANCY ESCALATION)</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
+                
+                <p class="text-sm italic text-slate-500 mb-4">(Applies only if OT maintains controlled stock outside anesthesia/pharmacy-controlled systems.)</p>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.5.1 Storage and Access</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.5.1.1</strong> Controlled medications are stored in a locked controlled drug cabinet with restricted access.</p>
+                    <p><strong class="text-slate-800">10.5.1.2</strong> Access is limited to authorized personnel endorsed by OT leadership and pharmacy policy.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.5.2 Receipt and Inventory</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.5.2.1 Receipt from pharmacy is documented with:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) date/time</li>
+                        <li>b) drug name/strength/quantity</li>
+                        <li>c) lot/expiry if required</li>
+                        <li>d) signatures (sender/receiver).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.5.3 Administration/Use Documentation</h4>
+                    <p><strong class="text-slate-800">10.5.3.1</strong> Each dose removed is documented immediately per controlled drug record (paper/electronic), including patient identifier (as permitted), dose, time, and staff signature.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.5.4 Shift Counts and Reconciliation</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.5.4.1 Controlled drug counts are performed:</strong></p>
+                    <ul class="alpha-list ml-6 mb-2">
+                        <li>a) at shift start and end</li>
+                        <li>b) after any controlled drug access event if policy requires</li>
+                        <li>c) after discrepancy suspicion.</li>
+                    </ul>
+                    <p><strong class="text-slate-800">10.5.4.2</strong> Count is performed by two authorized staff and documented.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.5.5 Discrepancy Escalation Pathway</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.5.5.1 Any discrepancy triggers immediate actions:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) stop further dispensing from that cabinet (quarantine)</li>
+                        <li>b) re-count and verify records</li>
+                        <li>c) notify OT charge nurse and pharmacy immediately</li>
+                        <li>d) document discrepancy and actions</li>
+                        <li>e) escalate to OT manager and hospital leadership per policy if unresolved.</li>
+                    </ul>
+                    <p><strong class="text-slate-800">10.5.5.2</strong> Discrepancies are reviewed in QPS for system vulnerabilities (access control, documentation quality, workflow design).</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 10.6: Teal Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
+            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">10.6 RETURNS, WASTAGE DOCUMENTATION, EXPIRY CHECKS</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.6.1 Returns (Unused, Unopened Medications)</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.6.1.1 Unused unopened medications may be returned to pharmacy only if:</strong></p>
+                    <ul class="alpha-list ml-6 mb-2">
+                        <li>a) integrity maintained</li>
+                        <li>b) temperature conditions maintained (cold chain not broken)</li>
+                        <li>c) return permitted by pharmacy policy.</li>
+                    </ul>
+                    <p><strong class="text-slate-800">10.6.1.2</strong> Returned items are documented with date/time, item details, reason, and signatures.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.6.2 Wastage</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.6.2.1 Medication wastage is documented to prevent diversion and ensure traceability:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) drug name/strength/amount wasted</li>
+                        <li>b) reason for wastage</li>
+                        <li>c) witness signature (especially for controlled meds)</li>
+                        <li>d) disposal method per pharmacy policy.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.6.3 Expiry Checks and Removal of Expired/Damaged Items</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.6.3.1 OT performs routine expiry checks:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) daily visual check of high-risk areas (emergency boxes, anesthesia interface drawers under OT control, sterile field additive stocks)</li>
+                        <li>b) weekly/monthly structured expiry inspection per local plan</li>
+                        <li>c) pharmacy monthly inspection includes expiry verification.</li>
+                    </ul>
+                    <p><strong class="text-slate-800">10.6.3.2</strong> Expired and damaged medications shall be labeled and separated from usable stock until removed and destroyed through pharmacy process.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.6.4 Cold Chain Returns and Quarantine</h4>
+                    <p><strong class="text-slate-800">10.6.4.1</strong> Any medication with uncertain storage condition (temperature excursion, door left open) is quarantined and pharmacy decides disposition.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 10.7: Red Box -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12 policy-card">
+            <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
+                <h3 class="text-lg heading-serif font-bold text-white">10.7 MEDICATION ERROR REPORTING &amp; LEARNING LOOP</h3>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
+                
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.7.1 What Must Be Reported</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.7.1.1 Report all medication events within OT scope, including:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) wrong drug/wrong concentration selection caught before use (near miss)</li>
+                        <li>b) unlabeled syringe/bowl/cup/basin found</li>
+                        <li>c) LASA selection confusion</li>
+                        <li>d) high-alert double-check failures</li>
+                        <li>e) controlled drug discrepancies</li>
+                        <li>f) administration errors and adverse drug events.</li>
+                    </ul>
+                    <p><strong class="text-slate-800">10.7.1.2</strong> Perioperative medication errors are recognized as significant sources of harm; structured guidance exists to address perioperative/procedural medication safety gaps and implement action plans. (psnet.ahrq.gov)</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.7.2 Immediate Containment</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.7.2.1 Protect the patient first:</strong></p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) stop administration</li>
+                        <li>b) maintain the source container and label(s) as evidence</li>
+                        <li>c) notify surgeon/clinical lead and pharmacy as required</li>
+                        <li>d) provide clinical response per treating team.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.7.3 Investigation Level and Corrective Action</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.7.3.1 OT QPS lead triages events:</strong></p>
+                    <ul class="alpha-list ml-6 mb-3">
+                        <li>a) quick review for low-risk near misses</li>
+                        <li>b) mini-RCA for trends and high-risk near misses</li>
+                        <li>c) formal RCA for serious harm events.</li>
+                    </ul>
+                    
+                    <p class="font-bold text-slate-800">10.7.3.2 Corrective actions prioritize strong system changes:</p>
+                    <ul class="alpha-list ml-6">
+                        <li>a) standardization of labels and availability of pre-printed sterile labels (ECRI and ISMP)</li>
+                        <li>b) segregation/bin redesign for LASA</li>
+                        <li>c) removal of unnecessary high-alert stock in OT</li>
+                        <li>d) redesign of transfer workflow (“one at a time” rule, read-back) (aornjournal.onlinelibrary.wiley.com)</li>
+                        <li>e) competency refresh and direct observation.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-slate-900 mb-2">10.7.4 Feedback and Learning Loop</h4>
+                    <p class="mb-1"><strong class="text-slate-800">10.7.4.1 OT provides monthly de-identified learning summaries:</strong></p>
+                    <ul class="alpha-list ml-6 mb-2">
+                        <li>a) what happened (pattern)</li>
+                        <li>b) what changed (system fix)</li>
+                        <li>c) what to watch (new barrier)</li>
+                        <li>d) audit result after change.</li>
+                    </ul>
+                    <p><strong class="text-slate-800">10.7.4.2</strong> Safety improvement is measured using compliance audits and event trend reduction.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 7.0: Purple Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-purple-700 to-fuchsia-600 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">7.0 DOCUMENTATION / CONTROLLED RECORDS</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-purple-50/20">
+                <ul class="custom-list theme-purple space-y-2">
+                    <li><strong class="text-slate-900">7.1</strong> Medication storage temperature logs (room + refrigerator/freezer)</li>
+                    <li><strong class="text-slate-900">7.2</strong> Monthly pharmacy inspection reports and corrective action tracker</li>
+                    <li><strong class="text-slate-900">7.3</strong> Sterile-field medication labeling audit forms (ECRI and ISMP)</li>
+                    <li><strong class="text-slate-900">7.4</strong> High-alert medication double-check forms</li>
+                    <li><strong class="text-slate-900">7.5</strong> Controlled drug register/count sheets/wastage records (if applicable)</li>
+                    <li><strong class="text-slate-900">7.6</strong> Returns and wastage documentation</li>
+                    <li><strong class="text-slate-900">7.7</strong> Medication incident reports and QPS review minutes.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 8.0: Pink Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-pink-600 to-rose-400 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">8.0 TRAINING AND COMPETENCY</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-pink-50/30 space-y-6">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">8.1 Initial orientation and annual refreshers shall include:</h3>
+                    <ul class="custom-list theme-pink space-y-2">
+                        <li><strong class="text-slate-800">8.1.1</strong> storage/security and temperature excursion response</li>
+                        <li><strong class="text-slate-800">8.1.2</strong> sterile-field labeling rules, “no unlabeled containers,” one-at-a-time transfer (ECRI and ISMP)</li>
+                        <li><strong class="text-slate-800">8.1.3</strong> LASA controls and selection discipline (compasshcc.org)</li>
+                        <li><strong class="text-slate-800">8.1.4</strong> high-alert safeguards and concentrated electrolyte controls</li>
+                        <li><strong class="text-slate-800">8.1.5</strong> controlled drug accountability and discrepancy escalation (if applicable)</li>
+                        <li><strong class="text-slate-800">8.1.6</strong> reporting and learning loop expectations. (psnet.ahrq.gov)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">8.2 Competency validation methods:</h3>
+                    <ul class="alpha-list ml-6">
+                        <li>a) direct observation (sterile-field labeling practice)</li>
+                        <li>b) documentation review (double-check form completion, temperature logs)</li>
+                        <li>c) scenario drills (unlabeled syringe found; LASA confusion; temperature excursion; controlled drug discrepancy).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 9.0: Teal Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">9.0 MONITORING, AUDIT, AND KPIs</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20 space-y-6">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">9.1 Minimum Audits</h3>
+                    <ul class="custom-list theme-teal space-y-2">
+                        <li><strong class="text-slate-800">9.1.1</strong> Sterile-field labeling audit (monthly sample): correct content, immediate labeling, no pre-labeling, no unlabeled containers. (ECRI and ISMP)</li>
+                        <li><strong class="text-slate-800">9.1.2</strong> LASA storage audit (quarterly): segregation, shelf labeling, removal of mixed bins.</li>
+                        <li><strong class="text-slate-800">9.1.3</strong> High-alert compliance audit (monthly/quarterly): segregation, double-check completion, removal of unnecessary concentrated electrolytes.</li>
+                        <li><strong class="text-slate-800">9.1.4</strong> Temperature log compliance and excursion handling audit (monthly).</li>
+                        <li><strong class="text-slate-800">9.1.5</strong> Controlled drug reconciliation audit (monthly) if applicable.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">9.2 KPIs (Minimum Set)</h3>
+                    <ul class="custom-list theme-teal space-y-2">
+                        <li><strong class="text-slate-800">9.2.1</strong> % sterile-field containers correctly labeled (target ≥ 95%) (ECRI and ISMP)</li>
+                        <li><strong class="text-slate-800">9.2.2</strong> Number of “unlabeled container” events per 1,000 cases (target: 0; near-miss reporting encouraged) (ECRI and ISMP)</li>
+                        <li><strong class="text-slate-800">9.2.3</strong> LASA-related near misses (trend)</li>
+                        <li><strong class="text-slate-800">9.2.4</strong> High-alert double-check compliance %</li>
+                        <li><strong class="text-slate-800">9.2.5</strong> Temperature excursion count and response time (trend)</li>
+                        <li><strong class="text-slate-800">9.2.6</strong> Controlled drug discrepancy rate (if applicable).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 10.0: Green Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">10.0 NONCOMPLIANCE (CRITICAL)</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20 space-y-4">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">10.1 Critical noncompliance includes:</h3>
+                    <ul class="custom-list theme-emerald space-y-2">
+                        <li><strong class="text-slate-800">10.1.1</strong> Unlabeled syringe/bowl/cup/basin present on sterile field (ECRI and ISMP)</li>
+                        <li><strong class="text-slate-800">10.1.2</strong> Pre-labeling empty containers on the sterile field (ECRI and ISMP)</li>
+                        <li><strong class="text-slate-800">10.1.3</strong> Storage areas left unsecured / access uncontrolled</li>
+                        <li><strong class="text-slate-800">10.1.4</strong> High-alert medication stored without segregation/warning label or used without defined double-check where required</li>
+                        <li><strong class="text-slate-800">10.1.5</strong> Expired/damaged medications not separated/labeled pending removal</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong class="text-slate-800">10.2</strong> Critical noncompliance triggers immediate correction, documentation, and escalation to OT manager and QPS.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 11.0: Slate Box -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden policy-card mb-8">
+            <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">11.0 REFERENCES (ENGLISH)</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-slate-50">
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.1 ISMP — Guidelines for Safe Medication Use</strong>
+                            <span class="text-sm text-slate-600">in Perioperative and Procedural Settings (sterile-field labeling expectations; minimum label content; preprinted sterile labels preferred). (ECRI and ISMP)</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.2 ISMP — Medication Safety Self Assessment®</strong>
+                            <span class="text-sm text-slate-600">for Perioperative Settings (supports sterile label availability and periop controls). (ECRI and ISMP)</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.3 WHO Patient Safety Solution</strong>
+                            <span class="text-sm text-slate-600">Control of Concentrated Electrolyte Solutions (standardization, warning labels, premixed solutions).</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.4 Joint Commission (MM chapter FAQ)</strong>
+                            <span class="text-sm text-slate-600">Medication labeling requirements located in MM standards and procedure container labeling linked to patient safety goals. (jointcommission.org)</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.5 CBAHI (Istitlaa) — Medication Safety Standards</strong>
+                            <span class="text-sm text-slate-600">secure storage with proper temperature/humidity/light protection and restricted access.</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.6 CBAHI (Istitlaa) — Monthly inspection</strong>
+                            <span class="text-sm text-slate-600">of medication storage areas; expired/damaged meds separated until removal/destruction.</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.7 JCI Hospital Standards (Standards-only PDF excerpt)</strong>
+                            <span class="text-sm text-slate-600">medication management and qualified administration/verification requirements (MMU). (Joint Commission International)</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-slate-900 block mb-1">11.8 ISMP Targeted Medication Safety Best Practices</strong>
+                            <span class="text-sm text-slate-600">for Hospitals (additional system-level risk controls and best practices). (online.ecri.org)</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Premium Footer -->
+    <footer class="bg-slate-900 text-center py-10 mt-auto border-t border-slate-800">
+        <p class="text-[11px] font-semibold text-slate-400 tracking-[0.2em] uppercase">Operating Theatre - SEC 10 (MEDICATION MANAGEMENT)</p>
+        <p class="text-[10px] text-slate-500 uppercase mt-2 tracking-widest">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
+    </footer>
+
+    <!-- Toast Message -->
+    <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
+
+    <!-- Scripts -->
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_MMU_01.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s11: {
+    titleEn: 'SEC 11 (Part A) — Intra-Operative Safety & Conduct (11.1–11.3)',
+    titleAr: 'القسم ١١-أ — السلامة داخل العمليات (١١.١–١١.٣)',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -6390,9 +8965,8 @@ export const orSectionsHtml = {
             height: 4px;
             background: linear-gradient(to right, transparent, #cbd5e1, transparent);
             margin: 4rem 0;
-        }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-4{margin-left:1rem}.ml-6{margin-left:1.5rem}.ml-8{margin-left:2rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-6{gap:1.5rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -7449,8 +10023,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  I: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_IO_11_1_2_3.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s12: {
+    titleEn: 'SEC 11 (Part B) — Intra-Operative Safety & Conduct (11.4–11.7)',
+    titleAr: 'القسم ١١-ب — السلامة داخل العمليات (١١.٤–١١.٧)',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -7525,9 +10136,8 @@ export const orSectionsHtml = {
             height: 4px;
             background: linear-gradient(to right, transparent, #cbd5e1, transparent);
             margin: 4rem 0;
-        }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-4{margin-left:1rem}.ml-6{margin-left:1.5rem}.ml-8{margin-left:2rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-fuchsia-200{--tw-border-opacity:1;border-color:rgb(245 208 254 / var(--tw-border-opacity, 1))}.border-orange-200{--tw-border-opacity:1;border-color:rgb(254 215 170 / var(--tw-border-opacity, 1))}.border-purple-200{--tw-border-opacity:1;border-color:rgb(233 213 255 / var(--tw-border-opacity, 1))}.border-rose-200{--tw-border-opacity:1;border-color:rgb(254 205 211 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-fuchsia-600{--tw-text-opacity:1;color:rgb(192 38 211 / var(--tw-text-opacity, 1))}.text-orange-600{--tw-text-opacity:1;color:rgb(234 88 12 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -8749,8 +11359,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  J: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_IO_11_4_to_7.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s13: {
+    titleEn: 'SEC 11 (Part C) — Intra-Operative Safety & Conduct (11.8–11.13)',
+    titleAr: 'القسم ١١-ج — السلامة داخل العمليات (١١.٨–١١.١٣)',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -8825,9 +11472,8 @@ export const orSectionsHtml = {
             height: 4px;
             background: linear-gradient(to right, transparent, #cbd5e1, transparent);
             margin: 4rem 0;
-        }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138 / var(--tw-border-opacity, 1))}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-fuchsia-200{--tw-border-opacity:1;border-color:rgb(245 208 254 / var(--tw-border-opacity, 1))}.border-indigo-200{--tw-border-opacity:1;border-color:rgb(199 210 254 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-violet-200{--tw-border-opacity:1;border-color:rgb(221 214 254 / var(--tw-border-opacity, 1))}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-fuchsia-600{--tw-text-opacity:1;color:rgb(192 38 211 / var(--tw-text-opacity, 1))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-violet-600{--tw-text-opacity:1;color:rgb(124 58 237 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -10501,2254 +13147,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  K: { css: `body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #f4f7f6;
-        }
-        .heading-serif {
-            font-family: 'Playfair Display', serif;
-        }
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #e2e8f0; }
-        ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
-        
-        .glass-header {
-            background: rgba(15, 23, 42, 0.95);
-            backdrop-filter: blur(10px);
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
         }
 
-        /* Card Hover Effects */
-        .policy-card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .policy-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
-
-        .custom-list {
-            list-style: none;
-            padding-left: 0;
-        }
-        .custom-list li {
-            position: relative;
-            padding-left: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .custom-list li::before {
-            content: "•";
-            position: absolute;
-            left: 0;
-            top: -2px;
-            font-size: 1.25rem;
-            font-weight: bold;
-        }
-        
-        .alpha-list {
-            list-style-type: lower-alpha;
-            padding-left: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .alpha-list li {
-            margin-bottom: 0.25rem;
-        }
-        
-        /* Colored list bullets based on parent theme */
-        .theme-blue li::before { color: #3b82f6; }
-        .theme-emerald li::before { color: #10b981; }
-        .theme-violet li::before { color: #8b5cf6; }
-        .theme-amber li::before { color: #f59e0b; }
-        .theme-rose li::before { color: #f43f5e; }
-        .theme-teal li::before { color: #14b8a6; }
-        .theme-indigo li::before { color: #6366f1; }
-        .theme-cyan li::before { color: #06b6d4; }
-        .theme-fuchsia li::before { color: #d946ef; }
-        .theme-sky li::before { color: #0ea5e9; }
-        .theme-orange li::before { color: #f97316; }
-        .theme-red li::before { color: #ef4444; }
-        .theme-green li::before { color: #22c55e; }
-        .theme-slate li::before { color: #64748b; }
-        .theme-purple li::before { color: #a855f7; }
-        .theme-pink li::before { color: #ec4899; }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-t{border-top-width:1px}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-2{padding-bottom:0.5rem}.pt-5{padding-top:1.25rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
-    
-
-    <!-- Hero Section -->
-    <div class="bg-slate-900 relative overflow-hidden shadow-xl">
-        <div class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-slate-900 to-blue-900 opacity-90"></div>
-        <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-500 rounded-full blur-[100px] opacity-20"></div>
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 text-center">
-            <span class="inline-block px-4 py-1.5 bg-blue-500/20 text-blue-200 border border-blue-400/30 rounded-full text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
-                Policy &amp; Procedure Document
-            </span>
-            <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                OT-PCI-01 (SEC 9) — Infection Prevention &amp; Environmental Control in Operating Theatre
-            </h1>
-            <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">(ONE Comprehensive Policy — PCI / FMS)</p>
-        </div>
-    </div>
-
-    <!-- Main Content -->
-    <main class="flex-grow max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12 -mt-12 relative z-20">
-        
-        <!-- Meta Information Card -->
-        <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Department</span>
-                    <span class="block text-sm font-semibold text-slate-800">Operating Theatre (OT)<br>General Hospital</span>
-                </div>
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Version &amp; Dates</span>
-                    <span class="block text-sm font-semibold text-slate-800">Version: 1.0<br>Effective: ___/___/20__<br>Review: ___/___/20__</span>
-                </div>
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
-                    <span class="block text-sm font-semibold text-slate-800">OT Director/Chair + OT Nurse Manager + IPC Lead</span>
-                </div>
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code &amp; Approval</span>
-                    <span class="block text-sm font-semibold text-slate-800">OT-PCI-01<br>Approved By: _________</span>
-                </div>
-            </div>
-            
-            <div class="mt-6 pt-5 border-t border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Applies To:</span>
-                    <span class="block text-sm font-medium text-slate-700">OT nurses/technologists, surgeons and procedural teams while in OT, anesthesia teams for IPC behaviors in OT environment, CSSD interface staff, housekeeping/environmental services, engineering/FMS, vendors/observers/students entering OT zones.</span>
-                </div>
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Cross-References:</span>
-                    <span class="block text-sm font-medium text-slate-700">IPP-OT-003 / 004 / 005 / 006 / 007 / 010 / 011 / 013</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 1.0: Blue Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-blue-700 to-blue-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
-            </div>
-            <div class="p-8 text-slate-700 space-y-6 leading-relaxed bg-blue-50/30">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">1.1 Purpose Statement</h3>
-                    <ul class="custom-list theme-blue space-y-2">
-                        <li><strong class="text-slate-800">1.1.1</strong> To establish a single, comprehensive Operating Theatre infection prevention and environmental control system that reduces microbial contamination, prevents surgical site infections (SSI), and ensures a controlled, auditable environment across patient pathways, staff behaviors, room discipline, and cleaning/disinfection practices. (iris.who.int)</li>
-                        <li><strong class="text-slate-800">1.1.2</strong> To standardize OT zones, attire, traffic discipline, hand hygiene/surgical scrub, aseptic technique (gowning/gloving/draping), sterile field maintenance, isolation workflows, cleaning/turnover processes, spill management, equipment decontamination, sterile supplies handling, CSSD interfaces, and linen management under one policy.</li>
-                        <li><strong class="text-slate-800">1.1.3</strong> To ensure compliance with evidence-based international guidance for SSI prevention and infection prevention best practices (WHO/CDC) and engineering/environmental control principles relevant to operating rooms (ASHRAE/ASHE Standard 170 concepts such as pressure relationships and environmental control). (iris.who.int)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 2.0: Emerald Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-emerald-600 to-teal-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/30 space-y-6">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">2.1 Included</h3>
-                    <ul class="custom-list theme-emerald space-y-2">
-                        <li><strong class="text-slate-800">2.1.1</strong> All OT areas including unrestricted, semi-restricted, restricted zones, operating rooms, sterile core interfaces, scrub areas, storage areas, and OT corridors.</li>
-                        <li><strong class="text-slate-800">2.1.2</strong> All surgical cases (elective/urgent/emergency), including isolation cases and high-risk procedures.</li>
-                        <li><strong class="text-slate-800">2.1.3</strong> Environmental controls (traffic, doors, pressure relationships, temperature/humidity monitoring and logging where applicable), cleaning/disinfection, and workflow discipline.</li>
-                        <li><strong class="text-slate-800">2.1.4</strong> CSSD interface requirements from point-of-use pre-cleaning through transport and loaner tray governance.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">2.2 Excluded (Managed by Separate Policies)</h3>
-                    <ul class="custom-list theme-emerald space-y-2">
-                        <li><strong class="text-slate-800">2.2.1</strong> Detailed antimicrobial stewardship and antibiotic prescribing protocols (covered in Pharmacy/AMS policy); OT verifies compliance with required documentation only.</li>
-                        <li><strong class="text-slate-800">2.2.2</strong> Detailed engineering commissioning standards and mechanical system design calculations (covered in FMS/Engineering policy); OT defines operational expectations and monitoring interfaces.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 3.0: Violet Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-violet-600 to-purple-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 DEFINITIONS</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-violet-50/30">
-                <ul class="custom-list theme-violet space-y-3">
-                    <li><strong class="text-slate-900">3.1 Unrestricted Zone:</strong> Area where street clothes may be permitted (e.g., public corridors outside OT suite, designated administrative zones).</li>
-                    <li><strong class="text-slate-900">3.2 Semi-Restricted Zone:</strong> Area where surgical attire is required; traffic controlled (e.g., clean corridors, sterile core access corridors).</li>
-                    <li><strong class="text-slate-900">3.3 Restricted Zone:</strong> Operating rooms and sterile field–critical areas; highest discipline; masks and head coverings required as per policy.</li>
-                    <li><strong class="text-slate-900">3.4 SSI (Surgical Site Infection):</strong> Infection related to an operative procedure occurring at/near the surgical incision within defined surveillance periods; preventable proportion is significant with evidence-based strategies. (CDC Stacks)</li>
-                    <li><strong class="text-slate-900">3.5 Aseptic Technique:</strong> Practices that prevent contamination of the sterile field and operative site.</li>
-                    <li><strong class="text-slate-900">3.6 Event-Related Sterility:</strong> Sterility of packaged items maintained until an event compromises package integrity rather than a fixed time alone (facility policy defines shelf life approach).</li>
-                    <li><strong class="text-slate-900">3.7 Contact Time:</strong> Minimum wet time required for a disinfectant to be effective; must follow product label requirements.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Section 4.0: Amber Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-amber-500 to-orange-400 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 POLICY STATEMENT</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-amber-50/30">
-                <ul class="custom-list theme-amber space-y-3">
-                    <li><strong class="text-slate-900">4.1</strong> The OT shall maintain a clean, dust-controlled environment with minimal storage and controlled activity, including monitored ventilation/pressure relationships as applicable to facility design and policy. (ASHRAE)</li>
-                    <li><strong class="text-slate-900">4.2</strong> The OT shall implement a controlled zoning system and enforce attire, traffic, and door discipline to reduce microbial burden and airborne contamination risk. (Aorn.org)</li>
-                    <li><strong class="text-slate-900">4.3</strong> The OT shall implement evidence-based SSI prevention practices across the intraoperative phase including hand hygiene, surgical scrub, skin antisepsis with alcohol-based agents where appropriate, sterile gowning/gloving, draping, and sterile field maintenance. (iris.who.int)</li>
-                    <li><strong class="text-slate-900">4.4</strong> Cleaning and disinfection shall be performed between cases and at end-of-day/terminal intervals using approved agents, verified contact times, and documented sign-off, consistent with CDC environmental cleaning and disinfection guidance.</li>
-                    <li><strong class="text-slate-900">4.5</strong> OT shall apply standard precautions for all patients and implement enhanced workflows for isolation cases, including PPE, route control, and environmental cleaning sign-off.</li>
-                    <li><strong class="text-slate-900">4.6</strong> Sterile supplies, instruments, and linen shall be handled and transported using clean-to-dirty separation and controlled workflows, aligned with recognized sterile processing guidance and infection control principles. (The ANSI Blog)</li>
-                    <li><strong class="text-slate-900">4.7</strong> Noncompliance is a patient safety risk. The OT shall monitor compliance through audits and corrective actions.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Section 5.0: Rose Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-rose-600 to-pink-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 RESPONSIBILITIES</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-rose-50/30 space-y-6">
-                
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.1 OT Director/Chair</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.1.1</strong> Ensures enforcement of OT IPC standards and escalation of systemic failures (HVAC issues, repeated door discipline failure, cleaning noncompliance, sterile supply defects).</li>
-                        <li><strong class="text-slate-800">5.1.2</strong> Chairs or delegates OT IPC review within OTMC/QPS.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.2 OT Nurse Manager</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.2.1</strong> Ensures training, competency validation, and daily supervision of IPC practices.</li>
-                        <li><strong class="text-slate-800">5.2.2</strong> Ensures availability of supplies: PPE, hand hygiene products, scrub supplies, sterile drapes, spill kits, disinfectants, label/contact time guides.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.3 IPC Lead / Infection Control Practitioner</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.3.1</strong> Provides oversight, audits, outbreak advice, and liaison with OT leadership.</li>
-                        <li><strong class="text-slate-800">5.3.2</strong> Supports SSI surveillance metrics and improvement projects (bundles).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.4 OT Charge Nurse (Per Shift)</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.4.1</strong> Enforces zoning, attire, traffic, and door discipline.</li>
-                        <li><strong class="text-slate-800">5.4.2</strong> Ensures cleaning/turnover is completed and documented before next patient.</li>
-                        <li><strong class="text-slate-800">5.4.3</strong> Ensures isolation workflows and PPE readiness.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.5 Circulating Nurse</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.5.1</strong> Ensures sterile field protection and contamination response.</li>
-                        <li><strong class="text-slate-800">5.5.2</strong> Verifies skin prep completion and draping discipline.</li>
-                        <li><strong class="text-slate-800">5.5.3</strong> Coordinates equipment cleaning between patients as per policy.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.6 Scrub Nurse/Technologist</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.6.1</strong> Maintains aseptic technique within the sterile field and participates in contamination response actions.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.7 Housekeeping/Environmental Services (EVS)</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.7.1</strong> Performs between-case cleaning and terminal cleaning using approved products and documented contact times.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.8 CSSD</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.8.1</strong> Ensures reprocessing meets standards, supports transport/loaner tray governance, and communicates defects/nonconformities. (The ANSI Blog)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.9 Engineering/FMS</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.9.1</strong> Maintains ventilation, pressure relationships, temperature/humidity performance, preventive maintenance logs, and responds to OT environmental alarms/events. (ASHRAE)</li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 6.0 (General Environmental): Teal Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-12 policy-card">
-            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">6.0 GENERAL ENVIRONMENTAL CONTROL REQUIREMENTS</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/30 space-y-6">
-                
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">6.1 Cleanliness and Storage Discipline</h3>
-                    <ul class="custom-list theme-teal space-y-2">
-                        <li><strong class="text-slate-800">6.1.1</strong> OT areas shall be kept clean, dust-controlled, and free of unnecessary storage.</li>
-                        <li><strong class="text-slate-800">6.1.2</strong> Only essential items shall be kept in restricted areas; excess storage increases dust load and cleaning complexity.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">6.2 Ventilation, Pressure, Temperature, and Humidity (Operational Expectations)</h3>
-                    <ul class="custom-list theme-teal space-y-2">
-                        <li><strong class="text-slate-800">6.2.1</strong> Operating rooms shall maintain appropriate pressure relationships (typically positive to adjacent spaces where required) per facility design standards and commissioning documentation; pressure relationships and tolerances should be defined and monitored by engineering/FMS. (ASHRAE)</li>
-                        <li><strong class="text-slate-800">6.2.2</strong> Temperature and relative humidity shall be maintained within facility-approved ranges; the OT shall coordinate with engineering/FMS to log and respond to out-of-range events. (ASHRAE)</li>
-                        <li><strong class="text-slate-800">6.2.3</strong> OT shall implement operational controls that protect airflow performance: minimize door opening, limit traffic, and avoid unnecessary movement during critical phases. (aornjournal.onlinelibrary.wiley.com)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">6.3 Eating/Drinking/Personal Items Control</h3>
-                    <ul class="custom-list theme-teal space-y-2">
-                        <li><strong class="text-slate-800">6.3.1</strong> Eating, drinking, and smoking are prohibited in clinical OT zones except in designated areas; personal items are controlled to reduce contamination risk.</li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 7 Header -->
-        <div class="mb-6 mt-12">
-            <h2 class="text-3xl heading-serif font-bold text-slate-800 border-b-2 border-slate-300 pb-2">7.0 PROCEDURES — PART III / SEC 9</h2>
-            <p class="text-slate-500 font-medium italic mt-2">(Sections 9.1–9.17 are mandatory components of this single policy.)</p>
-        </div>
-
-        <!-- Section 9.1: Cyan Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.1 OT ZONING (UNRESTRICTED / SEMI-RESTRICTED / RESTRICTED)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.1.1 Objectives</h4>
-                    <ul class="custom-list theme-cyan space-y-2">
-                        <li><strong class="text-slate-800">9.1.1.1</strong> To create a controlled gradient of microbial reduction from outer areas to sterile-critical zones.</li>
-                        <li><strong class="text-slate-800">9.1.1.2</strong> To reduce airborne and contact contamination of sterile supplies and operative fields.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.1.2 Zone Definitions and Access Rules</h4>
-                    
-                    <p class="font-bold text-slate-800 mt-2">9.1.2.1 Unrestricted Zone</p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) Examples: outer corridors, reception outside OT suite, administrative areas.</li>
-                        <li>b) Attire: street clothes may be permitted; OT attire not required unless entering semi-restricted/restricted zones.</li>
-                        <li>c) Access: public and staff access controlled according to facility security policy.</li>
-                    </ul>
-
-                    <p class="font-bold text-slate-800">9.1.2.2 Semi-Restricted Zone</p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) Examples: clean corridors within OT suite, sterile core access corridors, clean supply areas.</li>
-                        <li>b) Attire: scrub attire required; head covering as per facility policy; footwear policy enforced. (Aorn.org)</li>
-                        <li>c) Traffic: controlled; only authorized personnel.</li>
-                    </ul>
-
-                    <p class="font-bold text-slate-800">9.1.2.3 Restricted Zone</p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) Examples: operating rooms, scrub areas adjacent to OR, sterile field–critical areas.</li>
-                        <li>b) Attire: scrub attire + head covering; mask required when open sterile supplies are present or per facility rule for restricted zones. (Aorn.org)</li>
-                        <li>c) Behavior: strict door discipline; minimal personnel; controlled conversation and movement.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.1.3 Physical Controls and Signage</h4>
-                    <ul class="custom-list theme-cyan space-y-2">
-                        <li><strong class="text-slate-800">9.1.3.1</strong> Zones shall be clearly marked with signage and floor plans.</li>
-                        <li><strong class="text-slate-800">9.1.3.2</strong> Entry/exit routes shall be defined to support clean-to-dirty flow and prevent cross-contamination.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.1.4 Monitoring</h4>
-                    <ul class="custom-list theme-cyan space-y-2">
-                        <li><strong class="text-slate-800">9.1.4.1</strong> Charge nurse conducts daily zone compliance checks.</li>
-                        <li><strong class="text-slate-800">9.1.4.2</strong> Monthly audits include traffic, attire compliance, and door discipline.</li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.2: Indigo Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.2 OT ATTIRE &amp; DRESS CODE (IPP-OT-003)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.2.1 Objectives</h4>
-                    <ul class="custom-list theme-indigo space-y-2">
-                        <li><strong class="text-slate-800">9.2.1.1</strong> To reduce shedding of microorganisms and particles into the OT environment and sterile field.</li>
-                        <li><strong class="text-slate-800">9.2.1.2</strong> To enforce consistent attire practices aligned with semi-restricted and restricted zone requirements. (Aorn.org)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.2.2 Scrub Attire Standards</h4>
-                    <ul class="custom-list theme-indigo space-y-2">
-                        <li><strong class="text-slate-800">9.2.2.1</strong> Scrub attire shall be worn in semi-restricted and restricted areas only; street clothes are not permitted beyond defined unrestricted zones.</li>
-                        <li><strong class="text-slate-800">9.2.2.2</strong> Scrub attire shall be clean, facility-laundered where policy requires, and changed when visibly soiled or after contamination events.</li>
-                        <li><strong class="text-slate-800">9.2.2.3</strong> Changing areas and routes shall be controlled so staff do not enter restricted zones without proper attire.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.2.3 Head and Hair Covering</h4>
-                    <ul class="custom-list theme-indigo space-y-2">
-                        <li><strong class="text-slate-800">9.2.3.1</strong> Hair/scalp shall be covered upon entry to semi-restricted and restricted areas; facial hair coverage rules follow facility policy. (Aorn.org)</li>
-                        <li><strong class="text-slate-800">9.2.3.2</strong> If reusable head coverings are permitted, laundering frequency and method must be defined by the facility. (Aorn.org)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.2.4 Masks and Eye Protection</h4>
-                    <ul class="custom-list theme-indigo space-y-2">
-                        <li><strong class="text-slate-800">9.2.4.1</strong> Surgical masks shall be worn in restricted areas according to facility policy, especially when sterile supplies are open and during sterile procedures.</li>
-                        <li><strong class="text-slate-800">9.2.4.2</strong> Eye/face protection shall be used when splash/spray risk exists (blood/body fluids).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.2.5 Footwear</h4>
-                    <p><strong class="text-slate-800">9.2.5.1</strong> Footwear shall be dedicated or protected per policy; shoe covers used when required by facility rule and removed upon leaving restricted zones if policy mandates.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.2.6 Personal Items</h4>
-                    <ul class="custom-list theme-indigo space-y-2">
-                        <li><strong class="text-slate-800">9.2.6.1</strong> Jewelry, watches, and nonessential items are restricted in sterile-critical zones.</li>
-                        <li><strong class="text-slate-800">9.2.6.2</strong> Mobile phone use is restricted; if permitted in specific areas, hand hygiene must be performed before and after handling devices.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.2.7 Attire Noncompliance</h4>
-                    <p><strong class="text-slate-800">9.2.7.1</strong> Immediate correction required; repeated noncompliance escalated to OT manager and addressed through competency and HR processes.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.3: Fuchsia Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.3 TRAFFIC CONTROL / DOOR OPENING DISCIPLINE (IPP-OT-004)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
-                
-                <p class="text-sm italic text-slate-500">(Expanded scientific explanatory text required.)</p>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.3.1 Objectives</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.3.1.1</strong> To reduce airborne microbial contamination by controlling the primary drivers of particle disruption: movement, door opening, and personnel density.</li>
-                        <li><strong class="text-slate-800">9.3.1.2</strong> To maintain positive pressure and designed airflow patterns that protect the sterile field, recognizing that frequent door openings disrupt pressure gradients and airflow stability. (ASHRAE)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.3.2 Scientific Rationale</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.3.2.1</strong> The operating room environment is designed to limit microbial load through controlled ventilation and airflow distribution. When doors open, pressure relationships may be disrupted, allowing movement of airborne particles and potentially microorganisms from adjacent zones into the OR. (ASHRAE)</li>
-                        <li><strong class="text-slate-800">9.3.2.2</strong> Studies and perioperative literature describe frequent door openings as common and associated with increased contamination risk; therefore, traffic reduction is a recognized quality and safety target. (aornjournal.onlinelibrary.wiley.com)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.3.3 Core Traffic Rules (Mandatory)</h4>
-                    
-                    <p class="font-bold text-slate-800 mt-2">9.3.3.1 Keep OR Doors Closed</p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) OR doors shall remain closed except for necessary entry/exit and essential supply transfer.</li>
-                        <li>b) Doors must not be propped open.</li>
-                        <li>c) Door opening is minimized especially during: skin incision, implant insertion, wound closure, and sterile field setup.</li>
-                    </ul>
-
-                    <p class="font-bold text-slate-800">9.3.3.2 Only Necessary Personnel</p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) Only essential staff are permitted in the OR.</li>
-                        <li>b) Nonessential observers are limited, approved, and supervised (see SEC 4 ethics/observers rules).</li>
-                    </ul>
-
-                    <p class="font-bold text-slate-800">9.3.3.3 Define Entry/Exit Routes</p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) Staff shall use designated routes and entrances.</li>
-                        <li>b) Clean items enter via clean routes; soiled items exit via defined routes to prevent cross-traffic.</li>
-                    </ul>
-
-                    <p class="font-bold text-slate-800">9.3.3.4 Supply Planning to Reduce Door Openings</p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) Case carts and supply staging shall be prepared before patient entry.</li>
-                        <li>b) Preference cards and procedure-specific packs should be used to minimize ad-hoc retrieval.</li>
-                        <li>c) “Runner” role (outside OR) should retrieve additional items when needed to reduce door opening frequency and crowding inside OR.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.3.4 Door Opening Discipline (Operational Controls)</h4>
-                    <p class="mb-1"><strong class="text-slate-800">9.3.4.1</strong> Door opening events shall be treated as controllable process steps, not casual behaviors.</p>
-                    <p class="mb-1"><strong class="text-slate-800">9.3.4.2 Charge nurse establishes expected behaviors:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) knock before entry</li>
-                        <li>b) enter/exit quickly, close door fully</li>
-                        <li>c) avoid conversation at doorway</li>
-                        <li>d) avoid holding door open while waiting</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.3.5 High-Risk Period Controls (Enhanced)</h4>
-                    <p class="mb-1"><strong class="text-slate-800">9.3.5.1 During implant cases, orthopedic arthroplasty, and other high-risk SSI procedures, enhanced door discipline applies:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) restrict entry after Time-Out unless urgent</li>
-                        <li>b) designate runner outside OR</li>
-                        <li>c) pre-position all anticipated implant trays and sizes.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.3.6 Communication and Culture</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.3.6.1</strong> Door/traffic discipline is a team responsibility; leadership must support respectful reminders.</li>
-                        <li><strong class="text-slate-800">9.3.6.2</strong> A simple script is approved: “Door closed for sterile safety.”</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.3.7 Monitoring and Auditing</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.3.7.1</strong> OT shall conduct at least monthly audits of door openings/traffic.</li>
-                        <li><strong class="text-slate-800">9.3.7.2</strong> Thresholds may be defined locally (e.g., door openings per hour); audit results must drive corrective actions and workflow redesign.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.3.8 Corrective Actions</h4>
-                    <p><strong class="text-slate-800">9.3.8.1</strong> Recurrent door opening causes (missing supplies, unclear preference cards, equipment storage location) must be corrected by system redesign rather than repeated reminders alone.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.4: Sky Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.4 HAND HYGIENE + SURGICAL HAND SCRUB (IPP-OT-005)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.4.1 Objectives</h4>
-                    <ul class="custom-list theme-sky space-y-2">
-                        <li><strong class="text-slate-800">9.4.1.1</strong> To reduce transient flora and minimize transmission risk to patients and sterile supplies.</li>
-                        <li><strong class="text-slate-800">9.4.1.2</strong> To standardize surgical hand antisepsis before donning sterile attire, aligned with WHO hand hygiene guidance. (www3.paho.org)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.4.2 Hand Hygiene Indications in OT</h4>
-                    <p class="mb-1"><strong class="text-slate-800">9.4.2.1 Perform hand hygiene:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) on entering and leaving the OR</li>
-                        <li>b) before and after patient contact</li>
-                        <li>c) after contact with contaminated surfaces</li>
-                        <li>d) after glove removal</li>
-                        <li>e) before handling sterile supplies (if not scrubbed)</li>
-                        <li>f) after touching personal devices.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.4.3 Alcohol-Based Hand Rub vs Soap and Water</h4>
-                    <ul class="custom-list theme-sky space-y-2">
-                        <li><strong class="text-slate-800">9.4.3.1</strong> Use alcohol-based hand rub (ABHR) for routine hand hygiene when hands are not visibly soiled. (www3.paho.org)</li>
-                        <li><strong class="text-slate-800">9.4.3.2</strong> Use soap and water when hands are visibly soiled or after contact with spore-forming organisms as per IPC policy.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.4.4 Surgical Hand Antisepsis (Scrub) — Standard</h4>
-                    <p class="mb-1"><strong class="text-slate-800">9.4.4.1</strong> Scrub sinks must be maintained in good working order with adequate supplies.</p>
-                    <p class="mb-1"><strong class="text-slate-800">9.4.4.2 Surgical scrub may be performed by:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) antimicrobial soap scrub (timed method) OR</li>
-                        <li>b) alcohol-based surgical hand rub with persistent activity, following manufacturer IFU and facility policy. (www3.paho.org)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.4.5 Scrub Technique (Minimum Requirements)</h4>
-                    <ul class="custom-list theme-sky space-y-2">
-                        <li><strong class="text-slate-800">9.4.5.1</strong> Remove jewelry; nails short; no artificial nails.</li>
-                        <li><strong class="text-slate-800">9.4.5.2</strong> Use approved nail cleaning method at first scrub of the day if facility policy requires.</li>
-                        <li><strong class="text-slate-800">9.4.5.3</strong> Follow defined scrub duration/steps per product and policy; keep hands above elbows; avoid splashing.</li>
-                        <li><strong class="text-slate-800">9.4.5.4</strong> Dry hands with sterile towel before gowning and gloving (for traditional scrub method).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.4.6 Compliance Monitoring</h4>
-                    <p><strong class="text-slate-800">9.4.6.1</strong> Direct observation audits, with feedback and corrective actions.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.5: Orange Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.5 STERILE GOWNING (IPP-OT-006)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.5.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.5.1.1</strong> To create a sterile barrier between sterile field and the wearer’s clothing/skin.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.5.2 Timing and Preconditions</h4>
-                    <ul class="custom-list theme-orange space-y-2">
-                        <li><strong class="text-slate-800">9.5.2.1</strong> Gowning occurs after surgical hand antisepsis and before gloving.</li>
-                        <li><strong class="text-slate-800">9.5.2.2</strong> Sterile gown package integrity must be checked before opening.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.5.3 Technique (Standard)</h4>
-                    <ul class="custom-list theme-orange space-y-2">
-                        <li><strong class="text-slate-800">9.5.3.1</strong> Open gown using aseptic method; avoid touching outside surfaces with nonsterile hands.</li>
-                        <li><strong class="text-slate-800">9.5.3.2</strong> Don gown without contaminating outer surface; circulating nurse assists with back closure using nonsterile technique.</li>
-                        <li><strong class="text-slate-800">9.5.3.3</strong> If contamination is suspected at any point: stop, remove, and re-gown.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.5.4 Gown Removal</h4>
-                    <p><strong class="text-slate-800">9.5.4.1</strong> Remove gowns appropriately and dispose/contain before leaving restricted area when contaminated or at case end.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.6: Teal Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.6 STERILE GLOVING (IPP-OT-007)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.6.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.6.1.1</strong> To maintain sterile barrier for hands and prevent contamination of sterile field.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.6.2 Technique (Standard)</h4>
-                    <ul class="custom-list theme-teal space-y-2">
-                        <li><strong class="text-slate-800">9.6.2.1</strong> Closed-glove technique is preferred after gowning.</li>
-                        <li><strong class="text-slate-800">9.6.2.2</strong> Double gloving is recommended for high-risk procedures per local risk assessment; change outer gloves when contaminated or punctured.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.6.3 Glove Integrity and Change</h4>
-                    <p class="mb-1"><strong class="text-slate-800">9.6.3.1 Change gloves:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) when puncture suspected</li>
-                        <li>b) after contact with nonsterile surfaces</li>
-                        <li>c) after handling contaminated items</li>
-                        <li>d) when moving from dirty to clean tasks within sterile field.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.6.4 Glove Removal</h4>
-                    <p><strong class="text-slate-800">9.6.4.1</strong> Remove gloves before leaving restricted zones when contaminated and perform hand hygiene after glove removal.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.7: Red Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.7 SURGICAL SKIN ANTISEPSIS (IPP-OT-010)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.7.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.7.1.1</strong> To reduce skin microbial load at operative site immediately before incision to reduce SSI risk.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.7.2 Evidence-Based Expectations</h4>
-                    <p><strong class="text-slate-800">9.7.2.1</strong> CDC SSI guideline supports intraoperative skin preparation with an antiseptic containing alcohol unless contraindicated. (CDC Stacks)</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.7.3 Pre-Skin Prep Verification</h4>
-                    <ul class="custom-list theme-red space-y-2">
-                        <li><strong class="text-slate-800">9.7.3.1</strong> Confirm correct site/side and marking verification per OT-IPSG policy.</li>
-                        <li><strong class="text-slate-800">9.7.3.2</strong> Check for contraindications (allergy, mucous membrane exposure risk, ignition risk management with alcohol solutions).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.7.4 Standard Skin Prep Procedure</h4>
-                    <ul class="custom-list theme-red space-y-2">
-                        <li><strong class="text-slate-800">9.7.4.1</strong> Use approved antiseptic product per facility formulary and manufacturer IFU.</li>
-                        <li><strong class="text-slate-800">9.7.4.2</strong> Apply from incision site outward using sterile technique; avoid retracing from dirty to clean.</li>
-                        <li><strong class="text-slate-800">9.7.4.3</strong> Respect required contact time and allow complete drying before draping and before use of electrosurgical devices when alcohol-based prep used (fire risk control).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.7.5 Special Situations</h4>
-                    <ul class="custom-list theme-red space-y-2">
-                        <li><strong class="text-slate-800">9.7.5.1</strong> Pediatric/neonate skin sensitivity: use appropriate agent and technique per policy.</li>
-                        <li><strong class="text-slate-800">9.7.5.2</strong> Hair removal: only when necessary; use clippers, not razors (if included in facility SSI bundle approach). (iris.who.int)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.7.6 Documentation</h4>
-                    <p><strong class="text-slate-800">9.7.6.1</strong> Record agent, site, time applied, and confirmation of drying (as required).</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.8: Indigo Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.8 DRAPING (IPP-OT-011)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.8.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.8.1.1</strong> To isolate operative site from surrounding nonsterile areas and provide a sterile working field.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.8.2 Principles</h4>
-                    <ul class="custom-list theme-indigo space-y-2">
-                        <li><strong class="text-slate-800">9.8.2.1</strong> Drapes are handled only by scrubbed personnel.</li>
-                        <li><strong class="text-slate-800">9.8.2.2</strong> Draping proceeds from incision site outward; avoid reaching over nonsterile areas.</li>
-                        <li><strong class="text-slate-800">9.8.2.3</strong> Maintain drape integrity; secure to prevent slippage.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.8.3 Specialty Draping Requirements</h4>
-                    <p><strong class="text-slate-800">9.8.3.1</strong> Implant cases may require specialized drapes; ensure correct packs are available before case start.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.8.4 Drape Failure</h4>
-                    <p><strong class="text-slate-800">9.8.4.1</strong> If drape is contaminated or falls below sterile field: replace if possible; document and report per contamination response.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.9: Cyan Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.9 MAINTAINING STERILE FIELD &amp; CONTAMINATION RESPONSE (IPP-OT-013)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.9.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.9.1.1</strong> To maintain a sterile field throughout the procedure and respond decisively to contamination to protect the patient.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.9.2 Core Sterile Field Rules</h4>
-                    <p class="mb-1"><strong class="text-slate-800">9.9.2.1 Sterile items remain sterile only when:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) within the sterile field boundaries</li>
-                        <li>b) continuously observed</li>
-                        <li>c) protected from moisture compromise</li>
-                        <li>d) not touched by nonsterile surfaces/personnel.</li>
-                    </ul>
-                    <p class="mb-1"><strong class="text-slate-800">9.9.2.2 Movement discipline:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) sterile personnel remain within sterile zone; nonsterile personnel maintain distance from sterile field</li>
-                        <li>b) passing: sterile-to-sterile and nonsterile-to-nonsterile only.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.9.3 Contamination Definitions (Operational)</h4>
-                    <ul class="custom-list theme-cyan space-y-2">
-                        <li><strong class="text-slate-800">9.9.3.1 Major contamination:</strong> sterile instrument dropped, nonsterile contact with wound/sterile instruments, wet pack/compromised packaging, unknown sterility.</li>
-                        <li><strong class="text-slate-800">9.9.3.2 Minor contamination:</strong> contamination limited to noncritical area with immediate correction possible (as defined by risk assessment).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.9.4 Contamination Response Algorithm (Mandatory)</h4>
-                    <ul class="custom-list theme-cyan space-y-2">
-                        <li><strong class="text-slate-800">9.9.4.1</strong> Stop the action immediately.</li>
-                        <li><strong class="text-slate-800">9.9.4.2</strong> Announce contamination clearly.</li>
-                        <li><strong class="text-slate-800">9.9.4.3</strong> Remove contaminated item from sterile field.</li>
-                        <li><strong class="text-slate-800">9.9.4.4</strong> Replace with sterile item (new instrument, new drape, re-glove, re-gown as needed).</li>
-                        <li><strong class="text-slate-800">9.9.4.5</strong> Assess whether wound contamination occurred; surgeon/IPC notified as appropriate.</li>
-                        <li><strong class="text-slate-800">9.9.4.6</strong> Document event and report if significant or repeated.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.9.5 Wet Packs / Compromised Packaging</h4>
-                    <p><strong class="text-slate-800">9.9.5.1</strong> Considered nonsterile; do not use; segregate and return to CSSD with documentation; investigate per CSSD policy.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.9.6 Sterile Field Monitoring</h4>
-                    <p><strong class="text-slate-800">9.9.6.1</strong> Circulating nurse monitors traffic, door discipline, and behaviors threatening sterile field.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.10: Fuchsia Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.10 ISOLATION CASE WORKFLOW (PPE, ROUTES, CLEANING SIGN-OFF)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.10.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.10.1.1</strong> To prevent transmission of pathogens during operative care and protect patients and staff using standard and transmission-based precautions.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.10.2 Pre-Case Planning</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.10.2.1</strong> Identify isolation type (contact/droplet/airborne) before patient transfer.</li>
-                        <li><strong class="text-slate-800">9.10.2.2</strong> Assign designated OR if facility policy requires; minimize equipment brought into room.</li>
-                        <li><strong class="text-slate-800">9.10.2.3</strong> Prepare PPE station and waste disposal plan.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.10.3 Patient Routing</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.10.3.1</strong> Use predetermined route to minimize exposure to other patients/areas.</li>
-                        <li><strong class="text-slate-800">9.10.3.2</strong> Limit corridor time; keep doors closed.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.10.4 PPE Rules</h4>
-                    <p><strong class="text-slate-800">9.10.4.1</strong> PPE per IPC policy and risk assessment; don/doff in correct sequence; hand hygiene performed at each step.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.10.5 Equipment Controls</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.10.5.1</strong> Use disposable items where appropriate.</li>
-                        <li><strong class="text-slate-800">9.10.5.2</strong> Reusable equipment must be cleaned/disinfected according to IFU and policy before leaving room.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.10.6 Post-Case Environmental Cleaning and Sign-Off</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.10.6.1</strong> Perform enhanced cleaning/terminal cleaning as required by pathogen and policy.</li>
-                        <li><strong class="text-slate-800">9.10.6.2</strong> Cleaning sign-off required before next case.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.10.7 Documentation</h4>
-                    <p><strong class="text-slate-800">9.10.7.1</strong> Isolation checklist completed and retained as record.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.11: Orange Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.11 BETWEEN-CASE CLEANING &amp; TURNOVER (ROLES, AGENTS, CONTACT TIME)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.11.1 Objectives</h4>
-                    <ul class="custom-list theme-orange space-y-2">
-                        <li><strong class="text-slate-800">9.11.1.1</strong> To remove bioburden and reduce cross-contamination between patients.</li>
-                        <li><strong class="text-slate-800">9.11.1.2</strong> To standardize EVS/OT responsibilities and ensure disinfectant contact time compliance.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.11.2 Role Allocation</h4>
-                    <ul class="custom-list theme-orange space-y-2">
-                        <li><strong class="text-slate-800">9.11.2.1</strong> EVS: floors, environmental surfaces, high-touch areas, waste removal, terminal routines per checklist.</li>
-                        <li><strong class="text-slate-800">9.11.2.2</strong> OT staff: immediate removal of sharps, containment of instruments for CSSD, wiping of anesthesia/OT equipment per assigned responsibilities (as defined by local split).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.11.3 Between-Case Cleaning Steps (Minimum)</h4>
-                    <ul class="custom-list theme-orange space-y-2">
-                        <li><strong class="text-slate-800">9.11.3.1</strong> Remove waste and soiled linen in closed bags.</li>
-                        <li><strong class="text-slate-800">9.11.3.2</strong> Clean and disinfect high-touch surfaces: OR table surfaces, light handles (if touched), door handles, touch screens, carts, stools, cords where appropriate.</li>
-                        <li><strong class="text-slate-800">9.11.3.3</strong> Use approved disinfectant and ensure required wet contact time per label.</li>
-                        <li><strong class="text-slate-800">9.11.3.4</strong> Spot-clean visible soil before disinfection.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.11.4 Turnover Sequencing</h4>
-                    <p><strong class="text-slate-800">9.11.4.1</strong> Clean from cleaner areas to dirtier areas; high-touch surfaces prioritized.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.11.5 Documentation</h4>
-                    <p><strong class="text-slate-800">9.11.5.1</strong> Between-case cleaning checklist signed by EVS and verified by charge nurse/circulating nurse.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.12: Teal Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.12 END-OF-DAY / TERMINAL CLEANING</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.12.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.12.1.1</strong> To reduce environmental reservoir contamination after daily activities, addressing surfaces not fully cleaned during turnover.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.12.2 Terminal Cleaning Standards</h4>
-                    <p class="mb-1"><strong class="text-slate-800">9.12.2.1 Follow CDC environmental cleaning procedures and local terminal cleaning protocol; ensure thorough cleaning of:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) OR table base and wheels</li>
-                        <li>b) anesthesia work areas (as assigned)</li>
-                        <li>c) monitors/cables (per IFU)</li>
-                        <li>d) lights, booms, walls where indicated</li>
-                        <li>e) floors (wet clean) and corners.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.12.3 Contact Time Compliance</h4>
-                    <p><strong class="text-slate-800">9.12.3.1</strong> Must follow disinfectant label instructions; document product used and completion time.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.12.4 Terminal Cleaning Sign-Off</h4>
-                    <p><strong class="text-slate-800">9.12.4.1</strong> Required sign-off by EVS and verification by OT supervisor.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.13: Red Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.13 BLOOD/BODY FLUID SPILL MANAGEMENT</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.13.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.13.1.1</strong> To prevent exposure and environmental contamination from blood/body fluids and ensure safe decontamination.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.13.2 Spill Kit Availability</h4>
-                    <p><strong class="text-slate-800">9.13.2.1</strong> Spill kits must be available in OT areas and checked daily.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.13.3 Immediate Actions</h4>
-                    <ul class="custom-list theme-red space-y-2">
-                        <li><strong class="text-slate-800">9.13.3.1</strong> Restrict access to spill area.</li>
-                        <li><strong class="text-slate-800">9.13.3.2</strong> Don appropriate PPE.</li>
-                        <li><strong class="text-slate-800">9.13.3.3</strong> Absorb and remove visible material first, then disinfect using approved product per contact time.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.13.4 Sharps Safety</h4>
-                    <p><strong class="text-slate-800">9.13.4.1</strong> Do not pick up sharps with hands; use tools; dispose in sharps container.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.13.5 Documentation</h4>
-                    <p><strong class="text-slate-800">9.13.5.1</strong> Significant spills and exposures reported via incident system; repeated spills trigger process review.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.14: Sky Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.14 EQUIPMENT CLEANING BETWEEN PATIENTS</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.14.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.14.1.1</strong> To prevent transmission via shared devices (monitors, cables, pumps, tourniquet systems, positioning aids).</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.14.2 Classification and IFU</h4>
-                    <p><strong class="text-slate-800">9.14.2.1</strong> Follow device IFU and disinfection/sterilization guidance for noncritical surfaces; CDC provides recommendations for disinfection of noncritical surfaces and equipment.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.14.3 Minimum Standards</h4>
-                    <p class="mb-1"><strong class="text-slate-800">9.14.3.1 Clean and disinfect:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) monitor controls and touch screens</li>
-                        <li>b) cables and probes (per IFU)</li>
-                        <li>c) infusion pumps surfaces</li>
-                        <li>d) suction handles and canisters (as applicable)</li>
-                        <li>e) positioning devices and straps.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.14.4 Accountability</h4>
-                    <p><strong class="text-slate-800">9.14.4.1</strong> Each OR shall have an equipment cleaning responsibility matrix signed by OT and EVS leadership.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.14.5 Documentation</h4>
-                    <p><strong class="text-slate-800">9.14.5.1</strong> Equipment cleaning checklist completed between cases for defined items.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.15: Indigo Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.15 STERILE SUPPLIES HANDLING, STORAGE, EVENT-RELATED STERILITY</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.15.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.15.1.1</strong> To ensure sterile supplies remain sterile until point of use and are protected from events that compromise packaging.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.15.2 Receiving and Storage</h4>
-                    <p><strong class="text-slate-800">9.15.2.1</strong> Store sterile supplies in clean, dry, temperature-controlled areas; protect from dust, moisture, crushing, and overhandling.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.15.3 Handling Rules</h4>
-                    <p class="mb-1"><strong class="text-slate-800">9.15.3.1 Inspect packaging integrity before bringing into OR:</strong></p>
-                    <ul class="alpha-list ml-6 mb-2">
-                        <li>a) no tears/punctures</li>
-                        <li>b) seals intact</li>
-                        <li>c) no moisture/wet packs</li>
-                        <li>d) indicators appropriate.</li>
-                    </ul>
-                    <p><strong class="text-slate-800">9.15.3.2</strong> Do not use compromised packages; return to CSSD with documentation.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.15.4 Event-Related Sterility Approach</h4>
-                    <p><strong class="text-slate-800">9.15.4.1</strong> Sterility is considered maintained unless an event compromises packaging or storage integrity; facility policy defines shelf life and audit method; sterile processing standards discuss sterility assurance and handling controls.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.15.5 Expiry Management</h4>
-                    <ul class="custom-list theme-indigo space-y-2">
-                        <li><strong class="text-slate-800">9.15.5.1</strong> Check expiration dates and rotate stock (FIFO/FEFO).</li>
-                        <li><strong class="text-slate-800">9.15.5.2</strong> Expired items removed immediately and documented.</li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.16: Fuchsia Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.16 CSSD INTERFACE: POINT-OF-USE PRE-CLEANING, TRANSPORT, LOANER TRAYS GOVERNANCE</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.16.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.16.1.1</strong> To ensure instruments are protected from drying bioburden, transported safely, and reprocessed reliably with traceable documentation.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.16.2 Point-of-Use Pre-Cleaning (Immediate Post-Use)</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.16.2.1</strong> Remove gross soil promptly; keep instruments moist per policy (e.g., damp towel or approved enzymatic spray if permitted by IFU).</li>
-                        <li><strong class="text-slate-800">9.16.2.2</strong> Segregate delicate instruments and sharps; protect tips.</li>
-                        <li><strong class="text-slate-800">9.16.2.3</strong> Do not soak powered instruments unless IFU permits.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.16.3 Safe Transport</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.16.3.1</strong> Use closed, leak-proof, labeled transport containers/carts.</li>
-                        <li><strong class="text-slate-800">9.16.3.2</strong> Maintain clean-to-dirty separation routes.</li>
-                        <li><strong class="text-slate-800">9.16.3.3</strong> Transport promptly to CSSD decontamination area; do not store soiled instruments in clean corridors.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.16.4 Loaner Trays / Vendor Sets Governance</h4>
-                    <ul class="custom-list theme-fuchsia space-y-2">
-                        <li><strong class="text-slate-800">9.16.4.1</strong> Loaner sets must arrive within defined time window before surgery to allow complete reprocessing and inspection.</li>
-                        <li><strong class="text-slate-800">9.16.4.2</strong> Documentation must include: tray list, delivery time, CSSD receipt time, release time, and missing/damaged item log.</li>
-                        <li><strong class="text-slate-800">9.16.4.3</strong> Any late delivery jeopardizing safe reprocessing triggers escalation and potential case delay/cancellation under OT flow policy.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.16.5 Sterilization Failure and Nonconformities</h4>
-                    <p><strong class="text-slate-800">9.16.5.1</strong> If sterility indicators fail or wet packs occur, follow CSSD failure investigation process aligned with sterile processing guidance.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 9.17: Cyan Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12 policy-card">
-            <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">9.17 LINEN HANDLING &amp; CLEAN/DIRTY SEPARATION</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.17.1 Objectives</h4>
-                    <p><strong class="text-slate-800">9.17.1.1</strong> To prevent spread of contamination via textiles and ensure safe handling and transport.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.17.2 Handling Rules</h4>
-                    <ul class="custom-list theme-cyan space-y-2">
-                        <li><strong class="text-slate-800">9.17.2.1</strong> Handle soiled linen as contaminated; avoid shaking.</li>
-                        <li><strong class="text-slate-800">9.17.2.2</strong> Place into designated bags at point of use; close before transport.</li>
-                        <li><strong class="text-slate-800">9.17.2.3</strong> Separate clean and soiled linen storage and routes; do not store in corridors or mixed areas.</li>
-                        <li><strong class="text-slate-800">9.17.2.4</strong> Follow facility laundry process consistent with environmental infection control guidance.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">9.17.3 Linen in Isolation Cases</h4>
-                    <p><strong class="text-slate-800">9.17.3.1</strong> Use appropriate bagging and labeling per IPC policy; transport using defined route.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 8.0: Orange Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">8.0 TRAINING AND COMPETENCY</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">8.1 All OT staff must complete orientation and annual refreshers on:</h3>
-                    <ul class="custom-list theme-orange space-y-2">
-                        <li><strong class="text-slate-800">8.1.1</strong> zoning and attire requirements</li>
-                        <li><strong class="text-slate-800">8.1.2</strong> traffic/door discipline and its impact on environment</li>
-                        <li><strong class="text-slate-800">8.1.3</strong> WHO hand hygiene and surgical scrub technique</li>
-                        <li><strong class="text-slate-800">8.1.4</strong> sterile gowning/gloving, draping, sterile field maintenance</li>
-                        <li><strong class="text-slate-800">8.1.5</strong> isolation workflows and PPE practice</li>
-                        <li><strong class="text-slate-800">8.1.6</strong> cleaning/turnover/terminal cleaning with correct contact time</li>
-                        <li><strong class="text-slate-800">8.1.7</strong> CSSD interface and instrument transport safety</li>
-                    </ul>
-                </div>
-                <div>
-                    <p><strong class="text-slate-800">8.2</strong> Competency validation includes direct observation checklists (Appendices).</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 9.0: Red Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">9.0 MONITORING, AUDIT, AND KPI REQUIREMENTS</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">9.1 Audit Program (Minimum Monthly Audits)</h3>
-                    <ul class="custom-list theme-red space-y-2">
-                        <li><strong class="text-slate-800">9.1.1</strong> Zone compliance and attire compliance.</li>
-                        <li><strong class="text-slate-800">9.1.2</strong> Door opening and traffic discipline (count per hour, reasons).</li>
-                        <li><strong class="text-slate-800">9.1.3</strong> Hand hygiene and scrub compliance (observation).</li>
-                        <li><strong class="text-slate-800">9.1.4</strong> Skin antisepsis compliance (agent, drying time documentation) aligned with CDC/WHO guidance.</li>
-                        <li><strong class="text-slate-800">9.1.5</strong> Cleaning/terminal cleaning completion and contact time compliance.</li>
-                        <li><strong class="text-slate-800">9.1.6</strong> Sterile supplies integrity defects and wet pack rate.</li>
-                        <li><strong class="text-slate-800">9.1.7</strong> CSSD interface: tray completeness defects, loaner tray timing compliance.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">9.2 KPIs (Minimum Set)</h3>
-                    <ul class="custom-list theme-red space-y-2">
-                        <li><strong class="text-slate-800">9.2.1</strong> SSI bundle compliance (selected measures as per hospital program).</li>
-                        <li><strong class="text-slate-800">9.2.2</strong> Door openings per hour (trend, high-risk cases).</li>
-                        <li><strong class="text-slate-800">9.2.3</strong> Hand hygiene compliance rate.</li>
-                        <li><strong class="text-slate-800">9.2.4</strong> Between-case cleaning compliance and contact time compliance.</li>
-                        <li><strong class="text-slate-800">9.2.5</strong> Wet pack/pack integrity failure rate and corrective actions.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 10.0: Green Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">10.0 NONCOMPLIANCE AND ESCALATION</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20 space-y-4">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">10.1 Critical noncompliance includes:</h3>
-                    <ul class="custom-list theme-emerald space-y-2">
-                        <li><strong class="text-slate-800">10.1.1</strong> entering restricted zones without required attire</li>
-                        <li><strong class="text-slate-800">10.1.2</strong> propping OR doors open or repeated unnecessary door opening</li>
-                        <li><strong class="text-slate-800">10.1.3</strong> failure to perform hand hygiene/surgical scrub per policy</li>
-                        <li><strong class="text-slate-800">10.1.4</strong> proceeding with compromised sterile supplies (wet pack/torn wrapper)</li>
-                        <li><strong class="text-slate-800">10.1.5</strong> initiating next case without documented between-case cleaning completion</li>
-                    </ul>
-                </div>
-                <div>
-                    <p><strong class="text-slate-800">10.2</strong> Critical noncompliance triggers immediate correction, documentation, and escalation to OT manager and IPC.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 11.0: Slate Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden policy-card mb-8">
-            <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">11.0 REFERENCES (ENGLISH)</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-slate-50">
-                <ul class="space-y-4">
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.1 WHO</strong>
-                            <span class="text-sm text-slate-600">Global guidelines for the prevention of surgical site infection (2018 edition).</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.2 CDC</strong>
-                            <span class="text-sm text-slate-600">Guideline for the Prevention of Surgical Site Infection, 2017 (JAMA Surgery PDF / CDC stacks).</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.3 WHO</strong>
-                            <span class="text-sm text-slate-600">Guidelines on Hand Hygiene in Health Care (2009).</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.4 ASHRAE/ASHE</strong>
-                            <span class="text-sm text-slate-600">Standard 170 addenda (ventilation expectations and operational considerations).</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.5 CDC</strong>
-                            <span class="text-sm text-slate-600">Environmental Cleaning Procedures (terminal cleaning order and principles).</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.6 CDC</strong>
-                            <span class="text-sm text-slate-600">Summary recommendations for disinfection and sterilization (disinfectant label and contact time).</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.7 CDC/HICPAC</strong>
-                            <span class="text-sm text-slate-600">Guidelines for environmental infection control in healthcare facilities (laundry/textiles and environmental control).</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.8 ANSI/AAMI ST79</strong>
-                            <span class="text-sm text-slate-600">Resources and summaries for steam sterilization and sterility assurance principles (sterile processing interface).</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.9 AORN</strong>
-                            <span class="text-sm text-slate-600">Surgical attire guidance (semi-restricted/restricted area practices).</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </main>
-
-    <!-- Premium Footer -->
-    <footer class="bg-slate-900 text-center py-10 mt-auto border-t border-slate-800">
-        <p class="text-[11px] font-semibold text-slate-400 tracking-[0.2em] uppercase">Operating Theatre - SEC 9 (INFECTION PREVENTION)</p>
-        <p class="text-[10px] text-slate-500 uppercase mt-2 tracking-widest">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>
-
-    <!-- Toast Message -->
-    <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-    <!-- Scripts -->
-    ` },
-  L: { css: `body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #f4f7f6;
-        }
-        .heading-serif {
-            font-family: 'Playfair Display', serif;
-        }
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #e2e8f0; }
-        ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
-        
-        .glass-header {
-            background: rgba(15, 23, 42, 0.95);
-            backdrop-filter: blur(10px);
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
         }
 
-        /* Card Hover Effects */
-        .policy-card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_IO_11_8_to_13.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
         }
-        .policy-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
-
-        .custom-list {
-            list-style: none;
-            padding-left: 0;
-        }
-        .custom-list li {
-            position: relative;
-            padding-left: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .custom-list li::before {
-            content: "•";
-            position: absolute;
-            left: 0;
-            top: -2px;
-            font-size: 1.25rem;
-            font-weight: bold;
-        }
-        
-        .alpha-list {
-            list-style-type: lower-alpha;
-            padding-left: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .alpha-list li {
-            margin-bottom: 0.25rem;
-        }
-        
-        /* Colored list bullets based on parent theme */
-        .theme-blue li::before { color: #3b82f6; }
-        .theme-emerald li::before { color: #10b981; }
-        .theme-violet li::before { color: #8b5cf6; }
-        .theme-amber li::before { color: #f59e0b; }
-        .theme-rose li::before { color: #f43f5e; }
-        .theme-teal li::before { color: #14b8a6; }
-        .theme-indigo li::before { color: #6366f1; }
-        .theme-cyan li::before { color: #06b6d4; }
-        .theme-fuchsia li::before { color: #d946ef; }
-        .theme-sky li::before { color: #0ea5e9; }
-        .theme-orange li::before { color: #f97316; }
-        .theme-red li::before { color: #ef4444; }
-        .theme-green li::before { color: #22c55e; }
-        .theme-slate li::before { color: #64748b; }
-        .theme-purple li::before { color: #a855f7; }
-        .theme-pink li::before { color: #ec4899; }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-r-2xl{border-top-right-radius:1rem;border-bottom-right-radius:1rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-indigo-500{--tw-border-opacity:1;border-color:rgb(99 102 241 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50{--tw-bg-opacity:1;background-color:rgb(238 242 255 / var(--tw-bg-opacity, 1))}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-2{padding-bottom:0.5rem}.pt-4{padding-top:1rem}.pt-5{padding-top:1.25rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-indigo-900{--tw-text-opacity:1;color:rgb(49 46 129 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
-    
-
-    <!-- Hero Section -->
-    <div class="bg-slate-900 relative overflow-hidden shadow-xl">
-        <div class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-slate-900 to-blue-900 opacity-90"></div>
-        <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-500 rounded-full blur-[100px] opacity-20"></div>
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 text-center">
-            <span class="inline-block px-4 py-1.5 bg-blue-500/20 text-blue-200 border border-blue-400/30 rounded-full text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
-                Policy &amp; Procedure Document
-            </span>
-            <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                OT-MMU-01 (SEC 10) — Medication Management in Operating Theatre (OT Scope)
-            </h1>
-            <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">ONE Policy (MMU / IPSG)</p>
-        </div>
-    </div>
-
-    <!-- Main Content -->
-    <main class="flex-grow max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12 -mt-12 relative z-20">
-        
-        <!-- Meta Information Card -->
-        <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Department</span>
-                    <span class="block text-sm font-semibold text-slate-800">Operating Theatre (OT)<br>General Hospital</span>
-                </div>
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Version &amp; Dates</span>
-                    <span class="block text-sm font-semibold text-slate-800">Version: 1.0<br>Effective: ___/___/20__<br>Review: ___/___/20__</span>
-                </div>
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
-                    <span class="block text-sm font-semibold text-slate-800">OT Director/Chair + OT Nurse Manager + Pharmacy Rep + OT QPS Lead</span>
-                </div>
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code &amp; Approval</span>
-                    <span class="block text-sm font-semibold text-slate-800">OT-MMU-01<br>Approved By: _________</span>
-                </div>
-            </div>
-            
-            <div class="mt-6 pt-5 border-t border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Applies To:</span>
-                    <span class="block text-sm font-medium text-slate-700">OT nurses, OT technologists, surgeons/procedural teams for OT-managed medications and sterile field solutions, environmental staff where medication storage is within their areas, and pharmacy staff responsible for inspections/restocking.</span>
-                </div>
-                <div>
-                    <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Cross-References:</span>
-                    <span class="block text-sm font-medium text-slate-700">OT-QPS-01 for reporting; OT-IPSG-01 for identification; Pharmacy/Controlled Drugs Policy for legal compliance</span>
-                </div>
-            </div>
-
-            <div class="mt-4 pt-4 border-t border-slate-100">
-                <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Exclusions (clarity of scope):</span>
-                <span class="block text-sm font-medium text-slate-700">Anesthesia medication carts/workflows are governed by the Anesthesia Department and Pharmacy policies; this OT policy applies to medications stored, handled, prepared, or administered under OT nursing/technologist workflow and to sterile-field medications/solutions used by the surgical team (e.g., local anesthetic in bowls/syringes, irrigation additives, dyes, hemostatic solutions) and any medications stored in OT stock areas.</span>
-            </div>
-        </div>
-
-        <!-- Accreditation Alignment -->
-        <div class="bg-indigo-50 border-l-4 border-indigo-500 rounded-r-2xl shadow-sm overflow-hidden mb-8 policy-card">
-            <div class="p-6 text-slate-800">
-                <h3 class="font-bold text-indigo-900 mb-3 text-lg">Accreditation Alignment:</h3>
-                <ul class="custom-list theme-indigo space-y-2">
-                    <li><strong class="text-slate-800">CBAHI</strong> medication safety standards require secure, properly labeled medication storage within required temperature/humidity/light protection and restricted access.</li>
-                    <li><strong class="text-slate-800">Joint Commission / JCI</strong> medication management standards emphasize safe storage, labeling, administration verification, and qualified personnel. (Joint Commission International)</li>
-                    <li><strong class="text-slate-800">Perioperative medication safety guidance</strong> emphasizes sterile-field labeling, “no unlabeled containers,” and structured controls to prevent high-risk medication errors. (ECRI and ISMP)</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Section 1.0: Blue Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-blue-700 to-blue-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
-            </div>
-            <div class="p-8 text-slate-700 space-y-6 leading-relaxed bg-blue-50/30">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">1.1 Purpose Statement</h3>
-                    <ul class="custom-list theme-blue space-y-2">
-                        <li><strong class="text-slate-800">1.1.1</strong> To ensure medications within OT scope are stored, secured, prepared, labeled, handled, and returned/wasted safely and consistently.</li>
-                        <li><strong class="text-slate-800">1.1.2</strong> To prevent wrong-drug, wrong-concentration, wrong-route, and wrong-patient medication events through standardized sterile-field labeling, LASA segregation, high-alert controls, controlled drug accountability, temperature monitoring, expiry checks, and error reporting with a learning loop. (ECRI and ISMP)</li>
-                        <li><strong class="text-slate-800">1.1.3</strong> To comply with OT-relevant requirements of CBAHI medication management standards (secure storage, appropriate conditions, organized labeling/arrangement, limited access) and with perioperative medication safety best practices.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 2.0: Emerald Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-emerald-600 to-teal-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/30 space-y-6">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">2.1 Included</h3>
-                    <ul class="custom-list theme-emerald space-y-2">
-                        <li><strong class="text-slate-800">2.1.1</strong> Medication storage areas inside OT (clean store, medication cupboard, medication refrigerator/freezer if present, controlled drug cabinet if present, satellite medication rooms under OT).</li>
-                        <li><strong class="text-slate-800">2.1.2</strong> Sterile-field medications/solutions prepared in the operating room (syringes, bowls, cups, basins, irrigation additives, topical agents, dyes), including labeling requirements and transfer rules. (ECRI and ISMP)</li>
-                        <li><strong class="text-slate-800">2.1.3</strong> High-alert medication controls when such medications are stored or handled in OT areas (e.g., concentrated electrolytes, heparin, insulin, neuromuscular blockers if stocked in OT, opioids if OT keeps controlled stock).</li>
-                        <li><strong class="text-slate-800">2.1.4</strong> Controlled medications kept in OT (if applicable): receipt, storage, endorsed access, shift counts, discrepancy escalation, returns/wastage documentation, and auditing.</li>
-                        <li><strong class="text-slate-800">2.1.5</strong> Medication error reporting from OT with feedback and corrective actions (OT QPS interface).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">2.2 Excluded</h3>
-                    <ul class="custom-list theme-emerald space-y-2">
-                        <li><strong class="text-slate-800">2.2.1</strong> Anesthesia department medication preparation/administration systems (e.g., anesthesia workstation syringes) — covered by anesthesia/pharmacy policy; however, sterile-field labeling and OT environment storage rules still apply to shared OR space.</li>
-                        <li><strong class="text-slate-800">2.2.2</strong> Pharmacy sterile compounding procedures and clean room standards — governed by Pharmacy policy and applicable standards.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 3.0: Violet Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-violet-600 to-purple-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 DEFINITIONS</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-violet-50/30">
-                <ul class="custom-list theme-violet space-y-3">
-                    <li><strong class="text-slate-900">3.1 LASA (Look-Alike/Sound-Alike):</strong> Medications with similar names or packaging that increase substitution risk; requires segregation and label enhancements.</li>
-                    <li><strong class="text-slate-900">3.2 High-Alert Medication (HAM):</strong> Medications with heightened risk of causing significant harm when used in error (e.g., concentrated electrolytes, insulin, anticoagulants, opioids); requires additional safeguards.</li>
-                    <li><strong class="text-slate-900">3.3 Sterile Field Medication Container:</strong> Any syringe, bowl, cup, basin, or bulb syringe on the sterile field containing a medication/solution. (ECRI and ISMP)</li>
-                    <li><strong class="text-slate-900">3.4 Independent Double-Check:</strong> A separate verification by a second qualified person without being guided by the first checker; applied to defined high-alert processes.</li>
-                    <li><strong class="text-slate-900">3.5 Beyond-Use/Expiry Time:</strong> The time after preparation when a product should not be used, as defined by manufacturer label, institutional policy, and risk assessment. (ECRI and ISMP)</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Section 4.0: Amber Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-amber-500 to-orange-400 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 POLICY STATEMENT</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-amber-50/30">
-                <ul class="custom-list theme-amber space-y-3">
-                    <li><strong class="text-slate-900">4.1</strong> Medications stored in OT shall be secure, organized, properly labeled, and maintained within required temperature/humidity/light protection, with access restricted to authorized personnel.</li>
-                    <li><strong class="text-slate-900">4.2</strong> No unlabeled medication containers are permitted in OT practice areas or on the sterile field; all prepared syringes/solutions/bowls/cups/basins must be labeled immediately after preparation and remain labeled until administration. (ECRI and ISMP)</li>
-                    <li><strong class="text-slate-900">4.3</strong> LASA medications shall be risk-assessed and controlled through segregation, Tall-Man lettering (where adopted), shelf/bin labeling, and standardized selection processes.</li>
-                    <li><strong class="text-slate-900">4.4</strong> High-alert medications within OT scope shall have enhanced safeguards including segregation, clear warning labeling, standardized concentrations, and independent double-checks where applicable.</li>
-                    <li><strong class="text-slate-900">4.5</strong> Controlled medications kept in OT (if present) shall be stored in locked cabinets, dispensed/accessed only by authorized staff, documented for every receipt/use/return/wastage, and reconciled with discrepancy escalation pathways.</li>
-                    <li><strong class="text-slate-900">4.6</strong> Expired/damaged medications shall be labeled and separated from usable stock until removal/destruction through pharmacy process; storage areas shall be inspected at least monthly by pharmaceutical care per policy.</li>
-                    <li><strong class="text-slate-900">4.7</strong> Medication errors, near misses, and hazardous conditions shall be reported and reviewed with feedback and corrective actions using the OT QPS learning loop and perioperative medication safety improvement methods.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Section 5.0: Rose Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-rose-600 to-pink-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 ROLES AND RESPONSIBILITIES</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-rose-50/30 space-y-6">
-                
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.1 OT Director/Chair</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.1.1</strong> Ensures governance, resources, and compliance monitoring for OT medication safety systems.</li>
-                        <li><strong class="text-slate-800">5.1.2</strong> Escalates repeated safety risks to OTMC/QPS and Hospital Leadership.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.2 OT Nurse Manager</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.2.1</strong> Ensures implementation, staff training, and competency validation.</li>
-                        <li><strong class="text-slate-800">5.2.2</strong> Ensures physical controls: locked storage, temperature logs, labeling supplies, LASA bins, high-alert labels, controlled drug accountability tools.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.3 OT Charge Nurse (Shift Lead)</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.3.1</strong> Ensures daily readiness: storage locked, temperature logs completed, expired separation bin used, sterile-field labels available.</li>
-                        <li><strong class="text-slate-800">5.3.2</strong> Ensures immediate corrective actions when unsafe practices are observed (unlabeled syringe, unsecured meds, missing counts/discrepancies).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.4 Pharmacy Representative / Pharmaceutical Care</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.4.1</strong> Performs (or coordinates) monthly inspections of OT medication storage areas for availability, stock level, expiry date, and storage conditions per CBAHI expectations/policy.</li>
-                        <li><strong class="text-slate-800">5.4.2</strong> Maintains formulary decisions, LASA list, high-alert list, and provides standardized labels/solutions where feasible.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.5 Circulating Nurse (OR)</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.5.1</strong> Ensures sterile-field medication transfer and labeling rules are followed; ensures unlabeled containers are not present. (ECRI and ISMP)</li>
-                        <li><strong class="text-slate-800">5.5.2</strong> Coordinates safe medication availability and returns/wastage documentation for OT-managed meds.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.6 Scrub Nurse/Technologist</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.6.1</strong> Applies sterile-field labeling and “one medication at a time” transfer rules; confirms label correctness with circulating nurse where required. (ECRI and ISMP)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">5.7 All Staff</h3>
-                    <ul class="custom-list theme-rose space-y-2">
-                        <li><strong class="text-slate-800">5.7.1</strong> Follow policy; report errors/near-misses/hazards; participate in audits and corrective actions.</li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 6 Header -->
-        <div class="mb-6 mt-12">
-            <h2 class="text-3xl heading-serif font-bold text-slate-800 border-b-2 border-slate-300 pb-2">6.0 PROCEDURES (SEC 10.1 – 10.7)</h2>
-        </div>
-
-        <!-- Section 10.1: Cyan Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">10.1 STORAGE, SECURITY, TEMPERATURE MONITORING</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.1.1 Medication Storage Area Standards</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.1.1.1 All OT medication storage areas shall be:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) clean, dry, organized, and clearly labeled</li>
-                        <li>b) protected from inappropriate heat, humidity, and light as required</li>
-                        <li>c) access-controlled (locked when not in use) and limited to authorized staff</li>
-                    </ul>
-
-                    <p class="font-bold text-slate-800">10.1.1.2 Storage arrangement shall use organized segregation to reduce selection errors:</p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) separate by route (injectable vs topical vs irrigation additives)</li>
-                        <li>b) separate emergency items from routine items</li>
-                        <li>c) separate high-alert medications and LASA medications (see 10.3 and 10.4)</li>
-                    </ul>
-
-                    <p class="font-bold text-slate-800">10.1.1.3 Multi-dose vials (if permitted) shall follow pharmacy policy for dating, storage, and discard after opening; OT shall not retain opened vials beyond policy.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.1.2 Security Controls (Routine Medications)</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.1.2.1 Keys/access codes to medication cupboards are controlled:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) assigned to authorized roles</li>
-                        <li>b) not shared inappropriately</li>
-                        <li>c) documented if policy requires sign-in/out.</li>
-                    </ul>
-                    <p><strong class="text-slate-800">10.1.2.2</strong> Medications shall not be left unattended on open counters in semi-restricted/restricted zones except during active case preparation with direct supervision.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.1.3 Refrigerated / Frozen Storage and Temperature Monitoring</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.1.3.1</strong> Refrigerators/freezers used for medications shall be dedicated (no food/drink), labeled, and locked where policy requires.</p>
-                    <p class="mb-1"><strong class="text-slate-800">10.1.3.2 Temperature monitoring:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) Continuous digital monitoring is preferred when available; otherwise, minimum-maximum thermometer with manual documentation is required.</li>
-                        <li>b) Temperatures are recorded at least daily (or per hospital policy) and reviewed by charge nurse/manager.</li>
-                        <li>c) Acceptable ranges are defined by manufacturer requirements and Pharmacy policy; deviations trigger immediate action.</li>
-                    </ul>
-
-                    <p class="font-bold text-slate-800">10.1.3.3 Out-of-range response algorithm:</p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) quarantine affected medications (do not use)</li>
-                        <li>b) notify charge nurse and pharmacy immediately</li>
-                        <li>c) document the event, duration if known, and corrective action</li>
-                        <li>d) pharmacy determines disposition (use/return/discard) based on stability guidance.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.1.4 Monthly Storage Area Inspections (Pharmacy)</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.1.4.1</strong> All OT medication storage areas are inspected at least monthly by pharmaceutical care to ensure proper storage conditions, stock levels, expiry checks, and organization.</p>
-                    <p><strong class="text-slate-800">10.1.4.2</strong> Inspection findings generate corrective actions with deadlines and re-checks.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 10.2: Indigo Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">10.2 LABELING OF PREPARED SOLUTIONS/SYRINGES ON THE STERILE FIELD</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.2.1 Core Rule</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.2.1.1</strong> Every medication or solution transferred to the sterile field and placed into a syringe/bowl/cup/basin must be labeled immediately after filling and must remain labeled up to the point of administration. (ECRI and ISMP)</p>
-                    <p><strong class="text-slate-800">10.2.1.2</strong> Never label an empty syringe/bowl/cup/basin in anticipation of use (pre-labeling is prohibited). (ECRI and ISMP)</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.2.2 Label Type and Quality</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.2.2.1</strong> Use sterile pre-printed labels on the sterile field whenever possible. (ECRI and ISMP)</p>
-                    <p class="mb-1"><strong class="text-slate-800">10.2.2.2 When blank sterile labels are used:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) write clearly with smudge-proof marker</li>
-                        <li>b) avoid abbreviations unless approved</li>
-                        <li>c) ensure label adheres and remains legible during procedure.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.2.3 Minimum Label Content (Sterile Field)</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.2.3.1 For practitioner-prepared syringes/solutions, labels shall include at minimum:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) medication/solution full name</li>
-                        <li>b) strength/concentration (or dose when applicable)</li>
-                        <li>c) initials/name of preparer</li>
-                        <li>d) preparation time and expiry/time when required by policy (especially when not used promptly or when stability is short) (ECRI and ISMP)</li>
-                    </ul>
-                    <p><strong class="text-slate-800">10.2.3.2</strong> Color-coded class labels alone are not sufficient as the only identifier. (ECRI and ISMP)</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.2.4 “One at a Time” Transfer Rule</h4>
-                    <p><strong class="text-slate-800">10.2.4.1</strong> Transfer only one medication/solution at a time to the sterile field and label it immediately before any other medication/solution is transferred. (This prevents mix-ups when multiple unlabeled containers exist even briefly.) (aornjournal.onlinelibrary.wiley.com)</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.2.5 Verification at the Point of Transfer</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.2.5.1 When the circulating nurse hands medication/solution to the sterile field:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) scrub person reads the label on the source container aloud</li>
-                        <li>b) circulating nurse confirms verbally</li>
-                        <li>c) transfer occurs</li>
-                        <li>d) scrub person labels immediately and confirms label content (name + concentration).</li>
-                    </ul>
-                    <p><strong class="text-slate-800">10.2.5.2</strong> For high-alert medications (see 10.4), apply independent double-check where defined.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.2.6 Labeling of Irrigation Solutions and Additives</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.2.6.1 Any additive placed into an irrigation container must be labeled with:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) additive name</li>
-                        <li>b) total amount added</li>
-                        <li>c) final concentration where applicable</li>
-                        <li>d) time prepared</li>
-                        <li>e) preparer initials.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.2.7 If a Container Is Found Unlabeled</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.2.7.1</strong> An unlabeled syringe/bowl/cup/basin is treated as unknown and must be discarded immediately (do not attempt to “guess”). (ECRI and ISMP)</p>
-                    <p><strong class="text-slate-800">10.2.7.2</strong> Report as a near-miss/hazard event under OT QPS.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 10.3: Fuchsia Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">10.3 LASA CONTROLS + SEGREGATION</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.3.1 LASA Risk Assessment and List</h4>
-                    <p><strong class="text-slate-800">10.3.1.1</strong> Pharmacy maintains a facility LASA list and reviews new additions; OT maintains an OT-specific LASA map for medications stocked in OT.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.3.2 Storage Segregation Controls</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.3.2.1 LASA medications shall not be stored adjacent when possible; use:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) separated bins</li>
-                        <li>b) shelf dividers</li>
-                        <li>c) warning labels</li>
-                        <li>d) Tall-Man lettering on shelf labels where adopted.</li>
-                    </ul>
-                    <p class="mb-1"><strong class="text-slate-800">10.3.2.2 LASA items shall be stored in a way that supports selection discipline:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) one bin = one medication/strength whenever feasible</li>
-                        <li>b) avoid “mixed bins” of multiple strengths.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.3.3 Packaging and Procurement Controls</h4>
-                    <p><strong class="text-slate-800">10.3.3.1</strong> When feasible, pharmacy shall procure distinct packaging presentations or unit-dose labeling to reduce confusion; high-risk confusing presentations are escalated to P&amp;T committee.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.3.4 Selection and Preparation Controls</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.3.4.1</strong> Staff shall read the full medication name and concentration before selection and again before opening/transfer to sterile field.</p>
-                    <p><strong class="text-slate-800">10.3.4.2</strong> Where feasible, use barcode scanning outside sterile field; sterile-field labels may be exempt from machine-readable requirements but should still follow standardization principles. (ECRI and ISMP)</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 10.4: Sky Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">10.4 HIGH-ALERT MEDICATION HANDLING (OT DOUBLE-CHECK WHERE APPLICABLE)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.4.1 High-Alert Medication (HAM) Governance</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.4.1.1</strong> OT recognizes high-alert medications as those with heightened harm potential and implements additional safeguards, consistent with international definitions.</p>
-                    <p><strong class="text-slate-800">10.4.1.2</strong> Pharmacy maintains the facility HAM list; OT identifies which HAMs are stocked/used under OT scope (e.g., concentrated electrolytes for irrigation? topical thrombin? heparinized saline? insulin in special situations?).</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.4.2 Concentrated Electrolytes Controls</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.4.2.1</strong> Concentrated electrolyte solutions require strict controls including standardized limited concentrations, preference for premixed solutions where possible, and high-risk warning labeling.</p>
-                    <p class="mb-1"><strong class="text-slate-800">10.4.2.2 Concentrated electrolytes should not be routinely available in patient care areas unless clinically necessary and approved; if stocked in OT, they must be:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) stored in a segregated, clearly labeled high-alert bin</li>
-                        <li>b) access-controlled</li>
-                        <li>c) used only for approved indications</li>
-                        <li>d) independently double-checked prior to preparation and prior to transfer to sterile field (where applicable).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.4.3 Independent Double-Check Rules (OT)</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.4.3.1 OT applies independent double-check for defined high-alert steps when OT is responsible for preparation/transfer, such as:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) preparation of a high-alert solution or dilution</li>
-                        <li>b) addition of high-alert additives to irrigation</li>
-                        <li>c) preparation of high-risk local anesthetic concentrations for surgeon use if policy defines it as high-alert.</li>
-                    </ul>
-                    
-                    <p class="font-bold text-slate-800">10.4.3.2 Double-check elements:</p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) drug name</li>
-                        <li>b) concentration/strength and volume</li>
-                        <li>c) final concentration if diluted</li>
-                        <li>d) labeling completeness (10.2)</li>
-                        <li>e) intended use/site/route.</li>
-                    </ul>
-                    
-                    <p class="font-bold text-slate-800">10.4.3.3 Both checkers sign/initial the High-Alert Double-Check form (Appendix E).</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.4.4 Restricted Storage and “Do Not Stock” Decisions</h4>
-                    <p><strong class="text-slate-800">10.4.4.1</strong> OT shall not stock unnecessary HAM items; stock decisions require pharmacy approval and risk assessment.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 10.5: Orange Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">10.5 CONTROLLED MEDICATIONS KEPT IN OT (ENDORSEMENT, DISCREPANCY ESCALATION)</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
-                
-                <p class="text-sm italic text-slate-500 mb-4">(Applies only if OT maintains controlled stock outside anesthesia/pharmacy-controlled systems.)</p>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.5.1 Storage and Access</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.5.1.1</strong> Controlled medications are stored in a locked controlled drug cabinet with restricted access.</p>
-                    <p><strong class="text-slate-800">10.5.1.2</strong> Access is limited to authorized personnel endorsed by OT leadership and pharmacy policy.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.5.2 Receipt and Inventory</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.5.2.1 Receipt from pharmacy is documented with:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) date/time</li>
-                        <li>b) drug name/strength/quantity</li>
-                        <li>c) lot/expiry if required</li>
-                        <li>d) signatures (sender/receiver).</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.5.3 Administration/Use Documentation</h4>
-                    <p><strong class="text-slate-800">10.5.3.1</strong> Each dose removed is documented immediately per controlled drug record (paper/electronic), including patient identifier (as permitted), dose, time, and staff signature.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.5.4 Shift Counts and Reconciliation</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.5.4.1 Controlled drug counts are performed:</strong></p>
-                    <ul class="alpha-list ml-6 mb-2">
-                        <li>a) at shift start and end</li>
-                        <li>b) after any controlled drug access event if policy requires</li>
-                        <li>c) after discrepancy suspicion.</li>
-                    </ul>
-                    <p><strong class="text-slate-800">10.5.4.2</strong> Count is performed by two authorized staff and documented.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.5.5 Discrepancy Escalation Pathway</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.5.5.1 Any discrepancy triggers immediate actions:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) stop further dispensing from that cabinet (quarantine)</li>
-                        <li>b) re-count and verify records</li>
-                        <li>c) notify OT charge nurse and pharmacy immediately</li>
-                        <li>d) document discrepancy and actions</li>
-                        <li>e) escalate to OT manager and hospital leadership per policy if unresolved.</li>
-                    </ul>
-                    <p><strong class="text-slate-800">10.5.5.2</strong> Discrepancies are reviewed in QPS for system vulnerabilities (access control, documentation quality, workflow design).</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 10.6: Teal Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
-            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">10.6 RETURNS, WASTAGE DOCUMENTATION, EXPIRY CHECKS</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.6.1 Returns (Unused, Unopened Medications)</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.6.1.1 Unused unopened medications may be returned to pharmacy only if:</strong></p>
-                    <ul class="alpha-list ml-6 mb-2">
-                        <li>a) integrity maintained</li>
-                        <li>b) temperature conditions maintained (cold chain not broken)</li>
-                        <li>c) return permitted by pharmacy policy.</li>
-                    </ul>
-                    <p><strong class="text-slate-800">10.6.1.2</strong> Returned items are documented with date/time, item details, reason, and signatures.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.6.2 Wastage</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.6.2.1 Medication wastage is documented to prevent diversion and ensure traceability:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) drug name/strength/amount wasted</li>
-                        <li>b) reason for wastage</li>
-                        <li>c) witness signature (especially for controlled meds)</li>
-                        <li>d) disposal method per pharmacy policy.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.6.3 Expiry Checks and Removal of Expired/Damaged Items</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.6.3.1 OT performs routine expiry checks:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) daily visual check of high-risk areas (emergency boxes, anesthesia interface drawers under OT control, sterile field additive stocks)</li>
-                        <li>b) weekly/monthly structured expiry inspection per local plan</li>
-                        <li>c) pharmacy monthly inspection includes expiry verification.</li>
-                    </ul>
-                    <p><strong class="text-slate-800">10.6.3.2</strong> Expired and damaged medications shall be labeled and separated from usable stock until removed and destroyed through pharmacy process.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.6.4 Cold Chain Returns and Quarantine</h4>
-                    <p><strong class="text-slate-800">10.6.4.1</strong> Any medication with uncertain storage condition (temperature excursion, door left open) is quarantined and pharmacy decides disposition.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 10.7: Red Box -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12 policy-card">
-            <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">10.7 MEDICATION ERROR REPORTING &amp; LEARNING LOOP</h3>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
-                
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.7.1 What Must Be Reported</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.7.1.1 Report all medication events within OT scope, including:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) wrong drug/wrong concentration selection caught before use (near miss)</li>
-                        <li>b) unlabeled syringe/bowl/cup/basin found</li>
-                        <li>c) LASA selection confusion</li>
-                        <li>d) high-alert double-check failures</li>
-                        <li>e) controlled drug discrepancies</li>
-                        <li>f) administration errors and adverse drug events.</li>
-                    </ul>
-                    <p><strong class="text-slate-800">10.7.1.2</strong> Perioperative medication errors are recognized as significant sources of harm; structured guidance exists to address perioperative/procedural medication safety gaps and implement action plans. (psnet.ahrq.gov)</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.7.2 Immediate Containment</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.7.2.1 Protect the patient first:</strong></p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) stop administration</li>
-                        <li>b) maintain the source container and label(s) as evidence</li>
-                        <li>c) notify surgeon/clinical lead and pharmacy as required</li>
-                        <li>d) provide clinical response per treating team.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.7.3 Investigation Level and Corrective Action</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.7.3.1 OT QPS lead triages events:</strong></p>
-                    <ul class="alpha-list ml-6 mb-3">
-                        <li>a) quick review for low-risk near misses</li>
-                        <li>b) mini-RCA for trends and high-risk near misses</li>
-                        <li>c) formal RCA for serious harm events.</li>
-                    </ul>
-                    
-                    <p class="font-bold text-slate-800">10.7.3.2 Corrective actions prioritize strong system changes:</p>
-                    <ul class="alpha-list ml-6">
-                        <li>a) standardization of labels and availability of pre-printed sterile labels (ECRI and ISMP)</li>
-                        <li>b) segregation/bin redesign for LASA</li>
-                        <li>c) removal of unnecessary high-alert stock in OT</li>
-                        <li>d) redesign of transfer workflow (“one at a time” rule, read-back) (aornjournal.onlinelibrary.wiley.com)</li>
-                        <li>e) competency refresh and direct observation.</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-slate-900 mb-2">10.7.4 Feedback and Learning Loop</h4>
-                    <p class="mb-1"><strong class="text-slate-800">10.7.4.1 OT provides monthly de-identified learning summaries:</strong></p>
-                    <ul class="alpha-list ml-6 mb-2">
-                        <li>a) what happened (pattern)</li>
-                        <li>b) what changed (system fix)</li>
-                        <li>c) what to watch (new barrier)</li>
-                        <li>d) audit result after change.</li>
-                    </ul>
-                    <p><strong class="text-slate-800">10.7.4.2</strong> Safety improvement is measured using compliance audits and event trend reduction.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Section 7.0: Purple Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-purple-700 to-fuchsia-600 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">7.0 DOCUMENTATION / CONTROLLED RECORDS</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-purple-50/20">
-                <ul class="custom-list theme-purple space-y-2">
-                    <li><strong class="text-slate-900">7.1</strong> Medication storage temperature logs (room + refrigerator/freezer)</li>
-                    <li><strong class="text-slate-900">7.2</strong> Monthly pharmacy inspection reports and corrective action tracker</li>
-                    <li><strong class="text-slate-900">7.3</strong> Sterile-field medication labeling audit forms (ECRI and ISMP)</li>
-                    <li><strong class="text-slate-900">7.4</strong> High-alert medication double-check forms</li>
-                    <li><strong class="text-slate-900">7.5</strong> Controlled drug register/count sheets/wastage records (if applicable)</li>
-                    <li><strong class="text-slate-900">7.6</strong> Returns and wastage documentation</li>
-                    <li><strong class="text-slate-900">7.7</strong> Medication incident reports and QPS review minutes.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Section 8.0: Pink Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-pink-600 to-rose-400 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">8.0 TRAINING AND COMPETENCY</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-pink-50/30 space-y-6">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">8.1 Initial orientation and annual refreshers shall include:</h3>
-                    <ul class="custom-list theme-pink space-y-2">
-                        <li><strong class="text-slate-800">8.1.1</strong> storage/security and temperature excursion response</li>
-                        <li><strong class="text-slate-800">8.1.2</strong> sterile-field labeling rules, “no unlabeled containers,” one-at-a-time transfer (ECRI and ISMP)</li>
-                        <li><strong class="text-slate-800">8.1.3</strong> LASA controls and selection discipline (compasshcc.org)</li>
-                        <li><strong class="text-slate-800">8.1.4</strong> high-alert safeguards and concentrated electrolyte controls</li>
-                        <li><strong class="text-slate-800">8.1.5</strong> controlled drug accountability and discrepancy escalation (if applicable)</li>
-                        <li><strong class="text-slate-800">8.1.6</strong> reporting and learning loop expectations. (psnet.ahrq.gov)</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">8.2 Competency validation methods:</h3>
-                    <ul class="alpha-list ml-6">
-                        <li>a) direct observation (sterile-field labeling practice)</li>
-                        <li>b) documentation review (double-check form completion, temperature logs)</li>
-                        <li>c) scenario drills (unlabeled syringe found; LASA confusion; temperature excursion; controlled drug discrepancy).</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 9.0: Teal Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">9.0 MONITORING, AUDIT, AND KPIs</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20 space-y-6">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">9.1 Minimum Audits</h3>
-                    <ul class="custom-list theme-teal space-y-2">
-                        <li><strong class="text-slate-800">9.1.1</strong> Sterile-field labeling audit (monthly sample): correct content, immediate labeling, no pre-labeling, no unlabeled containers. (ECRI and ISMP)</li>
-                        <li><strong class="text-slate-800">9.1.2</strong> LASA storage audit (quarterly): segregation, shelf labeling, removal of mixed bins.</li>
-                        <li><strong class="text-slate-800">9.1.3</strong> High-alert compliance audit (monthly/quarterly): segregation, double-check completion, removal of unnecessary concentrated electrolytes.</li>
-                        <li><strong class="text-slate-800">9.1.4</strong> Temperature log compliance and excursion handling audit (monthly).</li>
-                        <li><strong class="text-slate-800">9.1.5</strong> Controlled drug reconciliation audit (monthly) if applicable.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">9.2 KPIs (Minimum Set)</h3>
-                    <ul class="custom-list theme-teal space-y-2">
-                        <li><strong class="text-slate-800">9.2.1</strong> % sterile-field containers correctly labeled (target ≥ 95%) (ECRI and ISMP)</li>
-                        <li><strong class="text-slate-800">9.2.2</strong> Number of “unlabeled container” events per 1,000 cases (target: 0; near-miss reporting encouraged) (ECRI and ISMP)</li>
-                        <li><strong class="text-slate-800">9.2.3</strong> LASA-related near misses (trend)</li>
-                        <li><strong class="text-slate-800">9.2.4</strong> High-alert double-check compliance %</li>
-                        <li><strong class="text-slate-800">9.2.5</strong> Temperature excursion count and response time (trend)</li>
-                        <li><strong class="text-slate-800">9.2.6</strong> Controlled drug discrepancy rate (if applicable).</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 10.0: Green Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
-            <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">10.0 NONCOMPLIANCE (CRITICAL)</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20 space-y-4">
-                <div>
-                    <h3 class="font-bold text-slate-900 mb-2">10.1 Critical noncompliance includes:</h3>
-                    <ul class="custom-list theme-emerald space-y-2">
-                        <li><strong class="text-slate-800">10.1.1</strong> Unlabeled syringe/bowl/cup/basin present on sterile field (ECRI and ISMP)</li>
-                        <li><strong class="text-slate-800">10.1.2</strong> Pre-labeling empty containers on the sterile field (ECRI and ISMP)</li>
-                        <li><strong class="text-slate-800">10.1.3</strong> Storage areas left unsecured / access uncontrolled</li>
-                        <li><strong class="text-slate-800">10.1.4</strong> High-alert medication stored without segregation/warning label or used without defined double-check where required</li>
-                        <li><strong class="text-slate-800">10.1.5</strong> Expired/damaged medications not separated/labeled pending removal</li>
-                    </ul>
-                </div>
-                <div>
-                    <p><strong class="text-slate-800">10.2</strong> Critical noncompliance triggers immediate correction, documentation, and escalation to OT manager and QPS.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 11.0: Slate Box -->
-        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden policy-card mb-8">
-            <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">11.0 REFERENCES (ENGLISH)</h2>
-            </div>
-            <div class="p-8 text-slate-700 leading-relaxed bg-slate-50">
-                <ul class="space-y-4">
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.1 ISMP — Guidelines for Safe Medication Use</strong>
-                            <span class="text-sm text-slate-600">in Perioperative and Procedural Settings (sterile-field labeling expectations; minimum label content; preprinted sterile labels preferred). (ECRI and ISMP)</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.2 ISMP — Medication Safety Self Assessment®</strong>
-                            <span class="text-sm text-slate-600">for Perioperative Settings (supports sterile label availability and periop controls). (ECRI and ISMP)</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.3 WHO Patient Safety Solution</strong>
-                            <span class="text-sm text-slate-600">Control of Concentrated Electrolyte Solutions (standardization, warning labels, premixed solutions).</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.4 Joint Commission (MM chapter FAQ)</strong>
-                            <span class="text-sm text-slate-600">Medication labeling requirements located in MM standards and procedure container labeling linked to patient safety goals. (jointcommission.org)</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.5 CBAHI (Istitlaa) — Medication Safety Standards</strong>
-                            <span class="text-sm text-slate-600">secure storage with proper temperature/humidity/light protection and restricted access.</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.6 CBAHI (Istitlaa) — Monthly inspection</strong>
-                            <span class="text-sm text-slate-600">of medication storage areas; expired/damaged meds separated until removal/destruction.</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.7 JCI Hospital Standards (Standards-only PDF excerpt)</strong>
-                            <span class="text-sm text-slate-600">medication management and qualified administration/verification requirements (MMU). (Joint Commission International)</span>
-                        </div>
-                    </li>
-                    <li class="flex items-start gap-4">
-                        <div class="bg-slate-200 p-2 rounded text-slate-700 shrink-0 shadow-sm border border-slate-300">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-                        </div>
-                        <div>
-                            <strong class="text-slate-900 block mb-1">11.8 ISMP Targeted Medication Safety Best Practices</strong>
-                            <span class="text-sm text-slate-600">for Hospitals (additional system-level risk controls and best practices). (online.ecri.org)</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </main>
-
-    <!-- Premium Footer -->
-    <footer class="bg-slate-900 text-center py-10 mt-auto border-t border-slate-800">
-        <p class="text-[11px] font-semibold text-slate-400 tracking-[0.2em] uppercase">Operating Theatre - SEC 10 (MEDICATION MANAGEMENT)</p>
-        <p class="text-[10px] text-slate-500 uppercase mt-2 tracking-widest">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
-    </footer>
-
-    <!-- Toast Message -->
-    <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-    <!-- Scripts -->
-    ` },
-  M: { css: `body {
+    </script>`
+  },
+  s14: {
+    titleEn: 'SEC 12 — Surgical Instruments & Equipment (HCT / FMS)',
+    titleAr: 'القسم ١٢ — الأدوات الجراحية والمعدات',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -12823,9 +13260,8 @@ export const orSectionsHtml = {
             height: 4px;
             background: linear-gradient(to right, transparent, #cbd5e1, transparent);
             margin: 4rem 0;
-        }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-4{width:1rem}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208 / var(--tw-border-opacity, 1))}.border-fuchsia-200{--tw-border-opacity:1;border-color:rgb(245 208 254 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-1\\.5{padding:0.375rem}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-fuchsia-600{--tw-text-opacity:1;color:rgb(192 38 211 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -14498,8 +14934,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  N: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_SEC_12.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s15: {
+    titleEn: 'SEC 13 — OT Facility Safety (FMS)',
+    titleAr: 'القسم ١٣ — سلامة منشأة غرفة العمليات',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -14574,9 +15047,8 @@ export const orSectionsHtml = {
             height: 4px;
             background: linear-gradient(to right, transparent, #cbd5e1, transparent);
             margin: 4rem 0;
-        }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138 / var(--tw-border-opacity, 1))}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208 / var(--tw-border-opacity, 1))}.border-purple-200{--tw-border-opacity:1;border-color:rgb(233 213 255 / var(--tw-border-opacity, 1))}.border-sky-200{--tw-border-opacity:1;border-color:rgb(186 230 253 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.border-teal-200{--tw-border-opacity:1;border-color:rgb(153 246 228 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/20{background-color:rgb(240 253 250 / 0.2)}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-teal-600{--tw-text-opacity:1;color:rgb(13 148 136 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -15840,8 +16312,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  O: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_SEC_13.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s16: {
+    titleEn: 'SEC 14 — OT Emergency Coordination (FMS / IPSG)',
+    titleAr: 'القسم ١٤ — تنسيق الطوارئ في غرفة العمليات',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -15916,9 +16425,8 @@ export const orSectionsHtml = {
             height: 4px;
             background: linear-gradient(to right, transparent, #cbd5e1, transparent);
             margin: 4rem 0;
-        }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-cyan-200{--tw-border-opacity:1;border-color:rgb(165 243 252 / var(--tw-border-opacity, 1))}.border-indigo-200{--tw-border-opacity:1;border-color:rgb(199 210 254 / var(--tw-border-opacity, 1))}.border-purple-200{--tw-border-opacity:1;border-color:rgb(233 213 255 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.border-violet-200{--tw-border-opacity:1;border-color:rgb(221 214 254 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-cyan-600{--tw-text-opacity:1;color:rgb(8 145 178 / var(--tw-text-opacity, 1))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-violet-600{--tw-text-opacity:1;color:rgb(124 58 237 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -17146,8 +17654,45 @@ export const orSectionsHtml = {
     <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
     <!-- Scripts -->
-    ` },
-  P: { css: `body {
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_SEC_14.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
+  s17: {
+    titleEn: 'SEC 15 — Specialty Operating Theatre Workflows',
+    titleAr: 'القسم ١٥ — مسارات العمل في غرف العمليات المتخصصة',
+    css: `body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f4f7f6;
         }
@@ -17222,9 +17767,8 @@ export const orSectionsHtml = {
             height: 4px;
             background: linear-gradient(to right, transparent, #cbd5e1, transparent);
             margin: 4rem 0;
-        }
-    
-*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-24{right:-6rem}.-top-24{top:-6rem}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-12{margin-top:-3rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-8{margin-bottom:2rem}.ml-6{margin-left:1.5rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-16{height:4rem}.h-5{height:1.25rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-5{width:1.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.flex-grow{flex-grow:1}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-3{gap:0.75rem}.gap-6{gap:1.5rem}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-blue-400\\/30{border-color:rgb(96 165 250 / 0.3)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50\\/30{background-color:rgb(255 251 235 / 0.3)}.bg-blue-50\\/30{background-color:rgb(239 246 255 / 0.3)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-500\\/20{background-color:rgb(59 130 246 / 0.2)}.bg-cyan-50\\/20{background-color:rgb(236 254 255 / 0.2)}.bg-emerald-50\\/20{background-color:rgb(236 253 245 / 0.2)}.bg-emerald-50\\/30{background-color:rgb(236 253 245 / 0.3)}.bg-fuchsia-50\\/20{background-color:rgb(253 244 255 / 0.2)}.bg-indigo-50\\/20{background-color:rgb(238 242 255 / 0.2)}.bg-orange-50\\/20{background-color:rgb(255 247 237 / 0.2)}.bg-pink-50\\/30{background-color:rgb(253 242 248 / 0.3)}.bg-purple-50\\/20{background-color:rgb(250 245 255 / 0.2)}.bg-red-50\\/20{background-color:rgb(254 242 242 / 0.2)}.bg-rose-50\\/30{background-color:rgb(255 241 242 / 0.3)}.bg-sky-50\\/20{background-color:rgb(240 249 255 / 0.2)}.bg-slate-50\\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-teal-50\\/30{background-color:rgb(240 253 250 / 0.3)}.bg-violet-50\\/30{background-color:rgb(245 243 255 / 0.3)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-amber-500{--tw-gradient-from:#f59e0b var(--tw-gradient-from-position);--tw-gradient-to:rgb(245 158 11 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-700{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-cyan-600{--tw-gradient-from:#0891b2 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 145 178 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-fuchsia-600{--tw-gradient-from:#c026d3 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 38 211 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgb(79 70 229 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900{--tw-gradient-from:#312e81 var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777 var(--tw-gradient-from-position);--tw-gradient-to:rgb(219 39 119 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-700{--tw-gradient-from:#7e22ce var(--tw-gradient-from-position);--tw-gradient-to:rgb(126 34 206 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-red-600{--tw-gradient-from:#dc2626 var(--tw-gradient-from-position);--tw-gradient-to:rgb(220 38 38 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-600{--tw-gradient-from:#e11d48 var(--tw-gradient-from-position);--tw-gradient-to:rgb(225 29 72 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-600{--tw-gradient-from:#0284c7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 132 199 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-700{--tw-gradient-from:#334155 var(--tw-gradient-from-position);--tw-gradient-to:rgb(51 65 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-teal-600{--tw-gradient-from:#0d9488 var(--tw-gradient-from-position);--tw-gradient-to:rgb(13 148 136 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-600{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgb(124 58 237 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-500{--tw-gradient-to:#f59e0b var(--tw-gradient-to-position)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.to-emerald-500{--tw-gradient-to:#10b981 var(--tw-gradient-to-position)}.to-fuchsia-600{--tw-gradient-to:#c026d3 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.to-orange-400{--tw-gradient-to:#fb923c var(--tw-gradient-to-position)}.to-pink-500{--tw-gradient-to:#ec4899 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-rose-400{--tw-gradient-to:#fb7185 var(--tw-gradient-to-position)}.to-rose-500{--tw-gradient-to:#f43f5e var(--tw-gradient-to-position)}.to-slate-600{--tw-gradient-to:#475569 var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-violet-500{--tw-gradient-to:#8b5cf6 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-2{padding:0.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1\\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\\[10px\\]{font-size:10px}.text-\\[11px\\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-\\[0\\.2em\\]{letter-spacing:0.2em}.tracking-wide{letter-spacing:0.025em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-\\[100px\\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\\:from-blue-700:hover{--tw-gradient-from:#1d4ed8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(29 78 216 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\\:to-indigo-700:hover{--tw-gradient-to:#4338ca var(--tw-gradient-to-position)}@media (min-width: 640px){.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}`, body: `<!-- Premium Navbar -->
+        }`,
+    body: `<!-- Premium Navbar -->
     
 
     <!-- Hero Section -->
@@ -18143,6 +18687,41 @@ export const orSectionsHtml = {
     <div id="toast" style="display: none; position: fixed; bottom: 30px; right: 30px; background: linear-gradient(135deg, rgb(30, 41, 59), rgb(15, 23, 42)); color: white; padding: 16px 32px; border-radius: 12px; box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 25px -5px; z-index: 50; font-size: 15px; font-weight: 500; border: 1px solid rgba(255, 255, 255, 0.1);">↓ HTML Document downloading...</div>
 
     <!-- Scripts -->
-    ` },
+    <script>
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            toast.textContent = text;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        function copySource() {
+            const htmlSource = document.documentElement.outerHTML;
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = htmlSource;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            showToast('✓ HTML Code successfully copied!');
+        }
+
+        function downloadHTML() {
+            const htmlSource = document.documentElement.outerHTML;
+            const blob = new Blob([htmlSource], { type: 'text/html' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Operating_Theatre_Policy_IO_11_4_to_7.html';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            showToast('↓ HTML Document downloading...');
+        }
+    </script>`
+  },
 }
 
+export default orSectionsHtml
