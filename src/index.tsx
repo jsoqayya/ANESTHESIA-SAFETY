@@ -2,6 +2,8 @@ import { Hono } from 'hono'
 import { serveStatic } from 'hono/cloudflare-workers'
 import { chaptersContent } from './chapters-data'
 import anesthesiaPolicies from './anesthesia-policies'
+// @ts-ignore
+import orPolicies from './or-policies'
 
 const app = new Hono()
 
@@ -10,6 +12,9 @@ app.use('/static/*', serveStatic({ root: './public' }))
 
 // Mount Anesthesia Policies & Procedures book
 app.route('/anesthesia-policies', anesthesiaPolicies)
+
+// Mount Operating Room Policies & Procedures book
+app.route('/or-policies', orPolicies)
 
 // ======== DATA ========
 const bookTitle = 'مبادئ السلامة والجودة في غرفة العمليات'
@@ -677,18 +682,18 @@ app.get('/portal', (c) => {
         </div>
       </a>
 
-      <!-- كتاب ٤ — أسفل يسار: دليل السياسات في غرفة العمليات → قريباً -->
-      <div class="book-card unavailable">
+      <!-- كتاب ٤ — دليل السياسات والإجراءات في غرفة العمليات -->
+      <a href="/or-policies" class="book-card">
         <div class="book-img-wrap">
           <img src="/static/or-policies-cover.png" alt="غلاف دليل السياسات والإجراءات في غرفة العمليات" />
         </div>
         <div class="book-info">
           <h2 class="book-title">دليل السياسات والإجراءات في غرفة العمليات</h2>
-          <span class="book-title-en">Operating Room Policies & Procedures Guide</span>
-          <p class="book-desc">مرجع شامل لسياسات وإجراءات غرفة العمليات والإدارة الآمنة وفق المعايير الدولية.</p>
-          <span class="book-badge badge-soon">⏳ قريباً</span>
+          <span class="book-title-en">Operating Room Policies &amp; Procedures Guide</span>
+          <p class="book-desc">مرجع شامل لسياسات وإجراءات غرفة العمليات — 16 قسماً و25 نموذجاً جاهزاً وفق معايير JCI وCBAHI.</p>
+          <span class="book-badge" style="background:linear-gradient(135deg,#1e3a5f,#1d4ed8);color:white;padding:4px 14px;border-radius:7px;font-size:12px;font-weight:800;display:inline-block;">✅ متاح الآن</span>
         </div>
-      </div>
+      </a>
 
     </div>
 
