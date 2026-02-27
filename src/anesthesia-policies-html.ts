@@ -10675,7 +10675,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <div class="page-break"></div>
 
     <!-- ========================================================================================== -->
-    <!-- FORM F-02: COMPREHENSIVE PRE-INDUCTION CHECKLIST -->
+    <!-- FORM F-01: COMPREHENSIVE PRE-INDUCTION CHECKLIST -->
     <!-- ========================================================================================== -->
 
     <div class="header-section">
@@ -11184,14 +11184,14 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     </div>
 
     <div class="footer">
-      <div>Form F-02 | Version 3.0 | CBAHI/JCI Compliant - Comprehensive Pre-Induction Checklist</div>
+      <div>Form F-01 | Version 3.0 | CBAHI/JCI Compliant - Comprehensive Pre-Induction Checklist</div>
       <div>Page 1 of 1</div>
     </div>
 
     <div class="page-break"></div>
 
     <!-- ========================================================================================== -->
-    <!-- FORM F-03: SAFETY CHECKLIST -->
+    <!-- FORM F-01: SAFETY CHECKLIST -->
     <!-- ========================================================================================== -->
 
     <div class="header-section">
@@ -11305,7 +11305,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     </div>
 
     <div class="footer">
-      <div>Form F-03 | Version 2.0 | CBAHI/JCI Compliant</div>
+      <div>Form F-01 | Version 2.0 | CBAHI/JCI Compliant</div>
       <div>Page 1 of 1</div>
     </div>` },
   f02: { css: `body {
@@ -11862,7 +11862,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- HEADER -->
     <div class="doc-title">
       <h1>Airway Assessment &amp; Difficult Airway Plan</h1>
-      <div class="subtitle">ANESTHESIA DEPARTMENT • FORM F-04 • CBAHI/JCI COMPLIANT</div>
+      <div class="subtitle">ANESTHESIA DEPARTMENT • FORM F-03 • CBAHI/JCI COMPLIANT</div>
     </div>
 
     <table style="border: 2px solid #000; margin-bottom: 3mm; background-color: #f9f9f9">
@@ -12158,7 +12158,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     </div>
 
     <div style="text-align: center; font-size: 7.5pt; margin-top: 4mm; padding-top: 2mm; border-top: 1px solid #ccc; color: #666">
-      <strong>Form F-04</strong> | Airway Assessment &amp; Difficult Airway Plan | <strong>Version 1.0</strong> | Page 1 of 1 | 
+      <strong>Form F-03</strong> | Airway Assessment &amp; Difficult Airway Plan | <strong>Version 1.0</strong> | Page 1 of 1 | 
       <strong style="color: #cc0000">Medical Record - Permanent</strong>
     </div>` },
   f04: { css: `@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
@@ -12662,7 +12662,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     <!-- Footer -->
     <div class="footer">
-      <div>Form F-03 | Anesthesia Consent | Ver 2.0</div>
+      <div>Form F-04 | Anesthesia Consent | Ver 2.0</div>
       <div>Medical Record - Permanent</div>
       <div>Page 1 of 1</div>
     </div>
@@ -13764,7 +13764,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- SECTION 1: HEADER -->
     <div class="doc-title">
       <h1>Intraoperative Anesthesia Record</h1>
-      <div style="font-size: 10pt; margin-top: 5px">CORE RECORD • FORM F-07 • CBAHI/JCI COMPLIANT</div>
+      <div style="font-size: 10pt; margin-top: 5px">CORE RECORD • FORM F-05 • CBAHI/JCI COMPLIANT</div>
     </div>
 
     <table style="border: 2px solid #000">
@@ -14526,7 +14526,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     </div>
 
     <div style="text-align: right; font-size: 8pt; margin-top: 10px; color: #666">
-      Form F-07 | Version 2.0 | Page 1 of 2
+      Form F-05 | Version 2.0 | Page 1 of 2
     </div>
 
     <!-- ========================================================================= -->
@@ -15762,7 +15762,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- HEADER -->
     <div class="doc-title">
       <h1>Post-Anesthesia Care Record (PACU Recovery &amp; Discharge)</h1>
-      <div class="subtitle">ANESTHESIA DEPARTMENT • FORMS F-08/F-09 • CBAHI/JCI COMPLIANT</div>
+      <div class="subtitle">ANESTHESIA DEPARTMENT • FORMS F-07/F-07 • CBAHI/JCI COMPLIANT</div>
     </div>
 
     <!-- PATIENT DEMOGRAPHICS -->
@@ -15812,7 +15812,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
       <!-- LEFT COLUMN -->
       <div class="col">
         <!-- SECTION 1: IMMEDIATE NOTE -->
-        <div class="section-header">🏥 1. IMMEDIATE POST-ANESTHESIA NOTE (F-08)</div>
+        <div class="section-header">🏥 1. IMMEDIATE POST-ANESTHESIA NOTE (F-07)</div>
         
         <div class="info-box blue">
           <strong style="font-size: 8.5pt">Transfer Information</strong><br>
@@ -16314,7 +16314,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         border-top: 1px solid #ccc;
         color: #666;
       ">
-      <strong>Form F-08/F-09</strong> | Post-Anesthesia Care Record | <strong>Version 1.0</strong> | Page 1 of 1 |
+      <strong>Form F-07/F-07</strong> | Post-Anesthesia Care Record | <strong>Version 1.0</strong> | Page 1 of 1 |
       <strong style="color: #cc0000">Medical Record - Permanent</strong>
     </div>` },
   f08: { css: `body {
@@ -16975,7 +16975,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- HEADER -->
     <div class="doc-title">
       <h1>Handover Tool: OR to PACU/ICU Transfer (SBAR Format)</h1>
-      <div class="subtitle">ANESTHESIA DEPARTMENT • FORM F-10 • CBAHI/JCI COMPLIANT</div>
+      <div class="subtitle">ANESTHESIA DEPARTMENT • FORM F-09 • CBAHI/JCI COMPLIANT</div>
     </div>
 
     <!-- PATIENT DEMOGRAPHICS -->
@@ -17667,7 +17667,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         border-top: 1px solid #ccc;
         color: #666;
       ">
-      <strong>Form F-10</strong> | Handover Tool: OR to PACU/ICU (SBAR) | <strong>Version 2.0</strong> | Page 1 of 2 |
+      <strong>Form F-09</strong> | Handover Tool: OR to PACU/ICU (SBAR) | <strong>Version 2.0</strong> | Page 1 of 2 |
       <strong style="color: #cc0000">Medical Record - Permanent</strong>
     </div>` },
   f10: { css: `/* A4 Page Setup */
@@ -17893,7 +17893,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- HEADER -->
     <div class="doc-title">
       <h1>Post-Anesthesia Care Record (PACU Recovery &amp; Discharge)</h1>
-      <div class="subtitle">ANESTHESIA DEPARTMENT • FORMS F-08/F-09 • CBAHI/JCI COMPLIANT</div>
+      <div class="subtitle">ANESTHESIA DEPARTMENT • FORMS F-10/F-10 • CBAHI/JCI COMPLIANT</div>
     </div>
 
     <!-- PATIENT DEMOGRAPHICS -->
@@ -17943,7 +17943,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
       <!-- LEFT COLUMN -->
       <div class="col">
         <!-- SECTION 1: IMMEDIATE NOTE -->
-        <div class="section-header">🏥 1. IMMEDIATE POST-ANESTHESIA NOTE (F-08)</div>
+        <div class="section-header">🏥 1. IMMEDIATE POST-ANESTHESIA NOTE (F-10)</div>
         
         <div class="info-box blue">
           <strong style="font-size: 8.5pt">Transfer Information</strong><br>
@@ -18445,7 +18445,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         border-top: 1px solid #ccc;
         color: #666;
       ">
-      <strong>Form F-08/F-09</strong> | Post-Anesthesia Care Record | <strong>Version 1.0</strong> | Page 1 of 1 |
+      <strong>Form F-10/F-10</strong> | Post-Anesthesia Care Record | <strong>Version 1.0</strong> | Page 1 of 1 |
       <strong style="color: #cc0000">Medical Record - Permanent</strong>
     </div>` },
   f11: { css: `/* A4 Page Setup */
@@ -19776,7 +19776,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- HEADER -->
     <div class="doc-title">
       <h1>Blood Product / Massive Transfusion Record</h1>
-      <div class="subtitle">ANESTHESIA DEPARTMENT • FORM F-17 • CBAHI/JCI COMPLIANT</div>
+      <div class="subtitle">ANESTHESIA DEPARTMENT • FORM F-12 • CBAHI/JCI COMPLIANT</div>
     </div>
 
     <!-- PATIENT DEMOGRAPHICS -->
@@ -20675,7 +20675,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         border-top: 1px solid #ccc;
         color: #666;
       ">
-      <strong>Form F-17</strong> | Blood Product / Massive Transfusion Record | <strong>Version 1.0</strong> | Page 2 of
+      <strong>Form F-12</strong> | Blood Product / Massive Transfusion Record | <strong>Version 1.0</strong> | Page 2 of
       2 | <strong style="color: #cc0000">Medical Record - Permanent</strong><br>
       MMU.5 (Blood Management) • COP.5 (Transfusion) • IPSG.1 (Patient ID) • ACC.3 (Assessment) • CBAHI/JCI Standards
     </div>` },
@@ -20821,7 +20821,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <div class="max-w-[950px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4">
         <div>
             <h2 class="text-lg font-bold text-slate-700">Combined Sedation Form Preview</h2>
-            <p class="text-xs text-slate-500">Includes F-16 (Pre-Assessment), F-17 (Mon), F-18 (Meds), F-19 (Discharge), F-20 (Events)</p>
+            <p class="text-xs text-slate-500">Includes F-13 (Pre-Assessment), F-13 (Mon), F-13 (Meds), F-13 (Discharge), F-13 (Events)</p>
         </div>
         <div class="flex gap-3">
             
@@ -20849,7 +20849,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </div>
             <div class="text-right">
                 <div class="inline-block border-2 border-slate-800 rounded px-2 py-1 bg-slate-800 text-white font-black text-sm tracking-widest">
-                    FORMS F-16/17/18/19/20
+                    FORMS F-13/17/18/19/20
                 </div>
             </div>
         </div>
@@ -20902,10 +20902,10 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </div>
         </div>
 
-        <!-- PART A: Pre-Sedation Assessment (F-16) -->
+        <!-- PART A: Pre-Sedation Assessment (F-13) -->
         <div class="section-header hdr-pre">
             <div class="section-number icon-pre">A</div>
-            Pre-Sedation Assessment (Form F-16 equivalent)
+            Pre-Sedation Assessment (Form F-13 equivalent)
         </div>
         <div class="p-4 grid grid-cols-12 gap-6 bg-slate-50 border-b border-slate-200">
             <!-- Consent & ASA -->
@@ -20964,10 +20964,10 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </div>
         </div>
 
-        <!-- PART B: Medications (F-18) -->
+        <!-- PART B: Medications (F-13) -->
         <div class="section-header hdr-meds">
             <div class="section-number icon-meds">B</div>
-            Sedation Medication Record (Form F-18 equivalent)
+            Sedation Medication Record (Form F-13 equivalent)
         </div>
         <div class="px-4 pb-2">
             <table>
@@ -20991,10 +20991,10 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </table>
         </div>
 
-        <!-- PART C: Monitoring (F-17) -->
+        <!-- PART C: Monitoring (F-13) -->
         <div class="section-header hdr-mon">
             <div class="section-number icon-mon">C</div>
-            Intra-Procedural Monitoring (Form F-17 equiv. • Chart q5 Min)
+            Intra-Procedural Monitoring (Form F-13 equiv. • Chart q5 Min)
         </div>
         <div class="px-4 pb-2">
             <table>
@@ -21027,10 +21027,10 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </p>
         </div>
 
-        <!-- PART D: Recovery & Discharge (F-19) -->
+        <!-- PART D: Recovery & Discharge (F-13) -->
         <div class="section-header hdr-rec">
             <div class="section-number icon-rec">D</div>
-            Sedation Recovery &amp; Discharge (Form F-19 equivalent)
+            Sedation Recovery &amp; Discharge (Form F-13 equivalent)
         </div>
         <div class="p-4 grid grid-cols-12 gap-6">
             
@@ -21090,10 +21090,10 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </div>
         </div>
 
-        <!-- PART E: Adverse Events (F-20) -->
+        <!-- PART E: Adverse Events (F-13) -->
         <div class="section-header hdr-adv">
             <div class="section-number icon-adv">E</div>
-            Adverse Event &amp; Escalation Record (Form F-20 equivalent)
+            Adverse Event &amp; Escalation Record (Form F-13 equivalent)
         </div>
         <div class="p-4 bg-rose-50/30">
             <div class="flex items-center gap-6 mb-3">
@@ -21319,7 +21319,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4">
         <div>
-            <h2 class="text-lg font-bold text-slate-700">Form F-21 Preview</h2>
+            <h2 class="text-lg font-bold text-slate-700">Form F-14 Preview</h2>
             <p class="text-xs text-slate-500">NORA Site Readiness Checklist</p>
         </div>
         <div class="flex gap-3">
@@ -21348,7 +21348,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </div>
             <div class="text-right">
                 <div class="inline-block border-2 border-slate-800 rounded px-2 py-1 bg-slate-800 text-white font-black text-lg tracking-widest">
-                    FORM F-21
+                    FORM F-14
                 </div>
                 <p class="text-[9px] font-bold text-slate-500 uppercase mt-2">Daily / Shift Documentation</p>
             </div>
@@ -21730,7 +21730,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4">
         <div>
-            <h2 class="text-lg font-bold text-slate-700">Form F-25 Preview</h2>
+            <h2 class="text-lg font-bold text-slate-700">Form F-15 Preview</h2>
             <p class="text-xs text-slate-500">Stop-Before-You-Block Time-Out (Regional Anesthesia)</p>
         </div>
         <div class="flex gap-3">
@@ -21759,7 +21759,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </div>
             <div class="text-right">
                 <div class="inline-block border-2 border-emerald-900 rounded px-2 py-1 bg-emerald-900 text-white font-black text-lg tracking-widest">
-                    FORM F-25
+                    FORM F-15
                 </div>
                 <p class="text-[9px] font-bold text-slate-500 uppercase mt-2">Document to Medical Record</p>
             </div>
@@ -21959,7 +21959,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
         <!-- Footer -->
         <div class="absolute bottom-1 right-4 text-[9px] text-slate-400 font-semibold uppercase tracking-widest no-print">
-            Form F-25 | Page 1 of 1
+            Form F-15 | Page 1 of 1
         </div>
 
     </div>
@@ -22043,7 +22043,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-26 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-16 Preview</h2>
             <p class="text-sm text-slate-500">Neuraxial Block Record (2-Page Table Format)</p>
         </div>
         <div class="flex gap-3">
@@ -22070,7 +22070,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept of Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%;">
-                    Form Code: F-26 | Version: ___ | Effective: ___ | PAGE 1 of 2
+                    Form Code: F-16 | Version: ___ | Effective: ___ | PAGE 1 of 2
                 </td>
             </tr>
         </tbody></table>
@@ -22277,7 +22277,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Patient Name: _________________________ | MRN: _______________
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%;">
-                    Form Code: F-26 | PAGE 2 of 2
+                    Form Code: F-16 | PAGE 2 of 2
                 </td>
             </tr>
         </tbody></table>
@@ -22327,7 +22327,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     ________________________________________________<br>
                     ________________________________________________<br><br>
                     <strong>Removal plan reference:</strong><br>
-                    “Use F-30 Catheter Removal Checklist” &nbsp;&nbsp; <span class="cb">☐</span> Noted
+                    “Use F-16 Catheter Removal Checklist” &nbsp;&nbsp; <span class="cb">☐</span> Noted
                 </td>
             </tr>
         </tbody></table>
@@ -22445,7 +22445,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-27 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-17 Preview</h2>
             <p class="text-sm text-slate-500">Peripheral Nerve Block Record (Single-Shot)</p>
         </div>
         <div class="flex gap-3">
@@ -22472,7 +22472,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept of Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%;">
-                    Form Code: F-27 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-17 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -22514,7 +22514,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                 </td>
                 <td class="bg-gray">
                     <span class="cb">☐</span> Consent confirmed<br>
-                    <span class="cb">☐</span> Stop-Before-You-Block completed (F-25)<br>
+                    <span class="cb">☐</span> Stop-Before-You-Block completed (F-17)<br>
                     <span class="cb">☐</span> Baseline neurovascular exam documented: &nbsp; <span class="cb">☐</span> Yes &nbsp; <span class="cb">☐</span> No &nbsp; <span class="cb">☐</span> N/A<br>
                     <span class="cb">☐</span> Anticoag reviewed &amp; acceptable: &nbsp; <span class="cb">☐</span> Yes &nbsp; <span class="cb">☐</span> No &nbsp; <span class="cb">☐</span> N/A<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last dose/time: ________________________<br>
@@ -22724,7 +22724,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-28 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-18 Preview</h2>
             <p class="text-sm text-slate-500">Continuous Catheter Record + Infusion Order (2-Page Table Format)</p>
         </div>
         <div class="flex gap-3">
@@ -22751,7 +22751,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept of Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%;">
-                    Form Code: F-28 | Version: ___ | Effective: ___ | PAGE 1 of 2
+                    Form Code: F-18 | Version: ___ | Effective: ___ | PAGE 1 of 2
                 </td>
             </tr>
         </tbody></table>
@@ -22890,7 +22890,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Patient Name: _________________________ | MRN: _______________
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%;">
-                    Form Code: F-28 | PAGE 2 of 2
+                    Form Code: F-18 | PAGE 2 of 2
                 </td>
             </tr>
         </tbody></table>
@@ -23115,7 +23115,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-31 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-19 Preview</h2>
             <p class="text-sm text-slate-500">LAST Event Record (2-Page Table Format)</p>
         </div>
         <div class="flex gap-3">
@@ -23142,7 +23142,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept of Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%;">
-                    Form Code: F-31 | Version: ___ | Effective: ___ | PAGE 1 of 2
+                    Form Code: F-19 | Version: ___ | Effective: ___ | PAGE 1 of 2
                 </td>
             </tr>
         </tbody></table>
@@ -23319,7 +23319,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Patient Name: _________________________ | MRN: _______________
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%;">
-                    Form Code: F-31 | PAGE 2 of 2
+                    Form Code: F-19 | PAGE 2 of 2
                 </td>
             </tr>
         </tbody></table>
@@ -23541,7 +23541,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4">
         <div>
-            <h2 class="text-lg font-bold text-slate-700">Form F-32 Preview</h2>
+            <h2 class="text-lg font-bold text-slate-700">Form F-20 Preview</h2>
             <p class="text-xs text-slate-500">Anesthesia Machine Daily Checkout Log</p>
         </div>
         <div class="flex gap-3">
@@ -23570,7 +23570,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </div>
             <div class="text-right">
                 <div class="inline-block border-2 border-slate-800 rounded px-3 py-1 bg-slate-800 text-white font-black text-lg tracking-widest">
-                    FORM F-32
+                    FORM F-20
                 </div>
             </div>
         </div>
@@ -23867,7 +23867,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-33 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-21 Preview</h2>
             <p class="text-sm text-slate-500">Difficult Airway Cart Daily Check + Post-Use Restock Log</p>
         </div>
         <div class="flex gap-3">
@@ -23894,7 +23894,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%;">
-                    Form Code: F-33 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-21 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -24119,7 +24119,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-36 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-22 Preview</h2>
             <p class="text-sm text-slate-500">Controlled Drug Register (1-Page Table Format)</p>
         </div>
         <div class="flex gap-3">
@@ -24146,7 +24146,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%; padding: 6px 12px;">
-                    Form Code: F-36 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-22 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -24186,7 +24186,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                 <td style="width: 7%; padding: 8px 4px;">Qty Issued<br><span style="font-size: 7pt; font-weight: normal;">(Amp/Vial)</span></td>
                 <td style="width: 8%; padding: 8px 4px;">Dose<br>Admin.</td>
                 <td style="width: 7%; padding: 8px 4px;">Qty<br>Returned</td>
-                <td style="width: 9%; padding: 8px 4px;">Qty Wasted<br><span style="font-size: 7pt; font-weight: normal;">(F-37 link)</span></td>
+                <td style="width: 9%; padding: 8px 4px;">Qty Wasted<br><span style="font-size: 7pt; font-weight: normal;">(F-22 link)</span></td>
                 <td style="width: 7%; padding: 8px 4px;">Balance<br>After</td>
                 <td style="width: 14%; padding: 8px 4px;">User Name + ID<br>+ Signature</td>
                 <td style="width: 14%; padding: 8px 4px;">Witness Signature<br><span style="font-size: 7pt; font-weight: normal;">(If required)</span></td>
@@ -24330,7 +24330,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-37 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-23 Preview</h2>
             <p class="text-sm text-slate-500">Controlled Drug Wastage (1-Page Table Format)</p>
         </div>
         <div class="flex gap-3">
@@ -24357,7 +24357,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%; padding: 6px 12px;">
-                    Form Code: F-37 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-23 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -24587,7 +24587,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-38 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-24 Preview</h2>
             <p class="text-sm text-slate-500">High-Alert Medication Double-Check (1-Page Table)</p>
         </div>
         <div class="flex gap-3">
@@ -24614,7 +24614,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%; padding: 6px 12px;">
-                    Form Code: F-38 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-24 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -24827,7 +24827,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-39 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-25 Preview</h2>
             <p class="text-sm text-slate-500">Syringe &amp; Line Labeling Audit Tool (1-Page Table)</p>
         </div>
         <div class="flex gap-3">
@@ -24854,7 +24854,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%; padding: 6px 12px;">
-                    Form Code: F-39 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-25 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -25090,7 +25090,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-41 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-26 Preview</h2>
             <p class="text-sm text-slate-500">Standalone Between-Case Cleaning Checklist</p>
         </div>
         <div class="flex gap-3">
@@ -25118,7 +25118,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept of Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%; padding: 6px 12px;">
-                    Form Code: F-41 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-26 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -25380,7 +25380,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-43 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-27 Preview</h2>
             <p class="text-sm text-slate-500">Reprocessing Tracking Slip (1-Page Table Format)</p>
         </div>
         <div class="flex gap-3">
@@ -25408,7 +25408,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept of Anesthesia / CSSD
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%; padding: 6px 12px;">
-                    Form Code: F-43 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-27 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -25660,7 +25660,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-44 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-28 Preview</h2>
             <p class="text-sm text-slate-500">Isolation Case Workflow Checklist (1-Page Table)</p>
         </div>
         <div class="flex gap-3">
@@ -25687,7 +25687,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | OR/PACU/Anesthesia
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%; padding: 6px 12px;">
-                    Form Code: F-44 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-28 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -25747,7 +25747,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     <span class="cb">☐</span> Anesthesia machine and high-touch surfaces protected/covered as approved<br>
                     <span class="cb">☐</span> Suction/oxygen/monitors ready<br>
                     <span class="cb">☐</span> Waste bins + sharps bin available at point of use<br>
-                    <span class="cb">☐</span> Closed container ready for contaminated reusable devices to CSSD/HLD (use F-43)
+                    <span class="cb">☐</span> Closed container ready for contaminated reusable devices to CSSD/HLD (use F-28)
                 </td>
             </tr>
         </tbody></table>
@@ -25800,9 +25800,9 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </tr>
             <tr>
                 <td class="bg-gray" style="line-height: 1.8;">
-                    <span class="cb">☐</span> Anesthesia work area between-case cleaning done (F-41) (if next case same room) &nbsp;&nbsp; <span class="cb">☐</span> N/A<br>
-                    <span class="cb">☐</span> Anesthesia machine cleaning per policy done (F-42) &nbsp;&nbsp; <span class="cb">☐</span> N/A<br>
-                    <span class="cb">☐</span> Reusables sent for reprocessing (F-43) &nbsp;&nbsp; <span class="cb">☐</span> Yes &nbsp;&nbsp; <span class="cb">☐</span> No<br>
+                    <span class="cb">☐</span> Anesthesia work area between-case cleaning done (F-28) (if next case same room) &nbsp;&nbsp; <span class="cb">☐</span> N/A<br>
+                    <span class="cb">☐</span> Anesthesia machine cleaning per policy done (F-28) &nbsp;&nbsp; <span class="cb">☐</span> N/A<br>
+                    <span class="cb">☐</span> Reusables sent for reprocessing (F-28) &nbsp;&nbsp; <span class="cb">☐</span> Yes &nbsp;&nbsp; <span class="cb">☐</span> No<br>
                     <span class="cb">☐</span> Waste disposed per regulated pathway<br>
                     <span class="cb">☐</span> Terminal cleaning completed by EVS (sign-off below)
                 </td>
@@ -25924,7 +25924,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <!-- Action Buttons (No Print) -->
     <div class="max-w-[850px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4" style="font-family: 'Inter', sans-serif;">
         <div>
-            <h2 class="text-xl font-bold text-slate-800">Form F-45 Preview</h2>
+            <h2 class="text-xl font-bold text-slate-800">Form F-29 Preview</h2>
             <p class="text-sm text-slate-500">Sharps &amp; Waste Area Check Log (1-Page Table Format)</p>
         </div>
         <div class="flex gap-3">
@@ -25951,7 +25951,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
                     Hospital: ________________________ | Dept Anesthesia / OR / PACU
                 </td>
                 <td class="bg-navy" style="font-size: 9pt; text-align: right; width: 40%; padding: 6px 12px;">
-                    Form Code: F-45 | Version: ___ | Effective: ___ | PAGE 1 of 1
+                    Form Code: F-29 | Version: ___ | Effective: ___ | PAGE 1 of 1
                 </td>
             </tr>
         </tbody></table>
@@ -26295,7 +26295,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
 
     <!-- HEADER -->
     <div class="doc-title">
-      <h1>F-18 Critical Incident / Near Miss Report (Anesthesia)</h1>
+      <h1>F-30 Critical Incident / Near Miss Report (Anesthesia)</h1>
       <div class="subtitle">ANESTHESIA DEPARTMENT • CONFIDENTIAL • CBAHI/JCI COMPLIANT</div>
       <div class="confidential-note">
         This is a confidential patient safety report for quality improvement purposes only - NOT part of medical record
@@ -26849,7 +26849,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
         border-top: 1px solid #ccc;
         color: #666;
       ">
-      <strong>Form F-18</strong> | Critical Incident / Near Miss Report | <strong>Version 1.0</strong> | Page 2 of 2 |
+      <strong>Form F-30</strong> | Critical Incident / Near Miss Report | <strong>Version 1.0</strong> | Page 2 of 2 |
       <strong style="color: #cc0000">CONFIDENTIAL - NOT PART OF MEDICAL RECORD</strong><br>
       COP.3 (Quality &amp; Patient Safety) • COP.7 (High-Risk Processes) • GLD.7 (Quality Management) • IPSG.1 • CBAHI/JCI
       Standards
