@@ -754,7 +754,7 @@ export const orSectionsHtml = {
  Policy &amp; Procedure Document
  </span>
  <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
- Section 2: SEC 2 — Workforce, Privileging Interface, and Competency (SQE)
+ SEC 2 — Workforce, Privileging Interface, and Competency (SQE)
  </h1>
  </div>
  </div>
@@ -1700,7 +1700,7 @@ export const orSectionsHtml = {
  Policy &amp; Procedure Document
  </span>
  <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
- Section 3: SEC 3 — Quality, Patient Safety, and Audit System (QPS / IPSG)
+ SEC 3 — Quality, Patient Safety, and Audit System (QPS / IPSG)
  </h1>
  </div>
  </div>
@@ -16248,7 +16248,7 @@ export const orSectionsHtml = {
  Policy &amp; Procedure Document
  </span>
  <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
- Section 13: PART VII — FACILITY SAFETY, SECURITY, AND STAFF SAFETY (FMS)<br>
+ PART VII — FACILITY SAFETY, SECURITY, AND STAFF SAFETY (FMS)<br>
  <span class="text-2xl md:text-4xl mt-3 block font-semibold">SEC 13 — Independent OT Policies (13.1 to 13.8)</span>
  </h1>
  </div>
@@ -19138,7 +19138,7 @@ export const orSectionsHtml = {
  </script>`
  },
  s17: {
- titleEn: 'Section 15: SEC 15 — Specialty Operating Theatre Workflows',
+ titleEn: 'SEC 15 — Specialty Operating Theatre Workflows',
  titleAr: 'القسم ١٥ — مسارات العمل في غرف العمليات المتخصصة',
  css: `body {
  font-family: 'Montserrat', sans-serif;
@@ -19229,7 +19229,7 @@ export const orSectionsHtml = {
  </span>
  <h2 class="text-blue-300 font-semibold mb-2 tracking-widest uppercase text-sm">PART IX — SPECIALTY OT WORKFLOWS (OT Scope)</h2>
  <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
- Section 15: SEC 15 — Specialty Operating Theatre Workflows
+ SEC 15 — Specialty Operating Theatre Workflows
  </h1>
  <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">Independent Policies 15.1–15.5</p>
  </div>
