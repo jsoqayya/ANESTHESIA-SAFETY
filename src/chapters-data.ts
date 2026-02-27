@@ -980,8 +980,8 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>19.3.2 التحكم في الأكسجين (قاعدة طبيب التخدير)</h3>
     <p>إذا كان المريض يعتمد على الأكسجين الإضافي المفتوح (MAC)، فقبل أن يستخدم الجراح الجراحة الكهربائية في منطقة الوجه/الرقبة، يجب على الجراح إخبار طبيب التخدير. يقوم طبيب التخدير بإيقاف الأكسجين، أو تقليله إلى الحد الأدنى، أو استبداله بالهواء الطبي، وينتظر دقيقة لتبدد الأكسجين المتجمع قبل إعطاء الإذن ببدء الكي. (ASA Practice Advisory)</p>
 
-    <h2>19.4 القصة الحقيقية 2: "الفرش الجراحي الذي احتجز الأكسجين"</h2>
-    <h3>19.4 Real Story 2: "The drape that trapped the oxygen"</h3>
+    <h2>19.4 "الفرش الجراحي الذي احتجز الأكسجين"</h2>
+    <h3>19.4 "The drape that trapped the oxygen"</h3>
 
     <div class="quote-box">
         <p>أثناء استئصال شامة صغيرة على كتف المريض، كان المريض يتلقى الأكسجين عبر قنية أنفية (Nasal cannula). وُضعت المناشف الجراحية (Drapes) فوق الرقبة والوجه، مما أدى إلى خلق جيب ضيق فوق الصدر.</p>
@@ -1305,8 +1305,8 @@ export const chaptersContent: Record<string | number, string> = {
         </ol>
     </div>
 
-    <h2>29.7 القصة الحقيقية 1: الحادثة الوشيكة للعينة التي أصبحت انتصاراً للنظام</h2>
-    <h3>29.7 Story 1 (Narrative): The specimen near-miss that became a system win</h3>
+    <h2>29.7 الحادثة الوشيكة للعينة التي أصبحت انتصاراً للنظام</h2>
+    <h3>29.7 The specimen near-miss that became a system win</h3>
 
     <div class="quote-box">
         <p>وقعت حادثة وشيكة (Near-miss) في ملصق عينة. تم التقاطها قبل مغادرة المسرح. أراد الكثيرون "المضي قدماً". لكننا أصررنا على "RCA مصغر".</p>
@@ -1377,8 +1377,8 @@ export const chaptersContent: Record<string | number, string> = {
         </ul>
     </div>
 
-    <h2>29.11 القصة الحقيقية 2: "RCA الذي أصلح النظام—وليس الشخص"</h2>
-    <h3>29.11 Story 2: “The RCA that fixed the system—not the person”</h3>
+    <h2>29.11 "RCA الذي أصلح النظام—وليس الشخص"</h2>
+    <h3>29.11 “The RCA that fixed the system—not the person”</h3>
 
     <div class="concept-box">
         <p>تم فتح حجم غرسة خاطئ تقريباً. تم اكتشافه أثناء التحقق. رد الفعل الأولي: "من أخطأ؟"</p>
@@ -1707,8 +1707,8 @@ export const chaptersContent: Record<string | number, string> = {
         </ul>
     </div>
 
-    <h2>3.5 القصة الحقيقية 2: "خطر بدا تشغيلياً—لكنه كان سريرياً"</h2>
-    <h3>3.5 Real Story 2: "A risk that looked operational—but was clinical"</h3>
+    <h2>3.5 "خطر بدا تشغيلياً—لكنه كان سريرياً"</h2>
+    <h3>3.5 "A risk that looked operational—but was clinical"</h3>
 
     <div class="quote-box">
         <p><strong>3.5.1 المشهد (The scene):</strong><br>
@@ -1862,8 +1862,8 @@ export const chaptersContent: Record<string | number, string> = {
         <span class="english-term"><strong>Step 5 — Train and drill the escalation pathway:</strong> If the first time people practice escalation is during crisis, it will fail. Drill scripts and roles.</span></li>
     </ol>
 
-    <h2>3.10 القصة الحقيقية 3: "مثلث الحريق الذي لم يره أحد"</h2>
-    <h3>3.10 Real Story 3: "The fire triangle nobody saw"</h3>
+    <h2>3.10 "مثلث الحريق الذي لم يره أحد"</h2>
+    <h3>3.10 "The fire triangle nobody saw"</h3>
 
     <div class="quote-box">
         <p><strong>3.10.1 المشهد (The scene):</strong><br>
@@ -2379,8 +2379,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>سعة PACU (وحدة الإفاقة):</strong> إذا كانت وحدة الإفاقة ممتلئة ولا توجد أسرة في الجناح، يتم حجز مرضى غرفة العمليات على طاولة الجراحة (PACU hold)، مما يوقف التدفق ويُجهد موظفي غرفة العمليات. (IHI)</li>
     </ul>
 
-    <h2>23.6 القصة الحقيقية 2: "القائمة المجدولة التي سحقت حالة الطوارئ"</h2>
-    <h3>23.6 Real Story 2: "The elective list that crushed the emergency case"</h3>
+    <h2>23.6 "القائمة المجدولة التي سحقت حالة الطوارئ"</h2>
+    <h3>23.6 "The elective list that crushed the emergency case"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> مستشفى يعمل بسعة 95% من غرف العمليات للعمليات المجدولة (Electives). وصلت حالة طارئة (انفجار زائدة دودية) في الساعة 1:00 ظهراً. كل غرفة عمليات كانت قيد الاستخدام. وكل حالة مجدولة كانت متأخرة عن وقتها. لم تكن أي غرفة قريبة من الانتهاء.</p>
@@ -2625,8 +2625,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term">The gate is not paperwork. It is a pause that protects the incision. (WHO SSC; IHI)</span></p>
     </div>
 
-    <h2>8.4 القصة الحقيقية 2: "المضاد الحيوي المتأخر وإغراء الزخم"</h2>
-    <h3>8.4 Real Story 2: "The late antibiotic and the temptation of momentum"</h3>
+    <h2>8.4 "المضاد الحيوي المتأخر وإغراء الزخم"</h2>
+    <h3>8.4 "The late antibiotic and the temptation of momentum"</h3>
 
     <div class="quote-box">
         <p><strong>8.4.1 المشهد (The scene):</strong><br>
@@ -3045,8 +3045,8 @@ export const chaptersContent: Record<string | number, string> = {
         </ol>
     </div>
 
-    <h2>18.8 القصة الحقيقية 2: "الإنذار الذي تم تجاهله"</h2>
-    <h3>18.8 Real Story 2: "The ignored alarm"</h3>
+    <h2>18.8 "الإنذار الذي تم تجاهله"</h2>
+    <h3>18.8 "The ignored alarm"</h3>
 
     <div class="quote-box">
         <p>أثناء الجراحة، استمر جهاز الكي الكهربائي (ESU) في إصدار إنذارات تنبيهية (Beeping) تشير إلى سوء جودة التلامس (CQM alarm).<br>
@@ -3786,8 +3786,8 @@ export const chaptersContent: Record<string | number, string> = {
     <strong>اكتمال التتبع قبل انتهاء التسليم:</strong> يجب إكمال تسمية العينات وتتبع الغرسات كـ <strong>شرط انتهاء (Done condition)</strong> قبل أن يغادر المريض مسؤولية المسرح بالكامل. (AORN)<br>
     <span class="english-term"><strong>Continuation Gate controls (PACU → Ward):</strong> Surgical continuity dataset repeated and confirmed. Traceability completion before handoff ends (specimen labeling and implant traceability). (AORN)</span></p>
 
-    <h2>2.5 القصة الحقيقية 2: "الإلغاء الذي كان يمكن تفاديه والذي كاد أن يتحول إلى حدث ضار"</h2>
-    <h3>2.5 Real Story 2: "The preventable cancellation that nearly became a harm event"</h3>
+    <h2>2.5 "الإلغاء الذي كان يمكن تفاديه والذي كاد أن يتحول إلى حدث ضار"</h2>
+    <h3>2.5 "The preventable cancellation that nearly became a harm event"</h3>
 
     <div class="quote-box">
         <p><strong>2.5.1 المشهد (The scene):</strong><br>
@@ -3815,8 +3815,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term"><strong>The fix (Safety-by-design):</strong> The hospital introduced: a mandatory booking field: “Implant required? Y/N; type; sizing range; vendor; confirmation date,” (AORN) a readiness checkpoint 48 hours before surgery, (IHI) an escalation rule: “No implant confirmation = no final list.” (IHI) Cancellations decreased—and, more importantly, unsafe starts decreased.</span></p>
     </div>
 
-    <h2>2.6 القصة الحقيقية 3: "ارتباك العينات—عندما يتحول ملصق صغير إلى حدث ضخم"</h2>
-    <h3>2.6 Real Story 3: "Specimen confusion—when a tiny label becomes a massive event"</h3>
+    <h2>2.6 "ارتباك العينات—عندما يتحول ملصق صغير إلى حدث ضخم"</h2>
+    <h3>2.6 "Specimen confusion—when a tiny label becomes a massive event"</h3>
 
     <div class="quote-box">
         <p><strong>2.6.1 المشهد (The scene):</strong><br>
@@ -5177,7 +5177,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p>يحدث الانحراف (Drift) عند تدوير الموظفين، زيادة العبء، أو انتقال انتباه القيادة لمكان آخر. (AHRQ)<br>
     تتطلب الاستدامة: إعادة التدقيق الدوري، دمج في التوجيه (Onboarding)، تغذية راجعة مرئية، واتساق القيادة.</p>
 
-    <h2>30.5 القصة الحقيقية 2: "الكوب غير المسمى الذي حُلّ بتغيير النظام"</h2>
+    <h2>30.5 "الكوب غير المسمى الذي حُلّ بتغيير النظام"</h2>
     <h3>30.5 A short story from practice (Narrative)</h3>
 
     <div class="quote-box">
@@ -5401,8 +5401,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>التصعيد:</strong> مسار واضح للتعامل مع "صينية مفقودة" دون اللجوء إلى IUSS الروتيني. (AHRQ)</li>
     </ul>
 
-    <h2>11.8 القصة الحقيقية 2: "الشريحة العظمية التي تطلبت IUSS"</h2>
-    <h3>11.8 Real Story 2: "The Bone Flap That Required IUSS"</h3>
+    <h2>11.8 "الشريحة العظمية التي تطلبت IUSS"</h2>
+    <h3>11.8 "The Bone Flap That Required IUSS"</h3>
 
     <div class="quote-box">
         <p><strong>11.8.1 المشهد (The scene):</strong><br>
@@ -5904,8 +5904,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>قراءة الملصق بالكامل:</strong> الاعتماد على لون الغطاء هو خطأ في النظام؛ اقرأ الكلمة دائماً. (ISMP; The Joint Commission)</li>
     </ul>
 
-    <h2>21.6 القصة الحقيقية 2: "الهيبارين الذي كان يُفترض أن يكون محلولاً ملحياً"</h2>
-    <h3>21.6 Real Story 2: "The Heparin that was meant to be Saline"</h3>
+    <h2>21.6 "الهيبارين الذي كان يُفترض أن يكون محلولاً ملحياً"</h2>
+    <h3>21.6 "The Heparin that was meant to be Saline"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> أثناء إجراء لترقيع الأوعية الدموية (Vascular graft)، كان الجراح يحتاج إلى غسل الوعاء بمحلول ملحي مع هيبارين (Heparinized saline) لمنع التجلط.</p>
@@ -6165,8 +6165,8 @@ export const chaptersContent: Record<string | number, string> = {
     <p>عدد مذهل من الحوادث الوشيكة (Near-misses) يبدأ بالمختصرات—أشكال قصيرة تعني أشياء مختلفة لأشخاص مختلفين. كلمة "Repair" قد تُخفي "revision"، و "excision" قد تُخفي "biopsy + excision"، والجهة (Laterality) قد تختفي تماماً. توحيد أسماء الإجراءات هو متطلب سلامة في الممارسة العملية، حتى لو بدا أمراً "إدارياً". (The Joint Commission; IHI)</p>
     <p><span class="english-term">A surprising number of near-misses begin with abbreviations—short forms that mean different things to different people. “Repair” may hide “revision,” “excision” may hide “biopsy + excision,” and laterality may vanish entirely. Standardization of procedure naming is a safety requirement in practice, even if it feels “administrative.” (The Joint Commission; IHI)</span></p>
 
-    <h2>5.4 القصة الحقيقية 2: "مريضان. نفس اسم العائلة. نفس اليوم."</h2>
-    <h3>5.4 Real Story 2: "Two patients. Same surname. Same day."</h3>
+    <h2>5.4 "مريضان. نفس اسم العائلة. نفس اليوم."</h2>
+    <h3>5.4 "Two patients. Same surname. Same day."</h3>
 
     <div class="quote-box">
         <p><strong>5.4.1 المشهد (The scene):</strong><br>
@@ -7241,8 +7241,8 @@ export const chaptersContent: Record<string | number, string> = {
     <p>تُظهر هذه المؤشرات ما إذا كانت الحوكمة تعمل فعلياً أم لا. (IHI)</p>
     <p><span class="english-term">These indicators show whether governance actually works. (IHI)</span></p>
 
-    <h2>4.11 القصة الحقيقية 2: "عندما كانت المساءلة خاطئة، أصبحت السلامة أسوأ"</h2>
-    <h3>4.11 Real Story 2: "When accountability was wrong, safety got worse"</h3>
+    <h2>4.11 "عندما كانت المساءلة خاطئة، أصبحت السلامة أسوأ"</h2>
+    <h3>4.11 "When accountability was wrong, safety got worse"</h3>
 
     <div class="quote-box">
         <p><strong>4.11.1 الحدث (The event):</strong><br>
@@ -7274,8 +7274,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term">The solution was governance redesign, not humiliation... Accountability that produces silence is not accountability—it is risk creation. (AHRQ)</span></p>
     </div>
 
-    <h2>4.12 القصة الحقيقية 3: "لجنة غيرت غرفة العمليات في 90 يوماً"</h2>
-    <h3>4.12 Real Story 3: "A committee that changed the OR in 90 days"</h3>
+    <h2>4.12 "لجنة غيرت غرفة العمليات في 90 يوماً"</h2>
+    <h3>4.12 "A committee that changed the OR in 90 days"</h3>
 
     <div class="concept-box">
         <p><strong>4.12.1 نقطة البداية (The starting point):</strong><br>
@@ -7547,8 +7547,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>تباين في العد الجراحي (لا يُسمح بإغلاق الجلد). (AORN; The Joint Commission)</li>
     </ul>
 
-    <h2>14.6 القصة الحقيقية 2: "التسلسل الهرمي الذي هزم قائمة التحقق"</h2>
-    <h3>14.6 Real Story 2: "The hierarchy that defeated the checklist"</h3>
+    <h2>14.6 "التسلسل الهرمي الذي هزم قائمة التحقق"</h2>
+    <h3>14.6 "The hierarchy that defeated the checklist"</h3>
 
     <div class="quote-box">
         <p>بدأت الممرضة الدوارة بقراءة הـ Time-out: <em>"المريض هو..."</em><br>
@@ -7797,8 +7797,8 @@ export const chaptersContent: Record<string | number, string> = {
     <p>تستخدم أفضل المستشفيات نهج "التوقف في محطة الصيانة" (مثل سباقات الفورمولا 1). عندما يخرج المريض، يتدخل فريق بأكمله (التمريض، النظافة، المساعدون) للعمل على مهام محددة مسبقاً. لكن هذا يتطلب <strong>وضوحاً تاماً في الأدوار</strong>. إذا لم يعرف الجميع وظيفتهم، يصبح الحشد فوضى. (IHI; AHRQ)</p>
     <p><span class="english-term"><strong>24.5.2 "Pit-stop" approach</strong><br>The best hospitals use a "pit-stop" approach. When the patient rolls out, a whole team swarms the room for specific pre-assigned tasks. But this requires <strong>total role clarity</strong>. If everyone doesn’t know their exact job, the swarm becomes chaos. (IHI; AHRQ)</span></p>
 
-    <h2>24.6 القصة الحقيقية 2: "التبديل في 10 دقائق الذي تسبب في عدوى"</h2>
-    <h3>24.6 Real Story 2: "The 10-Minute Turnover that Caused an Infection"</h3>
+    <h2>24.6 "التبديل في 10 دقائق الذي تسبب في عدوى"</h2>
+    <h3>24.6 "The 10-Minute Turnover that Caused an Infection"</h3>
 
     <div class="quote-box">
         <p>كانت الغرفة متأخرة ساعة كاملة. كان فريق الجراحة منزعجاً. عندما خرج المريض الأول، دفع الجراح الجميع للتعجيل. تم تبديل الغرفة في 10 دقائق—وهو رقم قياسي. كانوا فخورين جداً.</p>
@@ -8696,8 +8696,8 @@ export const chaptersContent: Record<string | number, string> = {
     <p>عندما يشتري المستشفى جهازاً جديداً (مثل روبوت جديد أو ليزر)، لا يجب لأي جراح أن يستخدمه فقط لأنه "شاهد مقطع فيديو". يجب أن يتطلب الامتياز تدريباً موثقاً من الشركة المصنعة وحالات تتم تحت إشراف (Proctoring). (ECRI concepts)</p>
     <p><span class="english-term"><strong>27.5.2 Controlling new technology</strong><br>When a hospital buys a new device (like a new robot or laser), no surgeon should use it just because they “watched a video.” Privileging must require documented vendor training and proctored cases. (ECRI concepts)</span></p>
 
-    <h2>27.6 القصة الحقيقية 2: "الممرضة المعقمة التي قالت 'لا'"</h2>
-    <h3>27.6 Real Story 2: "The Scrub Nurse Who Said 'No'"</h3>
+    <h2>27.6 "الممرضة المعقمة التي قالت 'لا'"</h2>
+    <h3>27.6 "The Scrub Nurse Who Said 'No'"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> في يوم جمعة بجدول مزدحم، استدعت غرفة العمليات موظفي وكالة خارجية (Agency staff) لتغطية النقص. تم تعيين ممرضة معقمة من الوكالة في حالة جراحة أوعية دموية كبرى.</p>
@@ -8969,8 +8969,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term">If a junior nurse fears being humiliated, they may stay silent. Speaking up is a safety control that requires psychological safety and governance. (AHRQ; IHI)</span></p>
     </div>
 
-    <h2>6.4 القصة الحقيقية 2: "كان الجراح على حق—حتى فُتح التصوير الطبي"</h2>
-    <h3>6.4 Real Story 2: "The surgeon was right—until the imaging was opened"</h3>
+    <h2>6.4 "كان الجراح على حق—حتى فُتح التصوير الطبي"</h2>
+    <h3>6.4 "The surgeon was right—until the imaging was opened"</h3>
 
     <div class="quote-box">
         <p><strong>6.4.1 المشهد (The scene):</strong><br>
@@ -9362,8 +9362,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term">If you put the label on the lid, and pathology unscrews three lids at once, the labels are now separated from the specimens. <strong>Rule: Always place the label on the container itself, never just on the lid.</strong> (AORN)</span></p>
     </div>
 
-    <h2>16.5 القصة الحقيقية 2: "الكوب غير المسمى على الطاولة الخلفية"</h2>
-    <h3>16.5 Real Story 2: "The unlabeled cup on the back table"</h3>
+    <h2>16.5 "الكوب غير المسمى على الطاولة الخلفية"</h2>
+    <h3>16.5 "The unlabeled cup on the back table"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> حالة أذن وأنف وحنجرة (ENT). طلب الجراح بعض المحلول الملحي (Saline) للغسيل، ودواءً موضعياً (Local anesthetic)، وكان هناك أيضاً عينة صغيرة من الأنسجة مأخوذة للزراعة (Culture). كانت جميعها في أكواب صغيرة متشابهة من الستانلس ستيل على الطاولة الخلفية للممرضة المعقمة. لم يكن لأي منها ملصق معقم.</p>
@@ -9597,8 +9597,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>قاعدة الفتح:</strong> جهز العناصر في الغرفة (Hold in room)، ولكن لا تفتحها (Do not open) حتى يطلبها الجراح بشكل مؤكد.</li>
     </ul>
 
-    <h2>26.6 القصة الحقيقية 2: "عربة التجهيز التي كانت مزدحمة جداً بالسلامة"</h2>
-    <h3>26.6 Real Story 2: "The Core Cart That Was Too Crowded with Safety"</h3>
+    <h2>26.6 "عربة التجهيز التي كانت مزدحمة جداً بالسلامة"</h2>
+    <h3>26.6 "The Core Cart That Was Too Crowded with Safety"</h3>
 
     <div class="quote-box">
         <p>كان هناك مستشفى يمتلك عربة إمدادات مركزية (Core supply cart). كانت الإدارة قلقة جداً من النواقص لدرجة أنهم قاموا بزيادة مستويات الـ Par (تخزين كل شيء) ليضمنوا عدم نفاد أي شيء أبداً.</p>
@@ -10064,8 +10064,8 @@ export const chaptersContent: Record<string | number, string> = {
         </ol>
     </div>
 
-    <h2>20.6 القصة الحقيقية 2: "الإبرة المتروكة على الطاولة"</h2>
-    <h3>20.6 Real Story 2: "The Needle Left on the Table"</h3>
+    <h2>20.6 "الإبرة المتروكة على الطاولة"</h2>
+    <h3>20.6 "The Needle Left on the Table"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> انتهت الحالة. غادر الجراح. كانت ممرضة جديدة تقوم بتنظيف الطاولة الخلفية (Back table). أمسكت بكومة من الشاش المبلل بالدم لإلقائها في سلة النفايات.</p>
