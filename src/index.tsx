@@ -177,10 +177,11 @@ const navbarCSS = `
     transition: background 0.2s; white-space: nowrap;
   }
   .nav-link:hover, .nav-link.active { background: rgba(255,255,255,0.22); }
-  @media (max-width: 600px) {
-    .top-nav { padding: 8px 12px; }
+  @media (max-width: 700px) {
+    .top-nav { padding: 8px 12px; gap: 6px; }
     .nav-brand-text { display: none; }
-    .nav-link { font-size: 12px; padding: 5px 10px; }
+    .nav-link { font-size: 11px; padding: 5px 8px; }
+    .nav-links { gap: 5px; }
   }
 `
 
@@ -203,7 +204,14 @@ const chapterPageCSS = `
     padding: 100px 60px 60px;
   }
   @media (max-width: 768px) {
-    .chapter-wrapper { padding: 110px 15px 40px; font-size: 17px; }
+    .chapter-wrapper { padding: 110px 16px 40px; font-size: 17px; }
+  }
+  @media (max-width: 480px) {
+    .chapter-wrapper { padding: 100px 12px 32px; font-size: 16px; }
+    .chapter-header-box { padding: 16px 14px !important; margin: 14px 0 24px !important; }
+    .chapter-title-ar { font-size: 1.25rem !important; }
+    .chapter-title-en { font-size: 0.85rem !important; }
+    .chapter-sub-ar { font-size: 0.85rem !important; }
   }
 
   /* PART LABELS */
@@ -567,6 +575,16 @@ app.get('/portal', (c) => {
       gap: 36px;
       max-width: 1000px;
       margin: 0 auto;
+    }
+    @media (max-width: 640px) {
+      .books-grid { grid-template-columns: 1fr; gap: 20px; }
+      body { padding: 24px 14px 40px !important; }
+      .header { margin-bottom: 30px !important; }
+      .header h1 { font-size: 1.6rem !important; }
+      .book-img-wrap { padding-top: 75% !important; }
+      .book-info { padding: 16px 18px 20px !important; }
+      .book-title { font-size: 1.1rem !important; }
+      .footer { padding: 30px 14px 14px !important; }
     }
 
     /* CARD */

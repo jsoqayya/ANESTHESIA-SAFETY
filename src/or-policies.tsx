@@ -411,17 +411,23 @@ or.get('/', (c) => {
       background: transparent; color: white; padding: 13px 28px; border-radius: 11px;
       border: 2px solid rgba(255,255,255,0.38); display: inline-block; transition: all 0.25s;
     }
+    @media (max-width: 480px) {
+      .btn-blue-lg, .btn-outline-lg {
+        font-size: 13px; padding: 11px 18px; width: 100%; text-align: center; display: block;
+      }
+      .cover-btns { flex-direction: column; padding: 0 16px; gap: 10px; }
+    }
 
     /* ── INTRO ── */
-    .intro-section { background: #f0f7ff; padding: 56px 16px; }
+    .intro-section { background: #f0f7ff; padding: 40px 16px; }
     .sec-max { max-width: 1000px; margin: 0 auto; }
-    .sec-title { font-family: 'Noto Kufi Arabic', sans-serif; font-size: clamp(22px,5vw,34px); font-weight: 800; color: #1e3a5f; text-align: center; margin-bottom: 6px; }
+    .sec-title { font-family: 'Noto Kufi Arabic', sans-serif; font-size: clamp(20px,5vw,34px); font-weight: 800; color: #1e3a5f; text-align: center; margin-bottom: 6px; }
     .sec-subtitle { font-family: 'Segoe UI', sans-serif; font-size: 11px; color: #9ca3af; text-align: center; direction: ltr; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 36px; }
     .intro-card {
-      background: white; border: 1.5px solid #bfdbfe; border-radius: 20px;
-      padding: 28px 20px; box-shadow: 0 6px 32px rgba(29,78,216,0.08); position: relative; overflow: hidden;
+      background: white; border: 1.5px solid #bfdbfe; border-radius: 16px;
+      padding: 24px 18px; box-shadow: 0 6px 32px rgba(29,78,216,0.08); position: relative; overflow: hidden;
     }
-    @media (min-width:640px) { .intro-card { padding: 52px 60px; border-radius: 28px; } }
+    @media (min-width:640px) { .intro-card { padding: 40px 48px; border-radius: 24px; } }
     .intro-card::before {
       content: ''; position: absolute; top: 0; right: 0; width: 6px; height: 100%;
       background: linear-gradient(180deg, #1e3a5f 0%, #1d4ed8 50%, #60a5fa 100%);
