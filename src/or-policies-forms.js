@@ -448,17 +448,6 @@ export const orFormsHtml = {
 
  <!-- Premium Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f02: { css: `body {
@@ -1044,17 +1033,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f03: { css: `body {
@@ -1420,17 +1398,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f04: { css: `body {
@@ -1933,17 +1900,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f05: { css: `body {
@@ -2368,17 +2324,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f06: { css: `body {
@@ -2759,17 +2704,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f07: { css: `body {
@@ -3115,17 +3049,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f08: { css: `body {
@@ -3498,17 +3421,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f09: { css: `body {
@@ -3949,17 +3861,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f10: { css: `body {
@@ -4433,17 +4334,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f11: { css: `body {
@@ -4907,17 +4797,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f12: { css: `body {
@@ -5358,17 +5237,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f13: { css: `body {
@@ -5831,17 +5699,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f14: { css: `body {
@@ -6218,17 +6075,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f15: { css: `body {
@@ -6615,17 +6461,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f16: { css: `body {
@@ -7119,17 +6954,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f17: { css: `body {
@@ -7511,17 +7335,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f18: { css: `body {
@@ -7947,17 +7760,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f19: { css: `body {
@@ -8742,17 +8544,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f20: { css: `body {
@@ -9553,17 +9344,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f21: { css: `body {
@@ -9964,17 +9744,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f22: { css: `body {
@@ -10568,17 +10337,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f23: { css: `body {
@@ -10857,17 +10615,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f24: { css: `body {
@@ -11290,17 +11037,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
  f25: { css: `body {
@@ -11613,17 +11349,6 @@ export const orFormsHtml = {
 
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
-
-        input[type="date"], input[type="time"] {
-          direction: ltr !important;
-          text-align: left !important;
-          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
-          unicode-bidi: plaintext;
-        }
-        input[type="date"]::-webkit-datetime-edit,
-        input[type="time"]::-webkit-datetime-edit {
-          direction: ltr !important;
-        }
  <!-- Scripts -->
  ` },
 }
