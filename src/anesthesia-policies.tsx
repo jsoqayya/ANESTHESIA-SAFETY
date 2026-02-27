@@ -36,7 +36,7 @@ const formOrder = ['f01','f02','f03','f04','f05','f06','f07','f08','f09','f10',
                    'f21','f22','f23','f24','f25','f26','f27','f28','f29','f30']
 
 const formTitles: Record<string, string> = {
-  f01: 'Pre-Anesthesia Assessment Form',
+  f01: 'Pre-Anesthesia Assessment & Pre-Induction Form',
   f02: 'Day-of-Surgery Update',
   f03: 'Airway Assessment & Plan Form',
   f04: 'Anesthesia Consent Form',
@@ -185,13 +185,19 @@ function commentsSection(pageId: string) {
   </script>`
 }
 
-// ── buildFormPage — forms: full-width centered, no side padding, no comments ─
+// ── buildFormPage — forms: full-width centered, with top header bar ─────────
 function buildFormPage(
   title: string,
   css: string,
   body: string,
-  navHtml: string
+  navHtml: string,
+  formCode: string = '',
+  formTitle: string = ''
 ): string {
+  // Extract code & label for the top badge (e.g. "F-07" / "Post-Anesthesia Note")
+  const badgeCode  = formCode  || title.split(':')[0]?.trim() || ''
+  const badgeLabel = formTitle || title.split(':').slice(1).join(':').trim() || title
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -202,22 +208,60 @@ function buildFormPage(
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <style>
     ${css}
-    /* Universal centering override for all forms */
-    html, body {
-      padding-top: 0 !important;
-      /* Do NOT override margin here — let each form control it */
-    }
-    /* Wrap the entire form content in a centered container */
+    html, body { padding-top: 0 !important; }
     .form-page-wrap {
       max-width: 960px;
       margin: 0 auto;
       padding: 0 16px 60px;
     }
     .max-w-5xl { max-width: 64rem; }
+    /* Form identity header */
+    .form-id-header {
+      background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 18px 28px;
+      margin-bottom: 24px;
+      border-radius: 0 0 16px 16px;
+      box-shadow: 0 4px 18px rgba(37,99,235,.25);
+    }
+    .form-id-header .fid-badge {
+      background: rgba(255,255,255,0.18);
+      border: 2px solid rgba(255,255,255,0.4);
+      border-radius: 10px;
+      padding: 8px 18px;
+      font-size: 1.35rem;
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+      font-family: 'Inter', sans-serif;
+    }
+    .form-id-header .fid-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.35;
+      opacity: 0.95;
+      font-family: 'Inter', sans-serif;
+    }
+    .form-id-header .fid-book {
+      font-size: 0.72rem;
+      opacity: 0.65;
+      margin-top: 3px;
+      font-family: 'Cairo', sans-serif;
+    }
   </style>
 </head>
 <body>
 ${navHtml}
+<div class="form-id-header">
+  <div class="fid-badge">${badgeCode}</div>
+  <div>
+    <div class="fid-title">${badgeLabel}</div>
+    <div class="fid-book">دليل السياسات والإجراءات في التخدير — Section M</div>
+  </div>
+</div>
 <div class="form-page-wrap">
 ${body}
 </div>
@@ -858,16 +902,20 @@ ap.get('/form/:id', (c) => {
   const prevId = idx > 0 ? formOrder[idx - 1] : undefined
   const nextId = idx < formOrder.length - 1 ? formOrder[idx + 1] : undefined
 
+  const fmtId = (fid: string) => fid.replace('f', 'F-').replace(/F-(\d)$/, 'F-0$1')
+
   const navHtml = navbar(
     'forms',
     prevId ? `/anesthesia-policies/form/${prevId}` : '/anesthesia-policies/section/M',
-    prevId ? prevId.replace('f','F-') : 'Section M',
+    prevId ? fmtId(prevId) : 'Section M',
     nextId ? `/anesthesia-policies/form/${nextId}` : undefined,
-    nextId ? nextId.replace('f','F-') : undefined
+    nextId ? fmtId(nextId) : undefined
   )
 
-  const title = `${id.replace('f','F-')}: ${formTitles[id] || ''}`
-  const page = buildFormPage(title, form.css, form.body, navHtml)
+  const formCode  = id.replace('f', 'F-').replace('F-0', 'F-0').replace(/F-(\d)$/, 'F-0$1')
+  const formLabel = formTitles[id] || ''
+  const title = `${formCode}: ${formLabel}`
+  const page = buildFormPage(title, form.css, form.body, navHtml, formCode, formLabel)
   return c.html(page)
 })
 

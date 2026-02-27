@@ -9093,7 +9093,7 @@ export const apSectionsHtml: Record<string, SectionHtml> = {
                 <div class="section-box box-form flex items-start">
                     <span class="form-id mt-1">F-01</span>
                     <div>
-                        <p class="font-bold text-lg text-slate-900 mb-1">Pre-Anesthesia Assessment Form</p>
+                        <p class="font-bold text-lg text-slate-900 mb-1">Pre-Anesthesia Assessment &amp; Pre-Induction Form</p>
                         <p class="text-sm text-slate-700"><strong>Key fields:</strong> patient demographics, PMH/PSH, allergies, meds, ASA, airway, investigations, risk stratification, optimization plan, consent status.</p>
                     </div>
                 </div>
@@ -10668,7 +10668,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     </div>
 
     <div class="footer" style="margin-top: 15px">
-      <div>Form F-01 | Version 3.0 | CBAHI/JCI Compliant - Comprehensive Pre-Anesthesia Assessment</div>
+      <div>Form F-01 | Version 3.0 | CBAHI/JCI Compliant - Pre-Anesthesia Assessment &amp; Pre-Induction Form</div>
       <div>Page 1 of 3</div>
     </div>
 
