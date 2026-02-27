@@ -5956,8 +5956,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <h2>21.16 تأملات في مسرح العمليات</h2>
     <h3>21.16 Reflections in the Operating Theatre</h3>
-    <p><em>ملاحظة: تم الحفاظ على ترقيم النص الأصلي.</em></p>
-
     <h3>21.16.1 الملصق هو عقد / A label is a contract</h3>
     <p>عندما تضع ملصقاً على حقنة، فأنت توقع عقداً مع الجراح، ومع المريض، ومع كل ممارس سيقرأ سجلك. أنت تضمن الحقيقة.</p>
     <p><span class="english-term"><strong>21.16.1 A label is a contract</strong><br>When you put a label on a syringe, you are signing a contract with the surgeon, with the patient, and with every clinician who will read your record. You are guaranteeing truth.</span></p>
@@ -7847,8 +7845,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <h2>24.15 تأملات في مسرح العمليات</h2>
     <h3>24.15 Reflections in the Operating Theatre</h3>
-    <p><em>ملاحظة: تم الحفاظ على ترقيم النص الأصلي الذي يقفز إلى 24.15</em></p>
-
     <h3>24.15.1 التدفق هو عرض، وليس السبب / Flow is a symptom, not a cause</h3>
     <p>عندما تكون غرفة العمليات بطيئة، فإن المشكلة نادراً ما تكون الكسل. المشكلة هي الفوضى. الناس يبحثون عن الأشياء، ويصححون الأخطاء، وينتظرون المعلومات. التدفق السلس هو النتيجة الطبيعية للأنظمة المنظمة جيداً.</p>
     <p><span class="english-term"><strong>24.15.1 Flow is a symptom, not a cause</strong><br>When an OR is slow, the problem is rarely laziness. The problem is chaos. People are hunting for things, fixing errors, waiting for information. Smooth flow is the natural result of highly organized systems.</span></p>
