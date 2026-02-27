@@ -343,13 +343,13 @@ or.get('/', (c) => {
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Kufi+Arabic:wght@300;400;600;800&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif; color: #1f2937; background: #fff; direction: rtl; text-align: right; }
+    html { scroll-behavior: smooth; overflow-x: hidden; max-width: 100%; }
+    body { font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif; color: #1f2937; background: #fff; direction: rtl; text-align: right; overflow-x: hidden; max-width: 100%; }
     a { text-decoration: none; color: inherit; }
 
     /* ── NAVBAR ── */
     .or-nav {
-      position: fixed; top: 0; left: 0; right: 0; width: 100vw; z-index: 9999;
+      position: fixed; top: 0; left: 0; right: 0; width: 100%; z-index: 9999;
       direction: ltr;
       background: linear-gradient(135deg,#1e3a5f 0%,#1d4ed8 55%,#2563eb 100%);
       box-shadow: 0 4px 28px rgba(0,0,0,0.55);
@@ -397,12 +397,12 @@ or.get('/', (c) => {
     @media (min-width:700px) { .hero-wrap { padding-top: 66px; } }
     .cover-spotlight {
       width: 100%; display: flex; justify-content: center; align-items: flex-end;
-      padding: 36px 24px 0; position: relative;
+      padding: 36px 24px 0; position: relative; overflow: hidden;
     }
     @media (min-width:640px) { .cover-spotlight { padding-top: 56px; } }
     .cover-spotlight::before {
       content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
-      width: 600px; height: 600px;
+      width: min(600px, 100vw); height: min(600px, 100vw);
       background: radial-gradient(ellipse at center, rgba(96,165,250,0.12) 0%, transparent 70%);
       pointer-events: none;
     }
@@ -429,17 +429,16 @@ or.get('/', (c) => {
     }
     .cover-title-ar .blue { color: #60a5fa; }
     .cover-stats-row {
-      display: flex; align-items: stretch;
+      display: flex; align-items: stretch; flex-wrap: wrap; justify-content: center;
       background: rgba(255,255,255,0.07); border: 1.5px solid rgba(255,255,255,0.14);
-      border-radius: 14px; overflow-x: auto; margin: 0 auto 28px;
-      max-width: 560px; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+      border-radius: 14px; margin: 0 auto 28px;
+      max-width: 560px; width: 100%;
     }
-    .cover-stats-row::-webkit-scrollbar { display: none; }
-    .csr-item { padding: 12px 18px; text-align: center; border-left: 1px solid rgba(255,255,255,0.12); flex-shrink: 0; }
+    .csr-item { padding: 12px 18px; text-align: center; border-left: 1px solid rgba(255,255,255,0.12); flex: 1; min-width: 70px; }
     .csr-item:last-child { border-left: none; }
     .csr-num { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 24px; font-weight: 800; color: white; }
     .csr-lbl { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 10px; color: rgba(255,255,255,0.48); margin-top: 3px; }
-    .cover-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; padding: 0 8px; }
+    .cover-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; padding: 0 16px; width: 100%; max-width: 100%; box-sizing: border-box; }
     .btn-blue-lg {
       font-family: 'Noto Kufi Arabic', sans-serif; font-size: 15px; font-weight: 800;
       background: linear-gradient(135deg,#1d4ed8,#2563eb); color: white;
