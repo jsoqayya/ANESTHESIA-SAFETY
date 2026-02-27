@@ -15,7 +15,7 @@ const bookTitle  = 'دليل السياسات والإجراءات في غرفة
 const authorName = 'د. جميل السقيا'
 
 // ── Section order (s01–s17 matching actual SEC 1–15 + SEC 11 split into 3 parts) ─
-const sectionOrder = ['s01','s02','s03','s04','s05','s06','s07','s08','s09','s10','s11','s12','s13','s14','s15','s16','s17']
+const sectionOrder = ['s01','s02','s03','s04','s05','s06','s07','s08','s09','s10','s11','s12','s13','s15','s16','s17']
 
 const sectionTitles: Record<string, { en: string; ar: string }> = {
   s01: { en: 'SEC 1 — Operating Theatre Governance & Scope of Service',              ar: 'القسم ١ — حوكمة غرفة العمليات ونطاق الخدمة' },
@@ -31,7 +31,6 @@ const sectionTitles: Record<string, { en: string; ar: string }> = {
   s11: { en: 'SEC 11 (Part A) — Intra-Operative Safety & Conduct (11.1–11.3)',       ar: 'القسم ١١-أ — السلامة داخل العمليات (١١.١–١١.٣)' },
   s12: { en: 'SEC 11 (Part B) — Intra-Operative Safety & Conduct (11.4–11.7)',       ar: 'القسم ١١-ب — السلامة داخل العمليات (١١.٤–١١.٧)' },
   s13: { en: 'SEC 11 (Part C) — Intra-Operative Safety & Conduct (11.8–11.13)',      ar: 'القسم ١١-ج — السلامة داخل العمليات (١١.٨–١١.١٣)' },
-  s14: { en: 'SEC 12 — Surgical Instruments & Equipment (HCT / FMS)',                ar: 'القسم ١٢ — الأدوات الجراحية والمعدات' },
   s15: { en: 'SEC 13 — OT Facility Safety (FMS)',                                    ar: 'القسم ١٣ — سلامة منشأة غرفة العمليات' },
   s16: { en: 'SEC 14 — OT Emergency Coordination (FMS / IPSG)',                      ar: 'القسم ١٤ — تنسيق الطوارئ في غرفة العمليات' },
   s17: { en: 'SEC 15 — Specialty Operating Theatre Workflows',                       ar: 'القسم ١٥ — مسارات العمل في غرف العمليات المتخصصة' },
