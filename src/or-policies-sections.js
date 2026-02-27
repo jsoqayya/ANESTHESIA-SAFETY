@@ -6564,10 +6564,561 @@ export const orSectionsHtml = {
     </script>`
   },
   s08: {
-    titleEn: 'SEC 8 — PACU / Recovery Room Interface',
+    titleEn: 'Section 8: IPP-OT-017 — PACU / Recovery Room Interface',
     titleAr: 'القسم ٨ — واجهة غرفة الإفاقة (PACU)',
-    css: `body{font-family:Cairo,sans-serif;}`,
-    body: `<div style="max-width:900px;margin:0 auto;padding:40px 20px;font-family:Cairo,sans-serif;direction:rtl;text-align:right;"><h1 style="color:#1e3a5f;border-bottom:3px solid #1d4ed8;padding-bottom:12px;">Section 8: SEC 8 — PACU / Recovery Room Interface</h1><h2 style="color:#374151;font-size:18px;margin-top:16px;">القسم ٨ — واجهة غرفة الإفاقة (PACU)</h2><p style="color:#6b7280;margin-top:20px;font-size:15px;line-height:2;">هذا القسم مُدمج ضمن وثيقة التسليم والنقل (القسم ٧). يُرجى مراجعة سياسة Handover للاطلاع على إجراءات PACU.</p></div>`
+    css: `body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f7f6;
+        }
+        .heading-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #e2e8f0; }
+        ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+        
+        .glass-header {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Card Hover Effects */
+        .policy-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .policy-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .custom-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .custom-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .custom-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: -2px;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        
+        .alpha-list {
+            list-style-type: lower-alpha;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .alpha-list li {
+            margin-bottom: 0.25rem;
+        }
+        
+        /* Colored list bullets based on parent theme */
+        .theme-blue li::before { color: #3b82f6; }
+        .theme-emerald li::before { color: #10b981; }
+        .theme-violet li::before { color: #8b5cf6; }
+        .theme-amber li::before { color: #f59e0b; }
+        .theme-rose li::before { color: #f43f5e; }
+        .theme-teal li::before { color: #14b8a6; }
+        .theme-indigo li::before { color: #6366f1; }
+        .theme-cyan li::before { color: #06b6d4; }
+        .theme-fuchsia li::before { color: #d946ef; }
+        .theme-sky li::before { color: #0ea5e9; }
+        .theme-orange li::before { color: #f97316; }
+        .theme-red li::before { color: #ef4444; }
+        .theme-green li::before { color: #22c55e; }
+        .theme-slate li::before { color: #64748b; }
+        .theme-purple li::before { color: #a855f7; }
+        .theme-pink li::before { color: #ec4899; }`,
+    body: `<!-- SEC 8 Hero Section -->
+    <div class="bg-slate-900 relative overflow-hidden shadow-xl">
+        <div class="absolute inset-0 bg-gradient-to-br from-cyan-900 via-slate-900 to-blue-900 opacity-90"></div>
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-cyan-500 rounded-full blur-[100px] opacity-20"></div>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 text-center">
+            <span class="inline-block px-4 py-1.5 bg-cyan-500/20 text-cyan-200 border border-cyan-400/30 rounded-full text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
+                Policy &amp; Procedure Document
+            </span>
+            <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-cyan-100 leading-tight drop-shadow-lg">
+                IPP-OT-017 — Section 8: PACU / Recovery Room Interface
+            </h1>
+            <p class="mt-6 text-slate-300 text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
+                Post-Anaesthesia Care Unit Handover, Monitoring, Discharge Criteria &amp; OT Interface
+            </p>
+            <p class="mt-3 text-cyan-200 text-base font-medium">
+                واجهة غرفة الإفاقة (PACU) — التسليم والرقابة ومعايير الخروج
+            </p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12 -mt-12 relative z-20">
+
+        <!-- Meta Information Card -->
+        <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Department</span><span class="block text-sm font-semibold text-slate-800">Operating Theatre (OT)<br>General Hospital</span></div>
+                <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span><span class="block text-sm font-semibold text-slate-800">IPP-OT-017</span></div>
+                <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Version</span><span class="block text-sm font-semibold text-slate-800">Version 1.0</span></div>
+                <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Applicability</span><span class="block text-sm font-semibold text-slate-800">OT, PACU, Anaesthesia, Nursing</span></div>
+                <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Review Cycle</span><span class="block text-sm font-semibold text-slate-800">Annual / Post-Incident</span></div>
+                <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span><span class="block text-sm font-semibold text-slate-800">OT Manager / Chief of Anaesthesia</span></div>
+                <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Accreditation Links</span><span class="block text-sm font-semibold text-slate-800">IPSG.1, IPSG.6, ACC.3, COP.2, ASC.7</span></div>
+                <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Arabic Title</span><span class="block text-sm font-semibold text-slate-800" dir="rtl">القسم ٨ — واجهة غرفة الإفاقة (PACU)</span></div>
+            </div>
+        </div>
+
+        <!-- Section 1: Why This Policy Exists -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-cyan-700 to-cyan-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1. Why this policy exists</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20">
+                <p>The transition from the operating table to the PACU is one of the highest-risk moments in the perioperative journey. The patient arrives physiologically vulnerable — still recovering from anaesthesia, with open surgical wounds, altered thermoregulation, and unpredictable pain responses. A single failure in this handover — incomplete information, delayed monitoring, absent equipment — can turn a successful surgery into a preventable harm event.</p>
+                <p class="mt-4">This policy defines how OT and PACU collaborate as one safe system, not two separate departments. It establishes the structured verbal and written handover, the minimum monitoring requirements in PACU, the discharge criteria that protect patients from being moved too soon, and the escalation pathways when things deteriorate.</p>
+                <p class="mt-4 font-semibold text-cyan-800">The goal: every patient who leaves OT arrives in PACU with a nurse who knows exactly what happened — and what to watch for.</p>
+                <div class="mt-6 p-4 bg-cyan-50 border border-cyan-200 rounded-xl" dir="rtl">
+                    <p class="text-cyan-900 font-medium">الهدف من هذه السياسة: ضمان أن كل مريض ينتقل من غرفة العمليات إلى غرفة الإفاقة مع نقل كامل ومنظم للمعلومات، ورقابة مناسبة، ومعايير واضحة للخروج — لأن هذه اللحظة من أكثر اللحظات خطورةً في رحلة المريض الجراحية.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Purpose -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-blue-700 to-blue-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2. Purpose</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-blue-50/20">
+                <ul class="custom-list theme-blue space-y-3">
+                    <li>Define the structured OT-to-PACU patient handover using SBAR or equivalent tool.</li>
+                    <li>Establish minimum monitoring standards and nurse-to-patient ratios in PACU.</li>
+                    <li>Specify evidence-based discharge criteria (Aldrete / Modified Aldrete / PADS score).</li>
+                    <li>Clarify roles and responsibilities of OT team, anaesthetist, and PACU nurse at each transition point.</li>
+                    <li>Establish escalation and re-admission pathways for patients who deteriorate post-transfer.</li>
+                    <li>Ensure continuity of documentation from anaesthetic record through to PACU discharge note.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 3: Scope -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-indigo-700 to-indigo-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3. Scope</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20">
+                <ul class="custom-list theme-indigo space-y-2 mt-4">
+                    <li>All patients transferred from any OT suite to PACU / recovery room.</li>
+                    <li>All anaesthetists, OT nurses, surgical technologists, and PACU nurses involved in the perioperative pathway.</li>
+                    <li>Day-surgery patients using a modified discharge pathway (PADS score).</li>
+                    <li>Paediatric patients (see Section 8.8 for age-specific modifications).</li>
+                    <li>Patients transferred directly to ICU/HDU bypassing standard PACU (documented exception pathway).</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 4: Guiding Principles -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-violet-700 to-violet-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4. Guiding Principles</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-violet-50/20 space-y-4">
+                <div class="p-4 bg-violet-50 border-l-4 border-violet-500 rounded-lg"><p class="font-semibold text-violet-900">"The handover is not a report — it is a transfer of responsibility."</p><p class="text-sm text-slate-600 mt-1">The anaesthetist remains responsible for the patient until the PACU nurse verbally acknowledges the handover and monitoring is confirmed running.</p></div>
+                <div class="p-4 bg-violet-50 border-l-4 border-violet-400 rounded-lg"><p class="font-semibold text-violet-900">"Discharge criteria protect — not delay."</p><p class="text-sm text-slate-600 mt-1">Aldrete scoring is a safety gate, not a bureaucratic hurdle. No patient leaves PACU without meeting criteria or documented physician override with rationale.</p></div>
+                <div class="p-4 bg-violet-50 border-l-4 border-violet-400 rounded-lg"><p class="font-semibold text-violet-900">"One nurse — one patient — in the critical recovery window."</p><p class="text-sm text-slate-600 mt-1">Minimum staffing ratios are non-negotiable during the first 30 minutes post-arrival.</p></div>
+                <div class="p-4 bg-violet-50 border-l-4 border-violet-400 rounded-lg"><p class="font-semibold text-violet-900">"Escalate early — never manage alone."</p><p class="text-sm text-slate-600 mt-1">PACU nurses have explicit authority to call the anaesthetist or activate the emergency response at any point without seeking supervisor approval first.</p></div>
+            </div>
+        </div>
+
+        <!-- Section 5: Definitions -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-teal-700 to-teal-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5. Definitions</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm border-collapse">
+                        <thead><tr class="bg-teal-600 text-white"><th class="p-3 text-left font-semibold rounded-tl-lg">Term</th><th class="p-3 text-left font-semibold">Definition (Practical)</th><th class="p-3 text-left font-semibold rounded-tr-lg">Arabic</th></tr></thead>
+                        <tbody>
+                            <tr class="border-b border-teal-100"><td class="p-3 font-semibold text-teal-800">PACU</td><td class="p-3">Post-Anaesthesia Care Unit — the recovery area where patients are monitored immediately after surgery until they meet criteria for safe transfer.</td><td class="p-3" dir="rtl">وحدة رعاية ما بعد التخدير / غرفة الإفاقة</td></tr>
+                            <tr class="border-b border-teal-100 bg-teal-50/30"><td class="p-3 font-semibold text-teal-800">Aldrete Score</td><td class="p-3">A standardized 10-point scoring system (activity, respiration, circulation, consciousness, O₂ saturation) used to determine PACU discharge readiness. Score ≥9 required for transfer.</td><td class="p-3" dir="rtl">مقياس ألدريت — نظام تقييم معياري لتحديد جاهزية المريض للخروج من غرفة الإفاقة</td></tr>
+                            <tr class="border-b border-teal-100"><td class="p-3 font-semibold text-teal-800">SBAR Handover</td><td class="p-3">Situation–Background–Assessment–Recommendation: the structured communication framework used for OT-to-PACU handover.</td><td class="p-3" dir="rtl">نموذج التسليم المنظم: الوضع — السياق — التقييم — التوصية</td></tr>
+                            <tr class="border-b border-teal-100 bg-teal-50/30"><td class="p-3 font-semibold text-teal-800">PADS Score</td><td class="p-3">Post-Anaesthetic Discharge Scoring System — used for day-surgery patients to assess readiness for home discharge.</td><td class="p-3" dir="rtl">مقياس جاهزية الخروج بعد التخدير (الجراحة اليومية)</td></tr>
+                            <tr class="border-b border-teal-100"><td class="p-3 font-semibold text-teal-800">Phase I Recovery</td><td class="p-3">Immediate post-anaesthesia recovery (PACU) — intensive monitoring until patient is haemodynamically stable and airway is protected.</td><td class="p-3" dir="rtl">مرحلة الإفاقة الأولى — الرقابة المكثفة الفورية بعد التخدير</td></tr>
+                            <tr class="bg-teal-50/30"><td class="p-3 font-semibold text-teal-800">Phase II Recovery</td><td class="p-3">Extended recovery — patient is awake and stable, progressing toward ward or home discharge.</td><td class="p-3" dir="rtl">مرحلة الإفاقة الثانية — التعافي الممتد نحو جناح المرضى أو المنزل</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 6: Policy Statement -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-emerald-700 to-emerald-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">6. Policy Statement</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20">
+                <p class="font-semibold text-emerald-800 text-lg mb-4">Every patient transferred from OT to PACU must receive:</p>
+                <ul class="custom-list theme-emerald space-y-3">
+                    <li>A structured verbal SBAR handover from the anaesthetist to the receiving PACU nurse before the anaesthetist leaves the bedside.</li>
+                    <li>Continuous monitoring initiated within 2 minutes of PACU arrival (SpO₂, ECG, NIBP, RR, temperature).</li>
+                    <li>A completed anaesthetic/intra-operative record transferred with the patient (paper or electronic).</li>
+                    <li>Pain assessment using the institution's validated scale within 5 minutes of arrival.</li>
+                    <li>Discharge from PACU only when Aldrete score ≥9 (or Modified Aldrete ≥9) and documented anaesthetist approval.</li>
+                    <li>No transfer to ward/ICU until receiving unit confirms readiness and accepting nurse is present.</li>
+                </ul>
+                <div class="mt-6 p-4 bg-emerald-50 border border-emerald-200 rounded-xl" dir="rtl">
+                    <p class="text-emerald-900 font-medium">لا يُسمح بمغادرة المريض لغرفة الإفاقة إلا بعد استيفاء معايير ألدريت (≥٩) وحصول موافقة طبيب التخدير الموثقة. أي مغادرة قبل ذلك تُعدّ انتهاكاً حرجاً لهذه السياسة.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 7: Detailed Procedures -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-blue-800 to-blue-600 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">7. Detailed Procedures (SEC 8.1–8.9)</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed space-y-8">
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-3 text-lg">7.1 OT-to-PACU Transfer: Pre-departure Checklist</h3>
+                    <p class="mb-3 text-slate-600">Before the patient leaves the OT suite, the anaesthetist and circulating nurse must confirm:</p>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm border-collapse">
+                            <thead><tr class="bg-blue-600 text-white"><th class="p-3 text-left rounded-tl-lg">Item</th><th class="p-3 text-center">Responsible</th><th class="p-3 text-center rounded-tr-lg">Documented</th></tr></thead>
+                            <tbody>
+                                <tr class="border-b border-blue-100"><td class="p-3">Airway patent and protected (or airway device in situ if applicable)</td><td class="p-3 text-center">Anaesthetist</td><td class="p-3 text-center">✓ Anaesthetic record</td></tr>
+                                <tr class="border-b border-blue-100 bg-blue-50/30"><td class="p-3">Haemodynamic stability confirmed (BP, HR within acceptable range)</td><td class="p-3 text-center">Anaesthetist</td><td class="p-3 text-center">✓ Anaesthetic record</td></tr>
+                                <tr class="border-b border-blue-100"><td class="p-3">IV access patent and secured</td><td class="p-3 text-center">OT Nurse / Anaesthetist</td><td class="p-3 text-center">✓ Transfer note</td></tr>
+                                <tr class="border-b border-blue-100 bg-blue-50/30"><td class="p-3">All surgical wounds covered / drains labelled and secured</td><td class="p-3 text-center">Scrub / Circulating Nurse</td><td class="p-3 text-center">✓ OT record</td></tr>
+                                <tr class="border-b border-blue-100"><td class="p-3">Patient identity band confirmed on patient</td><td class="p-3 text-center">Circulating Nurse</td><td class="p-3 text-center">✓ IPSG checklist</td></tr>
+                                <tr class="border-b border-blue-100 bg-blue-50/30"><td class="p-3">Oxygen supply confirmed for transport (portable O₂ if required)</td><td class="p-3 text-center">Anaesthetist</td><td class="p-3 text-center">✓ Transfer note</td></tr>
+                                <tr class="border-b border-blue-100"><td class="p-3">Intra-operative medications documented (include any allergies/reactions)</td><td class="p-3 text-center">Anaesthetist</td><td class="p-3 text-center">✓ Anaesthetic record</td></tr>
+                                <tr class="bg-blue-50/30"><td class="p-3">PACU notified and bed / nurse confirmed ready</td><td class="p-3 text-center">Circulating Nurse</td><td class="p-3 text-center">✓ Communication log</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-3 text-lg">7.2 Structured SBAR Handover at PACU Bedside</h3>
+                    <p class="mb-3 text-slate-600">The anaesthetist delivers a verbal handover to the receiving PACU nurse using the SBAR framework. The PACU nurse must be present and attentive — no monitoring tasks during handover reception.</p>
+                    <div class="space-y-3">
+                        <div class="p-4 bg-blue-50 border-l-4 border-blue-600 rounded-lg"><p class="font-bold text-blue-800">S — Situation</p><p class="text-sm text-slate-700 mt-1">Patient name, MRN, age, procedure performed, surgeon, type of anaesthesia used, time of extubation / LMA removal.</p></div>
+                        <div class="p-4 bg-blue-50 border-l-4 border-blue-500 rounded-lg"><p class="font-bold text-blue-800">B — Background</p><p class="text-sm text-slate-700 mt-1">Relevant PMH, allergies, pre-op medications, baseline vitals, ASA classification, any known difficult airway.</p></div>
+                        <div class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-lg"><p class="font-bold text-blue-800">A — Assessment</p><p class="text-sm text-slate-700 mt-1">Intra-op events (blood loss, fluid balance, temperature, pain level, complications), current vitals, IV access, drains, wounds, last analgesic given.</p></div>
+                        <div class="p-4 bg-blue-50 border-l-4 border-blue-300 rounded-lg"><p class="font-bold text-blue-800">R — Recommendation</p><p class="text-sm text-slate-700 mt-1">Anticipated concerns, specific monitoring requirements, analgesic plan, anti-emetic orders, when to call anaesthetist, expected PACU duration.</p></div>
+                    </div>
+                    <div class="mt-4 p-4 bg-amber-50 border border-amber-200 rounded-xl"><p class="text-amber-800 font-semibold text-sm">⚠ Non-negotiable rule: The anaesthetist may not leave PACU until the receiving nurse verbally confirms they have received and understood the handover.</p></div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-3 text-lg">7.3 Monitoring Standards in PACU — Phase I Recovery</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2">Mandatory Continuous Monitoring</h4>
+                            <ul class="custom-list theme-cyan space-y-2">
+                                <li>SpO₂ — pulse oximetry (continuous)</li>
+                                <li>ECG / Heart rate (continuous)</li>
+                                <li>Non-invasive blood pressure (NIBP) — every 5 min for first 30 min, then every 15 min</li>
+                                <li>Respiratory rate (continuous or every 5 minutes)</li>
+                                <li>Temperature (on arrival; repeat if hypothermic)</li>
+                                <li>Level of consciousness / sedation score (RASS or equivalent) — every 15 minutes</li>
+                                <li>Pain score — on arrival, then every 15 minutes and PRN</li>
+                                <li>Nausea/vomiting assessment — every 15 minutes</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2">Additional Monitoring (when applicable)</h4>
+                            <ul class="custom-list theme-blue space-y-2">
+                                <li>Invasive arterial pressure (if arterial line in situ)</li>
+                                <li>Central venous pressure (if CVP line in situ)</li>
+                                <li>Urine output (catheterised patients — hourly)</li>
+                                <li>Drain output — label, measure, document every 30 minutes</li>
+                                <li>Blood glucose (diabetic patients — on arrival, 1 hour)</li>
+                                <li>End-tidal CO₂ if intubated / LMA in situ</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-4 p-4 bg-slate-50 border border-slate-200 rounded-xl">
+                        <p class="font-semibold text-slate-800 mb-2">Staffing Ratio (non-negotiable):</p>
+                        <ul class="text-sm text-slate-700 space-y-1">
+                            <li>• Phase I (first 30 min): 1 nurse : 1 patient minimum</li>
+                            <li>• Phase I (30 min–Aldrete ≥9): 1 nurse : 2 patients maximum</li>
+                            <li>• Paediatric / high-risk: 1 nurse : 1 patient throughout Phase I</li>
+                            <li>• Never leave a Phase I patient unattended, even briefly</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-3 text-lg">7.4 Pain &amp; PONV Management in PACU</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2">Pain Management Protocol</h4>
+                            <ul class="custom-list theme-rose space-y-2">
+                                <li>Use validated pain scale (NRS 0-10 / FLACC for paediatrics / CPOT for intubated)</li>
+                                <li>NRS ≤3: reassess in 15 minutes, non-opioid analgesia PRN</li>
+                                <li>NRS 4–6: titrated IV opioid per standing order + non-opioid; reassess in 15 min</li>
+                                <li>NRS ≥7: immediate anaesthetist notification; do not manage alone</li>
+                                <li>Document every analgesic dose: drug, dose, route, time, score before/after</li>
+                                <li>Respiratory rate and SpO₂ monitored continuously when opioids administered</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2">PONV Management Protocol</h4>
+                            <ul class="custom-list theme-amber space-y-2">
+                                <li>Apfel score ≥2: prophylactic anti-emetic per anaesthetic plan</li>
+                                <li>PONV on arrival: ondansetron 4mg IV (or per prescription) unless contraindicated</li>
+                                <li>Refractory PONV: call anaesthetist for second-line agent</li>
+                                <li>Maintain lateral position for any patient with active nausea/impaired airway</li>
+                                <li>Ensure suction immediately accessible at every PACU bay</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-3 text-lg">7.5 Aldrete Discharge Scoring System</h3>
+                    <p class="mb-3 text-slate-600">Discharge from Phase I PACU requires Aldrete score ≥9 (or Modified Aldrete ≥9). Score must be documented in the PACU record.</p>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm border-collapse">
+                            <thead><tr class="bg-cyan-700 text-white"><th class="p-3 text-left rounded-tl-lg">Parameter</th><th class="p-3 text-center">Score 2</th><th class="p-3 text-center">Score 1</th><th class="p-3 text-center rounded-tr-lg">Score 0</th></tr></thead>
+                            <tbody>
+                                <tr class="border-b border-cyan-100"><td class="p-3 font-semibold text-cyan-800">Activity</td><td class="p-3 text-center">Moves all 4 limbs voluntarily</td><td class="p-3 text-center">Moves 2 limbs</td><td class="p-3 text-center">Unable to move</td></tr>
+                                <tr class="border-b border-cyan-100 bg-cyan-50/30"><td class="p-3 font-semibold text-cyan-800">Respiration</td><td class="p-3 text-center">Breathes deeply; coughs freely</td><td class="p-3 text-center">Dyspneic / shallow</td><td class="p-3 text-center">Apneic</td></tr>
+                                <tr class="border-b border-cyan-100"><td class="p-3 font-semibold text-cyan-800">Circulation</td><td class="p-3 text-center">BP ±20% of pre-op</td><td class="p-3 text-center">BP ±20–49% of pre-op</td><td class="p-3 text-center">BP ±50% of pre-op</td></tr>
+                                <tr class="border-b border-cyan-100 bg-cyan-50/30"><td class="p-3 font-semibold text-cyan-800">Consciousness</td><td class="p-3 text-center">Fully awake</td><td class="p-3 text-center">Arousable on calling</td><td class="p-3 text-center">Not responding</td></tr>
+                                <tr class="bg-cyan-50/30"><td class="p-3 font-semibold text-cyan-800">O₂ Saturation</td><td class="p-3 text-center">SpO₂ &gt;92% on room air</td><td class="p-3 text-center">Needs O₂ to maintain ≥90%</td><td class="p-3 text-center">SpO₂ &lt;90% with O₂</td></tr>
+                            </tbody>
+                            <tfoot><tr class="bg-cyan-800 text-white"><td class="p-3 font-bold rounded-bl-lg" colspan="4">Minimum score for Phase I discharge: ≥9/10 — Anaesthetist must approve transfer</td></tr></tfoot>
+                        </table>
+                    </div>
+                    <div class="mt-4 p-4 bg-amber-50 border border-amber-200 rounded-xl">
+                        <p class="font-semibold text-amber-800">Exceptions to Aldrete ≥9 requirement:</p>
+                        <ul class="text-sm text-slate-700 mt-2 space-y-1">
+                            <li>• Direct OT-to-ICU transfer: Aldrete scoring not required if ICU receiving and accepting (document in record)</li>
+                            <li>• Physician override: anaesthetist documents clinical reason for transfer with score &lt;9 and accepting ward notified</li>
+                            <li>• Both exception types require explicit written documentation and senior physician signature</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-3 text-lg">7.6 PACU-to-Ward / Day Surgery Discharge (Phase II)</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2">Ward Transfer Criteria (inpatients)</h4>
+                            <ul class="custom-list theme-emerald space-y-2">
+                                <li>Aldrete score ≥9 sustained for 30 minutes</li>
+                                <li>Pain score ≤3 on NRS or patient-acceptable level</li>
+                                <li>No active nausea/vomiting</li>
+                                <li>Haemodynamically stable (no new interventions needed)</li>
+                                <li>Temperature ≥36.0°C or active warming en route</li>
+                                <li>Receiving ward nurse confirms bed and readiness</li>
+                                <li>Written PACU discharge note completed and signed</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2">Day Surgery / Home Discharge (PADS Score ≥9)</h4>
+                            <ul class="custom-list theme-teal space-y-2">
+                                <li>PADS score ≥9 (vital signs, ambulation, nausea, pain, surgical bleeding)</li>
+                                <li>Patient able to drink fluids and tolerate oral intake (where applicable)</li>
+                                <li>Responsible adult escort confirmed and present</li>
+                                <li>Verbal and written post-op instructions given in patient's language</li>
+                                <li>Emergency contact number provided</li>
+                                <li>Follow-up appointment confirmed</li>
+                                <li>Anaesthetist / surgeon approves — documented</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-3 text-lg">7.7 Escalation Pathways: When the Patient Deteriorates in PACU</h3>
+                    <div class="space-y-4">
+                        <div class="p-4 bg-red-50 border-l-4 border-red-600 rounded-lg">
+                            <p class="font-bold text-red-800">Immediate (within 1 minute) — call the anaesthetist:</p>
+                            <ul class="text-sm text-slate-700 mt-2 space-y-1 ml-4">
+                                <li>• SpO₂ &lt;90% despite O₂ supplementation</li>
+                                <li>• Respiratory rate &lt;8 or &gt;30 / minute</li>
+                                <li>• Systolic BP &lt;80 mmHg or &gt;180 mmHg (unresponsive to initial measures)</li>
+                                <li>• HR &lt;40 or &gt;140 bpm</li>
+                                <li>• New loss of consciousness or seizure</li>
+                                <li>• Active haemorrhage (wound or drain)</li>
+                                <li>• Suspected malignant hyperthermia (fever + rigidity + tachycardia)</li>
+                            </ul>
+                        </div>
+                        <div class="p-4 bg-amber-50 border-l-4 border-amber-500 rounded-lg">
+                            <p class="font-bold text-amber-800">Urgent (within 5 minutes) — notify anaesthetist:</p>
+                            <ul class="text-sm text-slate-700 mt-2 space-y-1 ml-4">
+                                <li>• Pain NRS ≥7 unresponsive to initial analgesia</li>
+                                <li>• Refractory PONV (≥3 episodes despite treatment)</li>
+                                <li>• Temperature &lt;35.5°C or &gt;38.5°C</li>
+                                <li>• Urine output &lt;0.5 mL/kg/hr for 1 hour (catheterised patient)</li>
+                                <li>• Patient agitation / delirium / unexpected prolonged sedation</li>
+                            </ul>
+                        </div>
+                        <div class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-lg">
+                            <p class="font-bold text-blue-800">Activate Emergency Response (Code Blue / Rapid Response):</p>
+                            <ul class="text-sm text-slate-700 mt-2 space-y-1 ml-4">
+                                <li>• Cardiac arrest or pulseless rhythm</li>
+                                <li>• Complete airway obstruction unresponsive to manoeuvres</li>
+                                <li>• If anaesthetist unreachable within 2 minutes during life-threatening emergency</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-3 text-lg">7.8 Special Populations</h3>
+                    <div class="space-y-4">
+                        <div><h4 class="font-semibold text-slate-800 mb-2">8.8.1 Paediatric Patients</h4><ul class="custom-list theme-purple space-y-2"><li>Parent / guardian present in PACU as soon as patient is awake and stable (facility permitting)</li><li>Use FLACC or FACES pain scale (age-appropriate)</li><li>Strict weight-based dosing for all analgesics and anti-emetics</li><li>Temperature management — paediatric warming devices available</li><li>1:1 nursing ratio until Aldrete / modified discharge criteria met</li></ul></div>
+                        <div><h4 class="font-semibold text-slate-800 mb-2">8.8.2 Elderly / Frail Patients</h4><ul class="custom-list theme-slate space-y-2"><li>Delirium risk assessment — CAM-ICU or equivalent on arrival</li><li>Reduced opioid dosing with enhanced monitoring</li><li>Fall risk — side rails up, call bell within reach at all times</li><li>Pressure injury prevention — reposition every 30 minutes if immobile</li></ul></div>
+                        <div><h4 class="font-semibold text-slate-800 mb-2">8.8.3 Patients with Difficult Airway</h4><ul class="custom-list theme-rose space-y-2"><li>Difficult airway alert must be visibly communicated to PACU team at handover</li><li>Difficult airway trolley available at bedside throughout Phase I</li><li>Anaesthetist remains on site (or immediately available) until extubation stability confirmed</li><li>"Difficult Airway" wristband applied and documented in discharge summary</li></ul></div>
+                        <div><h4 class="font-semibold text-slate-800 mb-2">8.8.4 Direct OT-to-ICU Bypass</h4><ul class="custom-list theme-indigo space-y-2"><li>Pre-planned ICU transfer: documented in pre-op plan, ICU bed confirmed before surgery</li><li>Unplanned ICU transfer: anaesthetist documents clinical reason, ICU consultant notified, bed confirmed</li><li>Full intra-operative documentation transferred with patient</li><li>ICU nurse receives the same SBAR handover as PACU protocol</li></ul></div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-3 text-lg">7.9 Documentation Requirements</h3>
+                    <ul class="custom-list theme-blue space-y-3">
+                        <li><strong class="text-slate-800">PACU Arrival Note:</strong> time of arrival, Aldrete score on arrival, vital signs, pain score, level of consciousness, IV access, wounds/drains status.</li>
+                        <li><strong class="text-slate-800">Ongoing Flow Sheet:</strong> vital signs (per frequency protocol), pain scores, analgesics/anti-emetics given (dose, route, time), interventions.</li>
+                        <li><strong class="text-slate-800">Aldrete Scoring Record:</strong> documented at arrival, every 30 minutes, and at discharge.</li>
+                        <li><strong class="text-slate-800">PACU Discharge Note:</strong> final Aldrete score, time of discharge, receiving unit, accepting nurse name, patient condition on transfer, outstanding medications.</li>
+                        <li><strong class="text-slate-800">Incident Documentation:</strong> any escalation event, adverse reaction, or unplanned intervention must be documented in the incident reporting system within 24 hours.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 8: KPI & Audit -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-slate-700 to-slate-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">8. KPI Dashboard &amp; Audit</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed space-y-6">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">8.1 Compliance Audits (monthly)</h3>
+                    <ul class="custom-list theme-slate space-y-2">
+                        <li><strong class="text-slate-800">8.1.1</strong> % of handovers with completed SBAR documentation.</li>
+                        <li><strong class="text-slate-800">8.1.2</strong> % of PACU arrivals with monitoring initiated within 2 minutes.</li>
+                        <li><strong class="text-slate-800">8.1.3</strong> % of PACU discharges with documented Aldrete ≥9.</li>
+                        <li><strong class="text-slate-800">8.1.4</strong> Aldrete exception rate (transfers with score &lt;9) — must be reviewed by OTMC if &gt;2%.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">8.2 KPI Targets</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm border-collapse">
+                            <thead><tr class="bg-slate-700 text-white"><th class="p-3 text-left rounded-tl-lg">KPI</th><th class="p-3 text-center">Target</th><th class="p-3 text-center">Alert Level</th><th class="p-3 text-center rounded-tr-lg">Review</th></tr></thead>
+                            <tbody>
+                                <tr class="border-b border-slate-200"><td class="p-3">SBAR handover completion rate</td><td class="p-3 text-center font-semibold text-emerald-700">≥98%</td><td class="p-3 text-center text-amber-700">&lt;95%</td><td class="p-3 text-center">Monthly OTMC</td></tr>
+                                <tr class="border-b border-slate-200 bg-slate-50"><td class="p-3">Monitoring within 2 min of arrival</td><td class="p-3 text-center font-semibold text-emerald-700">100%</td><td class="p-3 text-center text-amber-700">&lt;98%</td><td class="p-3 text-center">Monthly OTMC</td></tr>
+                                <tr class="border-b border-slate-200"><td class="p-3">Aldrete ≥9 at PACU discharge</td><td class="p-3 text-center font-semibold text-emerald-700">≥97%</td><td class="p-3 text-center text-amber-700">&lt;93%</td><td class="p-3 text-center">Monthly OTMC</td></tr>
+                                <tr class="border-b border-slate-200 bg-slate-50"><td class="p-3">PONV incidence in PACU</td><td class="p-3 text-center font-semibold text-emerald-700">≤15%</td><td class="p-3 text-center text-amber-700">&gt;25%</td><td class="p-3 text-center">Quarterly</td></tr>
+                                <tr class="bg-slate-50"><td class="p-3">Unplanned re-admission to PACU within 24h</td><td class="p-3 text-center font-semibold text-emerald-700">≤0.5%</td><td class="p-3 text-center text-amber-700">&gt;1%</td><td class="p-3 text-center">Monthly OTMC</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 9: Noncompliance -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-rose-700 to-rose-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">9. Noncompliance Management</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed space-y-4">
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">9.1 Critical noncompliance includes:</h3>
+                    <ul class="alpha-list ml-6 space-y-1">
+                        <li>Patient transferred from OT to PACU without a verbal SBAR handover</li>
+                        <li>Monitoring not established within 5 minutes of PACU arrival</li>
+                        <li>Patient discharged from PACU with Aldrete score &lt;9 without documented physician override</li>
+                        <li>PACU nurse leaving a Phase I patient unattended</li>
+                        <li>Failure to escalate a deteriorating patient within required timeframes</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-slate-900 mb-2">9.2 Consequences:</h3>
+                    <p>Critical noncompliance is treated as a patient safety event. It requires: immediate incident report, root-cause analysis within 72 hours, and OTMC review at next meeting. Repeat noncompliance triggers formal HR process.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 10: References -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-gray-700 to-gray-500 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">10. References &amp; Evidence Base</h2>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed">
+                <ul class="custom-list theme-slate space-y-2">
+                    <li>Joint Commission International (JCI) — IPSG.1, ACC.3, COP.2, ASC.7 Standards</li>
+                    <li>World Health Organization (WHO) — Safe Surgery Saves Lives; Surgical Safety Checklist</li>
+                    <li>American Society of Anesthesiologists (ASA) — Standards for Post-Anesthesia Care (2019)</li>
+                    <li>American Society of PeriAnesthesia Nurses (ASPAN) — Standards of Perianesthesia Nursing Practice (2021-2022)</li>
+                    <li>Aldrete JA. (1995). The post-anesthesia recovery score revisited. Journal of Clinical Anesthesia, 7(1), 89–91.</li>
+                    <li>Marshall SI, Chung F. (1999). Discharge criteria and complications after ambulatory surgery. Anesthesia &amp; Analgesia, 88(3), 508–517. (PADS Score)</li>
+                    <li>ISBAR Communication Framework — Australian Commission on Safety and Quality in Health Care</li>
+                    <li>NHS England — National Safety Standards for Invasive Procedures (NatSSIPs) 2015</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Appendix / Form -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+            <div class="bg-gradient-to-r from-cyan-800 to-cyan-600 px-8 py-5">
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">Appendix: PACU Monitoring &amp; Discharge Record</h2>
+                <p class="text-cyan-200 text-sm mt-1">Form: PACU-MON-001 (Reference — attach to patient record)</p>
+            </div>
+            <div class="p-8 text-slate-700 leading-relaxed">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                    <div class="border border-slate-200 rounded-lg p-4 bg-slate-50"><p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Patient Name</p><div class="h-8 border-b border-slate-300"></div></div>
+                    <div class="border border-slate-200 rounded-lg p-4 bg-slate-50"><p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">MRN</p><div class="h-8 border-b border-slate-300"></div></div>
+                    <div class="border border-slate-200 rounded-lg p-4 bg-slate-50"><p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Date / Time of Arrival</p><div class="h-8 border-b border-slate-300"></div></div>
+                    <div class="border border-slate-200 rounded-lg p-4 bg-slate-50"><p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Procedure</p><div class="h-8 border-b border-slate-300"></div></div>
+                    <div class="border border-slate-200 rounded-lg p-4 bg-slate-50"><p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Anaesthetist</p><div class="h-8 border-b border-slate-300"></div></div>
+                    <div class="border border-slate-200 rounded-lg p-4 bg-slate-50"><p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">PACU Nurse</p><div class="h-8 border-b border-slate-300"></div></div>
+                </div>
+                <div class="overflow-x-auto mb-6">
+                    <table class="w-full text-sm border-collapse">
+                        <thead><tr class="bg-cyan-700 text-white"><th class="p-2 text-left rounded-tl-lg">Time</th><th class="p-2 text-center">SpO₂%</th><th class="p-2 text-center">HR</th><th class="p-2 text-center">BP</th><th class="p-2 text-center">RR</th><th class="p-2 text-center">Temp</th><th class="p-2 text-center">Pain (NRS)</th><th class="p-2 text-center">Aldrete</th><th class="p-2 text-left rounded-tr-lg">Notes</th></tr></thead>
+                        <tbody>
+                            <tr class="border-b border-slate-200"><td class="p-2">Arrival</td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td></tr>
+                            <tr class="border-b border-slate-200 bg-slate-50"><td class="p-2">+15 min</td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td></tr>
+                            <tr class="border-b border-slate-200"><td class="p-2">+30 min</td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td></tr>
+                            <tr class="border-b border-slate-200 bg-slate-50"><td class="p-2">+45 min</td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td></tr>
+                            <tr class="border-b border-slate-200"><td class="p-2">+60 min</td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td></tr>
+                            <tr class="border-b border-slate-200 bg-slate-50"><td class="p-2">Discharge</td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td><td class="p-2"></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="border border-slate-200 rounded-lg p-4 bg-slate-50">
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Discharge Aldrete Score / Criteria Met</p>
+                        <div class="h-8 border-b border-slate-300 mb-4"></div>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Time of Discharge from PACU</p>
+                        <div class="h-8 border-b border-slate-300"></div>
+                    </div>
+                    <div class="border border-slate-200 rounded-lg p-4 bg-slate-50">
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Receiving Unit / Nurse</p>
+                        <div class="h-8 border-b border-slate-300 mb-4"></div>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Anaesthetist Signature &amp; Time</p>
+                        <div class="h-8 border-b border-slate-300"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>`
   },
   s09: {
     titleEn: 'SEC 9 — Infection Prevention & Control in Operating Theatre (PCI)',
