@@ -39,6 +39,7 @@ app.get('/favicon.ico', async (c) => {
 })
 
 // Mount Anesthesia Safety Guide
+app.get('/anesthesia-safety/', (c) => c.redirect('/anesthesia-safety', 301))
 app.route('/anesthesia-safety', anesthesiaSafety)
 
 // Mount Anesthesia Policies & Procedures book
