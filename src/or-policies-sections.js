@@ -13987,6 +13987,1953 @@ export const orSectionsHtml = {
  }
  </script>`
  },
+ s14: {
+ titleEn: 'SEC 12 — Surgical Instruments & Equipment (HCT / FMS)',
+ titleAr: 'القسم ١٢ — الأدوات الجراحية والمعدات',
+ css: `body {
+ font-family: 'Montserrat', sans-serif;
+ background-color: #f4f7f6;
+ }
+ .heading-serif {
+ font-family: 'Playfair Display', serif;
+ }
+ ::-webkit-scrollbar { width: 8px; }
+ ::-webkit-scrollbar-track { background: #e2e8f0; }
+ ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
+ ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+ 
+ .glass-header {
+ background: rgba(15, 23, 42, 0.95);
+ backdrop-filter: blur(10px);
+ }
+
+ /* Card Hover Effects */
+ .policy-card {
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .policy-card:hover {
+ transform: translateY(-4px);
+ box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+ }
+
+ .custom-list {
+ list-style: none;
+ padding-left: 0;
+ }
+ .custom-list li {
+ position: relative;
+ padding-left: 1.5rem;
+ margin-bottom: 0.5rem;
+ }
+ .custom-list li::before {
+ content: "•";
+ position: absolute;
+ left: 0;
+ top: -2px;
+ font-size: 1.25rem;
+ font-weight: bold;
+ }
+ 
+ .alpha-list {
+ list-style-type: lower-alpha;
+ padding-left: 1.5rem;
+ margin-bottom: 0.5rem;
+ }
+ .alpha-list li {
+ margin-bottom: 0.25rem;
+ }
+ 
+ /* Colored list bullets based on parent theme */
+ .theme-blue li::before { color: #3b82f6; }
+ .theme-emerald li::before { color: #10b981; }
+ .theme-violet li::before { color: #8b5cf6; }
+ .theme-amber li::before { color: #f59e0b; }
+ .theme-rose li::before { color: #f43f5e; }
+ .theme-teal li::before { color: #14b8a6; }
+ .theme-indigo li::before { color: #6366f1; }
+ .theme-cyan li::before { color: #06b6d4; }
+ .theme-fuchsia li::before { color: #d946ef; }
+ .theme-sky li::before { color: #0ea5e9; }
+ .theme-orange li::before { color: #f97316; }
+ .theme-red li::before { color: #ef4444; }
+ .theme-green li::before { color: #22c55e; }
+ .theme-slate li::before { color: #64748b; }
+ .theme-purple li::before { color: #a855f7; }
+ .theme-pink li::before { color: #ec4899; }
+ 
+ .policy-divider {
+ height: 4px;
+ background: linear-gradient(to right, transparent, #cbd5e1, transparent);
+ margin: 4rem 0;
+ }`,
+ body: `<!-- Premium Navbar -->
+ 
+
+ <!-- Hero Section -->
+ <div class="bg-slate-900 relative overflow-hidden shadow-xl">
+ <div class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-slate-900 to-blue-900 opacity-90"></div>
+ <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-500 rounded-full blur-[100px] opacity-20"></div>
+ <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 text-center">
+ <span class="inline-block px-4 py-1.5 bg-blue-500/20 text-blue-200 border border-blue-400/30 rounded-full text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
+ Policy &amp; Procedure Document
+ </span>
+ <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
+ Section 12: PART VI — INSTRUMENTS, EQUIPMENT, AND TECHNOLOGY (HCT / FMS)<br>
+ <span class="text-2xl md:text-4xl mt-3 block font-semibold">SEC 12 — Surgical Instruments &amp; Equipment (Independent Policies)</span>
+ </h1>
+ </div>
+ </div>
+
+ <!-- Main Content -->
+ <main class="flex-grow max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12 -mt-12 relative z-20">
+ 
+ <!-- ========================================== -->
+ <!-- POLICY 12.1 -->
+ <!-- ========================================== -->
+ 
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.1 — Care &amp; Handling of Instruments and Equipment</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
+
+ <!-- Meta Information Card 12.1 -->
+ <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Department</span>
+ <span class="block text-sm font-semibold text-slate-800">Operating Theatre (OT)<br>General Hospital</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Version &amp; Dates</span>
+ <span class="block text-sm font-semibold text-slate-800">Version: 1.0<br>Effective: //20__<br>Review: //20__</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+ <span class="block text-sm font-semibold text-slate-800">OT Nurse Manager + CSSD Manager + OT QPS Lead</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
+ <span class="block text-sm font-semibold text-slate-800"></span>
+ </div>
+ </div>
+ <div class="mt-4 pt-4 border-t border-slate-100">
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related:</span>
+ <span class="block text-sm font-medium text-slate-700">SEC 9 (IPC), SEC 12.2 (Loaners), SEC 12.5 (Remove from service), CSSD policies</span>
+ </div>
+ </div>
+
+ <!-- Section 1.0: Blue Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-blue-700 to-blue-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
+ </div>
+ <div class="p-8 text-slate-700 space-y-6 leading-relaxed bg-blue-50/30">
+ <div>
+ <p class="mb-1"><strong class="text-slate-800">1.1 To ensure safe, consistent point-of-use (POU) care, handling, containment, and transport of surgical instruments and powered equipment from the sterile field to CSSD, protecting:</strong></p>
+ <ul class="alpha-list ml-6 mb-3">
+ <li>a) patient safety (reprocessing quality),</li>
+ <li>b) staff safety (sharps/exposure control), and</li>
+ <li>c) asset integrity (instrument protection).</li>
+ </ul>
+ <p>POU instrument care and controlled transport are emphasized in perioperative and sterile processing guidance. (Aorn.org)</p>
+ </div>
+ </div>
+ </div>
+
+ <!-- Section 2.0: Emerald Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-emerald-600 to-teal-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/30">
+ <ul class="custom-list theme-emerald space-y-2">
+ <li><strong class="text-slate-800">2.1</strong> Applies to all reusable instruments, trays, powered devices, endoscopic instruments (OT-side handling only), and accessory equipment used in OT and OT-governed procedural rooms.</li>
+ <li><strong class="text-slate-800">2.2</strong> Covers point-of-use treatment, segregation, transport to CSSD, and immediate containment requirements.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 3.0: Violet Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-violet-600 to-purple-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 DEFINITIONS</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-violet-50/30">
+ <ul class="custom-list theme-violet space-y-3">
+ <li><strong class="text-slate-900">3.1 Point-of-Use (POU) Care:</strong> Immediate actions at the sterile field to remove gross soil, prevent drying, protect lumens, and prepare for safe transport. (Aorn.org)</li>
+ <li><strong class="text-slate-900">3.2 Containment:</strong> Use of closed/covered, leak-resistant containers to move contaminated items safely. (AAMI Array)</li>
+ <li><strong class="text-slate-900">3.3 IFU:</strong> Manufacturer instructions for use; reprocessing must follow IFU.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 4.0: Amber Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-amber-500 to-orange-400 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 POLICY STATEMENT</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-amber-50/30">
+ <ul class="custom-list theme-amber space-y-3">
+ <li><strong class="text-slate-900">4.1</strong> Instruments and reusable equipment shall receive POU care immediately after use to prevent drying of soil and improve cleaning effectiveness. (Aorn.org)</li>
+ <li><strong class="text-slate-900">4.2</strong> Contaminated instruments shall be contained and transported in covered, labeled containers using defined dirty routes; clean/dirty separation must be maintained. (AAMI Array)</li>
+ <li><strong class="text-slate-900">4.3</strong> Liquids used at point of use shall not be transported in open containers; any soaking solution must be managed to prevent spill/exposure and follow facility rule. (Aorn.org)</li>
+ <li><strong class="text-slate-900">4.4</strong> Sharp protection is mandatory: sharps are secured; blades/needles are not transported loose.</li>
+ <li><strong class="text-slate-900">4.5</strong> Instruments/equipment with damage, malfunction, or missing components are removed from service and tagged per Policy 12.5.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 5.0: Rose Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-rose-600 to-pink-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 RESPONSIBILITIES</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-rose-50/30 space-y-2">
+ <ul class="custom-list theme-rose space-y-2">
+ <li><strong class="text-slate-900">5.1 Scrub Nurse/Technologist:</strong> performs sterile-field POU care, organizes instruments, protects tips, controls sharps, communicates special handling needs.</li>
+ <li><strong class="text-slate-900">5.2 Circulating Nurse:</strong> ensures safe containment, labeling, route control, and documentation (loaner tracking slip, missing items report).</li>
+ <li><strong class="text-slate-900">5.3 OT Charge Nurse:</strong> ensures supplies (transport bins, lids, moisture towels/approved sprays per IFU), ensures compliance and escalation.</li>
+ <li><strong class="text-slate-900">5.4 CSSD:</strong> receives, logs, and processes items per IFU; reports nonconformities.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 6.0: Teal Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">6.0 PROCEDURE</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/30 space-y-6">
+ 
+ <div>
+ <h4 class="font-bold text-slate-900 mb-2">6.1 Standard POU Care (During and Immediately After Case)</h4>
+ <ul class="custom-list theme-teal space-y-2">
+ <li><strong class="text-slate-800">6.1.1</strong> Remove gross soil from instruments as they come off the field; wipe visible blood/tissue with approved method. POU care includes wiping and flushing lumens with sterile water when appropriate and per facility practice. (Aorn.org)</li>
+ <li><strong class="text-slate-800">6.1.2</strong> Keep hinged instruments open; separate delicate instruments; protect tips and cutting edges. (ST79-related summaries emphasize correct handling/opening for effective processing.) (Healthmark, A Getinge company)</li>
+ <li><strong class="text-slate-800">6.1.3</strong> Lumened instruments: flush per IFU/OT protocol; prevent drying of internal channels.</li>
+ <li><strong class="text-slate-800">6.1.4</strong> Do not allow instruments to sit dry on back tables for prolonged periods; follow OT workflow to move to containment promptly.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h4 class="font-bold text-slate-900 mb-2">6.2 Segregation and Count/Completeness Interface</h4>
+ <ul class="custom-list theme-teal space-y-2">
+ <li><strong class="text-slate-800">6.2.1</strong> Separate disposable sharps and waste from reusable items at point of use. (AAMI Array)</li>
+ <li><strong class="text-slate-800">6.2.2</strong> Verify instrument set integrity against tray list when required (especially loaners and complex sets).</li>
+ </ul>
+ </div>
+
+ <div>
+ <h4 class="font-bold text-slate-900 mb-2">6.3 Containment and Transport to CSSD</h4>
+ <ul class="custom-list theme-teal space-y-2">
+ <li><strong class="text-slate-800">6.3.1</strong> Place contaminated instruments in closed/covered, leak-resistant containers; label as contaminated/biohazard per facility policy. (AAMI Array)</li>
+ <li><strong class="text-slate-800">6.3.2</strong> Do not hand-carry loose instruments through corridors.</li>
+ <li><strong class="text-slate-800">6.3.3</strong> Use defined dirty routes; avoid crossing clean supply corridors.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h4 class="font-bold text-slate-900 mb-2">6.4 Powered Equipment and Special Devices</h4>
+ <ul class="custom-list theme-teal space-y-2">
+ <li><strong class="text-slate-800">6.4.1</strong> Handle powered devices per IFU; remove batteries when required; protect connectors; send with necessary adapters and documentation.</li>
+ <li><strong class="text-slate-800">6.4.2</strong> Any device failure triggers Policy 12.5 (remove from service/tag).</li>
+ </ul>
+ </div>
+
+ <div>
+ <h4 class="font-bold text-slate-900 mb-2">6.5 Documentation</h4>
+ <ul class="custom-list theme-teal space-y-2">
+ <li><strong class="text-slate-800">6.5.1</strong> For all trays sent: record case, tray name, special instructions (prion risk if applicable, ophthalmic special handling, etc.).</li>
+ <li><strong class="text-slate-800">6.5.2</strong> Loaner trays must include tracking slip and IFU confirmation (see 12.2).</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 7.0: Cyan Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">7.0 RECORDS</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20">
+ <ul class="custom-list theme-cyan space-y-2">
+ <li><strong class="text-slate-900">7.1</strong> Instrument transport log/tracking slip (if used).</li>
+ <li><strong class="text-slate-900">7.2</strong> Missing/damaged instrument report.</li>
+ <li><strong class="text-slate-900">7.3</strong> Incident reports for exposure/spill/sharps injury.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 8.0: Indigo Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">8.0 AUDIT / KPIs</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20">
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-900">8.1</strong> POU care compliance audit. (Aorn.org)</li>
+ <li><strong class="text-slate-900">8.2</strong> Containment compliance (covered bins, correct route). (AAMI Array)</li>
+ <li><strong class="text-slate-900">8.3</strong> Damage rate per 100 trays; turnaround delays due to poor POU care.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Divider -->
+ <div class="policy-divider"></div>
+
+ <!-- ========================================== -->
+ <!-- POLICY 12.2 -->
+ <!-- ========================================== -->
+
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.2 — Loaner Instruments / Vendor Trays Governance</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
+
+ <!-- Meta Information Card 12.2 -->
+ <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Department</span>
+ <span class="block text-sm font-semibold text-slate-800">OT + CSSD + Supply Chain</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Version &amp; Dates</span>
+ <span class="block text-sm font-semibold text-slate-800">Version: 1.0<br>Effective: //20__<br>Review: //20__</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+ <span class="block text-sm font-semibold text-slate-800">OT Director/Chair + CSSD Manager + Supply Chain Lead</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
+ <span class="block text-sm font-semibold text-slate-800">OT-HCT-12.2</span>
+ </div>
+ </div>
+ <div class="mt-4 pt-4 border-t border-slate-100">
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related:</span>
+ <span class="block text-sm font-medium text-slate-700"> (POU care), SEC 11.7 (Implants traceability), SEC 12.7 (Consumables/expiry)</span>
+ </div>
+ </div>
+
+ <!-- Section 1.0: Sky Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
+ </div>
+ <div class="p-8 text-slate-700 space-y-4 leading-relaxed bg-sky-50/20">
+ <ul class="custom-list theme-sky space-y-2">
+ <li><strong class="text-slate-800">1.1</strong> To ensure vendor/loaner instrument sets are received, verified, processed, complete, and traceable—without shortcuts that compromise reprocessing quality or case safety. AORN sample policy emphasizes vendor delivery lead time and IFU availability with each delivery. (Aorn.org)</li>
+ <li><strong class="text-slate-800">1.2</strong> To prevent case delays, missing instruments, incomplete trays, and unsafe “rush sterilization” due to late arrival.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 2.0: Orange Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20">
+ <ul class="custom-list theme-orange space-y-2">
+ <li><strong class="text-slate-800">2.1</strong> Applies to all loaner/consignment instrument trays and implant support sets brought by vendors for scheduled or urgent cases.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 3.0: Red Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 POLICY STATEMENT</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20">
+ <ul class="custom-list theme-red space-y-3">
+ <li><strong class="text-slate-900">3.1</strong> Loaner trays must arrive within defined lead time (minimum 24 hours before scheduled procedure start time unless OT/CSSD approve an exception). (Aorn.org)</li>
+ <li><strong class="text-slate-900">3.2</strong> IFU must accompany the loaner set each time it is delivered. (AAMI Array)</li>
+ <li><strong class="text-slate-900">3.3 Trays are not released for use until:</strong>
+ <ul class="alpha-list ml-6 mt-1">
+ <li>a) inventory list verified,</li>
+ <li>b) cleaning/sterilization completed per IFU, and</li>
+ <li>c) set integrity confirmed. (Denver Health)</li>
+ </ul>
+ </li>
+ <li><strong class="text-slate-900">3.4</strong> Late trays without prior approval may be refused or case rescheduled if safe processing cannot be assured. (Aorn.org)</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 4.0: Green Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 PROCEDURE (SUMMARY)</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20">
+ <ul class="custom-list theme-emerald space-y-2">
+ <li><strong class="text-slate-900">4.1 Receiving:</strong> log date/time; verify tray count; confirm IFU; check visible soil/previous-use contamination concerns.</li>
+ <li><strong class="text-slate-900">4.2 Inventory verification:</strong> tray list and/or photos used; missing items documented immediately with vendor signature where possible. (Providence)</li>
+ <li><strong class="text-slate-900">4.3 Processing:</strong> CSSD processes per IFU; no “shortcut” sterilization due to vendor delay. (Denver Health)</li>
+ <li><strong class="text-slate-900">4.4 Release:</strong> trays released only after sterile processing release criteria met.</li>
+ <li><strong class="text-slate-900">4.5 Intra-op controls:</strong> keep labels/identifiers; ensure traceability for implants (Policy 11.7).</li>
+ <li><strong class="text-slate-900">4.6 Return:</strong> post-use inventory check; damage/missing items documented; trays returned per vendor contract.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 5.0: Slate Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 RECORDS</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50">
+ <ul class="custom-list theme-slate space-y-2">
+ <li><strong class="text-slate-900">5.1</strong> Loaner Tray Tracking Log + IFU confirmation form. (Aorn.org)</li>
+ <li><strong class="text-slate-900">5.2</strong> Vendor delivery/receipt signature log.</li>
+ <li><strong class="text-slate-900">5.3</strong> Missing/damaged item report.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Divider -->
+ <div class="policy-divider"></div>
+
+ <!-- ========================================== -->
+ <!-- POLICY 12.3 -->
+ <!-- ========================================== -->
+
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.3 — Electrosurgical Unit (Diathermy) Safety</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
+
+ <!-- Meta Information Card 12.3 -->
+ <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Department</span>
+ <span class="block text-sm font-semibold text-slate-800">Operating Theatre (OT)<br>General Hospital</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Version &amp; Dates</span>
+ <span class="block text-sm font-semibold text-slate-800">Version: 1.0<br>Effective: //20__<br>Review: //20__</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+ <span class="block text-sm font-semibold text-slate-800">OT Director/Chair + OT Nurse Manager + Biomed + OT QPS Lead</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
+ <span class="block text-sm font-semibold text-slate-800"></span>
+ </div>
+ </div>
+ <div class="mt-4 pt-4 border-t border-slate-100">
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related:</span>
+ <span class="block text-sm font-medium text-slate-700">SEC 11.8 (Surgical Smoke), SEC 11.1 (Theatre discipline), SEC 9 (IPC/flammables), SEC 12.5 (Remove from service), Fire safety policy, MOI documentation policy</span>
+ </div>
+ </div>
+
+ <!-- Section 1.0, 2.0, 3.0: Blue Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-blue-700 to-blue-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE | 2.0 SCOPE | 3.0 DEFINITIONS</h2>
+ </div>
+ <div class="p-8 text-slate-700 space-y-6 leading-relaxed bg-blue-50/30">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">1.0 PURPOSE</h3>
+ <h4 class="font-bold text-slate-800 mt-2">1.1 Purpose Statement</h4>
+ <p class="mb-1"><strong class="text-slate-800">1.1.1 To ensure safe, standardized use of electrosurgical devices in the operating theatre to prevent patient and staff harm including:</strong></p>
+ <ul class="alpha-list ml-6 mb-3">
+ <li>a) thermal burns (at surgical site and at alternate sites),</li>
+ <li>b) return-electrode burns,</li>
+ <li>c) stray current injuries (insulation failure, capacitive coupling, direct coupling),</li>
+ <li>d) operating room fires and burns,</li>
+ <li>e) smoke exposure hazards, and</li>
+ <li>f) equipment-related electrical incidents.</li>
+ </ul>
+ <p class="mb-3">Electrosurgical injuries and hazards are well-described in perioperative guidance and literature. (PMC)</p>
+ 
+ <h4 class="font-bold text-slate-800">1.2 Accreditation and Safety Intent</h4>
+ <p><strong class="text-slate-800">1.2.1</strong> This policy supports safe use of surgical energy devices (AORN), occupational safety expectations for plume control (NIOSH/OSHA), and surgical fire prevention practices highlighted in Joint Commission Sentinel Event Alert 68.</p>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">2.0 SCOPE</h3>
+ <p class="mb-1"><strong class="text-slate-800">2.1 Applies to all procedures using:</strong></p>
+ <ul class="alpha-list ml-6 mb-3">
+ <li>a) monopolar electrosurgery,</li>
+ <li>b) bipolar electrosurgery,</li>
+ <li>c) advanced bipolar vessel sealing devices,</li>
+ <li>d) argon beam coagulation (if used),</li>
+ <li>e) electrocautery pencils and accessories,</li>
+ <li>f) laparoscopic electrosurgery including insulated instruments, trocars, and active electrode monitoring systems.</li>
+ </ul>
+ <p><strong class="text-slate-800">2.2</strong> Applies to OT staff, surgeons/proceduralists, anesthesia staff in the OR environment, biomedical/engineering support, and vendors providing device accessories.</p>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">3.0 DEFINITIONS</h3>
+ <ul class="custom-list theme-blue space-y-3">
+ <li><strong class="text-slate-800">3.1 ESU/Generator:</strong> Device producing high-frequency current for tissue effects (cut/coag).</li>
+ <li><strong class="text-slate-800">3.2 Active Electrode:</strong> Pencil/handpiece delivering energy.</li>
+ <li><strong class="text-slate-800">3.3 Return Electrode (Dispersive Electrode):</strong> Patient electrode returning current in monopolar mode; improper use can cause burns. FDA has issued recall/alerts regarding certain return electrodes due to burn risk.</li>
+ <li><strong class="text-slate-800">3.4 Stray Current Mechanisms:</strong>
+ <ul class="alpha-list ml-6 mt-1">
+ <li>a) insulation failure,</li>
+ <li>b) direct coupling,</li>
+ <li>c) capacitive coupling—described as mechanisms of electrothermal injury. (PMC)</li>
+ </ul>
+ </li>
+ <li><strong class="text-slate-800">3.5 Fire Triangle:</strong> ignition source + oxidizer (oxygen/nitrous oxide) + fuel (drapes, alcohol prep, hair, etc.); surgical fires are strongly associated with electrosurgical devices in head/neck settings.</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 4.0 & 5.0: Emerald Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-emerald-600 to-teal-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 POLICY STATEMENT | 5.0 ROLES AND RESPONSIBILITIES</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">4.0 POLICY STATEMENT</h3>
+ <ul class="custom-list theme-emerald space-y-3">
+ <li><strong class="text-slate-800">4.1</strong> Electrosurgical equipment shall be used only by trained and competent staff, following manufacturer IFU and this policy. AORN guidance emphasizes IFU adherence and compatibility verification. (Aorn.org)</li>
+ <li><strong class="text-slate-800">4.2 Prior to use, the team shall verify:</strong>
+ <ul class="alpha-list ml-6 mt-1">
+ <li>a) device readiness and alarms,</li>
+ <li>b) accessory compatibility,</li>
+ <li>c) correct return electrode selection/placement (monopolar), and</li>
+ <li>d) smoke evacuation readiness for plume-generating use (link to Policy 11.8).</li>
+ </ul>
+ </li>
+ <li><strong class="text-slate-800">4.3</strong> The active electrode shall be placed in a holster/off-patient safe location when not in active use to reduce unintended activation and fire risk (reinforced in surgical fire prevention recommendations). (lhatrustfunds.com)</li>
+ <li><strong class="text-slate-800">4.4</strong> During head/neck and oxygen-enriched field procedures, surgical fire prevention controls are mandatory; Joint Commission Alert 68 highlights this risk pattern and outlines mitigation expectations.</li>
+ <li><strong class="text-slate-800">4.5</strong> Any equipment malfunction, abnormal heating, return-electrode alarm, unexplained burn, or suspected stray current injury triggers immediate stop, patient safety actions, device removal from service, and incident reporting. FDA recalls demonstrate that return electrode issues can cause serious burns.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">5.0 ROLES AND RESPONSIBILITIES</h3>
+ 
+ <h4 class="font-bold text-slate-800 mt-2">5.1 Surgeon/Proceduralist</h4>
+ <ul class="custom-list theme-emerald space-y-1 mb-3">
+ <li><strong class="text-slate-800">5.1.1</strong> Uses electrosurgery safely (lowest effective settings, activation only when intended, correct technique).</li>
+ <li><strong class="text-slate-800">5.1.2</strong> Participates in fire risk assessment and agrees to pause when oxidizer/fuel conditions are unsafe.</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">5.2 Circulating Nurse (Electrosurgery Safety Coordinator per case)</h4>
+ <ul class="custom-list theme-emerald space-y-1 mb-3">
+ <li><strong class="text-slate-800">5.2.1</strong> Performs ESU pre-use safety checks, verifies accessory compatibility, ensures correct return electrode placement and documentation, and ensures smoke evacuation is ready and used when plume is generated. (Aorn.org)</li>
+ <li><strong class="text-slate-800">5.2.2</strong> Ensures active electrode holster is available and used. (lhatrustfunds.com)</li>
+ <li><strong class="text-slate-800">5.2.3</strong> Monitors for hazards (pooling prep solution, oxygen enrichment, drape proximity, cable tension).</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">5.3 Scrub Nurse/Technologist</h4>
+ <ul class="custom-list theme-emerald space-y-1 mb-3">
+ <li><strong class="text-slate-800">5.3.1</strong> Maintains sterile management of the active electrode, keeps the electrode tip protected, and ensures safe placement in holster when not used. (lhatrustfunds.com)</li>
+ <li><strong class="text-slate-800">5.3.2</strong> Assists in ensuring smoke capture inlet is positioned close to the site (Policy 11.8).</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">5.4 Anesthesia Provider (Interface responsibilities only)</h4>
+ <ul class="custom-list theme-emerald space-y-1 mb-3">
+ <li><strong class="text-slate-800">5.4.1</strong> Collaborates on fire risk controls related to oxygen delivery and oxidizer management during high-risk cases (especially head/neck).</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">5.5 Biomedical/Engineering</h4>
+ <ul class="custom-list theme-emerald space-y-1 mb-3">
+ <li><strong class="text-slate-800">5.5.1</strong> Maintains ESUs, accessories, footswitches, cords, alarms; completes preventive maintenance/calibration and repair documentation.</li>
+ <li><strong class="text-slate-800">5.5.2</strong> Supports investigations by testing sequestered devices.</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">5.6 OT Charge Nurse / OT Leadership</h4>
+ <ul class="custom-list theme-emerald space-y-1">
+ <li><strong class="text-slate-800">5.6.1</strong> Ensures training, audit program, device availability, backup plans, and compliance enforcement.</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 6.0 & 7.0: Violet Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-violet-600 to-purple-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">6.0 ELECTROSURGERY SAFETY PRINCIPLES | 7.0 PRE-USE SAFETY CHECKS</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-violet-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">6.0 ELECTROSURGERY SAFETY PRINCIPLES (STANDARDIZED UNDERSTANDING)</h3>
+ 
+ <h4 class="font-bold text-slate-800 mt-2">6.1 Why burns occur (plain, practical explanation for staff)</h4>
+ <p class="mb-1"><strong class="text-slate-800">6.1.1</strong> In monopolar electrosurgery, current flows from active electrode → through patient → back to generator via return electrode.</p>
+ <p class="mb-1"><strong class="text-slate-800">6.1.2 Injury occurs when current density concentrates unexpectedly:</strong></p>
+ <ul class="alpha-list ml-6 mb-3">
+ <li>a) poor return electrode contact,</li>
+ <li>b) alternate return pathways (metal contact, ECG leads),</li>
+ <li>c) stray current from insulation failure/capacitive coupling/direct coupling. (PMC)</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">6.2 Stray current mechanisms (OT must recognize these patterns)</h4>
+ <ul class="custom-list theme-violet space-y-1">
+ <li><strong class="text-slate-800">6.2.1 Insulation failure:</strong> damaged insulation creates an unintended current path. (PMC)</li>
+ <li><strong class="text-slate-800">6.2.2 Direct coupling:</strong> active electrode contacts another metal instrument, energizing it. (PMC)</li>
+ <li><strong class="text-slate-800">6.2.3 Capacitive coupling:</strong> current transfers through intact insulation into adjacent conductive material, especially in MIS settings; evidence tables and literature describe this risk. (PMC)</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">7.0 PRE-USE SAFETY CHECKS (MANDATORY “ROOM SETUP” STANDARD)</h3>
+ 
+ <h4 class="font-bold text-slate-800 mt-2">7.1 Generator and accessory compatibility</h4>
+ <ul class="custom-list theme-violet space-y-1 mb-3">
+ <li><strong class="text-slate-800">7.1.1</strong> Confirm ESU generator model matches required accessories; AORN update emphasizes verifying ESUs and accessories compatibility and labeling accessories to correspond with each generator when multiple are used. (Aorn.org)</li>
+ <li><strong class="text-slate-800">7.1.2</strong> Confirm correct mode availability (mono/bipolar, argon) and check footswitch assignment.</li>
+ <li><strong class="text-slate-800">7.1.3</strong> Confirm alarm systems are functional (contact quality monitoring/return electrode monitoring if available).</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">7.2 Cords, cables, and insulation integrity</h4>
+ <ul class="custom-list theme-violet space-y-1 mb-3">
+ <li><strong class="text-slate-800">7.2.1</strong> Inspect active electrode cord, handpiece, and insulation for cracks, burns, exposed wiring.</li>
+ <li><strong class="text-slate-800">7.2.2</strong> Inspect bipolar forceps cable and connector pins; ensure no bent pins.</li>
+ <li><strong class="text-slate-800">7.2.3</strong> Remove from service any damaged accessory (Policy 12.5). (ECRI and ISMP)</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">7.3 Holster and safe placement</h4>
+ <p class="mb-3"><strong class="text-slate-800">7.3.1</strong> A holster must be present, within reach, and secured so the active electrode is never placed on the patient or drapes when not in use. (lhatrustfunds.com)</p>
+
+ <h4 class="font-bold text-slate-800">7.4 Smoke evacuation readiness (linked control)</h4>
+ <p><strong class="text-slate-800">7.4.1</strong> For plume-generating use, ensure smoke evacuator is available and capture inlet can be placed within 2 inches of the site (Policy 11.8; OSHA/NIOSH guidance).</p>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 8.0: Amber Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-amber-500 to-orange-400 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">8.0 PATIENT ASSESSMENT AND RETURN ELECTRODE MANAGEMENT (MONOPOLAR)</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-amber-50/30 space-y-6">
+ 
+ <div>
+ <h4 class="font-bold text-slate-900 mb-2">8.1 Patient skin assessment before placement</h4>
+ <ul class="custom-list theme-amber space-y-2">
+ <li><strong class="text-slate-800">8.1.1</strong> Inspect skin for: scars, burns, rashes, edema, bony prominences, hair density, tattoos, metal implants proximity, moisture, prep solution pooling risk.</li>
+ <li><strong class="text-slate-800">8.1.2</strong> Choose a site that supports broad, uniform contact and avoids compromised skin.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h4 class="font-bold text-slate-900 mb-2">8.2 Return electrode selection (type and suitability)</h4>
+ <ul class="custom-list theme-amber space-y-2">
+ <li><strong class="text-slate-800">8.2.1</strong> Use only approved return electrodes compatible with the ESU.</li>
+ <li><strong class="text-slate-800">8.2.2</strong> Follow age/weight restrictions for pediatric electrodes. FDA communications and recalls highlight serious burn risk with certain return electrodes and pediatric use considerations.</li>
+ <li><strong class="text-slate-800">8.2.3</strong> Consider newer guidance on return electrode types when available; AORN 2026 update discusses preferences (e.g., dual-foil/capacitive alternatives where available) and correct placement practices. (Aorn.org)</li>
+ </ul>
+ </div>
+
+ <div>
+ <h4 class="font-bold text-slate-900 mb-2">8.3 Return electrode placement standard</h4>
+ <p class="mb-1"><strong class="text-slate-800">8.3.1</strong> Place on a clean, dry, well-perfused, muscular area close to the surgical site when feasible (without compromising position or sterility). AORN update emphasizes placement close to site and one pad per generator when using conductive pads. (Aorn.org)</p>
+ <p class="mb-1"><strong class="text-slate-800">8.3.2 Avoid placement over:</strong></p>
+ <ul class="alpha-list ml-6 mb-2">
+ <li>a) bony prominences,</li>
+ <li>b) scar tissue,</li>
+ <li>c) adipose folds where contact may be uneven,</li>
+ <li>d) wet/soaked linen areas,</li>
+ <li>e) areas near ECG electrodes or monitoring leads (alternate site burn risk).</li>
+ </ul>
+ <p class="mb-1"><strong class="text-slate-800">8.3.3</strong> Ensure full pad contact (no lifting edges); smooth outward to remove air pockets.</p>
+ <p><strong class="text-slate-800">8.3.4</strong> Document pad type, location, and skin condition pre- and post-case.</p>
+ </div>
+
+ <div>
+ <h4 class="font-bold text-slate-900 mb-2">8.4 Multiple generators / two ESUs in one case</h4>
+ <p class="mb-1"><strong class="text-slate-800">8.4.1 If two ESUs are used:</strong></p>
+ <ul class="alpha-list ml-6">
+ <li>a) use one return electrode per generator unless a manufacturer-approved capacitive return electrode with appropriate dual-cord configuration is used,</li>
+ <li>b) label cords to correspond to each generator,</li>
+ <li>c) ensure pads do not overlap,</li>
+ <li>d) place each pad appropriately relative to its surgical site. (Aorn.org)</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 9.0 & 10.0: Rose Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-rose-600 to-pink-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">9.0 SAFE OPERATING PRACTICES | 10.0 MIS PRECAUTIONS</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-rose-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">9.0 SAFE OPERATING PRACTICES (INTRAOPERATIVE)</h3>
+ 
+ <h4 class="font-bold text-slate-800 mt-2">9.1 Energy setting discipline (“lowest effective”)</h4>
+ <ul class="custom-list theme-rose space-y-1 mb-3">
+ <li><strong class="text-slate-800">9.1.1</strong> Use the lowest power setting that achieves the intended effect; avoid unnecessary high settings that increase stray energy and fire risk.</li>
+ <li><strong class="text-slate-800">9.1.2</strong> Any change in settings is communicated clearly and documented if required by local rule.</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">9.2 Activation safety</h4>
+ <ul class="custom-list theme-rose space-y-1 mb-3">
+ <li><strong class="text-slate-800">9.2.1</strong> Activate only when the tip is in view and at target tissue.</li>
+ <li><strong class="text-slate-800">9.2.2</strong> Never activate in open air (“open circuit”), especially in minimally invasive surgery; stray mechanisms are recognized hazards. (PMC)</li>
+ <li><strong class="text-slate-800">9.2.3</strong> When not active, place electrode in holster and away from patient/drapes. (lhatrustfunds.com)</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">9.3 Cable and fluid management</h4>
+ <ul class="custom-list theme-rose space-y-1">
+ <li><strong class="text-slate-800">9.3.1</strong> Keep cables dry and away from pooled fluids.</li>
+ <li><strong class="text-slate-800">9.3.2</strong> Prevent prep solution pooling under patient or near electrode tip; alcohol-based prep is a known fuel in the fire triangle.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">10.0 MINIMALLY INVASIVE SURGERY (MIS) — ENHANCED PRECAUTIONS</h3>
+ <p class="mb-3"><strong class="text-slate-800">10.1</strong> MIS electrosurgery presents higher risk for insulation failure and capacitive coupling injuries; AORN and literature describe these mechanisms and recommend additional precautions. (Medline)</p>
+
+ <h4 class="font-bold text-slate-800">10.2 MIS safety standard work</h4>
+ <ul class="custom-list theme-rose space-y-1">
+ <li><strong class="text-slate-800">10.2.1</strong> Use insulated instruments in good condition; inspect insulation before use.</li>
+ <li><strong class="text-slate-800">10.2.2</strong> Use active electrode monitoring systems when available and compatible (facility decision).</li>
+ <li><strong class="text-slate-800">10.2.3</strong> Avoid activating energy devices when not in direct contact with target tissue.</li>
+ <li><strong class="text-slate-800">10.2.4</strong> Avoid contact between active electrode and other metal instruments (direct coupling). (PMC)</li>
+ <li><strong class="text-slate-800">10.2.5</strong> Maintain awareness that capacitive coupling can occur even with intact insulation; minimize prolonged activation and unintended contact with instrument shafts; evidence tables document coupling injury scenarios. (Aorn.org)</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 11.0 & 12.0: Teal Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">11.0 SURGICAL FIRE PREVENTION | 12.0 SMOKE CONTROL</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">11.0 SURGICAL FIRE PREVENTION INTERFACE (ESU IS A PRIMARY IGNITION SOURCE)</h3>
+ <p class="mb-3"><strong class="text-slate-800">11.1</strong> Joint Commission Sentinel Event Alert 68 highlights that most surgical fires and burns are associated with electrosurgical devices during head/neck surgery and reiterates fire triangle risk management.</p>
+
+ <h4 class="font-bold text-slate-800">11.2 Mandatory fire risk actions when ESU used</h4>
+ <ul class="custom-list theme-teal space-y-1 mb-3">
+ <li><strong class="text-slate-800">11.2.1</strong> Conduct a fire risk assessment before incision in high-risk cases (head/neck, open oxygen delivery, alcohol prep).</li>
+ <li><strong class="text-slate-800">11.2.2</strong> Manage oxidizer: minimize supplemental oxygen concentration and avoid open oxygen flow under drapes when clinically appropriate (per anesthesia/fire policy).</li>
+ <li><strong class="text-slate-800">11.2.3</strong> Manage fuel: ensure alcohol prep fully dries; keep sponges/drapes positioned safely; prevent pooling.</li>
+ <li><strong class="text-slate-800">11.2.4</strong> Manage ignition: holster active electrode when not used; activate only when intended; keep hot tips away from drapes/hair. (lhatrustfunds.com)</li>
+ </ul>
+
+ <h4 class="font-bold text-slate-800">11.3 Fire response (OT roles)</h4>
+ <ul class="custom-list theme-teal space-y-1">
+ <li><strong class="text-slate-800">11.3.1</strong> If fire occurs: stop ignition source, announce fire, remove burning materials if safe, follow OR fire policy and drills (RACE/PASS).</li>
+ <li><strong class="text-slate-800">11.3.2</strong> Document event and sequester involved equipment (Policy 12.5). (members.ecri.org)</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">12.0 SMOKE / PLUME CONTROL (LINKED TO POLICY 11.8)</h3>
+ <p><strong class="text-slate-800">12.1</strong> Smoke evacuation must be available for rooms where plume is generated and used consistently; OSHA and NIOSH recommend local exhaust and keeping the inlet within 2 inches.</p>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 13.0 & 14.0: Cyan Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">13.0 SPECIAL RISK POPULATIONS | 14.0 DEVICE FAILURE RESPONSE</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">13.0 SPECIAL RISK POPULATIONS AND CONDITIONS</h3>
+ 
+ <h4 class="font-bold text-slate-800 mt-2">13.1 Pediatrics</h4>
+ <p class="mb-3"><strong class="text-slate-800">13.1.1</strong> Follow pad/device age/weight restrictions; FDA has issued recall/alerts related to return electrode burn risks, including pediatric-specific products.</p>
+
+ <h4 class="font-bold text-slate-800">13.2 Patients with implanted electronic devices (pacemaker/ICD)</h4>
+ <p class="mb-3"><strong class="text-slate-800">13.2.1</strong> Follow facility pathway for perioperative management (cardiology/anesthesia lead); OT responsibilities: minimize current path crossing device, correct pad placement, ensure equipment compatibility and monitoring readiness.</p>
+
+ <h4 class="font-bold text-slate-800">13.3 Conductive contact risks</h4>
+ <p><strong class="text-slate-800">13.3.1</strong> Prevent patient contact with metal components (OR table rails) that may create alternate return pathways; ensure padding and isolation of limbs and contact points.</p>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">14.0 DEVICE FAILURE, SUSPECTED BURN, OR ALARM RESPONSE</h3>
+ <ul class="custom-list theme-cyan space-y-2">
+ <li><strong class="text-slate-800">14.1</strong> If return electrode alarm occurs: stop activation, assess pad contact and placement, replace pad if needed, document, and notify surgeon.</li>
+ <li><strong class="text-slate-800">14.2</strong> If unexplained skin redness/burn occurs: stop use, assess patient, document, and escalate; sequester devices and accessories for investigation.</li>
+ <li><strong class="text-slate-800">14.3</strong> If accessory damage noted: remove from service and tag (Policy 12.5).</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 15.0, 16.0, 17.0: Indigo Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">15.0 DOCUMENTATION | 16.0 TRAINING | 17.0 AUDIT / KPIs</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">15.0 DOCUMENTATION ( MINIMUM RECORD)</h3>
+ <ul class="custom-list theme-indigo space-y-1">
+ <li><strong class="text-slate-800">15.1</strong> Generator ID (asset tag) and mode(s) used.</li>
+ <li><strong class="text-slate-800">15.2</strong> Active electrode type and key accessories used.</li>
+ <li><strong class="text-slate-800">15.3</strong> Return electrode type, site, skin condition pre/post (monopolar).</li>
+ <li><strong class="text-slate-800">15.4</strong> Settings (baseline and major changes if required).</li>
+ <li><strong class="text-slate-800">15.5</strong> Smoke evacuation used (Y/N) for plume-generating cases; failure events.</li>
+ <li><strong class="text-slate-800">15.6</strong> Any alarms, interruptions, burns, fire risk issues, corrective actions.</li>
+ <li><strong class="text-slate-800">15.7</strong> Incident report reference for adverse events/near misses.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">16.0 TRAINING AND COMPETENCY</h3>
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-800">16.1</strong> Initial training includes: circuit basics, pad placement, holster discipline, MIS stray current risks, fire prevention, smoke evacuation, and emergency response.</li>
+ <li><strong class="text-slate-800">16.2</strong> Annual competency includes observation of: pad placement, holster use, MIS precautions, fire risk behaviors, documentation quality.</li>
+ <li><strong class="text-slate-800">16.3</strong> Drills: surgical fire drills and equipment failure response drills as per OT/FMS plan.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">17.0 AUDIT / KPIs</h3>
+ <ul class="custom-list theme-indigo space-y-1">
+ <li><strong class="text-slate-800">17.1</strong> % cases with documented return electrode site/skin check (monopolar).</li>
+ <li><strong class="text-slate-800">17.2</strong> % cases with holster used correctly (observation).</li>
+ <li><strong class="text-slate-800">17.3</strong> Smoke evacuation compliance in plume cases.</li>
+ <li><strong class="text-slate-800">17.4</strong> ESU-related burn/near-miss events per 1,000 cases; trend review.</li>
+ <li><strong class="text-slate-800">17.5</strong> Fire risk assessment compliance in head/neck oxygen cases.</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 18.0 & 19.0: Fuchsia Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">18.0 REFERENCES | 19.0 APPENDICES</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-4">18.0 REFERENCES (ENGLISH)</h3>
+ <ul class="space-y-3">
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-1.5 rounded text-fuchsia-600 shrink-0 shadow-sm border border-fuchsia-200">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <span class="text-sm text-slate-700"><strong class="text-slate-900 block">18.1 AORN:</strong> Guidelines in Practice—Electrosurgical Safety.</span>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-1.5 rounded text-fuchsia-600 shrink-0 shadow-sm border border-fuchsia-200">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <span class="text-sm text-slate-700"><strong class="text-slate-900 block">18.2 AORN 2026 update:</strong> Safe use of surgical energy devices (return electrode practices; multi-generator guidance).</span>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-1.5 rounded text-fuchsia-600 shrink-0 shadow-sm border border-fuchsia-200">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <span class="text-sm text-slate-700"><strong class="text-slate-900 block">18.3 Electrosurgery injury mechanisms review</strong> (insulation failure/capacitive coupling/direct coupling).</span>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-1.5 rounded text-fuchsia-600 shrink-0 shadow-sm border border-fuchsia-200">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <span class="text-sm text-slate-700"><strong class="text-slate-900 block">18.4 Joint Commission Sentinel Event Alert 68</strong> (updated surgical fire prevention).</span>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-1.5 rounded text-fuchsia-600 shrink-0 shadow-sm border border-fuchsia-200">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <span class="text-sm text-slate-700"><strong class="text-slate-900 block">18.5 Patient Safety Authority advisory:</strong> ESU and surgical fire risk triangle.</span>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-1.5 rounded text-fuchsia-600 shrink-0 shadow-sm border border-fuchsia-200">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <span class="text-sm text-slate-700"><strong class="text-slate-900 block">18.6 NIOSH guidance</strong> on surgical smoke control (LEV; on during plume).</span>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-1.5 rounded text-fuchsia-600 shrink-0 shadow-sm border border-fuchsia-200">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <span class="text-sm text-slate-700"><strong class="text-slate-900 block">18.7 OSHA surgical smoke plume eTool</strong> (evacuate all smoke; inlet within 2 inches).</span>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-1.5 rounded text-fuchsia-600 shrink-0 shadow-sm border border-fuchsia-200">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <span class="text-sm text-slate-700"><strong class="text-slate-900 block">18.8 FDA recall/alerts</strong> for patient return electrodes and burn risks.</span>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-1.5 rounded text-fuchsia-600 shrink-0 shadow-sm border border-fuchsia-200">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <span class="text-sm text-slate-700"><strong class="text-slate-900 block">18.9 AORN electrosurgery recommended practices</strong> (historical reference; two-generator pad guidance).</span>
+ </li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">19.0 APPENDICES (READY-TO-USE TOOLS)</h3>
+ <ul class="custom-list theme-fuchsia space-y-1">
+ <li><strong class="text-slate-800">19.1</strong> ESU Daily Readiness Checklist (room device check)</li>
+ <li><strong class="text-slate-800">19.2</strong> ESU Per-Case Setup Checklist (holster, cords, alarms, smoke evacuator readiness)</li>
+ <li><strong class="text-slate-800">19.3</strong> Return Electrode Placement Guide (adult/pediatric cautions; contraindicated sites)</li>
+ <li><strong class="text-slate-800">19.4</strong> MIS Electrosurgery Safety Checklist (insulation/coupling precautions)</li>
+ <li><strong class="text-slate-800">19.5</strong> Fire Risk Assessment Prompt (for head/neck and oxygen-enriched cases)</li>
+ <li><strong class="text-slate-800">19.6</strong> ESU Event Response Form (alarm/burn/suspected stray current) + device sequester tag reference</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Divider -->
+ <div class="policy-divider"></div>
+
+ <!-- ========================================== -->
+ <!-- POLICY 12.4 -->
+ <!-- ========================================== -->
+
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.4 — Warming Cabinet Use &amp; Safety</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
+
+ <!-- Meta Information Card 12.4 -->
+ <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
+ <span class="block text-sm font-semibold text-slate-800"></span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+ <span class="block text-sm font-semibold text-slate-800">OT Nurse Manager + IPC + Engineering</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related</span>
+ <span class="block text-sm font-semibold text-slate-800">SEC 9 (IPC), Patient temperature management practices</span>
+ </div>
+ </div>
+ </div>
+
+ <!-- Section 1.0 & 2.0 & 3.0: Amber Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-amber-500 to-orange-400 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">POLICY CONTENT</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-amber-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">1.0 PURPOSE</h3>
+ <p><strong class="text-slate-800">1.1</strong> To ensure safe and controlled use of warming cabinets (blanket/linen warmers and fluid warmers if applicable), with temperature monitoring, segregation rules, and prevention of burns or contamination.</p>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">2.0 POLICY STATEMENT</h3>
+ <ul class="custom-list theme-amber space-y-2">
+ <li><strong class="text-slate-800">2.1</strong> Warming cabinets are used only for approved items and within approved temperature ranges; temperatures are documented and reviewed (facility defines target ranges). AORN provides guidance/FAQ on cabinet temperature settings and practices.</li>
+ <li><strong class="text-slate-800">2.2</strong> Blankets/linens shall be warmed in cabinets designated for that purpose; if fluids are warmed, segregation and independent temperature control is required by facility rule (avoid mixed uncontrolled storage).</li>
+ <li><strong class="text-slate-800">2.3</strong> Items removed from warmer are used within a defined time window per facility policy; out-of-control or undocumented warming is not permitted.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">3.0 PROCEDURE (MINIMUM)</h3>
+ <ul class="custom-list theme-amber space-y-2">
+ <li><strong class="text-slate-800">3.1</strong> Daily temperature log (AM/PM or per shift), alarm check, and cleaning schedule.</li>
+ <li><strong class="text-slate-800">3.2</strong> No patient-contact warming devices/blankets that exceed safe practice are applied directly without protective layers; staff monitor for burn risk.</li>
+ <li><strong class="text-slate-800">3.3</strong> Remove and quarantine cabinet if temperature instability occurs; notify engineering (Policy 12.5/12.6).</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Divider -->
+ <div class="policy-divider"></div>
+
+ <!-- ========================================== -->
+ <!-- POLICY 12.5 -->
+ <!-- ========================================== -->
+
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.5 — Equipment Failure Response &amp; “Remove from Service” Tagging</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
+
+ <!-- Meta Information Card 12.5 -->
+ <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
+ <span class="block text-sm font-semibold text-slate-800">OT-HCT-12.5</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+ <span class="block text-sm font-semibold text-slate-800">OT Nurse Manager + Biomed/Engineering Lead + OT QPS Lead</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related</span>
+ <span class="block text-sm font-semibold text-slate-800">SEC 3 (incident reporting), SEC 12.6 (PM), FMS</span>
+ </div>
+ </div>
+ </div>
+
+ <!-- Section 1.0 & 2.0 & 3.0: Rose Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-rose-600 to-pink-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">POLICY CONTENT</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-rose-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">1.0 PURPOSE</h3>
+ <p><strong class="text-slate-800">1.1</strong> To ensure any faulty or unsafe equipment is immediately identified, removed from patient use, tagged clearly, reported, and investigated to prevent repeat harm. ECRI emphasizes implementing a standardized tagging system to remove faulty equipment from service.</p>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">2.0 POLICY STATEMENT</h3>
+ <ul class="custom-list theme-rose space-y-2">
+ <li><strong class="text-slate-800">2.1</strong> Any equipment malfunction, abnormal performance, alarm failure, visible damage, burning smell, overheating, or suspected contribution to harm requires immediate “remove from service.”</li>
+ <li><strong class="text-slate-800">2.2</strong> Equipment involved in adverse incidents must be sequestered/preserved for investigation when indicated.</li>
+ <li><strong class="text-slate-800">2.3</strong> CMS guidance for hospital equipment management programs includes having a process for removal from service of equipment determined to be unsafe.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">3.0 PROCEDURE</h3>
+ <ul class="custom-list theme-rose space-y-2">
+ <li><strong class="text-slate-800">3.1 Immediate actions:</strong> stop using equipment; ensure patient safety; switch to backup device if needed.</li>
+ <li><strong class="text-slate-800">3.2 Tagging:</strong> attach “REMOVE FROM SERVICE” tag including date/time, unit, reason, reporter name, and location.</li>
+ <li><strong class="text-slate-800">3.3 Isolation:</strong> move equipment to designated holding area away from clinical use.</li>
+ <li><strong class="text-slate-800">3.4 Notification:</strong> inform charge nurse and biomed; create service request.</li>
+ <li><strong class="text-slate-800">3.5 Incident reporting:</strong> complete incident report when failure affects care, causes delay, or causes harm/near miss.</li>
+ <li><strong class="text-slate-800">3.6 Return to service:</strong> only biomed/engineering can clear and remove tag after testing/repair and documentation.</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Divider -->
+ <div class="policy-divider"></div>
+
+ <!-- ========================================== -->
+ <!-- POLICY 12.6 -->
+ <!-- ========================================== -->
+
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.6 — Preventive Maintenance &amp; Calibration Interface (Biomed)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
+
+ <!-- Meta Information Card 12.6 -->
+ <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
+ <span class="block text-sm font-semibold text-slate-800">OT-HCT-12.6</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+ <span class="block text-sm font-semibold text-slate-800">Biomedical/Engineering Lead + OT Nurse Manager</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related</span>
+ <span class="block text-sm font-semibold text-slate-800">Policy 12.5, FMS utilities policy, procurement policy</span>
+ </div>
+ </div>
+ </div>
+
+ <!-- Section 1.0 & 2.0 & 3.0: Teal Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">POLICY CONTENT</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">1.0 PURPOSE</h3>
+ <p><strong class="text-slate-800">1.1</strong> To ensure OT equipment is maintained, calibrated, and survey-ready through a structured medical equipment management program consistent with recognized practices (AAMI EQ56 is referenced in regional device management guidance).</p>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">2.0 POLICY STATEMENT</h3>
+ <ul class="custom-list theme-teal space-y-2">
+ <li><strong class="text-slate-800">2.1</strong> All OT critical equipment (ESU, defibrillator, warming devices, suction, monitors, pumps, tourniquets, smoke evacuators, anesthesia interface equipment as applicable) is included in the biomed inventory and PM schedule.</li>
+ <li><strong class="text-slate-800">2.2</strong> Calibration/PM records must be available for audits; equipment out of PM date is removed from service.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">3.0 PROCEDURE</h3>
+ <ul class="custom-list theme-teal space-y-2">
+ <li><strong class="text-slate-800">3.1</strong> OT maintains an updated asset list with location and owner.</li>
+ <li><strong class="text-slate-800">3.2</strong> Biomed performs PM per manufacturer IFU and risk-based schedule.</li>
+ <li><strong class="text-slate-800">3.3</strong> OT verifies PM label validity during daily room readiness checks.</li>
+ <li><strong class="text-slate-800">3.4</strong> PM failures trigger remove-from-service process (Policy 12.5).</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Divider -->
+ <div class="policy-divider"></div>
+
+ <!-- ========================================== -->
+ <!-- POLICY 12.7 -->
+ <!-- ========================================== -->
+
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.7 — Consumables &amp; Expiry Management</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
+
+ <!-- Meta Information Card 12.7 -->
+ <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
+ <span class="block text-sm font-semibold text-slate-800">OT-HCT-12.7</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+ <span class="block text-sm font-semibold text-slate-800">OT Nurse Manager + Supply Chain + CSSD</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related</span>
+ <span class="block text-sm font-semibold text-slate-800">SEC 10 (meds expiry), SEC 11.7 (implants traceability), SEC 9.15 (sterile supplies handling)</span>
+ </div>
+ </div>
+ <div class="mt-4 pt-4 border-t border-slate-100 text-center">
+ <span class="block text-sm font-semibold text-slate-700">(Sterile items, implants, sutures)</span>
+ </div>
+ </div>
+
+ <!-- Section 1.0 & 2.0 & 3.0: Cyan Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">POLICY CONTENT</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">1.0 PURPOSE</h3>
+ <p><strong class="text-slate-800">1.1</strong> To prevent use of expired or compromised consumables and ensure reliable stock rotation and integrity checks.</p>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">2.0 POLICY STATEMENT</h3>
+ <ul class="custom-list theme-cyan space-y-2">
+ <li><strong class="text-slate-800">2.1</strong> OT shall implement FEFO/FIFO stock rotation (first-expire-first-out), with structured expiry checks and quarantine of expired/compromised items.</li>
+ <li><strong class="text-slate-800">2.2</strong> Sterile package integrity is required; torn/wet/compromised packs are considered nonsterile and removed.</li>
+ <li><strong class="text-slate-800">2.3</strong> Implant expiry and lot/serial traceability must be maintained (Policy 11.7).</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">3.0 PROCEDURE</h3>
+ <ul class="custom-list theme-cyan space-y-2">
+ <li><strong class="text-slate-800">3.1 Daily quick check:</strong> high-risk items (hemostatics, implants in room stock, specialty sutures).</li>
+ <li><strong class="text-slate-800">3.2 Weekly/monthly structured check:</strong> store rooms and case carts.</li>
+ <li><strong class="text-slate-800">3.3 Quarantine bin:</strong> clearly labeled “EXPIRED/DO NOT USE” until removed by supply chain/CSSD.</li>
+ <li><strong class="text-slate-800">3.4</strong> Short-dated item alerts are communicated to OT leadership.</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Divider -->
+ <div class="policy-divider"></div>
+
+ <!-- ========================================== -->
+ <!-- POLICY 12.8 -->
+ <!-- ========================================== -->
+
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.8 — IT Downtime Procedure (Paper Packs, Back-Entry Rules)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
+
+ <!-- Meta Information Card 12.8 -->
+ <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Department</span>
+ <span class="block text-sm font-semibold text-slate-800">Operating Theatre (OT)<br>General Hospital</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Version &amp; Dates</span>
+ <span class="block text-sm font-semibold text-slate-800">Version: 1.0<br>Effective: //20__<br>Review: //20__</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
+ <span class="block text-sm font-semibold text-slate-800">OT Nurse Manager + HIM/MOI Lead + IT Lead</span>
+ </div>
+ <div>
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
+ <span class="block text-sm font-semibold text-slate-800">OT-MOI-12.8</span>
+ </div>
+ </div>
+ <div class="mt-4 pt-4 border-t border-slate-100 text-left">
+ <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related:</span>
+ <span class="block text-sm font-medium text-slate-700">Policy 11.12 (Perioperative Documentation Standards), SEC 6 (Verification), SEC 10 (Medication Mgmt), Policy 11.6 (Specimens), Policy 11.7 (Implants), SEC 8 (OT→PACU Handover)</span>
+ </div>
+ </div>
+
+ <!-- Section 1.0: Blue Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-blue-700 to-blue-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-blue-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">1.1 Purpose Statement</h3>
+ <ul class="custom-list theme-blue space-y-2">
+ <li><strong class="text-slate-800">1.1.1</strong> To maintain safe perioperative documentation, labeling, order/result communication, and traceability during scheduled or unscheduled Electronic Health Record (EHR) downtime by using standardized OT downtime packs and a controlled recovery/back-entry process.</li>
+ <li><strong class="text-slate-800">1.1.2</strong> To reduce known downtime patient safety risks—especially patient identification errors, medication documentation errors, and delays in information availability—through defined roles, paper workflows, verification steps, and post-downtime reconciliation. (psnet.ahrq.gov)</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 2.0: Emerald Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-emerald-600 to-teal-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">2.1 Included</h3>
+ <p class="mb-1"><strong class="text-slate-800">2.1.1 All OT-controlled documentation and workflows impacted by EHR unavailability, including:</strong></p>
+ <ul class="alpha-list ml-6">
+ <li>a) patient reception/acceptance into OT,</li>
+ <li>b) safe surgery documentation (Sign-In/Time-Out/Sign-Out governance capture),</li>
+ <li>c) intraoperative OT record documentation,</li>
+ <li>d) surgical counts and RSI discrepancy documentation interface,</li>
+ <li>e) specimen labeling/logging/dispatch,</li>
+ <li>f) implant/prosthesis traceability capture and logs,</li>
+ <li>g) OT-managed medications/contrast/dyes documentation (OT scope only),</li>
+ <li>h) OT→PACU handover documentation and transfer tracing,</li>
+ <li>i) communication with lab, radiology, blood bank, pharmacy, ICU/ward, and PACU during downtime.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">2.2 Excluded</h3>
+ <ul class="custom-list theme-emerald space-y-2">
+ <li><strong class="text-slate-800">2.2.1</strong> Anesthesia clinical documentation governance (managed by Anesthesia policy), except OT must coordinate interface records and ensure the OT pack supports transfer safety.</li>
+ <li><strong class="text-slate-800">2.2.2</strong> Hospital billing and financial processes (covered by hospital downtime plan).</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 3.0: Violet Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-violet-600 to-purple-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 DEFINITIONS</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-violet-50/30 space-y-2">
+ <ul class="custom-list theme-violet space-y-3">
+ <li><strong class="text-slate-900">3.1 Downtime:</strong> Any period where EHR is unavailable or unreliable for clinical use, including partial outages (e.g., orders down, results down) and full outages.</li>
+ <li><strong class="text-slate-900">3.2 Planned Downtime:</strong> Scheduled maintenance outage with advance notice and preparation.</li>
+ <li><strong class="text-slate-900">3.3 Unplanned Downtime:</strong> Sudden outage without notice (hardware/software failure, network disruption, cyber incident). ISMP highlights the need to be ready for unanticipated downtime as an “emergency” event. (ECRI and ISMP)</li>
+ <li><strong class="text-slate-900">3.4 Downtime Pack (OT):</strong> Pre-printed, controlled paper forms and tools used to continue OT workflows safely during EHR downtime.</li>
+ <li><strong class="text-slate-900">3.5 Back-Entry:</strong> Entering essential information into the EHR after restoration, based on paper documentation created during downtime.</li>
+ <li><strong class="text-slate-900">3.6 Reconciliation:</strong> Verification that information captured on paper matches what was back-entered/scanned into the EHR, with sign-off by responsible roles.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 4.0: Amber Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-amber-500 to-orange-400 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 POLICY STATEMENT</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-amber-50/30 space-y-2">
+ <ul class="custom-list theme-amber space-y-3">
+ <li><strong class="text-slate-900">4.1</strong> OT shall maintain a current, controlled OT downtime pack that enables safe continuation of core perioperative processes without interruption. (Comprehensive downtime planning categories include communication, patient visits, documentation, prescription management, and orders/results considerations.) (ASPR TRACIE)</li>
+ <li><strong class="text-slate-900">4.2</strong> During scheduled or unscheduled downtime, OT shall use approved paper documentation packs and continue safe surgery documentation, counts, specimens, implants, and handovers using the same verification discipline required during uptime.</li>
+ <li><strong class="text-slate-900">4.3</strong> OT shall maintain two-identifier discipline and traceability controls because downtime has been associated with safety hazards such as impaired patient identification and information availability. (psnet.ahrq.gov)</li>
+ <li><strong class="text-slate-900">4.4</strong> Back-entry into the EHR shall follow a controlled recovery and reconciliation process to ensure the downtime record is accurately represented after system restoration. Evidence-based downtime readiness work emphasizes training on downtime forms, audits, and drills to ensure recovery is effective. (HIMSS)</li>
+ <li><strong class="text-slate-900">4.5</strong> Written downtime and recovery procedures shall be available, understood, and practiced to maintain consistent care when safety features (alerts, CDS, barcode scanning) are unavailable. (SAFER contingency planning emphasizes written policies and procedures for downtime and recovery.) (ASTP)</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 5.0: Rose Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-rose-600 to-pink-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 ROLES AND RESPONSIBILITIES</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-rose-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">5.1 OT Charge Nurse (Downtime Coordinator – Shift)</h3>
+ <ul class="custom-list theme-rose space-y-2">
+ <li><strong class="text-slate-800">5.1.1</strong> Declares OT downtime workflow activation when downtime criteria are met (see 6.0).</li>
+ <li><strong class="text-slate-800">5.1.2</strong> Notifies all OT rooms and interface areas (PACU, lab, blood bank, radiology, pharmacy) and starts the Downtime Log.</li>
+ <li><strong class="text-slate-800">5.1.3</strong> Ensures downtime packs are issued to affected rooms and that paper workflows are followed.</li>
+ <li><strong class="text-slate-800">5.1.4</strong> Maintains a running OT patient/case status board (paper) and controls patient flow decisions during downtime.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">5.2 Circulating Nurse (Per Case)</h3>
+ <ul class="custom-list theme-rose space-y-2">
+ <li><strong class="text-slate-800">5.2.1</strong> Uses OT downtime forms to document the intraoperative record, counts, specimens, implants, medication/contrast/dye entries (OT scope), and handover.</li>
+ <li><strong class="text-slate-800">5.2.2</strong> Ensures labeling discipline and chain-of-custody steps are maintained.</li>
+ <li><strong class="text-slate-800">5.2.3</strong> Ensures paper forms are complete, legible, signed, and placed in the correct downtime packet for scanning/back-entry.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">5.3 Scrub Nurse/Technologist</h3>
+ <ul class="custom-list theme-rose space-y-2">
+ <li><strong class="text-slate-800">5.3.1</strong> Maintains sterile-field labeling discipline for medications/solutions and supports specimen and implant label preservation during downtime.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">5.4 HIM/MOI Lead</h3>
+ <ul class="custom-list theme-rose space-y-2">
+ <li><strong class="text-slate-800">5.4.1</strong> Defines which downtime forms must be scanned into the legal medical record and the required timelines.</li>
+ <li><strong class="text-slate-800">5.4.2</strong> Defines late entry/amendment rules and downtime reconciliation sign-offs.</li>
+ <li><strong class="text-slate-800">5.4.3</strong> Coordinates post-downtime scanning and record integrity checks.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">5.5 IT Lead / Help Desk</h3>
+ <ul class="custom-list theme-rose space-y-2">
+ <li><strong class="text-slate-800">5.5.1</strong> Confirms downtime status (partial vs full), estimated restoration pathway (without committing to times), and communicates recovery steps.</li>
+ <li><strong class="text-slate-800">5.5.2</strong> Provides downtime notification and restoration notice to OT leadership and hospital operations per incident response pathway.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">5.6 Laboratory / Blood Bank / Radiology / Pharmacy Liaisons</h3>
+ <ul class="custom-list theme-rose space-y-2">
+ <li><strong class="text-slate-800">5.6.1</strong> Support downtime ordering/results communication using approved paper/fax/phone pathways and confirm read-back and documentation requirements.</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 6.0: Teal Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">6.0 DOWNTIME LEVELS AND ACTIVATION CRITERIA (OT OPERATIONAL DECISION)</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/30 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">6.1 Downtime Levels</h3>
+ <p class="mb-1"><strong class="text-slate-800">6.1.1 Level 1: Partial Downtime (EHR accessible but key functions down)</strong></p>
+ <ul class="alpha-list ml-6 mb-3">
+ <li>a) orders entry unavailable, or</li>
+ <li>b) results viewing unavailable, or</li>
+ <li>c) printing/labeling unavailable, or</li>
+ <li>d) medication administration documentation unavailable.</li>
+ </ul>
+ <p class="mb-1"><strong class="text-slate-800">6.1.2 Level 2: Full Downtime (EHR not accessible/unsafe to use)</strong></p>
+ <ul class="alpha-list ml-6">
+ <li>a) login failures system-wide,</li>
+ <li>b) severe performance causing unsafe delays,</li>
+ <li>c) network outage affecting OT clinical functions,</li>
+ <li>d) cyber incident/containment action.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">6.2 Activation Criteria</h3>
+ <p class="mb-1"><strong class="text-slate-800">6.2.1 OT activates downtime workflow when:</strong></p>
+ <ul class="alpha-list ml-6 mb-3">
+ <li>a) IT declares downtime, OR</li>
+ <li>b) OT identifies that EHR function is unreliable enough to threaten safe verification/labeling/order communication, and IT confirms.</li>
+ </ul>
+ <p><strong class="text-slate-800">6.2.2</strong> OT does not “wait and see” while care continues informally; delayed downtime activation can delay patient care and recovery processes (noted in downtime readiness work). (HIMSS)</p>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">6.3 Notification Standard</h3>
+ <ul class="custom-list theme-teal space-y-2">
+ <li><strong class="text-slate-800">6.3.1</strong> Charge nurse notifies: OT rooms, PACU, lab, blood bank, radiology, pharmacy, ICU/ED as relevant.</li>
+ <li><strong class="text-slate-800">6.3.2</strong> Communication method is defined (phone tree / group messaging / overhead code / incident command notice), consistent with the “communication” category emphasized in downtime planning guidance. (ASPR TRACIE)</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 7.0: Cyan Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">7.0 DOWNTIME PACK CONTENTS (OT STANDARD)</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">7.1 Minimum OT Downtime Pack Forms</h3>
+ <ul class="custom-list theme-cyan space-y-2">
+ <li><strong class="text-slate-800">7.1.1</strong> Patient verification sheet (two identifiers + case number + wristband confirmation).</li>
+ <li><strong class="text-slate-800">7.1.2</strong> Intraoperative OT record (paper).</li>
+ <li><strong class="text-slate-800">7.1.3</strong> Surgical counts sheets (sponges/sharps/instruments).</li>
+ <li><strong class="text-slate-800">7.1.4</strong> Specimen labels + specimen log + chain-of-custody form (where required).</li>
+ <li><strong class="text-slate-800">7.1.5</strong> Implant traceability form + implant log insert sheet.</li>
+ <li><strong class="text-slate-800">7.1.6</strong> OT medication/contrast/dye documentation tool (OT scope only) + sterile-field labeling prompt.</li>
+ <li><strong class="text-slate-800">7.1.7</strong> OT→PACU handover form (paper).</li>
+ <li><strong class="text-slate-800">7.1.8</strong> Downtime event log (room-level) and Downtime Case Tracking Board (charge nurse).</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">7.2 Pack Control</h3>
+ <ul class="custom-list theme-cyan space-y-2">
+ <li><strong class="text-slate-800">7.2.1</strong> Downtime packs are stored in defined locations (e.g., OT charge nurse station, each OR “red binder,” PACU station).</li>
+ <li><strong class="text-slate-800">7.2.2</strong> Packs are version-controlled by HIM/MOI; obsolete forms are removed immediately.</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 8.0: Indigo Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">8.0 PROCEDURE (OT SPECIFIC)</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
+ 
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">8.1 Downtime Activation Steps</h3>
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-800">8.1.1</strong> Charge nurse confirms downtime level and announces “OT Downtime Activated.”</li>
+ <li><strong class="text-slate-800">8.1.2</strong> Start OT Downtime Log: date/time, downtime level, affected systems, rooms active.</li>
+ <li><strong class="text-slate-800">8.1.3</strong> Issue downtime packs to each active OR and any OT holding areas receiving patients.</li>
+ <li><strong class="text-slate-800">8.1.4 Assign roles:</strong>
+ <ul class="alpha-list ml-6 mt-1">
+ <li>a) Downtime Coordinator (charge nurse),</li>
+ <li>b) Runner (communications and specimen transport if needed),</li>
+ <li>c) Label Control Lead (ensures labels are available and used correctly).</li>
+ </ul>
+ </li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">8.2 Patient Identification and Acceptance (Critical Control)</h3>
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-800">8.2.1</strong> Use two identifiers at each transition (OT acceptance, room entry, specimen labeling). Downtime events are associated with patient identification risk; therefore, identification is treated as “high-alert.” (psnet.ahrq.gov)</li>
+ <li><strong class="text-slate-800">8.2.2</strong> If patient ID cannot be verified, the case is held and escalated (Stop-the-Line).</li>
+ <li><strong class="text-slate-800">8.2.3</strong> Maintain a manual OT patient tracking board to avoid “lost patient” workflow failures.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">8.3 Safe Surgery Documentation Continuity</h3>
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-800">8.3.1</strong> Continue Sign-In/Time-Out/Sign-Out governance using the paper OT record/checklists.</li>
+ <li><strong class="text-slate-800">8.3.2</strong> Counts and discrepancy management continue on paper with signatures and time stamps.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">8.4 Orders, Results, and Communication Pathways (During Downtime)</h3>
+ <p class="text-sm italic mb-3">(Downtime planning guidance explicitly calls out orders/results/referrals as a major category to address.) (ASPR TRACIE)</p>
+ 
+ <p class="font-bold text-slate-800">8.4.1 Laboratory Orders</p>
+ <ul class="alpha-list ml-6 mb-3">
+ <li>a) Use downtime requisition forms with two identifiers.</li>
+ <li>b) Specimen dispatch uses chain-of-custody where required.</li>
+ <li>c) Results are communicated via approved downtime channels (phone/fax/printed report), and the receiver documents read-back and time received.</li>
+ </ul>
+
+ <p class="font-bold text-slate-800">8.4.2 Radiology / Imaging Orders</p>
+ <ul class="alpha-list ml-6 mb-3">
+ <li>a) Use downtime imaging request forms.</li>
+ <li>b) Confirm patient identity verbally at handoff to radiology staff.</li>
+ <li>c) Critical results are communicated by phone with read-back and documented.</li>
+ </ul>
+
+ <p class="font-bold text-slate-800">8.4.3 Blood Bank / Blood Product Requests</p>
+ <ul class="alpha-list ml-6 mb-3">
+ <li>a) Use approved downtime blood request forms with two identifiers and indication.</li>
+ <li>b) Maintain “blood issued/received” documentation in OT downtime record and in blood bank system per their downtime rules.</li>
+ </ul>
+
+ <p class="font-bold text-slate-800">8.4.4 Pharmacy / Medication Requests</p>
+ <ul class="alpha-list ml-6">
+ <li>a) Use downtime medication requisitions as defined by pharmacy policy.</li>
+ <li>b) High-alert and controlled medication controls remain in effect (double checks and accountability).</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">8.5 Medication Administration Documentation During Downtime (OT Scope)</h3>
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-800">8.5.1</strong> Recognize increased medication risk when barcode scanning/alerts are unavailable; PSNet event analyses note medication administration errors can be prevalent during downtime. (psnet.ahrq.gov)</li>
+ <li><strong class="text-slate-800">8.5.2</strong> OT documents OT-managed medications/solutions/contrast/dyes on downtime medication form, including: name, concentration, amount, time, preparer initials where relevant.</li>
+ <li><strong class="text-slate-800">8.5.3</strong> Sterile-field labeling rules remain mandatory (“no unlabeled syringes/bowls”).</li>
+ <li><strong class="text-slate-800">8.5.4</strong> Controlled drugs (if OT-held) follow controlled drug paper register rules with witness signatures.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">8.6 Specimens During Downtime</h3>
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-800">8.6.1</strong> Use downtime specimen labels (two identifiers + specimen site/laterality).</li>
+ <li><strong class="text-slate-800">8.6.2</strong> Maintain specimen log and dispatch record; do not send unlabeled specimens.</li>
+ <li><strong class="text-slate-800">8.6.3</strong> Results receipt is documented with time and read-back.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">8.7 Implants/Prosthesis Traceability During Downtime</h3>
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-800">8.7.1</strong> Capture implant stickers/UDI details on the downtime implant traceability form.</li>
+ <li><strong class="text-slate-800">8.7.2</strong> Maintain implant log insert; reconcile later to EHR registry during back-entry.</li>
+ <li><strong class="text-slate-800">8.7.3</strong> Missing implant traceability documentation is treated as a serious documentation defect (escalate to charge nurse immediately).</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">8.8 OT → PACU Transfer During Downtime</h3>
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-800">8.8.1</strong> OT completes paper handover using standardized tool and confirms receiver acceptance.</li>
+ <li><strong class="text-slate-800">8.8.2</strong> Ensure the paper packet accompanies the patient or is securely transferred per HIM rule, preventing loss of critical intraoperative data.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">8.9 Downtime Storage and Record Security</h3>
+ <ul class="custom-list theme-indigo space-y-2">
+ <li><strong class="text-slate-800">8.9.1</strong> Completed paper forms are placed in a patient-specific downtime packet and stored in a secure controlled location (not left on counters).</li>
+ <li><strong class="text-slate-800">8.9.2</strong> Protect confidentiality: do not display identifiers publicly; shred misprints per policy.</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 9.0: Fuchsia Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">9.0 RECOVERY / RESTORATION / BACK-ENTRY PROCESS</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
+ 
+ <p class="text-sm italic mb-2">(Downtime readiness literature emphasizes structured recovery/back-entry and reconciliation.) (HIMSS)</p>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">9.1 Restoration Announcement</h3>
+ <ul class="custom-list theme-fuchsia space-y-2">
+ <li><strong class="text-slate-800">9.1.1</strong> IT confirms restoration; charge nurse announces “Downtime Ended — Begin Recovery.”</li>
+ <li><strong class="text-slate-800">9.1.2</strong> OT does not immediately stop paper documentation until IT and charge nurse confirm the EHR is stable and safe to use.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">9.2 Back-Entry Principles</h3>
+ <ul class="custom-list theme-fuchsia space-y-2">
+ <li><strong class="text-slate-800">9.2.1</strong> Back-entry follows a defined sequence to reduce omissions and duplication.</li>
+ <li><strong class="text-slate-800">9.2.2</strong> If the organization defines “essential backloading only,” the essential dataset must still ensure continuity of care and legal record integrity; a nursing downtime toolkit notes some organizations reduce burden by backloading essential clinical information while scanning approved paper forms into the EHR. (Vanderbilt University Medical Center)</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">9.3 Back-Entry Sequence (OT Minimum)</h3>
+ <ul class="custom-list theme-fuchsia space-y-2">
+ <li><strong class="text-slate-800">9.3.1</strong> Patient/case identification confirmation in EHR (correct encounter).</li>
+ <li><strong class="text-slate-800">9.3.2</strong> OT intraoperative nursing record essential fields.</li>
+ <li><strong class="text-slate-800">9.3.3</strong> Counts final status and any discrepancy actions.</li>
+ <li><strong class="text-slate-800">9.3.4</strong> Specimen log entries and dispatch/receipt notes.</li>
+ <li><strong class="text-slate-800">9.3.5</strong> Implant traceability and registry entries.</li>
+ <li><strong class="text-slate-800">9.3.6</strong> OT medications/contrast/dye documentation (OT scope).</li>
+ <li><strong class="text-slate-800">9.3.7</strong> OT→PACU handover completion record (time/receiver).</li>
+ <li><strong class="text-slate-800">9.3.8</strong> Incident reports for downtime-related near misses/events (if not already filed).</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">9.4 Reconciliation and Sign-Off</h3>
+ <ul class="custom-list theme-fuchsia space-y-2">
+ <li><strong class="text-slate-800">9.4.1</strong> A second check is performed for high-risk items (counts status, specimens, implants) to verify accuracy of back-entry.</li>
+ <li><strong class="text-slate-800">9.4.2</strong> Charge nurse (or designated validator) signs the reconciliation checklist for each case packet.</li>
+ </ul>
+ </div>
+
+ <div>
+ <h3 class="font-bold text-slate-900 mb-2">9.5 Scanning / Legal Medical Record Completion</h3>
+ <ul class="custom-list theme-fuchsia space-y-2">
+ <li><strong class="text-slate-800">9.5.1</strong> HIM/MOI governs scanning timelines and what becomes part of the permanent record.</li>
+ <li><strong class="text-slate-800">9.5.2</strong> Paper forms are scanned and linked to the correct encounter; misfiled documents are corrected promptly.</li>
+ </ul>
+ </div>
+
+ </div>
+ </div>
+
+ <!-- Section 10.0: Sky Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">10.0 TRAINING, DRILLS, AND READINESS</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20">
+ <ul class="custom-list theme-sky space-y-3">
+ <li><strong class="text-slate-900">10.1</strong> OT staff receive initial training and annual refreshers on downtime forms, labeling discipline, order/results communication, and recovery workflow. Evidence-based downtime readiness work emphasizes training on downtime forms, audits, and drills. (HIMSS)</li>
+ <li><strong class="text-slate-900">10.2</strong> Planned downtimes may be used for training and exercises; ASPR TRACIE materials encourage using planned outages and multiple scenarios to improve preparedness. (American Hospital Association)</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 11.0: Orange Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">11.0 INCIDENT REPORTING AND QPS LEARNING</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20">
+ <ul class="custom-list theme-orange space-y-3">
+ <li><strong class="text-slate-900">11.1</strong> Any downtime-related safety event, near miss, identification confusion, specimen labeling issue, implant traceability gap, or medication documentation issue is reported and reviewed. (Downtime event analyses highlight safety hazards and support comprehensive downtime procedures and adherence.) (psnet.ahrq.gov)</li>
+ <li><strong class="text-slate-900">11.2</strong> OT QPS reviews downtime events for system fixes: form redesign, better label printing strategy, clearer responsibilities, improved communication pathways.</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 12.0: Red Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">12.0 AUDIT / KPIs</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20">
+ <ul class="custom-list theme-red space-y-3">
+ <li><strong class="text-slate-900">12.1</strong> Downtime pack readiness audit (monthly/quarterly): correct forms present, current version, stocked. (HIMSS)</li>
+ <li><strong class="text-slate-900">12.2</strong> Downtime drill compliance: number of drills completed, attendance, gaps closed. (HIMSS)</li>
+ <li><strong class="text-slate-900">12.3</strong> Back-entry completion time compliance (within facility-defined timeline).</li>
+ <li><strong class="text-slate-900">12.4</strong> Error rate in reconciliation (mismatched encounter, missing implant log, missing specimen entry).</li>
+ <li><strong class="text-slate-900">12.5</strong> Downtime incident rate and themes (patient ID risk, medication documentation risk). (psnet.ahrq.gov)</li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 13.0: Green Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">13.0 REFERENCES (ENGLISH)</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20">
+ <ul class="space-y-4">
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-2 rounded text-emerald-600 shrink-0 shadow-sm border border-emerald-200">
+ <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <div>
+ <strong class="text-slate-900 block mb-1">13.1 ASPR TRACIE</strong>
+ <span class="text-sm text-slate-600">Electronic Health Records and Downtime Procedures (planning categories/checklist: communication, documentation, orders/results, etc.). (ASPR TRACIE)</span>
+ </div>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-2 rounded text-emerald-600 shrink-0 shadow-sm border border-emerald-200">
+ <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <div>
+ <strong class="text-slate-900 block mb-1">13.2 SAFER Guides (HealthIT.gov)</strong>
+ <span class="text-sm text-slate-600">Contingency Planning (written downtime and recovery procedures). (ASTP)</span>
+ </div>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-2 rounded text-emerald-600 shrink-0 shadow-sm border border-emerald-200">
+ <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <div>
+ <strong class="text-slate-900 block mb-1">13.3 HIMSS</strong>
+ <span class="text-sm text-slate-600">Implementation of an Evidence-Based EHR Downtime Readiness and Recovery Plan (training, audits, drills, timely activation). (HIMSS)</span>
+ </div>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-2 rounded text-emerald-600 shrink-0 shadow-sm border border-emerald-200">
+ <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <div>
+ <strong class="text-slate-900 block mb-1">13.4 AHRQ PSNet</strong>
+ <span class="text-sm text-slate-600">Implications of EHR downtime: patient safety event reports (patient ID and medication error risks; need comprehensive procedures). (psnet.ahrq.gov)</span>
+ </div>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-2 rounded text-emerald-600 shrink-0 shadow-sm border border-emerald-200">
+ <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <div>
+ <strong class="text-slate-900 block mb-1">13.5 ISMP Newsletter</strong>
+ <span class="text-sm text-slate-600">Be ready for unanticipated EHR downtime (downtime as emergency; medication safety considerations). (ECRI and ISMP)</span>
+ </div>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-2 rounded text-emerald-600 shrink-0 shadow-sm border border-emerald-200">
+ <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <div>
+ <strong class="text-slate-900 block mb-1">13.6 A State-of-the-Art EHR Downtime and Uptime Procedure</strong>
+ <span class="text-sm text-slate-600">(lessons learned; reconciliation importance). (PMC)</span>
+ </div>
+ </li>
+ <li class="flex items-start gap-4">
+ <div class="bg-white p-2 rounded text-emerald-600 shrink-0 shadow-sm border border-emerald-200">
+ <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+ </div>
+ <div>
+ <strong class="text-slate-900 block mb-1">13.7 Nursing downtime preparedness toolkit</strong>
+ <span class="text-sm text-slate-600">(paper forms scanning and essential backloading considerations). (Vanderbilt University Medical Center)</span>
+ </div>
+ </li>
+ </ul>
+ </div>
+ </div>
+
+ <!-- Section 14.0: Slate Box -->
+ <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+ <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
+ <h2 class="text-xl heading-serif font-bold text-white tracking-wide">14.0 APPENDICES (OT FORMS / TOOLS)</h2>
+ </div>
+ <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50">
+ <ul class="custom-list theme-slate space-y-3">
+ <li><strong class="text-slate-900">14.1 Appendix A</strong> — OT Downtime Pack Index (Master List)</li>
+ <li><strong class="text-slate-900">14.2 Appendix B</strong> — OT Downtime Activation Log (Charge Nurse)</li>
+ <li><strong class="text-slate-900">14.3 Appendix C</strong> — OT Manual Patient/Cases Tracking Board Template</li>
+ <li><strong class="text-slate-900">14.4 Appendix D</strong> — Specimen Downtime Label Sheet + Specimen Log</li>
+ <li><strong class="text-slate-900">14.5 Appendix E</strong> — Implant Traceability Downtime Form + Implant Log Insert</li>
+ <li><strong class="text-slate-900">14.6 Appendix F</strong> — OT Medication/Contrast/Dye Downtime Documentation Tool</li>
+ <li><strong class="text-slate-900">14.7 Appendix G</strong> — OT→PACU Downtime Handover Form</li>
+ <li><strong class="text-slate-900">14.8 Appendix H</strong> — Back-Entry &amp; Reconciliation Checklist (Per Case Packet)</li>
+ <li><strong class="text-slate-900">14.9 Appendix I</strong> — Downtime Drill Evaluation Form (Gap → Action → Owner → Due Date)</li>
+ </ul>
+ </div>
+ </div>
+
+ </main>
+
+ <!-- Premium Footer -->
+ <footer class="bg-slate-900 text-center py-10 mt-auto border-t border-slate-800">
+ <p class="text-[11px] font-semibold text-slate-400 tracking-[0.2em] uppercase">Operating Theatre - SEC 12 (Policies 12.1 to 12.8)</p>
+ <p class="text-[10px] text-slate-500 uppercase mt-2 tracking-widest">© 2024 Dr. Jameel Al-Soqayya Governance Portal</p>
+ </footer>
+
+ <!-- Toast Message -->
+ <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
+
+ <!-- Scripts -->
+ <script>
+ function showToast(text) {
+ const toast = document.getElementById('toast');
+ toast.textContent = text;
+ toast.style.display = 'block';
+ setTimeout( => { toast.style.display = 'none'; }, 3000);
+ }
+
+ function copySource {
+ const htmlSource = document.documentElement.outerHTML;
+ const dummy = document.createElement("textarea");
+ document.body.appendChild(dummy);
+ dummy.value = htmlSource;
+ dummy.select;
+ document.execCommand("copy");
+ document.body.removeChild(dummy);
+ showToast('✓ HTML Code successfully copied!');
+ }
+
+ function downloadHTML {
+ const htmlSource = document.documentElement.outerHTML;
+ const blob = new Blob([htmlSource], { type: 'text/html' });
+ const url = window.URL.createObjectURL(blob);
+ const a = document.createElement('a');
+ a.style.display = 'none';
+ a.href = url;
+ a.download = 'Operating_Theatre_Policy_SEC_12.html';
+ document.body.appendChild(a);
+ a.click;
+ window.URL.revokeObjectURL(url);
+ document.body.removeChild(a);
+ showToast('↓ HTML Document downloading...');
+ }
+ </script>`
+ },
  s15: {
  titleEn: 'SEC 13 — OT Facility Safety (FMS)',
  titleAr: 'القسم ١٣ — سلامة منشأة غرفة العمليات',

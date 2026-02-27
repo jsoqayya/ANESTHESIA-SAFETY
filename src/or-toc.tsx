@@ -330,6 +330,31 @@ tocApp.get('/', (c) => {
  </div>
  </div>
 
+ <!-- PART VI -->
+ <div class="policy-card bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden flex flex-col h-full">
+ <div class="px-8 py-6 bg-gradient-to-r from-cyan-600 to-blue-500">
+ <h2 class="text-xl font-beautiful font-bold text-white tracking-wider uppercase leading-snug">PART VI — INSTRUMENTS, EQUIPMENT, AND TECHNOLOGY (HCT / FMS)</h2>
+ </div>
+ <div class="p-8 space-y-8 flex-grow">
+ <div>
+ <h3 class="font-bold text-slate-800 text-[16px] mb-5 pb-3 border-b-2 border-cyan-100 flex items-center gap-3">
+ <span class="bg-cyan-100 text-cyan-700 px-3 py-1 rounded-lg text-sm tracking-wider"><a href="/or-policies/section/s14" class="hover:underline">SEC 12</a></span>
+ Surgical Instruments &amp; Equipment
+ </h3>
+ <ul class="space-y-3 text-[14px] text-slate-600 font-medium">
+ <li class="flex items-start gap-3"><span class="font-bold text-cyan-600 shrink-0 w-10">12.1</span> <span class="leading-snug">Care &amp; Handling of Instruments and Equipment</span></li>
+ <li class="flex items-start gap-3"><span class="font-bold text-cyan-600 shrink-0 w-10">12.2</span> <span class="leading-snug">Loaner Instruments / Vendor Trays Governance (tracking, completeness)</span></li>
+ <li class="flex items-start gap-3"><span class="font-bold text-cyan-600 shrink-0 w-10">12.3</span> <span class="leading-snug">Electrosurgical Unit (Diathermy) Safety</span></li>
+ <li class="flex items-start gap-3"><span class="font-bold text-cyan-600 shrink-0 w-10">12.4</span> <span class="leading-snug">Warming Cabinet Use &amp; Safety</span></li>
+ <li class="flex items-start gap-3"><span class="font-bold text-cyan-600 shrink-0 w-10">12.5</span> <span class="leading-snug">Equipment Failure Response &amp; “Remove from Service” Tagging</span></li>
+ <li class="flex items-start gap-3"><span class="font-bold text-cyan-600 shrink-0 w-10">12.6</span> <span class="leading-snug">Preventive Maintenance &amp; Calibration Interface (biomed)</span></li>
+ <li class="flex items-start gap-3"><span class="font-bold text-cyan-600 shrink-0 w-10">12.7</span> <span class="leading-snug">Consumables &amp; Expiry Management (sterile items, implants, sutures)</span></li>
+ <li class="flex items-start gap-3"><span class="font-bold text-cyan-600 shrink-0 w-10">12.8</span> <span class="leading-snug">IT Downtime Procedure (paper packs, back-entry rules)</span></li>
+ </ul>
+ </div>
+ </div>
+ </div>
+
  <!-- PART VII -->
  <div class="policy-card bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden flex flex-col h-full">
  <div class="px-8 py-6 bg-gradient-to-r from-orange-600 to-red-600">
