@@ -6650,9 +6650,7 @@ export const orSectionsHtml = {
             <p class="mt-6 text-slate-300 text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
                 Post-Anaesthesia Care Unit Handover, Monitoring, Discharge Criteria &amp; OT Interface
             </p>
-            <p class="mt-3 text-cyan-200 text-base font-medium">
-                واجهة غرفة الإفاقة (PACU) — التسليم والرقابة ومعايير الخروج
-            </p>
+
         </div>
     </div>
 
@@ -6669,7 +6667,7 @@ export const orSectionsHtml = {
                 <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Review Cycle</span><span class="block text-sm font-semibold text-slate-800">Annual / Post-Incident</span></div>
                 <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span><span class="block text-sm font-semibold text-slate-800">OT Manager / Chief of Anaesthesia</span></div>
                 <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Accreditation Links</span><span class="block text-sm font-semibold text-slate-800">IPSG.1, IPSG.6, ACC.3, COP.2, ASC.7</span></div>
-                <div><span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Arabic Title</span><span class="block text-sm font-semibold text-slate-800" dir="rtl">القسم ٨ — واجهة غرفة الإفاقة (PACU)</span></div>
+
             </div>
         </div>
 
@@ -6682,9 +6680,7 @@ export const orSectionsHtml = {
                 <p>The transition from the operating table to the PACU is one of the highest-risk moments in the perioperative journey. The patient arrives physiologically vulnerable — still recovering from anaesthesia, with open surgical wounds, altered thermoregulation, and unpredictable pain responses. A single failure in this handover — incomplete information, delayed monitoring, absent equipment — can turn a successful surgery into a preventable harm event.</p>
                 <p class="mt-4">This policy defines how OT and PACU collaborate as one safe system, not two separate departments. It establishes the structured verbal and written handover, the minimum monitoring requirements in PACU, the discharge criteria that protect patients from being moved too soon, and the escalation pathways when things deteriorate.</p>
                 <p class="mt-4 font-semibold text-cyan-800">The goal: every patient who leaves OT arrives in PACU with a nurse who knows exactly what happened — and what to watch for.</p>
-                <div class="mt-6 p-4 bg-cyan-50 border border-cyan-200 rounded-xl" dir="rtl">
-                    <p class="text-cyan-900 font-medium">الهدف من هذه السياسة: ضمان أن كل مريض ينتقل من غرفة العمليات إلى غرفة الإفاقة مع نقل كامل ومنظم للمعلومات، ورقابة مناسبة، ومعايير واضحة للخروج — لأن هذه اللحظة من أكثر اللحظات خطورةً في رحلة المريض الجراحية.</p>
-                </div>
+
             </div>
         </div>
 
@@ -6742,14 +6738,14 @@ export const orSectionsHtml = {
             <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20">
                 <div class="overflow-x-auto">
                     <table class="w-full text-sm border-collapse">
-                        <thead><tr class="bg-teal-600 text-white"><th class="p-3 text-left font-semibold rounded-tl-lg">Term</th><th class="p-3 text-left font-semibold">Definition (Practical)</th><th class="p-3 text-left font-semibold rounded-tr-lg">Arabic</th></tr></thead>
+                        <thead><tr class="bg-teal-600 text-white"><th class="p-3 text-left font-semibold rounded-tl-lg">Term</th><th class="p-3 text-left font-semibold rounded-tr-lg">Definition (Practical)</th></tr></thead>
                         <tbody>
-                            <tr class="border-b border-teal-100"><td class="p-3 font-semibold text-teal-800">PACU</td><td class="p-3">Post-Anaesthesia Care Unit — the recovery area where patients are monitored immediately after surgery until they meet criteria for safe transfer.</td><td class="p-3" dir="rtl">وحدة رعاية ما بعد التخدير / غرفة الإفاقة</td></tr>
-                            <tr class="border-b border-teal-100 bg-teal-50/30"><td class="p-3 font-semibold text-teal-800">Aldrete Score</td><td class="p-3">A standardized 10-point scoring system (activity, respiration, circulation, consciousness, O₂ saturation) used to determine PACU discharge readiness. Score ≥9 required for transfer.</td><td class="p-3" dir="rtl">مقياس ألدريت — نظام تقييم معياري لتحديد جاهزية المريض للخروج من غرفة الإفاقة</td></tr>
-                            <tr class="border-b border-teal-100"><td class="p-3 font-semibold text-teal-800">SBAR Handover</td><td class="p-3">Situation–Background–Assessment–Recommendation: the structured communication framework used for OT-to-PACU handover.</td><td class="p-3" dir="rtl">نموذج التسليم المنظم: الوضع — السياق — التقييم — التوصية</td></tr>
-                            <tr class="border-b border-teal-100 bg-teal-50/30"><td class="p-3 font-semibold text-teal-800">PADS Score</td><td class="p-3">Post-Anaesthetic Discharge Scoring System — used for day-surgery patients to assess readiness for home discharge.</td><td class="p-3" dir="rtl">مقياس جاهزية الخروج بعد التخدير (الجراحة اليومية)</td></tr>
-                            <tr class="border-b border-teal-100"><td class="p-3 font-semibold text-teal-800">Phase I Recovery</td><td class="p-3">Immediate post-anaesthesia recovery (PACU) — intensive monitoring until patient is haemodynamically stable and airway is protected.</td><td class="p-3" dir="rtl">مرحلة الإفاقة الأولى — الرقابة المكثفة الفورية بعد التخدير</td></tr>
-                            <tr class="bg-teal-50/30"><td class="p-3 font-semibold text-teal-800">Phase II Recovery</td><td class="p-3">Extended recovery — patient is awake and stable, progressing toward ward or home discharge.</td><td class="p-3" dir="rtl">مرحلة الإفاقة الثانية — التعافي الممتد نحو جناح المرضى أو المنزل</td></tr>
+                            <tr class="border-b border-teal-100"><td class="p-3 font-semibold text-teal-800">PACU</td><td class="p-3">Post-Anaesthesia Care Unit — the recovery area where patients are monitored immediately after surgery until they meet criteria for safe transfer.</td></tr>
+                            <tr class="border-b border-teal-100 bg-teal-50/30"><td class="p-3 font-semibold text-teal-800">Aldrete Score</td><td class="p-3">A standardized 10-point scoring system (activity, respiration, circulation, consciousness, O₂ saturation) used to determine PACU discharge readiness. Score ≥9 required for transfer.</td></tr>
+                            <tr class="border-b border-teal-100"><td class="p-3 font-semibold text-teal-800">SBAR Handover</td><td class="p-3">Situation–Background–Assessment–Recommendation: the structured communication framework used for OT-to-PACU handover.</td></tr>
+                            <tr class="border-b border-teal-100 bg-teal-50/30"><td class="p-3 font-semibold text-teal-800">PADS Score</td><td class="p-3">Post-Anaesthetic Discharge Scoring System — used for day-surgery patients to assess readiness for home discharge.</td></tr>
+                            <tr class="border-b border-teal-100"><td class="p-3 font-semibold text-teal-800">Phase I Recovery</td><td class="p-3">Immediate post-anaesthesia recovery (PACU) — intensive monitoring until patient is haemodynamically stable and airway is protected.</td></tr>
+                            <tr class="bg-teal-50/30"><td class="p-3 font-semibold text-teal-800">Phase II Recovery</td><td class="p-3">Extended recovery — patient is awake and stable, progressing toward ward or home discharge.</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -6771,9 +6767,7 @@ export const orSectionsHtml = {
                     <li>Discharge from PACU only when Aldrete score ≥9 (or Modified Aldrete ≥9) and documented anaesthetist approval.</li>
                     <li>No transfer to ward/ICU until receiving unit confirms readiness and accepting nurse is present.</li>
                 </ul>
-                <div class="mt-6 p-4 bg-emerald-50 border border-emerald-200 rounded-xl" dir="rtl">
-                    <p class="text-emerald-900 font-medium">لا يُسمح بمغادرة المريض لغرفة الإفاقة إلا بعد استيفاء معايير ألدريت (≥٩) وحصول موافقة طبيب التخدير الموثقة. أي مغادرة قبل ذلك تُعدّ انتهاكاً حرجاً لهذه السياسة.</p>
-                </div>
+
             </div>
         </div>
 
