@@ -14078,7 +14078,7 @@ export const orSectionsHtml = {
  Policy &amp; Procedure Document
  </span>
  <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
- Section 12: PART VI — INSTRUMENTS, EQUIPMENT, AND TECHNOLOGY (HCT / FMS)<br>
+ PART VI — INSTRUMENTS, EQUIPMENT, AND TECHNOLOGY (HCT / FMS)<br>
  <span class="text-2xl md:text-4xl mt-3 block font-semibold">SEC 12 — Surgical Instruments &amp; Equipment (Independent Policies)</span>
  </h1>
  </div>
@@ -14964,342 +14964,565 @@ export const orSectionsHtml = {
  <div class="policy-divider"></div>
 
  <!-- ========================================== -->
- <!-- POLICY 12.4 -->
- <!-- ========================================== -->
+   <!-- ========================================== -->
+  <!-- POLICY 12.4                                -->
+  <!-- ========================================== -->
 
- <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
-  <!-- Gradient header band -->
-  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
-    <!-- Icon badge -->
-    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
-      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-      </svg>
-    </div>
-    <!-- Title block -->
-    <div class="flex-1 min-w-0">
-      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
-      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.4 — Warming Cabinet Use &amp; Safety</h2>
-    </div>
-    <!-- Right label -->
-    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
-      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+  <div class="text-center mb-8">
+    <div class="inline-flex items-center gap-4 bg-gradient-to-r from-indigo-800 to-indigo-600 text-white px-8 py-5 rounded-2xl shadow-lg max-w-4xl w-full">
+      <div class="flex-shrink-0 bg-white/20 rounded-full p-3">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+        </svg>
+      </div>
+      <div class="flex-1 text-left">
+        <p class="text-[11px] font-semibold text-indigo-200 tracking-[0.2em] uppercase">Operating Theatre Policy</p>
+        <h2 class="text-xl md:text-2xl font-bold text-white mt-1">POLICY 12.4 — Warming Cabinet Use &amp; Safety</h2>
+      </div>
+      <div class="hidden md:block flex-shrink-0 bg-white/10 border border-white/30 text-white text-xs font-semibold px-3 py-1 rounded-full">Policy Document</div>
     </div>
   </div>
-  <!-- Bottom accent strip -->
-  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
-</div>
 
- <!-- Meta Information Card 12.4 -->
- <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
- <span class="block text-sm font-semibold text-slate-800"></span>
- </div>
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
- <span class="block text-sm font-semibold text-slate-800">OT Nurse Manager + IPC + Engineering</span>
- </div>
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related</span>
- <span class="block text-sm font-semibold text-slate-800">SEC 9 (IPC), Patient temperature management practices</span>
- </div>
- </div>
- </div>
-
- <!-- Section 1.0 & 2.0 & 3.0: Amber Box -->
- <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
- <div class="bg-gradient-to-r from-amber-500 to-orange-400 px-8 py-5">
- <h2 class="text-xl heading-serif font-bold text-white tracking-wide">POLICY CONTENT</h2>
- </div>
- <div class="p-8 text-slate-700 leading-relaxed bg-amber-50/30 space-y-6">
- 
- <div>
- <h3 class="font-bold text-slate-900 mb-2">1.0 PURPOSE</h3>
- <p><strong class="text-slate-800">1.1</strong> To ensure safe and controlled use of warming cabinets (blanket/linen warmers and fluid warmers if applicable), with temperature monitoring, segregation rules, and prevention of burns or contamination.</p>
- </div>
-
- <div>
- <h3 class="font-bold text-slate-900 mb-2">2.0 POLICY STATEMENT</h3>
- <ul class="custom-list theme-amber space-y-2">
- <li><strong class="text-slate-800">2.1</strong> Warming cabinets are used only for approved items and within approved temperature ranges; temperatures are documented and reviewed (facility defines target ranges). AORN provides guidance/FAQ on cabinet temperature settings and practices.</li>
- <li><strong class="text-slate-800">2.2</strong> Blankets/linens shall be warmed in cabinets designated for that purpose; if fluids are warmed, segregation and independent temperature control is required by facility rule (avoid mixed uncontrolled storage).</li>
- <li><strong class="text-slate-800">2.3</strong> Items removed from warmer are used within a defined time window per facility policy; out-of-control or undocumented warming is not permitted.</li>
- </ul>
- </div>
-
- <div>
- <h3 class="font-bold text-slate-900 mb-2">3.0 PROCEDURE (MINIMUM)</h3>
- <ul class="custom-list theme-amber space-y-2">
- <li><strong class="text-slate-800">3.1</strong> Daily temperature log (AM/PM or per shift), alarm check, and cleaning schedule.</li>
- <li><strong class="text-slate-800">3.2</strong> No patient-contact warming devices/blankets that exceed safe practice are applied directly without protective layers; staff monitor for burn risk.</li>
- <li><strong class="text-slate-800">3.3</strong> Remove and quarantine cabinet if temperature instability occurs; notify engineering (Policy 12.5/12.6).</li>
- </ul>
- </div>
-
- </div>
- </div>
-
- <!-- Divider -->
- <div class="policy-divider"></div>
-
- <!-- ========================================== -->
- <!-- POLICY 12.5 -->
- <!-- ========================================== -->
-
- <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
-  <!-- Gradient header band -->
-  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
-    <!-- Icon badge -->
-    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
-      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-      </svg>
-    </div>
-    <!-- Title block -->
-    <div class="flex-1 min-w-0">
-      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
-      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.5 — Equipment Failure Response &amp; “Remove from Service” Tagging</h2>
-    </div>
-    <!-- Right label -->
-    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
-      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+  <!-- Meta card -->
+  <div class="bg-white rounded-2xl shadow-md border border-indigo-100 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-indigo-50 to-indigo-100/50 px-8 py-4 border-b border-indigo-200">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Policy Code</span><span class="font-bold text-slate-800">OT-HCT-12.4</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Owner</span><span class="font-medium text-slate-700">OT Nurse Manager + IPC + Engineering</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Version &amp; Dates</span><span class="font-medium text-slate-700">Version: 1.0 | Effective: //20__ | Review: //20__</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Related</span><span class="block text-sm font-medium text-slate-700">SEC 9 (IPC), Policies 12.5/12.6, Patient temperature management</span></div>
+      </div>
     </div>
   </div>
-  <!-- Bottom accent strip -->
-  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
-</div>
 
- <!-- Meta Information Card 12.5 -->
- <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
- <span class="block text-sm font-semibold text-slate-800">OT-HCT-12.5</span>
- </div>
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
- <span class="block text-sm font-semibold text-slate-800">OT Nurse Manager + Biomed/Engineering Lead + OT QPS Lead</span>
- </div>
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related</span>
- <span class="block text-sm font-semibold text-slate-800">SEC 3 (incident reporting), SEC 12.6 (PM), FMS</span>
- </div>
- </div>
- </div>
-
- <!-- Section 1.0 & 2.0 & 3.0: Rose Box -->
- <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
- <div class="bg-gradient-to-r from-rose-600 to-pink-500 px-8 py-5">
- <h2 class="text-xl heading-serif font-bold text-white tracking-wide">POLICY CONTENT</h2>
- </div>
- <div class="p-8 text-slate-700 leading-relaxed bg-rose-50/30 space-y-6">
- 
- <div>
- <h3 class="font-bold text-slate-900 mb-2">1.0 PURPOSE</h3>
- <p><strong class="text-slate-800">1.1</strong> To ensure any faulty or unsafe equipment is immediately identified, removed from patient use, tagged clearly, reported, and investigated to prevent repeat harm. ECRI emphasizes implementing a standardized tagging system to remove faulty equipment from service.</p>
- </div>
-
- <div>
- <h3 class="font-bold text-slate-900 mb-2">2.0 POLICY STATEMENT</h3>
- <ul class="custom-list theme-rose space-y-2">
- <li><strong class="text-slate-800">2.1</strong> Any equipment malfunction, abnormal performance, alarm failure, visible damage, burning smell, overheating, or suspected contribution to harm requires immediate “remove from service.”</li>
- <li><strong class="text-slate-800">2.2</strong> Equipment involved in adverse incidents must be sequestered/preserved for investigation when indicated.</li>
- <li><strong class="text-slate-800">2.3</strong> CMS guidance for hospital equipment management programs includes having a process for removal from service of equipment determined to be unsafe.</li>
- </ul>
- </div>
-
- <div>
- <h3 class="font-bold text-slate-900 mb-2">3.0 PROCEDURE</h3>
- <ul class="custom-list theme-rose space-y-2">
- <li><strong class="text-slate-800">3.1 Immediate actions:</strong> stop using equipment; ensure patient safety; switch to backup device if needed.</li>
- <li><strong class="text-slate-800">3.2 Tagging:</strong> attach “REMOVE FROM SERVICE” tag including date/time, unit, reason, reporter name, and location.</li>
- <li><strong class="text-slate-800">3.3 Isolation:</strong> move equipment to designated holding area away from clinical use.</li>
- <li><strong class="text-slate-800">3.4 Notification:</strong> inform charge nurse and biomed; create service request.</li>
- <li><strong class="text-slate-800">3.5 Incident reporting:</strong> complete incident report when failure affects care, causes delay, or causes harm/near miss.</li>
- <li><strong class="text-slate-800">3.6 Return to service:</strong> only biomed/engineering can clear and remove tag after testing/repair and documentation.</li>
- </ul>
- </div>
-
- </div>
- </div>
-
- <!-- Divider -->
- <div class="policy-divider"></div>
-
- <!-- ========================================== -->
- <!-- POLICY 12.6 -->
- <!-- ========================================== -->
-
- <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
-  <!-- Gradient header band -->
-  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
-    <!-- Icon badge -->
-    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
-      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-      </svg>
+  <!-- 1.0 PURPOSE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-sky-600 to-blue-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
     </div>
-    <!-- Title block -->
-    <div class="flex-1 min-w-0">
-      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
-      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.6 — Preventive Maintenance &amp; Calibration Interface (Biomed)</h2>
-    </div>
-    <!-- Right label -->
-    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
-      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    <div class="p-8 text-slate-700 space-y-3 leading-relaxed bg-sky-50/20">
+      <ul class="custom-list theme-sky space-y-2">
+        <li><strong class="text-slate-800">1.1</strong> To ensure safe, controlled use of warming cabinets (blanket/linen warmers and IV fluid warmers) with documented temperature monitoring, segregation rules, and burn prevention.</li>
+        <li><strong class="text-slate-800">1.2</strong> To prevent patient burns, contamination, or uncontrolled warming that compromise patient safety during perioperative care.</li>
+        <li><strong class="text-slate-800">1.3</strong> To comply with AORN, ECRI, and facility FMS requirements for warming device management and documentation.</li>
+      </ul>
     </div>
   </div>
-  <!-- Bottom accent strip -->
-  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
-</div>
 
- <!-- Meta Information Card 12.6 -->
- <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
- <span class="block text-sm font-semibold text-slate-800">OT-HCT-12.6</span>
- </div>
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
- <span class="block text-sm font-semibold text-slate-800">Biomedical/Engineering Lead + OT Nurse Manager</span>
- </div>
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related</span>
- <span class="block text-sm font-semibold text-slate-800">Policy 12.5, FMS utilities policy, procurement policy</span>
- </div>
- </div>
- </div>
-
- <!-- Section 1.0 & 2.0 & 3.0: Teal Box -->
- <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
- <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
- <h2 class="text-xl heading-serif font-bold text-white tracking-wide">POLICY CONTENT</h2>
- </div>
- <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/30 space-y-6">
- 
- <div>
- <h3 class="font-bold text-slate-900 mb-2">1.0 PURPOSE</h3>
- <p><strong class="text-slate-800">1.1</strong> To ensure OT equipment is maintained, calibrated, and survey-ready through a structured medical equipment management program consistent with recognized practices (AAMI EQ56 is referenced in regional device management guidance).</p>
- </div>
-
- <div>
- <h3 class="font-bold text-slate-900 mb-2">2.0 POLICY STATEMENT</h3>
- <ul class="custom-list theme-teal space-y-2">
- <li><strong class="text-slate-800">2.1</strong> All OT critical equipment (ESU, defibrillator, warming devices, suction, monitors, pumps, tourniquets, smoke evacuators, anesthesia interface equipment as applicable) is included in the biomed inventory and PM schedule.</li>
- <li><strong class="text-slate-800">2.2</strong> Calibration/PM records must be available for audits; equipment out of PM date is removed from service.</li>
- </ul>
- </div>
-
- <div>
- <h3 class="font-bold text-slate-900 mb-2">3.0 PROCEDURE</h3>
- <ul class="custom-list theme-teal space-y-2">
- <li><strong class="text-slate-800">3.1</strong> OT maintains an updated asset list with location and owner.</li>
- <li><strong class="text-slate-800">3.2</strong> Biomed performs PM per manufacturer IFU and risk-based schedule.</li>
- <li><strong class="text-slate-800">3.3</strong> OT verifies PM label validity during daily room readiness checks.</li>
- <li><strong class="text-slate-800">3.4</strong> PM failures trigger remove-from-service process (Policy 12.5).</li>
- </ul>
- </div>
-
- </div>
- </div>
-
- <!-- Divider -->
- <div class="policy-divider"></div>
-
- <!-- ========================================== -->
- <!-- POLICY 12.7 -->
- <!-- ========================================== -->
-
- <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
-  <!-- Gradient header band -->
-  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
-    <!-- Icon badge -->
-    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
-      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round"
-          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-      </svg>
+  <!-- 2.0 SCOPE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
     </div>
-    <!-- Title block -->
-    <div class="flex-1 min-w-0">
-      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
-      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.7 — Consumables &amp; Expiry Management</h2>
-    </div>
-    <!-- Right label -->
-    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
-      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20">
+      <ul class="custom-list theme-orange space-y-2">
+        <li><strong class="text-slate-800">2.1</strong> Applies to all warming cabinets in the OT suite: blanket/linen warmers and IV fluid warmers.</li>
+        <li><strong class="text-slate-800">2.2</strong> Covers all OT nursing, anaesthesia, and ancillary staff who use, monitor, or maintain warming equipment.</li>
+        <li><strong class="text-slate-800">2.3</strong> Covers all patient care environments within the OT where warming devices are used.</li>
+      </ul>
     </div>
   </div>
-  <!-- Bottom accent strip -->
-  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
-</div>
 
- <!-- Meta Information Card 12.7 -->
- <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Policy Code</span>
- <span class="block text-sm font-semibold text-slate-800">OT-HCT-12.7</span>
- </div>
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Owner</span>
- <span class="block text-sm font-semibold text-slate-800">OT Nurse Manager + Supply Chain + CSSD</span>
- </div>
- <div>
- <span class="block text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1">Related</span>
- <span class="block text-sm font-semibold text-slate-800">SEC 10 (meds expiry), SEC 11.7 (implants traceability), SEC 9.15 (sterile supplies handling)</span>
- </div>
- </div>
- <div class="mt-4 pt-4 border-t border-slate-100 text-center">
- <span class="block text-sm font-semibold text-slate-700">(Sterile items, implants, sutures)</span>
- </div>
- </div>
+  <!-- 3.0 POLICY STATEMENT -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-indigo-700 to-indigo-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 POLICY STATEMENT</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20">
+      <ul class="custom-list theme-indigo space-y-2">
+        <li><strong class="text-slate-800">3.1</strong> Warming cabinets are used ONLY for approved items and within approved temperature ranges; temperatures are documented every shift.</li>
+        <li><strong class="text-slate-800">3.2</strong> Blanket/linen warmers and fluid warmers SHALL be segregated — no mixed storage of blankets and IV fluids in the same cabinet unless the device is specifically designed for both.</li>
+        <li><strong class="text-slate-800">3.3</strong> Maximum temperature settings follow AORN guidance: blanket warmers ≤ 43°C (110°F) surface temperature at point of patient contact; IV fluids per manufacturer IFU.</li>
+        <li><strong class="text-slate-800">3.4</strong> Items removed from a warmer must be used within the facility-defined time window; items exceeding the hold time are removed and replaced.</li>
+        <li><strong class="text-slate-800">3.5</strong> No improvised warming methods (microwaves, ovens, hot water baths) are permitted.</li>
+        <li><strong class="text-slate-800">3.6</strong> Warm blankets must NEVER be applied directly to unconscious or sedated patients without a protective layer and nursing monitoring for burn risk.</li>
+      </ul>
+    </div>
+  </div>
 
- <!-- Section 1.0 & 2.0 & 3.0: Cyan Box -->
- <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
- <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-5">
- <h2 class="text-xl heading-serif font-bold text-white tracking-wide">POLICY CONTENT</h2>
- </div>
- <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
- 
- <div>
- <h3 class="font-bold text-slate-900 mb-2">1.0 PURPOSE</h3>
- <p><strong class="text-slate-800">1.1</strong> To prevent use of expired or compromised consumables and ensure reliable stock rotation and integrity checks.</p>
- </div>
+  <!-- 4.0 PROCEDURE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 PROCEDURE</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20">
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.1 Daily Checks (Each Shift)</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Record cabinet temperature in the warming cabinet log (AM and PM check minimum).</li>
+            <li>Verify alarm function where applicable; confirm temperature is within prescribed range.</li>
+            <li>Remove any items exceeding hold time; discard or return to storage.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.2 Loading &amp; Use</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Label items with date/time placed in warmer.</li>
+            <li>Only facility-approved items loaded; no medication storage in warming cabinets unless specifically designated and approved by pharmacy.</li>
+            <li>IV fluids: warm per IFU, not exceeding 40°C for routine use; record lot number for implantable-fluid traceability if applicable.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.3 Malfunction Response</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>If temperature out of range, power failure, or alarm: remove all items immediately, tag cabinet "Remove from Service" (Policy 12.5), notify charge nurse and engineering.</li>
+            <li>Do not use cabinet until cleared by Biomed (Policy 12.6).</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.4 Cleaning</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Clean cabinet interior per schedule defined by IPC (weekly minimum, or after contamination).</li>
+            <li>Record cleaning date in log.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
- <div>
- <h3 class="font-bold text-slate-900 mb-2">2.0 POLICY STATEMENT</h3>
- <ul class="custom-list theme-cyan space-y-2">
- <li><strong class="text-slate-800">2.1</strong> OT shall implement FEFO/FIFO stock rotation (first-expire-first-out), with structured expiry checks and quarantine of expired/compromised items.</li>
- <li><strong class="text-slate-800">2.2</strong> Sterile package integrity is required; torn/wet/compromised packs are considered nonsterile and removed.</li>
- <li><strong class="text-slate-800">2.3</strong> Implant expiry and lot/serial traceability must be maintained (Policy 11.7).</li>
- </ul>
- </div>
+  <!-- 5.0 DOCUMENTATION & AUDIT -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 DOCUMENTATION | 6.0 AUDIT / KPIs</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50 space-y-6">
+      <div>
+        <h3 class="font-bold text-slate-900 mb-2">5.0 DOCUMENTATION</h3>
+        <ul class="custom-list theme-slate space-y-2">
+          <li><strong class="text-slate-800">5.1</strong> Warming Cabinet Daily Temperature Log (AM/PM entries per shift).</li>
+          <li><strong class="text-slate-800">5.2</strong> Cleaning log (date, staff signature).</li>
+          <li><strong class="text-slate-800">5.3</strong> Equipment fault/removal log entry if malfunction occurs (linked to Policy 12.5).</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-slate-900 mb-2">6.0 AUDIT / KPIs</h3>
+        <ul class="custom-list theme-slate space-y-2">
+          <li><strong class="text-slate-800">6.1</strong> % shifts with completed temperature log ≥ 95%.</li>
+          <li><strong class="text-slate-800">6.2</strong> Zero patient burn incidents attributable to warming cabinet use.</li>
+          <li><strong class="text-slate-800">6.3</strong> Zero unauthorized items found in warming cabinets on monthly audit.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
- <div>
- <h3 class="font-bold text-slate-900 mb-2">3.0 PROCEDURE</h3>
- <ul class="custom-list theme-cyan space-y-2">
- <li><strong class="text-slate-800">3.1 Daily quick check:</strong> high-risk items (hemostatics, implants in room stock, specialty sutures).</li>
- <li><strong class="text-slate-800">3.2 Weekly/monthly structured check:</strong> store rooms and case carts.</li>
- <li><strong class="text-slate-800">3.3 Quarantine bin:</strong> clearly labeled “EXPIRED/DO NOT USE” until removed by supply chain/CSSD.</li>
- <li><strong class="text-slate-800">3.4</strong> Short-dated item alerts are communicated to OT leadership.</li>
- </ul>
- </div>
+  <!-- ========================================== -->
+  <!-- POLICY 12.5                                -->
+  <!-- ========================================== -->
 
- </div>
- </div>
+  <div class="text-center mb-8">
+    <div class="inline-flex items-center gap-4 bg-gradient-to-r from-indigo-800 to-indigo-600 text-white px-8 py-5 rounded-2xl shadow-lg max-w-4xl w-full">
+      <div class="flex-shrink-0 bg-white/20 rounded-full p-3">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+        </svg>
+      </div>
+      <div class="flex-1 text-left">
+        <p class="text-[11px] font-semibold text-indigo-200 tracking-[0.2em] uppercase">Operating Theatre Policy</p>
+        <h2 class="text-xl md:text-2xl font-bold text-white mt-1">POLICY 12.5 — Equipment Failure Response &amp; "Remove from Service" Tagging</h2>
+      </div>
+      <div class="hidden md:block flex-shrink-0 bg-white/10 border border-white/30 text-white text-xs font-semibold px-3 py-1 rounded-full">Policy Document</div>
+    </div>
+  </div>
 
- <!-- Divider -->
- <div class="policy-divider"></div>
+  <!-- Meta card -->
+  <div class="bg-white rounded-2xl shadow-md border border-indigo-100 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-indigo-50 to-indigo-100/50 px-8 py-4 border-b border-indigo-200">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Policy Code</span><span class="font-bold text-slate-800">OT-HCT-12.5</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Owner</span><span class="font-medium text-slate-700">OT Nurse Manager + Biomed/Engineering Lead + OT QPS Lead</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Version &amp; Dates</span><span class="font-medium text-slate-700">Version: 1.0 | Effective: //20__ | Review: //20__</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Related</span><span class="block text-sm font-medium text-slate-700">SEC 3 (incident reporting), SEC 12.6 (PM), FMS medical device policy</span></div>
+      </div>
+    </div>
+  </div>
 
- <!-- ========================================== -->
- <!-- POLICY 12.8 -->
+  <!-- 1.0 PURPOSE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-sky-600 to-blue-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
+    </div>
+    <div class="p-8 text-slate-700 space-y-3 leading-relaxed bg-sky-50/20">
+      <ul class="custom-list theme-sky space-y-2">
+        <li><strong class="text-slate-800">1.1</strong> To ensure any faulty, damaged, or suspect equipment is immediately removed from patient use, clearly tagged, sequestered, reported, and investigated to prevent repeat harm or near-miss.</li>
+        <li><strong class="text-slate-800">1.2</strong> To provide a standardised "Remove from Service" (RFS) protocol that all OT personnel can apply consistently, regardless of equipment type.</li>
+        <li><strong class="text-slate-800">1.3</strong> To comply with ECRI, AAMI, and facility FMS/CMS requirements for medical device event management.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 2.0 SCOPE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20">
+      <ul class="custom-list theme-orange space-y-2">
+        <li><strong class="text-slate-800">2.1</strong> Applies to ALL OT equipment: ESUs, warming devices, suction units, tourniquets, positioning aids, monitors, infusion pumps, imaging equipment, and any other device used during perioperative care.</li>
+        <li><strong class="text-slate-800">2.2</strong> Covers all OT clinical, technical, and support staff who identify or discover a device malfunction or concern.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 3.0 POLICY STATEMENT -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-indigo-700 to-indigo-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 POLICY STATEMENT</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20">
+      <ul class="custom-list theme-indigo space-y-2">
+        <li><strong class="text-slate-800">3.1</strong> Triggers for immediate RFS: malfunction, abnormal performance, alarm failure, visible physical damage, burning smell, overheating, electrical fault, fluid ingress, or any suspected contribution to patient harm.</li>
+        <li><strong class="text-slate-800">3.2</strong> Equipment involved in a patient adverse event or near-miss must be sequestered for investigation — it must NOT be cleaned, repaired, or disposed of until cleared by the incident investigation team.</li>
+        <li><strong class="text-slate-800">3.3</strong> No staff member may override an RFS tag or return equipment to service without written Biomed clearance.</li>
+        <li><strong class="text-slate-800">3.4</strong> CMS / ECRI guidance: equipment settings, alarms, and interfaces with clinical environment must all be considered when evaluating failure cause.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 4.0 PROCEDURE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 PROCEDURE</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20">
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.1 Immediate Action (at point of discovery)</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>STOP use immediately; switch off if safe to do so.</li>
+            <li>Ensure patient safety — transition to backup equipment or manual alternatives if required.</li>
+            <li>Do NOT attempt field repair.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.2 Tagging</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Attach a visible "REMOVE FROM SERVICE — DO NOT USE" tag to the device.</li>
+            <li>Tag must include: date, time, fault description, name/signature of reporting staff.</li>
+            <li>Move device to the designated quarantine area or secure it in place if it cannot be moved safely.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.3 Notification</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Notify charge nurse immediately; charge nurse notifies Biomed/Engineering.</li>
+            <li>If the failure is associated with patient harm or near-miss: notify OT Director and QPS Lead; complete an incident report (SEC 3) within the required timeframe.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.4 Investigation &amp; Return to Service</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Biomed inspects, diagnoses, and repairs device per PM programme (Policy 12.6).</li>
+            <li>Biomed issues written clearance before device is returned to OT stock.</li>
+            <li>OT charge nurse countersigns return-to-service log entry.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5.0 DOCUMENTATION & AUDIT -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 DOCUMENTATION | 6.0 AUDIT / KPIs</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50 space-y-6">
+      <div>
+        <h3 class="font-bold text-slate-900 mb-2">5.0 DOCUMENTATION</h3>
+        <ul class="custom-list theme-slate space-y-2">
+          <li><strong class="text-slate-800">5.1</strong> Equipment Fault &amp; RFS Log (device ID, fault, date/time, staff, biomed action, return-to-service date).</li>
+          <li><strong class="text-slate-800">5.2</strong> Incident report if patient harm or near-miss involved (SEC 3).</li>
+          <li><strong class="text-slate-800">5.3</strong> Biomed written clearance certificate retained in equipment file.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-slate-900 mb-2">6.0 AUDIT / KPIs</h3>
+        <ul class="custom-list theme-slate space-y-2">
+          <li><strong class="text-slate-800">6.1</strong> 100% of RFS events documented in log within 24 hours.</li>
+          <li><strong class="text-slate-800">6.2</strong> Zero RFS tags overridden without Biomed written clearance.</li>
+          <li><strong class="text-slate-800">6.3</strong> Mean Biomed response time to OT equipment fault ≤ 2 hours (critical) / ≤ 24 hours (non-critical).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- POLICY 12.6                                -->
+  <!-- ========================================== -->
+
+  <div class="text-center mb-8">
+    <div class="inline-flex items-center gap-4 bg-gradient-to-r from-indigo-800 to-indigo-600 text-white px-8 py-5 rounded-2xl shadow-lg max-w-4xl w-full">
+      <div class="flex-shrink-0 bg-white/20 rounded-full p-3">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+        </svg>
+      </div>
+      <div class="flex-1 text-left">
+        <p class="text-[11px] font-semibold text-indigo-200 tracking-[0.2em] uppercase">Operating Theatre Policy</p>
+        <h2 class="text-xl md:text-2xl font-bold text-white mt-1">POLICY 12.6 — Preventive Maintenance &amp; Calibration Interface (Biomed)</h2>
+      </div>
+      <div class="hidden md:block flex-shrink-0 bg-white/10 border border-white/30 text-white text-xs font-semibold px-3 py-1 rounded-full">Policy Document</div>
+    </div>
+  </div>
+
+  <!-- Meta card -->
+  <div class="bg-white rounded-2xl shadow-md border border-indigo-100 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-indigo-50 to-indigo-100/50 px-8 py-4 border-b border-indigo-200">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Policy Code</span><span class="font-bold text-slate-800">OT-HCT-12.6</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Owner</span><span class="font-medium text-slate-700">Biomedical/Engineering Lead + OT Nurse Manager</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Version &amp; Dates</span><span class="font-medium text-slate-700">Version: 1.0 | Effective: //20__ | Review: //20__</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Related</span><span class="block text-sm font-medium text-slate-700">Policy 12.5, FMS utilities policy, procurement policy, AAMI EQ56</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1.0 PURPOSE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-sky-600 to-blue-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
+    </div>
+    <div class="p-8 text-slate-700 space-y-3 leading-relaxed bg-sky-50/20">
+      <ul class="custom-list theme-sky space-y-2">
+        <li><strong class="text-slate-800">1.1</strong> To ensure all OT critical equipment is maintained, calibrated, and survey-ready through a structured Medical Equipment Management Programme (MEMP) aligned with AAMI EQ56 and applicable regional/accreditation standards.</li>
+        <li><strong class="text-slate-800">1.2</strong> To define the interface between OT nursing staff and the Biomedical Engineering (Biomed) department regarding PM scheduling, tag verification, and removal/return-to-service workflow.</li>
+        <li><strong class="text-slate-800">1.3</strong> To prevent equipment-related clinical events through systematic planned maintenance and timely calibration.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 2.0 SCOPE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20">
+      <ul class="custom-list theme-orange space-y-2">
+        <li><strong class="text-slate-800">2.1</strong> Applies to all OT critical and semi-critical equipment: ESU/diathermy units, defibrillators, warming devices, suction units, tourniquet machines, smoke evacuators, infusion pumps, patient monitors, anaesthesia interface equipment, and C-arm (in coordination with Radiology).</li>
+        <li><strong class="text-slate-800">2.2</strong> Covers Biomed Engineering, OT Nurse Manager, OT charge nurses, and ancillary technical staff.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 3.0 POLICY STATEMENT -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-indigo-700 to-indigo-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 POLICY STATEMENT</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20">
+      <ul class="custom-list theme-indigo space-y-2">
+        <li><strong class="text-slate-800">3.1</strong> All OT critical equipment is included in the Biomed inventory and PM schedule with defined frequencies (per IFU or risk-based assessment).</li>
+        <li><strong class="text-slate-800">3.2</strong> Calibration and PM records must be available on demand for accreditation survey; records are retained per facility retention policy (minimum 3 years or as per regulatory requirement).</li>
+        <li><strong class="text-slate-800">3.3</strong> Any equipment with an overdue PM sticker or expired calibration date is treated as "out of service" and handled per Policy 12.5.</li>
+        <li><strong class="text-slate-800">3.4</strong> OT nursing staff must NOT perform PM tasks; their role is to verify PM tags, report missing/overdue tags, and facilitate Biomed access.</li>
+        <li><strong class="text-slate-800">3.5</strong> New equipment introduced to OT must be commissioned by Biomed before first clinical use; no trial-based use without safety evaluation.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 4.0 PROCEDURE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 PROCEDURE</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20">
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.1 Biomed Responsibilities</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Maintain asset register for all OT equipment (device ID, model, location, PM frequency, next due date).</li>
+            <li>Perform PM and calibration per IFU and schedule; affix PM sticker (device ID, date performed, next due date, technician ID).</li>
+            <li>Provide OT with monthly PM status report (overdue, due within 30 days, completed).</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.2 OT Nursing Responsibilities</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Verify PM tag present on each device before use (daily pre-case check).</li>
+            <li>Report missing PM tag or overdue tag to charge nurse; tag device per Policy 12.5 if overdue.</li>
+            <li>Facilitate Biomed access to OT during scheduled maintenance windows (e.g., between lists).</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.3 Equipment Commissioning (New Devices)</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Biomed performs incoming inspection and safety evaluation before first OT use.</li>
+            <li>Staff training completed (if required) and documented before clinical use.</li>
+            <li>Device added to asset register on day of commissioning.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5.0 DOCUMENTATION & AUDIT -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 DOCUMENTATION | 6.0 AUDIT / KPIs</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50 space-y-6">
+      <div>
+        <h3 class="font-bold text-slate-900 mb-2">5.0 DOCUMENTATION</h3>
+        <ul class="custom-list theme-slate space-y-2">
+          <li><strong class="text-slate-800">5.1</strong> OT Equipment Asset Register (maintained by Biomed).</li>
+          <li><strong class="text-slate-800">5.2</strong> PM and calibration records per device (Biomed file).</li>
+          <li><strong class="text-slate-800">5.3</strong> Monthly PM status report to OT Nurse Manager.</li>
+          <li><strong class="text-slate-800">5.4</strong> Commissioning inspection report for each new device.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-slate-900 mb-2">6.0 AUDIT / KPIs</h3>
+        <ul class="custom-list theme-slate space-y-2">
+          <li><strong class="text-slate-800">6.1</strong> % OT equipment with valid PM sticker at monthly audit ≥ 98%.</li>
+          <li><strong class="text-slate-800">6.2</strong> Zero equipment used past PM due date without documented Biomed approval.</li>
+          <li><strong class="text-slate-800">6.3</strong> 100% new devices commissioned before first clinical use (zero exceptions).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- POLICY 12.7                                -->
+  <!-- ========================================== -->
+
+  <div class="text-center mb-8">
+    <div class="inline-flex items-center gap-4 bg-gradient-to-r from-indigo-800 to-indigo-600 text-white px-8 py-5 rounded-2xl shadow-lg max-w-4xl w-full">
+      <div class="flex-shrink-0 bg-white/20 rounded-full p-3">
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+        </svg>
+      </div>
+      <div class="flex-1 text-left">
+        <p class="text-[11px] font-semibold text-indigo-200 tracking-[0.2em] uppercase">Operating Theatre Policy</p>
+        <h2 class="text-xl md:text-2xl font-bold text-white mt-1">POLICY 12.7 — Consumables &amp; Expiry Management</h2>
+      </div>
+      <div class="hidden md:block flex-shrink-0 bg-white/10 border border-white/30 text-white text-xs font-semibold px-3 py-1 rounded-full">Policy Document</div>
+    </div>
+  </div>
+
+  <!-- Meta card -->
+  <div class="bg-white rounded-2xl shadow-md border border-indigo-100 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-indigo-50 to-indigo-100/50 px-8 py-4 border-b border-indigo-200">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Policy Code</span><span class="font-bold text-slate-800">OT-HCT-12.7</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Owner</span><span class="font-medium text-slate-700">OT Nurse Manager + Supply Chain + CSSD</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Version &amp; Dates</span><span class="font-medium text-slate-700">Version: 1.0 | Effective: //20__ | Review: //20__</span></div>
+        <div><span class="block text-indigo-400 uppercase text-xs font-semibold tracking-wider mb-1">Related</span><span class="block text-sm font-medium text-slate-700">SEC 10 (meds expiry), SEC 11.7 (implants traceability), SEC 9 (sterile supplies), CSSD policy</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1.0 PURPOSE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-sky-600 to-blue-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1.0 PURPOSE</h2>
+    </div>
+    <div class="p-8 text-slate-700 space-y-3 leading-relaxed bg-sky-50/20">
+      <ul class="custom-list theme-sky space-y-2">
+        <li><strong class="text-slate-800">1.1</strong> To prevent use of expired, compromised, or recalled consumables in the OT through reliable stock rotation, systematic expiry checks, and rapid quarantine of non-conforming items.</li>
+        <li><strong class="text-slate-800">1.2</strong> To maintain sterile pack integrity standards and ensure implant/consumable traceability from receipt to patient use.</li>
+        <li><strong class="text-slate-800">1.3</strong> To comply with AORN, CSSD, and facility supply chain standards for surgical consumable management.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 2.0 SCOPE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">2.0 SCOPE</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20">
+      <ul class="custom-list theme-orange space-y-2">
+        <li><strong class="text-slate-800">2.1</strong> Applies to ALL consumables stored or used in the OT: sutures, sterile drapes/gowns, sponges, staples, absorbable haemostats, gloves, syringes, implants, and other single-use items.</li>
+        <li><strong class="text-slate-800">2.2</strong> Covers OT nursing staff, scrub technicians, anaesthesia team (for their consumables), and supply chain/stores personnel.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 3.0 POLICY STATEMENT -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-indigo-700 to-indigo-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">3.0 POLICY STATEMENT</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20">
+      <ul class="custom-list theme-indigo space-y-2">
+        <li><strong class="text-slate-800">3.1</strong> OT shall implement FEFO/FIFO (first-expire-first-out / first-in-first-out) stock rotation for all consumables; this applies equally to ward stock, scrub trolley stock, and implant stores.</li>
+        <li><strong class="text-slate-800">3.2</strong> Sterile pack integrity is mandatory before use: torn seals, wet packs, unknown expiry, or visible contamination renders the item non-sterile — it is removed and not used, regardless of availability pressure.</li>
+        <li><strong class="text-slate-800">3.3</strong> Single-use items (marked SU or ♲ — no reuse symbol) must NEVER be resterilised or reused.</li>
+        <li><strong class="text-slate-800">3.4</strong> Implant expiry, lot number, and serial number traceability must be recorded in the patient file and implant register (Policy 11.7).</li>
+        <li><strong class="text-slate-800">3.5</strong> Recalled or field safety notice items must be quarantined immediately upon notification and removed from all OT storage locations within 2 hours.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 4.0 PROCEDURE -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-teal-600 to-emerald-500 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">4.0 PROCEDURE</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-teal-50/20">
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.1 Daily Checks (pre-list / per shift)</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Scrub nurse checks expiry of high-risk items on scrub trolley before opening (sutures, staples, haemostats, implants for the listed case).</li>
+            <li>Any item expiring within 30 days moved to "short-dated" area; notified to charge nurse for priority use or return to supply chain.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.2 Weekly Checks</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Charge nurse or designee performs structured check of all OT store cupboards and scrub trolley stock.</li>
+            <li>Expired items are removed, labelled "EXPIRED — DO NOT USE", placed in quarantine bin, and documented in the expiry log.</li>
+            <li>Supply chain notified for replacement; waste disposed per facility protocol.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.3 Monthly Implant Store Audit</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>OT Nurse Manager or delegate performs full physical implant inventory check.</li>
+            <li>Cross-check against supply chain system; document any discrepancies.</li>
+            <li>Items expiring within 90 days flagged for surgeon/supply chain action.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-2">4.4 Recall Management</h3>
+          <ul class="custom-list theme-teal space-y-1">
+            <li>Supply chain/pharmacy issues recall alert; OT charge nurse coordinates immediate stock check.</li>
+            <li>All recalled items quarantined within 2 hours; lot numbers cross-checked against patient implant register.</li>
+            <li>Affected patients notified as per facility recall response procedure.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5.0 DOCUMENTATION & AUDIT -->
+  <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
+    <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-5">
+      <h2 class="text-xl heading-serif font-bold text-white tracking-wide">5.0 DOCUMENTATION | 6.0 AUDIT / KPIs</h2>
+    </div>
+    <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50 space-y-6">
+      <div>
+        <h3 class="font-bold text-slate-900 mb-2">5.0 DOCUMENTATION</h3>
+        <ul class="custom-list theme-slate space-y-2">
+          <li><strong class="text-slate-800">5.1</strong> Consumable Expiry Log (weekly entries: item, lot number, expiry date, action taken, staff signature).</li>
+          <li><strong class="text-slate-800">5.2</strong> Implant Register (lot/serial/expiry per patient; cross-referenced with patient notes).</li>
+          <li><strong class="text-slate-800">5.3</strong> Recall Response Record (date of alert, items found, quarantine action, patient impact assessment).</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-slate-900 mb-2">6.0 AUDIT / KPIs</h3>
+        <ul class="custom-list theme-slate space-y-2">
+          <li><strong class="text-slate-800">6.1</strong> Zero expired consumables found in active OT stock at monthly audit.</li>
+          <li><strong class="text-slate-800">6.2</strong> 100% implant traceability (lot/serial documented per patient) at quarterly audit.</li>
+          <li><strong class="text-slate-800">6.3</strong> Recall quarantine completion within 2 hours of alert — zero exceptions.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- POLICY 12.8 -->
  <!-- ========================================== -->
 
  <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
