@@ -529,7 +529,38 @@ app.get('/portal', (c) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>منصة الدلائل الطبية — د. جميل السقيا</title>
+  <title>منصة السلامة في التخدير والعمليات — د. جميل السقيا</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+
+  <!-- SEO -->
+  <meta name="description" content="منصة السلامة في التخدير والعمليات — 4 كتب طبية، 32 فصلاً، 55 نموذجاً. تأليف د. جميل السقيا.">
+  <meta name="author" content="د. جميل السقيا — Dr. Jameel Al-Soqayya">
+  <meta name="keywords" content="تخدير, سلامة, غرفة عمليات, سياسات, نماذج طبية, anesthesia safety">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://anesthesiasafetyguideline.com/portal">
+  <meta property="og:title" content="منصة السلامة في التخدير والعمليات — د. جميل السقيا">
+  <meta property="og:description" content="4 كتب طبية متخصصة في السلامة والجودة في التخدير وغرفة العمليات — 32 فصلاً علمياً، 55 نموذجاً طبياً جاهزاً">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="منصة السلامة في التخدير والعمليات">
+  <meta property="og:locale" content="ar_SA">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://anesthesiasafetyguideline.com/portal">
+  <meta name="twitter:title" content="منصة السلامة في التخدير والعمليات — د. جميل السقيا">
+  <meta name="twitter:description" content="4 كتب طبية متخصصة في السلامة والجودة في التخدير وغرفة العمليات">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
@@ -689,7 +720,7 @@ app.get('/portal', (c) => {
   <div class="container">
 
     <div class="header">
-      <span class="header-label">DR. JAMEEL AL-SOQAYYA — MEDICAL GUIDELINES PLATFORM</span>
+      <span class="header-label">DR. JAMEEL AL-SOQAYYA — ANESTHESIA SAFETY PLATFORM</span>
       <h1>مبادئ السلامة والجودة<br>في التخدير وغرفة العمليات</h1>
       <div class="sub">Safety & Quality Principles in Anesthesia and Operating Room</div>
     </div>
@@ -776,19 +807,21 @@ app.get('/or-safety', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${bookTitle}</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="${bookTitle} — د. جميل السقيا">
+  <meta property="og:description" content="مبادئ السلامة والجودة في تخدير غرفة العمليات">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:url" content="https://anesthesiasafetyguideline.com/or-safety">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: 'Amiri', serif;
-      color: #1f2937; background: #fff;
-      direction: rtl; text-align: right;
-    }
-    a { text-decoration: none; color: inherit; }
-    ${navbarCSS}
-
-    /* COVER — image full visible, text below */
     .cover-page {
       background: #060e1f;
       display: flex;
@@ -1389,6 +1422,18 @@ app.get('/chapters', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الفصول — ${bookTitle}</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="الفصول — ${bookTitle}">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1621,6 +1666,21 @@ app.get('/chapter/:id', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الفصل ${chNum} — ${chapter.ar}</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="الفصل ${chNum}: ${chapter.ar}">
+  <meta property="og:description" content="${chapter.ar} — ${bookTitle}">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:url" content="https://anesthesiasafetyguideline.com/chapter/${chNum}">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="الفصل ${chNum}: ${chapter.ar}">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
   <style>
     ${chapterPageCSS}
@@ -1679,8 +1739,19 @@ function renderSpecialPage(type: string): string {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${t.ar} — ${bookTitle}</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="${t.ar} — ${bookTitle}">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
-  <style>${chapterPageCSS}</style>
 </head>
 <body>
   ${navbar('chapters')}

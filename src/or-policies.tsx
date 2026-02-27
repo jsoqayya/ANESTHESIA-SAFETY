@@ -230,6 +230,19 @@ function buildFormPage(title: string, css: string, body: string, navHtml: string
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${title} | ${bookTitle}</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="${title} | ${bookTitle}">
+  <meta property="og:description" content="دليل السياسات والإجراءات في غرفة العمليات — د. جميل السقيا">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <style>
@@ -270,6 +283,19 @@ function buildPage(title: string, css: string, body: string, navHtml: string, ex
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${title} | ${bookTitle}</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="${title} | ${bookTitle}">
+  <meta property="og:description" content="دليل السياسات والإجراءات في غرفة العمليات — د. جميل السقيا">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <style>
@@ -298,6 +324,20 @@ or.get('/', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${bookTitle}</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="${bookTitle} — د. جميل السقيا">
+  <meta property="og:description" content="دليل السياسات والإجراءات في غرفة العمليات — 17 قسماً و25 نموذجاً">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:url" content="https://anesthesiasafetyguideline.com/or-policies">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Kufi+Arabic:wght@300;400;600;800&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
@@ -682,6 +722,18 @@ or.get('/sections', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الأقسام | ${bookTitle}</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="الأقسام | ${bookTitle}">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Noto+Kufi+Arabic:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
