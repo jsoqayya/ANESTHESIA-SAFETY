@@ -2531,7 +2531,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>تم توثيق الوقاية بالمضادات الحيوية، لكنها أُعطيت <strong>بعد</strong> الشق الجراحي لأن الوصول الوريدي (IV) تأخر ولم يُرد الفريق التوقف. (WHO SSI; CDC SSI)</li>
             <li>كانت الغرفة متأخرة عن الجدول، لذلك تم التعجيل في تنظيف التبديل (Turnover cleaning)؛ وتم مسح المناطق عالية اللمس بشكل غير متسق. (AORN)</li>
             <li>فُتحت الأبواب بشكل متكرر لأن الإمدادات كانت مفقودة—شعروا أن كل فتحة باب كانت غير ضارة. (AORN)</li>
-            <li>حدث اختراق للعقامة (Sterility break) (تلوث القفاز)، صُحح بشكل غير رسمي، ولكن لم يتم توثيقه أو يتبعه استجابة منظمة. (AORN; WHO SSI)</li>
+            <li>حدث اختراق لحالة التعقيم (Sterility break) (تلوث القفاز)، صُحح بشكل غير رسمي، ولكن لم يتم توثيقه أو يتبعه استجابة منظمة. (AORN; WHO SSI)</li>
         </ul>
     </div>
 
@@ -2773,7 +2773,7 @@ export const chaptersContent: Record<string | number, string> = {
                     <li>خطة إعادة الجرعة: مُعلنة إذا كانت الحالة قد تتجاوز الحد. (CDC SSI)</li>
                     <li>تحضير الجلد: مكتمل وتم احترام وقت التجفيف. (WHO SSI)</li>
                     <li>التحكم في حركة المرور: الأبواب مغلقة؛ الإمدادات موجودة. (AORN)</li>
-                    <li>أي اختراق للعقامة تمت معالجته وتوثيقه. (AORN)</li>
+                    <li>أي اختراق لحالة التعقيم تمت معالجته وتوثيقه. (AORN)</li>
                 </ul>
             </li>
             <br>
@@ -9812,7 +9812,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>10.4.2 الخوارزمية الخماسية: (توقف، صرّح، أصلح، تحقق، وثّق)</h3>
     <div class="success-box">
         <ol>
-            <li><strong>توقف (STOP):</strong> الشخص الذي يلاحظ الاختراق يعلن ذلك بوضوح: <em>"توقف من فضلك—أعتقد أن لدينا اختراقاً للعقامة."</em> (AHRQ; WHO SSC)<br>
+            <li><strong>توقف (STOP):</strong> الشخص الذي يلاحظ الاختراق يعلن ذلك بوضوح: <em>"توقف من فضلك—أعتقد أن لدينا اختراقاً لحالة التعقيم."</em> (AHRQ; WHO SSC)<br>
             <span class="english-term"><strong>STOP:</strong> The person who notices the break states it clearly: <em>"Pause please—I believe we have a sterility break."</em></span></li>
             
             <li><strong>صرّح (STATE):</strong> حدد ما حدث <em>(مثال: "لقد لامست أداة X الكابل غير المعقم.")</em><br>
@@ -9829,7 +9829,7 @@ export const chaptersContent: Record<string | number, string> = {
         </ol>
     </div>
 
-    <h2>10.5 السلامة النفسية: الضابط الخفي للعقامة</h2>
+    <h2>10.5 السلامة النفسية: الضابط الخفي لحالة التعقيم</h2>
     <h3>10.5 Psychological Safety: The Hidden Control of Asepsis</h3>
 
     <h3>10.5.1 الخوف من الجراح يقتل حالة التعقيم / Fear of the surgeon kills asepsis</h3>
