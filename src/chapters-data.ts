@@ -9799,7 +9799,7 @@ export const chaptersContent: Record<string | number, string> = {
         <h3>10.3.3 2: "الغرفة التي قللت فتح الأبواب بنسبة 70%"</h3>
         <p>قاموا بدراسة لقياس فتحات الأبواب أثناء عمليات استبدال المفاصل (Joint replacements). كان المتوسط 45 فتحة لكل حالة. كان الجراح غاضباً، ولكن بدلاً من إلقاء اللوم، تتبع الفريق <strong>السبب</strong>. تبيّن أن 80% من الفتحات كانت بسبب "رحلات البحث عن إمدادات مفقودة".</p>
         <p>الحل: أنشأ الفريق قائمة تحقق للمعدات بنسبة 100% <strong>يتم إكمالها قبل الشق الجراحي</strong>، وتم تركيب نظام اتصال داخلي (Intercom). انخفضت فتحات الأبواب إلى 12 لكل حالة. تم حل المشكلة من خلال الحوكمة، وليس الصراخ. (IHI; AORN)</p>
-        <p><span class="english-term">The fix: We created a 100% equipment checklist <strong>completed prior to incision</strong>, and installed an intercom. Door openings dropped to 12 per case. The problem was solved by governance, not shouting. (IHI; AORN)</span></p>
+        <p><span class="english-term">The fix: They created a 100% equipment checklist <strong>completed prior to incision</strong>, and installed an intercom. Door openings dropped to 12 per case. The problem was solved by governance, not shouting. (IHI; AORN)</span></p>
     </div>
 
     <h2>10.4 الاستجابة لاختراقات الحقل المعقم (خوارزمية الإجراء الفوري)</h2>
