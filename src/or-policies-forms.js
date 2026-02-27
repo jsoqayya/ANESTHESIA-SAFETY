@@ -110,7 +110,7 @@ export const orFormsHtml = {
  <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center gap-4">
  <div class="w-full">
  <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Date</label>
- <input type="date" class="text-slate-900 font-semibold text-lg">
+ <input type="date" class="text-slate-900 font-semibold text-lg" lang="en">
  </div>
  <div class="w-full border-l border-slate-200 pl-4">
  <label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Day</label>
@@ -449,6 +449,16 @@ export const orFormsHtml = {
  <!-- Premium Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f02: { css: `body {
@@ -597,7 +607,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Date</label>
- <input type="date" class="text-slate-900 font-bold">
+ <input type="date" class="text-slate-900 font-bold" lang="en">
  </div>
  
  <div>
@@ -673,11 +683,11 @@ export const orFormsHtml = {
  <div class="flex gap-4 mt-2">
  <div class="w-full bg-slate-50 p-2 rounded border border-slate-200">
  <label class="block text-[10px] font-bold text-slate-600 uppercase tracking-wider mb-1">Fasting: Solids (Time)</label>
- <input type="time" class="text-slate-900 font-semibold text-sm">
+ <input type="time" class="text-slate-900 font-semibold text-sm" lang="en">
  </div>
  <div class="w-full bg-slate-50 p-2 rounded border border-slate-200">
  <label class="block text-[10px] font-bold text-slate-600 uppercase tracking-wider mb-1">Fasting: Clear Liq (Time)</label>
- <input type="time" class="text-slate-900 font-semibold text-sm">
+ <input type="time" class="text-slate-900 font-semibold text-sm" lang="en">
  </div>
  </div>
  </div>
@@ -992,11 +1002,11 @@ export const orFormsHtml = {
  <div class="flex gap-4">
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider">Date</label>
- <input type="date" class="font-semibold text-sm">
+ <input type="date" class="font-semibold text-sm" lang="en">
  </div>
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider">Time</label>
- <input type="time" class="font-semibold text-sm">
+ <input type="time" class="font-semibold text-sm" lang="en">
  </div>
  </div>
  </div>
@@ -1017,11 +1027,11 @@ export const orFormsHtml = {
  <div class="flex gap-4">
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider">Date</label>
- <input type="date" class="font-semibold text-sm">
+ <input type="date" class="font-semibold text-sm" lang="en">
  </div>
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider">Time</label>
- <input type="time" class="font-semibold text-sm">
+ <input type="time" class="font-semibold text-sm" lang="en">
  </div>
  </div>
  </div>
@@ -1035,6 +1045,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f03: { css: `body {
@@ -1169,7 +1189,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Date</label>
- <input type="date" class="text-slate-900 font-bold">
+ <input type="date" class="text-slate-900 font-bold" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Proposed Procedure</label>
@@ -1371,7 +1391,7 @@ export const orFormsHtml = {
  <h4 class="font-bold text-sky-800 uppercase tracking-wider text-xs text-center">Sign In Verification (Nurse / Anesthetist)</h4>
  <div class="flex gap-2 mt-2">
  <input type="text" placeholder="Name/ID" class="text-xs bg-transparent">
- <input type="time" class="text-xs bg-transparent w-24">
+ <input type="time" class="text-xs bg-transparent w-24" lang="en">
  </div>
  </div>
  <!-- Time Out Signature -->
@@ -1380,7 +1400,7 @@ export const orFormsHtml = {
  <h4 class="font-bold text-indigo-800 uppercase tracking-wider text-xs text-center">Time Out Verification (Surgeon / Nurse)</h4>
  <div class="flex gap-2 mt-2">
  <input type="text" placeholder="Name/ID" class="text-xs bg-transparent">
- <input type="time" class="text-xs bg-transparent w-24">
+ <input type="time" class="text-xs bg-transparent w-24" lang="en">
  </div>
  </div>
  <!-- Sign Out Signature -->
@@ -1389,7 +1409,7 @@ export const orFormsHtml = {
  <h4 class="font-bold text-emerald-800 uppercase tracking-wider text-xs text-center">Sign Out Verification (Nurse / Surgeon)</h4>
  <div class="flex gap-2 mt-2">
  <input type="text" placeholder="Name/ID" class="text-xs bg-transparent">
- <input type="time" class="text-xs bg-transparent w-24">
+ <input type="time" class="text-xs bg-transparent w-24" lang="en">
  </div>
  </div>
  </div>
@@ -1401,6 +1421,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f04: { css: `body {
@@ -1562,7 +1592,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Surgery Date</label>
- <input type="date" class="text-slate-900 font-bold">
+ <input type="date" class="text-slate-900 font-bold" lang="en">
  </div>
  <div class="md:col-span-4">
  <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Procedure</label>
@@ -1856,8 +1886,8 @@ export const orFormsHtml = {
  <input type="text" placeholder="Signature" class="text-xs italic">
  </div>
  <div class="flex gap-2">
- <input type="date" class="text-xs w-full">
- <input type="time" class="text-xs w-full">
+ <input type="date" class="text-xs w-full" lang="en">
+ <input type="time" class="text-xs w-full" lang="en">
  </div>
  </div>
  </div>
@@ -1873,8 +1903,8 @@ export const orFormsHtml = {
  <input type="text" placeholder="Signature" class="text-xs italic">
  </div>
  <div class="flex gap-2">
- <input type="date" class="text-xs w-full">
- <input type="time" class="text-xs w-full">
+ <input type="date" class="text-xs w-full" lang="en">
+ <input type="time" class="text-xs w-full" lang="en">
  </div>
  </div>
  </div>
@@ -1890,8 +1920,8 @@ export const orFormsHtml = {
  <input type="text" placeholder="Signature" class="text-xs italic">
  </div>
  <div class="flex gap-2">
- <input type="date" class="text-xs w-full">
- <input type="time" class="text-xs w-full">
+ <input type="date" class="text-xs w-full" lang="en">
+ <input type="time" class="text-xs w-full" lang="en">
  </div>
  </div>
  </div>
@@ -1904,6 +1934,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f05: { css: `body {
@@ -2075,7 +2115,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider">Date</label>
- <input type="date">
+ <input type="date" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider">Procedure / Site</label>
@@ -2329,6 +2369,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f06: { css: `body {
@@ -2460,7 +2510,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Date</label>
- <input type="date" class="text-slate-900 font-bold">
+ <input type="date" class="text-slate-900 font-bold" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Operation / Procedure</label>
@@ -2710,6 +2760,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f07: { css: `body {
@@ -2857,11 +2917,11 @@ export const orFormsHtml = {
  <div class="flex gap-4">
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date of Operation</label>
- <input type="date">
+ <input type="date" lang="en">
  </div>
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Time</label>
- <input type="time">
+ <input type="time" lang="en">
  </div>
  </div>
  </div>
@@ -2878,11 +2938,11 @@ export const orFormsHtml = {
  <div class="flex gap-4">
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date Sent</label>
- <input type="date">
+ <input type="date" lang="en">
  </div>
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Time Sent</label>
- <input type="time">
+ <input type="time" lang="en">
  </div>
  </div>
  </div>
@@ -2954,11 +3014,11 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date Received</label>
- <input type="date">
+ <input type="date" lang="en">
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Time Received</label>
- <input type="time">
+ <input type="time" lang="en">
  </div>
  </div>
  </div>
@@ -2975,11 +3035,11 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-cyan-800 uppercase tracking-wider mb-1">Date Logged</label>
- <input type="date" class="border-cyan-300">
+ <input type="date" class="border-cyan-300" lang="en">
  </div>
  <div>
  <label class="block text-[10px] font-bold text-cyan-800 uppercase tracking-wider mb-1">Alternative Date (Optional)</label>
- <input type="date" class="border-cyan-300">
+ <input type="date" class="border-cyan-300" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-[10px] font-bold text-cyan-800 uppercase tracking-wider mb-1">Performed By (Pathologist)</label>
@@ -3017,7 +3077,7 @@ export const orFormsHtml = {
  <h4 class="font-bold text-cyan-900 text-sm uppercase tracking-wider">Microscopic Findings</h4>
  <div class="w-48">
  <label class="block text-[10px] font-bold text-cyan-800 uppercase tracking-wider mb-1">Date of Findings</label>
- <input type="date" class="border-cyan-300">
+ <input type="date" class="border-cyan-300" lang="en">
  </div>
  </div>
  <textarea rows="4" class="border-cyan-300 focus:border-cyan-600 bg-white"></textarea>
@@ -3036,7 +3096,7 @@ export const orFormsHtml = {
  <div class="mt-6 pt-5 border-t border-cyan-200 grid grid-cols-1 md:grid-cols-3 gap-6">
  <div>
  <label class="block text-[10px] font-bold text-cyan-800 uppercase tracking-wider mb-1">Date of Release</label>
- <input type="date" class="border-cyan-300">
+ <input type="date" class="border-cyan-300" lang="en">
  </div>
  <div>
  <label class="block text-[10px] font-bold text-cyan-800 uppercase tracking-wider mb-1">Sign / Stamp (Histo-pathologist)</label>
@@ -3044,7 +3104,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-cyan-800 uppercase tracking-wider mb-1">Time</label>
- <input type="time" class="border-cyan-300">
+ <input type="time" class="border-cyan-300" lang="en">
  </div>
  </div>
  </div>
@@ -3056,6 +3116,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f08: { css: `body {
@@ -3198,7 +3268,7 @@ export const orFormsHtml = {
  
  <div class="md:col-span-3">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date of Birth</label>
- <input type="date">
+ <input type="date" lang="en">
  </div>
  <div class="md:col-span-6 flex gap-3">
  <div class="w-full">
@@ -3231,15 +3301,15 @@ export const orFormsHtml = {
  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-5">
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date of Surgery</label>
- <input type="date">
+ <input type="date" lang="en">
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Time Commenced</label>
- <input type="time">
+ <input type="time" lang="en">
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Time Completed</label>
- <input type="time">
+ <input type="time" lang="en">
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">O.R. No.</label>
@@ -3416,7 +3486,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider">Date</label>
- <input type="date" class="text-sm">
+ <input type="date" class="text-sm" lang="en">
  </div>
  </div>
  </div>
@@ -3429,6 +3499,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f09: { css: `body {
@@ -3586,8 +3666,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3608,8 +3688,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3630,8 +3710,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3652,8 +3732,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3674,8 +3754,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3696,8 +3776,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3718,8 +3798,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3740,8 +3820,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3762,8 +3842,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3784,8 +3864,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3806,8 +3886,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3828,8 +3908,8 @@ export const orFormsHtml = {
  <td><input type="text" placeholder=""></td>
  <td>
  <div class="flex flex-col">
- <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto">
- <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500">
+ <input type="date" class="text-[10px] p-0 border-none bg-transparent h-auto" lang="en">
+ <input type="time" class="text-[10px] p-0 border-none bg-transparent h-auto text-slate-500" lang="en">
  </div>
  </td>
  <td>
@@ -3870,6 +3950,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f10: { css: `body {
@@ -4004,7 +4094,7 @@ export const orFormsHtml = {
  <div class="grid grid-cols-1 md:grid-cols-4 gap-x-8 gap-y-4">
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date</label>
- <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Location / Unit</label>
@@ -4275,11 +4365,11 @@ export const orFormsHtml = {
  <div class="flex gap-3">
  <div class="w-full">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Date</label>
- <input type="date" class="text-xs">
+ <input type="date" class="text-xs" lang="en">
  </div>
  <div class="w-full">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Time</label>
- <input type="time" class="text-xs">
+ <input type="time" class="text-xs" lang="en">
  </div>
  </div>
  </div>
@@ -4300,11 +4390,11 @@ export const orFormsHtml = {
  <div class="flex gap-3">
  <div class="w-full">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Date</label>
- <input type="date" class="text-xs">
+ <input type="date" class="text-xs" lang="en">
  </div>
  <div class="w-full">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Time</label>
- <input type="time" class="text-xs">
+ <input type="time" class="text-xs" lang="en">
  </div>
  </div>
  </div>
@@ -4325,11 +4415,11 @@ export const orFormsHtml = {
  <div class="flex gap-3">
  <div class="w-full">
  <label class="block text-[9px] font-bold text-rose-600 uppercase tracking-wider">Date</label>
- <input type="date" class="text-xs border-rose-200 focus:border-rose-400">
+ <input type="date" class="text-xs border-rose-200 focus:border-rose-400" lang="en">
  </div>
  <div class="w-full">
  <label class="block text-[9px] font-bold text-rose-600 uppercase tracking-wider">Time</label>
- <input type="time" class="text-xs border-rose-200 focus:border-rose-400">
+ <input type="time" class="text-xs border-rose-200 focus:border-rose-400" lang="en">
  </div>
  </div>
  </div>
@@ -4344,6 +4434,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f11: { css: `body {
@@ -4524,8 +4624,8 @@ export const orFormsHtml = {
  <!-- Opening Balance Row -->
  <tr class="bg-indigo-50/50">
  <td class="text-center font-bold text-slate-400 text-xs">-</td>
- <td><input type="date" class="text-[10px] text-slate-500 bg-transparent"></td>
- <td><input type="time" class="text-[10px] text-slate-500 bg-transparent"></td>
+ <td><input type="date" class="text-[10px] text-slate-500 bg-transparent" lang="en"></td>
+ <td><input type="time" class="text-[10px] text-slate-500 bg-transparent" lang="en"></td>
  <td colspan="5" class="text-left pl-2 font-bold text-indigo-800 text-xs uppercase tracking-wider">Balance Brought Forward / Received</td>
  <td class="bg-rose-100"><input type="number" class="text-rose-900 bg-transparent font-black text-sm" placeholder="Start Bal"></td>
  <td><input type="text" class="text-[10px] italic bg-transparent" placeholder="Sign"></td>
@@ -4536,8 +4636,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">1</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4550,8 +4650,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">2</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4564,8 +4664,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">3</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4578,8 +4678,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">4</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4592,8 +4692,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">5</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4606,8 +4706,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">6</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4620,8 +4720,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">7</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4634,8 +4734,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">8</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4648,8 +4748,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">9</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4662,8 +4762,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">10</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4676,8 +4776,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">11</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4690,8 +4790,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">12</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4704,8 +4804,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">13</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4718,8 +4818,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">14</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4732,8 +4832,8 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-400 text-[10px]">15</td>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td><input type="text" class="left-align text-xs" placeholder="..."></td>
  <td><input type="text" class="text-xs"></td>
  <td><input type="text" class="text-xs"></td>
@@ -4772,7 +4872,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Date</label>
- <input type="date" class="text-xs">
+ <input type="date" class="text-xs" lang="en">
  </div>
  <div>
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Total Balance Carried Forward</label>
@@ -4791,7 +4891,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[9px] font-bold text-indigo-400 uppercase tracking-wider">Date Inspected</label>
- <input type="date" class="text-xs border-indigo-300 focus:border-indigo-500">
+ <input type="date" class="text-xs border-indigo-300 focus:border-indigo-500" lang="en">
  </div>
  <div>
  <label class="block text-[9px] font-bold text-indigo-400 uppercase tracking-wider">Signature</label>
@@ -4808,6 +4908,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f12: { css: `body {
@@ -4991,11 +5101,11 @@ export const orFormsHtml = {
  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-5">
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date of Cancellation</label>
- <input type="date" class="font-bold text-slate-900">
+ <input type="date" class="font-bold text-slate-900" lang="en">
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Time</label>
- <input type="time" class="font-bold text-slate-900">
+ <input type="time" class="font-bold text-slate-900" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Cancelled By (Name / Role)</label>
@@ -5192,7 +5302,7 @@ export const orFormsHtml = {
  <div class="flex gap-4">
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">New Date (if known)</label>
- <input type="date" class="text-sm">
+ <input type="date" class="text-sm" lang="en">
  </div>
  </div>
  </div>
@@ -5249,6 +5359,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f13: { css: `body {
@@ -5423,11 +5543,11 @@ export const orFormsHtml = {
  
  <div class="md:col-span-3">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date of Activation</label>
- <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  <div class="md:col-span-3">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Time Request Received</label>
- <input type="time" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="time" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  <div class="md:col-span-6">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Requesting Surgeon / Specialty</label>
@@ -5476,10 +5596,10 @@ export const orFormsHtml = {
  <tr>
  <td class="font-bold text-slate-600 text-[10px] pl-2 bg-slate-50">Circulating Nurse (1st Call)</td>
  <td><input type="text" class="left-align" placeholder="Name..."></td>
- <td><input type="time"></td>
- <td><input type="time"></td>
- <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent"></td>
- <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent"></td>
+ <td><input type="time" lang="en"></td>
+ <td><input type="time" lang="en"></td>
+ <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent" lang="en"></td>
+ <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent" lang="en"></td>
  <td>
  <select class="text-center font-bold text-slate-600 bg-transparent cursor-pointer">
  <option value=""></option>
@@ -5493,10 +5613,10 @@ export const orFormsHtml = {
  <tr>
  <td class="font-bold text-slate-600 text-[10px] pl-2 bg-slate-50">Scrub Nurse/Tech (1st Call)</td>
  <td><input type="text" class="left-align" placeholder="Name..."></td>
- <td><input type="time"></td>
- <td><input type="time"></td>
- <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent"></td>
- <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent"></td>
+ <td><input type="time" lang="en"></td>
+ <td><input type="time" lang="en"></td>
+ <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent" lang="en"></td>
+ <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent" lang="en"></td>
  <td>
  <select class="text-center font-bold text-slate-600 bg-transparent cursor-pointer">
  <option value=""></option>
@@ -5510,10 +5630,10 @@ export const orFormsHtml = {
  <tr>
  <td class="font-bold text-slate-600 text-[10px] pl-2 bg-slate-50">Anesthesia Tech/Support</td>
  <td><input type="text" class="left-align" placeholder="Name..."></td>
- <td><input type="time"></td>
- <td><input type="time"></td>
- <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent"></td>
- <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent"></td>
+ <td><input type="time" lang="en"></td>
+ <td><input type="time" lang="en"></td>
+ <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent" lang="en"></td>
+ <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent" lang="en"></td>
  <td>
  <select class="text-center font-bold text-slate-600 bg-transparent cursor-pointer">
  <option value=""></option>
@@ -5527,10 +5647,10 @@ export const orFormsHtml = {
  <tr>
  <td class="font-bold text-slate-600 text-[10px] pl-2 bg-slate-50">OT Coordinator / Runner</td>
  <td><input type="text" class="left-align" placeholder="Name..."></td>
- <td><input type="time"></td>
- <td><input type="time"></td>
- <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent"></td>
- <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent"></td>
+ <td><input type="time" lang="en"></td>
+ <td><input type="time" lang="en"></td>
+ <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent" lang="en"></td>
+ <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent" lang="en"></td>
  <td>
  <select class="text-center font-bold text-slate-600 bg-transparent cursor-pointer">
  <option value=""></option>
@@ -5544,10 +5664,10 @@ export const orFormsHtml = {
  <tr>
  <td class="font-bold text-slate-600 text-[10px] pl-2 bg-slate-50">Secondary Scrub (if needed)</td>
  <td><input type="text" class="left-align" placeholder="Name..."></td>
- <td><input type="time"></td>
- <td><input type="time"></td>
- <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent"></td>
- <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent"></td>
+ <td><input type="time" lang="en"></td>
+ <td><input type="time" lang="en"></td>
+ <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent" lang="en"></td>
+ <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent" lang="en"></td>
  <td>
  <select class="text-center font-bold text-slate-600 bg-transparent cursor-pointer">
  <option value=""></option>
@@ -5561,10 +5681,10 @@ export const orFormsHtml = {
  <tr>
  <td class="font-bold text-slate-600 text-[10px] pl-2 bg-slate-50">CSSD On-Call (if needed)</td>
  <td><input type="text" class="left-align" placeholder="Name..."></td>
- <td><input type="time"></td>
- <td><input type="time"></td>
- <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent"></td>
- <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent"></td>
+ <td><input type="time" lang="en"></td>
+ <td><input type="time" lang="en"></td>
+ <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent" lang="en"></td>
+ <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent" lang="en"></td>
  <td>
  <select class="text-center font-bold text-slate-600 bg-transparent cursor-pointer">
  <option value=""></option>
@@ -5578,10 +5698,10 @@ export const orFormsHtml = {
  <tr>
  <td class="font-bold text-slate-600 text-[10px] pl-2 bg-slate-50">Radiographer (C-Arm/Xray)</td>
  <td><input type="text" class="left-align" placeholder="Name..."></td>
- <td><input type="time"></td>
- <td><input type="time"></td>
- <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent"></td>
- <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent"></td>
+ <td><input type="time" lang="en"></td>
+ <td><input type="time" lang="en"></td>
+ <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent" lang="en"></td>
+ <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent" lang="en"></td>
  <td>
  <select class="text-center font-bold text-slate-600 bg-transparent cursor-pointer">
  <option value=""></option>
@@ -5595,10 +5715,10 @@ export const orFormsHtml = {
  <tr>
  <td><input type="text" class="left-align font-bold text-[10px] text-slate-500 bg-transparent" placeholder="Other Role..."></td>
  <td><input type="text" class="left-align" placeholder="Name..."></td>
- <td><input type="time"></td>
- <td><input type="time"></td>
- <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent"></td>
- <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent"></td>
+ <td><input type="time" lang="en"></td>
+ <td><input type="time" lang="en"></td>
+ <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent" lang="en"></td>
+ <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent" lang="en"></td>
  <td>
  <select class="text-center font-bold text-slate-600 bg-transparent cursor-pointer">
  <option value=""></option>
@@ -5612,10 +5732,10 @@ export const orFormsHtml = {
  <tr>
  <td><input type="text" class="left-align font-bold text-[10px] text-slate-500 bg-transparent" placeholder="Other Role..."></td>
  <td><input type="text" class="left-align" placeholder="Name..."></td>
- <td><input type="time"></td>
- <td><input type="time"></td>
- <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent"></td>
- <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent"></td>
+ <td><input type="time" lang="en"></td>
+ <td><input type="time" lang="en"></td>
+ <td class="bg-teal-50/30"><input type="time" class="text-teal-900 bg-transparent" lang="en"></td>
+ <td class="bg-teal-50"><input type="time" class="text-teal-900 font-black bg-transparent" lang="en"></td>
  <td>
  <select class="text-center font-bold text-slate-600 bg-transparent cursor-pointer">
  <option value=""></option>
@@ -5672,11 +5792,11 @@ export const orFormsHtml = {
  <div class="flex gap-3">
  <div class="w-full">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Date</label>
- <input type="date" class="text-xs">
+ <input type="date" class="text-xs" lang="en">
  </div>
  <div class="w-full">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Time Signed</label>
- <input type="time" class="text-xs">
+ <input type="time" class="text-xs" lang="en">
  </div>
  </div>
  </div>
@@ -5697,7 +5817,7 @@ export const orFormsHtml = {
  <div class="flex gap-3">
  <div class="w-full">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Date Reviewed</label>
- <input type="date" class="text-xs">
+ <input type="date" class="text-xs" lang="en">
  </div>
  </div>
  </div>
@@ -5712,6 +5832,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f14: { css: `body {
@@ -5927,7 +6057,7 @@ export const orFormsHtml = {
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Pain / PONV</label>
  <div class="space-y-1">
- <div class="flex justify-between items-center text-xs"><span class="text-slate-500">Last Analgesia:</span> <input type="time" class="w-16 text-right p-0"></div>
+ <div class="flex justify-between items-center text-xs"><span class="text-slate-500">Last Analgesia:</span> <input type="time" class="w-16 text-right p-0" lang="en"></div>
  <div class="flex justify-between items-center text-xs"><span class="text-slate-500">Antiemetic given:</span> 
  <label class="check-item"><input type="checkbox" class="!w-3 !h-3"></label>
  </div>
@@ -6070,11 +6200,11 @@ export const orFormsHtml = {
  <div class="flex gap-3 pt-1">
  <div class="w-full">
  <label class="block text-[9px] font-bold text-cyan-700 uppercase tracking-wider">Date</label>
- <input type="date" class="text-xs border-cyan-300">
+ <input type="date" class="text-xs border-cyan-300" lang="en">
  </div>
  <div class="w-full">
  <label class="block text-[9px] font-bold text-cyan-700 uppercase tracking-wider">Handover Time</label>
- <input type="time" class="text-xs border-cyan-300 font-black text-cyan-900">
+ <input type="time" class="text-xs border-cyan-300 font-black text-cyan-900" lang="en">
  </div>
  </div>
  </div>
@@ -6089,6 +6219,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f15: { css: `body {
@@ -6271,7 +6411,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date of Surgery</label>
- <input type="date" class="font-bold text-slate-900">
+ <input type="date" class="font-bold text-slate-900" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Procedure Performed</label>
@@ -6384,8 +6524,8 @@ export const orFormsHtml = {
  <tbody>
  <!-- Step 1: OR to Dispatch/Porter -->
  <tr>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td>
  <div class="flex flex-col h-full">
  <input type="text" placeholder="Print Name (OR Nurse)" class="h-1/2 border-b border-slate-200 text-[10px]">
@@ -6410,8 +6550,8 @@ export const orFormsHtml = {
  
  <!-- Step 2: Dispatch to Lab Reception -->
  <tr>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td>
  <div class="flex flex-col h-full">
  <input type="text" placeholder="Print Name (Porter/Courier)" class="h-1/2 border-b border-slate-200 text-[10px]">
@@ -6436,8 +6576,8 @@ export const orFormsHtml = {
 
  <!-- Step 3: Extra Transfer (if needed) -->
  <tr>
- <td><input type="date" class="text-[9px]"></td>
- <td><input type="time" class="text-[10px]"></td>
+ <td><input type="date" class="text-[9px]" lang="en"></td>
+ <td><input type="time" class="text-[10px]" lang="en"></td>
  <td>
  <div class="flex flex-col h-full">
  <input type="text" placeholder="Print Name" class="h-1/2 border-b border-slate-200 text-[10px]">
@@ -6476,6 +6616,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f16: { css: `body {
@@ -6621,7 +6771,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date of Surgery</label>
- <input type="date" class="font-bold text-slate-900">
+ <input type="date" class="font-bold text-slate-900" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Primary Surgeon</label>
@@ -6691,7 +6841,7 @@ export const orFormsHtml = {
  </div>
  <div class="w-1/2">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Expiry Date</label>
- <input type="date" class="text-xs text-slate-500">
+ <input type="date" class="text-xs text-slate-500" lang="en">
  </div>
  </div>
  </div>
@@ -6729,7 +6879,7 @@ export const orFormsHtml = {
  </div>
  <div class="w-1/2">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Expiry Date</label>
- <input type="date" class="text-xs text-slate-500">
+ <input type="date" class="text-xs text-slate-500" lang="en">
  </div>
  </div>
  </div>
@@ -6767,7 +6917,7 @@ export const orFormsHtml = {
  </div>
  <div class="w-1/2">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Expiry Date</label>
- <input type="date" class="text-xs text-slate-500">
+ <input type="date" class="text-xs text-slate-500" lang="en">
  </div>
  </div>
  </div>
@@ -6805,7 +6955,7 @@ export const orFormsHtml = {
  </div>
  <div class="w-1/2">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Expiry Date</label>
- <input type="date" class="text-xs text-slate-500">
+ <input type="date" class="text-xs text-slate-500" lang="en">
  </div>
  </div>
  </div>
@@ -6843,7 +6993,7 @@ export const orFormsHtml = {
  </div>
  <div class="w-1/2">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Expiry Date</label>
- <input type="date" class="text-xs text-slate-500">
+ <input type="date" class="text-xs text-slate-500" lang="en">
  </div>
  </div>
  </div>
@@ -6881,7 +7031,7 @@ export const orFormsHtml = {
  </div>
  <div class="w-1/2">
  <label class="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Expiry Date</label>
- <input type="date" class="text-xs text-slate-500">
+ <input type="date" class="text-xs text-slate-500" lang="en">
  </div>
  </div>
  </div>
@@ -6970,6 +7120,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f17: { css: `body {
@@ -7152,7 +7312,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date</label>
- <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Surgeon</label>
@@ -7237,24 +7397,24 @@ export const orFormsHtml = {
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50">1st</td>
  <td><input type="number"></td>
- <td><input type="time" class="text-amber-700"></td>
- <td><input type="time" class="text-emerald-600"></td>
+ <td><input type="time" class="text-amber-700" lang="en"></td>
+ <td><input type="time" class="text-emerald-600" lang="en"></td>
  <td class="bg-amber-50/50"><input type="number" class="text-amber-900 font-black"></td>
  <td><input type="text" class="left-align" placeholder="Time informed..."></td>
  </tr>
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50">2nd</td>
  <td><input type="number"></td>
- <td><input type="time" class="text-amber-700"></td>
- <td><input type="time" class="text-emerald-600"></td>
+ <td><input type="time" class="text-amber-700" lang="en"></td>
+ <td><input type="time" class="text-emerald-600" lang="en"></td>
  <td class="bg-amber-50/50"><input type="number" class="text-amber-900 font-black"></td>
  <td><input type="text" class="left-align" placeholder="Time informed..."></td>
  </tr>
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50">3rd</td>
  <td><input type="number"></td>
- <td><input type="time" class="text-amber-700"></td>
- <td><input type="time" class="text-emerald-600"></td>
+ <td><input type="time" class="text-amber-700" lang="en"></td>
+ <td><input type="time" class="text-emerald-600" lang="en"></td>
  <td class="bg-amber-50/50"><input type="number" class="text-amber-900 font-black"></td>
  <td><input type="text" class="left-align" placeholder="Time informed..."></td>
  </tr>
@@ -7352,6 +7512,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f18: { css: `body {
@@ -7511,7 +7681,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date</label>
- <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Surgeon</label>
@@ -7778,6 +7948,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f19: { css: `body {
@@ -8000,12 +8180,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">1</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8017,12 +8197,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">2</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8034,12 +8214,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">3</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8051,12 +8231,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">4</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8068,12 +8248,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">5</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8085,12 +8265,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">6</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8102,12 +8282,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">7</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8119,12 +8299,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">8</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8136,12 +8316,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">9</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8153,12 +8333,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">10</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8170,12 +8350,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">11</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8187,12 +8367,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">12</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8204,12 +8384,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">13</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8221,12 +8401,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">14</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8238,12 +8418,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">15</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8255,12 +8435,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">16</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8272,12 +8452,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">17</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8289,12 +8469,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">18</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8306,12 +8486,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">19</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8323,12 +8503,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">20</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8340,12 +8520,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">21</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8357,12 +8537,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">22</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8374,12 +8554,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">23</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8391,12 +8571,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">24</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8408,12 +8588,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">25</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8425,12 +8605,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">26</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8442,12 +8622,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">27</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8459,12 +8639,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">28</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8476,12 +8656,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">29</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8493,12 +8673,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">30</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8510,12 +8690,12 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">31</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
 
@@ -8542,7 +8722,7 @@ export const orFormsHtml = {
  <h4 class="font-bold text-orange-900 uppercase tracking-widest text-[9px] mb-3 border-b border-slate-100 pb-1">Monthly Review: OT Charge Nurse / Manager</h4>
  <div class="flex gap-2">
  <input type="text" placeholder="Signature / Name" class="text-xs italic w-2/3">
- <input type="date" class="text-xs w-1/3">
+ <input type="date" class="text-xs w-1/3" lang="en">
  </div>
  </div>
 
@@ -8551,7 +8731,7 @@ export const orFormsHtml = {
  <h4 class="font-bold text-orange-900 uppercase tracking-widest text-[9px] mb-3 border-b border-slate-100 pb-1">Biomedical / Safety Audit (If applicable)</h4>
  <div class="flex gap-2">
  <input type="text" placeholder="Signature / Name" class="text-xs italic w-2/3">
- <input type="date" class="text-xs w-1/3">
+ <input type="date" class="text-xs w-1/3" lang="en">
  </div>
  </div>
  </div>
@@ -8563,6 +8743,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f20: { css: `body {
@@ -8770,14 +8960,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">1</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8788,14 +8978,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">2</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8806,14 +8996,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">3</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8824,14 +9014,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">4</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8842,14 +9032,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">5</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8860,14 +9050,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">6</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8878,14 +9068,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">7</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8896,14 +9086,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">8</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8914,14 +9104,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">9</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8932,14 +9122,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">10</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8950,14 +9140,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">11</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8968,14 +9158,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">12</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -8986,14 +9176,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">13</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9004,14 +9194,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">14</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9022,14 +9212,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">15</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9040,14 +9230,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">16</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9058,14 +9248,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">17</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9076,14 +9266,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">18</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9094,14 +9284,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">19</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9112,14 +9302,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">20</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9130,14 +9320,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">21</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9148,14 +9338,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">22</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9166,14 +9356,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">23</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9184,14 +9374,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">24</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9202,14 +9392,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">25</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9220,14 +9410,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">26</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9238,14 +9428,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">27</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9256,14 +9446,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">28</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9274,14 +9464,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">29</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9292,14 +9482,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">30</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9310,14 +9500,14 @@ export const orFormsHtml = {
  <td class="text-center font-bold text-slate-500 bg-slate-100 border-r-2 border-r-slate-300 text-[10px]">31</td>
  
  <!-- Morning Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
  <td class="data-cell border-r-2 border-r-slate-300"><input type="text"></td>
  
  <!-- Evening Shift -->
- <td class="data-cell"><input type="time"></td>
+ <td class="data-cell"><input type="time" lang="en"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="text"></td>
  <td class="data-cell"><input type="checkbox" class="pressure-check"></td>
@@ -9343,7 +9533,7 @@ export const orFormsHtml = {
  <h4 class="font-bold text-teal-800 uppercase tracking-widest text-[9px] mb-2 border-b border-slate-100 pb-1">Monthly Review: OT Nurse Manager</h4>
  <div class="flex gap-2">
  <input type="text" placeholder="Signature / Stamp" class="text-xs italic w-2/3">
- <input type="date" class="text-xs w-1/3">
+ <input type="date" class="text-xs w-1/3" lang="en">
  </div>
  </div>
 
@@ -9352,7 +9542,7 @@ export const orFormsHtml = {
  <h4 class="font-bold text-teal-800 uppercase tracking-widest text-[9px] mb-2 border-b border-slate-100 pb-1">Monthly Review: Infection Prevention (IPC)</h4>
  <div class="flex gap-2">
  <input type="text" placeholder="Signature / Stamp" class="text-xs italic w-2/3">
- <input type="date" class="text-xs w-1/3">
+ <input type="date" class="text-xs w-1/3" lang="en">
  </div>
  </div>
  </div>
@@ -9364,6 +9554,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f21: { css: `body {
@@ -9516,7 +9716,7 @@ export const orFormsHtml = {
  <div class="grid grid-cols-1 md:grid-cols-12 gap-x-6 gap-y-4">
  <div class="md:col-span-3">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date</label>
- <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  <div class="md:col-span-3">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">OR Room Number</label>
@@ -9560,7 +9760,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">1</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9571,7 +9771,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">2</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9582,7 +9782,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">3</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9593,7 +9793,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">4</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9604,7 +9804,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">5</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9615,7 +9815,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">6</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9626,7 +9826,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">7</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9637,7 +9837,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">8</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9648,7 +9848,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">9</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9659,7 +9859,7 @@ export const orFormsHtml = {
  
  <tr>
  <td class="text-center font-bold text-slate-500 bg-slate-50 border-r border-slate-200">10</td>
- <td><input type="time" class="text-slate-600"></td>
+ <td><input type="time" class="text-slate-600" lang="en"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
  <td class="checkbox-cell"><input type="checkbox"></td>
@@ -9712,11 +9912,11 @@ export const orFormsHtml = {
  <div class="flex gap-4 w-full">
  <div class="w-1/2 flex items-center border-b border-slate-300">
  <span class="text-xs text-slate-500 mr-2">Start:</span>
- <input type="time" class="border-none w-full">
+ <input type="time" class="border-none w-full" lang="en">
  </div>
  <div class="w-1/2 flex items-center border-b border-slate-300">
  <span class="text-xs text-slate-500 mr-2">Finish:</span>
- <input type="time" class="border-none w-full">
+ <input type="time" class="border-none w-full" lang="en">
  </div>
  </div>
  </div>
@@ -9765,6 +9965,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f22: { css: `body {
@@ -9911,7 +10121,7 @@ export const orFormsHtml = {
  <div class="flex gap-6 w-full md:w-auto">
  <div class="w-48">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date</label>
- <input type="date" class="text-slate-900 font-bold bg-white border border-slate-300 rounded px-2 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+ <input type="date" class="text-slate-900 font-bold bg-white border border-slate-300 rounded px-2 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" lang="en">
  </div>
  <div class="w-64">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Charge Nurse (Shift Lead)</label>
@@ -9986,9 +10196,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10018,9 +10228,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10050,9 +10260,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10082,9 +10292,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10114,9 +10324,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10146,9 +10356,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10178,9 +10388,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10210,9 +10420,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10242,9 +10452,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10274,9 +10484,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10306,9 +10516,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  <tr>
@@ -10338,9 +10548,9 @@ export const orFormsHtml = {
  </select>
  </td>
  <td class="bg-indigo-50/30"><label class="check-item w-full h-full"><input type="checkbox"></label></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  <td><input type="text" class="left-align text-xs italic" placeholder="Sign"></td>
- <td><input type="time" class="text-[10px] text-slate-600"></td>
+ <td><input type="time" class="text-[10px] text-slate-600" lang="en"></td>
  </tr>
  
  </tbody>
@@ -10359,6 +10569,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f23: { css: `body {
@@ -10472,7 +10692,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date</label>
- <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  <div class="md:col-span-2">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Requesting Surgeon / Physician</label>
@@ -10578,7 +10798,7 @@ export const orFormsHtml = {
  <div class="flex gap-4 pt-1">
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider">Date</label>
- <input type="date" class="text-xs">
+ <input type="date" class="text-xs" lang="en">
  </div>
  </div>
  </div>
@@ -10600,7 +10820,7 @@ export const orFormsHtml = {
  <div class="flex gap-4 pt-1">
  <div class="w-full">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider">Date</label>
- <input type="date" class="text-xs">
+ <input type="date" class="text-xs" lang="en">
  </div>
  </div>
  </div>
@@ -10619,7 +10839,7 @@ export const orFormsHtml = {
  <input type="text" class="text-xs italic border-b border-slate-300 w-full p-1 text-blue-700" placeholder="Signature">
  </div>
  <div>
- <input type="date" class="text-xs border-b border-slate-300 w-full p-1 text-slate-500">
+ <input type="date" class="text-xs border-b border-slate-300 w-full p-1 text-slate-500" lang="en">
  </div>
  </div>
  </div>
@@ -10638,6 +10858,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f24: { css: `body {
@@ -10813,16 +11043,16 @@ export const orFormsHtml = {
  <div class="grid grid-cols-1 md:grid-cols-4 gap-x-6 gap-y-4">
  <div>
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date of Drill</label>
- <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="date" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  <div class="flex gap-2">
  <div class="w-1/2">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Start Time</label>
- <input type="time" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="time" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  <div class="w-1/2">
  <label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">End Time</label>
- <input type="time" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2">
+ <input type="time" class="text-slate-900 font-bold bg-white border border-slate-200 rounded px-2" lang="en">
  </div>
  </div>
  <div class="md:col-span-2">
@@ -10993,17 +11223,17 @@ export const orFormsHtml = {
  <div class="flex gap-2">
  <input type="text" class="w-1/2 text-sm border-b border-slate-300" placeholder="1. Action required...">
  <input type="text" class="w-1/4 text-sm border-b border-slate-300" placeholder="Owner">
- <input type="date" class="w-1/4 text-xs border-b border-slate-300 text-slate-500">
+ <input type="date" class="w-1/4 text-xs border-b border-slate-300 text-slate-500" lang="en">
  </div>
  <div class="flex gap-2">
  <input type="text" class="w-1/2 text-sm border-b border-slate-300" placeholder="2. Action required...">
  <input type="text" class="w-1/4 text-sm border-b border-slate-300" placeholder="Owner">
- <input type="date" class="w-1/4 text-xs border-b border-slate-300 text-slate-500">
+ <input type="date" class="w-1/4 text-xs border-b border-slate-300 text-slate-500" lang="en">
  </div>
  <div class="flex gap-2">
  <input type="text" class="w-1/2 text-sm border-b border-slate-300" placeholder="3. Action required...">
  <input type="text" class="w-1/4 text-sm border-b border-slate-300" placeholder="Owner">
- <input type="date" class="w-1/4 text-xs border-b border-slate-300 text-slate-500">
+ <input type="date" class="w-1/4 text-xs border-b border-slate-300 text-slate-500" lang="en">
  </div>
  </div>
  </div>
@@ -11061,6 +11291,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
  f25: { css: `body {
@@ -11228,8 +11468,8 @@ export const orFormsHtml = {
  <div>
  <label class="block text-[10px] font-bold text-red-800 uppercase tracking-wider mb-1">Date &amp; Time Removed</label>
  <div class="flex gap-2">
- <input type="date" class="font-semibold text-slate-800 border-red-300 focus:border-red-600 w-3/5">
- <input type="time" class="font-semibold text-slate-800 border-red-300 focus:border-red-600 w-2/5">
+ <input type="date" class="font-semibold text-slate-800 border-red-300 focus:border-red-600 w-3/5" lang="en">
+ <input type="time" class="font-semibold text-slate-800 border-red-300 focus:border-red-600 w-2/5" lang="en">
  </div>
  </div>
  <div class="md:col-span-2">
@@ -11363,7 +11603,7 @@ export const orFormsHtml = {
  </div>
  <div>
  <label class="block text-[10px] font-bold text-indigo-800 uppercase tracking-wider mb-1">Date Cleared</label>
- <input type="date" class="border-indigo-300 font-semibold text-slate-700">
+ <input type="date" class="border-indigo-300 font-semibold text-slate-700" lang="en">
  </div>
  </div>
  </div>
@@ -11374,6 +11614,16 @@ export const orFormsHtml = {
  <!-- Toast Message Box -->
  <div id="toast" style="display:none; position:fixed; bottom:30px; right:30px; background:linear-gradient(135deg, #1e293b, #0f172a); color:white; padding:16px 32px; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.3); z-index:50; font-size:15px; font-weight:500; border:1px solid rgba(255,255,255,0.1);"></div>
 
+        input[type="date"], input[type="time"] {
+          direction: ltr !important;
+          text-align: left !important;
+          font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif !important;
+          unicode-bidi: plaintext;
+        }
+        input[type="date"]::-webkit-datetime-edit,
+        input[type="time"]::-webkit-datetime-edit {
+          direction: ltr !important;
+        }
  <!-- Scripts -->
  ` },
 }
