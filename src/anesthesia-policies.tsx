@@ -430,6 +430,7 @@ ap.get('/', (c) => {
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
+    html, body { overflow-x: hidden; max-width: 100vw; }
     body { font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif; color: #1f2937; background: #fff; direction: rtl; text-align: right; }
     a { text-decoration: none; color: inherit; }
 
@@ -518,9 +519,9 @@ ap.get('/', (c) => {
     }
     .cover-spotlight::before {
       content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
-      width: 700px; height: 700px;
+      width: min(700px, 100vw); height: min(700px, 100vw);
       background: radial-gradient(ellipse at center, rgba(52,211,153,0.10) 0%, transparent 70%);
-      pointer-events: none;
+      pointer-events: none; overflow: hidden;
     }
     .cover-main-img {
       display: block;
@@ -544,7 +545,7 @@ ap.get('/', (c) => {
 
     .cover-text-block {
       width: 100%; text-align: center;
-      padding: 48px 24px 60px;
+      padding: 32px 16px 50px;
       background: linear-gradient(180deg, transparent 0%, rgba(4,20,16,0.7) 30%, #041410 100%);
     }
     .cover-en-tag {
@@ -574,28 +575,28 @@ ap.get('/', (c) => {
     }
     .cover-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
     .btn-green-lg {
-      font-family: 'Noto Kufi Arabic', sans-serif; font-size: 17px; font-weight: 800;
+      font-family: 'Noto Kufi Arabic', sans-serif; font-size: 16px; font-weight: 800;
       background: linear-gradient(135deg,#059669,#10b981); color: white;
-      padding: 16px 40px; border-radius: 12px; display: inline-block;
+      padding: 14px 28px; border-radius: 12px; display: inline-block;
       box-shadow: 0 4px 24px rgba(16,185,129,0.4); transition: all 0.25s;
     }
     .btn-green-lg:hover { transform: translateY(-3px); box-shadow: 0 10px 36px rgba(16,185,129,0.55); }
     .btn-outline-lg {
-      font-family: 'Noto Kufi Arabic', sans-serif; font-size: 17px; font-weight: 700;
-      background: transparent; color: white; padding: 16px 40px; border-radius: 12px;
+      font-family: 'Noto Kufi Arabic', sans-serif; font-size: 16px; font-weight: 700;
+      background: transparent; color: white; padding: 14px 28px; border-radius: 12px;
       border: 2px solid rgba(255,255,255,0.38); display: inline-block; transition: all 0.25s;
     }
     .btn-outline-lg:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
 
     /* ── INTRO SECTION ── */
-    .intro-section { background: #f8fffe; padding: 86px 24px; }
-    .sec-max { max-width: 1000px; margin: 0 auto; }
-    .sec-title { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 34px; font-weight: 800; color: #042f2e; text-align: center; margin-bottom: 6px; }
-    .sec-subtitle { font-family: 'Segoe UI', sans-serif; font-size: 12px; color: #9ca3af; text-align: center; direction: ltr; letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 52px; }
+    .intro-section { background: #f8fffe; padding: 60px 16px; }
+    .sec-max { max-width: 1000px; margin: 0 auto; width: 100%; }
+    .sec-title { font-family: 'Noto Kufi Arabic', sans-serif; font-size: clamp(24px,5vw,34px); font-weight: 800; color: #042f2e; text-align: center; margin-bottom: 6px; }
+    .sec-subtitle { font-family: 'Segoe UI', sans-serif; font-size: 12px; color: #9ca3af; text-align: center; direction: ltr; letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 40px; }
 
     .intro-card {
-      background: white; border: 1.5px solid #ccfbf1; border-radius: 28px;
-      padding: 58px 64px; box-shadow: 0 8px 40px rgba(15,118,110,0.09);
+      background: white; border: 1.5px solid #ccfbf1; border-radius: 20px;
+      padding: 32px 24px; box-shadow: 0 8px 40px rgba(15,118,110,0.09);
       position: relative; overflow: hidden;
     }
     .intro-card::before {
@@ -612,26 +613,21 @@ ap.get('/', (c) => {
     .intro-head-icon { font-size: 30px; }
     .intro-points { list-style: none; padding: 0; margin: 0; }
     .intro-points li {
-      font-family: 'Amiri', serif; font-size: 20px; color: #111827;
-      line-height: 2; padding: 18px 0; border-bottom: 1px solid #f0fdfa;
-      display: flex; gap: 18px; align-items: flex-start;
+      font-family: 'Amiri', serif; font-size: clamp(16px,4vw,20px); color: #111827;
+      line-height: 1.9; padding: 14px 0; border-bottom: 1px solid #f0fdfa;
+      display: flex; gap: 12px; align-items: flex-start;
     }
     .intro-points li:last-child { border-bottom: none; }
     .ip-bullet { color: #0f766e; font-size: 18px; margin-top: 8px; flex-shrink: 0; font-weight: 900; }
     .intro-closing {
-      margin-top: 40px; padding: 30px 36px;
+      margin-top: 32px; padding: 22px 20px;
       background: linear-gradient(135deg, #042f2e 0%, #0f766e 100%);
-      border-radius: 16px; font-family: 'Amiri', serif;
-      font-size: 21px; color: white; line-height: 2.1; text-align: center;
-    }
-    @media (max-width: 700px) {
-      .intro-card { padding: 30px 24px; }
-      .intro-points li { font-size: 18px; }
-      .intro-closing { font-size: 18px; padding: 22px 24px; }
+      border-radius: 14px; font-family: 'Amiri', serif;
+      font-size: clamp(16px,4vw,21px); color: white; line-height: 1.9; text-align: center;
     }
 
     /* ── AUDIENCE GRID ── */
-    .audience-section { background: white; padding: 76px 24px 66px; }
+    .audience-section { background: white; padding: 50px 16px 46px; }
     .audience-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 18px; }
     .aud-card {
       background: #f0fdfa; border: 1.5px solid #99f6e4; border-radius: 16px;
@@ -644,8 +640,8 @@ ap.get('/', (c) => {
     .aud-desc { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #4b5563; line-height: 1.75; }
 
     /* ── SECTIONS GRID ── */
-    .sections-section { background: linear-gradient(135deg,#f0fdfa,#ccfbf1 50%,#f0fdfa); padding: 76px 24px; }
-    .sections-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap: 18px; }
+    .sections-section { background: linear-gradient(135deg,#f0fdfa,#ccfbf1 50%,#f0fdfa); padding: 50px 16px; }
+    .sections-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap: 14px; }
     .sec-card {
       background: white; border-radius: 16px; padding: 24px;
       border: 1.5px solid #99f6e4; box-shadow: 0 2px 12px rgba(0,0,0,0.05);
@@ -660,10 +656,10 @@ ap.get('/', (c) => {
     .sec-card h3 { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 15px; font-weight: 700; color: #042f2e; line-height: 1.6; }
 
     /* ── SIBLING / COMPANION ── */
-    .dark-section { background: linear-gradient(160deg,#061a18 0%,#082420 50%,#0a2e2a 100%); padding: 76px 24px; }
+    .dark-section { background: linear-gradient(160deg,#061a18 0%,#082420 50%,#0a2e2a 100%); padding: 50px 16px; }
     .sibling-card {
       background: rgba(255,255,255,0.05); border: 1.5px solid rgba(255,255,255,0.14);
-      border-radius: 18px; padding: 28px 32px; text-decoration: none; display: block;
+      border-radius: 18px; padding: 22px 20px; text-decoration: none; display: block;
       max-width: 640px; margin: 0 auto; transition: all 0.25s;
     }
     .sibling-card:hover { background: rgba(255,255,255,0.1); border-color: rgba(52,211,153,0.5); transform: translateY(-4px); }
@@ -672,23 +668,23 @@ ap.get('/', (c) => {
     .sibling-desc { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.8; }
     .sibling-arrow { margin-top: 14px; font-size: 14px; color: #34d399; font-weight: 700; }
 
-    .cta-section { background: linear-gradient(135deg,#042f2e,#0f766e); text-align: center; padding: 76px 24px; color: white; }
-    .cta-section h2 { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 30px; font-weight: 800; margin-bottom: 16px; }
-    .cta-section p { font-family: 'Amiri', serif; font-size: 19px; color: rgba(255,255,255,0.78); max-width: 600px; margin: 0 auto 36px; line-height: 2; }
-    .btn-cta-w { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 17px; font-weight: 800; background: white; color: #042f2e; padding: 16px 44px; border-radius: 12px; display: inline-block; transition: all 0.2s; }
+    .cta-section { background: linear-gradient(135deg,#042f2e,#0f766e); text-align: center; padding: 50px 16px; color: white; }
+    .cta-section h2 { font-family: 'Noto Kufi Arabic', sans-serif; font-size: clamp(20px,5vw,30px); font-weight: 800; margin-bottom: 14px; }
+    .cta-section p { font-family: 'Amiri', serif; font-size: clamp(16px,4vw,19px); color: rgba(255,255,255,0.78); max-width: 600px; margin: 0 auto 28px; line-height: 1.9; }
+    .btn-cta-w { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 16px; font-weight: 800; background: white; color: #042f2e; padding: 14px 32px; border-radius: 12px; display: inline-block; transition: all 0.2s; }
     .btn-cta-w:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,0,0,0.25); }
 
     /* ── AUTHOR ── */
-    .author-section { background: #f8fffe; padding: 56px 24px; }
-    .author-card { max-width: 520px; margin: 0 auto; background: white; border: 1.5px solid #99f6e4; border-radius: 22px; padding: 40px 44px; text-align: center; box-shadow: 0 4px 24px rgba(15,118,110,0.09); }
-    .author-avatar { font-size: 56px; margin-bottom: 14px; }
-    .author-name { font-family: 'Amiri', serif; font-size: 1.6rem; font-weight: 700; color: #042f2e; margin-bottom: 4px; }
+    .author-section { background: #f8fffe; padding: 44px 16px; }
+    .author-card { max-width: 520px; margin: 0 auto; background: white; border: 1.5px solid #99f6e4; border-radius: 20px; padding: 28px 20px; text-align: center; box-shadow: 0 4px 24px rgba(15,118,110,0.09); }
+    .author-avatar { font-size: 50px; margin-bottom: 12px; }
+    .author-name { font-family: 'Amiri', serif; font-size: clamp(1.2rem,5vw,1.6rem); font-weight: 700; color: #042f2e; margin-bottom: 4px; }
     .author-name-en { font-size: 14px; color: #6b7280; margin-bottom: 12px; }
-    .author-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #374151; line-height: 1.8; }
-    .author-exp { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #0f766e; margin-top: 10px; font-weight: 700; }
+    .author-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #374151; line-height: 1.8; }
+    .author-exp { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #0f766e; margin-top: 10px; font-weight: 700; }
 
     /* ── FOOTER ── */
-    .ap-footer { background: #041410; color: rgba(255,255,255,0.45); text-align: center; padding: 30px 24px; font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; line-height: 1.9; }
+    .ap-footer { background: #041410; color: rgba(255,255,255,0.45); text-align: center; padding: 24px 16px; font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; line-height: 1.9; word-break: break-word; }
   </style>
 </head>
 <body>
