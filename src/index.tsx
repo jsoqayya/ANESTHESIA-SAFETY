@@ -12,6 +12,32 @@ const app = new Hono()
 // Serve static files
 app.use('/static/*', serveStatic({ root: './public' }))
 
+// Serve anesthesia-safety static assets (images, favicons)
+// These routes handle /images/* and /favicon.ico from anesthesiasafetyguideline.com
+// which use absolute paths like /images/favicon-32.png
+app.get('/images/:file', async (c) => {
+  const file = c.req.param('file')
+  const env = c.env as any
+  if (env?.ASSETS) {
+    const url = new URL(c.req.url)
+    url.pathname = `/anesthesia-safety/images/${file}`
+    const res = await env.ASSETS.fetch(url.toString())
+    if (res.ok) return res
+  }
+  return c.redirect(`/anesthesia-safety/images/${file}`)
+})
+
+app.get('/favicon.ico', async (c) => {
+  const env = c.env as any
+  if (env?.ASSETS) {
+    const url = new URL(c.req.url)
+    url.pathname = '/anesthesia-safety/images/favicon-32.png'
+    const res = await env.ASSETS.fetch(url.toString())
+    if (res.ok) return res
+  }
+  return c.redirect('/anesthesia-safety/images/favicon-32.png')
+})
+
 // Mount Anesthesia Safety Guide
 app.route('/anesthesia-safety', anesthesiaSafety)
 

@@ -832,7 +832,90 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
       }
     </style>
 </head>
-<body style="padding-top: 40px;">
+<body style="padding-top: 65px;">
+<style>
+  /* ANESTHESIA SAFETY NAVBAR */
+  .as-top-nav {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 99999 !important;
+    background-color: #1e3a8a !important;
+    padding: 10px 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2) !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+    box-sizing: border-box !important;
+  }
+  .as-nav-brand {
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+  .as-nav-logo {
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 50% !important;
+    background: rgba(255,255,255,0.15) !important;
+    border: 2px solid rgba(255,255,255,0.3) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+  .as-nav-links {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+  }
+  .as-nav-link {
+    background: rgba(255,255,255,0.12) !important;
+    color: white !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    text-decoration: none !important;
+    transition: background 0.2s !important;
+    white-space: nowrap !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    font-weight: 600 !important;
+  }
+  .as-nav-link:hover { background: rgba(255,255,255,0.25) !important; }
+  .as-nav-link.as-prev { background: rgba(37,99,235,0.4) !important; }
+  .as-nav-link.as-next { background: rgba(37,99,235,0.4) !important; }
+  body { padding-top: 60px !important; }
+  @media (max-width: 600px) {
+    .as-top-nav { padding: 8px 12px !important; }
+    .as-nav-brand span.as-brand-text { display: none !important; }
+    .as-nav-link { font-size: 12px !important; padding: 5px 10px !important; }
+  }
+</style>
+<nav class="as-top-nav">
+  <a href="/anesthesia-safety/" class="as-nav-brand">
+    <div class="as-nav-logo">🩺</div>
+    <span class="as-brand-text">دليل السلامة في التخدير</span>
+  </a>
+  <div class="as-nav-links">
+    <a href="/anesthesia-safety/chapter/6" class="as-nav-link as-prev">← السابق: الفصل 6</a>
+    <a href="/anesthesia-safety/chapters/" class="as-nav-link">📚 الفصول</a>
+    <a href="/portal" class="as-nav-link">🏠 المنصة</a>
+    <a href="/anesthesia-safety/chapter/8" class="as-nav-link as-next">التالي: الفصل 8 →</a>
+  </div>
+</nav>
+
 
     <!-- Download Bar -->
     
@@ -1076,7 +1159,7 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
       }
     </style>
 </head>
-<body style="padding-top: 40px;">
+<body style="padding-top: 65px;">
 
     <!-- Download Bar -->
     
