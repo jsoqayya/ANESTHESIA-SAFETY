@@ -71,40 +71,121 @@ const formTitles: Record<string, string> = {
 // ── Navbar HTML ─────────────────────────────────────────────────────────────
 // Large, clear navigation buttons for section pages
 function navbar(active: string, prevLink?: string, prevLabel?: string, nextLink?: string, nextLabel?: string) {
-  const base = `display:inline-flex;align-items:center;gap:8px;text-decoration:none;
-    font-family:'Cairo','Noto Kufi Arabic',sans-serif;font-weight:800;
-    border-radius:10px;white-space:nowrap;letter-spacing:0.2px;transition:all 0.2s;`
-  const btnNav    = base + `font-size:15px;color:white;background:rgba(255,255,255,0.16);
-    border:2px solid rgba(255,255,255,0.38);padding:10px 22px;`
-  const btnActive = base + `font-size:15px;color:#042f2e;background:white;
-    border:2px solid white;box-shadow:0 2px 14px rgba(0,0,0,0.25);padding:10px 22px;`
-  const btnPortal = base + `font-size:15px;color:white;background:rgba(255,255,255,0.26);
-    border:2px solid rgba(255,255,255,0.55);padding:10px 22px;`
-  const btnDir    = base + `font-size:14px;color:#042f2e;background:#34d399;
-    border:2px solid #34d399;padding:10px 20px;box-shadow:0 2px 10px rgba(52,211,153,0.4);`
+  const hasPrev = !!prevLink
+  const hasNext = !!nextLink
 
   return `
-  <nav style="position:fixed;top:0;left:0;right:0;z-index:9999;
-    background:linear-gradient(135deg,#042f2e 0%,#0f766e 55%,#0d9488 100%);
-    height:76px;display:flex;align-items:center;justify-content:space-between;
-    padding:0 24px;box-shadow:0 4px 28px rgba(0,0,0,0.55);">
-    <a href="/anesthesia-policies" style="display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0;min-width:0;">
-      <div style="width:46px;height:46px;background:rgba(255,255,255,0.2);border-radius:12px;
-        display:flex;align-items:center;justify-content:center;font-size:24px;
-        border:2px solid rgba(255,255,255,0.38);flex-shrink:0;">💊</div>
-      <span style="color:white;font-size:14px;font-weight:800;
-        white-space:nowrap;max-width:200px;overflow:hidden;text-overflow:ellipsis;
-        text-shadow:0 1px 4px rgba(0,0,0,0.4);">${bookTitle}</span>
-    </a>
-    <div style="display:flex;align-items:center;gap:10px;flex-wrap:nowrap;flex-shrink:0;">
-      ${prevLink ? `<a href="${prevLink}" style="${btnDir}">&#8594;&nbsp;${prevLabel}</a>` : ''}
-      <a href="/portal" style="${btnPortal}">🏠 المنصة</a>
-      <a href="/anesthesia-policies" style="${active==='home' ? btnActive : btnNav}">الرئيسية</a>
-      <a href="/anesthesia-policies/sections" style="${active==='sections' ? btnActive : btnNav}">📚 الأقسام</a>
-      ${nextLink ? `<a href="${nextLink}" style="${btnDir}">${nextLabel}&nbsp;&#8592;</a>` : ''}
+  <style>
+    .ap-nb {
+      position:fixed;top:0;left:0;right:0;z-index:9999;
+      background:linear-gradient(135deg,#042f2e 0%,#0f766e 55%,#0d9488 100%);
+      box-shadow:0 4px 28px rgba(0,0,0,0.55);
+    }
+    /* ── top row: always visible ── */
+    .ap-nb-top {
+      height:60px;display:flex;align-items:center;
+      justify-content:space-between;padding:0 16px;
+    }
+    .ap-nb-brand {
+      display:flex;align-items:center;gap:10px;
+      text-decoration:none;flex:1;min-width:0;
+    }
+    .ap-nb-icon {
+      width:40px;height:40px;background:rgba(255,255,255,0.2);
+      border-radius:10px;display:flex;align-items:center;justify-content:center;
+      font-size:20px;border:2px solid rgba(255,255,255,0.38);flex-shrink:0;
+    }
+    .ap-nb-title {
+      color:white;font-size:13px;font-weight:800;
+      white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+      text-shadow:0 1px 4px rgba(0,0,0,0.4);
+      font-family:'Cairo','Noto Kufi Arabic',sans-serif;
+      max-width:calc(100vw - 180px);
+    }
+    /* ── hamburger button ── */
+    .ap-nb-ham {
+      display:none;flex-direction:column;gap:5px;cursor:pointer;
+      padding:8px;border-radius:8px;background:rgba(255,255,255,0.12);
+      border:1.5px solid rgba(255,255,255,0.3);flex-shrink:0;
+    }
+    .ap-nb-ham span {
+      display:block;width:20px;height:2px;background:white;
+      border-radius:2px;transition:all 0.3s;
+    }
+    /* ── desktop links row ── */
+    .ap-nb-links {
+      display:flex;align-items:center;gap:8px;flex-shrink:0;
+    }
+    .ap-nb-links a {
+      display:inline-flex;align-items:center;gap:6px;text-decoration:none;
+      font-family:'Cairo','Noto Kufi Arabic',sans-serif;font-weight:800;
+      border-radius:10px;white-space:nowrap;letter-spacing:0.2px;
+      transition:all 0.2s;font-size:14px;padding:9px 18px;border:2px solid;
+    }
+    .ap-nb-links .btn-portal { color:white;background:rgba(255,255,255,0.26);border-color:rgba(255,255,255,0.55); }
+    .ap-nb-links .btn-nav    { color:white;background:rgba(255,255,255,0.16);border-color:rgba(255,255,255,0.38); }
+    .ap-nb-links .btn-active { color:#042f2e;background:white;border-color:white;box-shadow:0 2px 14px rgba(0,0,0,0.25); }
+    .ap-nb-links .btn-dir    { color:#042f2e;background:#34d399;border-color:#34d399;box-shadow:0 2px 10px rgba(52,211,153,0.4); }
+    /* ── mobile drawer ── */
+    .ap-nb-drawer {
+      display:none;flex-direction:column;gap:8px;
+      padding:12px 16px 16px;border-top:1px solid rgba(255,255,255,0.15);
+    }
+    .ap-nb-drawer a {
+      display:flex;align-items:center;gap:10px;text-decoration:none;
+      font-family:'Cairo','Noto Kufi Arabic',sans-serif;font-weight:800;
+      font-size:15px;padding:12px 18px;border-radius:12px;border:2px solid;
+      transition:all 0.2s;
+    }
+    .ap-nb-drawer .btn-portal { color:white;background:rgba(255,255,255,0.18);border-color:rgba(255,255,255,0.4); }
+    .ap-nb-drawer .btn-nav    { color:white;background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.28); }
+    .ap-nb-drawer .btn-active { color:#042f2e;background:white;border-color:white; }
+    .ap-nb-drawer .btn-dir    { color:#042f2e;background:#34d399;border-color:#34d399; }
+    /* ── spacer ── */
+    .ap-nb-spacer { height:60px; }
+    /* ── MOBILE breakpoint ── */
+    @media (max-width: 700px) {
+      .ap-nb-ham   { display:flex; }
+      .ap-nb-links { display:none; }
+      .ap-nb-drawer.open { display:flex; }
+    }
+    @media (min-width: 701px) {
+      .ap-nb-top { height:70px; padding:0 24px; }
+      .ap-nb-icon { width:46px;height:46px;font-size:24px; }
+      .ap-nb-title { font-size:14px; }
+      .ap-nb-spacer { height:70px; }
+    }
+  </style>
+
+  <nav class="ap-nb" id="apNavbar">
+    <div class="ap-nb-top">
+      <a href="/anesthesia-policies" class="ap-nb-brand">
+        <div class="ap-nb-icon">💊</div>
+        <span class="ap-nb-title">${bookTitle}</span>
+      </a>
+      <!-- Desktop links -->
+      <div class="ap-nb-links">
+        ${hasPrev ? `<a href="${prevLink}" class="btn-dir">&#8594;&nbsp;${prevLabel}</a>` : ''}
+        <a href="/portal" class="btn-portal">🏠 المنصة</a>
+        <a href="/anesthesia-policies" class="${active==='home' ? 'btn-active' : 'btn-nav'}">الرئيسية</a>
+        <a href="/anesthesia-policies/sections" class="${active==='sections' ? 'btn-active' : 'btn-nav'}">📚 الأقسام</a>
+        ${hasNext ? `<a href="${nextLink}" class="btn-dir">${nextLabel}&nbsp;&#8592;</a>` : ''}
+      </div>
+      <!-- Hamburger -->
+      <button class="ap-nb-ham" id="apHam" aria-label="القائمة" onclick="(function(){var d=document.getElementById('apDrawer');d.classList.toggle('open');})()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile drawer -->
+    <div class="ap-nb-drawer" id="apDrawer">
+      ${hasPrev ? `<a href="${prevLink}" class="btn-dir">&#8594;&nbsp;${prevLabel}</a>` : ''}
+      <a href="/portal" class="btn-portal">🏠 المنصة</a>
+      <a href="/anesthesia-policies" class="${active==='home' ? 'btn-active' : 'btn-nav'}">الرئيسية</a>
+      <a href="/anesthesia-policies/sections" class="${active==='sections' ? 'btn-active' : 'btn-nav'}">📚 الأقسام</a>
+      ${hasNext ? `<a href="${nextLink}" class="btn-dir">${nextLabel}&nbsp;&#8592;</a>` : ''}
     </div>
   </nav>
-  <div style="height:76px;"></div>`
+  <div class="ap-nb-spacer"></div>`
 }
 
 // ── Comments section ───────────────────────────────────────────────────────
@@ -208,11 +289,11 @@ function buildFormPage(
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
   <style>
     ${css}
-    html, body { padding-top: 0 !important; }
+    html, body { padding-top: 0 !important; margin: 0; }
     .form-page-wrap {
       max-width: 960px;
       margin: 0 auto;
-      padding: 0 16px 60px;
+      padding: 0 12px 60px;
     }
     .max-w-5xl { max-width: 64rem; }
     /* Form identity header */
@@ -221,35 +302,55 @@ function buildFormPage(
       color: #fff;
       display: flex;
       align-items: center;
-      gap: 18px;
-      padding: 18px 28px;
-      margin-bottom: 24px;
-      border-radius: 0 0 16px 16px;
+      gap: 14px;
+      padding: 14px 20px;
+      margin-bottom: 20px;
+      border-radius: 0 0 14px 14px;
       box-shadow: 0 4px 18px rgba(37,99,235,.25);
+      flex-wrap: wrap;
     }
     .form-id-header .fid-badge {
       background: rgba(255,255,255,0.18);
       border: 2px solid rgba(255,255,255,0.4);
       border-radius: 10px;
-      padding: 8px 18px;
-      font-size: 1.35rem;
+      padding: 6px 16px;
+      font-size: 1.2rem;
       font-weight: 900;
       letter-spacing: 0.06em;
       white-space: nowrap;
       font-family: 'Inter', sans-serif;
+      flex-shrink: 0;
     }
+    .form-id-header .fid-info { flex: 1; min-width: 0; }
     .form-id-header .fid-title {
-      font-size: 1.05rem;
+      font-size: 1rem;
       font-weight: 700;
       line-height: 1.35;
       opacity: 0.95;
       font-family: 'Inter', sans-serif;
+      word-break: break-word;
     }
     .form-id-header .fid-book {
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       opacity: 0.65;
       margin-top: 3px;
       font-family: 'Cairo', sans-serif;
+    }
+    /* Mobile adjustments */
+    @media (max-width: 600px) {
+      .form-id-header {
+        padding: 12px 14px;
+        gap: 10px;
+        border-radius: 0 0 12px 12px;
+        margin-bottom: 14px;
+      }
+      .form-id-header .fid-badge {
+        font-size: 1rem;
+        padding: 5px 12px;
+      }
+      .form-id-header .fid-title { font-size: 0.88rem; }
+      .form-id-header .fid-book  { font-size: 0.65rem; }
+      .form-page-wrap { padding: 0 8px 40px; }
     }
   </style>
 </head>
@@ -257,7 +358,7 @@ function buildFormPage(
 ${navHtml}
 <div class="form-id-header">
   <div class="fid-badge">${badgeCode}</div>
-  <div>
+  <div class="fid-info">
     <div class="fid-title">${badgeLabel}</div>
     <div class="fid-book">دليل السياسات والإجراءات في التخدير — Section M</div>
   </div>
@@ -332,30 +433,34 @@ ap.get('/', (c) => {
     body { font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif; color: #1f2937; background: #fff; direction: rtl; text-align: right; }
     a { text-decoration: none; color: inherit; }
 
-    /* ── FIXED TOP NAVBAR ── */
+    /* ── FIXED TOP NAVBAR (Home page) ── */
     .ap-nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
       background: linear-gradient(135deg,#042f2e 0%,#0f766e 55%,#0d9488 100%);
-      height: 76px; display: flex; align-items: center;
-      justify-content: space-between; padding: 0 28px;
       box-shadow: 0 4px 28px rgba(0,0,0,0.55);
     }
-    .ap-nav .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; flex-shrink: 0; }
+    .ap-nav-top {
+      height: 60px; display: flex; align-items: center;
+      justify-content: space-between; padding: 0 16px;
+    }
+    .ap-nav .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; flex: 1; min-width: 0; }
     .ap-nav .brand-icon {
-      width: 46px; height: 46px; background: rgba(255,255,255,0.2); border-radius: 12px;
+      width: 40px; height: 40px; background: rgba(255,255,255,0.2); border-radius: 10px;
       border: 2px solid rgba(255,255,255,0.38); display: flex; align-items: center;
-      justify-content: center; font-size: 24px; flex-shrink: 0;
+      justify-content: center; font-size: 20px; flex-shrink: 0;
     }
     .ap-nav .brand-text {
-      color: white; font-size: 14px; font-weight: 800; max-width: 220px;
+      color: white; font-size: 13px; font-weight: 800;
+      max-width: calc(100vw - 160px);
       overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
       text-shadow: 0 1px 4px rgba(0,0,0,0.4);
     }
-    .ap-nav .nav-links { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+    /* Desktop links */
+    .ap-nav .nav-links { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
     .ap-nav .nav-links a {
-      display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
-      font-family: 'Cairo', sans-serif; font-size: 15px; font-weight: 800;
-      padding: 10px 22px; border-radius: 10px; white-space: nowrap; border: 2px solid;
+      display: inline-flex; align-items: center; gap: 6px; text-decoration: none;
+      font-family: 'Cairo', sans-serif; font-size: 14px; font-weight: 800;
+      padding: 9px 18px; border-radius: 10px; white-space: nowrap; border: 2px solid;
       transition: all 0.2s;
     }
     .ap-nav .btn-portal  { color: white; background: rgba(255,255,255,0.26); border-color: rgba(255,255,255,0.55); }
@@ -367,13 +472,46 @@ ap.get('/', (c) => {
     }
     .ap-nav .btn-sections:hover { background: #2dd4aa; transform: translateY(-1px); }
     .ap-nav .btn-portal:hover, .ap-nav .btn-nav:hover { background: rgba(255,255,255,0.28); }
+    /* Hamburger */
+    .ap-nav .nav-ham {
+      display: none; flex-direction: column; gap: 5px; cursor: pointer;
+      padding: 8px; border-radius: 8px; background: rgba(255,255,255,0.12);
+      border: 1.5px solid rgba(255,255,255,0.3); flex-shrink: 0;
+    }
+    .ap-nav .nav-ham span { display: block; width: 20px; height: 2px; background: white; border-radius: 2px; }
+    /* Mobile drawer */
+    .ap-nav .nav-drawer {
+      display: none; flex-direction: column; gap: 8px;
+      padding: 12px 16px 16px; border-top: 1px solid rgba(255,255,255,0.15);
+    }
+    .ap-nav .nav-drawer a {
+      display: flex; align-items: center; gap: 10px; text-decoration: none;
+      font-family: 'Cairo', sans-serif; font-size: 15px; font-weight: 800;
+      padding: 12px 18px; border-radius: 12px; border: 2px solid; transition: all 0.2s;
+    }
+    .ap-nav .nav-drawer .btn-portal { color: white; background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.4); }
+    .ap-nav .nav-drawer .btn-nav    { color: white; background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.28); }
+    .ap-nav .nav-drawer .btn-active { color: #042f2e; background: white; border-color: white; }
+    .ap-nav .nav-drawer .btn-sections { color: #042f2e; background: #34d399; border-color: #34d399; }
+    .ap-nav .nav-drawer.open { display: flex; }
+    /* Mobile breakpoint */
+    @media (max-width: 700px) {
+      .ap-nav .nav-ham   { display: flex; }
+      .ap-nav .nav-links { display: none; }
+    }
+    @media (min-width: 701px) {
+      .ap-nav-top { height: 76px; padding: 0 28px; }
+      .ap-nav .brand-icon { width: 46px; height: 46px; font-size: 24px; }
+      .ap-nav .brand-text { font-size: 14px; max-width: 260px; }
+    }
 
     /* ── HERO / COVER ── */
     .hero-wrap {
-      padding-top: 76px;
+      padding-top: 60px;
       background: linear-gradient(180deg, #041410 0%, #061a17 40%, #082520 80%, #0a2e2a 100%);
       min-height: 100vh; display: flex; flex-direction: column; align-items: center;
     }
+    @media (min-width: 701px) { .hero-wrap { padding-top: 76px; } }
     .cover-spotlight {
       width: 100%; display: flex; justify-content: center; align-items: flex-end;
       padding: 60px 24px 0; position: relative;
@@ -420,14 +558,20 @@ ap.get('/', (c) => {
     }
     .cover-title-ar .green { color: #34d399; }
     .cover-stats-row {
-      display: inline-flex; align-items: stretch; gap: 0;
+      display: flex; flex-wrap: wrap; align-items: stretch; gap: 0;
       background: rgba(255,255,255,0.07); border: 1.5px solid rgba(255,255,255,0.14);
       border-radius: 18px; overflow: hidden; margin: 0 auto 36px; max-width: 600px;
+      justify-content: center;
     }
-    .csr-item { padding: 16px 28px; text-align: center; border-left: 1px solid rgba(255,255,255,0.12); }
+    .csr-item { padding: 14px 20px; text-align: center; border-left: 1px solid rgba(255,255,255,0.12); flex: 1; min-width: 80px; }
     .csr-item:last-child { border-left: none; }
-    .csr-num { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 30px; font-weight: 800; color: white; line-height: 1; }
+    .csr-num { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 28px; font-weight: 800; color: white; line-height: 1; }
     .csr-lbl { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 11px; color: rgba(255,255,255,0.48); margin-top: 4px; }
+    @media (max-width: 480px) {
+      .csr-item { padding: 12px 14px; }
+      .csr-num  { font-size: 22px; }
+      .csr-lbl  { font-size: 10px; }
+    }
     .cover-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
     .btn-green-lg {
       font-family: 'Noto Kufi Arabic', sans-serif; font-size: 17px; font-weight: 800;
@@ -550,12 +694,26 @@ ap.get('/', (c) => {
 <body>
 
   <!-- ① TOP NAVBAR -->
-  <nav class="ap-nav">
-    <a href="/anesthesia-policies" class="brand">
-      <div class="brand-icon">💊</div>
-      <span class="brand-text">${bookTitle}</span>
-    </a>
-    <div class="nav-links">
+  <nav class="ap-nav" id="apNavHome">
+    <div class="ap-nav-top">
+      <a href="/anesthesia-policies" class="brand">
+        <div class="brand-icon">💊</div>
+        <span class="brand-text">${bookTitle}</span>
+      </a>
+      <!-- Desktop links -->
+      <div class="nav-links">
+        <a href="/portal" class="btn-portal">🏠 المنصة</a>
+        <a href="/anesthesia-policies" class="btn-active">الرئيسية</a>
+        <a href="/anesthesia-policies/sections" class="btn-sections">📚 الأقسام</a>
+      </div>
+      <!-- Hamburger -->
+      <button class="nav-ham" id="apHomHam" aria-label="القائمة"
+        onclick="(function(){var d=document.getElementById('apHomDrawer');d.classList.toggle('open');})()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile drawer -->
+    <div class="nav-drawer" id="apHomDrawer">
       <a href="/portal" class="btn-portal">🏠 المنصة</a>
       <a href="/anesthesia-policies" class="btn-active">الرئيسية</a>
       <a href="/anesthesia-policies/sections" class="btn-sections">📚 الأقسام</a>
