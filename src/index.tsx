@@ -649,8 +649,10 @@ app.get('/portal', (c) => {
     .book-img-wrap img {
       position: absolute;
       inset: 0; width: 100%; height: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      object-position: center top;
       transition: transform 0.4s ease;
+      background: linear-gradient(135deg, #e8edf5, #c3cfe2);
     }
     .book-card:hover .book-img-wrap img { transform: scale(1.06); }
 
@@ -878,9 +880,33 @@ app.get('/or-safety', (c) => {
       display: flex; gap: 14px; justify-content: center;
       flex-wrap: wrap;
     }
+    .btn-white {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 15px; font-weight: 700;
+      display: inline-block;
+      background: white; color: #1e3a8a;
+      padding: 13px 28px; border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      transition: all 0.25s;
+    }
+    .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.25); }
+    .btn-outline {
+      font-family: 'Noto Kufi Arabic', sans-serif;
+      font-size: 15px; font-weight: 600;
+      display: inline-block;
+      background: transparent; color: white;
+      padding: 13px 28px; border-radius: 10px;
+      border: 2px solid rgba(255,255,255,0.55);
+      text-decoration: none;
+      transition: all 0.25s;
+    }
+    .btn-outline:hover { background: rgba(255,255,255,0.12); }
     @media (max-width: 600px) {
       .cover-bottom { padding: 28px 16px 36px; }
       .cover-main-title { font-size: 20px; }
+      .btn-white, .btn-outline { width: 100%; text-align: center; font-size: 14px; padding: 12px 20px; }
+      .cover-actions { flex-direction: column; padding: 0 8px; gap: 10px; }
     }
 
     /* HERO — title section below cover */
@@ -1034,17 +1060,21 @@ app.get('/or-safety', (c) => {
     .btn-white {
       font-family: 'Noto Kufi Arabic', sans-serif;
       font-size: 15px; font-weight: 700;
+      display: inline-block;
       background: white; color: #1e3a8a;
       padding: 14px 32px; border-radius: 10px;
+      text-decoration: none;
       transition: all 0.25s; box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     }
     .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.25); }
     .btn-outline {
       font-family: 'Noto Kufi Arabic', sans-serif;
       font-size: 15px; font-weight: 600;
+      display: inline-block;
       background: transparent; color: white;
       padding: 14px 32px; border-radius: 10px;
-      border: 2px solid rgba(255,255,255,0.35);
+      border: 2px solid rgba(255,255,255,0.45);
+      text-decoration: none;
       transition: all 0.25s;
     }
     .btn-outline:hover { background: rgba(255,255,255,0.1); }
