@@ -227,7 +227,113 @@ div, p, h1, h2, h3, h4, h5, h6 {
         }
       }
     </style>
-  </head>
+  <style>
+/* ===== RESPONSIVE FIXES: Mobile & Tablet ===== */
+
+/* منع overflow أفقي */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+}
+
+/* محتوى الفصل */
+body > * {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* الجداول */
+table {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  display: block !important;
+  border-collapse: collapse !important;
+}
+td, th {
+  word-break: break-word !important;
+  min-width: 60px !important;
+  padding: 8px 6px !important;
+  font-size: clamp(12px, 3vw, 15px) !important;
+}
+
+/* الصور */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* div و section */
+div, section, article, aside {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* حجم الخط التكيفي */
+p, li, td, th, span, label {
+  font-size: clamp(14px, 4vw, 17px) !important;
+  line-height: 1.85 !important;
+}
+
+h1 { font-size: clamp(20px, 6vw, 36px) !important; line-height: 1.4 !important; }
+h2 { font-size: clamp(18px, 5vw, 28px) !important; line-height: 1.4 !important; }
+h3 { font-size: clamp(16px, 4.5vw, 22px) !important; line-height: 1.45 !important; }
+h4 { font-size: clamp(15px, 4vw, 19px) !important; }
+
+/* تابلت */
+@media (max-width: 768px) {
+  body {
+    padding: 65px 14px 30px !important;
+    font-size: 15px !important;
+  }
+
+  /* الكود والنصوص المنسقة */
+  pre, code {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+    font-size: 13px !important;
+  }
+
+  /* الشبكات والصفوف الجانبية */
+  .grid, .flex-row, .columns, [class*="col-"], [class*="grid-"] {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  /* الفقرات والمقاطع */
+  .chapter-content, .content, .section, article {
+    padding: 0 !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* هاتف */
+@media (max-width: 480px) {
+  body {
+    padding: 62px 10px 25px !important;
+    font-size: 14px !important;
+  }
+
+  table {
+    font-size: 12px !important;
+  }
+  td, th {
+    padding: 6px 4px !important;
+  }
+
+  /* الشريط العلوي */
+  .as-top-nav {
+    padding: 7px 10px !important;
+    gap: 5px !important;
+  }
+  .as-nav-link {
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+  }
+}
+/* ===== END RESPONSIVE FIXES ===== */
+</style>
+</head>
   <body style="">
 <style>
   /* ANESTHESIA SAFETY NAVBAR */
@@ -820,75 +926,6 @@ div, p, h1, h2, h3, h4, h5, h6 {
       <div class="author-name">د. جميل السقيا</div>
       <div>استشاري التخدير والعناية المركزة</div>
     </div>
-
-    <!-- Navigation Footer -->
-    <style>
-        body {
-            padding-bottom: 80px !important;
-        }
-        .nav-footer-static {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0.95));
-            backdrop-filter: blur(10px);
-            border-top: 2px solid #2563eb;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-            z-index: 1000;
-        }
-        .nav-btn-static {
-            padding: 10px 25px;
-            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            font-family: 'Noto Kufi Arabic', Arial, sans-serif;
-            font-weight: 600;
-            font-size: 14px;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-        .nav-btn-static:hover {
-            background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-        }
-        .nav-btn-static.prev::before {
-            content: '← ';
-        }
-        .nav-btn-static.next::after {
-            content: ' →';
-        }
-        .nav-center-static {
-            font-family: 'Noto Kufi Arabic', Arial, sans-serif;
-            font-weight: 600;
-            color: #2563eb;
-            font-size: 16px;
-        }
-        @media (max-width: 768px) {
-            .nav-footer-static {
-                flex-direction: column;
-                gap: 10px;
-                padding: 12px 15px;
-            }
-            .nav-btn-static {
-                width: 100%;
-                text-align: center;
-            }
-            .nav-center-static {
-                order: -1;
-                margin-bottom: 5px;
-            }
-        }
-    </style>
-    <div class="nav-footer-static">
-        <a href="/anesthesia-safety/chapter/contents" class="nav-btn-static prev">السابق: جدول المحتويات</a>
-        <div class="nav-center-static">المقدمة</div>
         <a href="/anesthesia-safety/chapter/min-ramad" class="nav-btn-static next">التالي: من رماد الذاكرة</a>
     </div>
   
