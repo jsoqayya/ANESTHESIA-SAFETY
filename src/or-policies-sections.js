@@ -9536,9 +9536,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.1 -->
  <!-- ========================================== -->
  
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.1 — OT Entry/Exit Control &amp; Theatre Discipline</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.1 — OT Entry/Exit Control &amp; Theatre Discipline</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.1 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -9853,9 +9873,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.2 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.2 — Safe Practices in OT / Environmental Hazards / Wrong-Site Prevention</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.2 — Safe Practices in OT / Environmental Hazards / Wrong-Site Prevention</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.2 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -10173,9 +10213,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.3 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.3 — Surgical Counts (Sponges / Sharps / Instruments)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.3 — Surgical Counts (Sponges / Sharps / Instruments)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.3 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -10707,9 +10767,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.4 -->
  <!-- ========================================== -->
  
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.4 — Retained Surgical Item Prevention</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.4 — Retained Surgical Item Prevention</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.4 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -11121,9 +11201,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.5 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.5 — Patient Positioning &amp; Pressure Injury Prevention</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.5 — Patient Positioning &amp; Pressure Injury Prevention</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.5 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -11376,9 +11476,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.6 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.6 — Specimen Handling, Labeling &amp; Transport</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.6 — Specimen Handling, Labeling &amp; Transport</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.6 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -11636,9 +11756,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.7 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.7 — Implant / Prosthesis Traceability (Stickers, Logs, Patient Implant ID)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.7 — Implant / Prosthesis Traceability (Stickers, Logs, Patient Implant ID)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.7 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -12043,9 +12183,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.8 -->
  <!-- ========================================== -->
  
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.8 — Surgical Smoke Safety</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.8 — Surgical Smoke Safety</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.8 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -12333,9 +12493,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.9 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.9 — Tourniquet Use (If Used)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.9 — Tourniquet Use (If Used)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.9 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -12596,9 +12776,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.10 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.10 — Contrast Media / Dyes Handling in OT (OT Side)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.10 — Contrast Media / Dyes Handling in OT (OT Side)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.10 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -12845,9 +13045,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.11 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.11 — Clinical Photography/Video in OT</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.11 — Clinical Photography/Video in OT</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.11 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -13120,9 +13340,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.12 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.12 — Perioperative Documentation Standards (OT Record Completion)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.12 — Perioperative Documentation Standards (OT Record Completion)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.12 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -13426,9 +13666,29 @@ export const orSectionsHtml = {
  <!-- POLICY 11.13 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 11.13 — Blood Loss Estimation &amp; Documentation (OT Tool + Escalation Trigger)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-slate-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-slate-800 to-slate-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-slate-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 11.13 — Blood Loss Estimation &amp; Documentation (OT Tool + Escalation Trigger)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 11.13 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -13831,9 +14091,29 @@ export const orSectionsHtml = {
  <!-- POLICY 12.1 -->
  <!-- ========================================== -->
  
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 12.1 — Care &amp; Handling of Instruments and Equipment</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.1 — Care &amp; Handling of Instruments and Equipment</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 12.1 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -14025,9 +14305,29 @@ export const orSectionsHtml = {
  <!-- POLICY 12.2 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 12.2 — Loaner Instruments / Vendor Trays Governance</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.2 — Loaner Instruments / Vendor Trays Governance</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 12.2 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -14139,9 +14439,29 @@ export const orSectionsHtml = {
  <!-- POLICY 12.3 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 12.3 — Electrosurgical Unit (Diathermy) Safety</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.3 — Electrosurgical Unit (Diathermy) Safety</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 12.3 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -14647,9 +14967,29 @@ export const orSectionsHtml = {
  <!-- POLICY 12.4 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 12.4 — Warming Cabinet Use &amp; Safety</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.4 — Warming Cabinet Use &amp; Safety</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 12.4 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -14709,9 +15049,29 @@ export const orSectionsHtml = {
  <!-- POLICY 12.5 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 12.5 — Equipment Failure Response &amp; “Remove from Service” Tagging</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.5 — Equipment Failure Response &amp; “Remove from Service” Tagging</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 12.5 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -14774,9 +15134,29 @@ export const orSectionsHtml = {
  <!-- POLICY 12.6 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 12.6 — Preventive Maintenance &amp; Calibration Interface (Biomed)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.6 — Preventive Maintenance &amp; Calibration Interface (Biomed)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 12.6 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -14836,9 +15216,29 @@ export const orSectionsHtml = {
  <!-- POLICY 12.7 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 12.7 — Consumables &amp; Expiry Management</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.7 — Consumables &amp; Expiry Management</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 12.7 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -14902,9 +15302,29 @@ export const orSectionsHtml = {
  <!-- POLICY 12.8 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 12.8 — IT Downtime Procedure (Paper Packs, Back-Entry Rules)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-indigo-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-indigo-800 to-indigo-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-indigo-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 12.8 — IT Downtime Procedure (Paper Packs, Back-Entry Rules)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 12.8 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -15618,9 +16038,29 @@ export const orSectionsHtml = {
  <!-- POLICY 13.1 -->
  <!-- ========================================== -->
  
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 13.1 — OT Safety Rounds &amp; Hazard Reporting</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-red-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-red-800 to-red-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-red-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 13.1 — OT Safety Rounds &amp; Hazard Reporting</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 13.1 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -15802,9 +16242,29 @@ export const orSectionsHtml = {
  <!-- POLICY 13.2 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 13.2 — Fire Safety in OT: Prevention &amp; Response</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-red-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-red-800 to-red-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-red-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 13.2 — Fire Safety in OT: Prevention &amp; Response</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 13.2 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -15987,9 +16447,29 @@ export const orSectionsHtml = {
  <!-- POLICY 13.3 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 13.3 — Medical Gas Safety</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-red-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-red-800 to-red-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-red-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 13.3 — Medical Gas Safety</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 13.3 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -16106,9 +16586,29 @@ export const orSectionsHtml = {
  <!-- POLICY 13.4 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 13.4 — Electrical Safety &amp; Equipment Plug Rules</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-red-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-red-800 to-red-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-red-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 13.4 — Electrical Safety &amp; Equipment Plug Rules</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 13.4 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -16243,9 +16743,29 @@ export const orSectionsHtml = {
  <!-- POLICY 13.5 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 13.5 — Radiation Safety in OT (C-Arm Workflows, PPE, Badges)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-red-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-red-800 to-red-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-red-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 13.5 — Radiation Safety in OT (C-Arm Workflows, PPE, Badges)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 13.5 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -16398,9 +16918,29 @@ export const orSectionsHtml = {
  <!-- POLICY 13.6 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 13.6 — Waste Segregation (Sharps, Clinical, Cytotoxic, General)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-red-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-red-800 to-red-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-red-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 13.6 — Waste Segregation (Sharps, Clinical, Cytotoxic, General)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 13.6 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -16535,9 +17075,29 @@ export const orSectionsHtml = {
  <!-- POLICY 13.7 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 13.7 — Sharps Injury Prevention &amp; Exposure Response (OT Workflow)</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-red-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-red-800 to-red-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-red-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 13.7 — Sharps Injury Prevention &amp; Exposure Response (OT Workflow)</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 13.7 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -16700,9 +17260,29 @@ export const orSectionsHtml = {
  <!-- POLICY 13.8 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 13.8 — Visitors to Operating Room</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-red-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-red-800 to-red-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-red-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 13.8 — Visitors to Operating Room</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 13.8 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -16997,9 +17577,29 @@ export const orSectionsHtml = {
  <!-- POLICY 14.1 -->
  <!-- ========================================== -->
  
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 14.1 — Code Blue / Rapid Response Activation in OT</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-orange-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-orange-700 to-amber-600 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-amber-100 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 14.1 — Code Blue / Rapid Response Activation in OT</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 14.1 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -17284,9 +17884,29 @@ export const orSectionsHtml = {
  <!-- POLICY 14.2 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 14.2 — Massive Hemorrhage Activation</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-orange-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-orange-700 to-amber-600 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-amber-100 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 14.2 — Massive Hemorrhage Activation</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 14.2 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -17498,9 +18118,29 @@ export const orSectionsHtml = {
  <!-- POLICY 14.3 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 14.3 — OT Evacuation / Shelter-in-Place</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-orange-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-orange-700 to-amber-600 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-amber-100 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 14.3 — OT Evacuation / Shelter-in-Place</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 14.3 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -17731,9 +18371,29 @@ export const orSectionsHtml = {
  <!-- POLICY 14.4 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 14.4 — Utility Failure Contingency</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-orange-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-orange-700 to-amber-600 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-amber-100 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 14.4 — Utility Failure Contingency</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 14.4 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -17970,9 +18630,29 @@ export const orSectionsHtml = {
  <!-- POLICY 14.5 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 14.5 — Infectious Outbreak / Surge OT Workflow</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-orange-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-orange-700 to-amber-600 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-amber-100 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 14.5 — Infectious Outbreak / Surge OT Workflow</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 14.5 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -18339,9 +19019,29 @@ export const orSectionsHtml = {
  <!-- POLICY 15.1 -->
  <!-- ========================================== -->
  
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 15.1 — Emergency / Trauma OR Workflow</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-teal-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-teal-800 to-teal-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-teal-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 15.1 — Emergency / Trauma OR Workflow</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 15.1 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -18543,9 +19243,29 @@ export const orSectionsHtml = {
  <!-- POLICY 15.2 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 15.2 — Obstetric Theatre Workflow</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-teal-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-teal-800 to-teal-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-teal-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 15.2 — Obstetric Theatre Workflow</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 15.2 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -18715,9 +19435,29 @@ export const orSectionsHtml = {
  <!-- POLICY 15.3 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 15.3 — Pediatric Surgery Workflow</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-teal-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-teal-800 to-teal-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-teal-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 15.3 — Pediatric Surgery Workflow</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 15.3 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -18870,9 +19610,29 @@ export const orSectionsHtml = {
  <!-- POLICY 15.4 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 15.4 — Orthopedic Implant Surgery Workflow</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-teal-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-teal-800 to-teal-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-teal-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 15.4 — Orthopedic Implant Surgery Workflow</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 15.4 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
@@ -19046,9 +19806,29 @@ export const orSectionsHtml = {
  <!-- POLICY 15.5 -->
  <!-- ========================================== -->
 
- <div class="text-center mb-8">
- <h2 class="text-3xl font-extrabold text-slate-800 heading-serif">POLICY 15.5 — ENT / Shared Airway Field</h2>
- </div>
+ <div class="relative rounded-2xl overflow-hidden shadow-xl mb-8 border border-teal-700 border-opacity-30">
+  <!-- Gradient header band -->
+  <div class="bg-gradient-to-r from-teal-800 to-teal-700 px-8 py-6 flex items-center gap-5">
+    <!-- Icon badge -->
+    <div class="flex-shrink-0 w-14 h-14 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+      <svg class="w-7 h-7 text-white opacity-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+      </svg>
+    </div>
+    <!-- Title block -->
+    <div class="flex-1 min-w-0">
+      <span class="block text-xs font-bold tracking-widest uppercase text-teal-200 mb-1 opacity-80">Operating Theatre Policy</span>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white heading-serif leading-tight">POLICY 15.5 — ENT / Shared Airway Field</h2>
+    </div>
+    <!-- Right label -->
+    <div class="hidden md:flex flex-col items-end gap-1 flex-shrink-0">
+      <span class="inline-block px-3 py-1 rounded-full bg-white/15 border border-white/25 text-xs font-semibold text-white tracking-wide">Policy Document</span>
+    </div>
+  </div>
+  <!-- Bottom accent strip -->
+  <div class="h-1 bg-gradient-to-r from-white/30 via-white/60 to-white/10"></div>
+</div>
 
  <!-- Meta Information Card 15.5 -->
  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 mb-10 policy-card">
