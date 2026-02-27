@@ -2427,8 +2427,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <h2>23.14 تأملات في مسرح العمليات</h2>
     <h3>23.14 Reflections in the Operating Theatre</h3>
-    <p><em>ملاحظة: تم تخطي الترقيم من 23.8 إلى 23.14 التزاماً بالنص الأصلي.</em></p>
-
     <h3>23.14.1 غرفة العمليات الهادئة هي غرفة عمليات آمنة / A quiet OR is a safe OR</h3>
     <p>في الغرفة ذات الجدولة الجيدة، يمشي الناس ولا يركضون. هناك وقت لغسل الأيدي، والقيام بالمهلة (Time-out)، وتجفيف محلول التحضير. الجدولة الجيدة تشتري لغرفة العمليات أثمن أداة أمان على الإطلاق: <strong>الوقت.</strong></p>
     <p><span class="english-term"><strong>23.14.1 A quiet OR is a safe OR</strong><br>In a well-scheduled room, people walk, they don’t run. There is time to wash hands, do the Time-out, and let the prep dry. Good scheduling buys the OR its most precious safety tool: <strong>Time.</strong></span></p>
@@ -9406,8 +9404,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <h2>16.15 تأملات في مسرح العمليات</h2>
     <h3>16.15 Reflections in the Operating Theatre</h3>
-    <p><em>ملاحظة: تم الاحتفاظ بالترقيم كما هو في النص الأصلي.</em></p>
-
     <h3>16.15.1 العينة هي قصة مستقبلية / A specimen is a future story</h3>
     <p>العينة هي قصة عن جسد المريض. إذا أرفقنا الاسم الخاطئ، فإننا نكتب القصة الخاطئة—وشخص آخر سيتصرف بناءً عليها لاحقاً.</p>
     <p><span class="english-term"><strong>16.15.1 A specimen is a future story</strong><br>A specimen is a story about the patient’s body. If we attach the wrong name, we write the wrong story—and someone else acts on it later.</span></p>
@@ -9644,8 +9640,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <h2>26.9 تأملات في مسرح العمليات</h2>
     <h3>26.9 Reflections in the Operating Theatre</h3>
-    <p><em>ملاحظة: تم تكييف الترقيم ليتناسب مع التسلسل.</em></p>
-
     <h3>26.9.1 الفوضى عبء معرفي / Clutter is cognitive load</h3>
     <p>عندما تكون الرفوف مزدحمة بشكل مفرط، يحتاج الدماغ إلى العمل بجهد أكبر للعثور على الشيء الصحيح. وفي حالات الطوارئ، يؤدي العبء المعرفي المرتفع إلى أخطاء فادحة. الترتيب هو استراتيجية سلامة. (IHI)</p>
     <p><span class="english-term"><strong>26.9.1 Clutter is cognitive load</strong><br>When shelves are overstuffed, the brain has to work harder to find the right thing. In an emergency, high cognitive load leads to critical errors. Tidiness is a safety strategy. (IHI)</span></p>
