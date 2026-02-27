@@ -303,7 +303,7 @@ tocApp.get('/', (c) => {
  <div class="p-8 space-y-8 flex-grow">
  <div class="mb-6 p-5 bg-purple-50/80 rounded-2xl text-[14px] text-purple-800 font-medium border border-purple-200 flex gap-3 items-start">
  <svg class="w-6 h-6 text-purple-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
- <span><strong>ملاحظة:</strong> هذه السياسة مقسّمة إلى ثلاثة أجزاء مستقلة:<br/>
+ <span><strong>Note:</strong> This policy is split into three independent parts:<br/>
  <strong>Part A</strong> — SEC 11 (11.1–11.3) &nbsp;|&nbsp; <strong>Part B</strong> — SEC 11 (11.4–11.7) &nbsp;|&nbsp; <strong>Part C</strong> — SEC 11 (11.8–11.13)</span>
  </div>
  <div>
