@@ -642,7 +642,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <div class="concept-box">
         <h3>9.4.3 2: "جهاز SCD الذي كان 'مُشغّلاً' في أذهان الجميع"</h3>
-        <p><strong>Real Story 2: “The SCD that was ‘on’ in everyone’s mind”</strong></p>
         <p>حالة طويلة. تم وضع المريض بعناية. الجوارب كانت عليه. وُضعت أكمام SCD (الضغط الهوائي). <strong>افترض الجميع أنه يعمل.</strong></p>
         <p>بعد ساعتين، لاحظت ممرضة دوارة أن الجهاز موصول بالكهرباء ولكنه غير مُشغل. كانت الأكمام صامتة. كانت الغرفة مشغولة ولم يقصد أحد نسيان ذلك.</p>
         <p>لم تقم تلك الممرضة بتشغيله بهدوء والمضي قدماً. لقد قالت بصوت عالٍ:<br>
@@ -677,7 +676,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <div class="alert-box">
         <h3>9.5.3 3: "الكعب الذي لم يره أحد"</h3>
-        <p><strong>Real Story 3: “The heel that no one saw”</strong></p>
         <p>مريض مسن هش خضع لإجراء طويل. بدت الوضعية كافية. اُستخدم التوسيد (Padding)—على الأقل، هذا ما اعتقده الجميع.</p>
         <p>بعد يومين، ظهرت قرحة في الكعب. سألت عائلة المريض: <strong>"لماذا حدث هذا في المستشفى؟"</strong></p>
         <p>في المراجعة، اكتشفنا شيئاً بسيطاً ومؤلماً: كان الكعب يرتكز على حافة صلبة <strong>بعد تعديل الوضعية في منتصف الحالة</strong>، ولم يقم أحد بإعادة فحص موثقة لنقاط الضغط بعد ذلك.</p>
@@ -712,7 +710,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <div class="concept-box">
         <h3>9.6.3 4: "المريض المرتعش الذي علمنا التوقيت"</h3>
-        <p><strong>Real Story 4: “The shivering patient who taught us timing”</strong></p>
         <p>وصل مريض إلى وحدة الإفاقة (PACU) يرتعش بعنف، في حالة ضيق، وغير قادر على الراحة. كانت الجراحة "ناجحة"، لكن تجربة المريض كانت بائسة.</p>
         <p>عندما نظرنا للوراء: بدأت التدفئة متأخراً. كانت بطانية الهواء القسري متوفرة لكن <strong>لم يتم توصيلها مبكراً</strong> لأن الفريق كان مشغولاً.</p>
         <p>بعد ذلك، غيرنا عادة واحدة: يتم تحضير التدفئة بالهواء القسري (Forced-air warming) <strong>وتفعيلها مبكراً</strong> (حسب الاقتضاء) بدلاً من الانتظار حتى يبرد المريض بالفعل. <strong>الوقاية تتفوق على الإنقاذ.</strong> (NICE)</p>
@@ -984,7 +981,6 @@ export const chaptersContent: Record<string | number, string> = {
     <p>إذا كان المريض يعتمد على الأكسجين الإضافي المفتوح (MAC)، فقبل أن يستخدم الجراح الجراحة الكهربائية في منطقة الوجه/الرقبة، يجب على الجراح إخبار طبيب التخدير. يقوم طبيب التخدير بإيقاف الأكسجين، أو تقليله إلى الحد الأدنى، أو استبداله بالهواء الطبي، وينتظر دقيقة لتبدد الأكسجين المتجمع قبل إعطاء الإذن ببدء الكي. (ASA Practice Advisory)</p>
 
     <h2>19.4 2: "الفرش الجراحي الذي احتجز الأكسجين"</h2>
-    <h3>19.4 Real Story 2: “The drape that trapped the oxygen”</h3>
 
     <div class="quote-box">
         <p>أثناء استئصال شامة صغيرة على كتف المريض، كان المريض يتلقى الأكسجين عبر قنية أنفية (Nasal cannula). وُضعت المناشف الجراحية (Drapes) فوق الرقبة والوجه، مما أدى إلى خلق جيب ضيق فوق الصدر.</p>
@@ -1711,7 +1707,6 @@ export const chaptersContent: Record<string | number, string> = {
     </div>
 
     <h2>3.5 2: "خطر بدا تشغيلياً—لكنه كان سريرياً"</h2>
-    <h3>3.5 Real Story 2: “A risk that looked operational—but was clinical” (Narrative + Analysis)</h3>
 
     <div class="quote-box">
         <p><strong>3.5.1 المشهد (The scene):</strong><br>
@@ -1866,7 +1861,6 @@ export const chaptersContent: Record<string | number, string> = {
     </ol>
 
     <h2>3.10 3: "مثلث الحريق الذي لم يره أحد"</h2>
-    <h3>3.10 Real Story 3: “The fire triangle nobody saw” (Narrative + Analysis)</h3>
 
     <div class="quote-box">
         <p><strong>3.10.1 المشهد (The scene):</strong><br>
@@ -2383,7 +2377,6 @@ export const chaptersContent: Record<string | number, string> = {
     </ul>
 
     <h2>23.6 2: "القائمة المجدولة التي سحقت حالة الطوارئ"</h2>
-    <h3>23.6 Real Story 2: “The elective list that crushed the emergency case”</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> مستشفى يعمل بسعة 95% من غرف العمليات للعمليات المجدولة (Electives). وصلت حالة طارئة (انفجار زائدة دودية) في الساعة 1:00 ظهراً. كل غرفة عمليات كانت قيد الاستخدام. وكل حالة مجدولة كانت متأخرة عن وقتها. لم تكن أي غرفة قريبة من الانتهاء.</p>
@@ -2629,7 +2622,6 @@ export const chaptersContent: Record<string | number, string> = {
     </div>
 
     <h2>8.4 2: "المضاد الحيوي المتأخر وإغراء الزخم"</h2>
-    <h3>8.4 Real Story 2: “The late antibiotic and the temptation of momentum”</h3>
 
     <div class="quote-box">
         <p><strong>8.4.1 المشهد (The scene):</strong><br>
@@ -2671,8 +2663,7 @@ export const chaptersContent: Record<string | number, string> = {
         <p>لكن كلمة <strong>"على الأرجح" ليست استراتيجية سلامة.</strong> توقفنا لمدة دقيقتين، سألنا المريض (الذي كان مستيقظاً في ذلك الوقت)، ووضحنا الأمر: لقد كان تورماً فورياً وصعوبة في التنفس قبل سنوات—وهو تاريخ عالي الخطورة (True high-risk history) فعلاً.</p>
         <p>اخترنا نظاماً بديلاً وفقاً للسياسة، ووثقناه، ومضينا قدماً.</p>
         <p>القصة ليست عن كونك ذكياً. إنها عن الانضباط. <strong>غرفة العمليات ليس لها الحق في المقامرة بكلمة "على الأرجح".</strong> (WHO SSI; AHRQ)</p>
-        <p><span class="english-term"><strong>Real Story 3: “The allergy that was ‘probably nothing’”</strong><br>
-        But “probably” is not a safety strategy... The story is not about being clever. It’s about being disciplined. <strong>The OR has no right to gamble with “probably.”</strong> (WHO SSI; AHRQ)</span></p>
+        <p><span class="english-term">But “probably” is not a safety strategy... The story is not about being clever. It’s about being disciplined. <strong>The OR has no right to gamble with “probably.”</strong> (WHO SSI; AHRQ)</span></p>
     </div>
 
     <h2>8.6 إعادة الجرعة (Redosing): الجزء الأكثر نسياناً في الوقاية</h2>
@@ -2696,8 +2687,7 @@ export const chaptersContent: Record<string | number, string> = {
         <p>بعد هذا الحدث، أدخلت غرفة العمليات ممارسة بسيطة: أثناء الـ Time-out، تقول الممرضة الدوارة:<br>
         <strong>"تم إعطاء المضاد الحيوي في ____. إعادة الجرعة مستحقة في ____ إذا تجاوزت الحالة ____."</strong></p>
         <p>تلك الجملة الواحدة حسّنت الامتثال لإعادة الجرعة أكثر من أي محاضرة. (IHI)</p>
-        <p><span class="english-term"><strong>Real Story 4: “The long case that turned into a lesson”</strong><br>
-        “Antibiotic given at ____. Redose due at ____ if case exceeds ____.” That single sentence improved redosing compliance more than any lecture. (IHI)</span></p>
+        <p><span class="english-term">“Antibiotic given at ____. Redose due at ____ if case exceeds ____.” That single sentence improved redosing compliance more than any lecture. (IHI)</span></p>
     </div>
 
     <h2>8.7 النصف غير المرئي للوقاية من SSI: البيئة والسلوك</h2>
@@ -3051,7 +3041,6 @@ export const chaptersContent: Record<string | number, string> = {
     </div>
 
     <h2>18.8 2: "الإنذار الذي تم تجاهله"</h2>
-    <h3>18.8 Real Story 2: “The ignored alarm”</h3>
 
     <div class="quote-box">
         <p>أثناء الجراحة، استمر جهاز الكي الكهربائي (ESU) في إصدار إنذارات تنبيهية (Beeping) تشير إلى سوء جودة التلامس (CQM alarm).<br>
@@ -3792,7 +3781,6 @@ export const chaptersContent: Record<string | number, string> = {
     <span class="english-term"><strong>Continuation Gate controls (PACU → Ward):</strong> Surgical continuity dataset repeated and confirmed. Traceability completion before handoff ends (specimen labeling and implant traceability). (AORN)</span></p>
 
     <h2>2.5 2: "الإلغاء الذي كان يمكن تفاديه والذي كاد أن يتحول إلى حدث ضار"</h2>
-    <h3>2.5 Real Story 2: “The preventable cancellation that nearly became a harm event”</h3>
 
     <div class="quote-box">
         <p><strong>2.5.1 المشهد (The scene):</strong><br>
@@ -3821,7 +3809,6 @@ export const chaptersContent: Record<string | number, string> = {
     </div>
 
     <h2>2.6 3: "ارتباك العينات—عندما يتحول ملصق صغير إلى حدث ضخم"</h2>
-    <h3>2.6 Real Story 3: “Specimen confusion—when a tiny label becomes a massive event”</h3>
 
     <div class="quote-box">
         <p><strong>2.6.1 المشهد (The scene):</strong><br>
@@ -4150,7 +4137,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <div class="concept-box">
         <h3>12.5.3 2: "الشعر الذي غيّر النظام"</h3>
-        <p><strong>Real Story 2: “The hair that changed the system”</strong></p>
         <p>استمرت غرفة العمليات في العثور على شعيرات دقيقة داخل الصواني المعقمة. كانوا غاضبين وأعادوا الصواني. كان CSSD محبطاً.</p>
         <p>بدلاً من الجدال، قاموا بمراجعة مشتركة (Joint review). اكتشفوا أن الشعيرات لم تكن من الموظفين؛ كانت أليافاً من المناشف المستخدمة في غرفة العمليات والتي تم غسلها وإعادتها للاستخدام في التغليف.</p>
         <p>تم حل المشكلة بتغيير نوع المناشف. الشراكة تحل المشاكل التي لا يستطيع اللوم حلها. (IHI)</p>
@@ -5408,7 +5394,6 @@ export const chaptersContent: Record<string | number, string> = {
     </ul>
 
     <h2>11.8 2: "الشريحة العظمية التي تطلبت IUSS"</h2>
-    <h3>11.8 Real Story 2: “The Bone Flap That Required IUSS”</h3>
 
     <div class="quote-box">
         <p><strong>11.8.1 المشهد (The scene):</strong><br>
@@ -5911,7 +5896,6 @@ export const chaptersContent: Record<string | number, string> = {
     </ul>
 
     <h2>21.6 2: "الهيبارين الذي كان يُفترض أن يكون محلولاً ملحياً"</h2>
-    <h3>21.6 Real Story 2: “The Heparin that was meant to be Saline”</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> أثناء إجراء لترقيع الأوعية الدموية (Vascular graft)، كان الجراح يحتاج إلى غسل الوعاء بمحلول ملحي مع هيبارين (Heparinized saline) لمنع التجلط.</p>
@@ -6172,7 +6156,6 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term">A surprising number of near-misses begin with abbreviations—short forms that mean different things to different people. “Repair” may hide “revision,” “excision” may hide “biopsy + excision,” and laterality may vanish entirely. Standardization of procedure naming is a safety requirement in practice, even if it feels “administrative.” (The Joint Commission; IHI)</span></p>
 
     <h2>5.4 2: "مريضان. نفس اسم العائلة. نفس اليوم."</h2>
-    <h3>5.4 Real Story 2: “Two patients. Same surname. Same day.”</h3>
 
     <div class="quote-box">
         <p><strong>5.4.1 المشهد (The scene):</strong><br>
@@ -6221,7 +6204,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <div class="concept-box">
         <h3>5.5.3 3: "الموافقة التي قالت شيئاً، والجراح الذي قصد شيئاً آخر"</h3>
-        <p><strong>Real Story 3: “The consent that said one thing, and the surgeon who meant another”</strong></p>
         <p>كان مريض مجدولاً لإجراء مع امتداد محتمل اعتماداً على النتائج. أدرج الحجز الإجراء الممتد. وأدرجت الموافقة الإجراء المحدود. ووصفت ملاحظة العيادة كليهما كاحتمالات.</p>
         <p>في منطقة الانتظار، قال المريض: "لقد وافقت على العملية الأصغر."</p>
         <p>أرادت غرفة العمليات البدء—كانت القائمة متأخرة. شعر الجراح أن الإجراء الممتد سيكون مطلوباً على الأرجح. وقف الفريق عند مفترق طرق: المضي قدماً و"تسوية الأمر لاحقاً"، أو التوقف والتسوية الآن.</p>
@@ -6290,7 +6272,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <div class="concept-box">
         <h3>5.8.2 4: "العينة التي كادت أن تصبح مريضاً آخر"</h3>
-        <p><strong>Real Story 4: “The specimen that almost became a different patient”</strong></p>
         <p>تم أخذ عينتين. كانت الغرفة مزدحمة. أعدت الممرضة الدوارة الملصقات أثناء ردها أيضاً على مكالمة من المنسق حول التبديل. مقاطعة صغيرة واحدة—اندفاعة واحدة—وكادت الملصقات أن تتبدل.</p>
         <p>تم اكتشاف الخطأ لأن الممرضة المعقمة (Scrub nurse) طالبت بقراءة عكسية (Read-back):<br>
         <strong>"قولي اسم المريض ووصف العينة بصوت عالٍ قبل أن تغلقي الحاوية."</strong> (AHRQ)</p>
@@ -7250,7 +7231,6 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term">These indicators show whether governance actually works. (IHI)</span></p>
 
     <h2>4.11 2: "عندما كانت المساءلة خاطئة، أصبحت السلامة أسوأ"</h2>
-    <h3>4.11 Real Story 2: “When accountability was wrong, safety got worse” (Narrative + Analysis)</h3>
 
     <div class="quote-box">
         <p><strong>4.11.1 الحدث (The event):</strong><br>
@@ -7283,7 +7263,6 @@ export const chaptersContent: Record<string | number, string> = {
     </div>
 
     <h2>4.12 3: "لجنة غيرت غرفة العمليات في 90 يوماً"</h2>
-    <h3>4.12 Real Story 3: “A committee that changed the OR in 90 days” (Narrative + Model)</h3>
 
     <div class="concept-box">
         <p><strong>4.12.1 نقطة البداية (The starting point):</strong><br>
@@ -7556,7 +7535,6 @@ export const chaptersContent: Record<string | number, string> = {
     </ul>
 
     <h2>14.6 2: "التسلسل الهرمي الذي هزم قائمة التحقق"</h2>
-    <h3>14.6 Real Story 2: “The hierarchy that defeated the checklist”</h3>
 
     <div class="quote-box">
         <p>بدأت الممرضة الدوارة بقراءة הـ Time-out: <em>"المريض هو..."</em><br>
@@ -7806,7 +7784,6 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term"><strong>24.5.2 "Pit-stop" approach</strong><br>The best hospitals use a "pit-stop" approach. When the patient rolls out, a whole team swarms the room for specific pre-assigned tasks. But this requires <strong>total role clarity</strong>. If everyone doesn’t know their exact job, the swarm becomes chaos. (IHI; AHRQ)</span></p>
 
     <h2>24.6 2: "التبديل في 10 دقائق الذي تسبب في عدوى"</h2>
-    <h3>24.6 Real Story 2: “The 10-Minute Turnover that Caused an Infection”</h3>
 
     <div class="quote-box">
         <p>كانت الغرفة متأخرة ساعة كاملة. كان فريق الجراحة منزعجاً. عندما خرج المريض الأول، دفع الجراح الجميع للتعجيل. تم تبديل الغرفة في 10 دقائق—وهو رقم قياسي. كانوا فخورين جداً.</p>
@@ -8154,7 +8131,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <div class="concept-box">
         <h3>7.5.4 2: "الاجتماع الذي منع استخدام الغرسة الخاطئة"</h3>
-        <p><strong>Real Story 2: “The huddle that prevented a wrong implant”</strong></p>
         <p>عانى قسم عالي الحجم من مفاجآت متكررة في الغرسات. في أحد الأيام، أدخلت غرفة العمليات اجتماعاً (Huddle) مدته 12 دقيقة في الساعة 2 ظهراً لليوم السابق للجراحة. في ذلك الاجتماع، سألت ممرضة: <strong>"هل تم تأكيد نظام الغرسة، وهل لدينا النطاق الكامل للأحجام؟"</strong></p>
         <p>كان الجواب: "نعتقد ذلك."</p>
         <p>أصرت الممرضة: <strong>"تم تأكيده بواسطة من، ومتى؟"</strong> لم يكن لدى أحد رقم تأكيد.</p>
@@ -8706,7 +8682,6 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term"><strong>27.5.2 Controlling new technology</strong><br>When a hospital buys a new device (like a new robot or laser), no surgeon should use it just because they “watched a video.” Privileging must require documented vendor training and proctored cases. (ECRI concepts)</span></p>
 
     <h2>27.6 2: "الممرضة المعقمة التي قالت 'لا'"</h2>
-    <h3>27.6 Real Story 2: “The Scrub Nurse Who Said 'No'”</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> في يوم جمعة بجدول مزدحم، استدعت غرفة العمليات موظفي وكالة خارجية (Agency staff) لتغطية النقص. تم تعيين ممرضة معقمة من الوكالة في حالة جراحة أوعية دموية كبرى.</p>
@@ -8979,7 +8954,6 @@ export const chaptersContent: Record<string | number, string> = {
     </div>
 
     <h2>6.4 2: "كان الجراح على حق—حتى فُتح التصوير الطبي"</h2>
-    <h3>6.4 Real Story 2: “The surgeon was right—until the imaging was opened”</h3>
 
     <div class="quote-box">
         <p><strong>6.4.1 المشهد (The scene):</strong><br>
@@ -9083,7 +9057,6 @@ export const chaptersContent: Record<string | number, string> = {
 
     <div class="concept-box">
         <h3>6.7.3 3: "المكون المفقود الذي أغرى بالاختصار"</h3>
-        <p><strong>Real Story 3: “The missing component that tempted a shortcut”</strong></p>
         <p>تطلبت حالة نظام غرسة معين. وصل الطاقم (Tray) غير مكتمل—أداة رئيسية واحدة مفقودة. اقترح المورد بديلاً. الغرفة كانت متأخرة.</p>
         <p>قال أحدهم: "يمكننا إنجاز الأمر."</p>
         <p>لكن "إنجاز الأمر" ليس خطة سلامة. توقفنا وسألنا:<br>
@@ -9373,7 +9346,6 @@ export const chaptersContent: Record<string | number, string> = {
     </div>
 
     <h2>16.5 2: "الكوب غير المسمى على الطاولة الخلفية"</h2>
-    <h3>16.5 Real Story 2: “The unlabeled cup on the back table”</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> حالة أذن وأنف وحنجرة (ENT). طلب الجراح بعض المحلول الملحي (Saline) للغسيل، ودواءً موضعياً (Local anesthetic)، وكان هناك أيضاً عينة صغيرة من الأنسجة مأخوذة للزراعة (Culture). كانت جميعها في أكواب صغيرة متشابهة من الستانلس ستيل على الطاولة الخلفية للممرضة المعقمة. لم يكن لأي منها ملصق معقم.</p>
@@ -9608,7 +9580,6 @@ export const chaptersContent: Record<string | number, string> = {
     </ul>
 
     <h2>26.6 2: "عربة التجهيز التي كانت مزدحمة جداً بالسلامة"</h2>
-    <h3>26.6 Real Story 2: “The Core Cart That Was Too Crowded with Safety”</h3>
 
     <div class="quote-box">
         <p>كان هناك مستشفى يمتلك عربة إمدادات مركزية (Core supply cart). كانت الإدارة قلقة جداً من النواقص لدرجة أنهم قاموا بزيادة مستويات الـ Par (تخزين كل شيء) ليضمنوا عدم نفاد أي شيء أبداً.</p>
@@ -10075,7 +10046,6 @@ export const chaptersContent: Record<string | number, string> = {
     </div>
 
     <h2>20.6 2: "الإبرة المتروكة على الطاولة"</h2>
-    <h3>20.6 Real Story 2: “The Needle Left on the Table”</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> انتهت الحالة. غادر الجراح. كانت ممرضة جديدة تقوم بتنظيف الطاولة الخلفية (Back table). أمسكت بكومة من الشاش المبلل بالدم لإلقائها في سلة النفايات.</p>
