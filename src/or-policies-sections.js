@@ -17787,7 +17787,7 @@ export const orSectionsHtml = {
  </span>
  <h2 class="text-blue-300 font-semibold mb-2 tracking-widest uppercase text-sm">PART VIII — EMERGENCY &amp; BUSINESS CONTINUITY (FMS / IPSG)</h2>
  <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
- Section 14: SEC 14 — OT Emergency Coordination (OT Scope)
+ SEC 14 — OT Emergency Coordination (OT Scope)
  </h1>
  <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">Independent Policies 14.1–14.5</p>
  </div>
