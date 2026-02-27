@@ -20821,7 +20821,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
     <div class="max-w-[950px] mx-auto mb-6 flex flex-col md:flex-row justify-between items-center no-print gap-4">
         <div>
             <h2 class="text-lg font-bold text-slate-700">Combined Sedation Form Preview</h2>
-            <p class="text-xs text-slate-500">Includes F-13 (Pre-Assessment), F-13 (Mon), F-13 (Meds), F-13 (Discharge), F-13 (Events)</p>
+            <p class="text-xs text-slate-500">Comprehensive Procedural Sedation Record — 5-Part Form: Pre-Assessment · Medications · Monitoring · Recovery &amp; Discharge · Adverse Events</p>
         </div>
         <div class="flex gap-3">
             
@@ -20849,7 +20849,7 @@ export const apFormsHtml: Record<string, SectionHtml> = {
             </div>
             <div class="text-right">
                 <div class="inline-block border-2 border-slate-800 rounded px-2 py-1 bg-slate-800 text-white font-black text-sm tracking-widest">
-                    FORMS F-13/17/18/19/20
+                    FORM F-13
                 </div>
             </div>
         </div>
