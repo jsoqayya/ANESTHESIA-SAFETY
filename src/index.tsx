@@ -80,7 +80,7 @@ const parts = [
   },
   {
     id: 3,
-    titleAr: 'الجزء الثالث — الوقاية من العدوى، العقامة، وسلامة الأدوات',
+    titleAr: 'الجزء الثالث — الوقاية من العدوى، حالة التعقيم، وسلامة الأدوات',
     titleEn: 'PART III — Infection Prevention, Sterility, and Instrument Safety',
     chapters: [
       { num: 8, ar: 'الوقاية بالمضادات الحيوية وبوابة الوقاية من عدوى الموقع الجراحي', en: 'Antibiotic Prophylaxis and SSI Prevention Gate', sub: 'ملكية التوقيت • محفزات إعادة الجرعة • التوثيق • أساسيات التدقيق', subEn: 'timing ownership • redosing triggers • documentation • audit essentials' },
@@ -96,9 +96,10 @@ const parts = [
     titleAr: 'الجزء الرابع — السلامة داخل العملية: نظام حواجز "الأحداث التي لا ينبغي أن تحدث"',
     titleEn: 'PART IV — Intraoperative Safety: The "Never Events" Barrier System',
     chapters: [
-      { num: 15, ar: 'قائمة التحقق من السلامة الجراحية كأداة للفريق', en: 'Surgical Safety Checklist as a Team Tool (Not a Ritual)', sub: 'تسجيل الدخول/المهلة/تسجيل الخروج • جودة التنفيذ • التوقفات الإلزامية • نقاط التدقيق', subEn: 'sign-in/time-out/sign-out • quality of execution • hard stops • audit scoring' },
-      { num: 16, ar: 'العد الجراحي والوقاية من العناصر المتروكة', en: 'Surgical Counts and Prevention of Retained Items', sub: 'عد الإسفنج/الإبر/الأدوات • خوارزمية التباين • قواعد التصوير • التوثيق', subEn: 'sponge/needle/instrument counts • discrepancy algorithm • imaging rules • documentation' },
-      { num: 17, ar: 'التعامل مع العينات وتسميتها: أخطاء لا يُتسامح معها', en: 'Specimen Handling and Labelling: Zero-Tolerance Errors', sub: 'سلسلة هوية العينة • انضباط التسمية داخل العملية • التواصل مع علم الأمراض', subEn: 'specimen-ID chain • intra-op labelling discipline • pathology communication' },
+      { num: 14, ar: 'قائمة التحقق من السلامة الجراحية كأداة للفريق', en: 'Surgical Safety Checklist as a Team Tool (Not a Ritual)', sub: 'تسجيل الدخول/المهلة/تسجيل الخروج • جودة التنفيذ • التوقفات الإلزامية • نقاط التدقيق', subEn: 'sign-in/time-out/sign-out • quality of execution • hard stops • audit scoring' },
+      { num: 15, ar: 'العد الجراحي والوقاية من العناصر المتروكة', en: 'Surgical Counts and Prevention of Retained Items', sub: 'عد الإسفنج/الإبر/الأدوات • خوارزمية التباين • قواعد التصوير • التوثيق', subEn: 'sponge/needle/instrument counts • discrepancy algorithm • imaging rules • documentation' },
+      { num: 16, ar: 'التعامل مع العينات وتسميتها: أخطاء لا يُتسامح معها', en: 'Specimen Handling and Labelling: Zero-Tolerance Errors', sub: 'سلسلة هوية العينة • انضباط التسمية داخل العملية • التواصل مع علم الأمراض', subEn: 'specimen-ID chain • intra-op labelling discipline • pathology communication' },
+      { num: 17, ar: 'سلامة وضعيات المريض والوقاية من إصابات الأعصاب والضغط', en: 'Positioning Safety and Nerve/Pressure Protection', sub: 'مخاطر الوضعية • نقاط الضغط • حماية الأعصاب • التوثيق والمراقبة', subEn: 'positioning risks • pressure points • nerve protection • documentation & monitoring' },
       { num: 18, ar: 'سلامة الجراحة الكهربائية، الليزر، وأجهزة الطاقة', en: 'Electrosurgery, Lasers, and Energy Devices Safety', sub: 'خطر الحروق • اللوحة الراجعة • فشل العزل • ضوابط عمود الدخان', subEn: 'burns risk • dispersive pad • insulation failure • smoke plume controls' },
       { num: 19, ar: 'سلامة غرفة العمليات من الحرائق والوقاية من الاشتعال', en: 'OR Fire Safety and Ignition Prevention', sub: 'مثلث الحريق • السيناريوهات عالية الخطورة • قائمة تحقق الوقاية • بروتوكول الاستجابة', subEn: 'fire triangle • high-risk scenarios • prevention checklist • immediate response protocol' },
       { num: 20, ar: 'سلامة الأدوات الحادة والوقاية من تعرض الموظفين', en: 'Sharps Safety and Staff Exposure Prevention', sub: 'المنطقة المحايدة • تمرير الأدوات الحادة • الاستجابة للتعرض • مراقبة الامتثال', subEn: 'neutral zone • sharps passing • exposure response • monitoring compliance' },
@@ -126,7 +127,7 @@ const parts = [
       { num: 28, ar: 'مؤشرات جودة غرفة العمليات وتصميم لوحة القيادة', en: 'OR Quality Indicators and Dashboard Design', sub: 'المجموعة الأساسية لمؤشرات الأداء • SSI/الأحداث الحرجة • الإلغاءات • مقاييس الاستخدام', subEn: 'core KPI set • SSI/never events • cancellations • utilization metrics' },
       { num: 29, ar: 'الإبلاغ عن الحوادث، التحقيق، والإجراءات التصحيحية (خاص بغرفة العمليات)', en: 'Incident Reporting, Investigation, and Corrective Actions (OR-specific)', sub: 'ما يجب الإبلاغ عنه • تحليل السبب الجذري • تتبع الإجراءات • حلقات التعلم', subEn: 'what to report • theatre-focused RCA • action tracking • learning loops' },
       { num: 30, ar: 'برامج التدقيق وجاهزية الامتثال', en: 'Audit Programs and Compliance Readiness', sub: 'تقويم التدقيق • طريقة التتبع • جاهزية التوثيق • سد الفجوات', subEn: 'audit calendar • tracer method • documentation readiness • closing gaps' },
-      { num: 31, ar: 'المحاكاة، التدريبات، والحفاظ على الكفاءات الحرجة للسلامة', en: 'Simulation, Drills, and Safety-Critical Competency Maintenance', sub: 'تدريبات الحريق • تدريبات تباين العد • تدريبات اختراق العقامة • العمل الجماعي وقت الأزمات', subEn: 'fire drills • count discrepancy drills • sterility breach drills • crisis teamwork in OR' },
+      { num: 31, ar: 'المحاكاة، التدريبات، والحفاظ على الكفاءات الحرجة للسلامة', en: 'Simulation, Drills, and Safety-Critical Competency Maintenance', sub: 'تدريبات الحريق • تدريبات تباين العد • تدريبات اختراق حالة التعقيم • العمل الجماعي وقت الأزمات', subEn: 'fire drills • count discrepancy drills • sterility breach drills • crisis teamwork in OR' },
       { num: 32, ar: 'العوامل البشرية في غرفة العمليات', en: 'Human Factors in the OR: Interruptions, Cognitive Load, Hierarchy, and Speaking Up', sub: 'المقاطعات • العبء المعرفي • التسلسل الهرمي • التحدث بصوت عالٍ', subEn: 'interruptions • cognitive load • hierarchy • speaking up' },
     ]
   },

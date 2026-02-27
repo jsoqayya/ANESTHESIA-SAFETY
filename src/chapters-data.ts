@@ -114,7 +114,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h2>1.1 لماذا تهم السلامة في غرفة العمليات / Why OR Safety Matters</h2>
     
     <h3>1.1.1 الواقع الأخلاقي والسريري / The Ethical and Clinical Priority</h3>
-    <p>غالباً ما يكون المريض غير قادر على حماية نفسه أثناء الجراحة. فهو يتخلى عن الوعي، والسيطرة، وأحياناً حتى القدرة على التنفس. هذه الحقيقة الأخلاقية وحدها تجعل سلامة غرفة العمليات أمراً غير قابل للتفاوض. من الناحية السريرية، تُركز غرفة العمليات الإجراءات عالية المخاطر: الإجراءات الغازية (Invasive procedures)، متطلبات العقامة، أجهزة الطاقة، الأدوات الحادة، الغرسات (Implants)، العينات، واتخاذ القرارات الحرجة زمنياً. عندما يحدث الضرر هنا، يمكن أن يكون فورياً وشديداً.</p>
+    <p>غالباً ما يكون المريض غير قادر على حماية نفسه أثناء الجراحة. فهو يتخلى عن الوعي، والسيطرة، وأحياناً حتى القدرة على التنفس. هذه الحقيقة الأخلاقية وحدها تجعل سلامة غرفة العمليات أمراً غير قابل للتفاوض. من الناحية السريرية، تُركز غرفة العمليات الإجراءات عالية المخاطر: الإجراءات الغازية (Invasive procedures)، متطلبات حالة التعقيم، أجهزة الطاقة، الأدوات الحادة، الغرسات (Implants)، العينات، واتخاذ القرارات الحرجة زمنياً. عندما يحدث الضرر هنا، يمكن أن يكون فورياً وشديداً.</p>
     <p><span class="english-term">The patient is often unable to protect themselves during surgery. They surrender awareness, control, and sometimes even the ability to breathe. This moral fact alone makes OR safety non-negotiable. Clinically, the OR concentrates high-risk actions: invasive procedures, sterility requirements, energy devices, sharp instruments, implants, specimens, and time-critical decision-making. When harm happens here, it can be immediate and severe.</span></p>
 
     <h3>1.1.2 الواقع التنظيمي والرقابي / Governance and Accountability</h3>
@@ -170,7 +170,7 @@ export const chaptersContent: Record<string | number, string> = {
         <span class="english-term"><strong>Trigger:</strong> appears under pressure (interruptions, time pressure, ambiguity).</span></li>
         <li><strong>ضعف الحاجز (Barrier weakness):</strong> القائمة المرجعية كطقس روتيني، ملكية غير واضحة للخطوات، توثيق غير متسق.<br>
         <span class="english-term"><strong>Barrier weakness:</strong> checklist as ritual, unclear ownership, inconsistent documentation.</span></li>
-        <li><strong>فشل الحاجز (Barrier failure):</strong> تمرير التباين، عدم احتواء كسر العقامة، عدم حل العد (Counts).<br>
+        <li><strong>فشل الحاجز (Barrier failure):</strong> تمرير التباين، عدم احتواء كسر حالة التعقيم، عدم حل العد (Counts).<br>
         <span class="english-term"><strong>Barrier failure:</strong> mismatch passes, sterility break not contained, counts not resolved.</span></li>
         <li><strong>الضرر (Harm):</strong> الخطوة النهائية.<br>
         <span class="english-term"><strong>Harm:</strong> the final step.</span></li>
@@ -1105,7 +1105,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>تحديد <strong>ما يجب الإبلاغ عنه (What to report)</strong> في غرفة العمليات—وخاصة الحوادث الوشيكة (Near-misses) و"الإشارات الضعيفة" (Weak signals)—بحيث يحدث التعلم قبل وقوع الضرر. (AHRQ; IHI)<br>
             <span class="english-term">Define <strong>what to report</strong> in the OR—especially near-misses and “weak signals”—so learning happens before harm. (AHRQ; IHI)</span></li>
             
-            <li>إجراء <strong>تحليل سبب جذري مُركز على المسرح الجراحي (Theatre-Focused RCA)</strong> يقوم برسم خرائط لسير عمل غرفة العمليات الحقيقي (العد، العينات، العقامة، الغرسات، جاهزية المعدات، ضغط التدفق) ويحدد أسباب النظام. (AHRQ; IHI; AORN concepts)<br>
+            <li>إجراء <strong>تحليل سبب جذري مُركز على المسرح الجراحي (Theatre-Focused RCA)</strong> يقوم برسم خرائط لسير عمل غرفة العمليات الحقيقي (العد، العينات، حالة التعقيم، الغرسات، جاهزية المعدات، ضغط التدفق) ويحدد أسباب النظام. (AHRQ; IHI; AORN concepts)<br>
             <span class="english-term">Conduct a <strong>theatre-focused RCA</strong> that maps real OR workflows (counts, specimens, sterility, implants, equipment readiness, flow pressure) and identifies system causes. (AHRQ; IHI; AORN concepts)</span></li>
             
             <li>بناء <strong>نظام لتتبع الإجراءات (Action tracking)</strong> يُنتج تغييراً حقيقياً: مُلّاك، مواعيد نهائية، تحقق، وتكامل مع "التوقف الإلزامي/Hard stop"—وليس مجرد توصيات غامضة. (IHI)<br>
@@ -1261,7 +1261,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>قائد تمريض (معرفة بسير العمل).</li>
         <li>ممثل جراحين (واقع الإجراء).</li>
         <li>ممثل تخدير (الترابط).</li>
-        <li>ممثل CSSD/التعقيم (لأدوات/العقامة).</li>
+        <li>ممثل CSSD/التعقيم (لأدوات/حالة التعقيم).</li>
         <li>مُيسر جودة/سلامة (تفكير منهجي).</li>
         <li>هندسة طبية/Biomed (عندما تكون المعدات معنية). (AHRQ; IHI)</li>
     </ul>
@@ -1372,7 +1372,7 @@ export const chaptersContent: Record<string | number, string> = {
         <ul>
             <li><strong>29.10.1 بعد تباين في العد (Counts):</strong> أين تمت مقاطعة العد؟ هل اُتبعت الخوارزمية بالكامل؟ هل كان هناك ضغط وقت/تداخل؟ (AORN; AHRQ)</li>
             <li><strong>29.10.2 بعد حادثة وشيكة لعينة (Specimen):</strong> متى تمت التسمية (فورية أم متأخرة)؟ هل كان التحقق مزدوجاً؟ هل كان هناك عبء تعدد مهام؟ (AORN; AHRQ)</li>
-            <li><strong>29.10.3 بعد كسر العقامة (Sterility break):</strong> كيف تم الكسر والتعافي؟ هل كان للمرور دور؟ هل كان التبديل متسرعاً؟ (AORN)</li>
+            <li><strong>29.10.3 بعد كسر حالة التعقيم (Sterility break):</strong> كيف تم الكسر والتعافي؟ هل كان للمرور دور؟ هل كان التبديل متسرعاً؟ (AORN)</li>
             <li><strong>29.10.4 بعد عطل معدات (Equipment failure):</strong> هل اكتمل فحص الجاهزية؟ هل تم عزل الجهاز المعيب؟ هل كان البديل (Backup) معروفاً؟ (ECRI; IHI)</li>
         </ul>
     </div>
@@ -1678,7 +1678,7 @@ export const chaptersContent: Record<string | number, string> = {
 
         <hr>
 
-        <h4>3.4.4 تصاعد خطر عدوى الموقع الجراحي (التلوث، اختراق العقامة)<br><span class="english-term">Surgical site infection risk escalation (contamination, breaks in sterility)</span></h4>
+        <h4>3.4.4 تصاعد خطر عدوى الموقع الجراحي (التلوث، اختراق حالة التعقيم)<br><span class="english-term">Surgical site infection risk escalation (contamination, breaks in sterility)</span></h4>
         <ul>
             <li><strong>لماذا يحدث:</strong> حركة المرور/فتح الأبواب، تنظيف التبديل المتسرع، اختراقات الحقل المعقم غير المدارة، إخفاقات توقيت المضادات الحيوية. (WHO SSI; CDC SSI; AORN)<br>
             <span class="english-term">Why it happens: traffic/door opening, rushed turnover cleaning, sterile field breaks not managed, antibiotic timing failures.</span></li>
@@ -1810,7 +1810,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>"تم العثور على عدم تطابق بين ___ و ___."</li>
             <li>"لا يمكننا المضي قدماً حتى يتم الحل." (The Joint Commission; AORN)</li>
             <li><strong>التصعيد إلى (Escalate to):</strong> الممرضة المسؤولة ← مشرف العمليات ← قائد الخدمة</li>
-            <li><strong>قائمة محفزات التوقف الإلزامي:</strong> (العد، الموقع، العينة، الغرسة، العقامة) (AORN)</li>
+            <li><strong>قائمة محفزات التوقف الإلزامي:</strong> (العد، الموقع، العينة، الغرسة، حالة التعقيم) (AORN)</li>
         </ul>
         <p><span class="english-term">“Pause—safety check.” “Mismatch found between ___ and ___.” “We cannot proceed until resolved.” Escalate to: Charge nurse → OR supervisor → service lead. Hard stop triggers list.</span></p>
 
@@ -1938,7 +1938,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>عدم تطابق المريض/الإجراء/الموقع ← أوقف وصعّد (The Joint Commission)</li>
             <li>تباين العد لم يُحل ← أوقف الإغلاق وصعّد (AORN)</li>
             <li>عدم يقين بهوية العينة ← أوقف الإرسال وصعّد (AORN; AHRQ)</li>
-            <li>اختراق العقامة غير مُدار ← أوقف وصعّد (AORN; WHO SSI)</li>
+            <li>اختراق حالة التعقيم غير مُدار ← أوقف وصعّد (AORN; WHO SSI)</li>
             <li>مكون غرسة حيوي مفقود ← أوقف وصعّد (AORN)</li>
         </ul>
 
@@ -2325,7 +2325,7 @@ export const chaptersContent: Record<string | number, string> = {
     </div>
 
     <h3>23.2.3 صدق المدة ووقت التبديل / Duration honesty and turnover</h3>
-    <p>يجب أن يشمل وقت الحجز: وقت الشق الجراحي (Cut time) + التخدير والوضعية + <strong>وقت التبديل (Turnover time) الواقعي</strong> لتنظيف الغرفة وإعادة تجهيزها. عدم تخصيص وقت للتبديل هو السبب الرئيسي لتعفن العقامة (Asepsis decay). (IHI; AORN)</p>
+    <p>يجب أن يشمل وقت الحجز: وقت الشق الجراحي (Cut time) + التخدير والوضعية + <strong>وقت التبديل (Turnover time) الواقعي</strong> لتنظيف الغرفة وإعادة تجهيزها. عدم تخصيص وقت للتبديل هو السبب الرئيسي لتدهور حالة التعقيم (Asepsis decay). (IHI; AORN)</p>
 
     <h2>23.3 قواعد الأولوية لتخصيص المسرح الجراحي (إدارة النزاعات)</h2>
     <h3>23.3 Priority Rules for Theatre Allocation (Managing Conflict)</h3>
@@ -2482,7 +2482,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h1>CHAPTER 8 — Antibiotic Prophylaxis and SSI Prevention Gate</h1>
     <div class="subtitle">الفصل الثامن — الوقاية بالمضادات الحيوية وبوابة الوقاية من عدوى الموقع الجراحي (SSI)<br>
     <span style="font-size: 18px;">(Right Drug • Right Time • Right Dose • Redosing • Allergy Alternatives • Sterility &amp; Environmental Reliability • Audit-Ready Documentation)<br>
-    (الدواء الصحيح • الوقت الصحيح • الجرعة الصحيحة • إعادة الجرعة • بدائل الحساسية • موثوقية العقامة والبيئة • التوثيق الجاهز للتدقيق)</span></div>
+    (الدواء الصحيح • الوقت الصحيح • الجرعة الصحيحة • إعادة الجرعة • بدائل الحساسية • موثوقية حالة التعقيم والبيئة • التوثيق الجاهز للتدقيق)</span></div>
     
     <h2>أهداف الفصل / Chapter Aims</h2>
     <div class="concept-box">
@@ -2498,13 +2498,13 @@ export const chaptersContent: Record<string | number, string> = {
             <li>تطبيق سير عمل عملي للمضادات الحيوية: العامل الصحيح، التوقيت الصحيح، الجرعة الصحيحة/تعديل الوزن، إعادة الجرعة بشكل صحيح، واستراتيجية الإيقاف الصحيحة بالتنسيق مع الفرق الجراحية. (WHO SSI; CDC SSI)<br>
             <span class="english-term">Apply a practical antibiotic workflow: right agent, right timing, correct dose/weight adjustment, correct redosing, and correct discontinuation strategy in coordination with surgical teams. (WHO SSI; CDC SSI)</span></li>
             
-            <li>التعرف على أنماط الفشل الواقعية: تأخر المضادات الحيوية، العامل الخاطئ في حالة الحساسية، نسيان إعادة الجرعة، إطالة الوقاية "للاحتياط فقط"، وانهيار انضباط العقامة أثناء التبديل (Turnover). (WHO SSI; CDC SSI; AHRQ)<br>
+            <li>التعرف على أنماط الفشل الواقعية: تأخر المضادات الحيوية، العامل الخاطئ في حالة الحساسية، نسيان إعادة الجرعة، إطالة الوقاية "للاحتياط فقط"، وانهيار انضباط حالة التعقيم أثناء التبديل (Turnover). (WHO SSI; CDC SSI; AHRQ)<br>
             <span class="english-term">Recognize real-life failure modes: late antibiotics, wrong agent in allergy, forgotten redose, prolonged prophylaxis “just in case,” and breakdown of sterile discipline during turnover. (WHO SSI; CDC SSI; AHRQ)</span></li>
             
             <li>استخدام قيادة إنسانية مبنية على السرد: كيف تتحدث بصوت عالٍ، كيف توقف الخط (Stop the line)، وكيف تحمي المرضى دون تحويل غرفة العمليات إلى مجرد أعمال ورقية. (IHI; AHRQ)<br>
             <span class="english-term">Use humane, narrative-based leadership: how to speak up, how to stop the line, and how to protect patients without turning the OR into paperwork. (IHI; AHRQ)</span></li>
             
-            <li>قياس ما يهم: مؤشرات موثوقية العملية (التوقيت، الامتثال لإعادة الجرعة، فتحات الأبواب، توثيق اختراقات العقامة) والنتائج (اتجاهات SSI) دون إلقاء اللوم. (IHI; WHO SSI)<br>
+            <li>قياس ما يهم: مؤشرات موثوقية العملية (التوقيت، الامتثال لإعادة الجرعة، فتحات الأبواب، توثيق اختراقات حالة التعقيم) والنتائج (اتجاهات SSI) دون إلقاء اللوم. (IHI; WHO SSI)<br>
             <span class="english-term">Measure what matters: process reliability indicators (timing, redose compliance, door openings, sterility breaks documentation) and outcomes (SSI trends) without blame. (IHI; WHO SSI)</span></li>
         </ol>
     </div>
@@ -2552,7 +2552,7 @@ export const chaptersContent: Record<string | number, string> = {
     SSIs remain a major cause of postoperative morbidity, prolonged length of stay, readmissions, and cost. (CDC SSI; WHO SSI)</span></p>
 
     <h3>8.1.2 "حقيقة الحزمة" (The bundle truth): فعل واحد لا يمكن أن يعوض عن آخر</h3>
-    <p>لقد رأيت فرقاً تُهوس بالمضادات الحيوية بينما تتجاهل حركة المرور (Traffic)، وانضباط العقامة، وموثوقية التبديل. الحقيقة هي: عناصر الحزمة (Bundle) تعمل معاً. الضعف في عنصر واحد يمكن أن يقوض النظام بأكمله. (WHO SSI; AORN)</p>
+    <p>لقد رأيت فرقاً تُهوس بالمضادات الحيوية بينما تتجاهل حركة المرور (Traffic)، وانضباط حالة التعقيم، وموثوقية التبديل. الحقيقة هي: عناصر الحزمة (Bundle) تعمل معاً. الضعف في عنصر واحد يمكن أن يقوض النظام بأكمله. (WHO SSI; AORN)</p>
     <p><span class="english-term"><strong>8.1.2 The “bundle truth”: one action cannot compensate for another</strong><br>
     Clinical practice has shown teams obsess over antibiotics while ignoring traffic, sterility discipline, and turnover reliability. The reality is: bundle elements work together. Weakness in one element can undermine the whole. (WHO SSI; AORN)</span></p>
 
@@ -2617,7 +2617,7 @@ export const chaptersContent: Record<string | number, string> = {
                     <li>حركة المرور في حدها الأدنى، (AORN)</li>
                     <li>الأبواب مغلقة باستثناء الدخول الضروري، (AORN)</li>
                     <li>المعدات المطلوبة موجودة لمنع "رحلات البحث عن الإمدادات"، (IHI; AORN)</li>
-                    <li>تتم إدارة اختراقات العقامة بشكل نشط وتوثيقها. (AORN)</li>
+                    <li>تتم إدارة اختراقات حالة التعقيم بشكل نشط وتوثيقها. (AORN)</li>
                 </ul>
             </li>
         </ul>
@@ -2707,7 +2707,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p>التنظيف بين الحالات هو عملية لسلامة المريض. إذا تم التسرع فيها، يتراكم العبء البيولوجي (Bioburden) حيثما تلمس الأيدي: حواجز السرير، الشاشات، أسطح جهاز التخدير، المصابيح، الكابلات. (AORN)</p>
 
     <h3>8.7.3 اختراقات الحقل المعقم: كيف تقرر الثقافة احتواء الخطر</h3>
-    <p>تحدث اختراقات العقامة (Sterile breaks). السلامة ليست الخيال بوجود "صفر اختراقات"؛ السلامة هي القدرة على الاستجابة بشكل متسق:</p>
+    <p>تحدث اختراقات حالة التعقيم (Sterile breaks). السلامة ليست الخيال بوجود "صفر اختراقات"؛ السلامة هي القدرة على الاستجابة بشكل متسق:</p>
     <ul>
         <li>توقف،</li>
         <li>صحّح،</li>
@@ -2798,7 +2798,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>نقاط جودة الامتثال للـ Time-out/بوابة SSI (مُلاحظة). (WHO SSC; IHI)</li>
         <li>معدل فتح الباب (عينة/Sampled). (AORN)</li>
         <li>درجات تدقيق تنظيف التبديل (Turnover). (AORN)</li>
-        <li>الالتزام بتوثيق اختراقات العقامة والاستجابة لها. (AORN)</li>
+        <li>الالتزام بتوثيق اختراقات حالة التعقيم والاستجابة لها. (AORN)</li>
     </ul>
 
     <h3>8.11.2 المؤشرات المتأخرة (النتائج) / Lagging indicators</h3>
@@ -2813,7 +2813,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p>قد تبدو غرفة العمليات نظيفة، لكن الميكروبات لا تحترم الثقة بالنفس. إنها تحترم الانضباط.</p>
 
     <h3>8.12.2 الدقيقة الأكثر أخلاقية في الجراحة</h3>
-    <p>في بعض الأحيان، الدقيقة الأكثر أخلاقية هي الدقيقة التي تتوقف فيها قبل الشق الجراحي لتأكيد المضادات الحيوية وجاهزية العقامة—لأن تلك الدقيقة يمكن أن توفر أسابيع من المعاناة لاحقاً. (WHO SSI; CDC SSI)</p>
+    <p>في بعض الأحيان، الدقيقة الأكثر أخلاقية هي الدقيقة التي تتوقف فيها قبل الشق الجراحي لتأكيد المضادات الحيوية وجاهزية حالة التعقيم—لأن تلك الدقيقة يمكن أن توفر أسابيع من المعاناة لاحقاً. (WHO SSI; CDC SSI)</p>
     <p><span class="english-term"><strong>8.12.2 The most ethical minute in surgery</strong><br>
     Sometimes the most ethical minute is the minute you pause before incision to confirm antibiotics and sterility readiness—because that minute can save weeks of suffering later. (WHO SSI; CDC SSI)</span></p>
 
@@ -2837,7 +2837,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>إعادة الجرعة (Redosing) تفشل عندما تعتمد على الذاكرة—صمّم محفزات وملكية (Triggers and ownership). (CDC SSI; IHI)<br>
             <span class="english-term">Redosing fails when it relies on memory—design triggers and ownership.</span></li>
             
-            <li>تحكم في حركة المرور، نظافة التبديل (Turnover)، واختراقات العقامة؛ النصف <strong>غير المرئي</strong> يهم. (AORN; WHO SSI)<br>
+            <li>تحكم في حركة المرور، نظافة التبديل (Turnover)، واختراقات حالة التعقيم؛ النصف <strong>غير المرئي</strong> يهم. (AORN; WHO SSI)<br>
             <span class="english-term">Control traffic, turnover hygiene, and sterility breaks; the <strong>invisible</strong> half matters.</span></li>
             
             <li>قس الموثوقية باستخدام المؤشرات الاستباقية وأغلق حلقات التعلم بسرعة. (IHI)<br>
@@ -3181,7 +3181,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term">The dashboard had numbers, but it didn’t have truth. And when a dashboard loses truth, it becomes dangerous—because it changes behavior in the wrong direction. (AHRQ; IHI)</span></p>
 
     <div class="success-box">
-        <p>بعد سنوات، تعلمت التعامل مع لوحات القيادة كأدوات سريرية: يجب أن تقلل من الضرر، وليس فقط أن تصف النشاط. لوحة قيادة غرفة العمليات الجيدة تجعل ما هو غير مرئي مرئياً: موثوقية العقامة، استقرار سير العمل، ثقافة التعلم، والأسباب الحقيقية للتأخير والإلغاءات. لوحة القيادة السيئة تخلق التلاعب (Gaming)، والاختصارات، وإلقاء اللوم.</p>
+        <p>بعد سنوات، تعلمت التعامل مع لوحات القيادة كأدوات سريرية: يجب أن تقلل من الضرر، وليس فقط أن تصف النشاط. لوحة قيادة غرفة العمليات الجيدة تجعل ما هو غير مرئي مرئياً: موثوقية حالة التعقيم، استقرار سير العمل، ثقافة التعلم، والأسباب الحقيقية للتأخير والإلغاءات. لوحة القيادة السيئة تخلق التلاعب (Gaming)، والاختصارات، وإلقاء اللوم.</p>
         <p>يدور هذا الفصل حول بناء لوحات قيادة <strong>تحمي السلامة بينما تحسن التدفق</strong>، ومؤشرات تخبرك بما يحدث فعلياً—دون معاقبة الأشخاص الذين يحاولون القيام بالشيء الصحيح. (IHI; AHRQ)</p>
         <p><span class="english-term">Years later, I learned to treat dashboards as clinical tools: they must reduce harm, not just describe activity. A good OR dashboard makes the invisible visible: sterility reliability, workflow stability, learning culture, and the real causes of delay and cancellations. A bad dashboard creates gaming, shortcuts, and blame.<br>
         This chapter is about building dashboards that <strong>protect safety while improving flow</strong>, and indicators that tell you what is actually happening—without punishing the people who are trying to do the right thing. (IHI; AHRQ)</span></p>
@@ -3190,7 +3190,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h2>28.1 لماذا تهم مؤشرات غرفة العمليات (ولماذا تضر غالباً) / Why OR Indicators Matter (And Why They Often Harm)</h2>
 
     <h3>28.1.1 المؤشرات تغير السلوك حتى عندما لا يعترف أحد بذلك</h3>
-    <p>ما تقيسه يصبح ما يحميه الناس. إذا قمت بقياس السرعة وحدها، فستحصل على السرعة—أحياناً على حساب العقامة، وانضباط العد الجراحي، وجودة قائمة التحقق. (IHI)</p>
+    <p>ما تقيسه يصبح ما يحميه الناس. إذا قمت بقياس السرعة وحدها، فستحصل على السرعة—أحياناً على حساب حالة التعقيم، وانضباط العد الجراحي، وجودة قائمة التحقق. (IHI)</p>
     <p><span class="english-term"><strong>28.1.1 Indicators change behavior even when nobody admits it</strong><br>What you measure becomes what people protect. If you measure speed alone, you will get speed—sometimes at the cost of sterility, counts discipline, and checklist quality. (IHI)</span></p>
 
     <h3>28.1.2 يجب أن تكون مؤشرات الجودة متوازنة</h3>
@@ -3215,7 +3215,7 @@ export const chaptersContent: Record<string | number, string> = {
             يجب أن يُجيب كل مؤشر (KPI) على: "ما هو القرار الذي سنتخذه بناءً على هذا؟" إذا كانت الإجابة "لا شيء"، فاحذفه. (IHI)</li>
             <br>
             <li><strong>28.2.2 القاعدة 2: إقران مقاييس السرعة بمقاييس حواجز السلامة (Pair speed metrics with safety-barrier metrics)</strong><br>
-            إذا كنت تتتبع وقت التبديل (Turnover time)، فيجب عليك أيضاً تتبع عدم التوافق في العقامة (Sterility nonconformance) وجودة قائمة التحقق—بحيث لا يمكن شراء السرعة بالاختصارات. (AORN concepts; WHO SSC concepts; IHI)</li>
+            إذا كنت تتتبع وقت التبديل (Turnover time)، فيجب عليك أيضاً تتبع عدم التوافق في حالة التعقيم (Sterility nonconformance) وجودة قائمة التحقق—بحيث لا يمكن شراء السرعة بالاختصارات. (AORN concepts; WHO SSC concepts; IHI)</li>
             <br>
             <li><strong>28.2.3 القاعدة 3: عرّف المقاييس بدقة (Define metrics precisely)</strong><br>
             "البدء في الوقت المحدد" (On-time start) يجب أن يكون له تعريف واضح: دخول العجلات (Wheels-in)؟ بدء التخدير؟ وقت الشق الجراحي؟ وما هي الاستثناءات؟ المقياس الغامض يتحول إلى سياسة. (IHI)</li>
@@ -3254,7 +3254,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>28.3.3 تدفق العمليات والسعة / Operations flow and capacity</h3>
     <ul>
         <li><strong>بدء الحالة الأولى في الوقت المحدد (First-case on-time start)</strong> (مقترناً بجودة قائمة التحقق). (IHI; WHO SSC concepts)</li>
-        <li><strong>وقت التبديل (Turnover time)</strong> (الوسيط + التباين؛ مقترناً بموثوقية العقامة). (IHI; AORN concepts)</li>
+        <li><strong>وقت التبديل (Turnover time)</strong> (الوسيط + التباين؛ مقترناً بموثوقية حالة التعقيم). (IHI; AORN concepts)</li>
         <li><strong>معدل الإلغاء (Cancellation rate)</strong> مع ترميز السبب (المريض، جاهزية OR، الأسرة/PACU، الجراح، CSSD، التوريد). (IHI)</li>
         <li><strong>مقاييس الاستخدام (Utilization metrics)</strong> (يتم تفسيرها بشكل صحيح؛ انظر 28.6). (IHI)</li>
     </ul>
@@ -3765,7 +3765,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>2.4.5 ضوابط التنفيذ داخل العملية (موثوقية المرحلة) / Intra-op Execution controls (Phase reliability)</h3>
     <ul>
         <li><strong>المرحلة 1 — الدخول والوضعية (Positioning):</strong> الوضعية ليست "تجهيزاً"؛ إنها إجراء سلامة سريري. الوقاية من تقرحات الضغط وإصابات الأعصاب تعتمد على: الخطة، نقاط الحماية، التوثيق. (AORN; NPIAP)</li>
-        <li><strong>المرحلة 2 — تأسيس الحقل المعقم:</strong> تعتمد موثوقية العقامة على: التحكم في حركة المرور (Traffic control)، الاستجابة الواضحة للاختراقات (Breaks)، وعمليات التنظيف والإعداد المتسقة. (AORN; WHO SSI; CDC SSI)</li>
+        <li><strong>المرحلة 2 — تأسيس الحقل المعقم:</strong> تعتمد موثوقية حالة التعقيم على: التحكم في حركة المرور (Traffic control)، الاستجابة الواضحة للاختراقات (Breaks)، وعمليات التنظيف والإعداد المتسقة. (AORN; WHO SSI; CDC SSI)</li>
         <li><strong>المرحلة 3 — الخطوات الحرجة و"الانتباه المعقم" (Sterile attention):</strong> عند الوصول إلى خطوات حرجة (إدخال الغرسة، أخذ العينة، تحرير الملقط الوعائي)، يجب تقليل الضوضاء والمشتتات في الغرفة. هذا تطبيق عملي للعوامل البشرية. (IHI; AHRQ)</li>
         <li><strong>المرحلة 4 — الإغلاق، العد الجراحي (Counts)، والخروج (Sign-out):</strong> العد هو <strong>نظام حاجز</strong>، وليس مجرد مهمة. تتطلب التباينات (Discrepancies) خوارزمية محددة وتوقفاً إلزامياً (Hard stop). (AORN) يجب أن يضمن الـ Sign-out اكتمال توثيق العينات والغرسات قبل مغادرة المريض لغرفة العمليات. (WHO SSC)</li>
     </ul>
@@ -3998,7 +3998,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>شرح لماذا تُعد واجهة OR–CSSD <strong>نظاماً لسلامة المرضى (Patient safety system)</strong>، وليست نظام إمداد، ولماذا تظهر الإخفاقات كعدوى، وتأخيرات، والتفافات غير آمنة. (AAMI ST79; WHO SSI; IHI)<br>
             <span class="english-term">Explain why the OR–CSSD interface is a <strong>patient safety system</strong>, not a supply system, and why failures show up as infections, delays, and unsafe workarounds. (AAMI ST79; WHO SSI; IHI)</span></li>
             
-            <li>تطبيق قواعد عملية لـ <strong>سلامة التغليف (Packaging integrity)</strong> (الحزم الرطبة، التمزقات، المرشحات، الأختام، العقامة المرتبطة بالحدث) واتخاذ قرار سريع متى يجب رفض طقم الأدوات. (AAMI ST79; AORN)<br>
+            <li>تطبيق قواعد عملية لـ <strong>سلامة التغليف (Packaging integrity)</strong> (الحزم الرطبة، التمزقات، المرشحات، الأختام، حالة التعقيم المرتبطة بالحدث) واتخاذ قرار سريع متى يجب رفض طقم الأدوات. (AAMI ST79; AORN)<br>
             <span class="english-term">Apply practical rules for <strong>packaging integrity</strong> (wet packs, tears, filters, seals, event-related sterility) and decide quickly when to reject a set. (AAMI ST79; AORN)</span></li>
             
             <li>فهم <strong>مؤشرات التعقيم (Sterilization indicators)</strong> (الميكانيكية، الكيميائية، البيولوجية) وما تعنيه في نقطة الاستخدام—دون التظاهر بأنها تحل محل التحكم السليم في العملية. (AAMI ST79)<br>
@@ -4057,7 +4057,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li><strong>1. التعامل في نقطة الاستخدام (Point-of-use handling):</strong> مسؤولية غرفة العمليات. إبقاء الأدوات رطبة (ليس بمحلول ملحي/Saline)، ومسح الدم. لا يمكنك تعقيم الدم الجاف. (AORN)</li>
             <li><strong>2. التطهير (Decontamination):</strong> حيث يتم التنظيف اليدوي والآلي. هذه هي <em>الخطوة الأكثر أهمية</em>. لا يمكن تعقيم أداة غير نظيفة.</li>
             <li><strong>3. الفحص والتجميع (Inspection and Assembly):</strong> التحقق من النظافة والوظيفة تحت التكبير (Magnification).</li>
-            <li><strong>4. التغليف (Packaging):</strong> استخدام الأغلفة (Wraps)، أو الأكياس (Pouches)، أو الحاويات الصلبة (Rigid containers) التي تسمح باختراق المُعقم وتحافظ على العقامة. (AAMI ST79)</li>
+            <li><strong>4. التغليف (Packaging):</strong> استخدام الأغلفة (Wraps)، أو الأكياس (Pouches)، أو الحاويات الصلبة (Rigid containers) التي تسمح باختراق المُعقم وتحافظ على حالة التعقيم. (AAMI ST79)</li>
             <li><strong>5. التعقيم (Sterilization):</strong> تطبيق العملية (بخار، حرارة منخفضة، إلخ).</li>
             <li><strong>6. التخزين والنقل (Storage and Transport):</strong> الحفاظ على سلامة التغليف بعيداً عن الغبار، والرطوبة، والسحق (Crushing).</li>
             <li><strong>7. الفتح في نقطة الاستخدام (Point-of-use opening):</strong> فحص غرفة العمليات النهائي للمؤشرات وسلامة التغليف قبل الاستخدام. (AORN)</li>
@@ -4068,8 +4068,8 @@ export const chaptersContent: Record<string | number, string> = {
     <h2>12.2 سلامة التغليف: الحارس الصامت</h2>
     <h3>12.2 Packaging Integrity: The Silent Guardian</h3>
 
-    <h3>12.2.1 العقامة المرتبطة بالحدث (وليس بالوقت)</h3>
-    <p>تاريخ انتهاء الصلاحية (Expiration date) على الصينية أقل أهمية من <strong>الحدث (Event)</strong> الذي تعرضت له. إذا تمزق الغلاف، أو تبلل، أو سُحق، فقد فُقدت العقامة، بغض النظر عن التاريخ. (AORN; AAMI ST79)</p>
+    <h3>12.2.1 حالة التعقيم المرتبطة بالحدث (وليس بالوقت)</h3>
+    <p>تاريخ انتهاء الصلاحية (Expiration date) على الصينية أقل أهمية من <strong>الحدث (Event)</strong> الذي تعرضت له. إذا تمزق الغلاف، أو تبلل، أو سُحق، فقد فُقدت حالة التعقيم، بغض النظر عن التاريخ. (AORN; AAMI ST79)</p>
     <p><span class="english-term"><strong>12.2.1 Event-related sterility (not time-related)</strong><br>An expiration date on a tray is less important than the <strong>event</strong> it experienced. If a wrap is torn, wet, or crushed, sterility is lost, regardless of the date. (AORN; AAMI ST79)</span></p>
 
     <h3>12.2.2 الحزم الرطبة (Wet Packs) = أطقم ملوثة</h3>
@@ -4210,7 +4210,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>سلامة التغليف هي حاجز صارم: تمزقات، رطوبة، مرشحات تالفة، أختام مكسورة ← <strong>ارفض واستبدل</strong>. (AAMI ST79)<br>
             <span class="english-term">Packaging integrity is a hard barrier: tears, dampness, damaged filters, broken seals → reject and replace.</span></li>
             
-            <li>المؤشرات تدعم مراقبة العملية لكنها <strong>لا تتجاوز</strong> إخفاقات السلامة المادية (التمزقات) أو الشكوك في العقامة. (AAMI ST79)<br>
+            <li>المؤشرات تدعم مراقبة العملية لكنها <strong>لا تتجاوز</strong> إخفاقات السلامة المادية (التمزقات) أو الشكوك في حالة التعقيم. (AAMI ST79)<br>
             <span class="english-term">Indicators support process monitoring but do not override physical integrity failures or uncertain sterility.</span></li>
             
             <li>أساسيات التتبع (Traceability) تحمي المرضى أثناء الاستدعاءات والتحقيقات—التقط الحد الأدنى من البيانات بشكل موثوق ومبكر. (AAMI ST79; AORN; FDA UDI concepts)<br>
@@ -4250,7 +4250,7 @@ export const chaptersContent: Record<string | number, string> = {
         <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
         <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
         <ol>
-            <li>التعرف على كيف تؤدي <strong>المقاطعات وتعدد المهام (Interruptions and multitasking)</strong> إلى تدهور حواجز السلامة في غرفة العمليات (العد الجراحي، العينات، العقامة، الغرسات، جودة قائمة التحقق). (AHRQ; AORN concepts)<br>
+            <li>التعرف على كيف تؤدي <strong>المقاطعات وتعدد المهام (Interruptions and multitasking)</strong> إلى تدهور حواجز السلامة في غرفة العمليات (العد الجراحي، العينات، حالة التعقيم، الغرسات، جودة قائمة التحقق). (AHRQ; AORN concepts)<br>
             <span class="english-term">Recognize how <strong>interruptions and multitasking</strong> degrade safety barriers in the OR (counts, specimens, sterility, implants, checklist quality). (AHRQ; AORN concepts)</span></li>
             
             <li>فهم <strong>العبء المعرفي (Cognitive load)</strong>—كيف يشكل الانتباه، والذاكرة العاملة، والتعب، والضوضاء احتمالية الخطأ—وكيفية تقليل هذا العبء من خلال التصميم وليس المحاضرات. (AHRQ; IHI)<br>
@@ -4306,7 +4306,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>العد الجراحي (Counts) وحل التباينات، (AORN concepts)</li>
         <li>تسمية العينات وسلسلة العهدة، (AORN concepts)</li>
         <li>التحقق من الغرسات والتقاط UDI، (AORN concepts)</li>
-        <li>التعرف على اختراق العقامة وإجراءات الاستعادة. (AORN concepts)</li>
+        <li>التعرف على اختراق حالة التعقيم وإجراءات الاستعادة. (AORN concepts)</li>
     </ul>
     <p>عندما تحدث مقاطعة، يجب على الدماغ أن "يُوقف" (Park) المهمة الحالية، ويتعامل مع المهمة الجديدة، ثم يعود. خطوة <strong>العودة</strong> هي حيث تختبئ الأخطاء: نسيان خطوة تأكيد، افتراض أن شيئاً قد أُنجز، أو الاستئناف من النقطة الخطأ. (AHRQ)</p>
     <p><span class="english-term">When an interruption occurs, the brain must “park” the current task, handle the new task, then return. The return step is where errors hide: forgetting a confirmation step, assuming something was done, or resuming at the wrong point. (AHRQ)</span></p>
@@ -4386,7 +4386,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>32.3.2 لحظات التسلسل الهرمي الأكثر أهمية / The hierarchy moments that matter most</h3>
     <ul>
         <li>تباين في הـ Time-out ("أعتقد أن الجهة مختلفة")، (WHO SSC concepts)</li>
-        <li>اختراق العقامة ("كُمي لمس سطحاً غير معقم")، (AORN concepts)</li>
+        <li>اختراق حالة التعقيم ("كُمي لمس سطحاً غير معقم")، (AORN concepts)</li>
         <li>تباين في العد ("لا يمكننا الإغلاق بعد")، (AORN concepts)</li>
         <li>عدم تطابق الغرسة ("هذه ليست الغرسة المخطط لها")، (AORN concepts)</li>
         <li>خطر الحريق والأكسجين/الاشتعال ("أكسجين مفتوح بالقرب من الكي"). (ASA/APSF fire concepts)</li>
@@ -4414,7 +4414,7 @@ export const chaptersContent: Record<string | number, string> = {
     <ul>
         <li>"توقف إلزامي—تباين في العد." (AORN concepts)</li>
         <li>"توقف إلزامي—تسمية العينة لم يتم التحقق منها." (AORN concepts)</li>
-        <li>"توقف إلزامي—اختراق العقامة؛ الحقل مخترق." (AORN concepts)</li>
+        <li>"توقف إلزامي—اختراق حالة التعقيم؛ الحقل مخترق." (AORN concepts)</li>
         <li>"توقف إلزامي—التحقق من الغرسة غير مكتمل." (AORN concepts)</li>
         <li>"توقف—خطر حريق." (ASA/APSF fire concepts)</li>
     </ul>
@@ -4482,7 +4482,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>العينات المعلقة (Specimens pending)،</li>
         <li>حالة الغرسات والتتبع،</li>
         <li>مشاكل المعدات،</li>
-        <li>مخاوف العقامة. (AORN concepts; AHRQ)</li>
+        <li>مخاوف حالة التعقيم. (AORN concepts; AHRQ)</li>
     </ul>
     <p>التسليم غير المنظم هو خطر من عوامل بشرية. (Unstructured relief is a human factors hazard.)</p>
 
@@ -4599,7 +4599,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>توحيد <strong>استجابة غرفة العمليات لحالات الطوارئ</strong> المحيطة بالجراحة: تصعيد النزيف، التفاعلات المشابهة للتأق (Anaphylaxis)، أزمات مجرى الهواء، توقف القلب، وإخفاقات المعدات الحرجة. (AHRQ; IHI)<br>
             <span class="english-term">Standardize OR response to perioperative emergencies: hemorrhage escalation, anaphylaxis-like reactions, airway crises, cardiac arrest, and critical equipment failure interfaces. (AHRQ; IHI)</span></li>
             
-            <li><strong>حماية حواجز السلامة أثناء الطوارئ</strong>: يجب أن تظل العينات، العد الجراحي (Counts)، العقامة، وهوية الأدوية موثوقة حتى عندما تكون الغرفة تحت الضغط. (AORN concepts; ISMP concepts)<br>
+            <li><strong>حماية حواجز السلامة أثناء الطوارئ</strong>: يجب أن تظل العينات، العد الجراحي (Counts)، حالة التعقيم، وهوية الأدوية موثوقة حتى عندما تكون الغرفة تحت الضغط. (AORN concepts; ISMP concepts)<br>
             <span class="english-term">Protect safety barriers during emergencies: specimens, counts, sterility, and medication identity must remain reliable even when the room is stressed. (AORN concepts; ISMP concepts)</span></li>
             
             <li>تحويل كل حالة طوارئ إلى <strong>حلقة تعلم (Learning loop)</strong>: استخلاص مصغر (Mini-debrief) ← تتبع الإجراءات ← إعادة التدريب ← تغيير مستدام. (IHI)<br>
@@ -4644,7 +4644,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>جاهزية المعدات (الشفط، أجهزة التدفئة، إخلاء الدخان عند الاقتضاء).</li>
         <li>التواصل وتعيين الأدوار.</li>
         <li>التوثيق وإمكانية التتبع.</li>
-        <li>الحفاظ على انضباط العقامة والعد الجراحي. (AHRQ; AORN concepts)</li>
+        <li>الحفاظ على انضباط حالة التعقيم والعد الجراحي. (AHRQ; AORN concepts)</li>
     </ul>
 
     <h3>22.1.2 المبدأ الأساسي / Core principle</h3>
@@ -4738,7 +4738,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li><strong>المساعد (Runner):</strong> يتعامل مع الجلب الخارجي (استلام من بنك الدم، إمدادات إضافية)، يقلل من حركة الباب بكونه "الأيدي الخارجية".</li>
             <li><strong>الموثّق (Documenter):</strong> يلتقط الطوابع الزمنية الحرجة الدنيا وبيانات التتبع، يحرر الممرضة الدوارة من العبء المعرفي.</li>
             <li><strong>متحكم الباب/المرور (Door/Traffic Controller):</strong> يمنع الازدحام، يحافظ على المنطقة المركزية المعقمة، يحد من المقاطعات.</li>
-            <li><strong>حامي الحقل (التركيز على الممرضة المعقمة/Field Protector):</strong> يحمي العقامة، يتتبع الإسفنج/الأدوات، يحافظ على انضباط العد. (AORN concepts; AHRQ)</li>
+            <li><strong>حامي الحقل (التركيز على الممرضة المعقمة/Field Protector):</strong> يحمي حالة التعقيم، يتتبع الإسفنج/الأدوات، يحافظ على انضباط العد. (AORN concepts; AHRQ)</li>
         </ul>
         <p>إذا لم تُسمَّ الأدوار، يقوم الجميع بـ "شيء ما"، وتُفقد المهام الحرجة.</p>
         <p><span class="english-term">If roles aren’t named, everyone does “something,” and critical tasks get missed.</span></p>
@@ -4789,7 +4789,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p>هذا يقلل من الارتباك لاحقاً.</p>
     <p><span class="english-term">At key moments, the scrub and circulator should state: last correct count time, additions since, current sponge management status, any high-risk areas (cavity packing). (AORN concepts). This reduces confusion later.</span></p>
 
-    <h2>22.6 العقامة والتحكم البيئي أثناء الطوارئ</h2>
+    <h2>22.6 حالة التعقيم والتحكم البيئي أثناء الطوارئ</h2>
     <h3>22.6 Sterility and Environmental Control During Emergencies</h3>
 
     <h3>22.6.1 التحكم في الحشود هو مكافحة للعدوى / Crowd control is infection control</h3>
@@ -4880,7 +4880,7 @@ export const chaptersContent: Record<string | number, string> = {
         <h2>أدوات عملية (مُلحقات جاهزة للاستخدام) / Practical Tools (Ready-to-Use Inserts)</h2>
         
         <p><strong>22.T1 — بطاقة أدوار طوارئ المسرح (Theatre Emergency Roles Card)</strong><br>
-        قائد • مساعد • موثّق • تحكم الباب • حامي الحقل (العد/العقامة). (AHRQ)</p>
+        قائد • مساعد • موثّق • تحكم الباب • حامي الحقل (العد/حالة التعقيم). (AHRQ)</p>
         
         <p><strong>22.T2 — قائمة تحقق استلام الدم (عند الباب) (Blood Receipt Verification Checklist)</strong><br>
         مُعرّفان • رقم المنتج/الوحدة • انتهاء الصلاحية/وقت التخزين • فحص السلامة • التوقيع. (Local SOP)</p>
@@ -4947,7 +4947,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>بناء <strong>تقويم تدقيق (Audit calendar)</strong> لغرفة العمليات يكون متوازناً، ومبنياً على المخاطر، وواقعياً—بحيث تصبح عمليات التدقيق موثوقية روتينية بدلاً من حالة ذعر سنوية. (IHI)<br>
             <span class="english-term">Build an OR <strong>audit calendar</strong> that is balanced, risk-based, and realistic—so audits become routine reliability, not annual panic. (IHI)</span></li>
             
-            <li>استخدام <strong>طريقة التتبع (Tracer method)</strong> لتدقيق رحلات المرضى الحقيقية وسير العمل الحقيقي (العد، العينات، العقامة، الغرسات، الأدوية في الحقل، جاهزية المعدات) بدلاً من مجرد الامتثال الورقي. (AHRQ)<br>
+            <li>استخدام <strong>طريقة التتبع (Tracer method)</strong> لتدقيق رحلات المرضى الحقيقية وسير العمل الحقيقي (العد، العينات، حالة التعقيم، الغرسات، الأدوية في الحقل، جاهزية المعدات) بدلاً من مجرد الامتثال الورقي. (AHRQ)<br>
             <span class="english-term">Use the <strong>tracer method</strong> to audit real patient journeys and real workflows (counts, specimens, sterility, implants, meds-on-field, equipment readiness) rather than paper compliance. (AHRQ)</span></li>
             
             <li>تحقيق <strong>جاهزية التوثيق (Documentation readiness)</strong> بسجلات "مضادة للتدقيق/Audit-proof" تتطابق مع الممارسة الفعلية، تحمي المريض، وتقلل من العبء على الموظفين. (AORN concepts; AHRQ)<br>
@@ -5110,7 +5110,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>سجلات <strong>العد الجراحي</strong> بما في ذلك الإضافات وتوثيق إدارة التباين. (AORN concepts)</li>
         <li>توثيق <strong>العينات</strong> (التحقق من الملصق، الحاوية/المادة الحافظة، التسليم). (AORN concepts)</li>
         <li><strong>تتبع الغرسات</strong> (UDI/الدفعة/التسلسل، التحقق من انتهاء الصلاحية، ربط المريض). (AORN concepts)</li>
-        <li>توثيق <strong>اختراق العقامة</strong> والإجراءات التصحيحية عند حدوثها. (AORN concepts)</li>
+        <li>توثيق <strong>اختراق حالة التعقيم</strong> والإجراءات التصحيحية عند حدوثها. (AORN concepts)</li>
         <li>سجل <strong>علامات عطل المعدات / العزل</strong> عند حدوث أعطال. (ECRI concepts)</li>
     </ul>
 
@@ -5311,7 +5311,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li><strong>النقل (Transport):</strong> نقل آمن ومغلق لمنع تعرض الموظفين والبيئة.</li>
             <li><strong>التطهير (Decontamination):</strong> التنظيف الدقيق (اليدوي والآلي). <em>الخطوة الأكثر أهمية.</em></li>
             <li><strong>الفحص (Inspection):</strong> التكبير والإضاءة للتحقق من خلوها من العبء البيولوجي (Bioburden) ووظيفتها.</li>
-            <li><strong>التغليف (Packaging):</strong> يجب أن يسمح التغليف باختراق المُعقِّم ويحافظ على العقامة أثناء التخزين.</li>
+            <li><strong>التغليف (Packaging):</strong> يجب أن يسمح التغليف باختراق المُعقِّم ويحافظ على حالة التعقيم أثناء التخزين.</li>
             <li><strong>التعقيم (Sterilization):</strong> البخار، أكسيد الإيثيلين، بيروكسيد الهيدروجين، إلخ.</li>
             <li><strong>التخزين (Storage):</strong> بيئة يتم التحكم في درجة حرارتها/رطوبتها لتجنب تدهور الحدث (Event-related degradation).</li>
             <li><strong>التسليم في نقطة الاستخدام (Point-of-Use Delivery):</strong> فحص غرفة العمليات النهائي للتغليف، والمؤشرات، والرطوبة. (AAMI ST79; AORN)</li>
@@ -5339,7 +5339,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>11.4 Sterilization Assurance (How You “Prove” It’s Sterile)</h3>
 
     <h3>11.4.1 مثلث الضمان / The assurance triangle</h3>
-    <p>يتم إثبات العقامة من خلال التقارب بين তিনটি مؤشرات (Indicators):</p>
+    <p>يتم إثبات حالة التعقيم من خلال التقارب بين তিনটি مؤشرات (Indicators):</p>
     <p><span class="english-term"><strong>11.4.1 The assurance triangle</strong><br>Sterility is proven by the convergence of three indicators:</span></p>
     <ul>
         <li><strong>المؤشرات الفيزيائية (Physical):</strong> مطبوعات الآلة (الوقت، درجة الحرارة، الضغط).</li>
@@ -5353,7 +5353,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term"><strong>11.4.2 Wet packs: Non-negotiable</strong><br>If a tray is opened and the inner liner or instruments are wet, <strong>it is contaminated.</strong> Moisture pulls microbes from the environment through the packaging (wicking). The OR reaction must be a hard stop: <strong>Do not use. Report and return.</strong> (AAMI ST79; AORN)</span></p>
 
     <h3>11.4.3 سلامة التغليف وتدهور الحدث / Packaging integrity</h3>
-    <p>تتم صيانة العقامة استناداً إلى "الأحداث" (Event-related)، وليس "الوقت". ينهي التمزق الصغير، أو الحواف المتضررة، أو البقع المائية العقامة فوراً. (AORN)</p>
+    <p>تتم صيانة حالة التعقيم استناداً إلى "الأحداث" (Event-related)، وليس "الوقت". ينهي التمزق الصغير، أو الحواف المتضررة، أو البقع المائية حالة التعقيم فوراً. (AORN)</p>
 
     <h2>11.5 إغراء الـ IUSS (التعقيم الفوري - "Flash")</h2>
     <h3>11.5 The IUSS Temptation (Immediate-Use Steam Sterilization)</h3>
@@ -5507,7 +5507,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h1>CHAPTER 31 — Simulation, Drills, and Safety-Critical Competency Maintenance</h1>
     <div class="subtitle">الفصل الحادي والثلاثون — المحاكاة، التدريبات، والحفاظ على الكفاءات الحرجة للسلامة<br>
     <span style="font-size: 18px;">(Fire Drills • Count Discrepancy Drills • Sterility Breach Drills • Crisis Teamwork in OR)<br>
-    (تدريبات الحريق • تدريبات تباين العد • تدريبات اختراق العقامة • العمل الجماعي وقت الأزمات في غرفة العمليات)</span></div>
+    (تدريبات الحريق • تدريبات تباين العد • تدريبات اختراق حالة التعقيم • العمل الجماعي وقت الأزمات في غرفة العمليات)</span></div>
 
     <h2>أهداف الفصل / Chapter Aims</h2>
     <div class="concept-box">
@@ -5523,7 +5523,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>تشغيل <strong>تدريبات تباين العد الجراحي (Count discrepancy drills)</strong> لحماية التواصل الهادئ، الاستخدام الصحيح للخوارزمية، انضباط التوثيق، والتصعيد بدون نزاعات. (AORN concepts; AHRQ)<br>
             <span class="english-term">Run <strong>count discrepancy drills</strong> that protect calm communication, correct algorithm use, documentation discipline, and escalation without conflict. (AORN concepts; AHRQ)</span></li>
             
-            <li>تشغيل <strong>تدريبات اختراق العقامة (Sterility breach drills)</strong> لتوحيد الاكتشاف، الإجراءات التصحيحية الفورية، واستعادة الحقل—بدون خجل أو إنكار. (AORN concepts)<br>
+            <li>تشغيل <strong>تدريبات اختراق حالة التعقيم (Sterility breach drills)</strong> لتوحيد الاكتشاف، الإجراءات التصحيحية الفورية، واستعادة الحقل—بدون خجل أو إنكار. (AORN concepts)<br>
             <span class="english-term">Run <strong>sterility breach drills</strong> that standardize detection, immediate corrective actions, and field recovery—without shame or denial. (AORN concepts)</span></li>
             
             <li>تدريب <strong>العمل الجماعي وقت الأزمات (Crisis teamwork)</strong> باستخدام التواصل المغلق الحلقة (Closed-loop communication)، التحدث بصوت عالٍ (Speaking up)، وعادات الإيجاز/الاستخلاص المنظمة التي تصمد تحت الضغط. (AHRQ; TeamSTEPPS concepts)<br>
@@ -5569,7 +5569,7 @@ export const chaptersContent: Record<string | number, string> = {
     <ul>
         <li>"توقف—خطر حريق / Stop—fire risk"</li>
         <li>"توقف إلزامي—تباين في العد / Hard stop—count discrepancy"</li>
-        <li>"اختراق العقامة—الحقل مخترق / Sterility breach—field compromised"</li>
+        <li>"اختراق حالة التعقيم—الحقل مخترق / Sterility breach—field compromised"</li>
     </ul>
     <p>اللغة المشتركة تقلل من التأخير والنقاش. (AHRQ; AORN concepts)</p>
 
@@ -5592,7 +5592,7 @@ export const chaptersContent: Record<string | number, string> = {
     <ul>
         <li>حريق غرفة العمليات (OR fire).</li>
         <li>العناصر المتروكة / تباين العد الجراحي.</li>
-        <li>اختراقات العقامة واستعادة الحقل.</li>
+        <li>اختراقات حالة التعقيم واستعادة الحقل.</li>
         <li>التسمية الخاطئة للعينات / الحوادث الوشيكة في سلسلة العهدة.</li>
         <li>الاستجابة لعطل المعدات الحرجة (شفط/ESU/طاقة) حيثما ينطبق. (AORN concepts; NFPA 99 concepts; ECRI concepts)</li>
     </ul>
@@ -5661,9 +5661,9 @@ export const chaptersContent: Record<string | number, string> = {
         </ul>
     </div>
 
-    <h2>31.5 تدريبات اختراق العقامة (إيقاف الإنكار، وتوحيد الاستعادة) / Sterility Breach Drills</h2>
+    <h2>31.5 تدريبات اختراق حالة التعقيم (إيقاف الإنكار، وتوحيد الاستعادة) / Sterility Breach Drills</h2>
 
-    <h3>31.5.1 لماذا لا يُبلغ عن اختراقات العقامة / Why sterility breaches are underreported</h3>
+    <h3>31.5.1 لماذا لا يُبلغ عن اختراقات حالة التعقيم / Why sterility breaches are underreported</h3>
     <p>العديد من الاختراقات تكون دقيقة: كُم يلامس سطحاً غير معقم، فتح حزمة مبكراً جداً، أداة تسقط ويتم "إنقاذها". يخاف الناس من الإحراج، لذا ينكرون أو يقللون من الأهمية. الإنكار هو صديق التلوث. (AORN concepts; AHRQ)</p>
     <p><span class="english-term"><strong>31.5.1 Why sterility breaches are underreported</strong><br>Many breaches are subtle: a sleeve brushes a non-sterile surface, a pack is opened too early, a sterile item drops and is “rescued.” People fear embarrassment, so they deny or minimize. Denial is contamination’s friend. (AORN concepts; AHRQ)</span></p>
 
@@ -5678,7 +5678,7 @@ export const chaptersContent: Record<string | number, string> = {
     </ul>
 
     <div class="success-box">
-        <h3>31.5.4 القاعدة الاجتماعية لتدريب اختراق العقامة / The sterility breach drill “social rule”</h3>
+        <h3>31.5.4 القاعدة الاجتماعية لتدريب اختراق حالة التعقيم / The sterility breach drill “social rule”</h3>
         <p>القاعدة الأهم هي قاعدة ثقافية: <strong>الشخص الذي يتحدث (Speak up) يُمدح، ولا يُعاقب.</strong> (AHRQ)</p>
         <p><span class="english-term"><strong>31.5.4 The sterility breach drill “social rule”</strong><br>The most important rule is cultural: The person who speaks up is praised, not punished. (AHRQ)</span></p>
     </div>
@@ -5718,7 +5718,7 @@ export const chaptersContent: Record<string | number, string> = {
     <ul>
         <li>تدريبات مصغرة ربع سنوية للحريق.</li>
         <li>تدريبات تباين العد شهرية (لفرق متناوبة).</li>
-        <li>تدريبات اختراق العقامة شهرية (مرتبطة بتدقيق التبديل). (IHI)</li>
+        <li>تدريبات اختراق حالة التعقيم شهرية (مرتبطة بتدقيق التبديل). (IHI)</li>
     </ul>
 
     <h3>31.8.2 استخدم "علامات الكفاءة" المرتبطة بالأداء المُثبت / Competency tags</h3>
@@ -5733,7 +5733,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>التدريبات تبني رد الفعل (Reflex). تحت الضغط، تعود الفرق إلى سلوكياتها المُدربة—وليس لنواياها الحسنة. (AHRQ)<br>
             <span class="english-term">Drills build reflex. Under stress, teams fall to trained behaviors—not to good intentions.</span></li>
             
-            <li>تُعد تدريبات الحريق، وتباين العد، واختراق العقامة حواجز سلامة يجب ممارستها في ظروف غرفة العمليات الواقعية. (NFPA 99 concepts; AORN concepts)<br>
+            <li>تُعد تدريبات الحريق، وتباين العد، واختراق حالة التعقيم حواجز سلامة يجب ممارستها في ظروف غرفة العمليات الواقعية. (NFPA 99 concepts; AORN concepts)<br>
             <span class="english-term">Fire drills, count discrepancy drills, and sterility breach drills are safety barriers that must be practiced in realistic OR conditions.</span></li>
             
             <li>العمل الجماعي وقت الأزمات (الحلقة المغلقة، وضوح الدور، التحدث بصوت عالٍ، الاستخلاص) هو المحرك الذي يُنجح جميع التدريبات الفنية. (AHRQ; TeamSTEPPS concepts)<br>
@@ -6921,7 +6921,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>ممارسات تحقق غير متسقة. (The Joint Commission; WHO SSC)</li>
         <li>إلغاءات متكررة يمكن الوقاية منها و"التفافات" (Workarounds). (IHI)</li>
         <li>إمكانية تتبع ضعيفة (للغرسات/العينات). (AORN)</li>
-        <li>انضباط هش للتنظيف والعقامة تحت ضغط الوقت. (AORN; WHO SSI)</li>
+        <li>انضباط هش للتنظيف وحالة التعقيم تحت ضغط الوقت. (AORN; WHO SSI)</li>
         <li>تصعيد غير متسق عند حدوث التباينات. (IHI; AHRQ)</li>
     </ul>
     <p>هذه ليست "مشاكل موظفين". إنها <strong>إشارات حوكمة (Governance signals)</strong>. (IHI)</p>
@@ -6982,7 +6982,7 @@ export const chaptersContent: Record<string | number, string> = {
     <ul>
         <li><strong>القائد الطبي/الجراحي (Medical/Surgical Lead):</strong> (المعايير السريرية، مشاركة الجراحين، حوكمة الإجراءات).</li>
         <li><strong>قائد التخدير (Anesthesia Lead):</strong> (واجهة المخاطر حول الجراحة Perioperative risk؛ ليس تكراراً لمحتوى التخدير، بل مواءمة للحوكمة).</li>
-        <li><strong>قائد التمريض/العمليات (Nursing/Operations Lead):</strong> (موثوقية سير العمل، التوظيف، بوابات الجاهزية، العقامة، التوثيق). (IHI)</li>
+        <li><strong>قائد التمريض/العمليات (Nursing/Operations Lead):</strong> (موثوقية سير العمل، التوظيف، بوابات الجاهزية، حالة التعقيم، التوثيق). (IHI)</li>
     </ul>
     <p>يضمن هذا الثالوث أن تعكس القرارات كلاً من الواقع السريري والموثوقية التشغيلية. (IHI)</p>
     <p><span class="english-term">This triad ensures decisions reflect both clinical reality and operational reliability. (IHI)</span></p>
@@ -7038,7 +7038,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>تباين في العد الجراحي لم يُحل. (AORN)</li>
             <li>عدم يقين في هوية العينة. (AORN; AHRQ)</li>
             <li>مكونات غرسات حرجة مفقودة. (AORN; ECRI)</li>
-            <li>اختراق العقامة غير المُدار في سياق حرج. (AORN; WHO SSI)</li>
+            <li>اختراق حالة التعقيم غير المُدار في سياق حرج. (AORN; WHO SSI)</li>
         </ul>
     </div>
 
@@ -7051,7 +7051,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>اللجان الفرعية/مجموعات العمل (شهرياً أو نصف شهرياً):</strong>
             <ul>
                 <li>سلامة ومخاطر غرفة العمليات (سجل المخاطر، التوقفات الإلزامية، الحوادث). (AHRQ; IHI)</li>
-                <li>مكافحة العدوى والعقامة في العمليات (موثوقية الوقاية من SSI، واجهة قسم التعقيم CSSD). (WHO SSI; CDC SSI; AORN)</li>
+                <li>مكافحة العدوى وحالة التعقيم في العمليات (موثوقية الوقاية من SSI، واجهة قسم التعقيم CSSD). (WHO SSI; CDC SSI; AORN)</li>
                 <li>عمليات وتدفق غرفة العمليات (قواعد الجدولة، الإلغاءات، الجاهزية، التبديل). (IHI)</li>
                 <li>التعليم والكفاءة في العمليات (التدريب، التدريبات الوهمية، واجهة الاعتماد). (AORN; IHI)</li>
             </ul>
@@ -7175,7 +7175,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>سير عمل تسمية العينات. (AORN; AHRQ)</li>
         <li>إمكانية تتبع الغرسات. (AORN)</li>
         <li>نظافة التبديل/التنظيف (Cleaning/turnover). (AORN)</li>
-        <li>الاستجابة لاختراقات العقامة. (AORN; WHO SSI)</li>
+        <li>الاستجابة لاختراقات حالة التعقيم. (AORN; WHO SSI)</li>
     </ul>
 
     <h3>4.8.2 التحكم في المستندات وحوكمة الإصدارات / Document control and version governance</h3>
@@ -7228,7 +7228,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>الالتزام بخوارزمية تباين العد الجراحي. (AORN)</li>
         <li>معدل الحوادث الوشيكة (Near-miss) للعينات ووقت التصحيح. (AHRQ; AORN)</li>
         <li>معدل اكتمال تتبع الغرسات. (AORN)</li>
-        <li>توثيق اختراق العقامة وجودة الاستجابة. (AORN; WHO SSI)</li>
+        <li>توثيق اختراق حالة التعقيم وجودة الاستجابة. (AORN; WHO SSI)</li>
         <li>أحداث "إيقاف الخط" (Stop-the-line) ونتائجها. (IHI)</li>
     </ul>
 
@@ -7316,7 +7316,7 @@ export const chaptersContent: Record<string | number, string> = {
             الرئيس: القائد الطبي + قائد التمريض/العمليات. الأعضاء: قائد التخدير، CSSD، مكافحة العدوى، الجودة، الهندسة الطبية، سلسلة التوريد. المخرجات: سجل المخاطر، لوحة القيادة، الموافقات. (IHI)</li>
             <br>
             <li><strong>4.13.3 الأداة 3 — سياسة التوقف الإلزامي الصريحة والقصيرة:</strong><br>
-            المحفزات: عدم تطابق البروتوكول العالمي، تباين العد، عدم يقين العينة، غرسة مفقودة، اختراق العقامة. السلطة: يمكن لأي موظف إيقاف العمل؛ الممرضة المسؤولة يمكنها التأخير. (The Joint Commission; AORN)</li>
+            المحفزات: عدم تطابق البروتوكول العالمي، تباين العد، عدم يقين العينة، غرسة مفقودة، اختراق حالة التعقيم. السلطة: يمكن لأي موظف إيقاف العمل؛ الممرضة المسؤولة يمكنها التأخير. (The Joint Commission; AORN)</li>
             <br>
             <li><strong>4.13.4 الأداة 4 — نموذج سجل إجراءات (Action Log):</strong><br>
             الإجراء / المالك / تاريخ الاستحقاق / المقياس / الحالة / دليل الإغلاق / تاريخ إعادة التدقيق. (IHI)</li>
@@ -7400,7 +7400,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>تشغيل <strong>تسجيل الدخول (Sign-in)، المهلة (Time-out)، وتسجيل الخروج (Sign-out)</strong> بجودة تنفيذ عالية: الانتباه، المشاركة، الوضوح، والحديث الهادف عن المخاطر. (WHO SSC)<br>
             <span class="english-term">Run <strong>Sign-in, Time-out, and Sign-out</strong> with high-quality execution: attention, participation, clarity, and meaningful risk talk. (WHO SSC)</span></li>
             
-            <li>بناء وفرض <strong>توقفات إلزامية (Hard stops)</strong> للتباينات وغياب المتطلبات الأساسية للسلامة (الهوية/الإجراء/الموقع، المضادات الحيوية، الغرسات، المعدات، جاهزية العقامة). (The Joint Commission; WHO SSC)<br>
+            <li>بناء وفرض <strong>توقفات إلزامية (Hard stops)</strong> للتباينات وغياب المتطلبات الأساسية للسلامة (الهوية/الإجراء/الموقع، المضادات الحيوية، الغرسات، المعدات، جاهزية حالة التعقيم). (The Joint Commission; WHO SSC)<br>
             <span class="english-term">Build and enforce <strong>hard stops</strong> for mismatches and missing safety prerequisites (identity/procedure/site, antibiotics, implants, equipment, sterility readiness). (The Joint Commission; WHO SSC)</span></li>
             
             <li>التعرف على أنماط الفشل في العالم الحقيقي التي تُحول قوائم التحقق إلى مجرد مسرحية (Theatre): السرعة، التسلسل الهرمي، تعدد المهام، و"الامتثال لمربع الاختيار" (Checkbox compliance). (AHRQ; IHI)<br>
@@ -7506,7 +7506,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li><strong>توقيت المضادات الحيوية:</strong> "هل أُعطي المضاد الحيوي في غضون 60 دقيقة؟" وإذا كانت حالة طويلة: "إعادة الجرعة مستحقة في الساعة [X]." (WHO SSI; CDC SSI)</li>
             <li><strong>مخاطر الجراح (Surgeon risks):</strong> ما هي الخطوات غير الروتينية، كم من الوقت ستستغرق، ما هو فقدان الدم المتوقع؟</li>
             <li><strong>مخاطر التخدير (Anesthesia risks):</strong> هل هناك أي مخاوف خاصة بالمريض (أمراض قلبية، درجة الحرارة)؟</li>
-            <li><strong>مخاطر التمريض/CSSD:</strong> هل تم تأكيد العقامة؟ هل الغرسات متوفرة بالأحجام الصحيحة؟ هل هناك أجهزة خاصة جاهزة؟ (AORN; WHO SSC)</li>
+            <li><strong>مخاطر التمريض/CSSD:</strong> هل تم تأكيد حالة التعقيم؟ هل الغرسات متوفرة بالأحجام الصحيحة؟ هل هناك أجهزة خاصة جاهزة؟ (AORN; WHO SSC)</li>
         </ul>
     </div>
 
@@ -7672,7 +7672,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>تحديد <strong>الأسباب الجذرية (Root causes)</strong> الحقيقية لتأخر بدء الحالات الأولى وإصلاحها على مستوى النظام (وليس من خلال إلقاء اللوم على الأفراد). (IHI; AHRQ)<br>
             <span class="english-term">Identify the real <strong>root causes</strong> of late first-case starts and fix them at the system level (not by blaming individuals). (IHI; AHRQ)</span></li>
             
-            <li>تعريف <strong>"الغرفة جاهزة" (Room Ready)</strong> و <strong>"المريض جاهز" (Patient Ready)</strong> كشروط بوابة قابلة للتدقيق تحمي جودة قائمة التحقق وانضباط العقامة. (IHI; WHO SSC concepts; AORN concepts)<br>
+            <li>تعريف <strong>"الغرفة جاهزة" (Room Ready)</strong> و <strong>"المريض جاهز" (Patient Ready)</strong> كشروط بوابة قابلة للتدقيق تحمي جودة قائمة التحقق وانضباط حالة التعقيم. (IHI; WHO SSC concepts; AORN concepts)<br>
             <span class="english-term">Define <strong>“Room Ready”</strong> and <strong>“Patient Ready”</strong> as auditable gate conditions that protect checklist quality and sterility discipline. (IHI; WHO SSC concepts; AORN concepts)</span></li>
             
             <li>رسم خريطة <strong>للاعتِمادات المبكرة (Upstream dependencies)</strong> (التعقيم/CSSD، النقل، التصوير، الأجنحة، الصيدلية، تدفق أسرة الإفاقة/PACU) وبناء مسارات تصعيد تمنع مفاجآت الصباح. (AHRQ; IHI)<br>
@@ -7774,7 +7774,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>24.4 The Turnover Trap (Where Speed Kills Safety)</h3>
 
     <h3>24.4.1 الخطيئة المميتة: تداخل التنظيف مع الفتح المعقم</h3>
-    <p>أخطر خطأ في غرفة العمليات لدفع عجلة الكفاءة هو البدء في فتح الصواني المعقمة للحالة "ب" بينما لا يزال عمال النظافة يمسحون الدماء وينفضون الغبار من الحالة "أ". <strong>هذا ينتهك مبادئ العقامة بشكل مباشر ويزيد من خطر الإصابة بعدوى الموقع الجراحي (SSI).</strong> (AORN; CDC / WHO SSI concepts)</p>
+    <p>أخطر خطأ في غرفة العمليات لدفع عجلة الكفاءة هو البدء في فتح الصواني المعقمة للحالة "ب" بينما لا يزال عمال النظافة يمسحون الدماء وينفضون الغبار من الحالة "أ". <strong>هذا ينتهك مبادئ حالة التعقيم بشكل مباشر ويزيد من خطر الإصابة بعدوى الموقع الجراحي (SSI).</strong> (AORN; CDC / WHO SSI concepts)</p>
     <div class="alert-box">
         <p><strong>قاعدة التوقف الإلزامي (Hard Stop Rule):</strong> لا يتم فتح أي إمدادات معقمة للحالة التالية حتى يكتمل التنظيف البيئي، وتتم إزالة جميع النفايات، وتكون الغرفة هادئة. (AORN)</p>
         <p><span class="english-term"><strong>24.4.1 The deadly sin: Overlapping cleaning and sterile opening</strong><br>The most dangerous OR efficiency mistake is starting to open sterile trays for Case B while cleaners are still wiping blood and kicking up dust from Case A. <strong>This directly violates aseptic principles and spikes SSI risk.</strong> (AORN; CDC / WHO SSI concepts)<br>
@@ -8095,7 +8095,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li><strong>الموافقة مفقودة، غامضة، أو غير متوافقة:</strong> النموذج المُوقع لا يكفي؛ يجب أن يتطابق مع الإجراء المقصود فعلياً. (The Joint Commission)</li>
             <li><strong>طقم الغرسة/الإعارة غير مكتمل:</strong> إذا كانت الحالة تعتمد على نظام غرسة، فإن الأطقم غير المكتملة تُعد توقفاً إلزامياً ما لم تُطبق بروتوكولات الطوارئ. (AORN; IHI)</li>
             <li><strong>التصوير الحرج غائب:</strong> عندما يحدد التصوير الموقع/المستوى، فإن المضي قدماً بدونه ليس تحققاً. (The Joint Commission)</li>
-            <li><strong>إخفاقات سلامة العقامة:</strong> تتطلب اختراقات العقامة (Sterility breaks) غير المدارة توقفاً وإجراءً تصحيحياً. (AORN; WHO SSI)</li>
+            <li><strong>إخفاقات سلامة حالة التعقيم:</strong> تتطلب اختراقات حالة التعقيم (Sterility breaks) غير المدارة توقفاً وإجراءً تصحيحياً. (AORN; WHO SSI)</li>
         </ul>
         <p>معايير التوقف هي كيف تصبح <strong>الحوكمة واقعاً</strong> في الساعة 7:30 صباحاً. (IHI)</p>
         <p><span class="english-term">Stop criteria are how <strong>governance becomes real</strong> at 7:30 a.m. (IHI)</span></p>
@@ -8587,7 +8587,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>شرح لماذا لا تعتبر هيكلة الموظفين في غرفة العمليات مجرد "حصر أعداد"، بل هي <strong>نظام للتحكم في المخاطر (Risk-control system)</strong> يحدد جودة حواجز السلامة. (AHRQ; IHI)<br>
             <span class="english-term">Explain why staffing in the OR is not a “headcount,” but a <strong>risk-control system</strong> that determines the quality of safety barriers. (AHRQ; IHI)</span></li>
             
-            <li>تحديد <strong>"مزيج المهارات" (Skill mix)</strong> الفعال لضمان تغطية العقامة، والعد الجراحي، وجاهزية المعدات، وليس فقط سد الشواغر الوظيفية. (AORN; AHRQ)<br>
+            <li>تحديد <strong>"مزيج المهارات" (Skill mix)</strong> الفعال لضمان تغطية حالة التعقيم، والعد الجراحي، وجاهزية المعدات، وليس فقط سد الشواغر الوظيفية. (AORN; AHRQ)<br>
             <span class="english-term">Define an effective <strong>Skill mix</strong> to ensure coverage for sterility, counts, and equipment readiness, not just filling roles. (AORN; AHRQ)</span></li>
             
             <li>تطبيق مفاهيم <strong>"التوظيف حسب حدة الحالة" (Staffing to Acuity)</strong> واستخدام سلم الحدة لمطابقة كفاءة الفريق مع تعقيد الحالة، متجاوزاً فكرة "النسب الثابتة". (IHI; AHRQ)<br>
@@ -8755,7 +8755,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term"><strong>27.9.1 Staffing is an ethical act</strong><br>When you put an unsupported junior nurse in a complex room, you are not “managing resources”; you are transferring administrative risk directly onto the patient’s body. Protecting your staff is how you protect your patients.</span></p>
 
     <h3>27.9.2 لا يمكنك تحسين فريق منهك</h3>
-    <p>يمكنك كتابة أفضل السياسات في العالم (حول العقامة، الـ Time-out، والعد)، لكن الموظفين المنهكين سيبحثون دائماً عن الاختصارات. جودة الحواجز السريرية الخاصة بك تحددها مستويات طاقة فريقك. (AHRQ)</p>
+    <p>يمكنك كتابة أفضل السياسات في العالم (حول حالة التعقيم، الـ Time-out، والعد)، لكن الموظفين المنهكين سيبحثون دائماً عن الاختصارات. جودة الحواجز السريرية الخاصة بك تحددها مستويات طاقة فريقك. (AHRQ)</p>
     <p><span class="english-term"><strong>27.9.2 You cannot optimize a burned-out team</strong><br>You can write the best policies in the world (for asepsis, time-outs, counts), but exhausted staff will always find shortcuts. The quality of your clinical barriers is dictated by the energy levels of your team. (AHRQ)</span></p>
 
     <div class="divider">***</div>
@@ -8764,7 +8764,7 @@ export const chaptersContent: Record<string | number, string> = {
     <div class="success-box">
         <p><span class="english-term">Key Memory Messages:</span></p>
         <ul>
-            <li>مزيج المهارات (Skill mix) هو حاجز سلامة: يجب أن يغطي العقامة، العد، العينات، الغرسات، جاهزية المعدات، والتواصل—وليس مجرد سد أدوار. (AORN; AHRQ)<br>
+            <li>مزيج المهارات (Skill mix) هو حاجز سلامة: يجب أن يغطي حالة التعقيم، العد، العينات، الغرسات، جاهزية المعدات، والتواصل—وليس مجرد سد أدوار. (AORN; AHRQ)<br>
             <span class="english-term">Skill mix is a safety barrier: it must cover sterility, counts, specimens, implants, equipment readiness, and communication—not just roles.</span></li>
             
             <li>يجب أن يتطابق التوظيف مع الحدة (Acuity): النسب الثابتة تفشل عندما يرتفع التعقيد. استخدم سلم الحدة وضع "المراسي" (Anchors) حيث تكون المخاطر أعلى. (IHI; AHRQ)<br>
@@ -9089,7 +9089,7 @@ export const chaptersContent: Record<string | number, string> = {
         <li>تأكيد أن نوع/نظام الغرسة يطابق الإجراء المخطط له،</li>
         <li>تأكيد توافق الجهة/الموقع/المستوى،</li>
         <li>تأكيد توفر نطاق الحجم (Size range)،</li>
-        <li>تأكيد العقامة والسلامة (Integrity)،</li>
+        <li>تأكيد حالة التعقيم والسلامة (Integrity)،</li>
         <li>تأكيد خطة التقاط بيانات التتبع (UDI/الملصقات). (AORN)</li>
     </ul>
 
@@ -9154,7 +9154,7 @@ export const chaptersContent: Record<string | number, string> = {
             <strong>عناصر التقييم:</strong> توقف الجميع، تم نطق المريض/الإجراء/الموقع بصوت عالٍ، علامة الموقع مرئية ومؤكدة، تمت الإشارة للتصوير، تم تأكيد جاهزية الغرسة، تم حل التباين قبل الشق الجراحي. (WHO SSC; The Joint Commission)</li>
             <br>
             <li><strong>6.10.3 الأداة 3 — نموذج التحقق والتتبع للغرسات:</strong><br>
-            اسم نظام الغرسة، توافق الجهة/الموقع، تأكيد نطاق الحجم، فحص العقامة، التقاط UDI/الملصق، توقيع الإنجاز قبل مغادرة المريض للغرفة. (AORN)</li>
+            اسم نظام الغرسة، توافق الجهة/الموقع، تأكيد نطاق الحجم، فحص حالة التعقيم، التقاط UDI/الملصق، توقيع الإنجاز قبل مغادرة المريض للغرفة. (AORN)</li>
             <br>
             <li><strong>6.10.4 الأداة 4 — بطاقة نص "إيقاف الخط" (Stop-the-line):</strong><br>
             "توقف من فضلك—فحص سلامة." (WHO SSC)<br>
@@ -9471,19 +9471,19 @@ export const chaptersContent: Record<string | number, string> = {
         <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
         <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
         <ol>
-            <li>شرح لماذا تُعد سلسلة التوريد والمخزون في غرفة العمليات <strong>نظاماً لسلامة المرضى والعقامة</strong>، وليست مجرد لوجستيات، وكيف أن النواقص تدفع الفرق نحو التفافات (Workarounds) غير آمنة. (AORN; IHI; AHRQ)<br>
+            <li>شرح لماذا تُعد سلسلة التوريد والمخزون في غرفة العمليات <strong>نظاماً لسلامة المرضى وحالة التعقيم</strong>، وليست مجرد لوجستيات، وكيف أن النواقص تدفع الفرق نحو التفافات (Workarounds) غير آمنة. (AORN; IHI; AHRQ)<br>
             <span class="english-term">Explain why supply chain and stock in the OR is a <strong>patient safety and sterility system</strong>, not just logistics, and how shortages drive teams toward unsafe workarounds. (AORN; IHI; AHRQ)</span></li>
             
             <li>بناء وإدارة <strong>مستويات المخزون الأساسية (Par Levels)</strong> بطريقة تعمل كـ "هوامش أمان" تمنع كلاً من النواقص الخطيرة (التي تسبب التأخير والارتجال) وتكدس المخزون الزائد (الذي يسبب انتهاء الصلاحية والفوضى). (IHI; AHRQ)<br>
             <span class="english-term">Build and manage <strong>Par Levels</strong> in a way that acts as "safety buffers," preventing both dangerous shortages (causing delay/improvisation) and overstocking (causing expiry/clutter). (IHI; AHRQ)</span></li>
             
-            <li>تطبيق سياسات <strong>تدوير المخزون وإدارة انتهاء الصلاحية (Stock Rotation and Expiry Management)</strong> لضمان موثوقية العقامة، باستخدام مبادئ الإدارة المرئية وقاعدة "ما تنتهي صلاحيته أولاً، يخرج أولاً" (FEFO). (AORN; AAMI ST79 concepts)<br>
+            <li>تطبيق سياسات <strong>تدوير المخزون وإدارة انتهاء الصلاحية (Stock Rotation and Expiry Management)</strong> لضمان موثوقية حالة التعقيم، باستخدام مبادئ الإدارة المرئية وقاعدة "ما تنتهي صلاحيته أولاً، يخرج أولاً" (FEFO). (AORN; AAMI ST79 concepts)<br>
             <span class="english-term">Apply <strong>Stock Rotation and Expiry Management</strong> policies to ensure sterility reliability, using visual management principles and the FEFO (First Expired, First Out) rule. (AORN; AAMI ST79 concepts)</span></li>
             
             <li>تطوير مسار محكوم وآمن للتعامل مع <strong>النواقص العاجلة (Urgent Shortages)</strong> والبدائل (Substitutions)، بحيث لا يتم اللجوء للارتجال دون موافقة الحوكمة. (AHRQ; ECRI concepts)<br>
             <span class="english-term">Develop a governed and safe pathway for handling <strong>Urgent Shortages</strong> and substitutions, so improvisation does not happen without governance approval. (AHRQ; ECRI concepts)</span></li>
             
-            <li>تنفيذ استراتيجيات <strong>لتقليل الهدر (Waste Reduction)</strong> بأمان من خلال تحديد الحجم المناسب للحزم، وتوحيد وحدات حفظ المخزون (SKUs)، دون المساومة أبداً على معايير العقامة أو إعادة الاستخدام غير الآمن. (IHI; AORN)<br>
+            <li>تنفيذ استراتيجيات <strong>لتقليل الهدر (Waste Reduction)</strong> بأمان من خلال تحديد الحجم المناسب للحزم، وتوحيد وحدات حفظ المخزون (SKUs)، دون المساومة أبداً على معايير حالة التعقيم أو إعادة الاستخدام غير الآمن. (IHI; AORN)<br>
             <span class="english-term">Implement strategies for safe <strong>Waste Reduction</strong> through right-sizing packs and standardizing SKUs, without ever compromising sterility standards or forcing unsafe reuse. (IHI; AORN)</span></li>
         </ol>
     </div>
@@ -9514,7 +9514,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term">Later that week, another room discovered expired sterile items inside a core cart—nobody meant harm. The system simply allowed expiry to hide until it was discovered at the worst time: during patient preparation. (AORN; AAMI ST79 concepts)</span></p>
 
     <div class="success-box">
-        <p>عندها أصبح الأمر واضحاً بالنسبة لي: <strong>سلسلة التوريد ليست لوجستيات. في غرفة العمليات، سلسلة التوريد هي العقامة، والوقت، والسلامة—مُغلفة معاً.</strong> إذا كان المخزون غير مستقر، تُدفع الفرق نحو الاختصارات. إذا كانت إدارة انتهاء الصلاحية ضعيفة، تصبح موثوقية العقامة مقامرة. إذا كانت مستويات التخزين غير واقعية، يقضي الموظفون طاقتهم الإدراكية في "البحث والصيد" بدلاً من رعاية المرضى. (IHI; AHRQ)</p>
+        <p>عندها أصبح الأمر واضحاً بالنسبة لي: <strong>سلسلة التوريد ليست لوجستيات. في غرفة العمليات، سلسلة التوريد هي حالة التعقيم، والوقت، والسلامة—مُغلفة معاً.</strong> إذا كان المخزون غير مستقر، تُدفع الفرق نحو الاختصارات. إذا كانت إدارة انتهاء الصلاحية ضعيفة، تصبح موثوقية حالة التعقيم مقامرة. إذا كانت مستويات التخزين غير واقعية، يقضي الموظفون طاقتهم الإدراكية في "البحث والصيد" بدلاً من رعاية المرضى. (IHI; AHRQ)</p>
         <p><span class="english-term">That’s when it became clear to me: <strong>Supply chain is not logistics. In the OR, supply chain is sterility, time, and safety—packaged together.</strong> If stock is unstable, teams are pushed toward shortcuts. If expiry management is weak, sterility reliability becomes a gamble. If par levels are unrealistic, staff spend their cognitive energy hunting instead of caring. (IHI; AHRQ)</span></p>
     </div>
 
@@ -9550,8 +9550,8 @@ export const chaptersContent: Record<string | number, string> = {
     <h2>26.3 تدوير المخزون وانتهاء الصلاحية (منع المخاطر الصامتة)</h2>
     <h3>26.3 Stock Rotation and Expiry (Preventing Silent Hazards)</h3>
 
-    <h3>26.3.1 العقامة والتدهور / Sterility and degradation</h3>
-    <p>تعتبر العقامة "مرتبطة بالحدث" (Event-related)، ولكن سلامة العبوات ومواد الأجهزة تتدهور بمرور الوقت. تاريخ انتهاء الصلاحية ليس اقتراحاً؛ إنه <strong>توقف إلزامي لضمان السلامة (Safety hard stop)</strong>. إن استخدام دعامة (Stent) أو خيط جراحي منتهي الصلاحية يعرض المريض لردود فعل غير متوقعة أو فشل ميكانيكي. (AORN; AAMI ST79 concepts)</p>
+    <h3>26.3.1 حالة التعقيم والتدهور / Sterility and degradation</h3>
+    <p>تعتبر حالة التعقيم "مرتبطة بالحدث" (Event-related)، ولكن سلامة العبوات ومواد الأجهزة تتدهور بمرور الوقت. تاريخ انتهاء الصلاحية ليس اقتراحاً؛ إنه <strong>توقف إلزامي لضمان السلامة (Safety hard stop)</strong>. إن استخدام دعامة (Stent) أو خيط جراحي منتهي الصلاحية يعرض المريض لردود فعل غير متوقعة أو فشل ميكانيكي. (AORN; AAMI ST79 concepts)</p>
     <p><span class="english-term"><strong>26.3.1 Sterility and degradation</strong><br>Sterility is event-related, but packaging integrity and device materials degrade over time. Expiry is not a suggestion; it is a <strong>safety hard stop</strong>. Using an expired stent or suture subjects the patient to unpredictable reactions or mechanical failure. (AORN; AAMI ST79 concepts)</span></p>
 
     <h3>26.3.2 قاعدة FEFO (ما تنتهي صلاحيته أولاً، يخرج أولاً) / FEFO rule</h3>
@@ -9667,13 +9667,13 @@ export const chaptersContent: Record<string | number, string> = {
             <li>مستويات الـ Par هي هوامش أمان (Safety buffers): الانخفاض الشديد يخلق نواقص وحلولاً ارتجالية خطيرة؛ والارتفاع الشديد يخلق انتهاء صلاحية وفوضى. (IHI; AHRQ)<br>
             <span class="english-term">Par levels are safety buffers: too low creates shortages and risky workarounds; too high creates expiry and clutter.</span></li>
             
-            <li>التحكم في التدوير وانتهاء الصلاحية يحمي موثوقية العقامة—تطبيق FEFO/FIFO، والإدارة المرئية تمنع "مفاجآت انتهاء الصلاحية". (AORN; AAMI ST79 concepts)<br>
+            <li>التحكم في التدوير وانتهاء الصلاحية يحمي موثوقية حالة التعقيم—تطبيق FEFO/FIFO، والإدارة المرئية تمنع "مفاجآت انتهاء الصلاحية". (AORN; AAMI ST79 concepts)<br>
             <span class="english-term">Rotation and expiry control protect sterility reliability—FEFO/FIFO, visual management, and assigned ownership prevent “expiry surprises.”</span></li>
             
             <li>يجب التحكم في الاستجابة للنواقص: بدائل معتمدة، تواصل بين الفريق، وتوثيق—لا ارتجال دون حوكمة. (AHRQ; AORN)<br>
             <span class="english-term">Shortage response must be controlled: approved substitutions, team communication, documentation, and reporting—no improvisation without governance.</span></li>
             
-            <li>تقليل الهدر يجب أن يكون آمناً: تحديد الحجم المناسب للعبوات، توحيد وحدات المخزون (SKUs)، وتحسين التدوير—لا تتنازل أبداً عن العقامة أو تفرض إعادة استخدام غير آمنة. (IHI; AORN)<br>
+            <li>تقليل الهدر يجب أن يكون آمناً: تحديد الحجم المناسب للعبوات، توحيد وحدات المخزون (SKUs)، وتحسين التدوير—لا تتنازل أبداً عن حالة التعقيم أو تفرض إعادة استخدام غير آمنة. (IHI; AORN)<br>
             <span class="english-term">Waste reduction must be safe: right-size packs, standardize SKUs, improve rotation—never cut corners on sterility or force unsafe reuse.</span></li>
         </ul>
     </div>
@@ -9706,7 +9706,7 @@ export const chaptersContent: Record<string | number, string> = {
         <p>بحلول نهاية هذا الفصل، ستكون قادراً على:</p>
         <p><span class="english-term">By the end of this chapter, you will be able to:</span></p>
         <ol>
-            <li>شرح العقامة (Asepsis) كـ <strong>نظام عالي الموثوقية (High-reliability system)</strong> يتكون من (حواجز + سلوكيات + خوارزميات استجابة)، وليس مجرد مفهوم يعتمد على "الشخص الحذر". (AORN; WHO SSI; CDC SSI)<br>
+            <li>شرح حالة التعقيم (Asepsis) كـ <strong>نظام عالي الموثوقية (High-reliability system)</strong> يتكون من (حواجز + سلوكيات + خوارزميات استجابة)، وليس مجرد مفهوم يعتمد على "الشخص الحذر". (AORN; WHO SSI; CDC SSI)<br>
             <span class="english-term">Explain asepsis as a <strong>high-reliability system</strong> (barriers + behaviors + response algorithms), not a “careful person” concept. (AORN; WHO SSI; CDC SSI)</span></li>
             
             <li>التعرف على أنماط الفشل الواقعية للتقنية المعقمة—خاصة "الأمور الطبيعية الصغيرة" (Small normals) التي تزيد بهدوء من خطر التلوث. (AORN; AHRQ)<br>
@@ -9718,7 +9718,7 @@ export const chaptersContent: Record<string | number, string> = {
             <li>الاستجابة لاختراقات الحقل المعقم باستخدام خوارزمية متسقة وقابلة للتعليم تعمل تحت ضغط الوقت وتحمي السلامة النفسية. (AORN; AHRQ; IHI)<br>
             <span class="english-term">Respond to sterile field breaks using a consistent, teachable algorithm that works under time pressure and protects psychological safety. (AORN; AHRQ; IHI)</span></li>
             
-            <li>تنفيذ أدوات عملية (بطاقة الاستجابة لاختراق العقامة، سجل فتح الأبواب، تدقيق العقامة، حلقة التعلم) وتتبع مؤشرات الموثوقية بمرور الوقت. (IHI; AORN)<br>
+            <li>تنفيذ أدوات عملية (بطاقة الاستجابة لاختراق حالة التعقيم، سجل فتح الأبواب، تدقيق حالة التعقيم، حلقة التعلم) وتتبع مؤشرات الموثوقية بمرور الوقت. (IHI; AORN)<br>
             <span class="english-term">Implement practical tools (sterile break response card, door-opening log, asepsis audit, learning loop) and track reliability indicators over time. (IHI; AORN)</span></li>
         </ol>
     </div>
@@ -9729,7 +9729,7 @@ export const chaptersContent: Record<string | number, string> = {
         <span class="english-term">A true-to-life case: “The break nobody wanted to name” (Real Scientific Story)</span>
     </div>
 
-    <p>هناك لحظة في كل غرفة عمليات يبدأ فيها الوقت بالضغط. ليس بصوت عالٍ—بل بهدوء. القائمة متأخرة، الهاتف يرن، المساعد مشغول، وتبدأ الغرفة في التعامل مع المقاطعات كأمر طبيعي. في تلك اللحظات، تصبح العقامة (Asepsis) هشة لأن التهديد غير مرئي.</p>
+    <p>هناك لحظة في كل غرفة عمليات يبدأ فيها الوقت بالضغط. ليس بصوت عالٍ—بل بهدوء. القائمة متأخرة، الهاتف يرن، المساعد مشغول، وتبدأ الغرفة في التعامل مع المقاطعات كأمر طبيعي. في تلك اللحظات، تصبح حالة التعقيم (Asepsis) هشة لأن التهديد غير مرئي.</p>
     <p><span class="english-term">There is a moment in every operating theatre when time begins to push. Not loudly—quietly. The list is behind, the phone rings, the runner is busy, and the room starts to treat interruptions as normal. In those moments, asepsis becomes vulnerable because the threat is invisible.</span></p>
 
     <p>أتذكر حالة طويلة كان فيها الفريق قوياً وكان المريض مستقراً. أثناء إعادة تموضع جهاز طبي، لامس كم أحدهم حافة الفرش الجراحي (Drape). كانت لمسة خفيفة جداً. رأتها ممرضة مبتدئة. ورآها أيضاً فني التخدير.</p>
@@ -9751,15 +9751,15 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term">The hard lesson ORs learn is that <strong>asepsis is not just chemistry; it is behavior.</strong> And if the behavior is psychologically expensive, the chemistry will fail. (AORN; IHI)</span></p>
     </div>
 
-    <h2>10.1 العقامة كنظام عالي الموثوقية (وليست مجرد شخص حذر)</h2>
+    <h2>10.1 حالة التعقيم كنظام عالي الموثوقية (وليست مجرد شخص حذر)</h2>
     <h3>10.1 Asepsis as a High-Reliability System (Not Just a Careful Person)</h3>
 
     <h3>10.1.1 وهم "الفريق المثالي" / The illusion of the “perfect team”</h3>
     <p>نحن نعلم الممرضين والجراحين "التقنية المعقمة" كمهارة فردية. لكن الأفراد يتعبون، ويتشتت انتباههم، ويُدفعون للاستعجال. تعتمد الموثوقية العالية على <strong>تصميم النظام (System design)</strong> لتقليل الفرص التي يمكن أن تفشل فيها مهارة الفرد. (IHI)</p>
     <p><span class="english-term"><strong>10.1.1 The illusion of the “perfect team”</strong><br>We teach nurses and surgeons “sterile technique” as an individual skill. But individuals get tired, distracted, and rushed. High reliability relies on <strong>system design</strong> to reduce the chances that an individual’s skill can fail. (IHI)</span></p>
 
-    <h3>10.1.2 المكونات الثلاثة لنظام العقامة / The three components of an asepsis system</h3>
-    <p>في الممارسة العملية، يتكون نظام العقامة القوي من:</p>
+    <h3>10.1.2 المكونات الثلاثة لنظام حالة التعقيم / The three components of an asepsis system</h3>
+    <p>في الممارسة العملية، يتكون نظام حالة التعقيم القوي من:</p>
     <ul>
         <li><strong>تصميم الحدود (Boundary Design):</strong> فصل واضح بين ما هو معقم وما هو غير معقم (منصات، حقول، تدفق هواء).</li>
         <li><strong>انضباط السلوك (Behavioral Discipline):</strong> تقليل حركة المرور، والحد من الحركة فوق الحقول المعقمة، وتقليل الأحاديث.</li>
@@ -9787,7 +9787,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term"><strong>10.3.1 Why doors matter</strong><br>ORs are designed with positive pressure to push contaminant-laden air out. Every time a door opens, airflow dynamics are disrupted, airborne particle counts spike, and SSI risk increases, especially in implant orthopedics. (WHO SSI; AORN)</span></p>
 
     <h3>10.3.2 فتح الأبواب هو عرض لضعف الجاهزية / Door opening is a symptom of poor readiness</h3>
-    <p>غالباً ما تصرخ الفرق على بعضها البعض لـ "إبقاء الباب مغلقاً". لكن الشرطة لا تنجح. تفتح الأبواب لأن:</p>
+    <p>غالباً ما تصرخ الفرق على بعضها البعض لـ "إبقاء الباب مغلقاً". لكن الأمن لا ينجح. تفتح الأبواب لأن:</p>
     <ul>
         <li>أداة أو غرسة كانت مفقودة (فشل التخطيط).</li>
         <li>الهاتف رن ولا يوجد من يرد عليه بالداخل.</li>
@@ -9797,8 +9797,8 @@ export const chaptersContent: Record<string | number, string> = {
 
     <div class="concept-box">
         <h3>10.3.3 2: "الغرفة التي قللت فتح الأبواب بنسبة 70%"</h3>
-        <p>قمنا بقياس فتحات الأبواب أثناء عمليات استبدال المفاصل (Joint replacements). كان المتوسط 45 فتحة لكل حالة. كان الجراح غاضباً، ولكن بدلاً من إلقاء اللوم، تتبعنا <strong>السبب</strong>. كانت 80% من الفتحات لـ "رحلات البحث عن إمدادات مفقودة".</p>
-        <p>الحل: أنشأنا قائمة تحقق للمعدات بنسبة 100% <strong>يتم إكمالها قبل الشق الجراحي</strong>، وقمنا بتركيب نظام اتصال داخلي (Intercom). انخفضت فتحات الأبواب إلى 12 لكل حالة. تم حل المشكلة من خلال الحوكمة، وليس الصراخ. (IHI; AORN)</p>
+        <p>قاموا بدراسة لقياس فتحات الأبواب أثناء عمليات استبدال المفاصل (Joint replacements). كان المتوسط 45 فتحة لكل حالة. كان الجراح غاضباً، ولكن بدلاً من إلقاء اللوم، تتبع الفريق <strong>السبب</strong>. تبيّن أن 80% من الفتحات كانت بسبب "رحلات البحث عن إمدادات مفقودة".</p>
+        <p>الحل: أنشأ الفريق قائمة تحقق للمعدات بنسبة 100% <strong>يتم إكمالها قبل الشق الجراحي</strong>، وتم تركيب نظام اتصال داخلي (Intercom). انخفضت فتحات الأبواب إلى 12 لكل حالة. تم حل المشكلة من خلال الحوكمة، وليس الصراخ. (IHI; AORN)</p>
         <p><span class="english-term">The fix: We created a 100% equipment checklist <strong>completed prior to incision</strong>, and installed an intercom. Door openings dropped to 12 per case. The problem was solved by governance, not shouting. (IHI; AORN)</span></p>
     </div>
 
@@ -9832,7 +9832,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h2>10.5 السلامة النفسية: الضابط الخفي للعقامة</h2>
     <h3>10.5 Psychological Safety: The Hidden Control of Asepsis</h3>
 
-    <h3>10.5.1 الخوف من الجراح يقتل العقامة / Fear of the surgeon kills asepsis</h3>
+    <h3>10.5.1 الخوف من الجراح يقتل حالة التعقيم / Fear of the surgeon kills asepsis</h3>
     <p>إذا صرخ الجراح في وجه ممرضة لأنها أبلغت عن ثقب في القفاز، فإن تلك الممرضة ستفكر مرتين قبل التحدث في المرة القادمة. يجب على القيادة الجراحية أن تكافئ التحدث بصوت عالٍ، حتى عندما يكون ذلك مزعجاً. (AHRQ)</p>
     <p><span class="english-term"><strong>10.5.1 Fear of the surgeon kills asepsis</strong><br>If a surgeon yells at a nurse for reporting a glove puncture, that nurse will think twice before speaking up next time. Surgical leadership must reward speaking up, even when it is annoying. (AHRQ)</span></p>
 
@@ -9840,11 +9840,11 @@ export const chaptersContent: Record<string | number, string> = {
     <p>أقوى بيان في غرفة العمليات هو عندما يقول الجراح نفسه: <em>"لقد لوثت قفازي للتو. يرجى إعطائي واحداً جديداً."</em> هذا يُطبّع (Normalizes) الصدق بدلاً من الكمال. (IHI)</p>
     <p><span class="english-term"><strong>10.5.2 Role modeling</strong><br>The most powerful statement in the OR is when the surgeon themselves says: <em>"I just contaminated my glove. Please give me a new one."</em> This normalizes honesty over perfection. (IHI)</span></p>
 
-    <h2>10.6 أدوات عملية لموثوقية العقامة / Practical Tools for Asepsis Reliability</h2>
+    <h2>10.6 أدوات عملية لموثوقية حالة التعقيم / Practical Tools for Asepsis Reliability</h2>
 
     <div class="success-box">
         <ul>
-            <li><strong>10.6.1 الأداة 1 — بطاقة الاستجابة لاختراق العقامة (جيب/حائط):</strong><br>
+            <li><strong>10.6.1 الأداة 1 — بطاقة الاستجابة لاختراق حالة التعقيم (جيب/حائط):</strong><br>
             تلخيص خوارزمية (توقف، صرّح، أصلح، تحقق، وثّق). وجودها مكتوبة يمنح الموظفين سلطة استخدامها. (AORN; IHI)</li>
             <br>
             <li><strong>10.6.2 الأداة 2 — سجل تدقيق فتح الأبواب (Door-opening audit log):</strong><br>
@@ -9869,8 +9869,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>وقت إغلاق الإجراءات المكتشفة في التدقيق. (IHI)</li>
     </ul>
 
-    <h2>10.14 تأملات في مسرح العمليات</h2>
-    <h3>10.14 Reflections in the Operating Theatre: What I'd Tell Young ORs</h3>
+    <h2>10.14 تأملات: ما نريد أن نخبر غرف العمليات الناشئة عنه</h2>
+    <h3>10.14 Reflections: What We Want to Tell Emerging Operating Theatres</h3>
 
     <h3>10.14.1 الصمت هو خطر تلوث / Silence is a contamination risk</h3>
     <p>في غرف العمليات، يتطلب الأمر شجاعة لوقف الجراح من أجل أمر غير مرئي. غرفة العمليات الآمنة تجعل هذه الشجاعة طبيعية ومحترمة. الصمت هو أكبر خطر للتلوث. (AHRQ)</p>
@@ -9890,16 +9890,16 @@ export const chaptersContent: Record<string | number, string> = {
     <div class="success-box">
         <p><span class="english-term">Key Memory Messages:</span></p>
         <ul>
-            <li>العقامة (Asepsis) هي <strong>نظام موثوقية</strong>: حدود + سلوكيات + استجابة للاختراقات + حلقات تعلم. (AORN; WHO SSI)<br>
+            <li>حالة التعقيم (Asepsis) هي <strong>نظام موثوقية</strong>: حدود + سلوكيات + استجابة للاختراقات + حلقات تعلم. (AORN; WHO SSI)<br>
             <span class="english-term">Asepsis is a reliability system: boundaries + behavior + break-response + learning loops.</span></li>
             
             <li>التحكم في الأبواب هو في الأساس مشكلة <strong>تصميم الجاهزية (Readiness design)</strong>—قم بإصلاح الأسباب المبكرة وتتحسن حركة المرور بشكل طبيعي. (IHI)<br>
             <span class="english-term">Door control is primarily a readiness design problem—fix upstream causes and traffic improves naturally.</span></li>
             
-            <li>يجب أن تؤدي اختراقات العقامة إلى إجراءات تصحيحية فورية وموحدة: <strong>توقف–صرّح–أصلح–تحقق–وثّق</strong>. (AORN; AHRQ)<br>
+            <li>يجب أن تؤدي اختراقات حالة التعقيم إلى إجراءات تصحيحية فورية وموحدة: <strong>توقف–صرّح–أصلح–تحقق–وثّق</strong>. (AORN; AHRQ)<br>
             <span class="english-term">Sterile breaks must trigger immediate standardized corrective actions: Stop–State–Fix–Verify–Document.</span></li>
             
-            <li>السلامة النفسية جزء من موثوقية العقامة: الإبلاغ يحمي المرضى. (AHRQ)<br>
+            <li>السلامة النفسية جزء من موثوقية حالة التعقيم: الإبلاغ يحمي المرضى. (AHRQ)<br>
             <span class="english-term">Psychological safety is part of sterility reliability: reporting protects patients.</span></li>
             
             <li>قم بقياس المؤشرات الاستباقية وأغلق حلقات التعلم بسرعة. (IHI)<br>
