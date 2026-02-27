@@ -419,14 +419,14 @@ const chapterPageCSS = `
 function navbar(active: string, prevNum?: number, nextNum?: number) {
   return `
   <nav class="top-nav">
-    <a href="/" class="nav-brand">
+    <a href="/or-safety" class="nav-brand">
       <div class="nav-logo">🏥</div>
       <span class="nav-brand-text">${bookTitle}</span>
     </a>
     <div class="nav-links">
       ${prevNum ? `<a href="/chapter/${prevNum}" class="nav-link">← الفصل ${prevNum}</a>` : ''}
       <a href="/portal" class="nav-link" style="background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);">🏠 منصة الكتب</a>
-      <a href="/" class="nav-link ${active === 'home' ? 'active' : ''}">الرئيسية</a>
+      <a href="/or-safety" class="nav-link ${active === 'home' ? 'active' : ''}">الرئيسية</a>
       <a href="/chapters" class="nav-link ${active === 'chapters' ? 'active' : ''}">📚 الفصول</a>
       ${nextNum ? `<a href="/chapter/${nextNum}" class="nav-link">الفصل ${nextNum} ←</a>` : ''}
     </div>
@@ -691,7 +691,7 @@ app.get('/portal', (c) => {
       </a>
 
       <!-- كتاب ٢ — أعلى يسار: مبادئ السلامة في غرفة العمليات → المشروع الحالي -->
-      <a href="/" class="book-card">
+      <a href="/or-safety" class="book-card">
         <div class="book-img-wrap">
           <img src="/static/book-cover.png" alt="غلاف كتاب مبادئ السلامة والجودة في غرفة العمليات" />
         </div>
@@ -744,8 +744,13 @@ app.get('/portal', (c) => {
   return c.html(html)
 })
 
-// ======== HOME PAGE ========
+// ======== ROOT REDIRECT → PORTAL ========
 app.get('/', (c) => {
+  return c.redirect('/portal', 302)
+})
+
+// ======== HOME PAGE (OR Safety Book) ========
+app.get('/or-safety', (c) => {
   const html = `<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -1543,7 +1548,7 @@ app.get('/chapters', (c) => {
       </a>
 
       <div style="text-align:center;margin-top:36px;">
-        <a href="/" style="font-family:'Noto Kufi Arabic',sans-serif;font-size:14px;color:#1e3a8a;border:1px solid #bfdbfe;padding:10px 24px;border-radius:8px;display:inline-block;">← العودة للصفحة الرئيسية</a>
+        <a href="/or-safety" style="font-family:'Noto Kufi Arabic',sans-serif;font-size:14px;color:#1e3a8a;border:1px solid #bfdbfe;padding:10px 24px;border-radius:8px;display:inline-block;">← العودة للصفحة الرئيسية</a>
       </div>
     </div>
   </div>
