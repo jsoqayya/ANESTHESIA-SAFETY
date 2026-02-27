@@ -809,7 +809,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>9.10.3 سرعة حلقة التعلم / Learning-loop speed</h3>
     <p>الوقت من فشل التدقيق أو الحدث ← إلى الإصلاح ← إلى إعادة التدقيق. (IHI)</p>
 
-    <h2>9.11 تأملات عملية في المسرح الجراحي / Practical Reflections in the OR</h2>
+    <h2>9.11 تأملات الكاتب (بعد سنوات في المسرح الجراحي) / The Writer's Reflection</h2>
 
     <h3>9.11.1 غرفة العمليات هي المكان الذي تصبح فيه الوقاية حقيقية</h3>
     <p>العيادات تُقيّم الخطر. والسياسات تصف الوقاية. لكن المسرح هو المكان الذي تصبح فيه الوقاية مادية (Physical): أكمام متصلة، كعاب محمية، تدفئة مُفعلة.</p>
@@ -980,7 +980,8 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>19.3.2 التحكم في الأكسجين (قاعدة طبيب التخدير)</h3>
     <p>إذا كان المريض يعتمد على الأكسجين الإضافي المفتوح (MAC)، فقبل أن يستخدم الجراح الجراحة الكهربائية في منطقة الوجه/الرقبة، يجب على الجراح إخبار طبيب التخدير. يقوم طبيب التخدير بإيقاف الأكسجين، أو تقليله إلى الحد الأدنى، أو استبداله بالهواء الطبي، وينتظر دقيقة لتبدد الأكسجين المتجمع قبل إعطاء الإذن ببدء الكي. (ASA Practice Advisory)</p>
 
-    <h2>19.4 2: "الفرش الجراحي الذي احتجز الأكسجين"</h2>
+    <h2>19.4 القصة الحقيقية 2: "الفرش الجراحي الذي احتجز الأكسجين"</h2>
+    <h3>19.4 Real Story 2: "The drape that trapped the oxygen"</h3>
 
     <div class="quote-box">
         <p>أثناء استئصال شامة صغيرة على كتف المريض، كان المريض يتلقى الأكسجين عبر قنية أنفية (Nasal cannula). وُضعت المناشف الجراحية (Drapes) فوق الرقبة والوجه، مما أدى إلى خلق جيب ضيق فوق الصدر.</p>
@@ -1040,8 +1041,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>عدد החوادث الوشيكة (Near-misses) المُبلغ عنها (مثل شرارة ملحوظة دون اشتعال).</li>
     </ul>
 
-    <h2>19.7 تأملات عملية في المسرح الجراحي</h2>
-    <h3>19.7 Practical Reflections in the OR</h3>
+    <h2>19.7 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>19.7 The Writer's Reflection</h3>
 
     <h3>19.7.1 الحرائق تحدث للفرق الجيدة</h3>
     <p>لا تعتقد أبداً أن "هذا لن يحدث لنا". الحرائق تحدث للأشخاص الذين يعتبرون أن الروتين اليومي يغنيهم عن اليقظة. الغطرسة هي الوقود الرابع في حريق غرفة العمليات.</p>
@@ -1304,7 +1305,7 @@ export const chaptersContent: Record<string | number, string> = {
         </ol>
     </div>
 
-    <h2>29.7 1: الحادثة الوشيكة للعينة التي أصبحت انتصاراً للنظام</h2>
+    <h2>29.7 القصة الحقيقية 1: الحادثة الوشيكة للعينة التي أصبحت انتصاراً للنظام</h2>
     <h3>29.7 Story 1 (Narrative): The specimen near-miss that became a system win</h3>
 
     <div class="quote-box">
@@ -1376,7 +1377,7 @@ export const chaptersContent: Record<string | number, string> = {
         </ul>
     </div>
 
-    <h2>29.11 2: "RCA الذي أصلح النظام—وليس الشخص"</h2>
+    <h2>29.11 القصة الحقيقية 2: "RCA الذي أصلح النظام—وليس الشخص"</h2>
     <h3>29.11 Story 2: “The RCA that fixed the system—not the person”</h3>
 
     <div class="concept-box">
@@ -1706,7 +1707,8 @@ export const chaptersContent: Record<string | number, string> = {
         </ul>
     </div>
 
-    <h2>3.5 2: "خطر بدا تشغيلياً—لكنه كان سريرياً"</h2>
+    <h2>3.5 القصة الحقيقية 2: "خطر بدا تشغيلياً—لكنه كان سريرياً"</h2>
+    <h3>3.5 Real Story 2: "A risk that looked operational—but was clinical"</h3>
 
     <div class="quote-box">
         <p><strong>3.5.1 المشهد (The scene):</strong><br>
@@ -1860,7 +1862,8 @@ export const chaptersContent: Record<string | number, string> = {
         <span class="english-term"><strong>Step 5 — Train and drill the escalation pathway:</strong> If the first time people practice escalation is during crisis, it will fail. Drill scripts and roles.</span></li>
     </ol>
 
-    <h2>3.10 3: "مثلث الحريق الذي لم يره أحد"</h2>
+    <h2>3.10 القصة الحقيقية 3: "مثلث الحريق الذي لم يره أحد"</h2>
+    <h3>3.10 Real Story 3: "The fire triangle nobody saw"</h3>
 
     <div class="quote-box">
         <p><strong>3.10.1 المشهد (The scene):</strong><br>
@@ -2177,8 +2180,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>وقت إغلاق استدعاءات الغرسات (الوقت المستغرق لتحديد جميع المرضى المتأثرين). (IHI)</li>
     </ul>
 
-    <h2>13.10 تأملات عملية في المسرح الجراحي</h2>
-    <h3>13.10 Practical Reflections in the OR</h3>
+    <h2>13.10 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>13.10 The Writer's Reflection</h3>
 
     <h3>13.10.1 لا يمكنك إجراء عملية جراحية تتفوق على معالجة معقمة سيئة</h3>
     <p>مهما كانت مهارة الجراح، إذا كان المسمار (Screw) أو الصفيحة (Plate) ملوثة بعبء بيولوجي من مستشفى آخر لأن الصينية تم التسرع في تعقيمها، فإن النتيجة السريرية ستفشل.</p>
@@ -2376,7 +2379,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>سعة PACU (وحدة الإفاقة):</strong> إذا كانت وحدة الإفاقة ممتلئة ولا توجد أسرة في الجناح، يتم حجز مرضى غرفة العمليات على طاولة الجراحة (PACU hold)، مما يوقف التدفق ويُجهد موظفي غرفة العمليات. (IHI)</li>
     </ul>
 
-    <h2>23.6 2: "القائمة المجدولة التي سحقت حالة الطوارئ"</h2>
+    <h2>23.6 القصة الحقيقية 2: "القائمة المجدولة التي سحقت حالة الطوارئ"</h2>
+    <h3>23.6 Real Story 2: "The elective list that crushed the emergency case"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> مستشفى يعمل بسعة 95% من غرف العمليات للعمليات المجدولة (Electives). وصلت حالة طارئة (انفجار زائدة دودية) في الساعة 1:00 ظهراً. كل غرفة عمليات كانت قيد الاستخدام. وكل حالة مجدولة كانت متأخرة عن وقتها. لم تكن أي غرفة قريبة من الانتهاء.</p>
@@ -2421,8 +2425,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>الإلغاءات في نفس اليوم بسبب التجاوزات الزمنية للحالات (Overruns). (IHI)</li>
     </ul>
 
-    <h2>23.14 تأملات عملية في المسرح الجراحي</h2>
-    <h3>23.14 Practical Reflections in the OR</h3>
+    <h2>23.14 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>23.14 The Writer's Reflection</h3>
     <p><em>ملاحظة: تم تخطي الترقيم من 23.8 إلى 23.14 التزاماً بالنص الأصلي.</em></p>
 
     <h3>23.14.1 غرفة العمليات الهادئة هي غرفة عمليات آمنة / A quiet OR is a safe OR</h3>
@@ -2621,7 +2625,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term">The gate is not paperwork. It is a pause that protects the incision. (WHO SSC; IHI)</span></p>
     </div>
 
-    <h2>8.4 2: "المضاد الحيوي المتأخر وإغراء الزخم"</h2>
+    <h2>8.4 القصة الحقيقية 2: "المضاد الحيوي المتأخر وإغراء الزخم"</h2>
+    <h3>8.4 Real Story 2: "The late antibiotic and the temptation of momentum"</h3>
 
     <div class="quote-box">
         <p><strong>8.4.1 المشهد (The scene):</strong><br>
@@ -2802,7 +2807,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>8.11.3 مؤشرات حلقة التعلم / Learning-loop indicators</h3>
     <p>الأيام من حادثة قريبة (Near-miss) متعلقة بـ SSI أو فشل تدقيق ← إلى إصلاح النظام + إعادة التدقيق. (IHI)</p>
 
-    <h2>8.12 تأملات عملية في المسرح الجراحي / Practical Reflections in the OR</h2>
+    <h2>8.12 تأملات الكاتب (بعد سنوات في المسرح الجراحي) / The Writer's Reflection</h2>
 
     <h3>8.12.1 العدوى تعاقب الغرور / Infections punish arrogance</h3>
     <p>قد تبدو غرفة العمليات نظيفة، لكن الميكروبات لا تحترم الثقة بالنفس. إنها تحترم الانضباط.</p>
@@ -3040,7 +3045,8 @@ export const chaptersContent: Record<string | number, string> = {
         </ol>
     </div>
 
-    <h2>18.8 2: "الإنذار الذي تم تجاهله"</h2>
+    <h2>18.8 القصة الحقيقية 2: "الإنذار الذي تم تجاهله"</h2>
+    <h3>18.8 Real Story 2: "The ignored alarm"</h3>
 
     <div class="quote-box">
         <p>أثناء الجراحة، استمر جهاز الكي الكهربائي (ESU) في إصدار إنذارات تنبيهية (Beeping) تشير إلى سوء جودة التلامس (CQM alarm).<br>
@@ -3072,8 +3078,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>حوادث حرائق غرفة العمليات (يجب أن يكون الهدف دائماً صفراً).</li>
     </ul>
 
-    <h2>18.10 تأملات عملية في المسرح الجراحي</h2>
-    <h3>18.10 Practical Reflections in the OR</h3>
+    <h2>18.10 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>18.10 The Writer's Reflection</h3>
 
     <h3>18.10.1 التكنولوجيا لا تلغي الحاجة إلى الانضباط</h3>
     <p>مهما كانت أجهزة الطاقة حديثة وذكية، فإنها تعتمد في النهاية على ممرضة تضع اللوحة بشكل صحيح، وعلى جراح يضع القلم في الحافظة، وعلى فريق لا يتجاهل الإنذار.</p>
@@ -3780,7 +3786,8 @@ export const chaptersContent: Record<string | number, string> = {
     <strong>اكتمال التتبع قبل انتهاء التسليم:</strong> يجب إكمال تسمية العينات وتتبع الغرسات كـ <strong>شرط انتهاء (Done condition)</strong> قبل أن يغادر المريض مسؤولية المسرح بالكامل. (AORN)<br>
     <span class="english-term"><strong>Continuation Gate controls (PACU → Ward):</strong> Surgical continuity dataset repeated and confirmed. Traceability completion before handoff ends (specimen labeling and implant traceability). (AORN)</span></p>
 
-    <h2>2.5 2: "الإلغاء الذي كان يمكن تفاديه والذي كاد أن يتحول إلى حدث ضار"</h2>
+    <h2>2.5 القصة الحقيقية 2: "الإلغاء الذي كان يمكن تفاديه والذي كاد أن يتحول إلى حدث ضار"</h2>
+    <h3>2.5 Real Story 2: "The preventable cancellation that nearly became a harm event"</h3>
 
     <div class="quote-box">
         <p><strong>2.5.1 المشهد (The scene):</strong><br>
@@ -3808,7 +3815,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term"><strong>The fix (Safety-by-design):</strong> The hospital introduced: a mandatory booking field: “Implant required? Y/N; type; sizing range; vendor; confirmation date,” (AORN) a readiness checkpoint 48 hours before surgery, (IHI) an escalation rule: “No implant confirmation = no final list.” (IHI) Cancellations decreased—and, more importantly, unsafe starts decreased.</span></p>
     </div>
 
-    <h2>2.6 3: "ارتباك العينات—عندما يتحول ملصق صغير إلى حدث ضخم"</h2>
+    <h2>2.6 القصة الحقيقية 3: "ارتباك العينات—عندما يتحول ملصق صغير إلى حدث ضخم"</h2>
+    <h3>2.6 Real Story 3: "Specimen confusion—when a tiny label becomes a massive event"</h3>
 
     <div class="quote-box">
         <p><strong>2.6.1 المشهد (The scene):</strong><br>
@@ -4179,8 +4187,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>إلغاءات الحالات أو التأخيرات الشديدة بسبب مشاكل توافر/تعقيم الأدوات. (IHI)</li>
     </ul>
 
-    <h2>12.8 تأملات عملية في المسرح الجراحي</h2>
-    <h3>12.8 Practical Reflections in the OR</h3>
+    <h2>12.8 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>12.8 The Writer's Reflection</h3>
 
     <h3>12.8.1 التعقيم ليس سحراً؛ إنه انضباط</h3>
     <p>لا يوجد جهاز "أوتوكلاف" (Autoclave) في العالم يمكنه إصلاح ممارسة سيئة في غرفة العمليات، ولا يمكن لأي مهارة جراحية أن تعوض عن أداة ملوثة. السلامة هي جهد مستمر ومترابط. (AHRQ)</p>
@@ -5169,7 +5177,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p>يحدث الانحراف (Drift) عند تدوير الموظفين، زيادة العبء، أو انتقال انتباه القيادة لمكان آخر. (AHRQ)<br>
     تتطلب الاستدامة: إعادة التدقيق الدوري، دمج في التوجيه (Onboarding)، تغذية راجعة مرئية، واتساق القيادة.</p>
 
-    <h2>30.5 2: "الكوب غير المسمى الذي حُلّ بتغيير النظام"</h2>
+    <h2>30.5 القصة الحقيقية 2: "الكوب غير المسمى الذي حُلّ بتغيير النظام"</h2>
     <h3>30.5 A short story from practice (Narrative)</h3>
 
     <div class="quote-box">
@@ -5393,7 +5401,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>التصعيد:</strong> مسار واضح للتعامل مع "صينية مفقودة" دون اللجوء إلى IUSS الروتيني. (AHRQ)</li>
     </ul>
 
-    <h2>11.8 2: "الشريحة العظمية التي تطلبت IUSS"</h2>
+    <h2>11.8 القصة الحقيقية 2: "الشريحة العظمية التي تطلبت IUSS"</h2>
+    <h3>11.8 Real Story 2: "The Bone Flap That Required IUSS"</h3>
 
     <div class="quote-box">
         <p><strong>11.8.1 المشهد (The scene):</strong><br>
@@ -5442,8 +5451,8 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>11.10.2 إغلاق حلقة التعلم / Closing the loop</h3>
     <p>عندما تعيد غرفة العمليات صينية متسخة، يجب ألا تُخفى كـ "شكوى". يجب تتبعها كحادث جودة (Quality incident) لحل السبب الجذري. (AHRQ; IHI)</p>
 
-    <h2>11.11 تأملات عملية في المسرح الجراحي</h2>
-    <h3>11.11 Practical Reflections in the OR</h3>
+    <h2>11.11 تأملات الكاتب (بعد سنوات في المسرح الجراحي)</h2>
+    <h3>11.11 The Writer's Reflection</h3>
 
     <h3>11.11.1 أنت لا تثق في المؤشر؛ أنت تثق في العملية</h3>
     <p>اللون الذي يتغير على شريط كيميائي يخبرك فقط أن الحرارة وصلت إلى تلك البقعة. إنه لا يخبرك أن الأداة تم تنظيفها من الدم قبل وضعها في الآلة. <strong>الموثوقية تكمن في الأشخاص والعملية، وليس فقط في الآلة.</strong></p>
@@ -5895,7 +5904,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>قراءة الملصق بالكامل:</strong> الاعتماد على لون الغطاء هو خطأ في النظام؛ اقرأ الكلمة دائماً. (ISMP; The Joint Commission)</li>
     </ul>
 
-    <h2>21.6 2: "الهيبارين الذي كان يُفترض أن يكون محلولاً ملحياً"</h2>
+    <h2>21.6 القصة الحقيقية 2: "الهيبارين الذي كان يُفترض أن يكون محلولاً ملحياً"</h2>
+    <h3>21.6 Real Story 2: "The Heparin that was meant to be Saline"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> أثناء إجراء لترقيع الأوعية الدموية (Vascular graft)، كان الجراح يحتاج إلى غسل الوعاء بمحلول ملحي مع هيبارين (Heparinized saline) لمنع التجلط.</p>
@@ -5944,8 +5954,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>أحداث الدواء الخاطئ/الجرعة الخاطئة/الطريق الخاطئ داخل غرفة العمليات (خارج التخدير). (The Joint Commission)</li>
     </ul>
 
-    <h2>21.16 تأملات عملية في المسرح الجراحي</h2>
-    <h3>21.16 Practical Reflections in the OR</h3>
+    <h2>21.16 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>21.16 The Writer's Reflection</h3>
     <p><em>ملاحظة: تم الحفاظ على ترقيم النص الأصلي.</em></p>
 
     <h3>21.16.1 الملصق هو عقد / A label is a contract</h3>
@@ -6155,7 +6165,8 @@ export const chaptersContent: Record<string | number, string> = {
     <p>عدد مذهل من الحوادث الوشيكة (Near-misses) يبدأ بالمختصرات—أشكال قصيرة تعني أشياء مختلفة لأشخاص مختلفين. كلمة "Repair" قد تُخفي "revision"، و "excision" قد تُخفي "biopsy + excision"، والجهة (Laterality) قد تختفي تماماً. توحيد أسماء الإجراءات هو متطلب سلامة في الممارسة العملية، حتى لو بدا أمراً "إدارياً". (The Joint Commission; IHI)</p>
     <p><span class="english-term">A surprising number of near-misses begin with abbreviations—short forms that mean different things to different people. “Repair” may hide “revision,” “excision” may hide “biopsy + excision,” and laterality may vanish entirely. Standardization of procedure naming is a safety requirement in practice, even if it feels “administrative.” (The Joint Commission; IHI)</span></p>
 
-    <h2>5.4 2: "مريضان. نفس اسم العائلة. نفس اليوم."</h2>
+    <h2>5.4 القصة الحقيقية 2: "مريضان. نفس اسم العائلة. نفس اليوم."</h2>
+    <h3>5.4 Real Story 2: "Two patients. Same surname. Same day."</h3>
 
     <div class="quote-box">
         <p><strong>5.4.1 المشهد (The scene):</strong><br>
@@ -6549,8 +6560,8 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>15.7.2 المؤشرات المتأخرة / Lagging indicators</h3>
     <p>عدد حوادث العناصر الجراحية المتروكة (RSIs). (يجب أن يكون الهدف دائماً صفراً، ولكن التركيز يجب أن يكون على قوة الحواجز الاستباقية).</p>
 
-    <h2>15.17 تأملات عملية (أفضل غرف العمليات هي الأكثر صدقاً)</h2>
-    <h3>15.17 Practical Reflections in the OR</h3>
+    <h2>15.17 تأملات الكاتب (أفضل غرف العمليات هي الأكثر صدقاً)</h2>
+    <h3>15.17 The Writer's Reflection</h3>
 
     <h3>15.17.1 العد ليس عملاً كتابياً؛ إنه وعد</h3>
     <p>العد الجراحي هو الطريقة التي تعد بها غرفة العمليات المريض بأننا لم نترك جزءاً من إجراءاتنا بداخله.</p>
@@ -6776,8 +6787,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>الحوادث الوشيكة (Near-misses) أو الأحداث السلبية (Adverse events) المرتبطة بفشل جهاز طبي داخل العملية.</li>
     </ul>
 
-    <h2>25.8 تأملات عملية في المسرح الجراحي</h2>
-    <h3>25.8 Practical Reflections in the OR</h3>
+    <h2>25.8 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>25.8 The Writer's Reflection</h3>
 
     <h3>25.8.1 التكنولوجيا تفشل؛ الأنظمة تنقذ</h3>
     <p>ستنكسر الأجهزة، وتفرغ البطاريات، وتفشل الشاشات. هذه فيزياء حتمية. ما يحدد سلامة المرضى ليس الكمال التكنولوجي؛ بل <strong>استعداد النظام البشري لإدارة ذلك الفشل.</strong></p>
@@ -7230,7 +7241,8 @@ export const chaptersContent: Record<string | number, string> = {
     <p>تُظهر هذه المؤشرات ما إذا كانت الحوكمة تعمل فعلياً أم لا. (IHI)</p>
     <p><span class="english-term">These indicators show whether governance actually works. (IHI)</span></p>
 
-    <h2>4.11 2: "عندما كانت المساءلة خاطئة، أصبحت السلامة أسوأ"</h2>
+    <h2>4.11 القصة الحقيقية 2: "عندما كانت المساءلة خاطئة، أصبحت السلامة أسوأ"</h2>
+    <h3>4.11 Real Story 2: "When accountability was wrong, safety got worse"</h3>
 
     <div class="quote-box">
         <p><strong>4.11.1 الحدث (The event):</strong><br>
@@ -7262,7 +7274,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term">The solution was governance redesign, not humiliation... Accountability that produces silence is not accountability—it is risk creation. (AHRQ)</span></p>
     </div>
 
-    <h2>4.12 3: "لجنة غيرت غرفة العمليات في 90 يوماً"</h2>
+    <h2>4.12 القصة الحقيقية 3: "لجنة غيرت غرفة العمليات في 90 يوماً"</h2>
+    <h3>4.12 Real Story 3: "A committee that changed the OR in 90 days"</h3>
 
     <div class="concept-box">
         <p><strong>4.12.1 نقطة البداية (The starting point):</strong><br>
@@ -7534,7 +7547,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>تباين في العد الجراحي (لا يُسمح بإغلاق الجلد). (AORN; The Joint Commission)</li>
     </ul>
 
-    <h2>14.6 2: "التسلسل الهرمي الذي هزم قائمة التحقق"</h2>
+    <h2>14.6 القصة الحقيقية 2: "التسلسل الهرمي الذي هزم قائمة التحقق"</h2>
+    <h3>14.6 Real Story 2: "The hierarchy that defeated the checklist"</h3>
 
     <div class="quote-box">
         <p>بدأت الممرضة الدوارة بقراءة הـ Time-out: <em>"المريض هو..."</em><br>
@@ -7595,8 +7609,8 @@ export const chaptersContent: Record<string | number, string> = {
     </table>
     <p>إذا كانت درجتك 2، فأنت لا تستخدم الأداة بشكل صحيح. اهدف للدرجة 4 أو 5. (IHI)</p>
 
-    <h2>14.8 تأملات عملية في المسرح الجراحي</h2>
-    <h3>14.8 Practical Reflections in the OR</h3>
+    <h2>14.8 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>14.8 The Writer's Reflection</h3>
 
     <h3>14.8.1 الدقيقة الأكثر أهمية</h3>
     <p>بعد آلاف العمليات الجراحية، أستطيع أن أقول لك هذا: الدقيقة التي يمتلك فيها الفريق الـ Time-out—عندما يتوقفون حقاً ويتواصلون بالعين ويتحدثون عن المخاطر—هي الدقيقة التي يتم فيها تجنب معظم الكوارث.</p>
@@ -7783,7 +7797,8 @@ export const chaptersContent: Record<string | number, string> = {
     <p>تستخدم أفضل المستشفيات نهج "التوقف في محطة الصيانة" (مثل سباقات الفورمولا 1). عندما يخرج المريض، يتدخل فريق بأكمله (التمريض، النظافة، المساعدون) للعمل على مهام محددة مسبقاً. لكن هذا يتطلب <strong>وضوحاً تاماً في الأدوار</strong>. إذا لم يعرف الجميع وظيفتهم، يصبح الحشد فوضى. (IHI; AHRQ)</p>
     <p><span class="english-term"><strong>24.5.2 "Pit-stop" approach</strong><br>The best hospitals use a "pit-stop" approach. When the patient rolls out, a whole team swarms the room for specific pre-assigned tasks. But this requires <strong>total role clarity</strong>. If everyone doesn’t know their exact job, the swarm becomes chaos. (IHI; AHRQ)</span></p>
 
-    <h2>24.6 2: "التبديل في 10 دقائق الذي تسبب في عدوى"</h2>
+    <h2>24.6 القصة الحقيقية 2: "التبديل في 10 دقائق الذي تسبب في عدوى"</h2>
+    <h3>24.6 Real Story 2: "The 10-Minute Turnover that Caused an Infection"</h3>
 
     <div class="quote-box">
         <p>كانت الغرفة متأخرة ساعة كاملة. كان فريق الجراحة منزعجاً. عندما خرج المريض الأول، دفع الجراح الجميع للتعجيل. تم تبديل الغرفة في 10 دقائق—وهو رقم قياسي. كانوا فخورين جداً.</p>
@@ -7830,8 +7845,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>التدفق:</strong> متوسط وقت التبديل (TOT) بالدقائق ← <strong>مقترن بـ الجودة:</strong> نقاط جودة تدقيق التنظيف البيئي. (IHI)</li>
     </ul>
 
-    <h2>24.15 تأملات عملية في المسرح الجراحي</h2>
-    <h3>24.15 Practical Reflections in the OR</h3>
+    <h2>24.15 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>24.15 The Writer's Reflection</h3>
     <p><em>ملاحظة: تم الحفاظ على ترقيم النص الأصلي الذي يقفز إلى 24.15</em></p>
 
     <h3>24.15.1 التدفق هو عرض، وليس السبب / Flow is a symptom, not a cause</h3>
@@ -8508,8 +8523,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>تقارير خدوش القرنية أو تهيج العين.</li>
     </ul>
 
-    <h2>17.9 تأملات عملية في المسرح الجراحي</h2>
-    <h3>17.9 Practical Reflections in the OR</h3>
+    <h2>17.9 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>17.9 The Writer's Reflection</h3>
 
     <h3>17.9.1 الجسد لا يغفر للاستعجال</h3>
     <p>عندما نتأخر، يكون إغراء وضع المريض على الطاولة بسرعة هائلاً. لكن الأنسجة والأعصاب لا تهتم بجدولك الزمني. الاستعجال في ضبط الوضعية هو شراء 10 دقائق مقابل ضرر قد يستمر مدى الحياة للمريض.</p>
@@ -8681,7 +8696,8 @@ export const chaptersContent: Record<string | number, string> = {
     <p>عندما يشتري المستشفى جهازاً جديداً (مثل روبوت جديد أو ليزر)، لا يجب لأي جراح أن يستخدمه فقط لأنه "شاهد مقطع فيديو". يجب أن يتطلب الامتياز تدريباً موثقاً من الشركة المصنعة وحالات تتم تحت إشراف (Proctoring). (ECRI concepts)</p>
     <p><span class="english-term"><strong>27.5.2 Controlling new technology</strong><br>When a hospital buys a new device (like a new robot or laser), no surgeon should use it just because they “watched a video.” Privileging must require documented vendor training and proctored cases. (ECRI concepts)</span></p>
 
-    <h2>27.6 2: "الممرضة المعقمة التي قالت 'لا'"</h2>
+    <h2>27.6 القصة الحقيقية 2: "الممرضة المعقمة التي قالت 'لا'"</h2>
+    <h3>27.6 Real Story 2: "The Scrub Nurse Who Said 'No'"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> في يوم جمعة بجدول مزدحم، استدعت غرفة العمليات موظفي وكالة خارجية (Agency staff) لتغطية النقص. تم تعيين ممرضة معقمة من الوكالة في حالة جراحة أوعية دموية كبرى.</p>
@@ -8731,8 +8747,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>التباينات في العد الجراحي والأخطاء الدوائية المرتبطة بالمناوبات ذات مستويات التوظيف المنخفضة.</li>
     </ul>
 
-    <h2>27.9 تأملات عملية في المسرح الجراحي</h2>
-    <h3>27.9 Practical Reflections in the OR</h3>
+    <h2>27.9 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>27.9 The Writer's Reflection</h3>
 
     <h3>27.9.1 التوظيف هو فعل أخلاقي / Staffing is an ethical act</h3>
     <p>عندما تضع ممرضاً مبتدئاً دون دعم في غرفة معقدة، فأنت لا "تدير الموارد"؛ أنت تنقل المخاطر الإدارية مباشرة إلى جسد المريض. حماية طاقمك هي الطريقة التي تحمي بها مرضاك.</p>
@@ -8953,7 +8969,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term">If a junior nurse fears being humiliated, they may stay silent. Speaking up is a safety control that requires psychological safety and governance. (AHRQ; IHI)</span></p>
     </div>
 
-    <h2>6.4 2: "كان الجراح على حق—حتى فُتح التصوير الطبي"</h2>
+    <h2>6.4 القصة الحقيقية 2: "كان الجراح على حق—حتى فُتح التصوير الطبي"</h2>
+    <h3>6.4 Real Story 2: "The surgeon was right—until the imaging was opened"</h3>
 
     <div class="quote-box">
         <p><strong>6.4.1 المشهد (The scene):</strong><br>
@@ -9160,7 +9177,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>6.11.2 سرعة حلقة التعلم / Learning-loop speed</h3>
     <p>الأيام من حدث تباين ← إصلاح في النظام ← إعادة تدقيق. هذا يُثبت نضج الحوكمة. (IHI)</p>
 
-    <h2>6.12 تأملات عملية في المسرح الجراحي / Practical Reflections in the OR</h2>
+    <h2>6.12 تأملات الكاتب بعد 25 عاماً (ما أود إخبار فرق العمليات الشابة به) / The Writer's Reflection</h2>
 
     <h3>6.12.1 الغرفة سترغب دائماً في المضي قدماً / The room will always want to move</h3>
     <p>الزخم (Momentum) طبيعي. لكن السلامة هي فن مقاومة الزخم في اللحظات المناسبة.</p>
@@ -9345,7 +9362,8 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term">If you put the label on the lid, and pathology unscrews three lids at once, the labels are now separated from the specimens. <strong>Rule: Always place the label on the container itself, never just on the lid.</strong> (AORN)</span></p>
     </div>
 
-    <h2>16.5 2: "الكوب غير المسمى على الطاولة الخلفية"</h2>
+    <h2>16.5 القصة الحقيقية 2: "الكوب غير المسمى على الطاولة الخلفية"</h2>
+    <h3>16.5 Real Story 2: "The unlabeled cup on the back table"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> حالة أذن وأنف وحنجرة (ENT). طلب الجراح بعض المحلول الملحي (Saline) للغسيل، ودواءً موضعياً (Local anesthetic)، وكان هناك أيضاً عينة صغيرة من الأنسجة مأخوذة للزراعة (Culture). كانت جميعها في أكواب صغيرة متشابهة من الستانلس ستيل على الطاولة الخلفية للممرضة المعقمة. لم يكن لأي منها ملصق معقم.</p>
@@ -9390,8 +9408,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>أحداث العينات المفقودة أو التي لا يمكن تعويضها (Lost/irreplaceable specimen events). (AORN)</li>
     </ul>
 
-    <h2>16.15 تأملات عملية (العينة هي قصة مستقبلية)</h2>
-    <h3>16.15 Practical Reflections in the OR (A specimen is a future story)</h3>
+    <h2>16.15 تأملات الكاتب (العينة هي قصة مستقبلية)</h2>
+    <h3>16.15 The Writer's Reflection (A specimen is a future story)</h3>
     <p><em>ملاحظة: تم الاحتفاظ بالترقيم كما هو في النص الأصلي.</em></p>
 
     <h3>16.15.1 العينة هي قصة مستقبلية / A specimen is a future story</h3>
@@ -9579,7 +9597,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>قاعدة الفتح:</strong> جهز العناصر في الغرفة (Hold in room)، ولكن لا تفتحها (Do not open) حتى يطلبها الجراح بشكل مؤكد.</li>
     </ul>
 
-    <h2>26.6 2: "عربة التجهيز التي كانت مزدحمة جداً بالسلامة"</h2>
+    <h2>26.6 القصة الحقيقية 2: "عربة التجهيز التي كانت مزدحمة جداً بالسلامة"</h2>
+    <h3>26.6 Real Story 2: "The Core Cart That Was Too Crowded with Safety"</h3>
 
     <div class="quote-box">
         <p>كان هناك مستشفى يمتلك عربة إمدادات مركزية (Core supply cart). كانت الإدارة قلقة جداً من النواقص لدرجة أنهم قاموا بزيادة مستويات الـ Par (تخزين كل شيء) ليضمنوا عدم نفاد أي شيء أبداً.</p>
@@ -9627,8 +9646,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>تكلفة الإمدادات منتهية الصلاحية التي تم إتلافها.</li>
     </ul>
 
-    <h2>26.9 تأملات عملية في المسرح الجراحي</h2>
-    <h3>26.9 Practical Reflections in the OR</h3>
+    <h2>26.9 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>26.9 The Writer's Reflection</h3>
     <p><em>ملاحظة: تم تكييف الترقيم ليتناسب مع التسلسل.</em></p>
 
     <h3>26.9.1 الفوضى عبء معرفي / Clutter is cognitive load</h3>
@@ -9850,8 +9869,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>وقت إغلاق الإجراءات المكتشفة في التدقيق. (IHI)</li>
     </ul>
 
-    <h2>10.14 تأملات عملية في المسرح الجراحي</h2>
-    <h3>10.14 Practical Reflections in the OR: Lessons for Young Teams</h3>
+    <h2>10.14 تأملات الكاتب: ما أود إخبار غرف العمليات الشابة به</h2>
+    <h3>10.14 The Writer's Reflection: What I'd Tell Young ORs</h3>
 
     <h3>10.14.1 الصمت هو خطر تلوث / Silence is a contamination risk</h3>
     <p>في غرف العمليات، يتطلب الأمر شجاعة لوقف الجراح من أجل أمر غير مرئي. غرفة العمليات الآمنة تجعل هذه الشجاعة طبيعية ومحترمة. الصمت هو أكبر خطر للتلوث. (AHRQ)</p>
@@ -10045,7 +10064,8 @@ export const chaptersContent: Record<string | number, string> = {
         </ol>
     </div>
 
-    <h2>20.6 2: "الإبرة المتروكة على الطاولة"</h2>
+    <h2>20.6 القصة الحقيقية 2: "الإبرة المتروكة على الطاولة"</h2>
+    <h3>20.6 Real Story 2: "The Needle Left on the Table"</h3>
 
     <div class="quote-box">
         <p><strong>المشهد:</strong> انتهت الحالة. غادر الجراح. كانت ممرضة جديدة تقوم بتنظيف الطاولة الخلفية (Back table). أمسكت بكومة من الشاش المبلل بالدم لإلقائها في سلة النفايات.</p>
@@ -10090,8 +10110,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>عدد حالات التعرض للدم وسوائل الجسم.</li>
     </ul>
 
-    <h2>20.16 تأملات عملية في المسرح الجراحي</h2>
-    <h3>20.16 Practical Reflections in the OR</h3>
+    <h2>20.16 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
+    <h3>20.16 The Writer's Reflection</h3>
 
     <h3>20.16.1 لا يمكنك أن تكون حذراً بما فيه الكفاية لتتغلب على نظام سيء</h3>
     <p>إذا كنت تمرر 300 إبرة من يد ليد تحت ضغط الوقت، فإن الإصابات ستستمر في الحدوث—بغض النظر عن مدى مهارة فريقك. صمم النظام (المنطقة المحايدة) ليعفيك من الاعتماد على الحذر.</p>
