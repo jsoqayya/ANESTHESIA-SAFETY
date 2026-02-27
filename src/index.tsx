@@ -5,11 +5,15 @@ import anesthesiaPolicies from './anesthesia-policies'
 // @ts-ignore
 import orPolicies from './or-policies'
 import orToc from './or-toc'
+import anesthesiaSafety from './anesthesia-safety'
 
 const app = new Hono()
 
 // Serve static files
 app.use('/static/*', serveStatic({ root: './public' }))
+
+// Mount Anesthesia Safety Guide
+app.route('/anesthesia-safety', anesthesiaSafety)
 
 // Mount Anesthesia Policies & Procedures book
 app.route('/anesthesia-policies', anesthesiaPolicies)
@@ -648,7 +652,7 @@ app.get('/portal', (c) => {
     <div class="books-grid">
 
       <!-- كتاب ١ — أعلى يمين: مبادئ السلامة في التخدير → anesthesiasafetyguideline.com -->
-      <a href="https://www.anesthesiasafetyguideline.com" class="book-card" target="_blank" rel="noopener noreferrer">
+      <a href="/anesthesia-safety" class="book-card">
         <div class="book-img-wrap">
           <img src="/static/anesthesia-cover.png" alt="غلاف دليل السلامة والجودة في التخدير" />
         </div>

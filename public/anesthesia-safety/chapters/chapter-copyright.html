@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head>
+<style>
+/* إصلاح responsive لجميع الشاشات */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  max-width: 100vw !important;
+  padding: 20px 15px 120px 15px !important;
+}
+
+/* إصلاح الصور والجداول */
+img, table, pre, code {
+  max-width: 100% !important;
+  height: auto !important;
+  overflow-x: auto !important;
+}
+
+/* إصلاح العناصر الكبيرة */
+div, p, h1, h2, h3, h4, h5, h6 {
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* responsive للموبايل */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px !important;
+    padding: 15px 10px 120px 10px !important;
+  }
+  
+  h1 { font-size: 1.8rem !important; }
+  h2 { font-size: 1.5rem !important; }
+  h3 { font-size: 1.3rem !important; }
+}
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حقوق الطبع والنشر - دليل السلامة والجودة في التخدير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #0f172a;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+        --gray-bg: #f3f4f6;
+        --gray-border: #d1d5db;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 2.0;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 20px;
+        position: relative;
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 10px;
+        margin-top: 0;
+        line-height: 1.3;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        color: #374151;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 10px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+        text-align: justify;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+      }
+
+      /* Legal Boxes */
+      .copyright-notice {
+        background-color: var(--gray-bg);
+        border: 1px solid var(--gray-border);
+        padding: 30px;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+      }
+
+      .copyright-year {
+        font-size: 18px;
+        color: #374151;
+        margin-bottom: 10px;
+      }
+
+      .copyright-owner {
+        font-size: 24px;
+        font-weight: 800;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 6px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 8px;
+        font-size: 19px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 6px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 8px;
+      }
+
+      /* Lists */
+      ul {
+        margin-bottom: 20px;
+        padding-right: 25px;
+        list-style-type: disc;
+      }
+      li {
+        margin-bottom: 10px;
+        padding-left: 10px;
+      }
+
+      .footer-contact {
+        margin-top: 60px;
+        padding-top: 30px;
+        border-top: 1px solid #e5e7eb;
+        text-align: center;
+        font-size: 18px;
+        color: #4b5563;
+      }
+
+      /* Download Button Style */
+      .download-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        z-index: 1000;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: none;
+      }
+      
+      .download-btn:hover {
+        background-color: #2563eb;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      }
+
+      @media print {
+        body { padding: 0; max-width: 100%; }
+        .download-btn { display: none; }
+        .alert-box, .copyright-notice { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-bottom: 80px; }
+        h1 { font-size: 28px; }
+        .download-btn {
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80%;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>حقوق الطبع والنشر وإخلاء المسؤولية</h1>
+    <div class="subtitle">الوثيقة القانونية لاستخدام المحتوى الإلكتروني</div>
+
+    <div class="copyright-notice">
+      <div class="copyright-year">جميع الحقوق محفوظة © 2025</div>
+      <div class="copyright-owner">للدكتور جميل السقيا</div>
+      <div style="margin-top: 10px; font-size: 16px;">كتاب: دليل السلامة والجودة في التخدير</div>
+    </div>
+
+    <p>
+      يخضع هذا الكتاب الإلكتروني وكافة محتوياته (من نصوص، وصور، ورسومات بيانية، وتصاميم، وجداول) لقوانين حماية الملكية الفكرية وحقوق المؤلف المحلية والدولية. إن استخدامك لهذا الموقع أو تحميلك للكتاب يعني موافقتك الصريحة على الشروط الواردة أدناه.
+    </p>
+
+    <h2>1. حقوق الملكية الفكرية</h2>
+    <p>
+      جميع المحتويات الواردة في هذا الكتاب الإلكتروني هي ملكية حصرية للمؤلف <strong>(د. جميل السقيا)</strong>. لا يجوز نسخ، أو إعادة إنتاج، أو توزيع، أو تعديل، أو اشتقاق أعمال أخرى من هذا المحتوى، أو نشره بأي شكل من الأشكال (سواء ورقياً أو إلكترونياً) دون الحصول على إذن خطي مسبق وصريح من المؤلف.
+    </p>
+
+    <h2>2. تراخيص الاستخدام المسموح بها</h2>
+    <p>يُسمح للمستخدمين بما يلي فقط:</p>
+    <ul>
+      <li>تحميل نسخة إلكترونية واحدة من الكتاب للاستخدام <strong>الشخصي وغير التجاري</strong> فقط.</li>
+      <li>طباعة صفحات محددة لأغراض الدراسة أو البحث العلمي الشخصي، مع ضرورة الإشارة للمصدر والاحتفاظ بإشعارات حقوق النشر.</li>
+      <li>اقتباس نصوص قصيرة لأغراض البحث العلمي أو المراجعات النقدية، بشرط التوثيق الكامل للمصدر (اسم الكتاب، المؤلف، وسنة النشر).</li>
+    </ul>
+
+    <div class="alert-box">
+      <strong>تحذير:</strong> يُحظر تماماً بيع هذا الكتاب، أو تأجيره، أو ترخيصه، أو رفعه على مواقع مشاركة الملفات العامة، أو استخدامه في دورات تدريبية مدفوعة الأجر دون تصريح رسمي. أي انتهاك لهذه الحقوق يعرض الفاعل للمساءلة القانونية.
+    </div>
+
+    <h2>3. إخلاء المسؤولية الطبية (هام جداً)</h2>
+    <p>
+      نظراً للطبيعة الطبية المتخصصة لهذا الكتاب، يجب التنويه إلى النقاط التالية بدقة:
+    </p>
+
+    <div class="concept-box">
+      <strong>طبيعة المحتوى:</strong> المعلومات الواردة في هذا الكتاب هي لأغراض تعليمية وإرشادية فقط، وتهدف إلى تعزيز ثقافة السلامة والجودة.
+    </div>
+
+    <ul>
+      <li><strong>ليس بديلاً عن الحكم السريري:</strong> لا تُغني المعلومات والبروتوكولات المذكورة في هذا الكتاب عن الحكم السريري المستقل للطبيب المختص، ولا عن استشارة الزملاء أو العودة للبروتوكولات المعتمدة في المستشفى أو الهيئات الصحية المحلية.</li>
+      <li><strong>تغير المعلومات الطبية:</strong> علم التخدير والعناية المركزة هو علم متطور. الجرعات الدوائية، والمعايير، والإرشادات قد تتغير بمرور الوقت. على القارئ التحقق من أحدث المعلومات من المصادر الدوائية الرسمية قبل تطبيق أي إجراء.</li>
+      <li><strong>حدود المسؤولية:</strong> يخلي المؤلف والناشر مسؤوليتهما تماماً عن أي أخطاء أو سهو، أو عن أي عواقب (مباشرة أو غير مباشرة) قد تنجم عن تطبيق المعلومات الواردة في هذا الكتاب. تقع مسؤولية علاج المريض واتخاذ القرارات الطبية كاملة على عاتق الطبيب الممارس.</li>
+    </ul>
+
+    <h2>4. العلامات التجارية</h2>
+    <p>
+      جميع أسماء الأدوية، والشركات، والأجهزة الطبية المذكورة في هذا الكتاب قد تكون علامات تجارية مسجلة لأصحابها. استخدامها هنا هو لغرض التوضيح والتعليم فقط، ولا يعني وجود أي علاقة تجارية أو توصية خاصة بمنتج معين دون غيره.
+    </p>
+
+    <div class="footer-contact">
+      لطلبات الترخيص، أو الاستخدام الأكاديمي، أو الاستفسارات:<br>
+      <strong>البريد الإلكتروني:</strong> jsoqayya@gmail.com
+    </div>
+
+    <!-- Navigation Buttons -->
+    <style>
+      .nav-footer-special {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0.9));
+        backdrop-filter: blur(10px);
+        padding: 15px 20px;
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+      }
+      .nav-btn-special {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 15px;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .nav-btn-special:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+      .nav-btn-special.disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+        pointer-events: none;
+      }
+      .nav-btn-special.prev { background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%); }
+      .nav-btn-special.prev:hover { background: linear-gradient(135deg, #4b5563 0%, #374151 100%); }
+      .nav-btn-special.next { background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%); }
+      .nav-btn-special.next:hover { background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%); }
+      .nav-btn-special.home {
+        background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%);
+        font-size: 16px;
+        padding: 12px 28px;
+      }
+      .nav-btn-special.home:hover { background: linear-gradient(135deg, #15803d 0%, #16a34a 100%); }
+      @media (max-width: 768px) {
+        body { padding-bottom: 140px !important; }
+        .nav-footer-special {
+          flex-direction: column;
+          padding: 12px 15px;
+          gap: 10px;
+        }
+        .nav-btn-special {
+          width: 100%;
+          justify-content: center;
+          font-size: 14px;
+        }
+        .nav-btn-special.home {
+          order: -1;
+          font-size: 15px;
+        }
+      }
+    </style>
+    <div class="nav-footer-special">
+      <span class="nav-btn-special prev disabled">
+        <span>→</span>
+        <span>لا يوجد سابق</span>
+      </span>
+      <a href="/anesthesia-safety/chapters/" class="nav-btn-special home">
+        <span>📚</span>
+        <span>العودة إلى الفصول</span>
+      </a>
+      <a href="/anesthesia-safety/chapter/foreword-ammar" class="nav-btn-special next">
+        <span>التالي: تقديم د. عمار</span>
+        <span>←</span>
+      </a>
+    </div>
+  
+
+<script src="/static/chapter-enhancements.js"></script>
+</body></html>

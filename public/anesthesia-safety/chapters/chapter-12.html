@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head>
+<style>
+/* إصلاح responsive لجميع الشاشات */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  max-width: 100vw !important;
+  padding: 20px 15px 120px 15px !important;
+}
+
+/* إصلاح الصور والجداول */
+img, table, pre, code {
+  max-width: 100% !important;
+  height: auto !important;
+  overflow-x: auto !important;
+}
+
+/* إصلاح العناصر الكبيرة */
+div, p, h1, h2, h3, h4, h5, h6 {
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* responsive للموبايل */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px !important;
+    padding: 15px 10px 120px 10px !important;
+  }
+  
+  h1 { font-size: 1.8rem !important; }
+  h2 { font-size: 1.5rem !important; }
+  h3 { font-size: 1.3rem !important; }
+}
+</style>
+<script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImIxZjQyNzYzZjkzNGExOTQwMWNkOTFhNjdjY2FhNzdiNjIwNWU2N2EiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzQ0ZWEzMjVlNmVjZWE1OTJf2KfZhNmB2LXZhF_Yp9mE2KvYp9mG2Ypf2LnYtNixX9in2YTYqti52YTZitmFX9mI2KfZhNmD2YHYp9ih2KkuaHRtbC0xODIifSwiZXhwIjoxNzcwMTIxNzgxLCJpYXQiOjE3NzAxMTgxODEsImFsZyI6IlJTMjU2In0.NxkyKOLpcUW7gRPlGHBzwj_uT_ylHNPZ1ukZqCFO-Qc3RgWhHdc1na6ExDOr00wXjM-qT6_NZN_qsXo4rLFQobB7wZYWC9dSO6am1v0CeNtwOFzUEgZb5Dqtg3zdyqeRZ-f9OHarbebVt0cTHNhypHHaeZxaPuenQvl9KskzuN5ftVhjeQ3nS9IpF62eOdECQbDAQfUWDL7o8oo-fUkPUXiGWiP5Zw1zXQKt1wwQADMBkFsF5TFD4e9VA_JKqPSVLXUdaNof4RcnINDp-IBctImMs-oFydIX0MPJfTKWUbjqxXcAiBYZxqkVMArUPe2E62uyP9WtnnxBjc9XdMNslg","c_44ea325e6ecea592_الفصل_الثاني_عشر_التعليم_والكفاءة.html-182")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-09-2025","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل 12 — التعليم، التدريب، وأنظمة الكفاءة للممارسة الآمنة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      @media print {
+        .download-container { display: none; }
+        body { padding-top: 0; }
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+      }
+
+      /* Boxes Style */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Scene Style */
+      .scene-box {
+        background-color: #f8fafc;
+        border-right: 4px solid #64748b;
+        padding: 15px;
+        font-style: italic;
+        margin: 20px 0;
+        color: #475569;
+      }
+      
+      .scene-title {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: block;
+        color: #334155;
+      }
+
+      /* Tables Style */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.95em;
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-align: right;
+      }
+      
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+      }
+      
+      tbody tr:nth-of-type(even) {
+        background-color: #f9fafb;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      strong {
+        color: #111827;
+        font-weight: bold;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+        table { display: block; overflow-x: auto; }
+      }
+    </style>
+</head>
+<body style="padding-top: 40px;">
+
+    <!-- Download Bar -->
+    
+
+    <!-- Header Section -->
+    <div class="part-title">Part III — Building a Safe Anesthesia System</div>
+    <div class="part-title">الجزء الثالث — بناء نظام تخدير آمن</div>
+    
+    <h1>Chapter 12 — Education, Training, and Competency Systems for Safe Practice</h1>
+    <div class="subtitle"><strong>الفصل الثاني عشر — التعليم والتدريب وأنظمة الكفاءة للممارسة الآمنة</strong></div>
+
+    <h2>🎯 Chapter Objectives</h2>
+    <h3>أهداف الفصل</h3>
+
+    <div class="concept-box">
+        <p><strong>بنهاية هذا الفصل، ستكون قادراً على:</strong></p>
+        <ul>
+            <li>تصميم نظام اعتماد وترخيص (<span class="english-term">Credentialing and Privileging System</span>) يُحدِّد بوضوح نطاق الممارسة (<span class="english-term">Scope of Practice</span>) لكل مُمارس تخدير، ويمنع الممارسة خارج الكفاءة الموثّقة.</li>
+            
+            <li>بناء برنامج توجيه وتأهيل (<span class="english-term">Orientation and Onboarding Program</span>) للأدوار الحرجة للسلامة (<span class="english-term">Safety-Critical Roles</span>) — بما في ذلك أطباء التخدير، ممرضات التخدير، الفنيين، والموظفين الجدد — يُضمن الكفاءة الفعلية قبل الممارسة المستقلة.</li>
+            
+            <li>إجراء تقييمات كفاءة منتظمة وموثّقة (<span class="english-term">Competency Assessments</span>) تستخدم أدوات قابلة للتكرار (<span class="english-term">Repeatable Tools</span>) — ليس فقط “شهادات حضور” — لتُثبت الإتقان المستمر (<span class="english-term">Ongoing Mastery</span>).</li>
+            
+            <li>تحديد مجالات المخاطر العالية (<span class="english-term">High-Risk Areas</span>) التي تحتاج تدريباً مستهدفاً (<span class="english-term">Targeted Training</span>) — مثلاً: تخدير خارج غرفة العمليات (NORA)، مجرى الهواء الصعب، التخدير المحوري، الأطفال حديثي الولادة — وبناء خطط تدريب محددة لها.</li>
+            
+            <li>دمج المحاكاة (<span class="english-term">Simulation</span>) في التدريب والتقييم، وتصميم “جلسات تحديث الكفاءة” (<span class="english-term">Competency Refreshers</span>) الدورية لضمان عدم تلاشي المهارات الحرجة (<span class="english-term">Skill Decay Prevention</span>).</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>📖 12.1 Why Competency Systems Are Essential in Anesthesia?</h2>
+    <h3>12.1 لماذا أنظمة الكفاءة أساسية في التخدير؟</h3>
+
+    <p><strong>السياق السريري:</strong> التخدير عمل عالي المخاطر، منخفض التسامح مع الخطأ (<span class="english-term">High-Risk, Low-Tolerance-for-Error</span>).</p>
+    
+    <div class="alert-box">
+        <strong>حقيقة غير مريحة:</strong><br>
+        “الرخصة الطبية تُثبت أنك مؤهل للممارسة في يوم التخرج. لكنها لا تُثبت أنك كفؤ في إنقاذ مجرى هواء صعب في مريض سمين، أو إدارة نزيف ضخم في مريض مضاد تخثر، أو تخدير طفل 6 أشهر في موقع بعيد…اليوم.”
+    </div>
+
+    <p>الممارسة الآمنة تتطلب ثلاثة أشياء:</p>
+    <ul>
+        <li>كفاءة أولية موثّقة (<span class="english-term">Initial Documented Competence</span>) — قبل الممارسة المستقلة</li>
+        <li>صيانة الكفاءة (<span class="english-term">Competence Maintenance</span>) — تدريب مستمر، تحديث دوري</li>
+        <li>إثبات الكفاءة (<span class="english-term">Competence Demonstration</span>) — تقييم قابل للقياس، ليس فقط “حضرت دورة”</li>
+    </ul>
+
+    <p><strong>بدون هذه الأنظمة:</strong></p>
+    <ul>
+        <li>❌ قد يُمارس أطباء تخدير جدد إجراءات لم يُتقنوها</li>
+        <li>❌ قد تتلاشى مهارات الطوارئ النادرة (<span class="english-term">Low-Frequency High-Stakes Skills</span>) دون تحديث دوري</li>
+        <li>❌ قد يتوسع نطاق الممارسة دون تدريب رسمي أو تقييم</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة واقعية (Opening Scenario)</span>
+        <p>الساعة 08:15 صباحاً، غرفة عمليات 3. الدكتور أحمد — طبيب تخدير جديد، أنهى برنامج الإقامة قبل 3 أشهر — يستلم حالة: طفل 8 أشهر، وزن 7 كجم، يحتاج عملية إصلاح فتق إربي. الدكتور أحمد تدرّب في مستشفى للبالغين، لم يُخدّر طفلاً رضيعاً منذ 18 شهراً (آخر دورة في برنامج الإقامة). لا يوجد بروتوكول واضح في القسم يُحدِّد: “من يُسمح له بتخدير الأطفال دون سنة واحدة؟” ولا يوجد سجل موثّق لكفاءته في تخدير الأطفال.</p>
+        <p>رئيس القسم يمر بجانبه: “أحمد، هل أنت مرتاح لهذه الحالة؟” الدكتور أحمد يتردد: “أظن ذلك… لكن صراحةً، لست متأكداً من الجرعات الدقيقة وإدارة مجرى الهواء في هذا العمر.” رئيس القسم: “حسناً، سأبقى معك في الغرفة.”</p>
+        <p>بعد العملية، يُناقش القسم الحدث في اجتماع الجودة. السؤال الأساسي: <strong>“كيف سمح النظام لطبيب تخدير بممارسة إجراء عالي الخطورة دون توثيق كفاءة حديثة أو تدريب تحديثي؟”</strong> هذا ليس فشل الدكتور أحمد — هذا فشل نظام.</p>
+    </div>
+
+    <h3>The Three Core Questions Competency Systems Answer</h3>
+    <h3>الأسئلة الثلاثة الجوهرية التي تُجيب عنها أنظمة الكفاءة</h3>
+    
+    <p>أنظمة التعليم والكفاءة توفر طريقة منضبطة للإجابة على ثلاثة أسئلة:</p>
+    <ol>
+        <li>من يُسمح له بأداء ماذا؟ (<span class="english-term">Who Is Allowed to Do What?</span>) — نطاق الممارسة والترخيص</li>
+        <li>كيف نضمن أن الكفاءة الأولية حقيقية وليست “افتراضية”؟ (<span class="english-term">How Do We Ensure Initial Competence Is Real, Not Assumed?</span>) — التوجيه والتقييم</li>
+        <li>كيف نضمن أن الكفاءة تستمر مع الزمن؟ (<span class="english-term">How Do We Ensure Competence Persists Over Time?</span>) — التعليم المستمر، التحديثات، المحاكاة</li>
+    </ol>
+
+    <div class="success-box">
+        <p><strong>لغة القسم التي تُغيِّر الثقافة:</strong></p>
+        <p>🔄 بدلاً من: “هو طبيب تخدير استشاري، بالتأكيد يستطيع فعل ذلك.”<br>
+        ✅ قل: “هل لديه كفاءة موثّقة حديثة لهذا الإجراء في هذه الفئة من المرضى؟”</p>
+        <p>🔄 بدلاً من: “حضر دورة تدريبية، إذاً هو كفؤ.”<br>
+        ✅ قل: “هل تم تقييم كفاءته عملياً بعد التدريب؟ هل يوجد توثيق؟”</p>
+        <p>🔄 بدلاً من: “لدينا أطباء ممتازون، السلامة مضمونة.”<br>
+        ✅ قل: “لدينا نظام يضمن أن كل طبيب يُمارس ضمن كفاءته الموثّقة والمُحدّثة.”</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>🔑 12.2 Credentialing, Privileging, and Scope of Practice</h2>
+    <h3>12.2 الاعتماد والترخيص ونطاق الممارسة</h3>
+
+    <h3>12.2.1 What is the Difference Between Credentialing and Privileging?</h3>
+    <h3>12.2.1 ما الفرق بين الاعتماد والترخيص؟ (وما علاقتهما بالسلامة؟)</h3>
+    
+
+    <!-- Credentialing vs Privileging Visual -->
+    <div style="background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%); padding: 30px; border-radius: 25px; margin: 30px 0; box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h3 style="color: #3f51b5; font-size: 28px; margin: 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.1);">🎯 Three Key Concepts</h3>
+            <h3 style="color: #283593; font-size: 24px; margin: 10px 0 0 0;">الاعتماد vs الترخيص vs نطاق الممارسة</h3>
+            <p style="color: #555; font-size: 14px; margin-top: 10px; font-style: italic;">Building Safe Practice Boundaries</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 900px; margin: 0 auto;">
+            <!-- 1. Credentialing -->
+            <div style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); border-left: 6px solid #42a5f5; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(66,165,245,0.3); transition: all 0.3s; position: relative;" onmouseover="this.style.transform='translateX(10px)'; this.style.boxShadow='0 6px 16px rgba(66,165,245,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(66,165,245,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #42a5f5; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">1</div>
+                <h4 style="color: #1976d2; margin: 0 0 15px 0; font-size: 22px;">📜 Credentialing / الاعتماد</h4>
+                <p style="margin: 10px 0; color: #0d47a1; font-size: 16px; font-weight: bold;">Baseline Qualifications</p>
+                <div style="background: rgba(255,255,255,0.6); padding: 15px; border-radius: 10px; margin-top: 15px;">
+                    <p style="margin: 8px 0; color: #1565c0; font-size: 15px;">✓ Verification of degrees, licenses, training</p>
+                    <p style="margin: 8px 0; color: #1565c0; font-size: 15px;">✓ التحقق من الشهادات والرخص والتدريب</p>
+                    <p style="margin: 8px 0; color: #1565c0; font-size: 15px;">✓ Generally qualified to practice anesthesia</p>
+                    <p style="margin: 8px 0; color: #1565c0; font-size: 15px;">✓ مؤهل بشكل عام لممارسة التخدير</p>
+                </div>
+            </div>
+
+            <!-- 2. Privileging -->
+            <div style="background: linear-gradient(135deg, #e0f2f1, #b2dfdb); border-left: 6px solid #26a69a; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(38,166,154,0.3); transition: all 0.3s; position: relative;" onmouseover="this.style.transform='translateX(10px)'; this.style.boxShadow='0 6px 16px rgba(38,166,154,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(38,166,154,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #26a69a; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">2</div>
+                <h4 style="color: #00796b; margin: 0 0 15px 0; font-size: 22px;">🔑 Privileging / الترخيص</h4>
+                <p style="margin: 10px 0; color: #004d40; font-size: 16px; font-weight: bold;">Specific Authorizations</p>
+                <div style="background: rgba(255,255,255,0.6); padding: 15px; border-radius: 10px; margin-top: 15px;">
+                    <p style="margin: 8px 0; color: #00695c; font-size: 15px;">✓ Specific procedures allowed in THIS institution</p>
+                    <p style="margin: 8px 0; color: #00695c; font-size: 15px;">✓ إجراءات محددة مسموح بها في هذه المؤسسة</p>
+                    <p style="margin: 8px 0; color: #00695c; font-size: 15px;">✓ Competent in specific procedures</p>
+                    <p style="margin: 8px 0; color: #00695c; font-size: 15px;">✓ كفؤ في إجراءات محددة</p>
+                </div>
+            </div>
+
+            <!-- 3. Scope of Practice -->
+            <div style="background: linear-gradient(135deg, #f3e5f5, #e1bee7); border-left: 6px solid #ab47bc; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(171,71,188,0.3); transition: all 0.3s; position: relative;" onmouseover="this.style.transform='translateX(10px)'; this.style.boxShadow='0 6px 16px rgba(171,71,188,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(171,71,188,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #ab47bc; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">3</div>
+                <h4 style="color: #7b1fa2; margin: 0 0 15px 0; font-size: 22px;">🎯 Scope of Practice / نطاق الممارسة</h4>
+                <p style="margin: 10px 0; color: #4a148c; font-size: 16px; font-weight: bold;">Defined Clinical Activities</p>
+                <div style="background: rgba(255,255,255,0.6); padding: 15px; border-radius: 10px; margin-top: 15px;">
+                    <p style="margin: 8px 0; color: #6a1b9a; font-size: 15px;">✓ Defined set of clinical activities allowed</p>
+                    <p style="margin: 8px 0; color: #6a1b9a; font-size: 15px;">✓ مجموعة محددة من الأنشطة السريرية المسموحة</p>
+                    <p style="margin: 8px 0; color: #6a1b9a; font-size: 15px;">✓ Prevents "scope creep" — practice beyond competence</p>
+                    <p style="margin: 8px 0; color: #6a1b9a; font-size: 15px;">✓ يمنع التوسع التلقائي — الممارسة خارج الكفاءة</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Principle -->
+        <div style="background: white; padding: 20px; border-radius: 15px; margin-top: 30px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <p style="font-size: 18px; color: #3f51b5; font-weight: bold; margin: 0;">🔐 Safety Principle</p>
+            <p style="font-size: 15px; color: #555; margin: 10px 0 0 0;">Credentialing verifies WHO you are</p>
+            <p style="font-size: 15px; color: #555; margin: 5px 0 0 0;">Privileging defines WHAT you can do</p>
+            <p style="font-size: 15px; color: #555; margin: 5px 0 0 0;">Scope of Practice sets WHERE the boundaries are</p>
+        </div>
+    </div>
+    <ul>
+        <li><strong>الاعتماد (<span class="english-term">Credentialing</span>):</strong>
+            <ul>
+                <li>عملية التحقق من المؤهلات الأساسية (<span class="english-term">Verification of Baseline Qualifications</span>): الشهادات، الرخص، التدريب، الخبرة، السجل المهني.</li>
+                <li>الهدف: التأكد من أن الشخص مؤهل بشكل عام (<span class="english-term">Generally Qualified</span>) لممارسة التخدير.</li>
+            </ul>
+        </li>
+        <li><strong>الترخيص (<span class="english-term">Privileging</span>):</strong>
+            <ul>
+                <li>تحديد الصلاحيات المحددة (<span class="english-term">Specific Authorizations</span>) التي يُسمح للممارس بأدائها في هذه المؤسسة (<span class="english-term">In This Institution</span>).</li>
+                <li>الهدف: التأكد من أن الشخص كفؤ في إجراءات محددة (<span class="english-term">Competent in Specific Procedures</span>) ضمن سياق المؤسسة.</li>
+            </ul>
+        </li>
+        <li><strong>نطاق الممارسة (<span class="english-term">Scope of Practice</span>):</strong>
+            <ul>
+                <li>مجموعة الأنشطة السريرية المحددة (<span class="english-term">Defined Set of Clinical Activities</span>) التي يُسمح للممارس بأدائها بناءً على الترخيص.</li>
+                <li>الهدف: منع “التوسع التلقائي” (<span class="english-term">Scope Creep</span>) — الممارسة خارج الكفاءة الموثّقة.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>12.2.2 Why Are Credentialing and Privileging Essential in Anesthesia?</h3>
+    <h3>12.2.2 لماذا الاعتماد والترخيص أساسيان في التخدير؟</h3>
+    
+    <p>من منظور السلامة:</p>
+    <ul>
+        <li>✅ يمنع الممارسة خارج الكفاءة (<span class="english-term">Prevents Practice Beyond Competence</span>)</li>
+        <li>✅ يُحدِّد بوضوح المسؤوليات والحدود (<span class="english-term">Clarifies Responsibilities and Boundaries</span>)</li>
+        <li>✅ يُوفر إطاراً قانونياً ومؤسسياً (<span class="english-term">Provides Legal and Institutional Framework</span>)</li>
+        <li>✅ يُسهّل المساءلة (<span class="english-term">Facilitates Accountability</span>) — إذا حدث ضرر، يمكن مراجعة: “هل كان مُرخّصاً لهذا الإجراء؟”</li>
+    </ul>
+
+    <h3>12.2.3 CMS Standards for Credentialing and Privileging</h3>
+    <h3>12.2.3 معايير CMS (Centers for Medicare &amp; Medicaid Services) للاعتماد والترخيص</h3>
+    
+    <p>معايير CMS واضحة:</p>
+    <ul>
+        <li>✅ خدمات التخدير تشمل (<span class="english-term">Anesthesia Services Include</span>): التخدير العام، التخدير الموضعي، التهدئة العميقة/التسكين، ورعاية التخدير المراقبة (MAC).</li>
+        <li>✅ من يُسمح لهم بإعطاء التخدير؟ (<span class="english-term">Who May Administer Anesthesia?</span>)
+            <ul>
+                <li>أطباء التخدير (<span class="english-term">Anesthesiologists</span>)</li>
+                <li>ممرضات التخدير المعتمدات (<span class="english-term">CRNAs</span>)</li>
+                <li>مساعدو التخدير (<span class="english-term">Anesthesiologist Assistants, AAs</span>)</li>
+                <li>أطباء آخرون، أطباء أسنان، أو جراحو أقدام مؤهلون حسب قانون الولاية</li>
+            </ul>
+        </li>
+        <li>✅ يجب وجود مدير تخدير واحد مسؤول (<span class="english-term">Single Anesthesia Director Must Oversee</span>) عن جميع خدمات التخدير في جميع الأحرام الطبية.</li>
+        <li>✅ يجب على كل مستشفى وضع سياسات وإجراءات (<span class="english-term">Each Hospital Must Establish Policies and Procedures</span>) لتحديد: المؤهلات المطلوبة (<span class="english-term">Qualifications Required</span>)، المسؤوليات (<span class="english-term">Responsibilities</span>)، ومستوى الإشراف المطلوب (<span class="english-term">Level of Supervision Required</span>).</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة سريرية: “من يُسمح له بإدارة مجرى الهواء الصعب؟”</span>
+        <p><strong>المشهد:</strong> مستشفى متوسط الحجم، قسم تخدير يضم 8 أطباء تخدير استشاريين، 4 ممرضات تخدير، و3 أطباء مقيمين. لا توجد وثيقة رسمية تُحدِّد: “من يُسمح له بإدارة مجرى هواء صعب بشكل مستقل؟”</p>
+        <p><strong>الحدث:</strong> مريض 55 سنة، سمنة مفرطة (BMI 42)، تاريخ إشعاعي للرقبة، يُحضّر لعملية طارئة. التقييم الأولي يُشير إلى مجرى هواء محتمل الصعوبة (<span class="english-term">Potentially Difficult Airway</span>). الطبيب المقيم في السنة الثانية (PGY-2) يبدأ التحريض تحت إشراف استشاري. محاولتان فاشلتان للتنبيب. التشبع بالأكسجين يبدأ بالانخفاض: 92%… 88%… 85%. الاستشاري يتدخل، ينجح في التنبيب بعد محاولتين إضافيتين. المريض يتعافى دون أذية عصبية.</p>
+        <p><strong>المراجعة:</strong> في اجتماع M&amp;M، يُناقش الفريق: “هل يجب أن يُسمح لمقيم PGY-2 بالبدء في حالة مجرى هواء صعب متوقع؟” الآراء تختلف:<br>
+        رأي 1: “المقيمون يجب أن يتعلموا من الحالات الصعبة.”<br>
+        رأي 2: “الحالات الصعبة المتوقعة يجب أن يُديرها فقط الاستشاريون أو المقيمون المتقدمون بإشراف مباشر.”<br>
+        رأي 3: “يجب أن يكون لدينا سياسة واضحة تُحدِّد من يُسمح له بماذا، بناءً على مستوى التدريب والكفاءة الموثّقة.”</p>
+        <p><strong>القرار:</strong> القسم يُقرر تطوير “مصفوفة الترخيص” (<span class="english-term">Privileging Matrix</span>) تُحدِّد نطاق الممارسة بوضوح لكل مستوى تدريبي وكل دور.</p>
+    </div>
+
+    <h3>12.2.4 Building a Practical Privileging Matrix</h3>
+    <h3>12.2.4 بناء مصفوفة الترخيص العملية — الأداة التي تُستخدم صباح الاثنين</h3>
+    
+    <p>مصفوفة الترخيص هي جدول يُحدِّد: من يُسمح له بأداء ماذا، وتحت أي شروط.</p>
+
+    <div class="concept-box">
+        <p><strong>مثال: مصفوفة الترخيص لإدارة مجرى الهواء</strong></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>الإجراء</th>
+                    <th>مقيم PGY-1</th>
+                    <th>مقيم PGY-2/3</th>
+                    <th>استشاري/CRNA ذو خبرة</th>
+                    <th>التوثيق المطلوب</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>تنبيب روتيني — مجرى هواء متوقع سهل</td>
+                    <td>✅ تحت إشراف مباشر</td>
+                    <td>✅ تحت إشراف عام</td>
+                    <td>✅ مستقل</td>
+                    <td>سجل تدريب أولي</td>
+                </tr>
+                <tr>
+                    <td>تنبيب — مجرى هواء محتمل الصعوبة</td>
+                    <td>❌ غير مُصرّح</td>
+                    <td>✅ تحت إشراف مباشر من استشاري</td>
+                    <td>✅ مستقل</td>
+                    <td>شرط: 50+ تنبيباً موثّقاً + تدريب محاكاة</td>
+                </tr>
+                <tr>
+                    <td>تنبيب ليفي واعٍ (Awake Fiberoptic Intubation)</td>
+                    <td>❌ غير مُصرّح</td>
+                    <td>✅ تحت إشراف مباشر</td>
+                    <td>✅ مستقل</td>
+                    <td>شرط: دورة تدريب + 10+ حالات موثّقة</td>
+                </tr>
+                <tr>
+                    <td>مجرى هواء جراحي طارئ (Cricothyroidotomy)</td>
+                    <td>❌ غير مُصرّح</td>
+                    <td>✅ مع دعم استشاري</td>
+                    <td>✅ مستقل</td>
+                    <td>شرط: تدريب محاكاة سنوي</td>
+                </tr>
+                <tr>
+                    <td>تخدير أطفال &lt; 6 أشهر</td>
+                    <td>❌ غير مُصرّح</td>
+                    <td>✅ تحت إشراف مباشر</td>
+                    <td>✅ مستقل (إذا موثّق كفاءة)</td>
+                    <td>شرط: دورة تخدير أطفال + 20+ حالة موثّقة</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p><strong>كيف تبني مصفوفة الترخيص لقسمك؟</strong></p>
+    <ol>
+        <li>الخطوة 1: حدِّد الإجراءات/المواقف العالية الخطورة (<span class="english-term">High-Risk Procedures/Situations</span>)</li>
+        <li>الخطوة 2: حدِّد مستويات الممارسين (<span class="english-term">Practitioner Levels</span>) — مقيمون، استشاريون جدد، استشاريون ذوو خبرة، CRNAs</li>
+        <li>الخطوة 3: حدِّد متطلبات الكفاءة (<span class="english-term">Competency Requirements</span>) لكل خلية</li>
+        <li>الخطوة 4: حدِّد مستوى الإشراف المطلوب (<span class="english-term">Level of Supervision Required</span>)</li>
+        <li>الخطوة 5: راجع المصفوفة سنوياً وعدّلها بناءً على البيانات المحلية والأحداث</li>
+    </ol>
+
+    <h2>📦 BOX 12.1 — “Minimum Privileging Requirements”</h2>
+    <h3>BOX 12.1 — “متطلبات الترخيص الدنيا” (ما يجب أن تُوثّقه)</h3>
+    <div class="quote-box">
+        <p>الترخيص غير مكتمل حتى يتضمن:</p>
+        <ol>
+            <li>تعريف واضح للإجراء/الموقف (<span class="english-term">Clear Definition of Procedure/Situation</span>)</li>
+            <li>مستوى التدريب/الخبرة المطلوب (<span class="english-term">Level of Training/Experience Required</span>)</li>
+            <li>توثيق الكفاءة (<span class="english-term">Competency Documentation</span>) — ليس فقط “حضر دورة”</li>
+            <li>مستوى الإشراف (<span class="english-term">Level of Supervision</span>) — مستقل، إشراف عام، إشراف مباشر</li>
+            <li>تاريخ المراجعة وإعادة الترخيص (<span class="english-term">Review Date and Reprivileging</span>) — كل 1–2 سنة</li>
+        </ol>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>🚀 12.3 Orientation and Onboarding for Safety-Critical Roles</h2>
+    <h3>12.3 التوجيه والتأهيل للأدوار الحرجة للسلامة</h3>
+
+    <h3>12.3.1 What is the Difference Between Orientation and Onboarding?</h3>
+    <h3>12.3.1 ما الفرق بين “التوجيه” و"التأهيل"؟ (ولماذا كلاهما ضروري؟)</h3>
+    <ul>
+        <li><strong>التوجيه (<span class="english-term">Orientation</span>):</strong>
+            <ul>
+                <li>تعريف بالمؤسسة، السياسات، الإجراءات، البيئة المادية (<span class="english-term">Introduction to Institution, Policies, Procedures, Physical Environment</span>).</li>
+                <li>الهدف: “أين الأشياء؟ كيف نعمل هنا؟”</li>
+            </ul>
+        </li>
+        <li><strong>التأهيل (<span class="english-term">Onboarding</span>):</strong>
+            <ul>
+                <li>عملية أعمق وأطول (<span class="english-term">Deeper, Longer Process</span>) لدمج الموظف الجديد في الفريق والثقافة وضمان الكفاءة الفعلية قبل الممارسة المستقلة.</li>
+                <li>الهدف: “هل أنت فعلاً كفؤ للممارسة المستقلة في هذا السياق؟”</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>12.3.2 Why Good Onboarding is Essential in Anesthesia?</h3>
+    <h3>12.3.2 لماذا التأهيل الجيد أساسي في التخدير؟</h3>
+    <p>من منظور السلامة:</p>
+    <ul>
+        <li>✅ يمنع “الممارسة الافتراضية” (<span class="english-term">Prevents ‘Assumed Practice’</span>) — “هو طبيب تخدير، إذاً يستطيع فعل كل شيء”</li>
+        <li>✅ يكشف الفجوات المبكرة (<span class="english-term">Reveals Gaps Early</span>) — قبل أن تصل إلى المريض</li>
+        <li>✅ يبني الثقة والتكامل في الفريق (<span class="english-term">Builds Trust and Team Integration</span>)</li>
+        <li>✅ يُوحّد الممارسات (<span class="english-term">Standardizes Practices</span>) — “هكذا نفعلها هنا”</li>
+    </ul>
+
+    <h3>12.3.3 Example from Literature: Yale Residency Orientation Program</h3>
+    <h3>12.3.3 مثال من الأدبيات: برنامج Yale لتوجيه أطباء التخدير المقيمين</h3>
+    <p>ما الذي يجعله نموذجاً أفضل؟</p>
+    <ul>
+        <li>✅ قبل ملامسة المريض (<span class="english-term">Before Patient Contact</span>): يُكمل المقيمون تدريب محاكاة (<span class="english-term">Simulator Training</span>) لإدخال القسطرة الوريدية المحيطية، القسطرة الشريانية، والقسطرة الوريدية المركزية.</li>
+        <li>✅ تقييم عملي (<span class="english-term">Hands-On Assessment</span>): لا يُسمح للمقيم بالممارسة السريرية حتى يُثبت الكفاءة في المحاكاة.</li>
+        <li>✅ تدريج الاستقلالية (<span class="english-term">Graduated Autonomy</span>): البداية بحالات بسيطة تحت إشراف مباشر، ثم التدريج بناءً على الأداء الموثّق.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة سريرية: “أول يوم عمل… وأول قسطرة مركزية”</span>
+        <p><strong>المشهد:</strong> الدكتورة سارة — طبيبة تخدير جديدة، انضمت للقسم بعد إنهاء برنامج الإقامة في بلد آخر — تبدأ أول يوم عمل. لا يوجد برنامج تأهيل رسمي. يُقال لها: “أنتِ طبيبة تخدير، ابدئي العمل.” في اليوم الثالث، تُطلب منها حالة تحتاج قسطرة وريدية مركزية (CVC). الدكتورة سارة تدرّبت على تقنية Seldinger، لكن المستشفى الجديد يستخدم تقنية مختلفة قليلاً + نظام ultrasound مختلف. تتردد، لكنها تبدأ الإجراء. تحدث صعوبة في التوجيه. استشاري يمر بالصدفة، يُلاحظ التردد، يتدخل، يُكمل الإجراء بأمان.</p>
+        <p><strong>المراجعة:</strong> في اجتماع الجودة، السؤال: “كيف سمح النظام لطبيبة جديدة بأداء إجراء عالي الخطورة دون تأهيل رسمي وتقييم كفاءة في السياق المحلي؟”</p>
+        <p><strong>القرار:</strong> القسم يُقرر بناء “بروتوكول التأهيل الإلزامي” (<span class="english-term">Mandatory Onboarding Protocol</span>) لجميع الموظفين الجدد — بغض النظر عن مستوى الخبرة.</p>
+    </div>
+
+    <h3>12.3.4 Building a Practical Onboarding Program — Step-by-Step</h3>
+    <h3>12.3.4 بناء برنامج التأهيل العملي — خطوة بخطوة</h3>
+    
+
+    <!-- Onboarding Timeline Visual -->
+    <div style="background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%); padding: 30px; border-radius: 25px; margin: 30px 0; box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h3 style="color: #3f51b5; font-size: 28px; margin: 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.1);">🚀 Onboarding Timeline</h3>
+            <h3 style="color: #283593; font-size: 24px; margin: 10px 0 0 0;">الخط الزمني للتأهيل — 12 أسبوعاً</h3>
+            <p style="color: #555; font-size: 14px; margin-top: 10px; font-style: italic;">From First Day to Full Competence</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 900px; margin: 0 auto;">
+            <!-- Step 1: Pre-First Day -->
+            <div style="background: linear-gradient(135deg, #e1f5fe, #b3e5fc); border-left: 6px solid #29b6f6; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(41,182,246,0.3); transition: all 0.3s; position: relative;" onmouseover="this.style.transform='translateX(8px)'; this.style.boxShadow='0 6px 15px rgba(41,182,246,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(41,182,246,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #29b6f6; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">Pre</div>
+                <h4 style="color: #01579b; margin: 0 0 12px 0; font-size: 22px; font-weight: bold;">📧 Pre-First Day</h4>
+                <h4 style="color: #0277bd; margin: 0 0 15px 0; font-size: 20px;">قبل اليوم الأول</h4>
+                <p style="margin: 8px 0; color: #0288d1; font-size: 17px; line-height: 1.6;">• Welcome Package — حزمة ترحيب (قبل أسبوعين)</p>
+                <p style="margin: 8px 0; color: #0288d1; font-size: 17px; line-height: 1.6;">• Assign Mentor/Buddy — تحديد مُرشد</p>
+            </div>
+
+            <!-- Step 2: Week 1 -->
+            <div style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); border-left: 6px solid #42a5f5; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(66,165,245,0.3); transition: all 0.3s; position: relative;" onmouseover="this.style.transform='translateX(8px)'; this.style.boxShadow='0 6px 15px rgba(66,165,245,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(66,165,245,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #42a5f5; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">W1</div>
+                <h4 style="color: #0d47a1; margin: 0 0 12px 0; font-size: 22px; font-weight: bold;">🎯 Week 1</h4>
+                <h4 style="color: #1565c0; margin: 0 0 15px 0; font-size: 20px;">الأسبوع الأول</h4>
+                <p style="margin: 8px 0; color: #1976d2; font-size: 17px; line-height: 1.6;">• Day 1: Tour + Policies + Team Meeting</p>
+                <p style="margin: 8px 0; color: #1976d2; font-size: 17px; line-height: 1.6;">• Days 2–3: Simulation Stations</p>
+                <p style="margin: 8px 0; color: #1976d2; font-size: 17px; line-height: 1.6;">• Days 4–5: Clinical Observation</p>
+            </div>
+
+            <!-- Step 3: Weeks 2-4 -->
+            <div style="background: linear-gradient(135deg, #f3e5f5, #e1bee7); border-left: 6px solid #ab47bc; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(171,71,188,0.3); transition: all 0.3s; position: relative;" onmouseover="this.style.transform='translateX(8px)'; this.style.boxShadow='0 6px 15px rgba(171,71,188,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(171,71,188,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #ab47bc; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">2-4</div>
+                <h4 style="color: #4a148c; margin: 0 0 12px 0; font-size: 22px; font-weight: bold;">👨‍⚕️ Weeks 2–4</h4>
+                <h4 style="color: #6a1b9a; margin: 0 0 15px 0; font-size: 20px;">الأسابيع 2–4</h4>
+                <p style="margin: 8px 0; color: #7b1fa2; font-size: 17px; line-height: 1.6;">• Supervised Practice — ممارسة مُشرفة</p>
+                <p style="margin: 8px 0; color: #7b1fa2; font-size: 17px; line-height: 1.6;">• Simple Cases (ASA I–II) — حالات بسيطة</p>
+                <p style="margin: 8px 0; color: #7b1fa2; font-size: 17px; line-height: 1.6;">• Daily Assessment — تقييم يومي</p>
+            </div>
+
+            <!-- Step 4: Weeks 5-8 -->
+            <div style="background: linear-gradient(135deg, #e8eaf6, #c5cae9); border-left: 6px solid #5c6bc0; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(92,107,192,0.3); transition: all 0.3s; position: relative;" onmouseover="this.style.transform='translateX(8px)'; this.style.boxShadow='0 6px 15px rgba(92,107,192,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(92,107,192,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #5c6bc0; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">5-8</div>
+                <h4 style="color: #1a237e; margin: 0 0 12px 0; font-size: 22px; font-weight: bold;">📈 Weeks 5–8</h4>
+                <h4 style="color: #283593; margin: 0 0 15px 0; font-size: 20px;">الأسابيع 5–8</h4>
+                <p style="margin: 8px 0; color: #3f51b5; font-size: 17px; line-height: 1.6;">• Graduated Autonomy — استقلالية متدرجة</p>
+                <p style="margin: 8px 0; color: #3f51b5; font-size: 17px; line-height: 1.6;">• Increasing Complexity (ASA III) — تعقيد متزايد</p>
+                <p style="margin: 8px 0; color: #3f51b5; font-size: 17px; line-height: 1.6;">• Weekly Assessment — تقييم أسبوعي</p>
+            </div>
+
+            <!-- Step 5: Weeks 9-12 -->
+            <div style="background: linear-gradient(135deg, #e0f2f1, #b2dfdb); border-left: 6px solid #26a69a; padding: 25px; border-radius: 15px; box-shadow: 0 4px 10px rgba(38,166,154,0.3); transition: all 0.3s; position: relative;" onmouseover="this.style.transform='translateX(8px)'; this.style.boxShadow='0 6px 15px rgba(38,166,154,0.5)';" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 4px 10px rgba(38,166,154,0.3)';">
+                <div style="position: absolute; top: 15px; right: 15px; background: #26a69a; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">9-12</div>
+                <h4 style="color: #004d40; margin: 0 0 12px 0; font-size: 22px; font-weight: bold;">✅ Weeks 9–12</h4>
+                <h4 style="color: #00695c; margin: 0 0 15px 0; font-size: 20px;">الأسابيع 9–12</h4>
+                <p style="margin: 8px 0; color: #00796b; font-size: 17px; line-height: 1.6;">• Final Assessment — التقييم النهائي</p>
+                <p style="margin: 8px 0; color: #00796b; font-size: 17px; line-height: 1.6;">• Full Competence — كفاءة كاملة</p>
+                <p style="margin: 8px 0; color: #00796b; font-size: 17px; line-height: 1.6;">• Independent Practice — ممارسة مستقلة</p>
+            </div>
+        </div>
+
+        <!-- Success Metric -->
+        <div style="background: white; padding: 20px; border-radius: 15px; margin-top: 30px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <p style="font-size: 20px; color: #3f51b5; font-weight: bold; margin: 0;">🎯 Goal</p>
+            <p style="font-size: 17px; color: #555; margin: 10px 0 0 0;">12 weeks from arrival to full independent competence</p>
+            <p style="font-size: 16px; color: #777; margin: 5px 0 0 0; font-style: italic;">12 أسبوعاً من الوصول إلى الكفاءة المستقلة الكاملة</p>
+        </div>
+    </div>
+    <ul>
+        <li><strong>الخطوة 1 — قبل اليوم الأول: التواصل المبكر (<span class="english-term">Pre-First-Day: Early Communication</span>):</strong>
+            <ul>
+                <li>✅ أرسل حزمة ترحيب (<span class="english-term">Welcome Package</span>) قبل أسبوعين: نظرة عامة على القسم، السياسات الأساسية، مسار التأهيل المتوقع، جهة اتصال معينة.</li>
+                <li>✅ حدِّد “مُرشد” (<span class="english-term">Mentor/Buddy</span>) — استشاري متمرس يكون نقطة اتصال يومية.</li>
+            </ul>
+        </li>
+        <li><strong>الخطوة 2 — الأسبوع 1: التوجيه المؤسسي والمحاكاة (<span class="english-term">Week 1: Institutional Orientation and Simulation</span>):</strong>
+            <ul>
+                <li>اليوم 1: جولة مادية، مراجعة السياسات، اجتماع الفريق.</li>
+                <li>الأيام 2–3: محطات المحاكاة (IV، خط شرياني، CVC، مجرى هواء صعب، سيناريوهات الطوارئ).</li>
+                <li>الأيام 4–5: الملاحظة السريرية (مراقبة استشاري/CRNA متمرس في 5–10 حالات متنوعة).</li>
+            </ul>
+        </li>
+        <li><strong>الخطوة 3 — الأسابيع 2–4: الممارسة المُشرفة (<span class="english-term">Weeks 2–4: Supervised Practice</span>):</strong>
+            <ul>
+                <li>✅ البداية بحالات بسيطة (ASA I–II).</li>
+                <li>✅ إشراف مباشر.</li>
+                <li>✅ تقييم يومي باستخدام قائمة تدقيق كفاءة.</li>
+            </ul>
+        </li>
+        <li><strong>الخطوة 4 — الأسابيع 5–8: الاستقلالية المتدرجة (<span class="english-term">Weeks 5–8: Graduated Autonomy</span>):</strong>
+            <ul>
+                <li>✅ زيادة التعقيد تدريجياً (ASA III، جراحات أطول).</li>
+                <li>✅ إشراف عام.</li>
+                <li>✅ تقييم أسبوعي.</li>
+            </ul>
+        </li>
+        <li><strong>الخطوة 5 — نهاية الشهر 2–3: التقييم النهائي والترخيص (<span class="english-term">End of Month 2–3: Final Assessment and Privileging</span>):</strong>
+            <ul>
+                <li>✅ تقييم كفاءة شامل.</li>
+                <li>✅ اجتماع مراجعة.</li>
+                <li>✅ قرار الترخيص (جاهز للممارسة المستقلة الكاملة / يحتاج تمديد / غير مناسب).</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>📦 BOX 12.2 — “Onboarding Checklist”</h2>
+    <h3>BOX 12.2 — “قائمة تدقيق التأهيل” (استخدمها لكل موظف جديد)</h3>
+    <div class="concept-box">
+        <p>التأهيل غير مكتمل حتى يتضمن:</p>
+        <p><strong>A) التوجيه المؤسسي (<span class="english-term">Institutional Orientation</span>):</strong> ☑️ جولة مادية ☑️ مراجعة السياسات الأساسية ☑️ تدريب على نظام EHR/AIMS ☑️ تعريف بالفريق</p>
+        <p><strong>B) التدريب التقني الأولي (<span class="english-term">Initial Technical Training</span>):</strong> ☑️ محطات محاكاة ☑️ سيناريوهات طوارئ ☑️ تقييم كفاءة لكل محطة</p>
+        <p><strong>C) الملاحظة السريرية (<span class="english-term">Clinical Observation</span>):</strong> ☑️ 5–10 حالات متنوعة مع مراقبة نشطة ☑️ توثيق الملاحظات</p>
+        <p><strong>D) الممارسة المُشرفة (<span class="english-term">Supervised Practice</span>):</strong> ☑️ 10–20 حالة تحت إشراف مباشر ☑️ تقييم يومي باستخدام قائمة كفاءة</p>
+        <p><strong>E) الاستقلالية المتدرجة (<span class="english-term">Graduated Autonomy</span>):</strong> ☑️ 20–30 حالة تحت إشراف عام ☑️ تقييم أسبوعي</p>
+        <p><strong>F) التقييم النهائي (<span class="english-term">Final Assessment</span>):</strong> ☑️ محاكاة شاملة ☑️ مراجعة سريرية ☑️ اجتماع قرار الترخيص</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>✅ 12.4 Competency Assessment and Documentation</h2>
+    <h3>12.4 تقييم الكفاءة والتوثيق</h3>
+
+    <h3>12.4.1 Competence vs. Expertise — What is the Difference?</h3>
+    <h3>12.4.1 الكفاءة مقابل الخبرة — ما الفرق؟</h3>
+    <ul>
+        <li><strong>الكفاءة (<span class="english-term">Competence</span>):</strong> الحد الأدنى المطلوب للترخيص. التعريف: “يستطيع أداء المهمة بأمان وفعالية تحت ظروف عادية.”</li>
+        <li><strong>الخبرة (<span class="english-term">Expertise</span>):</strong> الأداء المتفوق. التعريف: “يُدير المواقف المعقدة بكفاءة عالية، حتى تحت ضغط وشك.”</li>
+    </ul>
+    <p>الكتاب يُميّز بوضوح: “الكفاءة هي ما نُطالب به الجميع. الخبرة هي ما نطمح إليه.”</p>
+
+    <h3>12.4.2 Miller’s Pyramid for Assessment</h3>
+    <h3>12.4.2 هرم Miller لتقييم الكفاءة</h3>
+    
+    <div class="concept-box">
+        <ul>
+            <li>🔺 <strong>المستوى 4: يفعل (Does)</strong> — الممارسة السريرية الفعلية</li>
+            <li>🔺 <strong>المستوى 3: يُظهر كيف (Shows How)</strong> — التوضيح عبر المحاكاة/الأداء</li>
+            <li>🔺 <strong>المستوى 2: يعرف كيف (Knows How)</strong> — التركيب/التفسير — تطبيق المعرفة</li>
+            <li>🔺 <strong>المستوى 1: يعرف (Knows)</strong> — الاحتفاظ بالحقائق</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>المستوى</th>
+                    <th>مثال تخديري</th>
+                    <th>أداة التقييم</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1 — يعرف (Knows)</td>
+                    <td>يستطيع شرح الجرعات الدوائية وفارماكولوجيا التخدير</td>
+                    <td>اختبار كتابي، MCQ</td>
+                </tr>
+                <tr>
+                    <td>2 — يعرف كيف (Knows How)</td>
+                    <td>يستطيع شرح خطوات إدارة مجرى هواء صعب</td>
+                    <td>دراسة حالة، OSCE</td>
+                </tr>
+                <tr>
+                    <td>3 — يُظهر كيف (Shows How)</td>
+                    <td>يُظهر إدارة مجرى هواء صعب في محاكاة</td>
+                    <td>تقييم محاكاة مع قائمة تدقيق</td>
+                </tr>
+                <tr>
+                    <td>4 — يفعل (Does)</td>
+                    <td>يُدير مجرى هواء صعب فعلي في مريض حقيقي بأمان وكفاءة</td>
+                    <td>ملاحظة مباشرة، مراجعة الحالات، OPPE</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>12.4.3 Common Problem: “Attended a Course = Competent”</h3>
+    <h3>12.4.3 المشكلة الشائعة: “حضر دورة = كفؤ”</h3>
+    <div class="alert-box">
+        <strong>❌ الفخ:</strong> “الدكتور فلان حضر دورة ACLS، إذاً هو كفؤ في إدارة الإنعاش القلبي.”<br>
+        <strong>الواقع:</strong> حضور الدورة = المستوى 1–2 (يعرف / يعرف كيف) ولا يُساوي المستوى 3–4 (يُظهر كيف / يفعل).<br>
+        <strong>✅ النهج الصحيح:</strong> “الدكتور فلان حضر دورة ACLS (المستوى 1–2)، ثم أكمل تقييم محاكاة (المستوى 3)، ثم شارك في 5 حالات إنعاش فعلية تحت إشراف (المستوى 4). الآن هو كفؤ.”
+    </div>
+
+    <h3>12.4.4 Building a Repeatable Competency Assessment System</h3>
+    <h3>12.4.4 بناء نظام تقييم كفاءة قابل للتكرار</h3>
+    
+    <ul>
+        <li><strong>الخطوة 1 — حدِّد الكفاءات الأساسية (<span class="english-term">Define Core Competencies</span>):</strong>
+            <ul>
+                <li>✅ المهارات التقنية: إدارة مجرى الهواء، الوصول الوعائي، التخدير المحوري، التخدير الموضعي.</li>
+                <li>✅ المهارات غير التقنية: إدارة الأزمات، التواصل والعمل الجماعي، الوعي الظرفي، اتخاذ القرار.</li>
+            </ul>
+        </li>
+        <li><strong>الخطوة 2 — طوّر أدوات تقييم قياسية (<span class="english-term">Develop Standard Assessment Tools</span>):</strong>
+            <ul>
+                <li>🔧 قوائم التدقيق (Checklists)</li>
+                <li>🔧 أنظمة علامات السلوك (Behavioral Marker Systems) — مثلاً ANTS</li>
+                <li>🔧 تقييمات المحاكاة المُنظّمة</li>
+                <li>🔧 الملاحظة السريرية المباشرة</li>
+            </ul>
+        </li>
+        <li><strong>الخطوة 3 — حدِّد معايير الإتقان (<span class="english-term">Define Mastery Criteria</span>):</strong>
+            <ul>
+                <li>نموذج التعلم بالإتقان (<span class="english-term">Mastery Learning Model</span>): “المتعلمون يُكررون التدريب حتى يُحققوا بشكل موثوق أهداف الأداء المُحدّدة.”</li>
+            </ul>
+        </li>
+        <li><strong>الخطوة 4 — وثّق، وثّق، وثّق (<span class="english-term">Document, Document, Document</span>):</strong>
+            <ul>
+                <li>التوثيق الجيد يشمل: ماذا تم تقييمه، متى، من قيّم، النتيجة، التعليقات، الخطوات التالية.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة سريرية: “مُعتمد… لكن غير كفؤ؟”</span>
+        <p><strong>المشهد:</strong> الدكتور خالد — طبيب تخدير استشاري، 10 سنوات خبرة — “مُعتمد” لأداء التخدير فوق الجافية (<span class="english-term">Epidural Anesthesia</span>). لكن في السنوات الخمس الأخيرة، نادراً ما أدّاه (&lt; 5 حالات/سنة) لأن القسم يُركّز على التخدير العام. في اجتماع مراجعة سنوية، يُكتشف أن معدل نجاحه في المحاولة الأولى انخفض إلى 60% (مقارنة بـ 85% معدل القسم)، ومعدل الصداع بعد الثقب الجافوي (PDPH) 8% (مقارنة بـ 2% معدل القسم).</p>
+        <p><strong>السؤال:</strong> “هل الدكتور خالد ما زال كفؤاً في التخدير فوق الجافية، أم أن المهارة تلاشت (<span class="english-term">Skill Decay</span>) بسبب قلة الممارسة؟”</p>
+        <p><strong>القرار:</strong> القسم يُقرر: إعادة تدريب إلزامية (محاكاة + 10 حالات مُشرفة)، إعادة تقييم الكفاءة، وسياسة جديدة: “الحد الأدنى من الحجم” (<span class="english-term">Minimum Volume Policy</span>).</p>
+    </div>
+
+    <h2>📦 BOX 12.3 — “Competency Assessment System” (Minimum Viable)</h2>
+    <h3>BOX 12.3 — “نظام تقييم الكفاءة” (الحد الأدنى القابل للتطبيق)</h3>
+    <div class="quote-box">
+        <p>نظام الكفاءة غير مكتمل حتى يتضمن:</p>
+        <ol>
+            <li>تعريف واضح للكفاءات الأساسية (<span class="english-term">Clear Definition of Core Competencies</span>)</li>
+            <li>أدوات تقييم قياسية وقابلة للتكرار (<span class="english-term">Standardized, Repeatable Assessment Tools</span>)</li>
+            <li>معايير إتقان محددة (<span class="english-term">Defined Mastery Criteria</span>)</li>
+            <li>توثيق منظم (<span class="english-term">Structured Documentation</span>)</li>
+            <li>عملية إعادة تقييم دورية (<span class="english-term">Periodic Reassessment Process</span>)</li>
+        </ol>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>🎯 12.5 Continuing Education and Targeted Training for Risk Areas</h2>
+    <h3>12.5 التعليم المستمر والتدريب المستهدف لمجالات المخاطر</h3>
+
+    <h3>12.5.1 Why Continuing Education is Not “Optional” in Anesthesia?</h3>
+    <h3>12.5.1 لماذا التعليم المستمر ليس “اختيارياً” في التخدير؟</h3>
+    <p>التخدير يتطور بسرعة. بدون تعليم مستمر: المعرفة تصبح قديمة (<span class="english-term">Knowledge Becomes Outdated</span>)، الممارسات تنحرف عن الأدلة (<span class="english-term">Practices Drift from Evidence</span>)، والمهارات تتلاشى (<span class="english-term">Skills Decay</span>).</p>
+
+    <h3>12.5.2 MOCA (Maintenance of Certification in Anesthesiology)</h3>
+    <h3>12.5.2 MOCA — إطار التعليم المستمر</h3>
+    <p>MOCA تتطلب: Part 1: Professional Standing، Part 2: Lifelong Learning and Self-Assessment، Part 3: Assessment of Knowledge, Judgment, and Skills، Part 4: Improvement in Medical Practice.</p>
+    <div class="success-box">
+        <strong>الرسالة الأساسية:</strong> “الترخيص الأولي ليس نهاية التعلم — إنه البداية.”
+    </div>
+
+    <h3>12.5.3 Identifying High-Risk Areas Needing Targeted Training</h3>
+    <h3>12.5.3 تحديد مجالات المخاطر العالية التي تحتاج تدريباً مستهدفاً</h3>
+    <p><strong>كيف تُحدِّد مجالات المخاطر في قسمك؟</strong> استخدم البيانات: تحليل الأحداث السلبية وقرب-الحوادث، مراجعة تقارير M&amp;M، تدقيق الممارسة، استطلاعات الموظفين.</p>
+    <p><strong>مجالات المخاطر العالية الشائعة في التخدير:</strong></p>
+    <ul>
+        <li>1️⃣ التخدير خارج غرفة العمليات (NORA)</li>
+        <li>2️⃣ مجرى الهواء الصعب</li>
+        <li>3️⃣ التخدير المحوري ومضادات التخثر</li>
+        <li>4️⃣ تخدير الأطفال — خاصة &lt; 1 سنة</li>
+        <li>5️⃣ إدارة النزيف الضخم</li>
+        <li>6️⃣ ارتفاع الحرارة الخبيث وطوارئ نادرة أخرى</li>
+        <li>7️⃣ إدارة مضخات التسريب والأدوية عالية الخطورة</li>
+    </ul>
+
+    <h3>12.5.4 Building Targeted Training Programs — Example: NORA</h3>
+    <h3>12.5.4 بناء برامج تدريب مستهدفة — مثال: NORA</h3>
+    <p>لماذا NORA مجال خطر عالٍ؟ بيئة غير مألوفة، معدات محدودة، فريق غير تخديري، وصول محدود للمريض، طوارئ نادرة لكن كارثية.</p>
+    <p><strong>برنامج تدريب NORA المستهدف — خطوة بخطوة:</strong></p>
+    <ol>
+        <li>الخطوة 1 — تقييم الحاجة (<span class="english-term">Needs Assessment</span>)</li>
+        <li>الخطوة 2 — طوّر محتوى التدريب (<span class="english-term">Develop Training Content</span>): نظري + عملي</li>
+        <li>الخطوة 3 — التنفيذ (<span class="english-term">Implementation</span>): إلزامي، متعدد التخصصات</li>
+        <li>الخطوة 4 — التقييم (<span class="english-term">Evaluation</span>): محاكاة عملية، توثيق الكفاءة</li>
+        <li>الخطوة 5 — القياس والتحسين (<span class="english-term">Measure and Improve</span>)</li>
+    </ol>
+
+    <h2>📦 BOX 12.4 — “High-Yield Targeted Training Programs”</h2>
+    <h3>BOX 12.4 — “برامج تدريب مستهدفة عالية العائد” (موضوع واحد كل ربع سنة)</h3>
+    <div class="concept-box">
+        <ol>
+            <li>NORA — التخدير خارج غرفة العمليات</li>
+            <li>مجرى الهواء الصعب</li>
+            <li>التخدير المحوري ومضادات التخثر</li>
+            <li>تخدير الأطفال &lt; 1 سنة</li>
+            <li>النزيف الضخم</li>
+            <li>ارتفاع الحرارة الخبيث</li>
+            <li>الأدوية عالية الخطورة</li>
+            <li>أزمات القلب والأوعية الدموية</li>
+        </ol>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>🎮 12.6 Simulation Integration and Competency Refreshers</h2>
+    <h3>12.6 دمج المحاكاة وتحديثات الكفاءة</h3>
+
+    <h3>12.6.1 Why Simulation is Essential in Anesthesia Training?</h3>
+    <h3>12.6.1 لماذا المحاكاة أساسية في تدريب التخدير؟</h3>
+    <p>المحاكاة تُتيح: التدريب على أحداث نادرة عالية المخاطر، الممارسة المتعمدة، التعلم من الأخطاء في بيئة آمنة، تقييم الكفاءة الموضوعي، وتدريب الفريق.</p>
+
+    <h3>12.6.2 Types of Simulation in Anesthesia</h3>
+    <h3>12.6.2 أنواع المحاكاة في التخدير</h3>
+    <ul>
+        <li><strong>1️⃣ محاكاة تقنية عالية الأمانة (<span class="english-term">High-Fidelity Mannequin-Based Simulation</span>):</strong> مُحاكيات متقدمة، لسيناريوهات أزمات معقدة.</li>
+        <li><strong>2️⃣ محاكاة جزئية للمهمة (<span class="english-term">Part-Task Training, PTT</span>):</strong> التركيز على مهارة محددة (مثل التنبيب).</li>
+        <li><strong>3️⃣ محاكاة واقعية افتراضية (<span class="english-term">Virtual Reality, VR</span>):</strong> بيئة رقمية غامرة.</li>
+        <li><strong>4️⃣ محاكاة قائمة على الحاسوب (<span class="english-term">Computer-Based Simulation</span>):</strong> سيناريوهات على الشاشة لاتخاذ القرارات.</li>
+    </ul>
+
+    <h3>12.6.3 Crisis Resource Management (CRM) — From Aviation to Anesthesia</h3>
+    <h3>12.6.3 إدارة موارد الأزمات (CRM) — من الطيران إلى التخدير</h3>
+    <p>15 مبدأ أساسي لـ CRM: اطلب المساعدة مبكراً، حدِّد القيادة، وزّع عبء العمل، تواصل بفعالية، استخدم جميع الموارد المتاحة، استخدم أدوات المساعدة المعرفية، حدِّد الأولويات، اتصل بحلقة واسعة، أعِد تقييم الوضع بانتظام، استخدم التفكير النقدي، منع أو تخفيف التثبيت، استخدم استراتيجية تخصيص المهام، كن قائداً أو تابعاً جيداً، حافظ على الوعي الظرفي، استخدم العمل الجماعي.</p>
+
+    <h3>12.6.4 ANTS (Anaesthetists’ Non-Technical Skills) Framework</h3>
+    <h3>12.6.4 إطار ANTS للمهارات غير التقنية</h3>
+    <p>ANTS يُحدِّد 4 فئات أساسية:</p>
+    <ol>
+        <li>إدارة المهام (<span class="english-term">Task Management</span>)</li>
+        <li>العمل الجماعي (<span class="english-term">Teamworking</span>)</li>
+        <li>الوعي الظرفي (<span class="english-term">Situation Awareness</span>)</li>
+        <li>اتخاذ القرار (<span class="english-term">Decision-Making</span>)</li>
+    </ol>
+
+    <h3>12.6.5 Building a Practical Simulation Program</h3>
+    <h3>12.6.5 بناء برنامج محاكاة عملي لقسم التخدير</h3>
+    <ul>
+        <li>الخطوة 1 — حدِّد الأهداف (<span class="english-term">Define Goals</span>)</li>
+        <li>الخطوة 2 — حدِّد الموارد (<span class="english-term">Identify Resources</span>)</li>
+        <li>الخطوة 3 — طوّر السيناريوهات (<span class="english-term">Develop Scenarios</span>)</li>
+        <li>الخطوة 4 — نفّذ الجلسات (<span class="english-term">Run Sessions</span>)</li>
+        <li>الخطوة 5 — قيّم واستمر في التحسين (<span class="english-term">Evaluate and Continuously Improve</span>)</li>
+    </ul>
+
+    <h3>12.6.6 Periodic Competency Refreshers — Preventing Skill Decay</h3>
+    <h3>12.6.6 تحديثات الكفاءة الدورية — منع تلاشي المهارات</h3>
+    <p><strong>المشكلة:</strong> تلاشي المهارات (<span class="english-term">Skill Decay</span>). المهارات التي لا تُمارَس بانتظام تتلاشى.</p>
+    <p><strong>الحل:</strong> جدولة تحديثات الكفاءة (<span class="english-term">Schedule Competency Refreshers</span>).</p>
+    <p><strong>مثال:</strong> برنامج تحديث ارتفاع حرارة خبيث. كل 12 شهراً جلسة محاكاة إلزامية.</p>
+
+    <h2>📦 BOX 12.5 — “Competency Refresher Schedule”</h2>
+    <h3>BOX 12.5 — “جدول تحديثات الكفاءة” (صقه على حائط القسم)</h3>
+    <div class="concept-box">
+        <table>
+            <thead>
+                <tr>
+                    <th>المهارة/السيناريو</th>
+                    <th>تكرار التحديث</th>
+                    <th>الطريقة</th>
+                    <th>معيار النجاح</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>مجرى هواء جراحي طارئ</td>
+                    <td>كل 12 شهر</td>
+                    <td>محاكاة</td>
+                    <td>إكمال خلال 3 دقائق في المحاكاة</td>
+                </tr>
+                <tr>
+                    <td>ارتفاع حرارة خبيث</td>
+                    <td>كل 12 شهر</td>
+                    <td>محاكاة</td>
+                    <td>تعرف وبدء بروتوكول خلال 10 دقائق</td>
+                </tr>
+                <tr>
+                    <td>استرواح صدر توتري</td>
+                    <td>كل 12 شهر</td>
+                    <td>محاكاة</td>
+                    <td>تشخيص ومعالجة خلال 5 دقائق</td>
+                </tr>
+                <tr>
+                    <td>تفاعل تأقي</td>
+                    <td>كل 12 شهر</td>
+                    <td>محاكاة</td>
+                    <td>إعطاء أدرينالين خلال 3 دقائق</td>
+                </tr>
+                <tr>
+                    <td>توقف قلب تحت التخدير</td>
+                    <td>كل 6 أشهر</td>
+                    <td>محاكاة + ACLS</td>
+                    <td>اتباع خوارزمية ACLS بشكل صحيح</td>
+                </tr>
+                <tr>
+                    <td>التخدير المحوري (إذا منخفض الحجم)</td>
+                    <td>كل 6 أشهر</td>
+                    <td>ملاحظة سريرية</td>
+                    <td>3 إجراءات ناجحة تحت إشراف</td>
+                </tr>
+                <tr>
+                    <td>تنبيب ليفي واعٍ</td>
+                    <td>كل 12 شهر</td>
+                    <td>محاكاة أو سريري</td>
+                    <td>إجراء ناجح بدون مضاعفات</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>🎓 12.7 Chapter Summary (Carry-Forward Points)</h2>
+    <h3>12.7 خلاصة الفصل (نقاط للأمام)</h3>
+
+    <div class="success-box">
+        <ul>
+            <li>✅ الكفاءة ليست “افتراضية” — يجب توثيقها وصيانتها وإعادة تقييمها دورياً.</li>
+            <li>✅ الاعتماد والترخيص يُحدِّدان بوضوح “من يُسمح له بماذا” — مصفوفة الترخيص أداة عملية لمنع الممارسة خارج الكفاءة.</li>
+            <li>✅ التأهيل الجيد — وليس مجرد “التوجيه” — يضمن أن الموظفين الجدد كفؤون فعلاً قبل الممارسة المستقلة.</li>
+            <li>✅ التعليم المستمر ليس اختيارياً — المعرفة تتقادم، المهارات تتلاشى، والممارسات تنحرف دون تحديث دوري.</li>
+            <li>✅ المحاكاة تُتيح التدريب على أحداث نادرة عالية المخاطر بدون تعريض المرضى للخطر — دمجها في التدريب الأولي والتحديثات الدورية.</li>
+            <li>✅ استخدم هرم Miller لتقييم الكفاءة — “يعرف” لا يساوي “يفعل”. التقييم الحقيقي يتطلب الملاحظة السريرية والأداء الفعلي.</li>
+            <li>✅ حدِّد مجالات المخاطر العالية في قسمك — NORA، مجرى الهواء الصعب، التخدير المحوري، الأطفال — وبنِ برامج تدريب مستهدفة.</li>
+            <li>✅ CRM وANTS يُوفران أطر عمل للمهارات غير التقنية — التواصل، العمل الجماعي، القيادة، الوعي الظرفي — وهي بنفس أهمية المهارات التقنية.</li>
+            <li>✅ تحديثات الكفاءة الدورية تمنع تلاشي المهارات — جدول منتظم للمحاكاة وإعادة التقييم يضمن الجاهزية المستمرة.</li>
+            <li>✅ التوثيق، التوثيق، التوثيق — كل تدريب، تقييم، وقرار ترخيص يجب توثيقه بشكل واضح ومنظم.</li>
+        </ul>
+    </div>
+
+    <div class="quote-box">
+        <strong>رسالة ختامية:</strong><br>
+        أنظمة التعليم والكفاءة ليست “أعمال ورقية إدارية” — إنها خط الدفاع الأول ضد ممارسة خارج الكفاءة، تلاشي المهارات، وانحراف الممارسات.<br>
+        القسم الذي يُتقن هذه الأنظمة لا يسأل: “هل هو طبيب تخدير مُرخّص؟” — بل يسأل: “هل لديه كفاءة موثّقة ومُحدّثة لهذا الإجراء في هذا المريض في هذا السياق؟”<br>
+        هذا هو الفرق بين الافتراض والتأكد — بين الأمل والضمان.<br>
+        عندما تبني نظاماً حيث كل ممارس يعمل ضمن كفاءته الموثّقة والمُحدّثة، لا تبني فقط قسماً أكثر أماناً — تبني ثقافة تعلم مستمر حيث التطور المهني ليس عبئاً، بل روتين يومي مُضمّن في طريقة عملنا.
+    </div>
+
+    
+
+
+
+
+<style>
+    .nav-footer-static {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to bottom, rgba(255,255,255,0.9), rgba(255,255,255,0.98));
+        backdrop-filter: blur(10px);
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        z-index: 1000;
+        border-top: 2px solid #e5e7eb;
+    }
+    .nav-btn-static {
+        font-family: 'Noto Kufi Arabic', Arial, sans-serif;
+        background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+        color: white !important;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 15px;
+        transition: all 0.3s ease;
+        border: none;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+    .nav-btn-static:hover {
+        background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .nav-btn-static.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+    .nav-btn-static.prev::before {
+        content: '← ';
+    }
+    .nav-btn-static.next::after {
+        content: ' →';
+    }
+    .nav-center-static {
+        font-family: 'Noto Kufi Arabic', Arial, sans-serif;
+        font-weight: 600;
+        color: #2563eb;
+        font-size: 16px;
+    }
+    .nav-home-btn {
+        font-family: 'Noto Kufi Arabic', Arial, sans-serif;
+        background: #10b981;
+        color: white !important;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+    .nav-home-btn:hover {
+        background: #059669;
+        transform: translateY(-2px);
+    }
+    @media (max-width: 768px) {
+        .nav-footer-static {
+            flex-direction: column;
+            gap: 10px;
+            padding: 12px 15px;
+        }
+        .nav-btn-static {
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            padding: 10px 16px;
+        }
+        .nav-center-static {
+            order: -1;
+            margin-bottom: 5px;
+        }
+        .nav-home-btn {
+            width: 100%;
+            text-align: center;
+        }
+    }
+</style>
+<div class="nav-footer-static">
+    <a href="/anesthesia-safety/chapter/11" class="nav-btn-static prev">السابق: الفصل 11</a>
+    <div class="nav-center-static">
+        <a href="/anesthesia-safety/chapters/" class="nav-home-btn">📚 الفصول</a>
+    </div>
+    <a href="/anesthesia-safety/chapter/13" class="nav-btn-static next">التالي: الفصل 13</a>
+</div>
+
+<script src="/static/chapter-enhancements.js"></script>
+</body></html>
