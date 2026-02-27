@@ -514,7 +514,7 @@ export const chaptersContent: Record<string | number, string> = {
     <p><span class="english-term">Some harms in surgery announce themselves loudly—bleeding, laryngospasm, hypotension. Others are quiet. They don’t scream in the theatre. They whisper later.</span></p>
 
     <p>خضع مريض لإجراء طويل. بدا كل شيء في الغرفة "على ما يرام". شُفي الشق الجراحي. كان الجراح راضياً. وشعرت العائلة بالارتياح.</p>
-    <p><span class="english-term">A patient underwent a long procedure. Everything in the room looked “fine.” The incision healed. The surgeon was satisfied. The family was relieved.</span></p>
+    <p><span class="english-term">A patient underwent a long procedure. Everything in the room looked “fine.” The surgical incision was closed. The surgeon was satisfied. The family was relieved.</span></p>
 
     <p>بعد ثلاثة أيام، أُصيب المريض بألم في ربلة الساق (Calf pain) وضيق في التنفس. تم تشخيص انسداد رئوي (Pulmonary embolism - PE).</p>
     <p><span class="english-term">Three days later, the patient developed calf pain and shortness of breath. A pulmonary embolism was diagnosed.</span></p>
@@ -809,7 +809,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>9.10.3 سرعة حلقة التعلم / Learning-loop speed</h3>
     <p>الوقت من فشل التدقيق أو الحدث ← إلى الإصلاح ← إلى إعادة التدقيق. (IHI)</p>
 
-    <h2>9.11 تأملات الكاتب (بعد سنوات في المسرح الجراحي) / The Writer's Reflection</h2>
+    <h2>9.11 تأملات في مسرح العمليات / Reflections in the Operating Theatre</h2>
 
     <h3>9.11.1 غرفة العمليات هي المكان الذي تصبح فيه الوقاية حقيقية</h3>
     <p>العيادات تُقيّم الخطر. والسياسات تصف الوقاية. لكن المسرح هو المكان الذي تصبح فيه الوقاية مادية (Physical): أكمام متصلة، كعاب محمية، تدفئة مُفعلة.</p>
@@ -1041,8 +1041,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>عدد החوادث الوشيكة (Near-misses) المُبلغ عنها (مثل شرارة ملحوظة دون اشتعال).</li>
     </ul>
 
-    <h2>19.7 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>19.7 The Writer's Reflection</h3>
+    <h2>19.7 تأملات في مسرح العمليات</h2>
+    <h3>19.7 Reflections in the Operating Theatre</h3>
 
     <h3>19.7.1 الحرائق تحدث للفرق الجيدة</h3>
     <p>لا تعتقد أبداً أن "هذا لن يحدث لنا". الحرائق تحدث للأشخاص الذين يعتبرون أن الروتين اليومي يغنيهم عن اليقظة. الغطرسة هي الوقود الرابع في حريق غرفة العمليات.</p>
@@ -2180,8 +2180,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>وقت إغلاق استدعاءات الغرسات (الوقت المستغرق لتحديد جميع المرضى المتأثرين). (IHI)</li>
     </ul>
 
-    <h2>13.10 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>13.10 The Writer's Reflection</h3>
+    <h2>13.10 تأملات في مسرح العمليات</h2>
+    <h3>13.10 Reflections in the Operating Theatre</h3>
 
     <h3>13.10.1 لا يمكنك إجراء عملية جراحية تتفوق على معالجة معقمة سيئة</h3>
     <p>مهما كانت مهارة الجراح، إذا كان المسمار (Screw) أو الصفيحة (Plate) ملوثة بعبء بيولوجي من مستشفى آخر لأن الصينية تم التسرع في تعقيمها، فإن النتيجة السريرية ستفشل.</p>
@@ -2425,8 +2425,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>الإلغاءات في نفس اليوم بسبب التجاوزات الزمنية للحالات (Overruns). (IHI)</li>
     </ul>
 
-    <h2>23.14 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>23.14 The Writer's Reflection</h3>
+    <h2>23.14 تأملات في مسرح العمليات</h2>
+    <h3>23.14 Reflections in the Operating Theatre</h3>
     <p><em>ملاحظة: تم تخطي الترقيم من 23.8 إلى 23.14 التزاماً بالنص الأصلي.</em></p>
 
     <h3>23.14.1 غرفة العمليات الهادئة هي غرفة عمليات آمنة / A quiet OR is a safe OR</h3>
@@ -2807,7 +2807,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>8.11.3 مؤشرات حلقة التعلم / Learning-loop indicators</h3>
     <p>الأيام من حادثة قريبة (Near-miss) متعلقة بـ SSI أو فشل تدقيق ← إلى إصلاح النظام + إعادة التدقيق. (IHI)</p>
 
-    <h2>8.12 تأملات الكاتب (بعد سنوات في المسرح الجراحي) / The Writer's Reflection</h2>
+    <h2>8.12 تأملات في مسرح العمليات / Reflections in the Operating Theatre</h2>
 
     <h3>8.12.1 العدوى تعاقب الغرور / Infections punish arrogance</h3>
     <p>قد تبدو غرفة العمليات نظيفة، لكن الميكروبات لا تحترم الثقة بالنفس. إنها تحترم الانضباط.</p>
@@ -3078,8 +3078,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>حوادث حرائق غرفة العمليات (يجب أن يكون الهدف دائماً صفراً).</li>
     </ul>
 
-    <h2>18.10 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>18.10 The Writer's Reflection</h3>
+    <h2>18.10 تأملات في مسرح العمليات</h2>
+    <h3>18.10 Reflections in the Operating Theatre</h3>
 
     <h3>18.10.1 التكنولوجيا لا تلغي الحاجة إلى الانضباط</h3>
     <p>مهما كانت أجهزة الطاقة حديثة وذكية، فإنها تعتمد في النهاية على ممرضة تضع اللوحة بشكل صحيح، وعلى جراح يضع القلم في الحافظة، وعلى فريق لا يتجاهل الإنذار.</p>
@@ -4187,8 +4187,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>إلغاءات الحالات أو التأخيرات الشديدة بسبب مشاكل توافر/تعقيم الأدوات. (IHI)</li>
     </ul>
 
-    <h2>12.8 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>12.8 The Writer's Reflection</h3>
+    <h2>12.8 تأملات في مسرح العمليات</h2>
+    <h3>12.8 Reflections in the Operating Theatre</h3>
 
     <h3>12.8.1 التعقيم ليس سحراً؛ إنه انضباط</h3>
     <p>لا يوجد جهاز "أوتوكلاف" (Autoclave) في العالم يمكنه إصلاح ممارسة سيئة في غرفة العمليات، ولا يمكن لأي مهارة جراحية أن تعوض عن أداة ملوثة. السلامة هي جهد مستمر ومترابط. (AHRQ)</p>
@@ -5451,8 +5451,8 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>11.10.2 إغلاق حلقة التعلم / Closing the loop</h3>
     <p>عندما تعيد غرفة العمليات صينية متسخة، يجب ألا تُخفى كـ "شكوى". يجب تتبعها كحادث جودة (Quality incident) لحل السبب الجذري. (AHRQ; IHI)</p>
 
-    <h2>11.11 تأملات الكاتب (بعد سنوات في المسرح الجراحي)</h2>
-    <h3>11.11 The Writer's Reflection</h3>
+    <h2>11.11 تأملات في مسرح العمليات</h2>
+    <h3>11.11 Reflections in the Operating Theatre</h3>
 
     <h3>11.11.1 أنت لا تثق في المؤشر؛ أنت تثق في العملية</h3>
     <p>اللون الذي يتغير على شريط كيميائي يخبرك فقط أن الحرارة وصلت إلى تلك البقعة. إنه لا يخبرك أن الأداة تم تنظيفها من الدم قبل وضعها في الآلة. <strong>الموثوقية تكمن في الأشخاص والعملية، وليس فقط في الآلة.</strong></p>
@@ -5954,8 +5954,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>أحداث الدواء الخاطئ/الجرعة الخاطئة/الطريق الخاطئ داخل غرفة العمليات (خارج التخدير). (The Joint Commission)</li>
     </ul>
 
-    <h2>21.16 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>21.16 The Writer's Reflection</h3>
+    <h2>21.16 تأملات في مسرح العمليات</h2>
+    <h3>21.16 Reflections in the Operating Theatre</h3>
     <p><em>ملاحظة: تم الحفاظ على ترقيم النص الأصلي.</em></p>
 
     <h3>21.16.1 الملصق هو عقد / A label is a contract</h3>
@@ -6560,8 +6560,8 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>15.7.2 المؤشرات المتأخرة / Lagging indicators</h3>
     <p>عدد حوادث العناصر الجراحية المتروكة (RSIs). (يجب أن يكون الهدف دائماً صفراً، ولكن التركيز يجب أن يكون على قوة الحواجز الاستباقية).</p>
 
-    <h2>15.17 تأملات الكاتب (أفضل غرف العمليات هي الأكثر صدقاً)</h2>
-    <h3>15.17 The Writer's Reflection</h3>
+    <h2>15.17 تأملات في مسرح العمليات</h2>
+    <h3>15.17 Reflections in the Operating Theatre</h3>
 
     <h3>15.17.1 العد ليس عملاً كتابياً؛ إنه وعد</h3>
     <p>العد الجراحي هو الطريقة التي تعد بها غرفة العمليات المريض بأننا لم نترك جزءاً من إجراءاتنا بداخله.</p>
@@ -6787,8 +6787,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>الحوادث الوشيكة (Near-misses) أو الأحداث السلبية (Adverse events) المرتبطة بفشل جهاز طبي داخل العملية.</li>
     </ul>
 
-    <h2>25.8 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>25.8 The Writer's Reflection</h3>
+    <h2>25.8 تأملات في مسرح العمليات</h2>
+    <h3>25.8 Reflections in the Operating Theatre</h3>
 
     <h3>25.8.1 التكنولوجيا تفشل؛ الأنظمة تنقذ</h3>
     <p>ستنكسر الأجهزة، وتفرغ البطاريات، وتفشل الشاشات. هذه فيزياء حتمية. ما يحدد سلامة المرضى ليس الكمال التكنولوجي؛ بل <strong>استعداد النظام البشري لإدارة ذلك الفشل.</strong></p>
@@ -7609,8 +7609,8 @@ export const chaptersContent: Record<string | number, string> = {
     </table>
     <p>إذا كانت درجتك 2، فأنت لا تستخدم الأداة بشكل صحيح. اهدف للدرجة 4 أو 5. (IHI)</p>
 
-    <h2>14.8 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>14.8 The Writer's Reflection</h3>
+    <h2>14.8 تأملات في مسرح العمليات</h2>
+    <h3>14.8 Reflections in the Operating Theatre</h3>
 
     <h3>14.8.1 الدقيقة الأكثر أهمية</h3>
     <p>بعد آلاف العمليات الجراحية، أستطيع أن أقول لك هذا: الدقيقة التي يمتلك فيها الفريق الـ Time-out—عندما يتوقفون حقاً ويتواصلون بالعين ويتحدثون عن المخاطر—هي الدقيقة التي يتم فيها تجنب معظم الكوارث.</p>
@@ -7845,8 +7845,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li><strong>التدفق:</strong> متوسط وقت التبديل (TOT) بالدقائق ← <strong>مقترن بـ الجودة:</strong> نقاط جودة تدقيق التنظيف البيئي. (IHI)</li>
     </ul>
 
-    <h2>24.15 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>24.15 The Writer's Reflection</h3>
+    <h2>24.15 تأملات في مسرح العمليات</h2>
+    <h3>24.15 Reflections in the Operating Theatre</h3>
     <p><em>ملاحظة: تم الحفاظ على ترقيم النص الأصلي الذي يقفز إلى 24.15</em></p>
 
     <h3>24.15.1 التدفق هو عرض، وليس السبب / Flow is a symptom, not a cause</h3>
@@ -8523,8 +8523,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>تقارير خدوش القرنية أو تهيج العين.</li>
     </ul>
 
-    <h2>17.9 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>17.9 The Writer's Reflection</h3>
+    <h2>17.9 تأملات في مسرح العمليات</h2>
+    <h3>17.9 Reflections in the Operating Theatre</h3>
 
     <h3>17.9.1 الجسد لا يغفر للاستعجال</h3>
     <p>عندما نتأخر، يكون إغراء وضع المريض على الطاولة بسرعة هائلاً. لكن الأنسجة والأعصاب لا تهتم بجدولك الزمني. الاستعجال في ضبط الوضعية هو شراء 10 دقائق مقابل ضرر قد يستمر مدى الحياة للمريض.</p>
@@ -8747,8 +8747,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>التباينات في العد الجراحي والأخطاء الدوائية المرتبطة بالمناوبات ذات مستويات التوظيف المنخفضة.</li>
     </ul>
 
-    <h2>27.9 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>27.9 The Writer's Reflection</h3>
+    <h2>27.9 تأملات في مسرح العمليات</h2>
+    <h3>27.9 Reflections in the Operating Theatre</h3>
 
     <h3>27.9.1 التوظيف هو فعل أخلاقي / Staffing is an ethical act</h3>
     <p>عندما تضع ممرضاً مبتدئاً دون دعم في غرفة معقدة، فأنت لا "تدير الموارد"؛ أنت تنقل المخاطر الإدارية مباشرة إلى جسد المريض. حماية طاقمك هي الطريقة التي تحمي بها مرضاك.</p>
@@ -9177,7 +9177,7 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>6.11.2 سرعة حلقة التعلم / Learning-loop speed</h3>
     <p>الأيام من حدث تباين ← إصلاح في النظام ← إعادة تدقيق. هذا يُثبت نضج الحوكمة. (IHI)</p>
 
-    <h2>6.12 تأملات الكاتب بعد 25 عاماً (ما أود إخبار فرق العمليات الشابة به) / The Writer's Reflection</h2>
+    <h2>6.12 تأملات في مسرح العمليات / Reflections in the Operating Theatre</h2>
 
     <h3>6.12.1 الغرفة سترغب دائماً في المضي قدماً / The room will always want to move</h3>
     <p>الزخم (Momentum) طبيعي. لكن السلامة هي فن مقاومة الزخم في اللحظات المناسبة.</p>
@@ -9408,8 +9408,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>أحداث العينات المفقودة أو التي لا يمكن تعويضها (Lost/irreplaceable specimen events). (AORN)</li>
     </ul>
 
-    <h2>16.15 تأملات الكاتب (العينة هي قصة مستقبلية)</h2>
-    <h3>16.15 The Writer's Reflection (A specimen is a future story)</h3>
+    <h2>16.15 تأملات في مسرح العمليات</h2>
+    <h3>16.15 Reflections in the Operating Theatre</h3>
     <p><em>ملاحظة: تم الاحتفاظ بالترقيم كما هو في النص الأصلي.</em></p>
 
     <h3>16.15.1 العينة هي قصة مستقبلية / A specimen is a future story</h3>
@@ -9646,8 +9646,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>تكلفة الإمدادات منتهية الصلاحية التي تم إتلافها.</li>
     </ul>
 
-    <h2>26.9 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>26.9 The Writer's Reflection</h3>
+    <h2>26.9 تأملات في مسرح العمليات</h2>
+    <h3>26.9 Reflections in the Operating Theatre</h3>
     <p><em>ملاحظة: تم تكييف الترقيم ليتناسب مع التسلسل.</em></p>
 
     <h3>26.9.1 الفوضى عبء معرفي / Clutter is cognitive load</h3>
@@ -9869,8 +9869,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>وقت إغلاق الإجراءات المكتشفة في التدقيق. (IHI)</li>
     </ul>
 
-    <h2>10.14 تأملات الكاتب: ما أود إخبار غرف العمليات الشابة به</h2>
-    <h3>10.14 The Writer's Reflection: What I'd Tell Young ORs</h3>
+    <h2>10.14 تأملات في مسرح العمليات</h2>
+    <h3>10.14 Reflections in the Operating Theatre: What I'd Tell Young ORs</h3>
 
     <h3>10.14.1 الصمت هو خطر تلوث / Silence is a contamination risk</h3>
     <p>في غرف العمليات، يتطلب الأمر شجاعة لوقف الجراح من أجل أمر غير مرئي. غرفة العمليات الآمنة تجعل هذه الشجاعة طبيعية ومحترمة. الصمت هو أكبر خطر للتلوث. (AHRQ)</p>
@@ -10110,8 +10110,8 @@ export const chaptersContent: Record<string | number, string> = {
         <li>عدد حالات التعرض للدم وسوائل الجسم.</li>
     </ul>
 
-    <h2>20.16 تأملات الكاتب بعد سنوات في المسرح الجراحي</h2>
-    <h3>20.16 The Writer's Reflection</h3>
+    <h2>20.16 تأملات في مسرح العمليات</h2>
+    <h3>20.16 Reflections in the Operating Theatre</h3>
 
     <h3>20.16.1 لا يمكنك أن تكون حذراً بما فيه الكفاية لتتغلب على نظام سيء</h3>
     <p>إذا كنت تمرر 300 إبرة من يد ليد تحت ضغط الوقت، فإن الإصابات ستستمر في الحدوث—بغض النظر عن مدى مهارة فريقك. صمم النظام (المنطقة المحايدة) ليعفيك من الاعتماد على الحذر.</p>
