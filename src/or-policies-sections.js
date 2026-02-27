@@ -73,7 +73,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                OT-GOV-01 — Operating Theatre Governance &amp; Scope of Service
+                OT-GOV-01 — Section 1: Operating Theatre Governance &amp; Scope of Service
             </h1>
         </div>
     </div>
@@ -106,7 +106,7 @@ export const orSectionsHtml = {
         <!-- Section 1: Blue Box -->
         <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden mb-8 policy-card">
             <div class="bg-gradient-to-r from-blue-700 to-blue-500 px-8 py-5">
-                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1. Why this policy exists (the “real-life” reason)</h2>
+                <h2 class="text-xl heading-serif font-bold text-white tracking-wide">1. Why this policy exists</h2>
             </div>
             <div class="p-8 text-slate-700 space-y-4 leading-relaxed bg-blue-50/30">
                 <p>In the operating theatre, the line between “routine” and “critical” can be one small delay, one missing set, one unclear decision, or one tired team trying to improvise under pressure.</p>
@@ -206,7 +206,7 @@ export const orSectionsHtml = {
         <!-- Section 7.1: Cyan Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.1 (1.1) OT Scope of Service — “What we do, and what we must NOT pretend we can do”</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.1 OT Scope of Service — “What we do, and what we must NOT pretend we can do”</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20">
                 <h4 class="font-bold text-slate-900 mb-2">7.1.1 The Scope of Service document (mandatory)</h4>
@@ -282,7 +282,7 @@ export const orSectionsHtml = {
         <!-- Section 7.2: Indigo Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.2 (1.2) OT Organizational Structure &amp; Reporting Lines — “Who carries authority when seconds matter”</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.2 OT Organizational Structure &amp; Reporting Lines — “Who carries authority when seconds matter”</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20">
                 <p class="mb-6">In a well-governed OT, there should be no confusion at 02:00 AM.</p>
@@ -322,7 +322,7 @@ export const orSectionsHtml = {
         <!-- Section 7.3: Fuchsia Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.3 (1.3) OT Management Committee (OTMC) — “The room where OT becomes safer month by month”</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.3 OT Management Committee (OTMC) — “The room where OT becomes safer month by month”</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20">
                 <p class="mb-6">A busy OT can run for months on habit. A safe OT runs on review, learning, and decisions.</p>
@@ -364,7 +364,7 @@ export const orSectionsHtml = {
         <!-- Section 7.4: Sky Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.4 (1.4) OT Policies Governance — “Policies are not papers; they are promises”</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.4 OT Policies Governance — “Policies are not papers; they are promises”</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20">
                 <p class="mb-6">Policies exist because memory fails and stress distorts judgment. A policy is OT’s promise that “we will do the safe thing the same way every time.”</p>
@@ -395,7 +395,7 @@ export const orSectionsHtml = {
         <!-- Section 7.5: Orange Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.5 (1.5) Document Control &amp; Staff Access — “Right policy, right place, right time”</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.5 Document Control &amp; Staff Access — “Right policy, right place, right time”</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20">
                 <p class="mb-6">A policy that exists but is not accessible is not a policy—it is a decoration.</p>
@@ -426,7 +426,7 @@ export const orSectionsHtml = {
         <!-- Section 7.6: Red Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.6 (1.6) OT Risk Register &amp; Annual Safety Plan — “We write our risks down, because forgetting risks is how harm repeats”</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.6 OT Risk Register &amp; Annual Safety Plan — “We write our risks down, because forgetting risks is how harm repeats”</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20">
                 <p class="mb-6">Every OT has risks. The difference is whether risks are hidden or managed.</p>
@@ -469,7 +469,7 @@ export const orSectionsHtml = {
         <!-- Section 7.7: Green Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.7 (1.7) OT Capacity Planning, Prioritization &amp; Escalation — “Fairness and safety when demand is bigger than rooms”</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.7 OT Capacity Planning, Prioritization &amp; Escalation — “Fairness and safety when demand is bigger than rooms”</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20">
                 <p class="mb-6">Capacity planning is where governance becomes visible. When OT is crowded, rules protect patients from chaos and protect staff from unsafe pressure.</p>
@@ -519,7 +519,7 @@ export const orSectionsHtml = {
         <!-- Section 7.8: Slate Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12 policy-card">
             <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.8 (1.8) Outsourced Services Governance — “If they work inside OT, they work under OT safety rules”</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.8 Outsourced Services Governance — “If they work inside OT, they work under OT safety rules”</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50">
                 <p class="mb-6">Outsourced cleaning, CSSD interfaces, vendors, and contractors can strengthen OT—or quietly weaken it. Governance makes sure they remain inside the quality system.</p>
@@ -888,7 +888,7 @@ export const orSectionsHtml = {
         <!-- Section 6.1: Cyan Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.1 (2.1) Credentialing/Privileging Interface (surgeons, OT nursing, OT techs)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.1 Credentialing/Privileging Interface (surgeons, OT nursing, OT techs)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20">
                 <h4 class="font-bold text-slate-900 mb-2">6.1.1 The principle</h4>
@@ -950,7 +950,7 @@ export const orSectionsHtml = {
         <!-- Section 6.2: Indigo Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.2 (2.2) Scope of Practice: OT Nursing &amp; Surgical Technologists</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.2 Scope of Practice: OT Nursing &amp; Surgical Technologists</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20">
                 <h4 class="font-bold text-slate-900 mb-2">6.2.1 Why scope of practice matters in OT</h4>
@@ -1012,7 +1012,7 @@ export const orSectionsHtml = {
         <!-- Section 6.3: Fuchsia Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.3 (2.3) OT Orientation Program &amp; Departmental Induction</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.3 OT Orientation Program &amp; Departmental Induction</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20">
                 <h4 class="font-bold text-slate-900 mb-2">6.3.1 Orientation philosophy (human, realistic)</h4>
@@ -1073,7 +1073,7 @@ export const orSectionsHtml = {
         <!-- Section 6.4: Sky Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.4 (2.4) Annual Competency Program (core + specialty)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.4 Annual Competency Program (core + specialty)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20">
                 <h4 class="font-bold text-slate-900 mb-2">6.4.1 Why annual competency is non-negotiable</h4>
@@ -1132,7 +1132,7 @@ export const orSectionsHtml = {
         <!-- Section 6.5: Orange Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.5 (2.5) Mandatory Training Matrix (BLS/ACLS, Fire, IPC, Radiation, etc.)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.5 Mandatory Training Matrix (BLS/ACLS, Fire, IPC, Radiation, etc.)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20">
                 <h4 class="font-bold text-slate-900 mb-2">6.5.1 Training is part of facility safety—not optional</h4>
@@ -1193,7 +1193,7 @@ export const orSectionsHtml = {
         <!-- Section 6.6: Red Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.6 (2.6) Staffing Model, Skill Mix, On-call Coverage (linked to IPP-OT-021)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.6 Staffing Model, Skill Mix, On-call Coverage (linked to IPP-OT-021)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20">
                 <h4 class="font-bold text-slate-900 mb-2">6.6.1 The reality of OT staffing</h4>
@@ -1242,7 +1242,7 @@ export const orSectionsHtml = {
         <!-- Section 6.7: Green Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.7 (2.7) Fatigue Management and Safe Scheduling</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.7 Fatigue Management and Safe Scheduling</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20">
                 <h4 class="font-bold text-slate-900 mb-2">6.7.1 Why fatigue must be managed like a clinical risk</h4>
@@ -1294,7 +1294,7 @@ export const orSectionsHtml = {
         <!-- Section 6.8: Slate Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.8 (2.8) Professional Conduct, Speaking-Up, Zero Tolerance</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.8 Professional Conduct, Speaking-Up, Zero Tolerance</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50">
                 <h4 class="font-bold text-slate-900 mb-2">6.8.1 The culture we want inside OT</h4>
@@ -1341,7 +1341,7 @@ export const orSectionsHtml = {
         <!-- Section 6.9: Purple Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12 policy-card">
             <div class="bg-gradient-to-r from-purple-700 to-fuchsia-600 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.9 (2.9) Students/Observers and Supervision Rules</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.9 Students/Observers and Supervision Rules</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-purple-50/20">
                 <h4 class="font-bold text-slate-900 mb-2">6.9.1 Why this matters</h4>
@@ -1870,7 +1870,7 @@ export const orSectionsHtml = {
         <!-- Section 6.1: Cyan Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.1 (SEC 3.1) Patient Safety Program in OT (roles, safety rounds)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.1 Patient Safety Program in OT (roles, safety rounds)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
                 
@@ -1972,7 +1972,7 @@ export const orSectionsHtml = {
         <!-- Section 6.2: Indigo Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.2 (SEC 3.2) Incident / Near-Miss / Hazard Reporting (OT responsibilities)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.2 Incident / Near-Miss / Hazard Reporting (OT responsibilities)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
                 
@@ -2064,7 +2064,7 @@ export const orSectionsHtml = {
         <!-- Section 6.3: Fuchsia Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.3 (SEC 3.3) Sentinel Event Response (RCA participation, action plans)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.3 Sentinel Event Response (RCA participation, action plans)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
                 
@@ -2145,7 +2145,7 @@ export const orSectionsHtml = {
         <!-- Section 6.4: Sky Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.4 (SEC 3.4) OT Audit Program (counts, checklist compliance, IPC, meds labeling)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.4 OT Audit Program (counts, checklist compliance, IPC, meds labeling)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
                 
@@ -2241,7 +2241,7 @@ export const orSectionsHtml = {
         <!-- Section 6.5: Orange Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.5 (SEC 3.5) OT KPI Dashboard (SSI bundle compliance, cancellation, utilization, etc.)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.5 OT KPI Dashboard (SSI bundle compliance, cancellation, utilization, etc.)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
                 
@@ -2318,7 +2318,7 @@ export const orSectionsHtml = {
         <!-- Section 6.6: Red Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.6 (SEC 3.6) Tracer Readiness &amp; Mock Survey Plan</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.6 Tracer Readiness &amp; Mock Survey Plan</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
                 
@@ -2379,7 +2379,7 @@ export const orSectionsHtml = {
         <!-- Section 6.7: Green Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.7 (SEC 3.7) Patient Feedback / Complaints Handling in OT</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.7 Patient Feedback / Complaints Handling in OT</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20 space-y-6">
                 
@@ -2422,7 +2422,7 @@ export const orSectionsHtml = {
         <!-- Section 6.8: Slate Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12 policy-card">
             <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.8 (SEC 3.8) Continuous Improvement (PDSA, reliability tools)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.8 Continuous Improvement (PDSA, reliability tools)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50 space-y-6">
                 
@@ -2974,7 +2974,7 @@ export const orSectionsHtml = {
         <!-- Section 7.1: Cyan Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.1 (4.1) Privacy &amp; “Awrah” protection during transfer, positioning, draping, recovery</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.1 Privacy &amp; “Awrah” protection during transfer, positioning, draping, recovery</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
                 
@@ -3057,7 +3057,7 @@ export const orSectionsHtml = {
         <!-- Section 7.2: Indigo Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.2 (4.2) Gender sensitivity (chaperone rules, exposure minimization)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.2 Gender sensitivity (chaperone rules, exposure minimization)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
                 
@@ -3111,7 +3111,7 @@ export const orSectionsHtml = {
         <!-- Section 7.3: Fuchsia Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.3 (4.3) Consent for exposure, photography/video, teaching/observers</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.3 Consent for exposure, photography/video, teaching/observers</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
                 
@@ -3172,7 +3172,7 @@ export const orSectionsHtml = {
         <!-- Section 7.4: Sky Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.4 (4.4) Confidentiality inside OT (voice/whiteboard/privacy screens)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.4 Confidentiality inside OT (voice/whiteboard/privacy screens)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
                 
@@ -3224,7 +3224,7 @@ export const orSectionsHtml = {
         <!-- Section 7.5: Orange Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.5 (4.5) Handling deceased patient in OT (dignity, transport, access control)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.5 Handling deceased patient in OT (dignity, transport, access control)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
                 
@@ -3261,7 +3261,7 @@ export const orSectionsHtml = {
         <!-- Section 7.6: Red Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.6 (4.6) Visitor limits and professional boundaries in OT</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.6 Visitor limits and professional boundaries in OT</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
                 
@@ -3313,7 +3313,7 @@ export const orSectionsHtml = {
         <!-- Section 7.7: Green Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.7 (4.7) Cultural/religious considerations (family communication, modesty, respect)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.7 Cultural/religious considerations (family communication, modesty, respect)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20 space-y-6">
                 
@@ -3812,7 +3812,7 @@ export const orSectionsHtml = {
         <!-- Section 6.1: Cyan Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.1 (5.1) Surgical Booking Process &amp; Required Documentation (IPP-OT-001)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.1 Surgical Booking Process &amp; Required Documentation (IPP-OT-001)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
                 
@@ -3879,7 +3879,7 @@ export const orSectionsHtml = {
         <!-- Section 6.2: Indigo Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.2 (5.2) Surgical Priority / Triage (elective, urgent, emergency)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.2 Surgical Priority / Triage (elective, urgent, emergency)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
                 
@@ -3924,7 +3924,7 @@ export const orSectionsHtml = {
         <!-- Section 6.3: Fuchsia Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.3 (5.3) Day-of-Surgery Cancellation Criteria &amp; Escalation (IPP-OT-024)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.3 Day-of-Surgery Cancellation Criteria &amp; Escalation (IPP-OT-024)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
                 
@@ -4012,7 +4012,7 @@ export const orSectionsHtml = {
         <!-- Section 6.4: Sky Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.4 (5.4) Pre-Op Checklist (ward/clinic readiness) — OT responsibilities only</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.4 Pre-Op Checklist (ward/clinic readiness) — OT responsibilities only</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
                 
@@ -4085,7 +4085,7 @@ export const orSectionsHtml = {
         <!-- Section 6.5: Orange Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.5 (5.5) Patient Preparation for OR (fasting verification, jewelry, skin prep confirmation)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.5 Patient Preparation for OR (fasting verification, jewelry, skin prep confirmation)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
                 
@@ -4136,7 +4136,7 @@ export const orSectionsHtml = {
         <!-- Section 6.6: Red Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.6 (5.6) Blood product readiness &amp; special equipment requests (OT coordination role)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.6 Blood product readiness &amp; special equipment requests (OT coordination role)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
                 
@@ -4191,7 +4191,7 @@ export const orSectionsHtml = {
         <!-- Section 6.7: Green Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.7 (5.7) Transport to OT (handover, infection status, oxygen need as ordered)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.7 Transport to OT (handover, infection status, oxygen need as ordered)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20 space-y-6">
                 
@@ -4236,7 +4236,7 @@ export const orSectionsHtml = {
         <!-- Section 6.8: Slate Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12 policy-card">
             <div class="bg-gradient-to-r from-slate-700 to-slate-600 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">6.8 (5.8) Patient Acceptance Criteria for OT (IPP-OT-002)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">6.8 Patient Acceptance Criteria for OT (IPP-OT-002)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-slate-50/50 space-y-6">
                 
@@ -4882,7 +4882,7 @@ export const orSectionsHtml = {
         <!-- Section 7.1: Cyan Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.1 (SEC 6.1) PATIENT IDENTIFICATION (TWO IDENTIFIERS)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.1 PATIENT IDENTIFICATION (TWO IDENTIFIERS)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
                 
@@ -4979,7 +4979,7 @@ export const orSectionsHtml = {
         <!-- Section 7.2: Indigo Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.2 (SEC 6.2) INFORMED CONSENT VERIFICATION (SURGERY, BLOOD, IMPLANTS — VERIFICATION STEP)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.2 INFORMED CONSENT VERIFICATION (SURGERY, BLOOD, IMPLANTS — VERIFICATION STEP)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
                 
@@ -5071,7 +5071,7 @@ export const orSectionsHtml = {
         <!-- Section 7.3: Fuchsia Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.3 (SEC 6.3) SITE MARKING VERIFICATION (INCLUDING EXCEPTIONS)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.3 SITE MARKING VERIFICATION (INCLUDING EXCEPTIONS)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
                 
@@ -5138,7 +5138,7 @@ export const orSectionsHtml = {
         <!-- Section 7.4: Sky Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-sky-600 to-blue-400 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.4 (SEC 6.4) SAFE SURGERY PROCESS: SIGN-IN / TIME-OUT / SIGN-OUT (WHO CHECKLIST GOVERNANCE)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.4 SAFE SURGERY PROCESS: SIGN-IN / TIME-OUT / SIGN-OUT (WHO CHECKLIST GOVERNANCE)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-sky-50/20 space-y-6">
                 
@@ -5260,7 +5260,7 @@ export const orSectionsHtml = {
         <!-- Section 7.5: Orange Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-orange-500 to-amber-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.5 (SEC 6.5) DISCREPANCY HANDLING &amp; STOP-THE-LINE ESCALATION</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.5 DISCREPANCY HANDLING &amp; STOP-THE-LINE ESCALATION</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-orange-50/20 space-y-6">
                 
@@ -5327,7 +5327,7 @@ export const orSectionsHtml = {
         <!-- Section 7.6: Red Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-red-600 to-rose-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.6 (SEC 6.6) CRITICAL INFORMATION COMMUNICATION (ALLERGY ALERTS, ISOLATION STATUS, IMPLANTS)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.6 CRITICAL INFORMATION COMMUNICATION (ALLERGY ALERTS, ISOLATION STATUS, IMPLANTS)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-red-50/20 space-y-6">
                 
@@ -5385,7 +5385,7 @@ export const orSectionsHtml = {
         <!-- Section 7.7: Green Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12 policy-card">
             <div class="bg-gradient-to-r from-emerald-600 to-green-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.7 (SEC 6.7) INTERPRETER / COMMUNICATION SUPPORT (WORKFLOW)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.7 INTERPRETER / COMMUNICATION SUPPORT (WORKFLOW)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-emerald-50/20 space-y-6">
                 
@@ -5997,7 +5997,7 @@ export const orSectionsHtml = {
         <!-- Section 7.1: Cyan Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-cyan-600 to-blue-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.1 (SEC 7.1) PRE-OP HANDOFF TO OT (SBAR / I-PASS)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.1 PRE-OP HANDOFF TO OT (SBAR / I-PASS)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-cyan-50/20 space-y-6">
                 
@@ -6112,7 +6112,7 @@ export const orSectionsHtml = {
         <!-- Section 7.2: Indigo Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-indigo-600 to-violet-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.2 (SEC 7.2) SAFE TRANSFER OF PATIENT (TROLLEY ↔ OT TABLE, SAFE HANDLING) (IPP-OT-016)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.2 SAFE TRANSFER OF PATIENT (TROLLEY ↔ OT TABLE, SAFE HANDLING) (IPP-OT-016)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-indigo-50/20 space-y-6">
                 
@@ -6246,7 +6246,7 @@ export const orSectionsHtml = {
         <!-- Section 7.3: Fuchsia Box -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6 policy-card">
             <div class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-4">
-                <h3 class="text-lg heading-serif font-bold text-white">7.3 (SEC 7.3) OT ON-CALL SYSTEM (ACTIVATION, RESPONSE TIME, RESPONSIBILITIES) (IPP-OT-021)</h3>
+                <h3 class="text-lg heading-serif font-bold text-white">7.3 OT ON-CALL SYSTEM (ACTIVATION, RESPONSE TIME, RESPONSIBILITIES) (IPP-OT-021)</h3>
             </div>
             <div class="p-8 text-slate-700 leading-relaxed bg-fuchsia-50/20 space-y-6">
                 

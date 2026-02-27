@@ -626,11 +626,11 @@ or.get('/', (c) => {
         <div class="sibling-arrow">استعرض الدليل ←</div>
       </a>
       <div style="margin-top:20px;">
-        <a href="https://www.anesthesiasafetyguideline.com" target="_blank" class="sibling-card" style="max-width:640px;">
-          <span class="sibling-tag">🌐 موقع مرجعي</span>
-          <div class="sibling-title">Anesthesia Safety Guideline</div>
-          <div class="sibling-desc">الموقع الرسمي لدليل سلامة وجودة التخدير — مرجع دولي للممارسين والمؤسسات الصحية.</div>
-          <div class="sibling-arrow">زيارة الموقع ←</div>
+        <a href="/or-policies" class="sibling-card" style="max-width:640px;">
+          <span class="sibling-tag">📋 كتاب رفيق</span>
+          <div class="sibling-title">دليل السياسات والإجراءات في غرفة العمليات</div>
+          <div class="sibling-desc">المرجع الشامل لسياسات وإجراءات غرفة العمليات — يغطي الحوكمة والسلامة والجودة والنماذج التشغيلية.</div>
+          <div class="sibling-arrow">استعرض الدليل ←</div>
         </a>
       </div>
     </div>
