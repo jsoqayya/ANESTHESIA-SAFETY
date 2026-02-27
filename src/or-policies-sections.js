@@ -6564,7 +6564,7 @@ export const orSectionsHtml = {
     </script>`
   },
   s08: {
-    titleEn: 'Section 8: IPP-OT-017 — PACU / Recovery Room Interface',
+    titleEn: 'Section 8: PACU / Recovery Room Interface',
     titleAr: 'القسم ٨ — واجهة غرفة الإفاقة (PACU)',
     css: `body {
             font-family: 'Montserrat', sans-serif;
@@ -6645,7 +6645,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-cyan-100 leading-tight drop-shadow-lg">
-                IPP-OT-017 — Section 8: PACU / Recovery Room Interface
+                Section 8: PACU / Recovery Room Interface
             </h1>
             <p class="mt-6 text-slate-300 text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
                 Post-Anaesthesia Care Unit Handover, Monitoring, Discharge Criteria &amp; OT Interface
