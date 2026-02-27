@@ -822,6 +822,7 @@ app.get('/or-safety', (c) => {
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
+  <style>
     .cover-page {
       background: #060e1f;
       display: flex;
