@@ -754,7 +754,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                SEC 2 — Workforce, Privileging Interface, and Competency (SQE)
+                Section 2: SEC 2 — Workforce, Privileging Interface, and Competency (SQE)
             </h1>
         </div>
     </div>
@@ -1700,7 +1700,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                SEC 3 — Quality, Patient Safety, and Audit System (QPS / IPSG)
+                Section 3: SEC 3 — Quality, Patient Safety, and Audit System (QPS / IPSG)
             </h1>
         </div>
     </div>
@@ -2742,7 +2742,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                OT-ETH-01 — Ethics, Patient Dignity &amp; Privacy in Operating Theatre (Islamic Culture)
+                OT-ETH-01 — Section 4: Ethics, Patient Dignity &amp; Privacy in Operating Theatre (Islamic Culture)
             </h1>
         </div>
     </div>
@@ -3660,7 +3660,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                OT-FLOW-01 (SEC 5) — Scheduling, Booking, and Pre-Operative Readiness
+                OT-FLOW-01 — Section 5: Scheduling, Booking, and Pre-Operative Readiness
             </h1>
         </div>
     </div>
@@ -4632,7 +4632,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                OT-IPSG-01 (SEC 6) — Patient Identification, Consent, and Procedure Verification (IPSG)
+                OT-IPSG-01 — Section 6: Patient Identification, Consent, and Procedure Verification (IPSG)
             </h1>
         </div>
     </div>
@@ -5742,7 +5742,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                OT-FLOW-02 (SEC 7) — Handover and Transfers (OT Responsibilities)
+                OT-FLOW-02 — Section 7: Handover and Transfers (OT Responsibilities)
             </h1>
         </div>
     </div>
@@ -6567,7 +6567,7 @@ export const orSectionsHtml = {
     titleEn: 'SEC 8 — PACU / Recovery Room Interface',
     titleAr: 'القسم ٨ — واجهة غرفة الإفاقة (PACU)',
     css: `body{font-family:Cairo,sans-serif;}`,
-    body: `<div style="max-width:900px;margin:0 auto;padding:40px 20px;font-family:Cairo,sans-serif;direction:rtl;text-align:right;"><h1 style="color:#1e3a5f;border-bottom:3px solid #1d4ed8;padding-bottom:12px;">SEC 8 — PACU / Recovery Room Interface</h1><h2 style="color:#374151;font-size:18px;margin-top:16px;">القسم ٨ — واجهة غرفة الإفاقة (PACU)</h2><p style="color:#6b7280;margin-top:20px;font-size:15px;line-height:2;">هذا القسم مُدمج ضمن وثيقة التسليم والنقل (القسم ٧). يُرجى مراجعة سياسة Handover للاطلاع على إجراءات PACU.</p></div>`
+    body: `<div style="max-width:900px;margin:0 auto;padding:40px 20px;font-family:Cairo,sans-serif;direction:rtl;text-align:right;"><h1 style="color:#1e3a5f;border-bottom:3px solid #1d4ed8;padding-bottom:12px;">Section 8: SEC 8 — PACU / Recovery Room Interface</h1><h2 style="color:#374151;font-size:18px;margin-top:16px;">القسم ٨ — واجهة غرفة الإفاقة (PACU)</h2><p style="color:#6b7280;margin-top:20px;font-size:15px;line-height:2;">هذا القسم مُدمج ضمن وثيقة التسليم والنقل (القسم ٧). يُرجى مراجعة سياسة Handover للاطلاع على إجراءات PACU.</p></div>`
   },
   s09: {
     titleEn: 'SEC 9 — Infection Prevention & Control in Operating Theatre (PCI)',
@@ -6654,7 +6654,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                OT-PCI-01 (SEC 9) — Infection Prevention &amp; Environmental Control in Operating Theatre
+                OT-PCI-01 — Section 9: Infection Prevention &amp; Environmental Control in Operating Theatre
             </h1>
             <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">(ONE Comprehensive Policy — PCI / FMS)</p>
         </div>
@@ -8046,7 +8046,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                OT-MMU-01 (SEC 10) — Medication Management in Operating Theatre (OT Scope)
+                OT-MMU-01 — Section 10: Medication Management in Operating Theatre (OT Scope)
             </h1>
             <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">ONE Policy (MMU / IPSG)</p>
         </div>
@@ -8978,7 +8978,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                SEC 11 — Intra-Operative Safety &amp; Conduct (11.1, 11.2, 11.3)
+                Section 11A: SEC 11 — Intra-Operative Safety &amp; Conduct (11.1, 11.2, 11.3)
             </h1>
             <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">Independent Policies for Each Title</p>
         </div>
@@ -10149,7 +10149,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                SEC 11 — Intra-Operative Safety &amp; Conduct (11.4, 11.5, 11.6, 11.7)
+                Section 11B: SEC 11 — Intra-Operative Safety &amp; Conduct (11.4, 11.5, 11.6, 11.7)
             </h1>
             <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">Independent Policies for Each Title</p>
         </div>
@@ -11485,7 +11485,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                SEC 11 — Intra-Operative Safety &amp; Conduct (11.8 to 11.13)
+                Section 11C: SEC 11 — Intra-Operative Safety &amp; Conduct (11.8 to 11.13)
             </h1>
             <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">Independent Policies for Each Title</p>
         </div>
@@ -13273,7 +13273,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                PART VI — INSTRUMENTS, EQUIPMENT, AND TECHNOLOGY (HCT / FMS)<br>
+                Section 12: PART VI — INSTRUMENTS, EQUIPMENT, AND TECHNOLOGY (HCT / FMS)<br>
                 <span class="text-2xl md:text-4xl mt-3 block font-semibold">SEC 12 — Surgical Instruments &amp; Equipment (Independent Policies)</span>
             </h1>
         </div>
@@ -15060,7 +15060,7 @@ export const orSectionsHtml = {
                 Policy &amp; Procedure Document
             </span>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                PART VII — FACILITY SAFETY, SECURITY, AND STAFF SAFETY (FMS)<br>
+                Section 13: PART VII — FACILITY SAFETY, SECURITY, AND STAFF SAFETY (FMS)<br>
                 <span class="text-2xl md:text-4xl mt-3 block font-semibold">SEC 13 — Independent OT Policies (13.1 to 13.8)</span>
             </h1>
         </div>
@@ -16439,7 +16439,7 @@ export const orSectionsHtml = {
             </span>
             <h2 class="text-blue-300 font-semibold mb-2 tracking-widest uppercase text-sm">PART VIII — EMERGENCY &amp; BUSINESS CONTINUITY (FMS / IPSG)</h2>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                SEC 14 — OT Emergency Coordination (OT Scope)
+                Section 14: SEC 14 — OT Emergency Coordination (OT Scope)
             </h1>
             <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">Independent Policies 14.1–14.5</p>
         </div>
@@ -17690,7 +17690,7 @@ export const orSectionsHtml = {
     </script>`
   },
   s17: {
-    titleEn: 'SEC 15 — Specialty Operating Theatre Workflows',
+    titleEn: 'Section 15: SEC 15 — Specialty Operating Theatre Workflows',
     titleAr: 'القسم ١٥ — مسارات العمل في غرف العمليات المتخصصة',
     css: `body {
             font-family: 'Montserrat', sans-serif;
@@ -17781,7 +17781,7 @@ export const orSectionsHtml = {
             </span>
             <h2 class="text-blue-300 font-semibold mb-2 tracking-widest uppercase text-sm">PART IX — SPECIALTY OT WORKFLOWS (OT Scope)</h2>
             <h1 class="text-3xl md:text-5xl heading-serif font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white to-blue-100 leading-tight drop-shadow-lg">
-                SEC 15 — Specialty Operating Theatre Workflows
+                Section 15: SEC 15 — Specialty Operating Theatre Workflows
             </h1>
             <p class="text-blue-200 font-medium mt-4 tracking-wide text-sm">Independent Policies 15.1–15.5</p>
         </div>
