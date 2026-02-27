@@ -88,8 +88,7 @@ const parts = [
       { num: 10, ar: 'تعقيم المسرح الجراحي وموثوقية الحقل المعقم', en: 'Theatre Asepsis and Sterile Field Reliability', sub: 'إخفاقات التقنية المعقمة • حركة المرور/الأبواب • اختراقات الحقل • الإجراءات الفورية', subEn: 'sterile technique failures • traffic/doors • field breaks • immediate corrective actions' },
       { num: 11, ar: 'معالجة الأدوات، ضمان التعقيم، وواجهة OR–CSSD', en: 'Instrument Processing, Sterilization Assurance, and OR–CSSD Interface', sub: 'دورة حياة الأداة • سلامة التغليف • المؤشرات • أساسيات التتبع', subEn: 'instrument lifecycle • packaging integrity • indicators • traceability essentials' },
       { num: 12, ar: 'واجهة قسم التعقيم المركزي: من التطهير إلى نقطة الاستخدام', en: 'CSSD Interface: From Decontamination to Point-of-Use', sub: 'تدفق التطهير • سلامة التغليف • المؤشرات • أساسيات التتبع', subEn: 'decontamination flow • packaging integrity • indicators • traceability essentials' },
-      { num: 13, ar: 'الأجهزة عالية الخطورة والأطقم المعارة', en: 'High-Risk Devices and Loaner Sets', sub: 'حوكمة الإعارة • ضوابط الموردين • مخاطر التطهير • الجداول الزمنية للجاهزية', subEn: 'loaner governance • vendor controls • decontamination risk • readiness timelines' },
-      { num: 14, ar: 'سلامة الغرسات وإمكانية تتبعها', en: 'Implant Safety and Traceability', sub: 'التحقق من الاختيار • انتهاء الصلاحية والتخزين • سير عمل الباركود/UDI • خطة الاستدعاء', subEn: 'selection verification • expiry & storage • barcode/UDI workflow • recall response plan' },
+      { num: 13, ar: 'الأجهزة عالية الخطورة، الأطقم المعارة، وسلامة الغرسات وتتبعها', en: 'High-Risk Devices, Loaner Sets, and Implant Safety & Traceability', sub: 'حوكمة الإعارة • ضوابط الموردين • مخاطر التطهير • التحقق من الاختيار • سير عمل الباركود/UDI • خطة الاستدعاء', subEn: 'loaner governance • vendor controls • decontamination risk • selection verification • barcode/UDI workflow • recall response plan' },
     ]
   },
   {
