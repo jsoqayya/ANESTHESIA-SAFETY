@@ -138,6 +138,10 @@ const totalChapters = allChapters.length
 
 // ======== SHARED CSS ========
 const sharedFonts = `
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Kufi+Arabic:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -177,11 +181,10 @@ const navbarCSS = `
     transition: background 0.2s; white-space: nowrap;
   }
   .nav-link:hover, .nav-link.active { background: rgba(255,255,255,0.22); }
-  @media (max-width: 700px) {
-    .top-nav { padding: 8px 12px; gap: 6px; }
+  @media (max-width: 600px) {
+    .top-nav { padding: 8px 12px; }
     .nav-brand-text { display: none; }
-    .nav-link { font-size: 11px; padding: 5px 8px; }
-    .nav-links { gap: 5px; }
+    .nav-link { font-size: 12px; padding: 5px 10px; }
   }
 `
 
@@ -204,14 +207,7 @@ const chapterPageCSS = `
     padding: 100px 60px 60px;
   }
   @media (max-width: 768px) {
-    .chapter-wrapper { padding: 110px 16px 40px; font-size: 17px; }
-  }
-  @media (max-width: 480px) {
-    .chapter-wrapper { padding: 100px 12px 32px; font-size: 16px; }
-    .chapter-header-box { padding: 16px 14px !important; margin: 14px 0 24px !important; }
-    .chapter-title-ar { font-size: 1.25rem !important; }
-    .chapter-title-en { font-size: 0.85rem !important; }
-    .chapter-sub-ar { font-size: 0.85rem !important; }
+    .chapter-wrapper { padding: 110px 15px 40px; font-size: 17px; }
   }
 
   /* PART LABELS */
@@ -530,37 +526,24 @@ app.get('/portal', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>منصة السلامة في التخدير والعمليات — د. جميل السقيا</title>
-
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
-
-  <!-- SEO -->
+  <!-- SEO & Open Graph -->
   <meta name="description" content="منصة السلامة في التخدير والعمليات — 4 كتب طبية، 32 فصلاً، 55 نموذجاً. تأليف د. جميل السقيا.">
-  <meta name="author" content="د. جميل السقيا — Dr. Jameel Al-Soqayya">
-  <meta name="keywords" content="تخدير, سلامة, غرفة عمليات, سياسات, نماذج طبية, anesthesia safety">
-
-  <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://anesthesiasafetyguideline.com/portal">
   <meta property="og:title" content="منصة السلامة في التخدير والعمليات — د. جميل السقيا">
-  <meta property="og:description" content="4 كتب طبية متخصصة في السلامة والجودة في التخدير وغرفة العمليات — 32 فصلاً علمياً، 55 نموذجاً طبياً جاهزاً">
+  <meta property="og:description" content="4 كتب طبية متخصصة في السلامة والجودة في التخدير وغرفة العمليات">
   <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="منصة السلامة في التخدير والعمليات">
-  <meta property="og:locale" content="ar_SA">
   <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
-
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://anesthesiasafetyguideline.com/portal">
   <meta name="twitter:title" content="منصة السلامة في التخدير والعمليات — د. جميل السقيا">
-  <meta name="twitter:description" content="4 كتب طبية متخصصة في السلامة والجودة في التخدير وغرفة العمليات">
   <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
@@ -607,16 +590,6 @@ app.get('/portal', (c) => {
       max-width: 1000px;
       margin: 0 auto;
     }
-    @media (max-width: 640px) {
-      .books-grid { grid-template-columns: 1fr; gap: 20px; }
-      body { padding: 24px 14px 40px !important; }
-      .header { margin-bottom: 30px !important; }
-      .header h1 { font-size: 1.6rem !important; }
-      .book-img-wrap { padding-top: 75% !important; }
-      .book-info { padding: 16px 18px 20px !important; }
-      .book-title { font-size: 1.1rem !important; }
-      .footer { padding: 30px 14px 14px !important; }
-    }
 
     /* CARD */
     .book-card {
@@ -649,10 +622,8 @@ app.get('/portal', (c) => {
     .book-img-wrap img {
       position: absolute;
       inset: 0; width: 100%; height: 100%;
-      object-fit: contain;
-      object-position: center top;
+      object-fit: cover;
       transition: transform 0.4s ease;
-      background: linear-gradient(135deg, #e8edf5, #c3cfe2);
     }
     .book-card:hover .book-img-wrap img { transform: scale(1.06); }
 
@@ -814,17 +785,15 @@ app.get('/or-safety', (c) => {
   <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="${bookTitle} — د. جميل السقيا">
-  <meta property="og:description" content="مبادئ السلامة والجودة في تخدير غرفة العمليات">
-  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
-  <meta property="og:url" content="https://anesthesiasafetyguideline.com/or-safety">
-  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
   <style>
+      color: #1f2937; background: #fff;
+      direction: rtl; text-align: right;
+    }
+    a { text-decoration: none; color: inherit; }
+    ${navbarCSS}
+
+    /* COVER — image full visible, text below */
     .cover-page {
       background: #060e1f;
       display: flex;
@@ -880,33 +849,9 @@ app.get('/or-safety', (c) => {
       display: flex; gap: 14px; justify-content: center;
       flex-wrap: wrap;
     }
-    .btn-white {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 15px; font-weight: 700;
-      display: inline-block;
-      background: white; color: #1e3a8a;
-      padding: 13px 28px; border-radius: 10px;
-      text-decoration: none;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-      transition: all 0.25s;
-    }
-    .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.25); }
-    .btn-outline {
-      font-family: 'Noto Kufi Arabic', sans-serif;
-      font-size: 15px; font-weight: 600;
-      display: inline-block;
-      background: transparent; color: white;
-      padding: 13px 28px; border-radius: 10px;
-      border: 2px solid rgba(255,255,255,0.55);
-      text-decoration: none;
-      transition: all 0.25s;
-    }
-    .btn-outline:hover { background: rgba(255,255,255,0.12); }
     @media (max-width: 600px) {
       .cover-bottom { padding: 28px 16px 36px; }
       .cover-main-title { font-size: 20px; }
-      .btn-white, .btn-outline { width: 100%; text-align: center; font-size: 14px; padding: 12px 20px; }
-      .cover-actions { flex-direction: column; padding: 0 8px; gap: 10px; }
     }
 
     /* HERO — title section below cover */
@@ -1060,21 +1005,17 @@ app.get('/or-safety', (c) => {
     .btn-white {
       font-family: 'Noto Kufi Arabic', sans-serif;
       font-size: 15px; font-weight: 700;
-      display: inline-block;
       background: white; color: #1e3a8a;
       padding: 14px 32px; border-radius: 10px;
-      text-decoration: none;
       transition: all 0.25s; box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     }
     .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.25); }
     .btn-outline {
       font-family: 'Noto Kufi Arabic', sans-serif;
       font-size: 15px; font-weight: 600;
-      display: inline-block;
       background: transparent; color: white;
       padding: 14px 32px; border-radius: 10px;
-      border: 2px solid rgba(255,255,255,0.45);
-      text-decoration: none;
+      border: 2px solid rgba(255,255,255,0.35);
       transition: all 0.25s;
     }
     .btn-outline:hover { background: rgba(255,255,255,0.1); }
@@ -1453,18 +1394,6 @@ app.get('/chapters', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الفصول — ${bookTitle}</title>
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="الفصول — ${bookTitle}">
-  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
-  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1697,21 +1626,6 @@ app.get('/chapter/:id', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الفصل ${chNum} — ${chapter.ar}</title>
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
-  <!-- Open Graph -->
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="الفصل ${chNum}: ${chapter.ar}">
-  <meta property="og:description" content="${chapter.ar} — ${bookTitle}">
-  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
-  <meta property="og:url" content="https://anesthesiasafetyguideline.com/chapter/${chNum}">
-  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="الفصل ${chNum}: ${chapter.ar}">
-  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
   <style>
     ${chapterPageCSS}
@@ -1770,19 +1684,8 @@ function renderSpecialPage(type: string): string {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${t.ar} — ${bookTitle}</title>
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
-  <!-- Open Graph -->
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="${t.ar} — ${bookTitle}">
-  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
-  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
+  <style>${chapterPageCSS}</style>
 </head>
 <body>
   ${navbar('chapters')}
