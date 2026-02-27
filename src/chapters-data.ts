@@ -8245,8 +8245,8 @@ export const chaptersContent: Record<string | number, string> = {
     <h3>7.9.3 سرعة حلقة التعلم / Learning-loop speed</h3>
     <p>الأيام من الحدث ← الإصلاح ← إعادة التدقيق. (IHI)</p>
 
-    <h2>7.10 3: "التوقف الذي بدا وقحاً... والضرر الذي منعه"</h2>
-    <h3>7.10 Real Story 3: “The stop that felt rude… and the harm it prevented”</h3>
+    <h2>7.10 "التوقف الذي بدا وقحاً... والضرر الذي منعه"</h2>
+
 
     <div class="quote-box">
         <p><strong>7.10.1 اللحظة (The moment):</strong><br>
@@ -8266,7 +8266,7 @@ export const chaptersContent: Record<string | number, string> = {
         <p><span class="english-term"><strong>The lesson:</strong> In the OR, politeness is not safety. <strong>Clarity is safety.</strong> A system that makes speaking up feel “rude” is a dangerous system. (AHRQ; IHI)</span></p>
     </div>
 
-    <h2>7.11 تأملات الكاتب بعد سنوات في المسرح الجراحي / The Writer’s Reflection</h2>
+    <h2>7.11 تأملات</h2>
 
     <h3>7.11.1 غرفة العمليات نهر؛ بوابات الجاهزية هي السدود</h3>
     <p>إذا لم تبنِ السد في أعلى النهر (Upstream)، فإن الفيضان سيصل إلى داخل الغرفة—حيث يكون المريض في أضعف حالاته والفريق تحت أكبر ضغط.</p>
