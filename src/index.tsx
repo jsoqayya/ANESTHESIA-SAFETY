@@ -31,11 +31,11 @@ app.get('/favicon.ico', async (c) => {
   const env = c.env as any
   if (env?.ASSETS) {
     const url = new URL(c.req.url)
-    url.pathname = '/anesthesia-safety/images/favicon-32.png'
+    url.pathname = '/static/favicon-32.png'
     const res = await env.ASSETS.fetch(url.toString())
     if (res.ok) return res
   }
-  return c.redirect('/anesthesia-safety/images/favicon-32.png')
+  return c.redirect('/static/favicon-32.png')
 })
 
 // Mount Anesthesia Safety Guide
@@ -430,7 +430,7 @@ function navbar(active: string, prevNum?: number, nextNum?: number) {
     </a>
     <div class="nav-links">
       ${prevNum ? `<a href="/chapter/${prevNum}" class="nav-link">← الفصل ${prevNum}</a>` : ''}
-      <a href="/portal" class="nav-link" style="background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);">🏠 منصة الكتب</a>
+      <a href="/portal" class="nav-link" style="background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);">🏠 المنصة الرئيسية</a>
       <a href="/or-safety" class="nav-link ${active === 'home' ? 'active' : ''}">الرئيسية</a>
       <a href="/chapters" class="nav-link ${active === 'chapters' ? 'active' : ''}">📚 الفصول</a>
       ${nextNum ? `<a href="/chapter/${nextNum}" class="nav-link">الفصل ${nextNum} ←</a>` : ''}
@@ -785,6 +785,19 @@ app.get('/or-safety', (c) => {
   <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <!-- SEO & Open Graph -->
+  <meta name="description" content="مبادئ السلامة والجودة في غرفة العمليات — 32 فصلاً شاملاً. تأليف د. جميل السقيا.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://anesthesiasafetyguideline.com/or-safety">
+  <meta property="og:title" content="${bookTitle} — د. جميل السقيا">
+  <meta property="og:description" content="مبادئ السلامة والجودة في غرفة العمليات — 32 فصلاً في السلامة الجراحية والجودة">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${bookTitle} — د. جميل السقيا">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
   <style>
       color: #1f2937; background: #fff;
@@ -1394,6 +1407,14 @@ app.get('/chapters', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الفصول — ${bookTitle}</title>
+  <!-- SEO & Open Graph -->
+  <meta name="description" content="فهرس فصول كتاب مبادئ السلامة والجودة في غرفة العمليات — 32 فصلاً. تأليف د. جميل السقيا.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="الفصول — ${bookTitle}">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1626,6 +1647,15 @@ app.get('/chapter/:id', (c) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الفصل ${chNum} — ${chapter.ar}</title>
+  <!-- SEO & Open Graph -->
+  <meta name="description" content="الفصل ${chNum}: ${chapter.ar} — ${chapter.sub}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="الفصل ${chNum} — ${chapter.ar}">
+  <meta property="og:description" content="${chapter.sub}">
+  <meta property="og:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
+  <meta property="og:site_name" content="منصة السلامة في التخدير والعمليات">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://anesthesiasafetyguideline.com/static/og-image.png">
   ${sharedFonts}
   <style>
     ${chapterPageCSS}
