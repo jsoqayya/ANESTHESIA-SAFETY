@@ -1,6 +1,7 @@
 import { Hono } from 'hono'
 import homeHtml from '../public/anesthesia-safety/home.html?raw'
 import chaptersHtml from '../public/anesthesia-safety/chapters/index.html?raw'
+import aboutHtml from '../public/anesthesia-safety/about.html?raw'
 
 const app = new Hono()
 
@@ -8,6 +9,9 @@ const app = new Hono()
 app.get('/', (c) => {
   return c.html(homeHtml)
 })
+
+// صفحة عن المؤلف
+app.get('/about', (c) => c.html(aboutHtml))
 
 // فهرس الفصول - يعالج المسارين بنفس الدالة
 const chaptersHandler = (c: any) => c.html(chaptersHtml)
