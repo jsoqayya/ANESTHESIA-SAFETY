@@ -205,6 +205,9 @@
         const body = document.body;
         if (!body) return;
         
+        // لا تُضف مربع التعليق إذا كان موجوداً مسبقاً في الصفحة
+        if (document.querySelector('.comments-section')) return;
+
         const commentsSection = document.createElement('div');
         commentsSection.innerHTML = createCommentsSection().trim();
         const commentsElement = commentsSection.firstElementChild;
