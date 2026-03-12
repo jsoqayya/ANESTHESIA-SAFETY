@@ -34,141 +34,195 @@
     style.textContent = `
         /* قسم التعليقات */
         .comments-section {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            padding: 4rem 2rem;
-            margin-top: 4rem;
-            border-top: 5px solid #667eea;
+            background: #f9fafb;
+            padding: 3rem 2rem;
+            margin-top: 3rem;
+            border-top: 4px solid #1e3a8a;
         }
 
         .comments-container {
-            max-width: 900px;
+            max-width: 860px;
             margin: 0 auto;
-            background: white;
-            padding: 3rem;
-            border-radius: 20px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            background: #ffffff;
+            padding: 2.5rem 2.5rem 2rem;
+            border-radius: 8px;
+            border: 1px solid #bfdbfe;
+            box-shadow: 0 4px 15px rgba(30, 58, 138, 0.08);
+        }
+
+        .comments-header-bar {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            background-color: #1e3a8a;
+            color: #ffffff;
+            padding: 0.9rem 1.5rem;
+            border-radius: 6px;
+            margin-bottom: 1.5rem;
+        }
+
+        .comments-header-bar i {
+            font-size: 1.3rem;
         }
 
         .comments-title {
-            font-family: 'Amiri', serif;
-            font-size: 2.5rem;
-            color: #2c3e50;
-            margin-bottom: 0.5rem;
-            text-align: center;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0;
+            text-align: right;
         }
 
         .comments-subtitle {
-            text-align: center;
-            color: #7f8c8d;
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
+            text-align: right;
+            color: #6b7280;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            font-size: 1rem;
+            margin-bottom: 1.75rem;
+            padding-right: 0.25rem;
+            border-right: 4px solid #22c55e;
+            padding-right: 0.75rem;
         }
 
         .comment-form {
-            margin-bottom: 3rem;
+            margin-bottom: 2.5rem;
         }
 
         .form-group {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.25rem;
         }
 
         .form-label {
             display: block;
-            font-weight: bold;
-            color: #34495e;
-            margin-bottom: 0.5rem;
-            font-size: 1.1rem;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            font-weight: 700;
+            color: #1e3a8a;
+            margin-bottom: 0.4rem;
+            font-size: 0.95rem;
         }
 
         .form-input,
         .form-textarea {
             width: 100%;
-            padding: 1rem;
-            border: 2px solid #e0e0e0;
-            border-radius: 10px;
+            padding: 0.75rem 1rem;
+            border: 1.5px solid #bfdbfe;
+            border-radius: 6px;
             font-size: 1rem;
-            font-family: 'Tajawal', sans-serif;
-            transition: all 0.3s ease;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            color: #1f2937;
+            background-color: #eff6ff;
+            transition: all 0.25s ease;
             box-sizing: border-box;
+            direction: rtl;
         }
 
         .form-input:focus,
         .form-textarea:focus {
             outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            border-color: #2563eb;
+            background-color: #ffffff;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
         }
 
         .form-textarea {
-            min-height: 150px;
+            min-height: 130px;
             resize: vertical;
         }
 
         .submit-btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-color: #1e3a8a;
             color: white;
             border: none;
-            padding: 1rem 3rem;
-            font-size: 1.2rem;
-            font-weight: bold;
-            border-radius: 50px;
+            padding: 0.75rem 2.5rem;
+            font-size: 1rem;
+            font-weight: 700;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            border-radius: 6px;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.25s ease;
             display: block;
             margin: 0 auto;
+            letter-spacing: 0.01em;
         }
 
         .submit-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+            background-color: #1e40af;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(30, 58, 138, 0.25);
         }
 
         .comments-list {
-            margin-top: 3rem;
+            margin-top: 2rem;
+            border-top: 2px solid #e5e7eb;
+            padding-top: 1.5rem;
+        }
+
+        .comments-list-title {
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #374151;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
         .comment-item {
-            background: #f8f9fa;
-            padding: 1.5rem;
-            border-radius: 15px;
-            margin-bottom: 1.5rem;
-            border-right: 5px solid #667eea;
-            transition: all 0.3s ease;
+            background: #f0fdf4;
+            padding: 1.25rem 1.25rem 1.25rem 1rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            border-right: 5px solid #22c55e;
+            border: 1px solid #bbf7d0;
+            border-right: 5px solid #22c55e;
+            transition: box-shadow 0.2s ease;
         }
 
         .comment-item:hover {
-            transform: translateX(-10px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(34, 197, 94, 0.15);
         }
 
         .comment-header {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 1rem;
+            align-items: center;
+            margin-bottom: 0.6rem;
         }
 
         .comment-author {
-            font-weight: bold;
-            color: #667eea;
-            font-size: 1.1rem;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            font-weight: 700;
+            color: #16a34a;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
         }
 
         .comment-date {
-            color: #95a5a6;
-            font-size: 0.9rem;
+            color: #9ca3af;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            font-size: 0.82rem;
         }
 
         .comment-text {
-            color: #2c3e50;
+            color: #1f2937;
             line-height: 1.8;
-            font-size: 1.05rem;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            font-size: 1rem;
         }
 
         .no-comments {
             text-align: center;
-            color: #95a5a6;
-            font-size: 1.2rem;
-            padding: 2rem;
+            color: #9ca3af;
+            font-family: 'Noto Kufi Arabic', sans-serif;
+            font-size: 1rem;
+            padding: 1.5rem;
+            background: #f9fafb;
+            border-radius: 6px;
+            border: 1px dashed #d1d5db;
         }
 
         /* شريط التنقل السفلي الثابت */
@@ -235,11 +289,11 @@
         /* تصميم متجاوب */
         @media (max-width: 768px) {
             .comments-container {
-                padding: 2rem 1.5rem;
+                padding: 1.5rem 1.25rem;
             }
 
             .comments-title {
-                font-size: 2rem;
+                font-size: 1.1rem;
             }
 
             .nav-buttons {
@@ -274,10 +328,12 @@
         const commentsHTML = `
             <div class="comments-section">
                 <div class="comments-container">
-                    <h2 class="comments-title">
+
+                    <div class="comments-header-bar">
                         <i class="fas fa-comments"></i>
-                        أضف قيمة للموضوع بمشاركة رأيك
-                    </h2>
+                        <h2 class="comments-title">شاركنا رأيك</h2>
+                    </div>
+
                     <p class="comments-subtitle">
                         شاركنا تجربتك أو استفسارك أو فائدة استخلصتها من هذا الفصل
                     </p>
@@ -309,16 +365,17 @@
                         </div>
 
                         <button type="submit" class="submit-btn">
-                            <i class="fas fa-paper-plane"></i> شارك رأيك
+                            <i class="fas fa-paper-plane"></i>&nbsp; شارك رأيك
                         </button>
                     </form>
 
                     <div class="comments-list" id="commentsList">
-                        <h3 style="text-align: center; color: #34495e; margin-bottom: 2rem;">
-                            <i class="fas fa-list"></i> التعليقات السابقة
-                        </h3>
+                        <p class="comments-list-title">
+                            <i class="fas fa-list-ul"></i> التعليقات السابقة
+                        </p>
                         <div id="commentsContainer"></div>
                     </div>
+
                 </div>
             </div>
         `;
