@@ -1,59 +1,14 @@
 <!DOCTYPE html>
-<!-- v2026-03-12-comments-fix -->
-<html lang="ar" dir="rtl" data-theme="light"><head>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الفصل الرابع — العمل الجماعي والتواصل وإدارة موارد الأزمات (CRM)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Kufi+Arabic:wght@300;400;600;800&display=swap" rel="stylesheet">
 <style>
-/* إصلاح responsive لجميع الشاشات */
-* {
-  box-sizing: border-box;
-  max-width: 100%;
-}
 
-html, body {
-  overflow-x: hidden !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-body {
-  max-width: 100vw !important;
-  padding: 20px 15px 120px 15px !important;
-}
-
-/* إصلاح الصور والجداول */
-img, table, pre, code {
-  max-width: 100% !important;
-  height: auto !important;
-  overflow-x: auto !important;
-}
-
-/* إصلاح العناصر الكبيرة */
-div, p, h1, h2, h3, h4, h5, h6 {
-  max-width: 100% !important;
-  word-wrap: break-word !important;
-  overflow-wrap: break-word !important;
-}
-
-/* responsive للموبايل */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px !important;
-    padding: 15px 10px 120px 10px !important;
-  }
-  
-  h1 { font-size: 1.8rem !important; }
-  h2 { font-size: 1.5rem !important; }
-  h3 { font-size: 1.3rem !important; }
-}
-</style>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الفصل الرابع — العمل الجماعي والتواصل وإدارة موارد الأزمات (CRM)</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
-    <style>
       :root {
         --primary-blue: #2563eb;
         --light-blue-bg: #dbeafe;
@@ -78,7 +33,7 @@ div, p, h1, h2, h3, h4, h5, h6 {
         padding: 40px 60px;
         padding-top: 100px;
         box-sizing: border-box;
-        text-align: right;
+        text-align: justify;
         font-size: 19px;
       }
 
@@ -280,185 +235,164 @@ div, p, h1, h2, h3, h4, h5, h6 {
         body { padding: 20px; padding-top: 120px; font-size: 17px; }
         .download-container { flex-direction: column; gap: 10px; }
       }
-    </style>
-<style>
-/* ===== RESPONSIVE FIXES: Mobile & Tablet ===== */
+    
 
-/* منع overflow أفقي */
-html, body {
-  overflow-x: hidden !important;
-  max-width: 100% !important;
-}
-
-/* محتوى الفصل */
-body > * {
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-}
-
-/* الجداول */
-table {
-  width: 100% !important;
-  max-width: 100% !important;
-  overflow-x: auto !important;
-  display: block !important;
-  border-collapse: collapse !important;
-}
-td, th {
-  word-break: break-word !important;
-  min-width: 60px !important;
-  padding: 8px 6px !important;
-  font-size: clamp(12px, 3vw, 15px) !important;
-}
-
-/* الصور */
-img {
-  max-width: 100% !important;
-  height: auto !important;
-}
-
-/* div و section */
-div, section, article, aside {
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-}
-
-/* حجم الخط التكيفي */
-p, li, td, th, span, label {
-  font-size: clamp(14px, 4vw, 17px) !important;
-  line-height: 1.85 !important;
-}
-
-h1 { font-size: clamp(20px, 6vw, 36px) !important; line-height: 1.4 !important; }
-h2 { font-size: clamp(18px, 5vw, 28px) !important; line-height: 1.4 !important; }
-h3 { font-size: clamp(16px, 4.5vw, 22px) !important; line-height: 1.45 !important; }
-h4 { font-size: clamp(15px, 4vw, 19px) !important; }
-
-/* تابلت */
+/* ===== RESPONSIVE FIXES ===== */
+* { box-sizing: border-box; max-width: 100%; }
+html, body { overflow-x: hidden !important; }
+img { max-width: 100% !important; height: auto !important; }
+table { width: 100% !important; display: block; overflow-x: auto; border-collapse: collapse; }
+td, th { word-break: break-word; min-width: 60px; padding: 8px 6px; font-size: clamp(12px,2.5vw,15px); }
+p, li, td, span, label { font-size: clamp(14px,3vw,17px) !important; line-height: 1.85 !important; }
+h1 { font-size: clamp(20px,6vw,36px) !important; line-height: 1.4 !important; }
+h2 { font-size: clamp(18px,5vw,28px) !important; line-height: 1.4 !important; }
+h3 { font-size: clamp(16px,4.5vw,22px) !important; line-height: 1.45 !important; }
 @media (max-width: 768px) {
-  body {
-    padding: 65px 14px 30px !important;
-    font-size: 15px !important;
-  }
-
-  /* الكود والنصوص المنسقة */
-  pre, code {
-    white-space: pre-wrap !important;
-    word-break: break-word !important;
-    font-size: 13px !important;
-  }
-
-  /* الشبكات والصفوف الجانبية */
-  .grid, .flex-row, .columns, [class*="col-"], [class*="grid-"] {
-    display: block !important;
-    width: 100% !important;
-  }
-
-  /* الفقرات والمقاطع */
-  .chapter-content, .content, .section, article {
-    padding: 0 !important;
-    margin: 0 auto !important;
-  }
-}
-
-/* هاتف */
-@media (max-width: 480px) {
-  body {
-    padding: 62px 10px 25px !important;
-    font-size: 14px !important;
-  }
-
-  table {
-    font-size: 12px !important;
-  }
-  td, th {
-    padding: 6px 4px !important;
-  }
-
-  /* الشريط العلوي */
-  .as-top-nav {
-    padding: 7px 10px !important;
-    gap: 5px !important;
-  }
-  .as-nav-link {
-    font-size: 11px !important;
-    padding: 5px 8px !important;
-  }
+  body { padding: 15px 12px 80px 12px !important; }
 }
 /* ===== END RESPONSIVE FIXES ===== */
+
+/* ===== NAVBAR ===== */
+.as-top-nav {
+  position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important;
+  width: 100% !important; z-index: 99999 !important;
+  background-color: #1e3a8a !important; padding: 10px 20px !important;
+  display: flex !important; justify-content: space-between !important;
+  align-items: center !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2) !important;
+  font-family: 'Cairo','Noto Kufi Arabic',Arial,sans-serif !important;
+  gap: 8px !important; flex-wrap: wrap !important;
+}
+.as-nav-brand {
+  color: white !important; font-size: 14px !important; font-weight: 700 !important;
+  text-decoration: none !important; display: flex !important;
+  align-items: center !important; gap: 8px !important;
+}
+.as-nav-logo {
+  width: 34px !important; height: 34px !important; border-radius: 50% !important;
+  background: rgba(255,255,255,0.15) !important; border: 2px solid rgba(255,255,255,0.3) !important;
+  display: flex !important; align-items: center !important;
+  justify-content: center !important; font-size: 16px !important; flex-shrink: 0 !important;
+}
+.as-nav-links {
+  display: flex !important; align-items: center !important;
+  gap: 8px !important; flex-wrap: wrap !important;
+}
+.as-nav-link {
+  background: rgba(255,255,255,0.12) !important; color: white !important;
+  border: 1px solid rgba(255,255,255,0.3) !important;
+  padding: 6px 14px !important; border-radius: 6px !important;
+  font-size: 13px !important; text-decoration: none !important;
+  transition: background 0.2s !important; white-space: nowrap !important;
+  font-family: 'Cairo','Noto Kufi Arabic',Arial,sans-serif !important; font-weight: 600 !important;
+}
+.as-nav-link:hover { background: rgba(255,255,255,0.25) !important; }
+.as-nav-link.as-prev { background: rgba(37,99,235,0.4) !important; }
+.as-nav-link.as-next { background: rgba(37,99,235,0.4) !important; }
+@media (max-width: 600px) {
+  .as-top-nav { padding: 8px 12px !important; }
+  .as-nav-brand span.as-brand-text { display: none !important; }
+  .as-nav-link { font-size: 11px !important; padding: 5px 8px !important; }
+}
+/* ===== END NAVBAR ===== */
+
+/* ===== COMMENTS ===== */
+.comments-section {
+  margin-top: 60px; padding: 30px;
+  background: white; border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px rgba(30,58,138,0.06);
+}
+.comments-title {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 22px; font-weight: 800; color: #1e3a8a;
+  margin-bottom: 14px;
+  border-bottom: 3px solid #dbeafe; padding-bottom: 14px;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.comments-title .en-sub {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 13px; color: #6b7280; font-weight: 400; direction: ltr;
+}
+.comments-desc {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 14px; color: #6b7280; margin-bottom: 24px; line-height: 1.6;
+}
+.comment-form {
+  background: #f8faff; border-radius: 10px; padding: 24px;
+  margin-bottom: 28px; border: 1px solid #dbeafe;
+}
+.form-row { display: flex; gap: 16px; margin-bottom: 16px; }
+.form-group { flex: 1; }
+.form-group label {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 13px; font-weight: 600; color: #374151;
+  display: block; margin-bottom: 6px;
+}
+.optional { font-weight: 400; color: #9ca3af; font-size: 11px; }
+.required-mark { color: #ef4444; }
+.form-group input, .form-group textarea {
+  width: 100%; padding: 10px 14px;
+  border: 1px solid #d1d5db; border-radius: 8px;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 14px; color: #374151;
+  background: white; transition: border-color 0.2s; direction: rtl;
+}
+.form-group input:focus, .form-group textarea:focus {
+  outline: none; border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+}
+.form-group textarea { resize: vertical; min-height: 110px; }
+.form-actions { align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.rating-group { display: flex; align-items: center; gap: 10px; }
+.rating-group label { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #374151; white-space: nowrap; }
+.stars { display: flex; gap: 4px; direction: ltr; }
+.star { font-size: 24px; color: #d1d5db; cursor: pointer; transition: color 0.1s; line-height: 1; }
+.star.active { color: #f59e0b; }
+.submit-btn {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 14px; font-weight: 700;
+  background: #1e3a8a; color: white;
+  border: none; padding: 12px 24px;
+  border-radius: 8px; cursor: pointer;
+  transition: background 0.2s; white-space: nowrap;
+}
+.submit-btn:hover { background: #1e40af; }
+.comments-list { display: flex; flex-direction: column; gap: 16px; }
+.comment-card {
+  background: white; border: 1px solid #e5e7eb;
+  border-radius: 10px; padding: 18px 20px;
+}
+.comment-card.new-comment { border-color: #93c5fd; background: #f0f7ff; }
+.comment-header {
+  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 12px; flex-wrap: wrap;
+}
+.comment-avatar {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: #1e3a8a; color: white;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 16px; font-weight: 700; flex-shrink: 0;
+}
+.comment-meta { flex: 1; min-width: 100px; }
+.comment-name { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; font-weight: 700; color: #1e3a8a; display: block; }
+.comment-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #6b7280; }
+.comment-stars { color: #f59e0b; font-size: 14px; }
+.comment-date { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #9ca3af; }
+.comment-text { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #374151; line-height: 1.7; }
+@media (max-width: 600px) {
+  .form-row { flex-direction: column; }
+  .form-actions { flex-direction: column; }
+  .submit-btn { width: 100%; text-align: center; }
+}
+/* ===== END COMMENTS ===== */
 </style>
 </head>
 <body style="padding-top: 65px;">
-<style>
-  /* ANESTHESIA SAFETY NAVBAR */
-  .as-top-nav {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
-    z-index: 99999 !important;
-    background-color: #1e3a8a !important;
-    padding: 10px 20px !important;
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2) !important;
-    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
-    gap: 8px !important;
-    flex-wrap: wrap !important;
-    box-sizing: border-box !important;
-  }
-  .as-nav-brand {
-    color: white !important;
-    font-size: 14px !important;
-    font-weight: 700 !important;
-    text-decoration: none !important;
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-  }
-  .as-nav-logo {
-    width: 34px !important;
-    height: 34px !important;
-    border-radius: 50% !important;
-    background: rgba(255,255,255,0.15) !important;
-    border: 2px solid rgba(255,255,255,0.3) !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    font-size: 16px !important;
-    flex-shrink: 0 !important;
-  }
-  .as-nav-links {
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    flex-wrap: wrap !important;
-  }
-  .as-nav-link {
-    background: rgba(255,255,255,0.12) !important;
-    color: white !important;
-    border: 1px solid rgba(255,255,255,0.3) !important;
-    padding: 6px 14px !important;
-    border-radius: 6px !important;
-    font-size: 13px !important;
-    text-decoration: none !important;
-    transition: background 0.2s !important;
-    white-space: nowrap !important;
-    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
-    font-weight: 600 !important;
-  }
-  .as-nav-link:hover { background: rgba(255,255,255,0.25) !important; }
-  .as-nav-link.as-prev { background: rgba(37,99,235,0.4) !important; }
-  .as-nav-link.as-next { background: rgba(37,99,235,0.4) !important; }
-  body { padding-top: 60px !important; }
-  @media (max-width: 600px) {
-    .as-top-nav { padding: 8px 12px !important; }
-    .as-nav-brand span.as-brand-text { display: none !important; }
-    .as-nav-link { font-size: 12px !important; padding: 5px 10px !important; }
-  }
-</style>
+
+<!-- NAVBAR -->
+<style>body { padding-top: 60px !important; }</style>
 <nav class="as-top-nav">
   <a href="/anesthesia-safety/" class="as-nav-brand">
     <div class="as-nav-logo">🩺</div>
@@ -472,22 +406,10 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
   </div>
 </nav>
 
-
-    <!-- Download Bar -->
+<div class="part-title">Chapter 4 — Teamwork, Communication, and Crisis Resource Management (CRM)</div>
+    <h1>الفصل الرابع — العمل الجماعي والتواصل وإدارة موارد الأزمات (CRM)</h1>
     
-
-    <!-- Header Section -->
-    <div class="part-title">Part I — Foundations of Safety Science in Anesthesia</div>
-    <div class="part-title">الجزء الأول — أسس علم السلامة في التخدير</div>
-                        
-    <h1>CHAPTER 4 — Teamwork and Communication in the OR</h1>
-    <div class="subtitle"><strong>الفصل الرابع — العمل الجماعي والتواصل وإدارة موارد الأزمات (CRM)</strong></div>
-
-    <!-- Download Bar -->
-    
-
-    <!-- Header Section -->
-    
+    <div class="part-title">(Part I — Foundations of Safety Science in Anesthesia) (الجزء الأول — أسس علم السلامة في التخدير)</div>
 
     <h2>Chapter aims (what you will be able to do after this chapter)</h2>
     <h3>أهداف الفصل (ما الذي ستكون قادرًا على فعله بعد هذا الفصل)</h3>
@@ -522,8 +444,8 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
             <li><strong>Situational awareness (SA) / الوعي الموقفي:</strong> maintaining an accurate “mental model” of the patient and environment; essential in dynamic systems.<br>
             الحفاظ على “صورة ذهنية دقيقة” للمريض والبيئة؛ ضروري في الأنظمة الديناميكية.</li>
             
-            <li><strong>Closed-loop communication (CLC) / التواصل مُغلق الحلقة:</strong> sender speaks ← receiver acknowledges ← sender verifies correct receipt.<br>
-            المرسل يتكلم ← المستقبل يؤكد الاستلام ← المرسل يتحقق من صحة الفهم والتنفيذ.</li>
+            <li><strong>Closed-loop communication (CLC) / التواصل مُغلق الحلقة:</strong> sender speaks → receiver acknowledges → sender verifies correct receipt.<br>
+            المرسل يتكلم → المستقبل يؤكد الاستلام → المرسل يتحقق من صحة الفهم والتنفيذ.</li>
             
             <li><strong>CRM / إدارة موارد الأزمات:</strong> structured nontechnical skills that reduce adverse events and improve responses to evolving events.<br>
             مهارات غير تقنية منظّمة تقلل الأحداث الضارة وتحسّن الاستجابة للأحداث المتغيرة.</li>
@@ -647,124 +569,6 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
     <h3>4.3.1 Closed-loop communication (CLC): the minimum standard</h3>
     <h3>4.3.1 التواصل مُغلق الحلقة (CLC): الحد الأدنى من المعيار</h3>
     
-    <!-- رسمة Closed-Loop Communication التفاعلية -->
-    <div style="margin: 40px 0; max-width: 900px;">
-        <h4 style="text-align: center; color: #3498db; font-size: 1.4em; margin-bottom: 30px;">
-            <i class="fas fa-sync-alt"></i>
-            التواصل مُغلق الحلقة — Closed-Loop Communication
-            <i class="fas fa-sync-alt"></i>
-        </h4>
-        <p style="text-align: center; font-style: italic; color: #555; margin-bottom: 40px;">
-            <span class="english-term">Three Steps to Ensure Safe Communication</span>
-        </p>
-
-        <div style="background: linear-gradient(to bottom, #ffffff 0%, #f8f9fa 100%); padding: 40px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
-            
-            <!-- الخطوات الثلاث -->
-            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
-                
-                <!-- الخطوة 1: المرسل -->
-                <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); color: white; padding: 25px; border-radius: 15px; box-shadow: 0 6px 20px rgba(52,152,219,0.4); position: relative;">
-                    <div style="position: absolute; top: -15px; right: -15px; background: white; color: #3498db; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8em; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">1</div>
-                    <div style="text-align: center; margin-bottom: 15px;">
-                        <i class="fas fa-user-md" style="font-size: 3em;"></i>
-                    </div>
-                    <h5 style="font-size: 1.2em; margin: 0 0 10px 0; text-align: center;">
-                        <strong>SENDER</strong><br>
-                        <span style="font-size: 0.8em;">المرسل</span>
-                    </h5>
-                    <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 8px; text-align: center;">
-                        <p style="margin: 0; font-size: 0.95em;">
-                            يرسل رسالة محددة
-                        </p>
-                        <p style="margin: 8px 0 0 0; font-size: 0.85em; font-style: italic;">
-                            Transmits Message
-                        </p>
-                    </div>
-                    <div style="margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.15); border-radius: 6px; font-size: 0.9em;">
-                        <i class="fas fa-quote-right"></i>
-                        "Give ephedrine 10 mg IV"
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                </div>
-
-                <!-- السهم الأول -->
-                <div style="font-size: 2.5em; color: #27ae60;">
-                    <i class="fas fa-arrow-left"></i>
-                </div>
-
-                <!-- الخطوة 2: المستقبل -->
-                <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #27ae60 0%, #229954 100%); color: white; padding: 25px; border-radius: 15px; box-shadow: 0 6px 20px rgba(39,174,96,0.4); position: relative;">
-                    <div style="position: absolute; top: -15px; right: -15px; background: white; color: #27ae60; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8em; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">2</div>
-                    <div style="text-align: center; margin-bottom: 15px;">
-                        <i class="fas fa-user-nurse" style="font-size: 3em;"></i>
-                    </div>
-                    <h5 style="font-size: 1.2em; margin: 0 0 10px 0; text-align: center;">
-                        <strong>RECEIVER</strong><br>
-                        <span style="font-size: 0.8em;">المستقبل</span>
-                    </h5>
-                    <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 8px; text-align: center;">
-                        <p style="margin: 0; font-size: 0.95em;">
-                            يكرر ويؤكد الاستلام
-                        </p>
-                        <p style="margin: 8px 0 0 0; font-size: 0.85em; font-style: italic;">
-                            Acknowledges Receipt
-                        </p>
-                    </div>
-                    <div style="margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.15); border-radius: 6px; font-size: 0.9em;">
-                        <i class="fas fa-quote-right"></i>
-                        "Ephedrine 10 mg IV"
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                </div>
-
-                <!-- السهم الثاني -->
-                <div style="font-size: 2.5em; color: #e74c3c;">
-                    <i class="fas fa-arrow-left"></i>
-                </div>
-
-                <!-- الخطوة 3: التأكيد -->
-                <div style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; padding: 25px; border-radius: 15px; box-shadow: 0 6px 20px rgba(231,76,60,0.4); position: relative;">
-                    <div style="position: absolute; top: -15px; right: -15px; background: white; color: #e74c3c; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8em; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">3</div>
-                    <div style="text-align: center; margin-bottom: 15px;">
-                        <i class="fas fa-check-circle" style="font-size: 3em;"></i>
-                    </div>
-                    <h5 style="font-size: 1.2em; margin: 0 0 10px 0; text-align: center;">
-                        <strong>VERIFICATION</strong><br>
-                        <span style="font-size: 0.8em;">التأكيد</span>
-                    </h5>
-                    <div style="background: rgba(255,255,255,0.2); padding: 12px; border-radius: 8px; text-align: center;">
-                        <p style="margin: 0; font-size: 0.95em;">
-                            يؤكد صحة الفهم والتنفيذ
-                        </p>
-                        <p style="margin: 8px 0 0 0; font-size: 0.85em; font-style: italic;">
-                            Verifies Understanding
-                        </p>
-                    </div>
-                    <div style="margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.15); border-radius: 6px; font-size: 0.9em;">
-                        <i class="fas fa-quote-right"></i>
-                        "Confirmed"
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                </div>
-            </div>
-
-            <!-- الفائدة -->
-            <div style="margin-top: 30px; background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); color: white; padding: 20px; border-radius: 12px; text-align: center; box-shadow: 0 6px 20px rgba(243,156,18,0.3);">
-                <h5 style="font-size: 1.2em; margin: 0 0 10px 0;">
-                    <i class="fas fa-shield-alt"></i>
-                    لماذا CLC مهم؟ — Why CLC Matters?
-                </h5>
-                <p style="margin: 0; font-size: 1.05em; line-height: 1.6;">
-                    <strong>يمنع ضياع الرسائل في الضوضاء والانشغال</strong><br>
-                    <span style="font-size: 0.9em; font-style: italic;">
-                        Prevents messages from getting lost in noise and busy moments
-                    </span>
-                </p>
-            </div>
-        </div>
-    </div>
-    
     <p>CLC has three steps:</p>
     <p>التواصل مُغلق الحلقة <span class="english-term">Closed-loop communication (CLC)</span> له ثلاث خطوات:</p>
     <ol>
@@ -779,11 +583,11 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
     <h3>صندوق 4.2 — أمثلة CLC في التخدير</h3>
     <div class="concept-box">
         <ul>
-            <li><strong>“Give ephedrine 10 mg IV.” ← “Ephedrine 10 mg IV.” ← “Confirmed.”</strong><br>
-            “أعطِ Ephedrine إيفيدرين 10 mg IV.” ← “Ephedrine 10 mg IV.” ← “مؤكد Confirmed.”</li>
+            <li><strong>“Give ephedrine 10 mg IV.” → “Ephedrine 10 mg IV.” → “Confirmed.”</strong><br>
+            “أعطِ Ephedrine إيفيدرين 10 mg IV.” → “Ephedrine 10 mg IV.” → “مؤكد Confirmed.”</li>
             <br>
-            <li><strong>“Call for help and bring the difficult airway cart.” ← “Calling now; bringing cart.” ← “Confirmed. Tell me when help arrives.”</strong><br>
-            “اتصل بالمساعدة وأحضر عربة مجرى الهواء الصعب Difficult airway cart.” ← “أتصل الآن وأحضر العربة.” ← “مؤكد. أخبرني فور وصول المساعدة.”</li>
+            <li><strong>“Call for help and bring the difficult airway cart.” → “Calling now; bringing cart.” → “Confirmed. Tell me when help arrives.”</strong><br>
+            “اتصل بالمساعدة وأحضر عربة مجرى الهواء الصعب Difficult airway cart.” → “أتصل الآن وأحضر العربة.” → “مؤكد. أخبرني فور وصول المساعدة.”</li>
         </ul>
     </div>
 
@@ -818,113 +622,19 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
 
     <div class="concept-box">
         <p><strong>A simple ladder / سلم بسيط:</strong></p>
-
-    <!-- Graded Assertiveness Visual Ladder -->
-    <div style="max-width: 800px; margin: 3rem auto; padding: 2.5rem; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.12);">
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <h3 style="color: #2c3e50; font-size: 1.8rem; margin: 0 0 0.5rem 0;">
-                <i class="fas fa-stairs" style="color: #3498db;"></i>
-                سلم الحزم المتدرج
-            </h3>
-            <h4 style="color: #7f8c8d; font-size: 1.3rem; margin: 0; font-weight: 400;">
-                Graded Assertiveness Ladder
-            </h4>
-        </div>
-
-        <!-- Step 4: STOP -->
-        <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 1.8rem; border-radius: 12px; margin-bottom: 1.2rem; box-shadow: 0 6px 20px rgba(231, 76, 60, 0.3);">
-            <div style="display: flex; align-items: center; gap: 1.5rem;">
-                <div style="background: rgba(255,255,255,0.25); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                    <i class="fas fa-hand-paper" style="font-size: 28px; color: white;"></i>
-                </div>
-                <div style="flex: 1;">
-                    <h4 style="color: white; margin: 0 0 0.5rem 0; font-size: 1.4rem; font-weight: 700;">
-                        4. STOP / توقف
-                    </h4>
-                    <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 1.05rem; line-height: 1.5;">
-                        "Stop—patient safety issue."<br>
-                        "توقف—هناك خطر على سلامة المريض."
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Step 3: UNCOMFORTABLE -->
-        <div style="background: linear-gradient(135deg, #e67e22 0%, #d35400 100%); padding: 1.8rem; border-radius: 12px; margin-bottom: 1.2rem; box-shadow: 0 6px 20px rgba(230, 126, 34, 0.3); transform: translateX(20px);">
-            <div style="display: flex; align-items: center; gap: 1.5rem;">
-                <div style="background: rgba(255,255,255,0.25); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                    <i class="fas fa-exclamation-triangle" style="font-size: 28px; color: white;"></i>
-                </div>
-                <div style="flex: 1;">
-                    <h4 style="color: white; margin: 0 0 0.5rem 0; font-size: 1.4rem; font-weight: 700;">
-                        3. UNCOMFORTABLE / عدم ارتياح
-                    </h4>
-                    <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 1.05rem; line-height: 1.5;">
-                        "I am uncomfortable proceeding without ___."<br>
-                        "أنا غير مرتاح للمتابعة دون ___."
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Step 2: CONCERN -->
-        <div style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); padding: 1.8rem; border-radius: 12px; margin-bottom: 1.2rem; box-shadow: 0 6px 20px rgba(243, 156, 18, 0.3); transform: translateX(40px);">
-            <div style="display: flex; align-items: center; gap: 1.5rem;">
-                <div style="background: rgba(255,255,255,0.25); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                    <i class="fas fa-exclamation-circle" style="font-size: 28px; color: white;"></i>
-                </div>
-                <div style="flex: 1;">
-                    <h4 style="color: white; margin: 0 0 0.5rem 0; font-size: 1.4rem; font-weight: 700;">
-                        2. CONCERN / قلق
-                    </h4>
-                    <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 1.05rem; line-height: 1.5;">
-                        "I am concerned X is unsafe because ___."<br>
-                        "أنا قلق لأن ___."
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Step 1: QUESTION -->
-        <div style="background: linear-gradient(135deg, #f1c40f 0%, #f39c12 100%); padding: 1.8rem; border-radius: 12px; box-shadow: 0 6px 20px rgba(241, 196, 15, 0.3); transform: translateX(60px);">
-            <div style="display: flex; align-items: center; gap: 1.5rem;">
-                <div style="background: rgba(255,255,255,0.25); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                    <i class="fas fa-question-circle" style="font-size: 28px; color: white;"></i>
-                </div>
-                <div style="flex: 1;">
-                    <h4 style="color: white; margin: 0 0 0.5rem 0; font-size: 1.4rem; font-weight: 700;">
-                        1. QUESTION / سؤال
-                    </h4>
-                    <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 1.05rem; line-height: 1.5;">
-                        "Can we confirm X?"<br>
-                        "هل نؤكد X؟"
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div style="margin-top: 2rem; padding: 1.5rem; background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); border-radius: 12px; text-align: center;">
-            <p style="color: white; margin: 0; font-size: 1.1rem; font-weight: 600; line-height: 1.6;">
-                <i class="fas fa-shield-alt" style="margin-left: 8px;"></i>
-                Speaking up is a <strong>Safety Barrier</strong>, not a social choice<br>
-                <span style="font-size: 1rem; opacity: 0.95;">التحدث حاجز سلامة، ليس خيارًا اجتماعيًا</span>
-            </p>
-        </div>
-    </div>
-
-        <ul style="display: none;">
-            <li><strong>Question / سؤال:</strong> "Can we confirm X?" / "هل نؤكد X؟"</li>
-            <li><strong>Concern / قلق:</strong> "I am concerned X is unsafe because ___." / "أنا قلق لأن ___."</li>
-            <li><strong>Uncomfortable / عدم ارتياح:</strong> "I am uncomfortable proceeding without ___." / "أنا غير مرتاح للمتابعة دون ___."</li>
-            <li><strong>Stop / توقف:</strong> "Stop—patient safety issue." / "توقف—هناك خطر على سلامة المريض."</li>
+        <ul>
+            <li><strong>Question / سؤال:</strong> “Can we confirm X?” / “هل نؤكد X؟”</li>
+            <li><strong>Concern / قلق:</strong> “I’m concerned X is unsafe because ___.” / “أنا قلق لأن ___.”</li>
+            <li><strong>Uncomfortable / عدم ارتياح:</strong> “I’m uncomfortable proceeding without ___.” / “أنا غير مرتاح للمتابعة دون ___.”</li>
+            <li><strong>Stop / توقف:</strong> “Stop—patient safety issue.” / “توقف—هناك خطر على سلامة المريض.”</li>
         </ul>
     </div>
 
     <p>Leadership requirement: every team member must know that “Stop” is permitted and protected when safety is threatened.</p>
     <p>القاعدة الذهبية: يجب أن يعرف الجميع أن كلمة “توقف STOP” مسموحة ومحمية.</p>
 
-    <h2>BOX 4.3 — “Stop the line” policy statement </h2>
-    <h3>صندوق 4.3 — سياسة “أوقف الخط” Stop the line </h3>
+    <h2>BOX 4.3 — “Stop the line” policy statement (copy/paste)</h2>
+    <h3>صندوق 4.3 — سياسة “أوقف الخط” Stop the line (جاهزة للنسخ)</h3>
     <div class="success-box">
         <p>“All staff are authorized and expected to voice safety concerns. If any team member identifies immediate patient risk, they may call ‘STOP’ to pause the process until the risk is clarified and mitigated. This action is protected and will not result in punitive response.”</p>
         <p>“يُصرّح لجميع العاملين ويُتوقع منهم إبداء مخاوف السلامة. إذا لاحظ أي عضو في الفريق خطرًا مباشرًا على المريض، يحق له أن يقول ‘STOP’ لإيقاف العملية مؤقتًا حتى يتم توضيح الخطر وتخفيفه. هذا الإجراء محمي ولن يؤدي إلى استجابة عقابية.”</p>
@@ -965,43 +675,6 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
     <h2>BOX 4.4 — Leadership phrases that build psychological safety</h2>
     <h3>صندوق 4.4 — عبارات قيادية تبني الأمان النفسي</h3>
     <div class="concept-box">
-
-    <!-- Psychological Safety Leadership Cards -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
-        <!-- Card 1 -->
-        <div style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); padding: 2rem; border-radius: 12px; box-shadow: 0 8px 25px rgba(52, 152, 219, 0.25); transition: transform 0.3s;">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <i class="fas fa-eye" style="font-size: 48px; color: white; opacity: 0.9;"></i>
-            </div>
-            <p style="color: white; font-size: 1.1rem; font-weight: 600; text-align: center; line-height: 1.6; margin: 0;">
-                "If you see risk, say it early—no permission needed."<br>
-                <span style="font-size: 1rem; opacity: 0.95;">إذا رأيت خطرًا، قلها فورًا—لا تحتاج إذنًا.</span>
-            </p>
-        </div>
-
-        <!-- Card 2 -->
-        <div style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); padding: 2rem; border-radius: 12px; box-shadow: 0 8px 25px rgba(155, 89, 182, 0.25); transition: transform 0.3s;">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <i class="fas fa-hand-holding-heart" style="font-size: 48px; color: white; opacity: 0.9;"></i>
-            </div>
-            <p style="color: white; font-size: 1.1rem; font-weight: 600; text-align: center; line-height: 1.6; margin: 0;">
-                "If I miss something, I want you to stop me."<br>
-                <span style="font-size: 1rem; opacity: 0.95;">إذا فاتني شيء، أريدك أن توقفني.</span>
-            </p>
-        </div>
-
-        <!-- Card 3 -->
-        <div style="background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%); padding: 2rem; border-radius: 12px; box-shadow: 0 8px 25px rgba(22, 160, 133, 0.25); transition: transform 0.3s;">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <i class="fas fa-tools" style="font-size: 48px; color: white; opacity: 0.9;"></i>
-            </div>
-            <p style="color: white; font-size: 1.1rem; font-weight: 600; text-align: center; line-height: 1.6; margin: 0;">
-                "We will focus on fixing systems, not blaming people."<br>
-                <span style="font-size: 1rem; opacity: 0.95;">سنركز على إصلاح النظام، لا على جلد الأشخاص.</span>
-            </p>
-        </div>
-    </div>
-
         <ul>
             <li>“If you see risk, say it early—no permission needed.”<br>
             “إذا رأيت خطرًا، قلها فورًا—لا تحتاج إذنًا.”</li>
@@ -1033,62 +706,6 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
     <h3>4.6.1 إحاطة ما قبل الحالة (2–3 دقائق، محورها التخدير)</h3>
     
     <p><strong>Minimum elements / الحد الأدنى:</strong></p>
-
-    <!-- Pre-case Briefing Elements Visual -->
-    <div style="max-width: 900px; margin: 2rem auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
-        <!-- Element 1: Patient Risks -->
-        <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 1.8rem; border-radius: 12px; box-shadow: 0 8px 20px rgba(231, 76, 60, 0.25);">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <i class="fas fa-user-injured" style="font-size: 40px; color: white; opacity: 0.9;"></i>
-            </div>
-            <h4 style="color: white; text-align: center; margin: 0 0 0.8rem 0; font-size: 1.2rem;">Patient Risks</h4>
-            <p style="color: rgba(255,255,255,0.95); text-align: center; margin: 0; font-size: 0.95rem; line-height: 1.5;">مخاطر المريض</p>
-            <p style="color: rgba(255,255,255,0.85); text-align: center; margin-top: 0.8rem; font-size: 0.9rem;">Airway, aspiration, bleeding, comorbidities</p>
-        </div>
-
-        <!-- Element 2: Surgical Plan -->
-        <div style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); padding: 1.8rem; border-radius: 12px; box-shadow: 0 8px 20px rgba(243, 156, 18, 0.25);">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <i class="fas fa-procedures" style="font-size: 40px; color: white; opacity: 0.9;"></i>
-            </div>
-            <h4 style="color: white; text-align: center; margin: 0 0 0.8rem 0; font-size: 1.2rem;">Surgical Plan</h4>
-            <p style="color: rgba(255,255,255,0.95); text-align: center; margin: 0; font-size: 0.95rem; line-height: 1.5;">خطة الجراحة</p>
-            <p style="color: rgba(255,255,255,0.85); text-align: center; margin-top: 0.8rem; font-size: 0.9rem;">Key steps, positioning, blood loss</p>
-        </div>
-
-        <!-- Element 3: Anesthesia Plan -->
-        <div style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); padding: 1.8rem; border-radius: 12px; box-shadow: 0 8px 20px rgba(155, 89, 182, 0.25);">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <i class="fas fa-syringe" style="font-size: 40px; color: white; opacity: 0.9;"></i>
-            </div>
-            <h4 style="color: white; text-align: center; margin: 0 0 0.8rem 0; font-size: 1.2rem;">Anesthesia Plan</h4>
-            <p style="color: rgba(255,255,255,0.95); text-align: center; margin: 0; font-size: 0.95rem; line-height: 1.5;">خطة التخدير</p>
-            <p style="color: rgba(255,255,255,0.85); text-align: center; margin-top: 0.8rem; font-size: 0.9rem;">Technique, monitoring, lines</p>
-        </div>
-
-        <!-- Element 4: Contingencies -->
-        <div style="background: linear-gradient(135deg, #e67e22 0%, #d35400 100%); padding: 1.8rem; border-radius: 12px; box-shadow: 0 8px 20px rgba(230, 126, 34, 0.25);">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <i class="fas fa-exclamation-circle" style="font-size: 40px; color: white; opacity: 0.9;"></i>
-            </div>
-            <h4 style="color: white; text-align: center; margin: 0 0 0.8rem 0; font-size: 1.2rem;">Contingencies</h4>
-            <p style="color: rgba(255,255,255,0.95); text-align: center; margin: 0; font-size: 0.95rem; line-height: 1.5;">الطوارئ/البدائل</p>
-            <p style="color: rgba(255,255,255,0.85); text-align: center; margin-top: 0.8rem; font-size: 0.9rem;">What triggers escalation?</p>
-        </div>
-
-        <!-- Element 5: Roles -->
-        <div style="background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%); padding: 1.8rem; border-radius: 12px; box-shadow: 0 8px 20px rgba(22, 160, 133, 0.25);">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <i class="fas fa-users" style="font-size: 40px; color: white; opacity: 0.9;"></i>
-            </div>
-            <h4 style="color: white; text-align: center; margin: 0 0 0.8rem 0; font-size: 1.2rem;">Roles</h4>
-            <p style="color: rgba(255,255,255,0.95); text-align: center; margin: 0; font-size: 0.95rem; line-height: 1.5;">الأدوار</p>
-            <p style="color: rgba(255,255,255,0.85); text-align: center; margin-top: 0.8rem; font-size: 0.9rem;">Who calls? Who documents?</p>
-        </div>
-    </div>
-
-    <p><strong style="display: none;">Minimum elements / الحد الأدنى:</strong></p>
-    <ul style="display: none;">
     <ul>
         <li><strong>Patient risks / مخاطر المريض:</strong><br>
         (Airway, aspiration, bleeding, comorbidities) (مجرى الهواء، الشفط، النزف، الأمراض المصاحبة)</li>
@@ -1111,78 +728,6 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
     <h2>BOX 4.5 — Two-minute debrief (3 questions)</h2>
     <h3>صندوق 4.5 — تفريغ دقيقتين (3 أسئلة)</h3>
     <div class="concept-box">
-
-    <!-- Debriefing 3 Questions Visual Cards -->
-    <div style="max-width: 900px; margin: 2rem auto;">
-        <!-- Question 1 -->
-        <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 2rem; border-radius: 12px; margin-bottom: 1.5rem; box-shadow: 0 8px 25px rgba(231, 76, 60, 0.25);">
-            <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
-                <div style="background: rgba(255,255,255,0.2); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                    <strong style="color: white; font-size: 28px;">1</strong>
-                </div>
-                <div style="flex: 1;">
-                    <h4 style="color: white; margin: 0 0 0.5rem 0; font-size: 1.4rem;">
-                        What nearly went wrong?
-                    </h4>
-                    <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 1.1rem;">
-                        ما الذي كاد أن يسوء؟
-                    </p>
-                </div>
-                <div style="flex-shrink: 0;">
-                    <i class="fas fa-exclamation-triangle" style="font-size: 40px; color: rgba(255,255,255,0.3);"></i>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 2 -->
-        <div style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); padding: 2rem; border-radius: 12px; margin-bottom: 1.5rem; box-shadow: 0 8px 25px rgba(243, 156, 18, 0.25);">
-            <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
-                <div style="background: rgba(255,255,255,0.2); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                    <strong style="color: white; font-size: 28px;">2</strong>
-                </div>
-                <div style="flex: 1;">
-                    <h4 style="color: white; margin: 0 0 0.5rem 0; font-size: 1.4rem;">
-                        What made it hard to do the right thing?
-                    </h4>
-                    <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 1.1rem;">
-                        ما الذي جعل فعل الصواب صعبًا؟
-                    </p>
-                </div>
-                <div style="flex-shrink: 0;">
-                    <i class="fas fa-road" style="font-size: 40px; color: rgba(255,255,255,0.3);"></i>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 3 -->
-        <div style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%); padding: 2rem; border-radius: 12px; box-shadow: 0 8px 25px rgba(39, 174, 96, 0.25);">
-            <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
-                <div style="background: rgba(255,255,255,0.2); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                    <strong style="color: white; font-size: 28px;">3</strong>
-                </div>
-                <div style="flex: 1;">
-                    <h4 style="color: white; margin: 0 0 0.5rem 0; font-size: 1.4rem;">
-                        What is one change we will implement before the next similar case?
-                    </h4>
-                    <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 1.1rem;">
-                        ما تغيير واحد سنطبقه قبل الحالة المشابهة القادمة؟
-                    </p>
-                </div>
-                <div style="flex-shrink: 0;">
-                    <i class="fas fa-lightbulb" style="font-size: 40px; color: rgba(255,255,255,0.3);"></i>
-                </div>
-            </div>
-        </div>
-
-        <div style="margin-top: 2rem; padding: 1.5rem; background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); border-radius: 12px; text-align: center;">
-            <p style="color: white; margin: 0; font-size: 1.1rem; font-weight: 600;">
-                <i class="fas fa-sync-alt" style="margin-left: 8px;"></i>
-                Debriefing converts experience into improvement<br>
-                <span style="font-size: 1rem; opacity: 0.95;">التفريغ يحوّل الخبرة إلى تحسين</span>
-            </p>
-        </div>
-    </div>
-
         <ul>
             <li>What nearly went wrong? / ما الذي كاد أن يسوء؟</li>
             <li>What made it hard to do the right thing? / ما الذي جعل فعل الصواب صعبًا؟</li>
@@ -1236,106 +781,12 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
         <li>Use team communication training (e.g., TeamSTEPPS) / استخدم تدريب تواصل مثل TeamSTEPPS (إن توفر)</li>
         <li>Use mnemonic tools (IPASS/SIGNOUT) / استخدم تذكيرات Mnemonics مثل I-PASS (عند اعتمادها)</li>
         <li>Provide a quiet private space / وفر مكانًا أهدأ للتسليم قدر الإمكان</li>
-        <li>Develop standardized written tools and import information from the EMR / استخدم أدوات مكتوبة تستورد من السجل الطبي EMR لتقليل الإدخال اليدوي</li>
+        <li>Develop standardized written tools and import information from the EMR / استخدم أدوات مكتوبة تستورد من السجل الطبي EMR لتقليل النسخ اليدوي</li>
     </ul>
 
     <h2>BOX 4.6 — Anesthesia PACU/ICU handoff: minimum dataset</h2>
     <h3>صندوق 4.6 — الحد الأدنى لتسليم التخدير إلى PACU/ICU</h3>
     <div class="concept-box">
-
-    <!-- Handoff Minimum Dataset Visual -->
-    <div style="max-width: 1000px; margin: 2.5rem auto;">
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <h3 style="color: #2c3e50; font-size: 1.8rem; margin: 0 0 0.5rem 0;">
-                <i class="fas fa-hand-holding-medical" style="color: #3498db;"></i>
-                PACU/ICU Handoff Dataset
-            </h3>
-            <h4 style="color: #7f8c8d; font-size: 1.2rem; margin: 0;">الحد الأدنى لتسليم التخدير</h4>
-        </div>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem;">
-            <!-- Item 1 -->
-            <div style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); padding: 1.5rem; border-radius: 10px; box-shadow: 0 6px 20px rgba(52, 152, 219, 0.25);">
-                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.8rem;">
-                    <i class="fas fa-clipboard-check" style="font-size: 32px; color: white; opacity: 0.9;"></i>
-                    <h4 style="color: white; margin: 0; font-size: 1.1rem;">Procedure + Events</h4>
-                </div>
-                <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 0.9rem;">الإجراء + أهم أحداث داخل العملية</p>
-            </div>
-
-            <!-- Item 2 -->
-            <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 1.5rem; border-radius: 10px; box-shadow: 0 6px 20px rgba(231, 76, 60, 0.25);">
-                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.8rem;">
-                    <i class="fas fa-lungs" style="font-size: 32px; color: white; opacity: 0.9;"></i>
-                    <h4 style="color: white; margin: 0; font-size: 1.1rem;">Airway</h4>
-                </div>
-                <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 0.9rem;">مجرى الهواء (الصعوبة، الوضع، المخاوف)</p>
-            </div>
-
-            <!-- Item 3 -->
-            <div style="background: linear-gradient(135deg, #e67e22 0%, #d35400 100%); padding: 1.5rem; border-radius: 10px; box-shadow: 0 6px 20px rgba(230, 126, 34, 0.25);">
-                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.8rem;">
-                    <i class="fas fa-heartbeat" style="font-size: 32px; color: white; opacity: 0.9;"></i>
-                    <h4 style="color: white; margin: 0; font-size: 1.1rem;">Hemodynamics</h4>
-                </div>
-                <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 0.9rem;">الاتجاهات، أدوية ضاغطة، خطر نزف</p>
-            </div>
-
-            <!-- Item 4 -->
-            <div style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); padding: 1.5rem; border-radius: 10px; box-shadow: 0 6px 20px rgba(243, 156, 18, 0.25);">
-                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.8rem;">
-                    <i class="fas fa-wind" style="font-size: 32px; color: white; opacity: 0.9;"></i>
-                    <h4 style="color: white; margin: 0; font-size: 1.1rem;">Ventilation</h4>
-                </div>
-                <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 0.9rem;">التهوية/الأكسجة (EtCO₂/SpO₂)</p>
-            </div>
-
-            <!-- Item 5 -->
-            <div style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); padding: 1.5rem; border-radius: 10px; box-shadow: 0 6px 20px rgba(155, 89, 182, 0.25);">
-                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.8rem;">
-                    <i class="fas fa-pills" style="font-size: 32px; color: white; opacity: 0.9;"></i>
-                    <h4 style="color: white; margin: 0; font-size: 1.1rem;">Analgesia Plan</h4>
-                </div>
-                <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 0.9rem;">خطة الألم/مضاد القيء (ما أُعطي؟)</p>
-            </div>
-
-            <!-- Item 6 -->
-            <div style="background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%); padding: 1.5rem; border-radius: 10px; box-shadow: 0 6px 20px rgba(22, 160, 133, 0.25);">
-                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.8rem;">
-                    <i class="fas fa-tint" style="font-size: 32px; color: white; opacity: 0.9;"></i>
-                    <h4 style="color: white; margin: 0; font-size: 1.1rem;">Fluids/Lines</h4>
-                </div>
-                <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 0.9rem;">السوائل، فقد الدم، الخطوط/المصارف</p>
-            </div>
-
-            <!-- Item 7 -->
-            <div style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%); padding: 1.5rem; border-radius: 10px; box-shadow: 0 6px 20px rgba(39, 174, 96, 0.25);">
-                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.8rem;">
-                    <i class="fas fa-capsules" style="font-size: 32px; color: white; opacity: 0.9;"></i>
-                    <h4 style="color: white; margin: 0; font-size: 1.1rem;">Antibiotics</h4>
-                </div>
-                <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 0.9rem;">المضادات الحيوية (أُعطي؟ الجرعة القادمة؟)</p>
-            </div>
-
-            <!-- Item 8 -->
-            <div style="background: linear-gradient(135deg, #c0392b 0%, #a93226 100%); padding: 1.5rem; border-radius: 10px; box-shadow: 0 6px 20px rgba(192, 57, 43, 0.25);">
-                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.8rem;">
-                    <i class="fas fa-exclamation-triangle" style="font-size: 32px; color: white; opacity: 0.9;"></i>
-                    <h4 style="color: white; margin: 0; font-size: 1.1rem;">Anticipated Problems</h4>
-                </div>
-                <p style="color: rgba(255,255,255,0.95); margin: 0; font-size: 0.9rem;">المشاكل المتوقعة + محفزات التصعيد</p>
-            </div>
-        </div>
-
-        <div style="margin-top: 2rem; padding: 1.5rem; background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%); border-radius: 12px; text-align: center;">
-            <p style="color: white; margin: 0; font-size: 1.1rem; font-weight: 600; line-height: 1.6;">
-                <i class="fas fa-exchange-alt" style="margin-left: 8px;"></i>
-                Handoff is not a data dump—it is co-constructing understanding<br>
-                <span style="font-size: 1rem; opacity: 0.95;">التسليم ليس تفريغ بيانات، بل بناء فهم مشترك</span>
-            </p>
-        </div>
-    </div>
-
         <ul>
             <li>Procedure + key intraop events / الإجراء + أهم أحداث داخل العملية</li>
             <li>Airway (difficulty, current status, concerns) / مجرى الهواء (الصعوبة، الوضع الحالي، المخاوف)</li>
@@ -1600,116 +1051,14 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
             CRM يعطي هيكلًا عمليًا: قيادة + أدوار + توزيع عبء + مساعدة مبكرة + مساعدات معرفية + تجنب التثبيت.</li>
         </ul>
     </div>
-    
-</div>
-
 
 <!-- ANESTHESIA-COMMENTS-V3 -->
-<style>
-
-  /* COMMENTS SECTION */
-  .comments-section {
-    margin-top: 60px; padding: 30px;
-    background: white; border-radius: 14px;
-    border: 1px solid #e2e8f0;
-    box-shadow: 0 4px 20px rgba(30,58,138,0.06);
-  }
-  .comments-title {
-    font-family: 'Noto Kufi Arabic', sans-serif;
-    font-size: 22px; font-weight: 800; color: #1e3a8a;
-    margin-bottom: 14px;
-    border-bottom: 3px solid #dbeafe; padding-bottom: 14px;
-    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-  }
-  .comments-title .en-sub {
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 13px; color: #6b7280; font-weight: 400;
-    direction: ltr;
-  }
-  .comments-desc {
-    font-family: 'Noto Kufi Arabic', sans-serif;
-    font-size: 14px; color: #6b7280; margin-bottom: 24px; line-height: 1.6;
-  }
-  .comment-form {
-    background: #f8faff; border-radius: 10px; padding: 24px;
-    margin-bottom: 28px; border: 1px solid #dbeafe;
-  }
-  .form-row { display: flex; gap: 16px; margin-bottom: 16px; }
-  .form-group { flex: 1; }
-  .form-group label {
-    font-family: 'Noto Kufi Arabic', sans-serif;
-    font-size: 13px; font-weight: 600; color: #374151;
-    display: block; margin-bottom: 6px;
-  }
-  .optional { font-weight: 400; color: #9ca3af; font-size: 11px; }
-  .required-mark { color: #ef4444; }
-  .form-group input, .form-group textarea {
-    width: 100%; padding: 10px 14px;
-    border: 1px solid #d1d5db; border-radius: 8px;
-    font-family: 'Noto Kufi Arabic', sans-serif;
-    font-size: 14px; color: #374151;
-    background: white; transition: border-color 0.2s;
-    direction: rtl;
-  }
-  .form-group input:focus, .form-group textarea:focus {
-    outline: none; border-color: #3b82f6;
-    box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
-  }
-  .form-group textarea { resize: vertical; min-height: 110px; }
-  .form-actions { align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-  .rating-group { display: flex; align-items: center; gap: 10px; }
-  .rating-group label { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #374151; white-space: nowrap; }
-  .stars { display: flex; gap: 4px; direction: ltr; }
-  .star { font-size: 24px; color: #d1d5db; cursor: pointer; transition: color 0.1s; line-height: 1; }
-  .star.active { color: #f59e0b; }
-  .submit-btn {
-    font-family: 'Noto Kufi Arabic', sans-serif;
-    font-size: 14px; font-weight: 700;
-    background: #1e3a8a; color: white;
-    border: none; padding: 12px 24px;
-    border-radius: 8px; cursor: pointer;
-    transition: background 0.2s; white-space: nowrap;
-  }
-  .submit-btn:hover { background: #1e40af; }
-  .comments-list { display: flex; flex-direction: column; gap: 16px; }
-  .comment-card {
-    background: white; border: 1px solid #e5e7eb;
-    border-radius: 10px; padding: 18px 20px;
-  }
-  .comment-card.new-comment { border-color: #93c5fd; background: #f0f7ff; }
-  .comment-header {
-    display: flex; align-items: center; gap: 12px;
-    margin-bottom: 12px; flex-wrap: wrap;
-  }
-  .comment-avatar {
-    width: 40px; height: 40px; border-radius: 50%;
-    background: #1e3a8a; color: white;
-    display: flex; align-items: center; justify-content: center;
-    font-family: 'Noto Kufi Arabic', sans-serif;
-    font-size: 16px; font-weight: 700; flex-shrink: 0;
-  }
-  .comment-meta { flex: 1; min-width: 100px; }
-  .comment-name { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; font-weight: 700; color: #1e3a8a; display: block; }
-  .comment-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #6b7280; }
-  .comment-stars { color: #f59e0b; font-size: 14px; }
-  .comment-date { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #9ca3af; }
-  .comment-text { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #374151; line-height: 1.7; }
-
-  @media (max-width: 600px) {
-    .form-row { flex-direction: column; }
-    .form-actions { flex-direction: column; }
-    .submit-btn { width: 100%; text-align: center; }
-  }
-
-</style>
-
 <div class="comments-section">
   <h2 class="comments-title">
-    <span>&#x1F4AC;</span> شاركنا رأيك
+    <span>💬</span> شاركنا رأيك
     <span class="en-sub">Share Your Thoughts</span>
   </h2>
   <div class="comments-desc">هل لديك تعليق أو سؤال أو ملاحظة حول هذا الفصل؟ نرحب بمشاركتك وآرائك</div>
-
   <form class="comment-form" onsubmit="submitComment(event)">
     <div class="form-row">
       <div class="form-group">
@@ -1729,17 +1078,16 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
       <div class="rating-group">
         <label>تقييم الفصل:</label>
         <div class="stars" id="starRating">
-          <span class="star" onclick="setRating(1)">&#9733;</span>
-          <span class="star" onclick="setRating(2)">&#9733;</span>
-          <span class="star" onclick="setRating(3)">&#9733;</span>
-          <span class="star" onclick="setRating(4)">&#9733;</span>
-          <span class="star" onclick="setRating(5)">&#9733;</span>
+          <span class="star" onclick="setRating(1)">★</span>
+          <span class="star" onclick="setRating(2)">★</span>
+          <span class="star" onclick="setRating(3)">★</span>
+          <span class="star" onclick="setRating(4)">★</span>
+          <span class="star" onclick="setRating(5)">★</span>
         </div>
       </div>
-      <button type="submit" class="submit-btn">&#x2190; إرسال التعليق</button>
+      <button type="submit" class="submit-btn">← إرسال التعليق</button>
     </div>
   </form>
-
   <div id="commentsContainer" class="comments-list"></div>
 </div>
 
@@ -1755,7 +1103,7 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
     if (!text) { alert('الرجاء كتابة تعليقك أولاً'); return; }
     var name = document.getElementById('cName').value.trim() || 'زائر';
     var role = document.getElementById('cRole').value.trim();
-    var stars = _rating > 0 ? '&#9733;'.repeat(_rating) + '&#9734;'.repeat(5-_rating) : '&#9733;&#9733;&#9733;&#9733;&#9733;';
+    var stars = _rating > 0 ? '★'.repeat(_rating) + '☆'.repeat(5-_rating) : '★★★★★';
     var colors = ['#1e3a8a','#7c3aed','#059669','#d97706','#dc2626'];
     var color = colors[Math.floor(Math.random()*colors.length)];
     var card = document.createElement('div');
@@ -1771,8 +1119,7 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
         '<span class="comment-date">الآن</span>' +
       '</div>' +
       '<p class="comment-text">' + text + '</p>';
-    var container = document.getElementById('commentsContainer');
-    container.prepend(card);
+    document.getElementById('commentsContainer').prepend(card);
     e.target.reset();
     _rating = 0;
     document.querySelectorAll('.star').forEach(function(s){ s.classList.remove('active'); });
@@ -1780,4 +1127,5 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
   }
 </script>
 
-</body></html>
+</body>
+</html>
