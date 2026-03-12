@@ -1978,81 +1978,179 @@ h4 { font-size: clamp(15px, 4vw, 19px) !important; }
     
 </div>
 
-<script src="/static/chapter-enhancements.js?v=2"></script>
+
+<!-- ANESTHESIA-COMMENTS-V3 -->
+<style>
+
+  /* COMMENTS SECTION */
+  .comments-section {
+    margin-top: 60px; padding: 30px;
+    background: white; border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 20px rgba(30,58,138,0.06);
+  }
+  .comments-title {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 22px; font-weight: 800; color: #1e3a8a;
+    margin-bottom: 14px;
+    border-bottom: 3px solid #dbeafe; padding-bottom: 14px;
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .comments-title .en-sub {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px; color: #6b7280; font-weight: 400;
+    direction: ltr;
+  }
+  .comments-desc {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #6b7280; margin-bottom: 24px; line-height: 1.6;
+  }
+  .comment-form {
+    background: #f8faff; border-radius: 10px; padding: 24px;
+    margin-bottom: 28px; border: 1px solid #dbeafe;
+  }
+  .form-row { display: flex; gap: 16px; margin-bottom: 16px; }
+  .form-group { flex: 1; }
+  .form-group label {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 13px; font-weight: 600; color: #374151;
+    display: block; margin-bottom: 6px;
+  }
+  .optional { font-weight: 400; color: #9ca3af; font-size: 11px; }
+  .required-mark { color: #ef4444; }
+  .form-group input, .form-group textarea {
+    width: 100%; padding: 10px 14px;
+    border: 1px solid #d1d5db; border-radius: 8px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #374151;
+    background: white; transition: border-color 0.2s;
+    direction: rtl;
+  }
+  .form-group input:focus, .form-group textarea:focus {
+    outline: none; border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+  }
+  .form-group textarea { resize: vertical; min-height: 110px; }
+  .form-actions { align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .rating-group { display: flex; align-items: center; gap: 10px; }
+  .rating-group label { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #374151; white-space: nowrap; }
+  .stars { display: flex; gap: 4px; direction: ltr; }
+  .star { font-size: 24px; color: #d1d5db; cursor: pointer; transition: color 0.1s; line-height: 1; }
+  .star.active { color: #f59e0b; }
+  .submit-btn {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; font-weight: 700;
+    background: #1e3a8a; color: white;
+    border: none; padding: 12px 24px;
+    border-radius: 8px; cursor: pointer;
+    transition: background 0.2s; white-space: nowrap;
+  }
+  .submit-btn:hover { background: #1e40af; }
+  .comments-list { display: flex; flex-direction: column; gap: 16px; }
+  .comment-card {
+    background: white; border: 1px solid #e5e7eb;
+    border-radius: 10px; padding: 18px 20px;
+  }
+  .comment-card.new-comment { border-color: #93c5fd; background: #f0f7ff; }
+  .comment-header {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 12px; flex-wrap: wrap;
+  }
+  .comment-avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: #1e3a8a; color: white;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 16px; font-weight: 700; flex-shrink: 0;
+  }
+  .comment-meta { flex: 1; min-width: 100px; }
+  .comment-name { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; font-weight: 700; color: #1e3a8a; display: block; }
+  .comment-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #6b7280; }
+  .comment-stars { color: #f59e0b; font-size: 14px; }
+  .comment-date { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #9ca3af; }
+  .comment-text { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #374151; line-height: 1.7; }
+
+  @media (max-width: 600px) {
+    .form-row { flex-direction: column; }
+    .form-actions { flex-direction: column; }
+    .submit-btn { width: 100%; text-align: center; }
+  }
+
+</style>
 
 <div class="comments-section">
   <h2 class="comments-title">
-    <span>💬</span> شاركنا رأيك
+    <span>&#x1F4AC;</span> شاركنا رأيك
     <span class="en-sub">Share Your Thoughts</span>
   </h2>
   <div class="comments-desc">هل لديك تعليق أو سؤال أو ملاحظة حول هذا الفصل؟ نرحب بمشاركتك وآرائك</div>
 
-  <form class="comment-form" onsubmit="cSubmit(event)">
-    <div class="c-form-row">
-      <div class="c-form-group">
-        <label>الاسم <span class="c-optional">(اختياري)</span></label>
+  <form class="comment-form" onsubmit="submitComment(event)">
+    <div class="form-row">
+      <div class="form-group">
+        <label>الاسم <span class="optional">(اختياري)</span></label>
         <input type="text" id="cName" placeholder="اكتب اسمك هنا..." />
       </div>
-      <div class="c-form-group">
-        <label>التخصص <span class="c-optional">(اختياري)</span></label>
+      <div class="form-group">
+        <label>التخصص <span class="optional">(اختياري)</span></label>
         <input type="text" id="cRole" placeholder="طبيب، ممرض، طالب..." />
       </div>
     </div>
-    <div class="c-form-group" style="margin-bottom:16px;">
-      <label>تعليقك <span class="c-required">*</span></label>
-      <textarea id="cText" placeholder="اكتب تعليقك أو سؤالك هنا..."></textarea>
+    <div class="form-group" style="margin-bottom:16px;">
+      <label>تعليقك <span class="required-mark">*</span></label>
+      <textarea id="cText" rows="5" placeholder="اكتب تعليقك أو سؤالك هنا..."></textarea>
     </div>
-    <div class="c-form-actions">
-      <div class="c-rating-group">
+    <div class="form-row form-actions">
+      <div class="rating-group">
         <label>تقييم الفصل:</label>
-        <div class="c-stars" id="cStars">
-          <span class="c-star" onclick="cSetRating(1)">★</span>
-          <span class="c-star" onclick="cSetRating(2)">★</span>
-          <span class="c-star" onclick="cSetRating(3)">★</span>
-          <span class="c-star" onclick="cSetRating(4)">★</span>
-          <span class="c-star" onclick="cSetRating(5)">★</span>
+        <div class="stars" id="starRating">
+          <span class="star" onclick="setRating(1)">&#9733;</span>
+          <span class="star" onclick="setRating(2)">&#9733;</span>
+          <span class="star" onclick="setRating(3)">&#9733;</span>
+          <span class="star" onclick="setRating(4)">&#9733;</span>
+          <span class="star" onclick="setRating(5)">&#9733;</span>
         </div>
       </div>
-      <button type="submit" class="c-submit-btn">إرسال التعليق ←</button>
+      <button type="submit" class="submit-btn">&#x2190; إرسال التعليق</button>
     </div>
   </form>
 
-  <div id="cList" class="c-comments-list"></div>
+  <div id="commentsContainer" class="comments-list"></div>
 </div>
 
 <script>
-  var cRating = 0;
-  function cSetRating(v) {
-    cRating = v;
-    document.querySelectorAll('.c-star').forEach(function(s,i){ s.classList.toggle('active', i < v); });
+  var _rating = 0;
+  function setRating(v) {
+    _rating = v;
+    document.querySelectorAll('.star').forEach(function(s,i){ s.classList.toggle('active', i < v); });
   }
-  function cSubmit(e) {
+  function submitComment(e) {
     e.preventDefault();
     var text = document.getElementById('cText').value.trim();
     if (!text) { alert('الرجاء كتابة تعليقك أولاً'); return; }
     var name = document.getElementById('cName').value.trim() || 'زائر';
     var role = document.getElementById('cRole').value.trim();
-    var stars = cRating > 0 ? '★'.repeat(cRating) + '☆'.repeat(5-cRating) : '★★★★★';
+    var stars = _rating > 0 ? '&#9733;'.repeat(_rating) + '&#9734;'.repeat(5-_rating) : '&#9733;&#9733;&#9733;&#9733;&#9733;';
     var colors = ['#1e3a8a','#7c3aed','#059669','#d97706','#dc2626'];
     var color = colors[Math.floor(Math.random()*colors.length)];
     var card = document.createElement('div');
-    card.className = 'c-comment-card new-comment';
+    card.className = 'comment-card new-comment';
     card.innerHTML =
-      '<div class="c-comment-header">' +
-        '<div class="c-comment-avatar" style="background:' + color + '">' + name[0] + '</div>' +
-        '<div class="c-comment-meta">' +
-          '<span class="c-comment-name">' + name + '</span>' +
-          (role ? '<span class="c-comment-role">' + role + '</span>' : '') +
+      '<div class="comment-header">' +
+        '<div class="comment-avatar" style="background:' + color + '">' + (name[0]||'ز') + '</div>' +
+        '<div class="comment-meta">' +
+          '<span class="comment-name">' + name + '</span>' +
+          (role ? '<span class="comment-role">' + role + '</span>' : '') +
         '</div>' +
-        '<div class="c-comment-stars">' + stars + '</div>' +
-        '<span class="c-comment-date">الآن</span>' +
+        '<div class="comment-stars">' + stars + '</div>' +
+        '<span class="comment-date">الآن</span>' +
       '</div>' +
-      '<p class="c-comment-text">' + text + '</p>';
-    var container = document.getElementById('cList');
+      '<p class="comment-text">' + text + '</p>';
+    var container = document.getElementById('commentsContainer');
     container.prepend(card);
     e.target.reset();
-    cRating = 0;
-    document.querySelectorAll('.c-star').forEach(function(s){ s.classList.remove('active'); });
+    _rating = 0;
+    document.querySelectorAll('.star').forEach(function(s){ s.classList.remove('active'); });
     card.scrollIntoView({behavior:'smooth', block:'center'});
   }
 </script>
