@@ -10,6 +10,11 @@ app.use('/static', express.static(path.join(__dirname, 'public/static')));
 app.use('/chapter-files', express.static(path.join(__dirname, 'public/chapters')));
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
 
+// Serve favicon.ico from public directory
+app.get('/favicon.ico', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'favicon.ico'));
+});
+
 // Homepage - New promotional design
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'home-page.html'));
