@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل السلامة والجودة في التخدير - د. جميل السقيا</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="/images/favicon-256.png">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="دليل شامل للسلامة والجودة في التخدير - خلاصة 25 عاماً من الخبرة في التخدير والعناية المركزة. تأليف د. جميل السقيا">
+    <meta name="keywords" content="التخدير، سلامة المرضى، جودة الرعاية الصحية، التخدير الآمن، العناية المركزة">
+    <meta name="author" content="د. جميل السقيا">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.anesthesiasafetyguideline.com/">
+    <meta property="og:title" content="دليل السلامة والجودة في التخدير - د. جميل السقيا">
+    <meta property="og:description" content="دليل شامل للسلامة والجودة في التخدير - خلاصة 25 عاماً من الخبرة في التخدير والعناية المركزة">
+    <meta property="og:image" content="https://www.anesthesiasafetyguideline.com/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="ar_AR">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.anesthesiasafetyguideline.com/">
+    <meta name="twitter:title" content="دليل السلامة والجودة في التخدير - د. جميل السقيا">
+    <meta name="twitter:description" content="دليل شامل للسلامة والجودة في التخدير - خلاصة 25 عاماً من الخبرة في التخدير والعناية المركزة">
+    <meta name="twitter:image" content="https://www.anesthesiasafetyguideline.com/images/og-image.jpg">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: #f8f9fa;
+            color: #2c3e50;
+            line-height: 1.8;
+        }
+
+        /* Hero Section - Full Screen Cover */
+        .hero-section {
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('/anesthesia-safety/images/cover-book.jpg') center center no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .hero-content {
+            display: none; /* مخفي تماماً - الصورة فقط */
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            animation: bounce 2s infinite;
+            cursor: pointer;
+        }
+
+        .scroll-indicator i {
+            font-size: 2.5rem;
+            color: rgba(0, 0, 0, 0.6);
+            background: rgba(255, 255, 255, 0.9);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Introduction Section */
+        .intro-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 5rem 2rem;
+            background: white;
+        }
+
+        .intro-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .intro-title {
+            font-family: 'Amiri', serif;
+            font-size: 2.5rem;
+            color: #2980b9;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .intro-experience {
+            font-size: 1.5rem;
+            color: #8e44ad;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(142, 68, 173, 0.2);
+        }
+
+        .intro-quote {
+            font-family: 'Amiri', serif;
+            font-size: 1.8rem;
+            font-style: italic;
+            color: #34495e;
+            line-height: 2;
+            margin: 2rem 0;
+            padding: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+        }
+
+        .intro-content {
+            font-size: 1.2rem;
+            line-height: 2;
+            color: #2c3e50;
+            margin-bottom: 3rem;
+        }
+
+        .intro-content h3 {
+            font-family: 'Amiri', serif;
+            font-size: 2rem;
+            color: #2980b9;
+            margin: 3rem 0 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid #3498db;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            color: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 2.5rem;
+            border-radius: 15px;
+            margin: 3rem 0;
+            color: white;
+            box-shadow: 0 15px 40px rgba(142, 68, 173, 0.3);
+        }
+
+        .highlight-box h3 {
+            font-family: 'Amiri', serif;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border: none;
+            padding: 0;
+            color: white;
+        }
+
+        .highlight-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .highlight-box li {
+            padding: 1rem 0;
+            font-size: 1.2rem;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .highlight-box li:last-child {
+            border-bottom: none;
+        }
+
+        .highlight-box li i {
+            margin-left: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-top: 4rem;
+            border-radius: 15px;
+        }
+
+        .cta-section h2 {
+            font-family: 'Amiri', serif;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1.2rem 3rem;
+            background: white;
+            color: #2980b9;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .author-signature {
+            text-align: center;
+            margin: 4rem 0;
+            padding: 2rem;
+            font-family: 'Amiri', serif;
+            font-size: 1.5rem;
+            color: #8e44ad;
+            font-weight: 700;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateX(-50%) translateY(0);
+            }
+            40% {
+                transform: translateX(-50%) translateY(-10px);
+            }
+            60% {
+                transform: translateX(-50%) translateY(-5px);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            /* Tablet */
+            .intro-section {
+                padding: 3rem 1.5rem;
+            }
+            
+            .intro-title {
+                font-size: 2rem;
+            }
+            
+            .intro-quote {
+                font-size: 1.5rem;
+                padding: 1.5rem;
+            }
+            
+            .feature-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            /* Mobile */
+            body {
+                font-size: 16px;
+            }
+            
+            .hero-section {
+                height: 70vh;
+                min-height: 500px;
+            }
+            
+            .hero-section::before {
+                background-size: cover;
+                background-position: center top;
+            }
+            
+            .scroll-indicator {
+                bottom: 20px;
+            }
+            
+            .scroll-indicator i {
+                font-size: 2rem;
+                width: 50px;
+                height: 50px;
+            }
+            
+            .intro-section {
+                padding: 2rem 1rem;
+            }
+            
+            .intro-experience {
+                font-size: 1.1rem;
+                padding: 1rem;
+            }
+            
+            .intro-title {
+                font-size: 1.5rem;
+            }
+            
+            .intro-quote {
+                font-size: 1.1rem;
+                padding: 1.5rem;
+                line-height: 1.8;
+            }
+            
+            .intro-content {
+                font-size: 1rem;
+                line-height: 1.8;
+            }
+            
+            .intro-content h3 {
+                font-size: 1.4rem;
+                margin: 2rem 0 1rem;
+            }
+            
+            .feature-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .feature-card {
+                padding: 1.5rem;
+            }
+            
+            .feature-card i {
+                font-size: 2rem;
+            }
+            
+            .feature-card h4 {
+                font-size: 1.1rem;
+            }
+            
+            .feature-card p {
+                font-size: 0.95rem;
+            }
+            
+            .highlight-box {
+                padding: 1.5rem;
+                margin: 2rem 0;
+            }
+            
+            .highlight-box h3 {
+                font-size: 1.4rem;
+            }
+            
+            .highlight-box li {
+                font-size: 1rem;
+                padding: 0.8rem 0;
+            }
+            
+            .cta-section {
+                padding: 2rem 1rem;
+                margin-top: 2rem;
+            }
+            
+            .cta-section h2 {
+                font-size: 1.6rem;
+            }
+            
+            .cta-section p {
+                font-size: 1rem !important;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .cta-button {
+                padding: 1rem 2rem;
+                font-size: 1rem;
+                width: 100%;
+                text-align: center;
+            }
+            
+            .author-signature {
+                font-size: 1.2rem;
+                margin: 2rem 0;
+            }
+        }
+
+        /* Extra Small Mobile */
+        @media (max-width: 480px) {
+            .hero-section {
+                height: 60vh;
+                min-height: 400px;
+            }
+            
+            .intro-experience {
+                font-size: 1rem;
+            }
+            
+            .intro-title {
+                font-size: 1.3rem;
+            }
+            
+            .intro-quote {
+                font-size: 1rem;
+                padding: 1rem;
+            }
+            
+            .feature-card {
+                padding: 1.2rem;
+            }
+            
+            .cta-section h2 {
+                font-size: 1.4rem;
+            }
+        }
+
+        /* Why Arabic Section - Hover Effects */
+        .why-arabic-card:hover {
+            transform: translateX(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+    </style>
+<style>
+/* ===== RESPONSIVE FIXES: Mobile & Tablet ===== */
+html, body { overflow-x: hidden !important; max-width: 100% !important; }
+img { max-width: 100% !important; height: auto !important; }
+* { box-sizing: border-box !important; }
+
+@media (max-width: 768px) {
+  /* شبكة البطاقات */
+  .books-grid, .chapters-grid, .parts-grid,
+  [class*="grid"], [class*="flex"] {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 16px !important;
+  }
+  .book-card, .chapter-card, .part-card,
+  [class*="card"] {
+    width: 100% !important;
+    max-width: 500px !important;
+  }
+  .hero-section { min-height: 50vh !important; }
+  .intro-section, .section { padding: 20px 14px !important; }
+  h1 { font-size: clamp(20px, 6vw, 32px) !important; }
+  h2 { font-size: clamp(17px, 5vw, 26px) !important; }
+  h3 { font-size: clamp(15px, 4.5vw, 22px) !important; }
+  p, li { font-size: clamp(14px, 4vw, 16px) !important; line-height: 1.9 !important; }
+}
+
+@media (max-width: 480px) {
+  body { padding-top: 62px !important; }
+  .as-top-nav { padding: 7px 10px !important; }
+  .as-nav-link { font-size: 11px !important; padding: 5px 8px !important; }
+  .hero-section { min-height: 40vh !important; }
+}
+/* ===== END RESPONSIVE FIXES ===== */
+</style>
+</head>
+<body>
+<style>
+  .as-top-nav {
+    position: fixed !important;
+    top: 0 !important; left: 0 !important; right: 0 !important;
+    width: 100% !important; z-index: 99999 !important;
+    background-color: #1e3a8a !important;
+    padding: 10px 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2) !important;
+    font-family: 'Cairo', Arial, sans-serif !important;
+    gap: 8px !important; flex-wrap: wrap !important; box-sizing: border-box !important;
+  }
+  .as-nav-brand {
+    color: white !important; font-size: 14px !important; font-weight: 700 !important;
+    text-decoration: none !important; display: flex !important; align-items: center !important; gap: 8px !important;
+  }
+  .as-nav-logo {
+    width: 34px !important; height: 34px !important; border-radius: 50% !important;
+    background: rgba(255,255,255,0.15) !important; border: 2px solid rgba(255,255,255,0.3) !important;
+    display: flex !important; align-items: center !important; justify-content: center !important;
+    font-size: 16px !important; flex-shrink: 0 !important;
+  }
+  .as-nav-links { display: flex !important; align-items: center !important; gap: 8px !important; flex-wrap: wrap !important; }
+  .as-nav-link {
+    background: rgba(255,255,255,0.12) !important; color: white !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    padding: 6px 14px !important; border-radius: 6px !important;
+    font-size: 13px !important; text-decoration: none !important;
+    white-space: nowrap !important; font-weight: 600 !important;
+  }
+  .as-nav-link:hover { background: rgba(255,255,255,0.25) !important; }
+  .hero-section { margin-top: 55px !important; }
+  @media (max-width: 600px) {
+    .as-top-nav { padding: 8px 12px !important; }
+    .as-brand-text { display: none !important; }
+    .as-nav-link { font-size: 12px !important; padding: 5px 10px !important; }
+  }
+</style>
+<nav class="as-top-nav">
+  <a href="/anesthesia-safety/" class="as-nav-brand">
+    <div class="as-nav-logo">🩺</div>
+    <span class="as-brand-text">دليل السلامة والجودة في التخدير</span>
+  </a>
+  <div class="as-nav-links">
+    <a href="/anesthesia-safety/chapters/" class="as-nav-link">📚 الفصول</a>
+    <a href="/portal" class="as-nav-link">🏠 المنصة</a>
+  </div>
+</nav>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">دليل السلامة والجودة في التخدير</h1>
+            <p class="hero-subtitle">Anesthesia Safety & Quality Guideline</p>
+            <a href="#intro" class="hero-cta">
+                <i class="fas fa-book-open"></i> ابدأ القراءة
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro-section" id="intro">
+        <div class="intro-header">
+            <div class="intro-experience">
+                بخبرة تتجاوز خمسة وعشرين عامًا في مجال التخدير، يقدم الدكتور جميل السقيا عصارة تجاربه في أهم مواضيع السلامة والجودة
+            </div>
+        </div>
+
+        <div class="intro-content">
+            <div class="intro-quote">
+                في عالم تتوقف فيه الحياة على نَفَس واحد، وتتأرجح الأرواح بين الوعي والغياب...<br><br>
+                في تلك اللحظات الحرجة حيث يُصبح الطبيب المخدر هو الحارس الأول لسلامة المريض...<br><br>
+                يأتي هذا الكتاب ليكون دليلك الشامل في رحلة التخدير الآمن
+            </div>
+
+            <h3>📖 ليس مجرد كتاب طبي... بل رحلة إنسانية عميقة</h3>
+            <p>
+                من قلب غرف العمليات، ومن بين جدران العناية المركزة، ومن تحت ضغط اللحظات الحرجة التي لا تحتمل الخطأ، 
+                يُقدم لك <strong>الدكتور جميل السقيا</strong> - بخبرة امتدت لأكثر من <strong>25 عامًا</strong> في مجال التخدير - 
+                <strong>دليلًا علميًا وإنسانيًا فريدًا</strong> يجمع بين:
+            </p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>المعرفة العميقة</h4>
+                    <p>المبنية على آلاف الحالات والتجارب الحية</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4>الدروس المستخلصة</h4>
+                    <p>من مواقف حقيقية غيّرت مسار حياته المهنية</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-globe"></i>
+                    <h4>البروتوكولات العالمية</h4>
+                    <p>للسلامة والجودة في التخدير</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-heart"></i>
+                    <h4>القصص الإنسانية</h4>
+                    <p>التي تذكّرنا أن خلف كل إجراء طبي روحًا إنسانية</p>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <h3>📚 في هذا الكتاب ستجد:</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> أساسيات السلامة والجودة في التخدير وفق أحدث المعايير العالمية</li>
+                    <li><i class="fas fa-check-circle"></i> استراتيجيات عملية للتعامل مع الحالات الطارئة والمعقدة</li>
+                    <li><i class="fas fa-check-circle"></i> أخطاء شائعة وكيفية تجنبها - مستخلصة من تجارب حقيقية</li>
+                    <li><i class="fas fa-check-circle"></i> دروسًا لا تُنسى من مواقف حية شكّلت ضمير الطبيب المخدر</li>
+                    <li><i class="fas fa-check-circle"></i> بروتوكولات واضحة قابلة للتطبيق الفوري في الممارسة اليومية</li>
+                </ul>
+            </div>
+
+            <h3>🎯 لماذا يجب أن تقرأ هذا الكتاب؟</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-user-md"></i>
+                    <h4>إذا كنت طبيب تخدير</h4>
+                    <p>ستجد فيه الرفيق الذي يُرشدك في أصعب اللحظات</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-stethoscope"></i>
+                    <h4>إذا كنت طالب طب</h4>
+                    <p>ستتعلم ما لا تُعلّمه الكتب الأكاديمية</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h4>إذا كنت من الطاقم الطبي</h4>
+                    <p>ستفهم أعمق لفلسفة السلامة في غرف العمليات</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-heart-pulse"></i>
+                    <h4>إذا كنت إنسانًا</h4>
+                    <p>ستكتشف القصص الإنسانية خلف المعاطف البيضاء</p>
+                </div>
+            </div>
+
+            <div class="intro-quote">
+                💔 لحظات فاصلة علّمته أن الطب ليس مجرد علم، بل مسؤولية تحمل أرواحًا<br><br>
+                💔 تجارب قاسية في ظروف استثنائية صقلت خبرته وعمّقت إنسانيته<br><br>
+                💔 دروس من رماد الذاكرة لا تُدرّس في الكتب، بل تُكتب بالدموع والدماء<br><br>
+                <strong style="font-size: 1.3rem;">وخلف كل تجربة... درس في السلامة، والجودة، والإنسانية</strong>
+            </div>
+
+            <h3>✨ هذا الكتاب ليس للقراءة فقط... بل للتطبيق والتأثير</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-book-reader"></i>
+                    <h4>اقرأه</h4>
+                    <p>لتتعلم كيف تحمي مرضاك</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tasks"></i>
+                    <h4>طبّقه</h4>
+                    <p>لتُحسّن ممارستك الطبية</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-star"></i>
+                    <h4>عِشه</h4>
+                    <p>لتصبح طبيبًا لا يُنسى</p>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);">
+                <h3 style="font-size: 2.5rem; text-align: center;">"في التخدير... لا مجال للخطأ الثاني"</h3>
+                <p style="text-align: center; font-size: 1.5rem; margin-top: 1rem;">
+                    كتاب السلامة والجودة في التخدير<br>
+                    خبرة 25 عامًا بين يديك<br>
+                    علم + إنسانية + تجربة حية
+                </p>
+            </div>
+
+            <div class="cta-section">
+                <h2>هل أنت مستعد لرفع مستوى ممارستك الطبية؟</h2>
+                <p style="font-size: 1.3rem; margin: 1.5rem 0;">
+                    🎯 هل تريد أن تتعلم من تجارب حقيقية غيّرت حياة الآلاف؟<br>
+                    🎯 هل تبحث عن دليل عملي يجمع بين العلم والحكمة؟
+                </p>
+                <div class="cta-buttons">
+                    <a href="#chapters-list" class="cta-button" onclick="document.getElementById('chapters-list').scrollIntoView({behavior: 'smooth'}); return false;">
+                        <i class="fas fa-book-open"></i> تصفح الفصول
+                    </a>
+                    <a href="/anesthesia-safety/about" class="cta-button" style="background: #f5576c; color: white;">
+                        <i class="fas fa-user"></i> عن المؤلف
+                    </a>
+                </div>
+            </div>
+
+            <div class="author-signature">
+                <i class="fas fa-quote-right"></i><br>
+                الدكتور جميل السقيا<br>
+                <span style="font-size: 1.2rem; color: #34495e;">استشاري التخدير والعناية المركزة</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Arabic Section -->
+    <section style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 3rem 1rem;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div style="background: white; border-radius: 25px; padding: 2rem; box-shadow: 0 20px 60px rgba(0,0,0,0.3); position: relative; overflow: hidden;">
+                <!-- Decorative Circle -->
+                <div style="position: absolute; top: -100px; right: -100px; width: 300px; height: 300px; background: linear-gradient(135deg, rgba(240, 147, 251, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%); border-radius: 50%;"></div>
+                
+                <!-- Icon -->
+                <div style="text-align: center; margin-bottom: 1.5rem; position: relative; z-index: 1;">
+                    <div style="display: inline-block; width: 80px; height: 80px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(245, 87, 108, 0.4);">
+                        <i class="fas fa-language" style="font-size: 2.5rem; color: white;"></i>
+                    </div>
+                </div>
+                
+                <!-- Title -->
+                <h2 style="font-family: 'Amiri', serif; font-size: clamp(1.8rem, 5vw, 3rem); color: #2c3e50; text-align: center; margin-bottom: 2rem; position: relative; z-index: 1;">
+                    لماذا باللغة العربية؟
+                </h2>
+                
+                <!-- Content Cards -->
+                <div style="display: grid; gap: 1.5rem; position: relative; z-index: 1;">
+                    <!-- Card 1 -->
+                    <div class="why-arabic-card" style="background: linear-gradient(135deg, rgba(240, 147, 251, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%); border-left: 5px solid #f5576c; padding: 1.5rem; border-radius: 15px; transition: all 0.3s;">
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.4rem); color: #2c3e50; line-height: 2; margin: 0;">
+                            <strong style="color: #f5576c;">لأن مصطلحات السلامة والجودة معقدة وغريبة،</strong> أردتُ أن تصل إلى عقلك وقلبك بوضوح، دون حواجز لغوية.
+                        </p>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="why-arabic-card" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); border-left: 5px solid #667eea; padding: 1.5rem; border-radius: 15px; transition: all 0.3s;">
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.4rem); color: #2c3e50; line-height: 2; margin: 0;">
+                            <strong style="color: #667eea;">لأن القرارات الحرجة في غرفة العمليات لا تحتمل التردد،</strong> والفهم العميق بلغتك يُنقذ الأرواح.
+                        </p>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="why-arabic-card" style="background: linear-gradient(135deg, rgba(26, 188, 156, 0.1) 0%, rgba(22, 160, 133, 0.1) 100%); border-left: 5px solid #1abc9c; padding: 1.5rem; border-radius: 15px; transition: all 0.3s;">
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.4rem); color: #2c3e50; line-height: 2; margin: 0;">
+                            <strong style="color: #1abc9c;">هذا كتاب عربي أصيل،</strong> بخبرة عربية، لأطباء يستحقون المعرفة بلا وسطاء.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Bottom Decoration -->
+                <div style="text-align: center; margin-top: 2rem; position: relative; z-index: 1;">
+                    <div style="display: inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; border-radius: 50px; font-size: clamp(1rem, 2vw, 1.2rem); font-weight: 600; box-shadow: 0 5px 20px rgba(245, 87, 108, 0.3);">
+                        <i class="fas fa-heart"></i> كتاب عربي بقلب عربي
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapters List Section -->
+    <section id="chapters-list" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem 1rem;">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2 style="font-family: 'Amiri', serif; font-size: clamp(2rem, 6vw, 3.5rem); color: white; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">
+                    <i class="fas fa-book-open"></i>
+                    محتويات الكتاب
+                </h2>
+                <p style="font-size: clamp(1rem, 3vw, 1.5rem); color: rgba(255,255,255,0.95); font-weight: 300;">
+                    33 فصلاً شاملاً في 6 أجزاء رئيسية
+                </p>
+            </div>
+
+            <!-- Featured Special Chapters -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+                <!-- من رماد الذاكرة -->
+                <a href="/anesthesia-safety/chapter/min-ramad" style="text-decoration: none;">
+                    <div class="chapter-featured-card" style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%); color: white; padding: 2rem; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.3); transition: all 0.4s; position: relative; overflow: hidden;">
+                        <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: rgba(255,255,255,0.1); border-radius: 50%;"></div>
+                        <i class="fas fa-fire" style="font-size: clamp(2.5rem, 8vw, 4rem); margin-bottom: 1rem; display: block; position: relative; z-index: 1;"></i>
+                        <h3 style="font-family: 'Amiri', serif; font-size: clamp(1.4rem, 4vw, 2rem); margin-bottom: 1rem; position: relative; z-index: 1;">من رماد الذاكرة</h3>
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.2rem); opacity: 0.95; line-height: 1.8; position: relative; z-index: 1;">قصص واقعية من غرفة العمليات - 12 قصة تعليمية</p>
+                        <div style="margin-top: 1.5rem; display: flex; align-items: center; font-size: clamp(0.95rem, 2vw, 1.1rem); position: relative; z-index: 1;">
+                            <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i>
+                            <span>ابدأ القراءة</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- المقدمة -->
+                <a href="/anesthesia-safety/chapter/0" style="text-decoration: none;">
+                    <div class="chapter-featured-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 2rem; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.3); transition: all 0.4s; position: relative; overflow: hidden;">
+                        <div style="position: absolute; top: -50px; left: -50px; width: 200px; height: 200px; background: rgba(255,255,255,0.1); border-radius: 50%;"></div>
+                        <i class="fas fa-book-open" style="font-size: clamp(2.5rem, 8vw, 4rem); margin-bottom: 1rem; display: block; position: relative; z-index: 1;"></i>
+                        <h3 style="font-family: 'Amiri', serif; font-size: clamp(1.4rem, 4vw, 2rem); margin-bottom: 1rem; position: relative; z-index: 1;">مقدمة الكتاب</h3>
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.2rem); opacity: 0.95; line-height: 1.8; position: relative; z-index: 1;">خبرة 25 عاماً في التخدير والسلامة</p>
+                        <div style="margin-top: 1.5rem; display: flex; align-items: center; font-size: clamp(0.95rem, 2vw, 1.1rem); position: relative; z-index: 1;">
+                            <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i>
+                            <span>اقرأ المقدمة</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- الخاتمة -->
+                <a href="/anesthesia-safety/chapter/33" style="text-decoration: none;">
+                    <div class="chapter-featured-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 2rem; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.3); transition: all 0.4s; position: relative; overflow: hidden;">
+                        <div style="position: absolute; bottom: -50px; right: -50px; width: 200px; height: 200px; background: rgba(255,255,255,0.1); border-radius: 50%;"></div>
+                        <i class="fas fa-scroll" style="font-size: clamp(2.5rem, 8vw, 4rem); margin-bottom: 1rem; display: block; position: relative; z-index: 1;"></i>
+                        <h3 style="font-family: 'Amiri', serif; font-size: clamp(1.4rem, 4vw, 2rem); margin-bottom: 1rem; position: relative; z-index: 1;">خاتمة الكتاب</h3>
+                        <p style="font-size: clamp(1rem, 2.5vw, 1.2rem); opacity: 0.95; line-height: 1.8; position: relative; z-index: 1;">عهدٌ لا ينتهي - الرسائل العشر التي تبقى في الذاكرة</p>
+                        <div style="margin-top: 1.5rem; display: flex; align-items: center; font-size: clamp(0.95rem, 2vw, 1.1rem); position: relative; z-index: 1;">
+                            <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i>
+                            <span>اقرأ الخاتمة</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Book Parts -->
+            <div style="display: grid; gap: 2rem;">
+                <!-- Part 1: أسس علم السلامة -->
+                <div class="book-part-section" style="background: white; border-radius: 20px; padding: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                    <div style="display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 3px solid #3498db;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-left: 1rem; flex-shrink: 0;">
+                            <i class="fas fa-shield-alt" style="color: white; font-size: 1.5rem;"></i>
+                        </div>
+                        <div style="flex: 1; min-width: 200px;">
+                            <h3 style="font-family: 'Amiri', serif; font-size: clamp(1.4rem, 4vw, 2rem); color: #2c3e50; margin: 0;">الجزء الأول</h3>
+                            <p style="color: #7f8c8d; font-size: clamp(0.9rem, 2vw, 1.2rem); margin: 0.3rem 0 0 0;">أسس علم السلامة في التخدير (الفصول 1-4)</p>
+                        </div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem;">
+                        <a href="/anesthesia-safety/chapter/1" class="mini-chapter-card" style="text-decoration: none; color: inherit; background: #f8f9fa; padding: 1.5rem; border-radius: 15px; transition: all 0.3s; border-right: 4px solid #3498db;">
+                            <div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
+                                <span style="background: #3498db; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-left: 1rem; font-weight: bold;">1</span>
+                                <h4 style="margin: 0; font-size: 1.1rem; color: #2c3e50;">السلامة في التخدير</h4>
+                            </div>
+                            <p style="color: #7f8c8d; font-size: 0.95rem; margin: 0; line-height: 1.6;">لماذا تهم السلامة</p>
+                        </a>
+                        <a href="/anesthesia-safety/chapter/2" class="mini-chapter-card" style="text-decoration: none; color: inherit; background: #f8f9fa; padding: 1.5rem; border-radius: 15px; transition: all 0.3s; border-right: 4px solid #3498db;">
+                            <div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
+                                <span style="background: #3498db; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-left: 1rem; font-weight: bold;">2</span>
+                                <h4 style="margin: 0; font-size: 1.1rem; color: #2c3e50;">ثقافة السلامة</h4>
+                            </div>
+                            <p style="color: #7f8c8d; font-size: 0.95rem; margin: 0; line-height: 1.6;">والخطأ البشري</p>
+                        </a>
+                        <a href="/anesthesia-safety/chapter/3" class="mini-chapter-card" style="text-decoration: none; color: inherit; background: #f8f9fa; padding: 1.5rem; border-radius: 15px; transition: all 0.3s; border-right: 4px solid #3498db;">
+                            <div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
+                                <span style="background: #3498db; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-left: 1rem; font-weight: bold;">3</span>
+                                <h4 style="margin: 0; font-size: 1.1rem; color: #2c3e50;">العوامل البشرية</h4>
+                            </div>
+                            <p style="color: #7f8c8d; font-size: 0.95rem; margin: 0; line-height: 1.6;">وبيئة العمل</p>
+                        </a>
+                        <a href="/anesthesia-safety/chapter/4" class="mini-chapter-card" style="text-decoration: none; color: inherit; background: #f8f9fa; padding: 1.5rem; border-radius: 15px; transition: all 0.3s; border-right: 4px solid #3498db;">
+                            <div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
+                                <span style="background: #3498db; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-left: 1rem; font-weight: bold;">4</span>
+                                <h4 style="margin: 0; font-size: 1.1rem; color: #2c3e50;">العمل الجماعي</h4>
+                            </div>
+                            <p style="color: #7f8c8d; font-size: 0.95rem; margin: 0; line-height: 1.6;">والتواصل</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Part 2: تحسين الجودة -->
+                <div class="book-part-section" style="background: white; border-radius: 20px; padding: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                    <div style="display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 3px solid #9b59b6;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-left: 1rem; flex-shrink: 0;">
+                            <i class="fas fa-chart-line" style="color: white; font-size: 1.5rem;"></i>
+                        </div>
+                        <div style="flex: 1; min-width: 200px;">
+                            <h3 style="font-family: 'Amiri', serif; font-size: clamp(1.4rem, 4vw, 2rem); color: #2c3e50; margin: 0;">الجزء الثاني</h3>
+                            <p style="color: #7f8c8d; font-size: clamp(0.9rem, 2vw, 1.2rem); margin: 0.3rem 0 0 0;">أساليب تحسين الجودة والقياس (الفصول 5-10)</p>
+                        </div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem;">
+                        <a href="/anesthesia-safety/chapter/5" class="mini-chapter-card" style="text-decoration: none; color: inherit; background: #f8f9fa; padding: 1.5rem; border-radius: 15px; transition: all 0.3s; border-right: 4px solid #9b59b6;">
+                            <div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
+                                <span style="background: #9b59b6; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-left: 1rem; font-weight: bold;">5</span>
+                                <h4 style="margin: 0; font-size: 1.1rem; color: #2c3e50;">إدارة الجودة</h4>
+                            </div>
+                            <p style="color: #7f8c8d; font-size: 0.95rem; margin: 0; line-height: 1.6;">في الرعاية الجراحية</p>
+                        </a>
+                        <a href="/anesthesia-safety/chapter/6" class="mini-chapter-card" style="text-decoration: none; color: inherit; background: #f8f9fa; padding: 1.5rem; border-radius: 15px; transition: all 0.3s; border-right: 4px solid #9b59b6;">
+                            <div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
+                                <span style="background: #9b59b6; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-left: 1rem; font-weight: bold;">6</span>
+                                <h4 style="margin: 0; font-size: 1.1rem; color: #2c3e50;">التحسين المستمر</h4>
+                            </div>
+                            <p style="color: #7f8c8d; font-size: 0.95rem; margin: 0; line-height: 1.6;">للجودة</p>
+                        </a>
+                        <a href="/anesthesia-safety/chapters/" class="mini-chapter-card" style="text-decoration: none; color: inherit; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 1.5rem; border-radius: 15px; transition: all 0.3s; color: white;">
+                            <div style="text-align: center;">
+                                <i class="fas fa-ellipsis-h" style="font-size: 2rem; margin-bottom: 0.5rem;"></i>
+                                <h4 style="margin: 0; font-size: 1.1rem;">+4 فصول أخرى</h4>
+                                <p style="font-size: 0.9rem; margin: 0.5rem 0 0 0; opacity: 0.95;">الفصول 7-10</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- View All Button -->
+                <a href="/anesthesia-safety/chapters/" style="text-decoration: none;">
+                    <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 3rem; border-radius: 20px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.3); transition: all 0.4s; cursor: pointer; position: relative; overflow: hidden;">
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 300px; height: 300px; background: rgba(255,255,255,0.1); border-radius: 50%;"></div>
+                        <i class="fas fa-th-large" style="font-size: 4rem; margin-bottom: 1rem; display: block; position: relative; z-index: 1;"></i>
+                        <h3 style="font-family: 'Amiri', serif; font-size: 2.5rem; margin-bottom: 1rem; position: relative; z-index: 1;">عرض جميع الفصول</h3>
+                        <p style="font-size: 1.3rem; opacity: 0.95; position: relative; z-index: 1;">استكشف الـ 33 فصلاً كاملاً</p>
+                        <div style="margin-top: 1.5rem; font-size: 1.2rem; position: relative; z-index: 1;">
+                            <i class="fas fa-arrow-left"></i>
+                            <span style="margin-right: 0.5rem;">تصفح المحتوى الكامل</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .chapter-featured-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+        }
+
+        .mini-chapter-card:hover {
+            transform: translateX(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+    </style>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

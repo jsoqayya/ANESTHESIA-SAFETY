@@ -1,0 +1,1985 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head>
+<style>
+/* إصلاح responsive لجميع الشاشات */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  max-width: 100vw !important;
+  padding: 20px 15px 120px 15px !important;
+}
+
+/* إصلاح الصور والجداول */
+img, table, pre, code {
+  max-width: 100% !important;
+  height: auto !important;
+  overflow-x: auto !important;
+}
+
+/* إصلاح العناصر الكبيرة */
+div, p, h1, h2, h3, h4, h5, h6 {
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* responsive للموبايل */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px !important;
+    padding: 15px 10px 120px 10px !important;
+  }
+  
+  h1 { font-size: 1.8rem !important; }
+  h2 { font-size: 1.5rem !important; }
+  h3 { font-size: 1.3rem !important; }
+}
+</style>
+<script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImIxZjQyNzYzZjkzNGExOTQwMWNkOTFhNjdjY2FhNzdiNjIwNWU2N2EiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzVmNTllYTVhMmI5ZDQ5NmRf2KfZhNmB2LXZhCAyMCAtINiz2YTYp9mF2Kkg2KfZhNiq2K7Yr9mK2LEg2KfZhNmG2KfYrdmKINmI2KfZhNin2LPYqti52K_Yp9ivINmE2YAgTEFTVC5odG1sLTI3OCJ9LCJleHAiOjE3NzAxODc5MTYsImlhdCI6MTc3MDE4NDMxNiwiYWxnIjoiUlMyNTYifQ.jJe8VeSovrYL1i8CwCyK0HP93IJs-bruz07r_gcrtQp0woAXoaXLINgg4Fff5NL4zx5sAIfFwMC4-1WgS5v32aHbeLt-R118Mvq_Inm9aWdb9PIpfzO5u55SzK8Ql2xgaaBbgEs_nZrY0ptjHeeNx-R6p1x-eT_ZfMi7SizdwpltMBai879j2T3C1Gre47wEFYZ1zEIDCPDcl6qSRhjZUKIru9KcGsl2ywrTQJGdUueyXO1N7zQhvJ0gc9MGEreuF-HEKMuKxmKDSZCZtEy4pdEaW2XC9g33x_kUh1YPRM_KE7C0x19vKn19VL8NsDLPphnliwDgAiIB7udhKf02bQ","c_5f59ea5a2b9d496d_الفصل 20 - سلامة التخدير الناحي والاستعداد لـ LAST.html-278")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-09-2025","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل 20: سلامة التخدير الناحي والاستعداد لـ LAST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+        --box-gray: #f8fafc;
+        --box-gray-border: #64748b;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+      
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+        text-indent: 0;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+        direction: ltr; 
+      }
+      
+      .subtitle span {
+         display: block;
+         direction: rtl;
+         margin-bottom: 5px;
+      }
+
+      /* Quotes and Important Boxes */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Scene Box Style */
+      .scene-box {
+        background-color: #f8fafc;
+        border-right: 5px solid var(--box-gray-border);
+        padding: 20px 25px;
+        font-style: italic;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #374151;
+      }
+      
+      .scene-title {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: block;
+        color: #1e293b;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      /* Special text styling */
+      strong {
+        color: #111827;
+        font-weight: 700;
+      }
+      
+      /* Tables Custom Styling */
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-family: 'Amiri', serif;
+          font-size: 0.95em;
+          background-color: #fff;
+          border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+          background-color: var(--primary-blue);
+          color: #ffffff;
+          text-align: right;
+          font-family: 'Noto Kufi Arabic', sans-serif;
+          font-weight: 600;
+      }
+      
+      th, td {
+          padding: 12px 15px;
+          border: 1px solid #e5e7eb;
+          vertical-align: top;
+      }
+      
+      th {
+          color: #ffffff;
+          border: 1px solid #1e40af;
+      }
+      
+      tbody tr:nth-of-type(even) {
+          background-color: #f9fafb;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+      
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* Print adjustments */
+      @media print {
+        .download-container { display: none; }
+        body { padding: 0; padding-top: 0; }
+        h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        .quote-box, .alert-box, .success-box, .concept-box, .scene-box, th {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .page-break { page-break-after: always; }
+      }
+      
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+        table { display: block; overflow-x: auto; }
+      }
+    </style>
+  <style>
+/* ===== RESPONSIVE FIXES: Mobile & Tablet ===== */
+
+/* منع overflow أفقي */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+}
+
+/* محتوى الفصل */
+body > * {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* الجداول */
+table {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  display: block !important;
+  border-collapse: collapse !important;
+}
+td, th {
+  word-break: break-word !important;
+  min-width: 60px !important;
+  padding: 8px 6px !important;
+  font-size: clamp(12px, 3vw, 15px) !important;
+}
+
+/* الصور */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* div و section */
+div, section, article, aside {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* حجم الخط التكيفي */
+p, li, td, th, span, label {
+  font-size: clamp(14px, 4vw, 17px) !important;
+  line-height: 1.85 !important;
+}
+
+h1 { font-size: clamp(20px, 6vw, 36px) !important; line-height: 1.4 !important; }
+h2 { font-size: clamp(18px, 5vw, 28px) !important; line-height: 1.4 !important; }
+h3 { font-size: clamp(16px, 4.5vw, 22px) !important; line-height: 1.45 !important; }
+h4 { font-size: clamp(15px, 4vw, 19px) !important; }
+
+/* تابلت */
+@media (max-width: 768px) {
+  body {
+    padding: 65px 14px 30px !important;
+    font-size: 15px !important;
+  }
+
+  /* الكود والنصوص المنسقة */
+  pre, code {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+    font-size: 13px !important;
+  }
+
+  /* الشبكات والصفوف الجانبية */
+  .grid, .flex-row, .columns, [class*="col-"], [class*="grid-"] {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  /* الفقرات والمقاطع */
+  .chapter-content, .content, .section, article {
+    padding: 0 !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* هاتف */
+@media (max-width: 480px) {
+  body {
+    padding: 62px 10px 25px !important;
+    font-size: 14px !important;
+  }
+
+  table {
+    font-size: 12px !important;
+  }
+  td, th {
+    padding: 6px 4px !important;
+  }
+
+  /* الشريط العلوي */
+  .as-top-nav {
+    padding: 7px 10px !important;
+    gap: 5px !important;
+  }
+  .as-nav-link {
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+  }
+}
+/* ===== END RESPONSIVE FIXES ===== */
+</style>
+</head>
+  <body style="padding-top: 65px;">
+<style>
+  /* ANESTHESIA SAFETY NAVBAR */
+  .as-top-nav {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 99999 !important;
+    background-color: #1e3a8a !important;
+    padding: 10px 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2) !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+    box-sizing: border-box !important;
+  }
+  .as-nav-brand {
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+  .as-nav-logo {
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 50% !important;
+    background: rgba(255,255,255,0.15) !important;
+    border: 2px solid rgba(255,255,255,0.3) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+  .as-nav-links {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+  }
+  .as-nav-link {
+    background: rgba(255,255,255,0.12) !important;
+    color: white !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    text-decoration: none !important;
+    transition: background 0.2s !important;
+    white-space: nowrap !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    font-weight: 600 !important;
+  }
+  .as-nav-link:hover { background: rgba(255,255,255,0.25) !important; }
+  .as-nav-link.as-prev { background: rgba(37,99,235,0.4) !important; }
+  .as-nav-link.as-next { background: rgba(37,99,235,0.4) !important; }
+  body { padding-top: 60px !important; }
+  @media (max-width: 600px) {
+    .as-top-nav { padding: 8px 12px !important; }
+    .as-nav-brand span.as-brand-text { display: none !important; }
+    .as-nav-link { font-size: 12px !important; padding: 5px 10px !important; }
+  }
+</style>
+<nav class="as-top-nav">
+  <a href="/anesthesia-safety/" class="as-nav-brand">
+    <div class="as-nav-logo">🩺</div>
+    <span class="as-brand-text">دليل السلامة في التخدير</span>
+  </a>
+  <div class="as-nav-links">
+    <a href="/anesthesia-safety/chapter/19" class="as-nav-link as-prev">← السابق: الفصل 19</a>
+    <a href="/anesthesia-safety/chapters/" class="as-nav-link">📚 الفصول</a>
+    <a href="/portal" class="as-nav-link">🏠 المنصة</a>
+    <a href="/anesthesia-safety/chapter/21" class="as-nav-link as-next">التالي: الفصل 21 →</a>
+  </div>
+</nav>
+
+
+    <!-- Download Bar -->
+    
+
+    <!-- Header Section -->
+    <div class="part-title">Part IV — Patient Safety Across the Perioperative Pathway</div>
+    <div class="part-title">الجزء الرابع — سلامة المريض عبر المسار المحيط بالجراحة</div>
+
+                            
+    <h1>CHAPTER 20 — Regional Anesthesia Safety and LAST Preparedness</h1>
+    <div class="subtitle"><strong>الفصل العشرون — سلامة التخدير الناحي والاستعداد للسمية الموضعية الجهازية</strong></div>
+    
+
+<div class="divider">***</div>
+
+    <h2>🎯 مشهد افتتاحي: درس "الطعم المعدني" | Opening Scene: The Lesson of "Metallic Taste"</h2>
+    <div class="scene-box">
+        <p><strong>القصة:</strong><br>
+        غرفة البلوك في مستشفى تعليمي كبير. مريض في الأربعينيات، جراحة ركبة اختيارية، <span class="english-term">ASA II</span>، لا مشاكل واضحة. الخطة: إحصار العصب الفخذي <span class="english-term">(Femoral Nerve Block)</span> لتسكين ما بعد العملية وتقليل الأفيونيات.</p>
+        <p>كنت واثقًا. الألتراساوند أمامي، الصورة واضحة، العصب الفخذي والشريان الفخذي منفصلان بوضوح. وضعت الإبرة، رأيت الطرف (أو هكذا ظننت)، شفطت—لا دم. بدأت الحقن: بوبيفاكايين <span class="english-term">(Bupivacaine 0.5%)</span>، 20 مل.</p>
+        <p>بعد حقن حوالي 7–8 مل، المريض فجأة قال: "دكتور، فيه طعم معدني في فمي."<br>
+        توقفت فورًا. قلبي بدأ يدق بسرعة. نظرت إلى الشاشة: تخطيط القلب <span class="english-term">(ECG)</span> طبيعي، الأكسجين <span class="english-term">(SpO₂)</span> 98%، ضغط الدم طبيعي. لكن الطعم المعدني كان مثل صفارة إنذار في رأسي—قرأت عنه مئات المرات، لكن هذه أول مرة أسمعه في الواقع.</p>
+        <p>قلت بصوت هادئ لكن حازم: "توقف الحقن. <span class="english-term">LAST (Local Anesthetic Systemic Toxicity - السمية الجهازية للمخدر الموضعي)</span> محتمل. نحتاج كيت الليبيد الآن."<br>
+        الممرضة (جديدة وقتها) سألت: "هل أنت متأكد؟ كل شيء يبدو طبيعيًا."<br>
+        قلت: "الطعم المعدني ليس ‘طبيعيًا’. هذا علامة مبكرة. نستعد الآن، ونراقب."</p>
+        <p>رفعت الأكسجين إلى 10 لتر/دقيقة عبر قناع بسيط، وضعت <span class="english-term">ECG</span> كامل، وطلبت كيت الليبيد. المريض بدأ يشعر بدوخة خفيفة، ثم بدأ يتململ. ضغطه انخفض قليلاً: من 130/80 إلى 105/65.<br>
+        قلت: "هذا <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> يتطور. جهّزوا الليبيد 20%."</p>
+        <p>فجأة، بدأ المريض يرتجف—ليس رعشة عادية، بل رجفان <span class="english-term">(tremor)</span> واضح في اليدين، ثم تحول إلى نوبة صرعية تشنجية <span class="english-term">(tonic-clonic seizure)</span> كاملة.<br>
+        صرخت: "نوبة صرع <span class="english-term">(Seizure)</span>! أعطوا ميدازولام <span class="english-term">(Midazolam 2 mg IV)</span>. احموا مجرى الهواء. ابدأوا الليبيد الآن!"</p>
+        <p><strong>أعطينا:</strong></p>
+        <ul>
+            <li>ميدازولام <span class="english-term">(Midazolam 2 mg IV)</span> ← توقف الـ <span class="english-term">seizure</span> خلال 30 ثانية.</li>
+            <li>مستحلب دهني <span class="english-term">(Lipid Emulsion 20%)</span>: جرعة بلعة <span class="english-term">(Bolus 1.5 mL/kg)</span> (المريض كان 80 كجم، فأعطينا 120 مل بسرعة).</li>
+            <li>بدأنا تسريب <span class="english-term">(Infusion)</span>: 0.25 مل/كجم/دقيقة.</li>
+            <li>أكسجة مستمرة، مراقبة قلبية مكثفة.</li>
+        </ul>
+        <p>خلال 3–4 دقائق، بدأ المريض يستقر: عاد الوعي تدريجيًا، ضغط الدم ارتفع إلى 115/70، <span class="english-term">ECG</span> عاد طبيعيًا، ولم يعد هناك تشنجات.<br>
+        نقلناه إلى العناية المركزة <span class="english-term">(ICU)</span> للمراقبة 24 ساعة. تعافى تمامًا، بدون أي مضاعفات عصبية أو قلبية. لكن اللحظة التي سمعت فيها "طعم معدني" لم أنساها أبدًا.</p>
+        <p><strong>ماذا حدث؟</strong><br>
+        على الأرجح، الإبرة دخلت وريدًا صغيرًا لم أره بوضوح على الألتراساوند، أو انتقلت إليه أثناء الحقن. الشفط كان سلبيًا (لأن الشفط ليس دائمًا موثوقًا)، لكن جزء من الـ بوبيفاكايين دخل الدورة الدموية بسرعة ← <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>.</p>
+    </div>
+
+    <div class="quote-box">
+        <p><strong>الدروس التي لن أنساها:</strong></p>
+        <ul>
+            <li>"الطعم المعدني" ليس "قلقًا"—إنه <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> حتى يثبت العكس.</li>
+            <li>إيقاف الحقن فورًا هو أول خط دفاع.</li>
+            <li>الليبيد يجب أن يكون في الغرفة، وليس "في مكان ما في المستشفى".</li>
+            <li>الحقن المتدرج والشفط المتكرر ليسا ضمانًا مطلقًا، لكنهما يقللان الجرعة المحقونة قبل ظهور الأعراض.</li>
+            <li>الفريق الذي يعرف <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> ويتدرب عليه ينقذ. الفريق الذي "يسمع عنه فقط" يتأخر.</li>
+        </ul>
+        <p>من ذلك اليوم، أصبحت <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> جزءًا من كل محاضرة أقدمها، وكل محاكاة أديرها، وكل <span class="english-term">Time-Out</span> أعمله قبل البلوك.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>🎯 أهداف الفصل | Chapter Aims</h2>
+    <div class="concept-box">
+        <p>بنهاية هذا الفصل، ستتمكن من:</p>
+        <ul>
+            <li>تطبيق مسار عمل موحد لسلامة التخدير الناحي <span class="english-term">(RA)</span> يقلل أخطاء الموقع/الطرف/نوع البلوك الخاطئ، خطر العدوى، خطر الحقن داخل الأوعية، وخطر إصابة العصب.</li>
+            <li>استخدام مبادئ سلامة الألتراساوند (التعامل مع المسبار، رؤية الإبرة، الوعي بضغط الحقن) لمنع الحقن داخل العصب وداخل الأوعية.</li>
+            <li>تطبيق انضباط الجرعة للمخدرات الموضعية، بما في ذلك حسابات الجرعة القصوى، الحقن المتدرج، واستخدام جرعات اختبار الإبينفرين عند الاقتضاء.</li>
+            <li>إدارة المرضى المضادين للتخثر بأمان باستخدام إطار خطر للتخدير النخاعي والبلوكات العصبية المحيطية، بما في ذلك معايير التصعيد والتوثيق.</li>
+            <li>التعرف على وعلاج تسمم المخدر الموضعي الجهازي <span class="english-term">(LAST)</span> بسرعة باستخدام خوارزمية جاهزة للفريق، مسار إنقاذ الليبيد، ونظام تعلم بعد الحدث.</li>
+        </ul>
+    </div>
+
+    <h2>20.1 لماذا تستحق سلامة التخدير الناحي فصلاً خاصًا؟ <span class="english-term">| Why Regional Anesthesia Safety Deserves Its Own Chapter</span></h2>
+    <p>أنا أحب التخدير الناحي بعمق. بعد عشرين عامًا من الممارسة، لا يزال يمنحني رضا لا يضاهى عندما أرى:</p>
+    <ul>
+        <li>مريضًا يستيقظ من الجراحة بدون ألم، يبتسم، ويقول: "لم أشعر بشيء."</li>
+        <li>تقليل جرعات الأفيونيات، وبالتالي تقليل الغثيان، الدوخة، والإدمان المحتمل.</li>
+        <li>تسريع التعافي والحركة المبكرة—المريض يمشي في نفس اليوم، بدلاً من البقاء في السرير لأيام.</li>
+        <li>تجنب التخدير العام في حالات معينة، خصوصًا للمرضى عاليي الخطورة.</li>
+    </ul>
+    <p>لكن التخدير الناحي ليس "بسيطًا" أو "خاليًا من المخاطر". إنه أداة قوية ذات حافتين: إذا استُخدمت بحكمة، تُنقذ وتُسعد. إذا استُخدمت بإهمال، يمكن أن تقتل في دقائق.</p>
+
+    <div class="success-box">
+        <p><strong>الأخطار التي يجب أن نصمم ضدها (وليس فقط "ننتبه" لها):</strong></p>
+        <ul>
+            <li>خطأ المريض/الطرف/نوع البلوك ← خطأ قابل للمنع بنظام توقف للفحص <span class="english-term">(Time-Out)</span> صارم.</li>
+            <li>الحقن داخل الأوعية ← اختلاجات، عدم انتظام ضربات القلب، توقف القلب (<span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>).</li>
+            <li>الحقن داخل العصب/داخل الحزمة العصبية ← إصابة عصبية دائمة محتملة.</li>
+            <li>ورم دموي نخاعي/نزيف فوق الجافية (نادر لكن كارثي) ← عند مضادات التخثر أو تقنية رضحية.</li>
+            <li>العدوى: خراج فوق الجافية، التهاب السحايا، عدوى موضعية.</li>
+            <li>فشل البلوك ← تحويل متسرع إلى تخدير عام تحت ضغط وإجهاد، مع خطر مضاعف.</li>
+        </ul>
+    </div>
+
+    <p><strong>الفلسفة التي أتبناها في هذا الفصل:</strong><br>
+    السلامة في التخدير الناحي ليست "ميزة إضافية"—إنها الشرط الأساسي لكل بلوك. بدونها، كل فائدة قد تتحول إلى كارثة.</p>
+
+    <div class="concept-box">
+        <h3>BOX 20.1 — المبدأ الجوهري لسلامة التخدير الناحي | Core Principle of Regional Anesthesia Safety</h3>
+        <p>التخدير الناحي يكون في أقصى أمانه عندما يجعل النظام من الصعب: أن تحقن الدواء الخطأ، في المكان الخطأ، للمريض الخطأ، في الوقت الخطأ.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>20.2 سلامة ما قبل الإجراء: "المريض الصحيح، البلوك الصحيح، الطرف الصحيح، الخطة الصحيحة" | Pre-Procedure Safety</h2>
+    
+    <h3>20.2.1 "Time-Out" البلوك: لا تختصره أبدًا <span class="english-term">| The Block "Time-Out": Never Shorten It</span></h3>
+    <p>حتى لو تم <span class="english-term">Time-Out</span> جراحي كامل في غرفة العمليات، أنا أُصر على <span class="english-term">Time-Out</span> خاص بالبلوك قبل إدخال الإبرة مباشرة.<br>
+    <strong>لماذا؟</strong></p>
+    <ul>
+        <li>البلوك غالبًا يحدث في موقع مختلف (غرفة بلوك منفصلة، الإفاقة <span class="english-term">PACU</span>، حتى في الجناح).</li>
+        <li>فريق مختلف (قد لا يكون الجراح حاضرًا).</li>
+        <li>وقت مختلف (قبل الجراحة بساعات، أو بعدها).</li>
+    </ul>
+    <p><strong>الحد الأدنى الذي يجب أن يُقال بصوت مسموع:</strong></p>
+    <ul>
+        <li>تحقق من هوية المريض (معرفان: الاسم، رقم السجل).</li>
+        <li>نوع البلوك والطرف (فخذي—يمين، بين الأخمعية—يسار، فوق الجافية—L3-4، إلخ).</li>
+        <li>الهدف: تسكين فقط أم تخدير كامل للإجراء؟</li>
+        <li>التحسس والأمراض المؤثرة (انقطاع النفس الانسدادي <span class="english-term">OSA</span>، صرع، قصور كبدي/قلبي).</li>
+        <li>حالة مضادات التخثر: النوع، آخر جرعة، وظائف الكُلى، خطة الإيقاف/الاستئناف.</li>
+        <li>خطة المخدر الموضعي: الدواء، التركيز، الحجم، الجرعة الإجمالية.</li>
+        <li>خطة الفشل: ماذا لو فشل البلوك؟ (تحويل إلى تخدير عام <span class="english-term">GA</span>، بلوك بديل، تسكين إضافي؟).</li>
+        <li>جاهزية الإنقاذ: أكسجين، شفط، أدوية الإنعاش، كيت الليبيد متاح وغير منتهي.</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>BOX 20.2 — قالب "Time-Out" للبلوك  | Block Time-Out Template</h3>
+        <p>✅ المريض: _____________ (المعرفان: ______)<br>
+        ✅ الإجراء المخطط: _____________<br>
+        ✅ البلوك المخطط: _____________ الطرف: ⬜ يمين ⬜ يسار ⬜ مركزي<br>
+        ✅ الهدف: ⬜ تسكين <span class="english-term">(Analgesia)</span> ⬜ تخدير <span class="english-term">(Anesthesia)</span><br>
+        ✅ مضادات التخثر: ____________ آخر جرعة: _____ الكرياتينين: _____<br>
+        ✅ المخدر الموضعي: ________ تركيز: ___% حجم: ___ مل<br>
+        ✅ الجرعة الإجمالية: ___ مجم = ___ مجم/كجم (الوزن: ___ كجم)<br>
+        ✅ خطة الفشل/البدائل: _________________<br>
+        ✅ جاهزية <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>: ⬜ كيت الليبيد متاح ⬜ دليل الجرعات موجود ⬜ أدوار الفريق محددة</p>
+    </div>
+
+    <h3>20.2.2 الموافقة وإدارة التوقعات: "لا أوقع فقط، بل أحمي" <span class="english-term">| Consent &amp; Expectation Management: "Not Just Signing, Protecting"</span></h3>
+    <p>الموافقة في التخدير الناحي ليست مجرد توقيع على ورقة—إنها إدارة توقعات وحماية للمريض.<br>
+    <strong>ما يجب أن يعرفه المريض:</strong></p>
+    <ul>
+        <li><strong>الفوائد:</strong> تسكين ألم ممتاز بعد الجراحة، تقليل الحاجة إلى الأفيونيات، تسريع التعافي والحركة المبكرة.</li>
+        <li><strong>الشائع:</strong> خدر/ضعف مؤقت في الطرف المستهدف (متوقع، طبيعي)، كدمات أو ألم موضعي خفيف في موقع الحقن.</li>
+        <li><strong>النادر لكن الخطير:</strong> إصابة عصبية (نادرة جدًا، لكن ممكنة)، عدوى/خراج (خصوصًا في القساطر)، نزيف/ورم دموي (خصوصًا مع مضادات التخثر)، تسمم المخدر الموضعي الجهازي (<span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>).</li>
+    </ul>
+    <div class="alert-box">
+        <p><strong>متى تقلق؟</strong><br>
+        إذا استمر الخدر/الضعف أكثر من الوقت المتوقع (مثلاً، أكثر من 24 ساعة لبلوك طرفي).<br>
+        ألم شديد في موقع البلوك، أو حمى، أو احمرار/إفراز.<br>
+        أي أعراض عصبية جديدة بعد البلوك النخاعي (ضعف في الساقين، صعوبة تبول، ألم ظهر شديد).</p>
+    </div>
+
+    <h3>20.2.3 وضعية المريض والإرجونوميكس: "هندسة المكان جزء من هندسة الأمان" <span class="english-term">| Patient Positioning &amp; Ergonomics</span></h3>
+    <p>الإرجونوميكس السيئة تزيد من: خطأ توجيه الإبرة، فقدان رؤية طرف الإبرة، الحقن داخل الأوعية بالخطأ.<br>
+    <strong>إعداد آمن للتخدير الناحي يشمل:</strong></p>
+    <ul>
+        <li>دعم مريح للمريض (وسائد، أشرطة، موظفون يمسكون الطرف إذا لزم).</li>
+        <li>وضعية مستقرة للطبيب (لا تميل، لا تنحني بشكل غير مريح).</li>
+        <li>شاشة الألتراساوند في خط النظر المباشر (ليس بزاوية 90 درجة).</li>
+        <li>مساحة كافية للمساعد، المراقبة، والوصول الطارئ.</li>
+    </ul>
+
+    <div class="concept-box">
+        <h3>BOX 20.3 — الحد الأدنى لإعداد غرفة/منطقة البلوك | Minimum Block Area Setup</h3>
+        <p>✅ مراقبة قياسية متاحة (<span class="english-term">SpO₂, ECG, BP</span>)<br>
+        ✅ شفط وأكسجين جاهزان فورًا<br>
+        ✅ وصول وريدي يعمل قبل الحقن<br>
+        ✅ أدوية الإنعاش في متناول اليد<br>
+        ✅ كيت الليبيد متاح وغير منتهي الصلاحية<br>
+        ✅ وسم موحد للسرنجات وتحضير المخدر الموضعي</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>20.3 التعقيم ومنع العدوى: "التقنية النظيفة هي حاجز أمان" | Asepsis and Infection Prevention</h2>
+    <p>العدوى في التخدير الناحي غير شائعة، لكنها خطيرة جدًا—خصوصًا للتقنيات النخاعية.</p>
+
+    <h3>20.3.1 حزمة التعقيم الأساسية <span class="english-term">| Basic Asepsis Bundle</span></h3>
+    <ul>
+        <li>غسل اليدين (قبل تحضير الأدوية، قبل ارتداء القفازات).</li>
+        <li>تطهير الجلد المناسب + وقت الجفاف الكامل (لا تتعجل—الكحول يحتاج 30 ثانية على الأقل).</li>
+        <li>قفازات معقمة وأغطية/شراشف حسب نوع البلوك ومعيار المؤسسة.</li>
+        <li>نظافة مسبار الألتراساوند: غطاء معقم + جل معقم للبلوكات الموجهة بالإبرة.</li>
+    </ul>
+
+    <h3>20.3.2 سلامة القسطرة (فوق الجافية/طرفية): "التركيب سهل، المتابعة هي الحماية" <span class="english-term">| Catheter Safety (Epidural/Peripheral)</span></h3>
+    <p>للقساطر:</p>
+    <ul>
+        <li>تثبيت آمن مع وسم واضح ("فوق الجافية فقط <span class="english-term">EPIDURAL ONLY</span>" أو "إحصار عصب طرفي-ساق يمنى <span class="english-term">PNB—RIGHT LEG</span>").</li>
+        <li>توثيق عمق القسطرة ومستوى/موقع الإدخال.</li>
+        <li>محاليل تسريب موحدة وتركيزات قياسية.</li>
+        <li>تقييم يومي لعلامات العدوى (احمرار، إفرازات، حمى، أعراض عصبية).</li>
+        <li>تعليمات واضحة لاستكشاف الأخطاء والإزالة.</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>BOX 20.4 — "لا تُفوّت أبدًا" في قساطر Epidural/RA | Never Miss in RA Catheters</h3>
+        <p>✅ وسم مسار القسطرة بوضوح (فوق الجافية مقابل طرفية)<br>
+        ✅ استخدام تركيزات قياسية ومكتبات مضخات<br>
+        ✅ توثيق الفحص العصبي الأساسي وفحوصات المتابعة<br>
+        ✅ تحديد تصعيد للضعف الجديد، تغييرات حسية، ألم ظهر شديد، حمى</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>20.4 سلامة الألتراساوند: تحويل الرؤية إلى تقليل الخطر | Ultrasound Safety</h2>
+    <p>الألتراساوند يحسّن الدقة، لكن فقط عندما يُستخدم بانضباط أمان.</p>
+
+    <h3>20.4.1 رؤية الإبرة ليست اختيارية <span class="english-term">| Needle Visualization is Not Optional</span></h3>
+    <p><strong>الهدف الأماني:</strong> الوعي المستمر بموقع طرف الإبرة.<br>
+    <strong>الأخطار الشائعة:</strong></p>
+    <ul>
+        <li>التفكير بأنك ترى الطرف عندما ترى فقط جسم الإبرة.</li>
+        <li>فقدان الطرف أثناء إعادة التوجيه.</li>
+        <li>الحقن عندما لا يكون الطرف مرئيًا.</li>
+    </ul>
+    <p><strong>سلوكيات الأمان:</strong></p>
+    <ul>
+        <li>توقف وأعد الحصول على طرف الإبرة عند عدم التأكد.</li>
+        <li>استخدم حركات صغيرة متحكم فيها.</li>
+        <li>حسّن عمق الصورة، الكسب، ووضع المسبار قبل التقدم.</li>
+    </ul>
+
+    <h3>20.4.2 سلامة الحقن: الوعي بالضغط وتقييم الانتشار <span class="english-term">| Injection Safety: Pressure Awareness &amp; Spread</span></h3>
+    <p>الضغط العالي للحقن قد يشير إلى وضع داخل الحزمة أو داخل العصب.<br>
+    <strong>الممارسة الآمنة تشمل:</strong></p>
+    <ul>
+        <li>حقن متدرج مع شفط متكرر.</li>
+        <li>مراقبة نمط الانتشار (يجب أن يكون مناسبًا، وليس "مقاومة ضيقة").</li>
+        <li>إيقاف الحقن إذا حدث ألم، تنمل، أو مقاومة عالية.</li>
+        <li>لا تُجبر الحقن أبدًا.</li>
+    </ul>
+
+    <h3>20.4.3 تجنب الحقن داخل الأوعية <span class="english-term">| Avoiding Intravascular Injection</span></h3>
+    <p>حتى مع الألتراساوند، يمكن أن يحدث الحقن داخل الأوعية. الأمان يتطلب تكرارًا:</p>
+    <ul>
+        <li>الشفط (مع الوعي بالقيود—الشفط السلبي لا يضمن عدم وجود وعاء).</li>
+        <li>الجرعات المتدرجة.</li>
+        <li>النظر في جرعة اختبار تحتوي على الإبينفرين عند الاقتضاء.</li>
+        <li>مراقبة مستمرة للمريض والجاهزية لعلاج <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>.</li>
+    </ul>
+
+    <div class="concept-box">
+        <h3>BOX 20.5 — قاعدة "3 رؤى" للألتراساوند (قبل الحقن) | Ultrasound "3 Views" Rule</h3>
+        <p>قبل الحقن، تأكد من:<br>
+        1️⃣ طرف الإبرة مرئي (وليس مفترضًا).<br>
+        2️⃣ التشريح المستهدف مؤكد (عصب/مستوى/أوعية).<br>
+        3️⃣ نمط الانتشار مناسب مع حقن اختبار صغير.</p>
+    </div>
+
+    <h3>20.4.4 قصة واقعية: عندما "فقدت" طرف الإبرة لثانية واحدة <span class="english-term">| Real Story: Losing the Needle Tip</span></h3>
+    <div class="scene-box">
+        <p><strong>القصة:</strong><br>
+        إحصار بين الأخمعية <span class="english-term">(Interscalene Block)</span> لجراحة كتف. مريض شاب، <span class="english-term">ASA I</span>، كل شيء مثالي. الألتراساوند واضح، الجذور العصبية مرئية، الأوعية بعيدة.<br>
+        أدخلت الإبرة، رأيت الطرف، تقدمت ببطء. ثم حركت المسبار قليلاً لضبط الزاوية—وفقدت رؤية الطرف لثانية واحدة.<br>
+        شيء داخلي قال: "لا تتحرك. أعد الرؤية أولاً."<br>
+        توقفت، أعدت وضع المسبار، وعندما عادت الرؤية، اكتشفت أن الإبرة كانت أقرب إلى الشريان الفقري مما ظننت—كنت على بُعد 2 مم فقط!<br>
+        لو كنت قد استمريت في الحقن "أعمى" لتلك الثانية، كان من الممكن أن أحقن داخل الشريان ← <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> فوري وشديد.<br>
+        <strong>الدرس:</strong> لا تحقن أبدًا عندما لا ترى الطرف. ثانية واحدة من "الثقة الزائدة" قد تكلف حياة.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>20.5 انضباط الجرعة: سلامة المخدر الموضعي = حساب + تقنية | Dosing Discipline</h2>
+    <p>أخطاء جرعة المخدر الموضعي هي مساهم رئيسي في <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>. انضباط الجرعة هو مهارة أمان جوهرية.</p>
+
+    <h3>20.5.1 خطوات أمان الجرعة الأدنى <span class="english-term">| Minimum Dosing Safety Steps</span></h3>
+    <ul>
+        <li>اعرف المخدر الموضعي المخطط: الدواء + التركيز + الحجم.</li>
+        <li>احسب إجمالي المليغرامات <span class="english-term">(mg)</span> والمليغرامات/كيلوجرام <span class="english-term">(mg/kg)</span>.</li>
+        <li><strong>عدّل لعوامل المريض:</strong> وزن منخفض/هشاشة، خلل كبدي (بعض الأدوية)، الحمل (حساسية متزايدة)، الأعمار القصوى، مرض قلبي (خطر أعلى إذا حدث <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>).</li>
+    </ul>
+
+    <h3>20.5.2 توحيد التركيزات والسرنجات حيثما أمكن <span class="english-term">| Standardization of Concentrations</span></h3>
+    <p>قلل التباين والخطأ عن طريق: تركيزات قياسية للبلوكات الشائعة، سرنجات موسومة باسم الدواء والتركيز وإجمالي المليغرامات، صينية منفصلة لأدوية التخدير الناحي.</p>
+
+    <h3>20.5.3 الحقن المتدرج وإعادة التقييم المتكرر <span class="english-term">| Fractionated Injection</span></h3>
+    <p>بدلاً من حقن الحجم الكامل بسرعة: احقن في جرعات صغيرة <span class="english-term">(aliquots)</span>، توقف لتقييم أعراض المريض والعلامات الحيوية، راقب علامات السمية المبكرة للجهاز العصبي المركزي.</p>
+
+    <div class="success-box">
+        <h3>BOX 20.6 — قائمة فحص جرعة المخدر الموضعي | Local Anesthetic Dosing Checklist</h3>
+        <p>✅ وزن المريض وعوامل الخطر ذات الصلة موثقة<br>
+        ✅ إجمالي mg محسوب ومسجل<br>
+        ✅ الجرعة القصوى المخططة محددة (مع هامش)<br>
+        ✅ خطة الحقن المتدرج مستخدمة<br>
+        ✅ المراقبة أثناء وبعد الحقن مضمونة</p>
+    </div>
+
+    <h3>20.5.4 قصة واقعية: عندما أنقذ الحساب حياة <span class="english-term">| Real Story: Calculation Saved a Life</span></h3>
+    <div class="scene-box">
+        <p><strong>القصة:</strong><br>
+        طفل عمره 8 سنوات، 25 كجم، كسر في الساعد. الخطة: إحصار الضفيرة العضدية (فوق الترقوة) <span class="english-term">(Supraclavicular Brachial Plexus Block)</span> لتسكين وتجنب التخدير العام.<br>
+        الطبيب المقيم (متحمس، ماهر تقنيًا) حضّر: بوبيفاكايين <span class="english-term">(Bupivacaine 0.5%)</span>، 20 مل.<br>
+        قلت: "انتظر. احسب الجرعة أولاً."<br>
+        قال: "20 مل من 0.5% = 100 مجم. عادي، أليس كذلك؟"<br>
+        قلت: "100 مجم لطفل 25 كجم = 4 مجم/كجم. الحد الأقصى الموصى به لـ بوبيفاكايين هو حوالي 2.5 مجم/كجم بدون إبينفرين. أنت فوق الحد بكثير!"<br>
+        صُدم. لم يكن قد فكر في مجم/كجم—كان يفكر فقط في "20 مل يبدو معقولاً".<br>
+        قلنا: استخدم 15 مل من 0.25% = 37.5 مجم = 1.5 مجم/كجم. نجح البلوك بشكل ممتاز، والطفل تعافى بدون مشاكل.<br>
+        لو كان قد حقن 100 مجم، كان الطفل في خطر جدي لـ <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>—اختلاجات، توقف قلب محتمل.<br>
+        <strong>الدرس:</strong> الحساب ليس "إضافة"—إنه خط الدفاع الأول. لا تعتمد على "يبدو معقولاً". احسب دائمًا مجم/كجم.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>20.6 مضادات التخثر وسلامة التخدير النخاعي: منع الكارثة النادرة | Anticoagulation and Neuraxial Safety</h2>
+    <p>ورم دموي نخاعي نادر لكنه مدمر. الأمان يتحقق من خلال:</p>
+    <ul>
+        <li>تقييم صحيح لمضادات التخثر/مضادات الصفيحات.</li>
+        <li>انضباط التوقيت للإدخال والإزالة.</li>
+        <li>مراقبة عصبية بعد التقنيات النخاعية.</li>
+        <li>خطة تصعيد للأعراض المشبوهة.</li>
+    </ul>
+
+    <h3>20.6.1 منطق الأمان (عملي) <span class="english-term">| Safety Logic</span></h3>
+    <p>خطر النزيف النخاعي يتأثر بـ: نوع مضاد التخثر (والجرعة)، توقيت آخر جرعة والجرعة التالية، وظيفة الكلى (تصفية الدواء)، إدخال إبرة رضحي أو محاولات متعددة، مضادات صفيحات متزامنة، عوامل المريض (أمراض العمود الفقري).</p>
+
+    <h3>20.6.2 محفزات "توقف ووضّح" <span class="english-term">| Stop and Clarify Triggers</span></h3>
+    <p>لا تستمر حتى يتم التوضيح عندما: توقيت مضاد التخثر غير معروف، المريض أخذ جرعة إضافية، وظيفة الكلى أسوأ من المتوقع، البلوك صعب/رضحي، يتم استخدام عوامل متعددة.</p>
+
+    <h3>20.6.3 مراقبة عصبية بعد النخاعي <span class="english-term">| Post-Neuraxial Neurological Monitoring</span></h3>
+    <p>نظام آمن يشمل: فحص عصبي أساسي موثق، تقييم مجدول بعد الإجراء لقوة الحركة والتغييرات الحسية، تصعيد واضح لـ (ضعف حركي جديد، خدر يتطور، ألم ظهر شديد، خلل في المثانة).</p>
+
+    <div class="alert-box">
+        <h3>BOX 20.7 — إشارات حمراء نخاعية (تصرف فورًا) | Neuraxial Red Flags</h3>
+        <p>أي ضعف حركي جديد، فقدان حسي متدرج، ألم ظهر شديد، أو خلل في المثانة/الأمعاء بعد البلوك النخاعي هو حالة طارئة حتى يثبت العكس. صعّد فورًا للتقييم العاجل والتصوير حسب مسار المؤسسة.</p>
+    </div>
+
+    <h3>20.6.4 قصة واقعية: المريض الذي "نسي" أن يخبرنا عن الـ Rivaroxaban <span class="english-term">| Real Story: Forgotten Anticoagulant</span></h3>
+    <div class="scene-box">
+        <p><strong>القصة:</strong><br>
+        سيدة في السبعينيات، جراحة ورك كاملة اختيارية. الخطة: تخدير نصفي <span class="english-term">(Spinal Anesthesia)</span>. في الاستشارة قبل الجراحة، سُئلت عن الأدوية—قالت: "فيتامينات وأدوية ضغط فقط."<br>
+        صباح الجراحة، قبل دقائق من البدء، الممرضة وجدت علبة في حقيبتها: ريفاروكسابان <span class="english-term">(Rivaroxaban 20 mg)</span> (مضاد تخثر فموي مباشر—<span class="english-term">DOAC</span>).<br>
+        سألناها: "متى آخر جرعة؟"<br>
+        قالت: "البارحة مساءً، كالعادة."<br>
+        ألغينا الـ <span class="english-term">Spinal</span> فورًا. ريفاروكسابان يحتاج توقف 72 ساعة على الأقل (مع وظيفة كلى طبيعية) قبل التخدير النخاعي. آخر جرعتها كانت أقل من 16 ساعة—خطر نزيف نخاعي مرتفع جدًا.<br>
+        أجّلنا الجراحة 3 أيام. عندما عادت (بعد 72 ساعة بدون ريفاروكسابان، وتأكيد وظائف الكلى)، أجرينا <span class="english-term">Spinal</span> بأمان.<br>
+        لو كنا قد استمرينا، وحدث ورم دموي نخاعي، كانت ستفقد القدرة على المشي—ربما للأبد.<br>
+        <strong>الدرس:</strong> "لم أنسَ" ليس دفاعًا. النظام الآمن يسأل مرتين، يوثق ثلاث مرات، ويتحقق من الصيدلية/السجلات الإلكترونية. مضادات التخثر ليست "تفصيلاً"—إنها خط أحمر.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>20.7 LAST: التعرف المبكر ينقذ الأرواح | LAST: Local Anesthetic Systemic Toxicity</h2>
+    <p>تسمم المخدر الموضعي الجهازي <span class="english-term">(LAST)</span> غير شائع لكنه مهدد للحياة. مفهوم الأمان الأساسي هو أن <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> قد يظهر بشكل خفي أولاً ويمكن أن يتطور بسرعة.</p>
+
+    <h3>20.7.1 علامات تحذير مبكرة (CNS) <span class="english-term">| Early CNS Warning Signs</span></h3>
+    <ul>
+        <li>طعم معدني، طنين، خدر حول الفم.</li>
+        <li>دوخة، إثارة، ارتباك.</li>
+        <li>رعاش، اختلاجات.</li>
+    </ul>
+
+    <h3>20.7.2 علامات قلبية وعائية <span class="english-term">| Cardiovascular Signs</span></h3>
+    <ul>
+        <li>انخفاض ضغط.</li>
+        <li>عدم انتظام ضربات القلب، كتلة توصيل.</li>
+        <li>توسع <span class="english-term">QRS</span>، عدم انتظام ضربات بطينية.</li>
+        <li>انهيار قلبي وعائي.</li>
+    </ul>
+
+    <h3>20.7.3 لماذا يُفوّت LAST؟ <span class="english-term">| Why is LAST Missed?</span></h3>
+    <p><span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> يمكن أن يُفوّت عندما: المريض مهدّأ ولا يستطيع الإبلاغ عن الأعراض، تُعزى الأعراض إلى القلق أو تأثيرات التهدئة، المراقبة غير كافية أو يتم تجاهل الإنذارات، الفريق غير معتاد على بروتوكول إنقاذ الليبيد.</p>
+
+    <div class="concept-box">
+        <h3>BOX 20.8 — LAST "افترض حتى يُستبعد" | LAST: Assume Until Excluded</h3>
+        <p>إذا أصيب مريض بأعراض عصبية غير مبررة، اختلاجات، أو عدم استقرار قلبي وعائي مفاجئ بعد حقن المخدر الموضعي بفترة قصيرة، عالج على أنه <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> محتمل حتى يثبت العكس.</p>
+    </div>
+
+    <!-- Simple Illustration 1: LAST Warning Signs -->
+    <div class="alert-box" style="margin: 30px 0;">
+        <h3 style="text-align: center; margin-bottom: 20px;">🚨 LAST Warning Signs | علامات تحذير LAST</h3>
+        
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 280px; background: #fff3cd; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
+                <h4 style="color: #856404; margin-bottom: 15px;">🧠 CNS Signs | علامات عصبية</h4>
+                <ul style="margin: 0; padding-left: 20px;">
+                    <li>طعم معدني | Metallic taste</li>
+                    <li>طنين | Tinnitus</li>
+                    <li>خدر حول الفم | Perioral numbness</li>
+                    <li>دوخة وارتباك | Dizziness, confusion</li>
+                    <li>رعاش واختلاجات | Tremors, seizures</li>
+                </ul>
+            </div>
+            
+            <div style="flex: 1; min-width: 280px; background: #f8d7da; padding: 20px; border-radius: 8px; border-left: 4px solid #dc3545;">
+                <h4 style="color: #721c24; margin-bottom: 15px;">💓 CV Signs | علامات قلبية</h4>
+                <ul style="margin: 0; padding-left: 20px;">
+                    <li>انخفاض ضغط | Hypotension</li>
+                    <li>عدم انتظام ضربات | Arrhythmias</li>
+                    <li>كتلة توصيل | Conduction block</li>
+                    <li>توسع QRS | QRS widening</li>
+                    <li>انهيار قلبي | Cardiac collapse</li>
+                </ul>
+            </div>
+        </div>
+        
+        <p style="margin-top: 20px; padding: 15px; background: #fff; border-radius: 8px; border: 2px solid #dc3545; text-align: center; font-weight: bold;">
+            ⚠️ If in doubt ← Treat as LAST | عند الشك ← عالج كـ LAST
+        </p>
+    </div>
+
+
+    <div class="divider">***</div>
+
+    <h2>20.8 إدارة LAST: مسار جاهز للفريق (إنقاذ الليبيد حساس للوقت) | LAST Management</h2>
+    <p>يجب أن تكون إدارة <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> موحدة ومتدربة. الهدف هو منع التأخير والارتباك.</p>
+
+    <h3>20.8.1 إجراءات فورية (الدقيقة الأولى) <span class="english-term">| Immediate Actions</span></h3>
+    <ul>
+        <li>أوقف حقن المخدر الموضعي فورًا.</li>
+        <li>اتصل بالمساعدة وفعّل استجابة الطوارئ.</li>
+        <li>ضمن الأكسجة والتهوية (تجنب نقص الأكسجة/الحماض الذي يزيد السمية سوءًا).</li>
+        <li>عالج الاختلاجات فورًا (البنزوديازيبينات شائعة الاستخدام؛ تجنب جرعات كبيرة من البروبوفول إذا كان غير مستقر).</li>
+        <li>استعد للدعم القلبي الوعائي.</li>
+    </ul>
+
+    <h3>20.8.2 علاج مستحلب الليبيد: اجعله متاحًا وموحدًا <span class="english-term">| Lipid Emulsion Therapy</span></h3>
+    <p>يجب أن يكون إنقاذ الليبيد: متاحًا فعليًا في مناطق البلوك و <span class="english-term">ORs</span>، غير منتهي، مفحوص بانتظام، مشمولاً في عربات الطوارئ، مدعومًا بمساعد إدراكي مطبوع مع الجرعات.</p>
+    <p><strong>جرعات الليبيد 20% (بناءً على إرشادات ASRA):</strong></p>
+    <ul>
+        <li><strong>بلعة (Bolus):</strong> 1.5 مل/كجم من ليبيد 20% بسرعة (حوالي دقيقة).</li>
+        <li><strong>ثم تسريب (Infusion):</strong> 0.25 مل/كجم/دقيقة.</li>
+        <li>يمكن تكرار البلعة إذا استمر الانهيار، وزيادة التسريب عند عدم الاستجابة.</li>
+    </ul>
+    <p>(يجب على مؤسستك إدراج نظام الجرعات الدقيق المستخدم محليًا والتأكد من مطابقته للتركيز المخزون.)</p>
+
+    <h3>20.8.3 اعتبارات الإنعاش القلبي الوعائي <span class="english-term">| CPR Considerations</span></h3>
+    <p>أثناء <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>: اتبع مبادئ دعم الحياة المتقدم <span class="english-term">(ALS)</span> مع التعرف على الاعتبارات الخاصة بالدواء، تجنب التأخير في علاج الليبيد، عالج عدم انتظام ضربات القلب حسب سياسة المؤسسة؛ أعطِ الأولوية للرعاية الداعمة وتصحيح نقص الأكسجة/الحماض.</p>
+
+
+    <!-- Simple Illustration 2: LAST Management Steps -->
+    <div class="success-box" style="margin: 30px 0;">
+        <h3 style="text-align: center; margin-bottom: 20px;">🚨 LAST Management Protocol | بروتوكول إدارة LAST</h3>
+        
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background: #28a745; color: white;">
+                    <th style="padding: 12px; text-align: center; width: 60px;">Step</th>
+                    <th style="padding: 12px; text-align: right;">Action | الإجراء</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background: #fff;">
+                    <td style="padding: 12px; text-align: center; font-weight: bold; font-size: 20px; border: 1px solid #ddd;">1️⃣</td>
+                    <td style="padding: 12px; border: 1px solid #ddd;">
+                        <strong>Stop LA injection + Call for help</strong><br>
+                        أوقف حقن المخدر الموضعي + اتصل بالمساعدة
+                    </td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 12px; text-align: center; font-weight: bold; font-size: 20px; border: 1px solid #ddd;">2️⃣</td>
+                    <td style="padding: 12px; border: 1px solid #ddd;">
+                        <strong>Airway/O₂/Ventilation</strong><br>
+                        مجرى الهواء + أكسجين + تهوية (تجنب نقص الأكسجة والحماض)
+                    </td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 12px; text-align: center; font-weight: bold; font-size: 20px; border: 1px solid #ddd;">3️⃣</td>
+                    <td style="padding: 12px; border: 1px solid #ddd;">
+                        <strong>Control seizures</strong><br>
+                        سيطر على الاختلاجات (Benzodiazepines)
+                    </td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 12px; text-align: center; font-weight: bold; font-size: 20px; border: 1px solid #ddd;">4️⃣</td>
+                    <td style="padding: 12px; border: 1px solid #ddd;">
+                        <strong>START LIPID EMULSION THERAPY</strong><br>
+                        ابدأ علاج مستحلب الليبيد:<br>
+                        • Bolus: <strong>1.5 ml/kg of 20% lipid</strong> (over ~1 min)<br>
+                        • Then infusion: <strong>0.25 ml/kg/min</strong><br>
+                        • Repeat bolus if collapse persists
+                    </td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 12px; text-align: center; font-weight: bold; font-size: 20px; border: 1px solid #ddd;">5️⃣</td>
+                    <td style="padding: 12px; border: 1px solid #ddd;">
+                        <strong>Continue CPR + Transfer to ICU</strong><br>
+                        استمر في الإنعاش + انقل إلى العناية المركزة
+                    </td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 12px; text-align: center; font-weight: bold; font-size: 20px; border: 1px solid #ddd;">6️⃣</td>
+                    <td style="padding: 12px; border: 1px solid #ddd;">
+                        <strong>Document + Debrief + Report</strong><br>
+                        وثّق + ناقش + أبلغ
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p style="margin-top: 20px; padding: 15px; background: #28a745; color: white; border-radius: 8px; text-align: center; font-weight: bold;">
+            ⏱️ Time-sensitive! Lipid must be immediately available | حساس للوقت! الليبيد يجب أن يكون متاحاً فوراً
+        </p>
+    </div>
+
+    <div class="success-box">
+        <h3>BOX 20.9 — مساعد إدراكي لـ LAST (علّقه في منطقة البلوك وعلى كيت الليبيد) | LAST Cognitive Aid</h3>
+        <p><strong>🚨 LAST محتمل — افعل الآن</strong><br>
+        1️⃣ أوقف حقن المخدر الموضعي <span class="english-term">(LA)</span>؛ اتصل بالمساعدة<br>
+        2️⃣ مجرى الهواء/الأكسجين/التهوية (تجنب نقص الأكسجة والحماض)<br>
+        3️⃣ سيطر على الاختلاجات<br>
+        4️⃣ ابدأ علاج مستحلب الليبيد حسب البروتوكول<br>
+        5️⃣ استمر في الإنعاش وانقل إلى العناية المركزة <span class="english-term">(ICU)</span> للمراقبة بعد الاستقرار<br>
+        6️⃣ وثّق الحدث؛ ناقش وأبلغ<br>
+        (يجب أن تُدرج مؤسستك نظام جرعات الليبيد الدقيق المستخدم محليًا وتتأكد من مطابقته للتركيز المخزون.)</p>
+    </div>
+
+    <h3>20.8.4 قصة واقعية: عندما أنقذ الليبيد حياة (القصة الافتتاحية مكررة بتفاصيل الإنقاذ) <span class="english-term">| Lipid Saved a Life</span></h3>
+    <p>(تم سردها في البداية—المريض الذي قال "طعم معدني"، تطور إلى تشنج، وأُنقذ بـ بلعة ليبيد 120 مل + تسريب.)<br>
+    <strong>النقطة الأساسية:</strong> الليبيد لم يكن "خيارًا نجربه"—كان العلاج المنقذ للحياة. لو لم يكن متاحًا في الغرفة، لكان كل شيء مختلفًا.</p>
+
+    <div class="divider">***</div>
+
+    <h2>20.9 البلوكات المستمرة وسلامة التسريب: منع السمية المتأخرة والأذى من المسار الخاطئ | Continuous Blocks and Infusion Safety</h2>
+    <p>البلوكات العصبية الطرفية المستمرة وفوق الجافية تُدخل نوافذ خطر ممتدة: أخطاء برمجة التسريب، تركيز خاطئ، مسار خاطئ (فوق الجافية مقابل وريدي)، هجرة أو انزياح القسطرة، خطر الجرعة التراكمية.</p>
+
+    <h3>20.9.1 ممارسات أمان التسريب القياسية <span class="english-term">| Standard Infusion Safety Practices</span></h3>
+    <ul>
+        <li>استخدام مضخات ذكية ومكتبات أدوية.</li>
+        <li>تركيزات قياسية (معتمدة من القسم).</li>
+        <li>أنابيب وقساطر موسومة ("فوق الجافية فقط <span class="english-term">EPIDURAL ONLY</span>").</li>
+        <li>فحص مستقل مزدوج للتسريبات الجديدة.</li>
+        <li>مراجعة يومية للحالة العصبية وتأثير التسريب.</li>
+    </ul>
+
+    <div class="alert-box">
+        <h3>BOX 20.10 — "أحداث لا ينبغي أن تحدث أبدًا" في تسريب Epidural/البلوكات المستمرة—يجب منعها | Never Events in Continuous Blocks</h3>
+        <p>❌ إعطاء عبر المسار الخاطئ (دواء وريدي في فوق الجافية أو العكس)<br>
+        ❌ قسطرة أو أنابيب غير موسومة<br>
+        ❌ تركيز غير قياسي بدون تبرير<br>
+        ❌ مضخة بدون حواجز حماية المكتبة</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>20.10 منع إصابة العصب: التقنية، ملاحظات المريض، والتوثيق | Preventing Nerve Injury</h2>
+    <p>إصابة العصب نادرة لكنها مقلقة. الأمان يعتمد على: تقليل التلامس الرضحي للإبرة، التوقف إذا حدث ألم شديد/تنمل، تجنب الحقن ضد المقاومة، استخدام الألتراساوند للحفاظ على مستويات آمنة، توثيق الحالة العصبية الأساسية والتغييرات بعد العملية.</p>
+
+    <h3>20.10.1 التواصل مع المريض أثناء البلوكات (حتى مع التهدئة) <span class="english-term">| Patient Communication</span></h3>
+    <p>التهدئة المفرطة يمكن أن تقمع الأعراض التحذيرية. أبقِ التهدئة خفيفة بما يكفي لـ: السماح بالإبلاغ عن التنمل أو الألم، الحفاظ على ردود فعل حماية عند الاقتضاء.</p>
+
+    <h3>20.10.2 المراقبة والمتابعة بعد البلوك <span class="english-term">| Post-Block Monitoring</span></h3>
+    <p>وثّق: نوع البلوك والطرف، نوع وجرعة المخدر الموضعي، استجابة المريض، المدة المتوقعة، تعليمات لطاقم الإفاقة/الجناح والمريض (متى يجب التصعيد).</p>
+
+    <div class="divider">***</div>
+
+    <h2>20.11 التنفيذ: بناء نظام سلامة RA قسمي | Implementation: Building a Departmental RA Safety System</h2>
+    <p>سلامة التخدير الناحي تتحسن عندما يُعامل كخط خدمة بمعايير محددة: التدريب وتقييم الكفاءة، صواني بلوك قياسية ومسار عمل تحضير الأدوية، قوائم فحص و <span class="english-term">Time-Outs</span>، كيتات <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> ومساعدات إدراكية، تدقيق وتغذية راجعة (حوادث قريبة، نجاح البلوك، مضاعفات).</p>
+
+    <h3>20.11.1 مؤشرات الجودة (أمثلة) <span class="english-term">| Quality Indicators</span></h3>
+    <p>الامتثال لتوثيق <span class="english-term">Time-Out</span> للتخدير الناحي، معدل حساب الجرعة الموثق، توافر وفحوصات انتهاء صلاحية كيتات الليبيد، معدلات إتمام محاكاة <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span>، الإبلاغ عن المضاعفات المتعلقة بالبلوك والمراجعة.</p>
+
+    <div class="concept-box">
+        <h3>BOX 20.11 — لوحة معلومات سلامة RA (بسيطة وعملية) | RA Safety Dashboard</h3>
+        <ul>
+            <li>% حالات <span class="english-term">RA</span> بـ <span class="english-term">Time-Out</span> موثق للبلوك</li>
+            <li>% حالات بحساب جرعة المخدر الموضعي <span class="english-term">(LA)</span> مسجل</li>
+            <li>توافر كيت الليبيد والامتثال لانتهاء الصلاحية</li>
+            <li>مشاركة في محاكاة <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> (% الطاقم/سنة)</li>
+            <li>عدد الحوادث المتعلقة بالبلوك وإجراءات التعلم المكتملة</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>20.12 تدريبات المحاكاة والمناقشة: مهارات الأمان يجب أن تُمارس | Simulation Drills and Debriefing</h2>
+    <p><span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> وورم دموي نخاعي نادران؛ لذلك، فرص التعلم الحقيقية محدودة. المحاكاة ضرورية.</p>
+
+    <h3>20.12.1 الحد الأدنى من تدريبات المحاكاة لاستدامة الأمان <span class="english-term">| Minimum Simulation Drills</span></h3>
+    <ul>
+        <li>تدريب التعرف على <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> + إنقاذ الليبيد.</li>
+        <li>تدريب منع الموقع/البلوك الخاطئ (انضباط <span class="english-term">Time-Out</span>).</li>
+        <li>سيناريو منع خطأ المسار الخاطئ للقسطرة.</li>
+        <li>سيناريو التعرف على "الإشارة الحمراء" النخاعية والتصعيد.</li>
+    </ul>
+
+    <h3>20.12.2 مناقشة ما بعد الحدث والتقاط التعلم <span class="english-term">| Post-Event Debriefing</span></h3>
+    <p>بعد أي حدث رئيسي أو حادث قريب: مناقشة 5 دقائق (ماذا حدث، ما الذي نجح، ما الذي أخر الاستجابة)، أبلغ من خلال نظام الأمان، حدّث قائمة الفحص، التدريب، والتخزين حسب الحاجة.</p>
+
+    <div class="concept-box">
+        <h3>BOX 20.12 — قالب مناقشة 5 دقائق بعد الحدث | 5-Minute Debrief Template</h3>
+        <ul>
+            <li>ماذا حدث (الجدول الزمني)؟</li>
+            <li>ما الذي تم التعرف عليه مبكرًا مقابل متأخر؟</li>
+            <li>أي دفاع نجح (مراقبة، قائمة فحص، تواصل)؟</li>
+            <li>ما الذي فشل (معدات، عملية، معرفة، طاقم)؟</li>
+            <li>إجراء تحسين واحد (المالك + الموعد النهائي).</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+
+    <!-- Simple Illustration 3: RA Safety Checklist -->
+    <div class="concept-box" style="margin: 30px 0;">
+        <h3 style="text-align: center; margin-bottom: 20px;">✅ Regional Anesthesia Safety Checklist | قائمة سلامة التخدير الناحي</h3>
+        
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background: #17a2b8; color: white;">
+                    <th style="padding: 10px; text-align: right;">Safety Item | عنصر السلامة</th>
+                    <th style="padding: 10px; text-align: center; width: 80px;">✓</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>Pre-procedure timeout</strong> (Right patient, block, side)<br>
+                        توقف قبل الإجراء (المريض الصحيح، البلوك، الجانب)
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>Sterile technique</strong> (Chlorhexidine, sterile gloves/drape)<br>
+                        تقنية معقمة (كلوروهكسيدين، قفازات/غطاء معقم)
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>Dose calculation verified</strong> (Max dose, kg-based)<br>
+                        الجرعة محسوبة ومُتحقق منها (الحد الأقصى، حسب الوزن)
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>Monitoring in place</strong> (ECG, BP, SpO₂)<br>
+                        المراقبة موجودة (تخطيط القلب، الضغط، الأكسجة)
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>IV access functional</strong><br>
+                        الوريد يعمل
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>Lipid rescue available</strong> (in room or <2 min away)<br>
+                        إنقاذ الليبيد متاح (في الغرفة أو أقل من دقيقتين)
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>Aspiration before injection</strong> (Negative for blood)<br>
+                        الشفط قبل الحقن (سلبي للدم)
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>Incremental injection</strong> (3-5 ml aliquots with pauses)<br>
+                        حقن تدريجي (3-5 مل مع توقفات)
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+                <tr style="background: #f8f9fa;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>Patient able to report symptoms</strong> (or sedation protocol)<br>
+                        المريض قادر على الإبلاغ (أو بروتوكول تهدئة)
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        <strong>Post-procedure neuro check documented</strong><br>
+                        فحص عصبي بعد الإجراء موثق
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">☐</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h2>20.13 أدوات نهاية الفصل | End-of-Chapter Tools</h2>
+
+    <h3>20.13.1 مسرد سريع <span class="english-term">| Quick Glossary</span></h3>
+    <ul>
+        <li><strong>LAST:</strong> السمية الجهازية من التعرض للمخدر الموضعي تسبب انهيار الجهاز العصبي المركزي والقلب الوعائي.</li>
+        <li><strong>الحقن المتدرج <span class="english-term">(Fractionated Injection)</span>:</strong> جرعات صغيرة مع إعادة تقييم لتقليل خطر الجرعات داخل الأوعية.</li>
+        <li><strong>ورم دموي نخاعي <span class="english-term">(Neuraxial Hematoma)</span>:</strong> نزيف في القناة الشوكية يضغط الأعصاب—نادر، كارثي، حساس للوقت.</li>
+        <li><strong>مساعد إدراكي <span class="english-term">(Cognitive Aid)</span>:</strong> دليل إنقاذ خطوة بخطوة مطبوع يُستخدم أثناء الأزمة.</li>
+    </ul>
+
+    <h3>20.13.2 أسئلة تأملية (اجتماع أمان القسم) <span class="english-term">| Reflection Questions</span></h3>
+    <ul>
+        <li>هل لدينا <span class="english-term">Time-Out</span> مخصص لـ <span class="english-term">RA</span>، وهل يُقاس الامتثال؟</li>
+        <li>هل إنقاذ الليبيد متاح في كل منطقة بلوك ويُفحص لانتهاء الصلاحية؟</li>
+        <li>هل حسابات جرعة المخدر الموضعي مسجلة باستمرار؟</li>
+        <li>هل لدينا مسار تصعيد واضح للإشارة الحمراء النخاعية يعرفه طاقم الجناح/الإفاقة؟</li>
+        <li>هل نجري تدريبات محاكاة <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> سنويًا على الأقل، وهل يكملها الطاقم الجديد مبكرًا؟</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>خلاصة الفصل (نقاط الاستمرارية) | Chapter Summary</h3>
+        <ul>
+            <li>التخدير الناحي مفيد جدًا لكنه حساس للسلامة.</li>
+            <li>الأمان يعتمد على <span class="english-term">Time-Outs</span>، التعقيم، انضباط الألتراساوند والحقن، وحساب الجرعة.</li>
+            <li>مضادات التخثر والبلوكات النخاعية تتطلب انضباط التوقيت وأنظمة تصعيد الإشارة الحمراء.</li>
+            <li><span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> نادر لكنه حساس للوقت؛ يجب أن يكون إنقاذ الليبيد متاحًا، موحدًا، ومتدربًا عليه.</li>
+            <li>المحاكاة والتدقيق تحافظان على الأمان لأن الأحداث الحقيقية غير شائعة.</li>
+        </ul>
+    </div>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة ختامية: النظام الذي نسعى لتحقيقه منذ ذلك اليوم | Closing Story</span>
+        <p>بعد حادثة "الطعم المعدني"، حملنا رسالة:<br>
+        "لن ندع مريضًا آخر يعاني من <span class="english-term">LAST (Local Anesthetic Systemic Toxicity - السمية الجهازية للمخدر الموضعي)</span> بسبب عدم توفر كيت الليبيد، أو تأخر الفريق، أو نقص التدريب."<br>
+        كل محاكاة <span class="english-term">LAST (Local Anesthetic Systemic Toxicity)</span> نديرها، كل <span class="english-term">Time-Out</span> نصر عليه، كل حساب جرعة نكتبه—هو امتداد لذلك النظام.</p>
+        <p><strong>هذا الفصل ليس "معلومات"—إنه نظام حماية. إذا أخذت منه شيئًا واحدًا:</strong><br>
+        "كيت الليبيد في الغرفة، <span class="english-term">Time-Out</span> قبل الإبرة، والحساب قبل الحقن—هذه ليست ‘إضافات’، إنها خطوط الحياة."</p>
+    </div>
+
+    <div class="divider">***</div>
+    <div style="text-align: center; color: #6b7280; margin-top: 20px;">End of Chapter 20</div>
+    
+</div>
+
+
+<!-- ANESTHESIA-COMMENTS-V3 -->
+<style>
+
+  /* COMMENTS SECTION */
+  .comments-section {
+    margin-top: 60px; padding: 30px;
+    background: white; border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 20px rgba(30,58,138,0.06);
+  }
+  .comments-title {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 22px; font-weight: 800; color: #1e3a8a;
+    margin-bottom: 14px;
+    border-bottom: 3px solid #dbeafe; padding-bottom: 14px;
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .comments-title .en-sub {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px; color: #6b7280; font-weight: 400;
+    direction: ltr;
+  }
+  .comments-desc {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #6b7280; margin-bottom: 24px; line-height: 1.6;
+  }
+  .comment-form {
+    background: #f8faff; border-radius: 10px; padding: 24px;
+    margin-bottom: 28px; border: 1px solid #dbeafe;
+  }
+  .form-row { display: flex; gap: 16px; margin-bottom: 16px; }
+  .form-group { flex: 1; }
+  .form-group label {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 13px; font-weight: 600; color: #374151;
+    display: block; margin-bottom: 6px;
+  }
+  .optional { font-weight: 400; color: #9ca3af; font-size: 11px; }
+  .required-mark { color: #ef4444; }
+  .form-group input, .form-group textarea {
+    width: 100%; padding: 10px 14px;
+    border: 1px solid #d1d5db; border-radius: 8px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #374151;
+    background: white; transition: border-color 0.2s;
+    direction: rtl;
+  }
+  .form-group input:focus, .form-group textarea:focus {
+    outline: none; border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+  }
+  .form-group textarea { resize: vertical; min-height: 110px; }
+  .form-actions { align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .rating-group { display: flex; align-items: center; gap: 10px; }
+  .rating-group label { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #374151; white-space: nowrap; }
+  .stars { display: flex; gap: 4px; direction: ltr; }
+  .star { font-size: 24px; color: #d1d5db; cursor: pointer; transition: color 0.1s; line-height: 1; }
+  .star.active { color: #f59e0b; }
+  .submit-btn {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; font-weight: 700;
+    background: #1e3a8a; color: white;
+    border: none; padding: 12px 24px;
+    border-radius: 8px; cursor: pointer;
+    transition: background 0.2s; white-space: nowrap;
+  }
+  .submit-btn:hover { background: #1e40af; }
+  .comments-list { display: flex; flex-direction: column; gap: 16px; }
+  .comment-card {
+    background: white; border: 1px solid #e5e7eb;
+    border-radius: 10px; padding: 18px 20px;
+  }
+  .comment-card.new-comment { border-color: #93c5fd; background: #f0f7ff; }
+  .comment-header {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 12px; flex-wrap: wrap;
+  }
+  .comment-avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: #1e3a8a; color: white;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 16px; font-weight: 700; flex-shrink: 0;
+  }
+  .comment-meta { flex: 1; min-width: 100px; }
+  .comment-name { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; font-weight: 700; color: #1e3a8a; display: block; }
+  .comment-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #6b7280; }
+  .comment-stars { color: #f59e0b; font-size: 14px; }
+  .comment-date { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #9ca3af; }
+  .comment-text { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #374151; line-height: 1.7; }
+
+  @media (max-width: 600px) {
+    .form-row { flex-direction: column; }
+    .form-actions { flex-direction: column; }
+    .submit-btn { width: 100%; text-align: center; }
+  }
+
+</style>
+
+<div class="comments-section">
+  <h2 class="comments-title">
+    <span>&#x1F4AC;</span> شاركنا رأيك
+    <span class="en-sub">Share Your Thoughts</span>
+  </h2>
+  <div class="comments-desc">هل لديك تعليق أو سؤال أو ملاحظة حول هذا الفصل؟ نرحب بمشاركتك وآرائك</div>
+
+  <form class="comment-form" onsubmit="submitComment(event)">
+    <div class="form-row">
+      <div class="form-group">
+        <label>الاسم <span class="optional">(اختياري)</span></label>
+        <input type="text" id="cName" placeholder="اكتب اسمك هنا..." />
+      </div>
+      <div class="form-group">
+        <label>التخصص <span class="optional">(اختياري)</span></label>
+        <input type="text" id="cRole" placeholder="طبيب، ممرض، طالب..." />
+      </div>
+    </div>
+    <div class="form-group" style="margin-bottom:16px;">
+      <label>تعليقك <span class="required-mark">*</span></label>
+      <textarea id="cText" rows="5" placeholder="اكتب تعليقك أو سؤالك هنا..."></textarea>
+    </div>
+    <div class="form-row form-actions">
+      <div class="rating-group">
+        <label>تقييم الفصل:</label>
+        <div class="stars" id="starRating">
+          <span class="star" onclick="setRating(1)">&#9733;</span>
+          <span class="star" onclick="setRating(2)">&#9733;</span>
+          <span class="star" onclick="setRating(3)">&#9733;</span>
+          <span class="star" onclick="setRating(4)">&#9733;</span>
+          <span class="star" onclick="setRating(5)">&#9733;</span>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn">&#x2190; إرسال التعليق</button>
+    </div>
+  </form>
+
+  <div id="commentsContainer" class="comments-list"></div>
+</div>
+
+<script>
+  var _rating = 0;
+  function setRating(v) {
+    _rating = v;
+    document.querySelectorAll('.star').forEach(function(s,i){ s.classList.toggle('active', i < v); });
+  }
+  function submitComment(e) {
+    e.preventDefault();
+    var text = document.getElementById('cText').value.trim();
+    if (!text) { alert('الرجاء كتابة تعليقك أولاً'); return; }
+    var name = document.getElementById('cName').value.trim() || 'زائر';
+    var role = document.getElementById('cRole').value.trim();
+    var stars = _rating > 0 ? '&#9733;'.repeat(_rating) + '&#9734;'.repeat(5-_rating) : '&#9733;&#9733;&#9733;&#9733;&#9733;';
+    var colors = ['#1e3a8a','#7c3aed','#059669','#d97706','#dc2626'];
+    var color = colors[Math.floor(Math.random()*colors.length)];
+    var card = document.createElement('div');
+    card.className = 'comment-card new-comment';
+    card.innerHTML =
+      '<div class="comment-header">' +
+        '<div class="comment-avatar" style="background:' + color + '">' + (name[0]||'ز') + '</div>' +
+        '<div class="comment-meta">' +
+          '<span class="comment-name">' + name + '</span>' +
+          (role ? '<span class="comment-role">' + role + '</span>' : '') +
+        '</div>' +
+        '<div class="comment-stars">' + stars + '</div>' +
+        '<span class="comment-date">الآن</span>' +
+      '</div>' +
+      '<p class="comment-text">' + text + '</p>';
+    var container = document.getElementById('commentsContainer');
+    container.prepend(card);
+    e.target.reset();
+    _rating = 0;
+    document.querySelectorAll('.star').forEach(function(s){ s.classList.remove('active'); });
+    card.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+</script>
+
+</body></html>

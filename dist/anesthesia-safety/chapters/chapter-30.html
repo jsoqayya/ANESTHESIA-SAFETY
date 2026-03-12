@@ -1,0 +1,1916 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head>
+<style>
+/* إصلاح responsive لجميع الشاشات */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  max-width: 100vw !important;
+  padding: 20px 15px 120px 15px !important;
+}
+
+/* إصلاح الصور والجداول */
+img, table, pre, code {
+  max-width: 100% !important;
+  height: auto !important;
+  overflow-x: auto !important;
+}
+
+/* إصلاح العناصر الكبيرة */
+div, p, h1, h2, h3, h4, h5, h6 {
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* responsive للموبايل */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px !important;
+    padding: 15px 10px 120px 10px !important;
+  }
+  
+  h1 { font-size: 1.8rem !important; }
+  h2 { font-size: 1.5rem !important; }
+  h3 { font-size: 1.3rem !important; }
+}
+</style>
+<script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ1OTQzZDdlNWZhYTIxZjcyOTJjMzI3MGY3ZDBjNWJmNDE5MjJmOTciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzVmNTllYTVhMmI5ZDQ5NmRf2KfZhNmB2LXZhCAzMCAtINmI2KfYrNmH2KfYqiDYp9mE2LnZhtin2YrYqSDYp9mE2YXYsdmD2LLYqSDZiNin2YTYsdi52KfZitipINin2YTYrdix2KzYqS5odG1sLTgxMCJ9LCJleHAiOjE3NzAyMTg2MzEsImlhdCI6MTc3MDIxNTAzMSwiYWxnIjoiUlMyNTYifQ.mt60TXSG4GbKZTzON_ULr23ipPJvQsIE93fgZr8eu-HjG9OW9BhgBKr4TwZQJZqYW8gHUJcub6KWItlkBiCaZvBxSNYZeOOGWOvh6QAoENyZfRKZfiiENpzevfWeVAfusIjjFGRhGkJL3OMQhDGcyCPGStWNXq4B8QFL0DMkLqIWJgS5RhtMUQlpujiyRdvsMHoUljchRTXAyzdx1gIxyc2TADcTr4Tq5NdpAZfVQcEM2DDYsC1mBLZZnoU1jKbibY7V_gGO0dvGmVuiwSDlZ0mx2DDeUotf4IsuoP57LdQ0Gof491VaCXKFyCJ-yMMqrIMmTE9LSTlk9vNDDN_E8Q","c_5f59ea5a2b9d496d_الفصل 30 - واجهات العناية المركزة والرعاية الحرجة.html-810")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-09-2025","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل 30: واجهات العناية المركزة والرعاية الحرجة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+        --box-gray: #f8fafc;
+        --box-gray-border: #64748b;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+      
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+        text-indent: 0;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+        direction: ltr; 
+      }
+      
+      .subtitle span {
+         display: block;
+         direction: rtl;
+         margin-bottom: 5px;
+      }
+
+      /* Quotes and Important Boxes */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Scene Box Style */
+      .scene-box {
+        background-color: #f8fafc;
+        border-right: 5px solid var(--box-gray-border);
+        padding: 20px 25px;
+        font-style: italic;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #374151;
+      }
+      
+      .scene-title {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: block;
+        color: #1e293b;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      /* Special text styling */
+      strong {
+        color: #111827;
+        font-weight: 700;
+      }
+      
+      /* Tables Custom Styling */
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-family: 'Amiri', serif;
+          font-size: 0.95em;
+          background-color: #fff;
+          border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+          background-color: var(--primary-blue);
+          color: #ffffff;
+          text-align: right;
+          font-family: 'Noto Kufi Arabic', sans-serif;
+          font-weight: 600;
+      }
+      
+      th, td {
+          padding: 12px 15px;
+          border: 1px solid #e5e7eb;
+          vertical-align: top;
+      }
+      
+      th {
+          color: #ffffff;
+          border: 1px solid #1e40af;
+      }
+      
+      tbody tr:nth-of-type(even) {
+          background-color: #f9fafb;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+      
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* Print adjustments */
+      @media print {
+        .download-container { display: none; }
+        body { padding: 0; padding-top: 0; }
+        h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        .quote-box, .alert-box, .success-box, .concept-box, .scene-box, th {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .page-break { page-break-after: always; }
+      }
+      
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+        table { display: block; overflow-x: auto; }
+      }
+    </style>
+  <style>
+/* ===== RESPONSIVE FIXES: Mobile & Tablet ===== */
+
+/* منع overflow أفقي */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+}
+
+/* محتوى الفصل */
+body > * {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* الجداول */
+table {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  display: block !important;
+  border-collapse: collapse !important;
+}
+td, th {
+  word-break: break-word !important;
+  min-width: 60px !important;
+  padding: 8px 6px !important;
+  font-size: clamp(12px, 3vw, 15px) !important;
+}
+
+/* الصور */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* div و section */
+div, section, article, aside {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* حجم الخط التكيفي */
+p, li, td, th, span, label {
+  font-size: clamp(14px, 4vw, 17px) !important;
+  line-height: 1.85 !important;
+}
+
+h1 { font-size: clamp(20px, 6vw, 36px) !important; line-height: 1.4 !important; }
+h2 { font-size: clamp(18px, 5vw, 28px) !important; line-height: 1.4 !important; }
+h3 { font-size: clamp(16px, 4.5vw, 22px) !important; line-height: 1.45 !important; }
+h4 { font-size: clamp(15px, 4vw, 19px) !important; }
+
+/* تابلت */
+@media (max-width: 768px) {
+  body {
+    padding: 65px 14px 30px !important;
+    font-size: 15px !important;
+  }
+
+  /* الكود والنصوص المنسقة */
+  pre, code {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+    font-size: 13px !important;
+  }
+
+  /* الشبكات والصفوف الجانبية */
+  .grid, .flex-row, .columns, [class*="col-"], [class*="grid-"] {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  /* الفقرات والمقاطع */
+  .chapter-content, .content, .section, article {
+    padding: 0 !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* هاتف */
+@media (max-width: 480px) {
+  body {
+    padding: 62px 10px 25px !important;
+    font-size: 14px !important;
+  }
+
+  table {
+    font-size: 12px !important;
+  }
+  td, th {
+    padding: 6px 4px !important;
+  }
+
+  /* الشريط العلوي */
+  .as-top-nav {
+    padding: 7px 10px !important;
+    gap: 5px !important;
+  }
+  .as-nav-link {
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+  }
+}
+/* ===== END RESPONSIVE FIXES ===== */
+</style>
+</head>
+  <body style="padding-top: 65px;">
+<style>
+  /* ANESTHESIA SAFETY NAVBAR */
+  .as-top-nav {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 99999 !important;
+    background-color: #1e3a8a !important;
+    padding: 10px 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2) !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+    box-sizing: border-box !important;
+  }
+  .as-nav-brand {
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+  .as-nav-logo {
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 50% !important;
+    background: rgba(255,255,255,0.15) !important;
+    border: 2px solid rgba(255,255,255,0.3) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+  .as-nav-links {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+  }
+  .as-nav-link {
+    background: rgba(255,255,255,0.12) !important;
+    color: white !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    text-decoration: none !important;
+    transition: background 0.2s !important;
+    white-space: nowrap !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    font-weight: 600 !important;
+  }
+  .as-nav-link:hover { background: rgba(255,255,255,0.25) !important; }
+  .as-nav-link.as-prev { background: rgba(37,99,235,0.4) !important; }
+  .as-nav-link.as-next { background: rgba(37,99,235,0.4) !important; }
+  body { padding-top: 60px !important; }
+  @media (max-width: 600px) {
+    .as-top-nav { padding: 8px 12px !important; }
+    .as-nav-brand span.as-brand-text { display: none !important; }
+    .as-nav-link { font-size: 12px !important; padding: 5px 10px !important; }
+  }
+</style>
+<nav class="as-top-nav">
+  <a href="/anesthesia-safety/" class="as-nav-brand">
+    <div class="as-nav-logo">🩺</div>
+    <span class="as-brand-text">دليل السلامة في التخدير</span>
+  </a>
+  <div class="as-nav-links">
+    <a href="/anesthesia-safety/chapter/29" class="as-nav-link as-prev">← السابق: الفصل 29</a>
+    <a href="/anesthesia-safety/chapters/" class="as-nav-link">📚 الفصول</a>
+    <a href="/portal" class="as-nav-link">🏠 المنصة</a>
+    <a href="/anesthesia-safety/chapter/31" class="as-nav-link as-next">التالي: الفصل 31 →</a>
+  </div>
+</nav>
+
+
+    <!-- Download Bar -->
+    
+
+    <!-- Header Section -->
+    <div class="part-title">Part IV — Patient Safety Across the Perioperative Pathway</div>
+    <div class="part-title">الجزء الرابع — سلامة المريض عبر المسار المحيط بالجراحة</div>
+
+                            
+    <h1>CHAPTER 30 — ICU and Critical Care Interfaces</h1>
+    <div class="subtitle"><strong>الفصل الثلاثون — واجهات العناية المركزة والرعاية الحرجة</strong></div>
+    
+
+<div class="divider">***</div>
+
+    <h2>🎯 أهداف الفصل | Chapter Aims</h2>
+    <div class="concept-box">
+        <p><strong>بنهاية هذا الفصل، ستكون قادرًا على:</strong></p>
+        <ul>
+            <li>شرح لماذا تُعتبر واجهة غرفة العمليات-العناية المركزة <span class="english-term">(OR–ICU interface)</span> مجالًا رئيسيًا لسلامة المرضى، حيث غالبًا ما ينتج الضرر من فجوات التسليم <span class="english-term">(handover gaps)</span>، مخاطر النقل <span class="english-term">(transport hazards)</span>، أخطاء التهدئة <span class="english-term">(sedation errors)</span>، ومضاعفات الأجهزة <span class="english-term">(device complications)</span>.</li>
+            <li>تقديم إدارة آمنة للمجرى التنفسي <span class="english-term">(safe airway management)</span> في سياقات العناية المركزة، بما في ذلك حالات "المجرى التنفسي الصعب فيزيولوجيًا <span class="english-term">(physiologically difficult airway)</span>" والاستقرار بعد التنبيب <span class="english-term">(post-intubation stabilization)</span>.</li>
+            <li>تطبيق مبادئ سلامة التهدئة والتسكين <span class="english-term">(sedation and analgesia safety principles)</span> في المرضى الحرجين: أهداف واضحة <span class="english-term">(clear targets)</span>، إعادة تقييم يومية <span class="english-term">(daily reassessment)</span>، والوقاية من التهدئة المفرطة <span class="english-term">(oversedation)</span>، الهذيان <span class="english-term">(delirium)</span>، والانسحاب <span class="english-term">(withdrawal)</span>.</li>
+            <li>تقليل الضرر المتعلق بالأجهزة <span class="english-term">(device-related harm)</span> من خلال ممارسات موحدة للخطوط المركزية <span class="english-term">(central lines)</span>، الخطوط الشريانية <span class="english-term">(arterial lines)</span>، أجهزة التنفس <span class="english-term">(ventilators)</span>، مضخات التسريب <span class="english-term">(infusion pumps)</span>، وأنابيب التغذية <span class="english-term">(feeding tubes)</span>.</li>
+            <li>تطبيق أنظمة النقل والتحويل <span class="english-term">(transport and transfer systems)</span> التي تحافظ على استمرارية الأكسجة <span class="english-term">(oxygenation)</span>، التهوية <span class="english-term">(ventilation)</span>، التروية <span class="english-term">(perfusion)</span>، والمراقبة <span class="english-term">(monitoring continuity)</span>.</li>
+            <li>بناء مؤشرات جودة <span class="english-term">(quality indicators)</span> تلتقط سلامة واجهة العناية المركزة: فطام غير مخطط <span class="english-term">(unplanned extubations)</span>، حوادث نقل <span class="english-term">(transport incidents)</span>، عدوى الخطوط <span class="english-term">(line infections)</span>، الضرر المتعلق بالتهدئة <span class="english-term">(sedation-related harm)</span>، وأنماط فشل الإنقاذ <span class="english-term">(failure-to-rescue patterns)</span>.</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>قصة البداية: انفصال أنبوب التنبيب أثناء نقل مريض للأشعة</h2>
+    <div class="scene-box">
+        <p>كانت الساعة الثالثة فجرًا. مريض في العناية المركزة يحتاج لأشعة مقطعية طارئة. كان على جهاز تنفس، خطوط وريدية متعددة، أدوية ضاغطة، تهدئة عميقة.<br>
+        قال المقيم الشاب: "جاهزون للنقل."<br>
+        سألت: "هل فحصت الأكسجين الاحتياطي؟ البطاريات؟ تأمين الأنبوب؟"<br>
+        أجاب بثقة: "كل شيء تحت السيطرة."</p>
+        <p>في منتصف الطريق إلى الأشعة، رنّ إنذار جهاز التنفس. انفصل الأنبوب. انخفض التشبع من 98% إلى 75% في ثوانٍ.<br>
+        صدر أمر بإيقاف النقل وإعادة التوصيل.<br>
+        حاولنا إعادة التوصيل، لكن الأنبوب كان غير محكم التثبيت. المريض بدأ يصبح أزرق. لم يكن لدينا معدات إعادة التنبيب الكاملة في عربة النقل.<br>
+        استغرق الأمر دقيقتين حرجتين. نجحنا في النهاية، لكن بصعوبة بالغة.</p>
+        <p>بعدها، تبين أن النقل ليس "بسيطًا" كما نتصور. النقل يحتاج لأنظمة سلامة محددة.<br>
+        <strong>ذلك اليوم تعلمنا:</strong> واجهة العناية المركزة ليست "مجرد امتداد لغرفة العمليات". إنها بيئة عالية الخطورة بمخاطرها الخاصة، وتحتاج لأنظمة سلامة خاصة بها.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.1 لماذا واجهات العناية المركزة عالية الخطورة: مرضى معقدون، فيزيولوجيا هشة، وانتقالات كثيرة | Why ICU Interfaces Are High-Risk</h2>
+    <p>بيئة العناية المركزة <span class="english-term">(ICU environment)</span> تحتوي على أمرض المرضى <span class="english-term">(sickest patients)</span>، أعلى كثافة أجهزة <span class="english-term">(highest device density)</span>، وأكثر الانتقالات تكرارًا <span class="english-term">(most frequent transitions)</span>:</p>
+    <ul>
+        <li>غرفة العمليات ← دخول العناية المركزة <span class="english-term">(OR ← ICU admission)</span> بعد جراحة كبرى.</li>
+        <li>العناية المركزة ← غرفة العمليات <span class="english-term">(ICU ← OR)</span> للسيطرة على المصدر، النزيف، أو إجراءات طارئة.</li>
+        <li>إجراءات عند سرير العناية المركزة <span class="english-term">(ICU bedside procedures)</span> (تنبيب، خطوط مركزية، تنظير قصبي).</li>
+        <li>نقل للأشعة المقطعية/الرنين/الأشعة التداخلية والعودة <span class="english-term">(transport to CT/MRI/IR and return)</span>.</li>
+        <li>تصعيد وتقليل دعم الحياة <span class="english-term">(escalation and de-escalation of life support)</span>.</li>
+    </ul>
+
+    <p><strong>مشكلة السلامة ليست فقط التعقيد السريري. إنها مزيج من:</strong></p>
+    <ul>
+        <li>فيزيولوجيا غير مستقرة <span class="english-term">(unstable physiology)</span>.</li>
+        <li>أجهزة وتسريبات متعددة <span class="english-term">(multiple devices and infusions)</span>.</li>
+        <li>مسؤولية مجزأة عبر الفرق <span class="english-term">(fragmented responsibility across teams)</span>.</li>
+        <li>مقاطعات وأولويات متنافسة <span class="english-term">(interruptions and competing priorities)</span>.</li>
+        <li>نقل معلومات تحت ضغط الوقت <span class="english-term">(information transfer under time pressure)</span>.</li>
+    </ul>
+    <p>لذلك، مشاركة التخدير في سلامة العناية المركزة تتطلب عقلية نظامية <span class="english-term">(system mindset)</span>: الاستمرارية <span class="english-term">(continuity)</span>، التوحيد القياسي <span class="english-term">(standardization)</span>، والجاهزية للإنقاذ <span class="english-term">(rescue readiness)</span>.</p>
+
+    <div class="alert-box">
+        <h3>الإطار 30.1 — قاعدة سلامة واجهة العناية المركزة | BOX 30.1 — ICU Interface Safety Rule</h3>
+        <p>معظم الضرر القابل للوقاية في واجهة العناية المركزة <span class="english-term">(Most preventable ICU-interface harm)</span> يأتي من:<br>
+        (1) فشل المجرى التنفسي/التهوية <span class="english-term">(airway/ventilation failure)</span>،<br>
+        (2) انهيار ديناميكي دموي <span class="english-term">(hemodynamic collapse)</span>،<br>
+        (3) أخطاء التهدئة/التسكين <span class="english-term">(sedation/analgesia errors)</span>،<br>
+        (4) مضاعفات الأجهزة/الخطوط <span class="english-term">(device/line complications)</span> - غالبًا أثناء الانتقالات <span class="english-term">(often during transitions)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.2 المجرى التنفسي في العناية المركزة ليس فقط صعبًا تشريحيًا - إنه صعب فيزيولوجيًا | The ICU Airway: Physiologically Difficult</h2>
+    <p>العديد من مجاري التنفس في العناية المركزة "سهلة الرؤية" لكنها خطيرة للإجراء. فيزيولوجيا المريض لا تتحمل انقطاع التنفس <span class="english-term">(apnea)</span>، انخفاض ضغط التحريض <span class="english-term">(induction hypotension)</span>، أو تغيرات التهوية <span class="english-term">(ventilation changes)</span>.</p>
+
+    <h3>30.2.1 التهديدات الفيزيولوجية التي تجعل التنبيب في العناية المركزة عالي الخطورة <span class="english-term">| Physiologic Threats in ICU Intubation</span></h3>
+    <ul>
+        <li>نقص أكسجة الدم مع احتياطي ضئيل <span class="english-term">(hypoxemia with minimal reserve)</span> (متلازمة الضائقة التنفسية الحادة <span class="english-term">ARDS</span>، التهاب رئوي <span class="english-term">pneumonia</span>).</li>
+        <li>صدمة واعتماد على الأدوية الضاغطة <span class="english-term">(shock and vasopressor dependence)</span>.</li>
+        <li>حماض شديد <span class="english-term">(severe acidosis)</span> (مثلاً، إنتان <span class="english-term">sepsis</span>، حماض كيتوني سكري <span class="english-term">DKA</span>) حيث التهوية تعويضية <span class="english-term">(where ventilation is compensatory)</span>.</li>
+        <li>فشل بطين أيمن أو ارتفاع ضغط شرياني رئوي <span class="english-term">(right ventricular failure or pulmonary hypertension)</span>.</li>
+        <li>ارتفاع الضغط داخل الجمجمة واحتياطي دماغي منخفض <span class="english-term">(high intracranial pressure and reduced cerebral reserve)</span>.</li>
+        <li>نزيف مستمر أو فقر دم <span class="english-term">(ongoing bleeding or anemia)</span>.</li>
+    </ul>
+    <p>هؤلاء المرضى يمكن أن يتدهوروا أثناء إدارة المجرى التنفسي حتى لو كان وضع الأنبوب ناجحًا تقنيًا.</p>
+
+    <h3>30.2.2 هدف السلامة للمجرى التنفسي في العناية المركزة <span class="english-term">| ICU Airway Safety Objective</span></h3>
+    <p>الهدف ليس "التنبيب بسرعة". الهدف هو:</p>
+    <ul>
+        <li>الأكسجة محافَظ عليها <span class="english-term">(oxygenation maintained)</span>.</li>
+        <li>التروية محافَظ عليها <span class="english-term">(perfusion maintained)</span>.</li>
+        <li>استراتيجية التهوية متوائمة مع الفيزيولوجيا <span class="english-term">(ventilation strategy aligned to physiology)</span>.</li>
+        <li>الاستقرار بعد التنبيب مكتمل فورًا <span class="english-term">(post-intubation stabilization completed immediately)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">انهيار الضغط بعد التنبيب في مريض إنتان</span>
+        <p>السيد عمر، 55 عامًا، في العناية المركزة مع إنتان شديد. كان يتنفس بسرعة (40 نفس/دقيقة) لتعويض الحماض. الأكسجين 88% رغم الأكسجين العالي.<br>
+        احتجنا لتنبيبه. التنبيب نفسه كان "سهلاً" - رؤية ممتازة، أنبوب دخل من المحاولة الأولى.<br>
+        لكن بعد دقيقتين من التنبيب، انهار ضغطه من 90 إلى 40. القلب تسارع إلى 140.<br>
+        <strong>لماذا؟ لأننا:</strong></p>
+        <ul>
+            <li>أوقفنا تنفسه التعويضي السريع (فارتفع الحماض أكثر).</li>
+            <li>أعطيناه أدوية تحريض خفضت ضغطه.</li>
+            <li>لم نكن جاهزين بأدوية ضاغطة فورية.</li>
+        </ul>
+        <p>استغرق الأمر خمس دقائق حرجة لاستعادة الاستقرار.<br>
+        <strong>الدرس المستفاد:</strong> في العناية المركزة، الجزء الصعب غالبًا هو النجاة من التنبيب، وليس وضع الأنبوب.</p>
+    </div>
+
+    <div class="concept-box">
+        <h3>الإطار 30.2 — مبدأ المجرى التنفسي في العناية المركزة | BOX 30.2 — ICU Airway Principle</h3>
+        <p>في العناية المركزة <span class="english-term">(In ICU)</span>، الجزء الصعب غالبًا هو النجاة من التنبيب <span class="english-term">(surviving the intubation)</span>، وليس وضع الأنبوب <span class="english-term">(not placing the tube)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.3 التنبيب في العناية المركزة: تسلسل السلامة وانضباط التصعيد | ICU Intubation: Safety Sequence</h2>
+    <p>التنبيب الموثوق في العناية المركزة منظم مثل التحريض في غرفة العمليات لكنه مُكيَّف مع الفيزيولوجيا الهشة.</p>
+
+    <h3>30.3.1 إجراءات السلامة قبل التنبيب (منهجية) <span class="english-term">| Pre-intubation Safety Actions</span></h3>
+    <ul>
+        <li>حدد المؤشر والإلحاح <span class="english-term">(define indication and urgency)</span>.</li>
+        <li>قيّم المجرى التنفسي وخطر الاستنشاق <span class="english-term">(assess airway and aspiration risk)</span>.</li>
+        <li>استراتيجية الأكسجة المسبقة مُحسَّنة <span class="english-term">(preoxygenation strategy optimized)</span>.</li>
+        <li>الشفط جاهز <span class="english-term">(suction ready)</span>.</li>
+        <li>أدوية ضاغطة مُحضَّرة <span class="english-term">(vasopressor prepared)</span> (جرعة دفع وجاهزية تسريب <span class="english-term">push-dose and infusion readiness</span> حسب السياسة المحلية).</li>
+        <li>عيّن الأدوار <span class="english-term">(assign roles)</span>: قائد مجرى تنفسي <span class="english-term">(airway lead)</span>، أدوية <span class="english-term">(drugs)</span>، مراقبة <span class="english-term">(monitoring)</span>، مساعد <span class="english-term">(assistant)</span>، عدّاء <span class="english-term">(runner)</span>.</li>
+        <li>أكّد خطط احتياطية واطلب المساعدة مبكرًا إذا كان الخطر عاليًا <span class="english-term">(confirm backup plans and call for help early if risk high)</span>.</li>
+    </ul>
+
+    <h3>30.3.2 الأكسجة المسبقة في العناية المركزة: الدقيقة الأكثر قيمة <span class="english-term">| Preoxygenation in ICU</span></h3>
+    <p>الأكسجة المسبقة <span class="english-term">(Preoxygenation)</span> صعبة بسبب التحويلة والاحتياطي الضعيف <span class="english-term">(shunt and poor reserve)</span>. استراتيجيات عملية تشمل:</p>
+    <ul>
+        <li>حسّن الوضعية <span class="english-term">(optimize position)</span> (الرأس لأعلى <span class="english-term">head-up</span> عندما يكون ممكنًا).</li>
+        <li>اضمن إحكام قناع محكم وتدفق عالٍ <span class="english-term">(ensure tight mask seal and high flow)</span>.</li>
+        <li>اعتبر استراتيجيات تحافظ على الأكسجة أثناء انقطاع التنفس <span class="english-term">(consider strategies that maintain oxygenation during apnea)</span> عندما تكون متاحة.</li>
+        <li>اشفط الإفرازات وقلل التأخيرات <span class="english-term">(suction secretions and minimize delays)</span>.</li>
+    </ul>
+
+    <h3>30.3.3 الاستقرار بعد التنبيب: الخطوة التي تمنع التوقف <span class="english-term">| Post-intubation Stabilization</span></h3>
+    <p>بعد وضع الأنبوب:</p>
+    <ul>
+        <li>أكّد بموجة ثاني أكسيد الكربون <span class="english-term">(confirm with ETCO₂ waveform)</span>.</li>
+        <li>ثبّت الأنبوب وتحقق من العمق <span class="english-term">(secure tube and verify depth)</span>.</li>
+        <li>اضبط استراتيجية جهاز التنفس المناسبة للفيزيولوجيا <span class="english-term">(set ventilator strategy appropriate to physiology)</span>.</li>
+        <li>عالج انخفاض الضغط فورًا <span class="english-term">(treat hypotension immediately)</span> (أدوية ضاغطة <span class="english-term">vasopressors</span>، سوائل <span class="english-term">fluids</span>، عدّل التهدئة <span class="english-term">adjust sedation</span>).</li>
+        <li>أعد تقييم الأكسجة، التهوية، الديناميكا الدموية، وعمق التهدئة <span class="english-term">(reassess oxygenation, ventilation, hemodynamics, and sedation depth)</span>.</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>الإطار 30.3 — "لا تفوّت أبدًا" في تنبيب العناية المركزة | BOX 30.3 — ICU Intubation “Never Miss”</h3>
+        <p>أكسج مسبقًا <span class="english-term">(Preoxygenate)</span> • أدوية ضاغطة جاهزة <span class="english-term">(Pressors ready)</span> • تأكيد موجة <span class="english-term">ETCO₂ (ETCO₂ waveform confirmation)</span> • ثبّت الأنبوب <span class="english-term">(Secure tube)</span> • اضبط جهاز التنفس <span class="english-term">(Ventilator set)</span> • عالج انخفاض الضغط مبكرًا <span class="english-term">(Treat hypotension early)</span> • أعد التقييم خلال دقائق <span class="english-term">(Reassess within minutes)</span>.</p>
+    </div>
+
+
+    <!-- ILLUSTRATION 30.1 -->
+    <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 12px; padding: 2rem; margin: 2rem 0; border-right: 6px solid #d32f2f;">
+        <h4 style="color: #d32f2f; margin: 0 0 1.5rem 0; font-size: 1.3rem; text-align: right;">
+            <i class="fas fa-lungs" style="margin-left: 0.5rem;"></i>
+            الشكل 30.1: تسلسل السلامة للتنبيب في العناية المركزة
+        </h4>
+        <div style="display: grid; gap: 1rem;">
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #1976d2;">
+                <strong style="color: #1976d2;">1. الاستعداد (5-10 دقائق)</strong>
+                <div style="margin-top: 0.5rem; margin-right: 1.5rem;">✓ الفريق + المعدات + الأدوية + خطة B جاهزة</div>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #388e3c;">
+                <strong style="color: #388e3c;">2. الأكسجة المسبقة (3-5 دقائق)</strong>
+                <div style="margin-top: 0.5rem; margin-right: 1.5rem;">الهدف: SpO₂ ≥95% | الطريقة: NIV أو High-Flow O₂</div>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #d32f2f;">
+                <strong style="color: #d32f2f;">3. الاستقرار الدوراني</strong>
+                <div style="margin-top: 0.5rem; margin-right: 1.5rem;">أدوية ضاغطة جاهزة (Norepinephrine, Epinephrine, Push-dose Epi)</div>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #f57c00;">
+                <strong style="color: #f57c00;">4. التحريض والتنبيب (90 ثانية)</strong>
+                <div style="margin-top: 0.5rem; margin-right: 1.5rem;">Ketamine/Etomidate + Rocuronium | المحاولة الأولى = أفضل محاولة</div>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #7b1fa2;">
+                <strong style="color: #7b1fa2;">5. التثبيت الفوري (60 ثانية)</strong>
+                <div style="margin-top: 0.5rem; margin-right: 1.5rem;">✓ تأكيد EtCO₂ ✓ تثبيت الأنبوب ✓ ضبط التهوية ✓ معالجة انخفاض BP</div>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #00796b;">
+                <strong style="color: #00796b;">6. إعادة التقييم (5 دقائق)</strong>
+                <div style="margin-top: 0.5rem; margin-right: 1.5rem;">SpO₂ مستقر؟ MAP >65? EtCO₂ طبيعي؟ CXR للتحقق</div>
+            </div>
+        </div>
+        <div style="background: #fff3cd; padding: 1rem; border-radius: 8px; margin-top: 1rem; border-right: 4px solid #ffc107;">
+            <strong style="color: #f57c00;">💡 القاعدة:</strong> المريض في ICU ليس لديه احتياطي — الاستعداد المثالي إلزامي
+        </div>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.4 التهدئة والتسكين في العناية المركزة: السلامة تعتمد على الأهداف وإعادة التقييم | Sedation and Analgesia in ICU</h2>
+    <p>التهدئة <span class="english-term">(Sedation)</span> ليست فقط راحة. يمكن أن تسبب ضررًا:</p>
+    <ul>
+        <li>تثبيط تنفسي وتأخر الفطام <span class="english-term">(respiratory depression and delayed extubation)</span>.</li>
+        <li>انخفاض ضغط وانخفاض تروية الأعضاء <span class="english-term">(hypotension and reduced organ perfusion)</span>.</li>
+        <li>هذيان وتأثير إدراكي طويل الأمد <span class="english-term">(delirium and long-term cognitive impact)</span>.</li>
+        <li>متلازمات انسحاب عند الإيقاف المفاجئ <span class="english-term">(withdrawal syndromes when stopped abruptly)</span>.</li>
+        <li>إخفاء التدهور العصبي <span class="english-term">(masking neurologic deterioration)</span>.</li>
+    </ul>
+    <p>لذلك، التهدئة في العناية المركزة يجب أن تُعامل كعلاج مضبوط <span class="english-term">(controlled therapy)</span> مع أهداف وتقييم مستمر.</p>
+
+    <h3>30.4.1 إطار سلامة التهدئة: "حدد الهدف، عاير، أعد التقييم" <span class="english-term">| Sedation Safety Framework</span></h3>
+    <p>نظام تهدئة موثوق يتطلب:</p>
+    <ul>
+        <li>هدف تهدئة مُحدَّد <span class="english-term">(a sedation goal defined)</span> (مثلاً، تهدئة خفيفة <span class="english-term">light sedation</span> عندما يكون مناسبًا).</li>
+        <li>تفكير التسكين أولاً <span class="english-term">(analgesia-first thinking)</span> (عالج الألم، ثم هدّئ إذا لزم).</li>
+        <li>معايرة بدلاً من جرعة ثابتة <span class="english-term">(titration rather than fixed dosing)</span>.</li>
+        <li>إعادة تقييم يومية وفحوصات جاهزية التقليل <span class="english-term">(daily reassessment and weaning readiness checks)</span>.</li>
+        <li>توثيق واضح لسبب التهدئة العميقة إذا استُخدمت <span class="english-term">(clear documentation of reason for deep sedation if used)</span> (مثلاً، متلازمة ضائقة تنفسية حادة شديدة <span class="english-term">severe ARDS</span>، عدم تزامن جهاز تنفس <span class="english-term">ventilator dyssynchrony</span>).</li>
+    </ul>
+
+    <h3>30.4.2 تجنب التهدئة المفرطة: ضرر شائع قابل للوقاية <span class="english-term">| Avoiding Oversedation</span></h3>
+    <p>التهدئة المفرطة <span class="english-term">(Oversedation)</span> تزيد:</p>
+    <ul>
+        <li>أيام جهاز التنفس <span class="english-term">(ventilator days)</span>.</li>
+        <li>خطر الهذيان <span class="english-term">(delirium risk)</span>.</li>
+        <li>ضعف العناية المركزة <span class="english-term">(ICU weakness)</span>.</li>
+        <li>خطر الاستنشاق والالتهاب الرئوي <span class="english-term">(aspiration and pneumonia risk)</span>.</li>
+        <li>إقامة مطوّلة في المستشفى <span class="english-term">(prolonged hospitalization)</span>.</li>
+    </ul>
+    <p><strong>إجراءات السلامة:</strong></p>
+    <ul>
+        <li>استخدم أقل جرعة فعالة <span class="english-term">(use the lowest effective dose)</span>.</li>
+        <li>أعد التقييم بشكل متكرر <span class="english-term">(reassess frequently)</span>.</li>
+        <li>تجنب تكديس مهدئات متعددة دون خطة واضحة <span class="english-term">(avoid stacking multiple sedatives without a clear plan)</span>.</li>
+        <li>اعتبر تدابير راحة غير دوائية عندما يكون ممكنًا <span class="english-term">(consider non-pharmacologic comfort measures when possible)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">التهدئة المفرطة تؤخر التعافي</span>
+        <p>السيدة سعاد، 62 عامًا، في العناية المركزة بعد جراحة. كانت "مضطربة قليلاً"، فأعطيناها مهدئات. ثم زدنا الجرعة "لراحتها".<br>
+        بعد ثلاثة أيام، كانت لا تزال على جهاز التنفس. بعد خمسة أيام، لا تزال نائمة عميقًا. بعد أسبوع، بدأنا نتساءل: "لماذا لا تستيقظ؟"<br>
+        لم تكن "لا تستطيع الاستيقاظ". كنا "لا نسمح لها بالاستيقاظ".<br>
+        عندما قللنا التهدئة تدريجيًا، استيقظت في يومين. لكننا خسرنا أسبوعًا كاملاً من التعافي - أسبوع من ضعف العضلات، خطر العدوى، والمعاناة غير الضرورية.<br>
+        <strong>الدرس المستفاد:</strong> التهدئة العميقة تبدو وكأنها "رحمة"، لكنها غالبًا "عقوبة".</p>
+    </div>
+
+    <div class="success-box">
+        <h3>الإطار 30.4 — حزمة سلامة التهدئة | BOX 30.4 — Sedation Safety Bundle</h3>
+        <p>حدد الهدف <span class="english-term">(Define target)</span> • التسكين أولاً <span class="english-term">(Analgesia-first)</span> • عاير بحذر <span class="english-term">(Titrate cautiously)</span> • أعد التقييم يوميًا <span class="english-term">(Reassess daily)</span> • تجنب مزيجات مسببة للهذيان <span class="english-term">(Avoid deliriogenic combinations)</span> • خطط للتقليل والوقاية من الانسحاب <span class="english-term">(Plan weaning and withdrawal prevention)</span>.</p>
+    </div>
+
+
+    <!-- ILLUSTRATION 30.2 -->
+    <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 12px; padding: 2rem; margin: 2rem 0; border-right: 6px solid #7b1fa2;">
+        <h4 style="color: #7b1fa2; margin: 0 0 1.5rem 0; font-size: 1.3rem; text-align: right;">
+            <i class="fas fa-bed" style="margin-left: 0.5rem;"></i>
+            الشكل 30.2: لوحة متابعة سلامة التهدئة اليومية
+        </h4>
+        <div style="display: grid; gap: 1rem;">
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #e91e63;">
+                <strong style="color: #e91e63; font-size: 1.1rem;">اليوم 1-3: التهدئة المبكرة (مرحلة حرجة)</strong>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin-top: 0.75rem;">
+                    <div style="background: #fce4ec; padding: 0.75rem; border-radius: 6px; text-align: center;">
+                        <strong>RASS: -2 إلى 0</strong><br><small>نائم لكن يصحو بسهولة</small>
+                    </div>
+                    <div style="background: #fce4ec; padding: 0.75rem; border-radius: 6px; text-align: center;">
+                        <strong>التسكين أولاً</strong><br><small>NRS ≤3</small>
+                    </div>
+                    <div style="background: #fce4ec; padding: 0.75rem; border-radius: 6px; text-align: center;">
+                        <strong>Propofol أو Dex</strong><br><small>تجنب العميق</small>
+                    </div>
+                </div>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #ff9800;">
+                <strong style="color: #ff9800; font-size: 1.1rem;">اليوم 4-7: التقييم والتخفيف (مرحلة تحسن)</strong>
+                <div style="margin-top: 0.75rem; margin-right: 1rem;">
+                    <div>• <strong>SAT يومي:</strong> إيقاف التهدئة صباحاً ومراقبة 4 ساعات</div>
+                    <div>• <strong>CAM-ICU:</strong> فحص الهذيان مرتين يومياً</div>
+                    <div>• <strong>الحركة المبكرة:</strong> من السرير ← الكرسي يومياً</div>
+                </div>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #4caf50;">
+                <strong style="color: #4caf50; font-size: 1.1rem;">اليوم 8+: التحرر من التهدئة (مرحلة تعافي)</strong>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; margin-top: 0.75rem;">
+                    <div style="background: #e8f5e9; padding: 0.5rem; border-radius: 4px;">✓ تهدئة متقطعة فقط</div>
+                    <div style="background: #e8f5e9; padding: 0.5rem; border-radius: 4px;">✓ RASS هدف 0</div>
+                    <div style="background: #e8f5e9; padding: 0.5rem; border-radius: 4px;">✓ تسكين عند الطلب</div>
+                    <div style="background: #e8f5e9; padding: 0.5rem; border-radius: 4px;">✓ SBT يومياً</div>
+                </div>
+            </div>
+        </div>
+        <div style="background: #e3f2fd; padding: 1rem; border-radius: 8px; margin-top: 1rem; border-right: 4px solid #1976d2;">
+            <strong style="color: #1565c0;">💡 المبدأ:</strong> أفضل تهدئة هي الأقل — سَكِّن بهدف، خفّف يومياً
+        </div>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.5 الوقاية من الهذيان وممارسة العناية المركزة الواقية للدماغ | Delirium Prevention and Brain-Protective ICU Practice</h2>
+    <p>الهذيان <span class="english-term">(Delirium)</span> شائع في العناية المركزة وله عواقب كبيرة. استراتيجية التهدئة <span class="english-term">(Sedation strategy)</span> هي أحد أكثر المحركات القابلة للتعديل <span class="english-term">(most modifiable drivers)</span>.</p>
+
+    <h3>30.5.1 إجراءات عملية للوقاية من الهذيان <span class="english-term">| Practical Delirium Prevention Actions</span></h3>
+    <ul>
+        <li>تجنب التهدئة العميقة <span class="english-term">(avoid deep sedation)</span> إلا عند الإشارة الواضحة.</li>
+        <li>وفّر إشارات إعادة التوجيه <span class="english-term">(provide reorientation cues)</span> (دورة النهار/الليل <span class="english-term">day/night cycle</span>، سماعات/نظارات <span class="english-term">hearing aids/glasses</span>).</li>
+        <li>قلل الاضطرابات الليلية والضوضاء <span class="english-term">(minimize nighttime disturbances and noise)</span>.</li>
+        <li>حرّك مبكرًا عندما يكون ممكنًا <span class="english-term">(mobilize early when feasible)</span>.</li>
+        <li>أدِر الألم بشكل كافٍ <span class="english-term">(manage pain adequately)</span>.</li>
+        <li>تجنب الأدوية المضادة للكولين أو النفسية غير الضرورية <span class="english-term">(avoid unnecessary anticholinergic or psychoactive medications)</span>.</li>
+        <li>عالج المحفزات الأيضية والعدوى فورًا <span class="english-term">(treat metabolic and infectious triggers promptly)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">الهذيان في العناية المركزة: بيئة سيئة تحتاج إصلاح</span>
+        <p>الحاج حسن، 75 عامًا، في العناية المركزة بعد جراحة قلب. في اليوم الثاني، أصبح مضطربًا، يصرخ، يحاول نزع الأنابيب.<br>
+        أعطيناه مهدئًا قويًا. أصبح الوضع أسوأ - بدأ يهلوس، لا يعرف أين هو، لا يتعرف على أولاده.<br>
+        <strong>راجعنا الحالة: ماذا فعلنا خطأ؟ اكتشفنا:</strong></p>
+        <ul>
+            <li>كان يرتدي نظارات، لكننا أخذناها منه (لم يستطع رؤية أي شيء بوضوح).</li>
+            <li>كانت الأضواء مضاءة طوال الليل (فقد الإحساس بالوقت).</li>
+            <li>لم يكن يتحرك من السرير لأيام (ضعف وارتباك).</li>
+            <li>الألم لم يكن مسيطرًا عليه جيدًا (فاستخدمنا المهدئات بدلاً من المسكنات).</li>
+        </ul>
+        <p>عندما أعطيناه نظارته، أطفأنا الأضواء ليلاً، حرّكناه للكرسي، وسيطرنا على الألم بشكل أفضل - تحسن الهذيان في يومين.<br>
+        <strong>الدرس المستفاد:</strong> معظم الهذيان في العناية المركزة ليس "مرضًا يحتاج دواء"، بل "بيئة سيئة تحتاج إصلاح".</p>
+    </div>
+
+    <div class="concept-box">
+        <h3>الإطار 30.5 — "قائمة التفكير" للهذيان في العناية المركزة | BOX 30.5 — ICU Delirium “Think List”</h3>
+        <p>ألم <span class="english-term">(Pain)</span> • نقص أكسجة <span class="english-term">(Hypoxia)</span> • عدوى <span class="english-term">(Infection)</span> • انسحاب <span class="english-term">(Withdrawal)</span> • اضطراب النوم <span class="english-term">(Sleep disruption)</span> • تأثيرات الأدوية <span class="english-term">(Drug effects)</span> • احتباس بول/إمساك <span class="english-term">(Urinary retention/constipation)</span> • اضطرابات أيضية <span class="english-term">(Metabolic derangements)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.6 الخطر المتعلق بالأجهزة: منع الضرر من الأدوات التي تُبقي المرضى أحياء | Device-Related Risk</h2>
+    <p>رعاية العناية المركزة تعتمد على الأجهزة <span class="english-term">(Devices)</span>. الأجهزة تنقذ الأرواح - لكنها أيضًا تخلق مخاطر متوقعة <span class="english-term">(predictable hazards)</span>:</p>
+    <ul>
+        <li>عدوى الخط المركزي أو سوء الوضع <span class="english-term">(central line infection or malposition)</span>.</li>
+        <li>مضاعفات الخط الشرياني <span class="english-term">(arterial line complications)</span>.</li>
+        <li>أخطاء برمجة مضخة التسريب <span class="english-term">(infusion pump programming errors)</span>.</li>
+        <li>انفصالات دائرة جهاز التنفس <span class="english-term">(ventilator circuit disconnections)</span>.</li>
+        <li>سوء وضع أنبوب التغذية <span class="english-term">(feeding tube misplacement)</span>.</li>
+        <li>عدوى مرتبطة بالقسطرة <span class="english-term">(catheter-associated infections)</span>.</li>
+        <li>إصابة ضغط من الثبات المطوّل <span class="english-term">(pressure injury from prolonged immobility)</span>.</li>
+    </ul>
+    <p>سلامة التخدير في واجهة العناية المركزة تتطلب انضباط الأجهزة <span class="english-term">(device discipline)</span>.</p>
+
+    <h3>30.6.1 الوصول الوريدي المركزي: أساسيات السلامة <span class="english-term">| Central Venous Access Safety</span></h3>
+    <ul>
+        <li>قائمة تحقق إدخال موحدة <span class="english-term">(standardized insertion checklist)</span>.</li>
+        <li>توجيه بالموجات فوق الصوتية <span class="english-term">(ultrasound guidance)</span> حيثما مناسب.</li>
+        <li>تقنية معقمة واحتياطات حاجز <span class="english-term">(aseptic technique and barrier precautions)</span>.</li>
+        <li>أكّد الوضع حسب البروتوكول <span class="english-term">(confirm position per protocol)</span>.</li>
+        <li>وسم الخط ووضوح غرض الفتحات <span class="english-term">(line labeling and lumens purpose clarity)</span>.</li>
+        <li>مراجعة ضرورة يومية وإزالة مبكرة عندما يكون آمنًا <span class="english-term">(daily necessity review and early removal when safe)</span>.</li>
+    </ul>
+
+    <h3>30.6.2 سلامة التسريب: المضخات وتتبع الخطوط <span class="english-term">| Infusion Safety</span></h3>
+    <p>أخطاء التسريب <span class="english-term">(Infusion errors)</span> آليات ضرر شائعة. نظام آمن يتضمن:</p>
+    <ul>
+        <li>تركيزات دوائية موحدة <span class="english-term">(standardized drug concentrations)</span>.</li>
+        <li>وسم واضح عند الكيس/الحقنة وعند الخط قرب المريض <span class="english-term">(clear labeling at bag/syringe and at line near patient)</span>.</li>
+        <li>تتبع الخط قبل التوصيل أو تغيير المضخات <span class="english-term">(line tracing before connecting or changing pumps)</span>.</li>
+        <li>فحص مزدوج للتسريبات عالية التنبيه <span class="english-term">(double-check for high-alert infusions)</span> (أدوية ضاغطة <span class="english-term">vasopressors</span>، مهدئات <span class="english-term">sedatives</span>، إنسولين <span class="english-term">insulin</span>، مضادات تخثر <span class="english-term">anticoagulants</span>).</li>
+        <li>تقليل "التغييرات الصامتة" أثناء النقل <span class="english-term">(minimize “silent changes” during transfer)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">خطأ توصيل التسريب: أهمية تتبع الخط</span>
+        <p>مريض على تسريب نورأدرينالين <span class="english-term">(norepinephrine)</span> للحفاظ على ضغط الدم. أثناء النقل للأشعة، "تبدّلت" المضخات.<br>
+        في الطريق، انهار ضغط المريض. اكتشفنا أن خط النورأدرينالين انفصل بالخطأ أثناء التبديل، وتم توصيل خط سوائل بدلاً منه.<br>
+        <strong>لماذا حدث؟</strong> لأننا لم "نتتبع الخط" - لم نتابع بصريًا من المضخة إلى المريض لنؤكد الاتصال الصحيح.<br>
+        بعد تلك الحادثة، أصبح "تتبع الخط" قاعدة إلزامية: قبل كل توصيل، تتبع بصريًا من المضخة ← الخط ← المريض، وأكّد اسم الدواء والتركيز.</p>
+    </div>
+
+    <div class="success-box">
+        <h3>الإطار 30.6 — قاعدة "تتبع الخط" | BOX 30.6 — “Line Tracing” Rule</h3>
+        <p>قبل توصيل أو تغيير أي تسريب <span class="english-term">(Before connecting or changing any infusion)</span>:<br>
+        تتبع الخط من المضخة ← المريض <span class="english-term">(Trace the line from pump ← patient)</span> وأكّد اسم الدواء + التركيز + منفذ الوجهة <span class="english-term">(confirm drug name + concentration + destination port)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.7 سلامة جهاز التنفس وأجهزة المجرى التنفسي: منع الانفصالات والفطام غير المخطط | Ventilator and Airway Device Safety</h2>
+    <p>مخاطر سلامة جهاز التنفس <span class="english-term">(Ventilator safety risks)</span> تشمل:</p>
+    <ul>
+        <li>انفصال الدائرة <span class="english-term">(circuit disconnection)</span>.</li>
+        <li>انسداد بالمخاط <span class="english-term">(mucus plugging)</span>.</li>
+        <li>هجرة الأنبوب <span class="english-term">(tube migration)</span>.</li>
+        <li>تسرب الكفة <span class="english-term">(cuff leak)</span>.</li>
+        <li>فطام عرضي <span class="english-term">(accidental extubation)</span>.</li>
+        <li>ترطيب غير كافٍ وإدارة إفرازات <span class="english-term">(inadequate humidification and secretion management)</span>.</li>
+    </ul>
+
+    <h3>30.7.1 منع الفطام غير المخطط <span class="english-term">| Preventing Unplanned Extubation</span></h3>
+    <ul>
+        <li>ثبّت الأنبوب بطريقة موحدة <span class="english-term">(secure tube with standardized method)</span>.</li>
+        <li>استراتيجية تهدئة توازن بين الراحة واليقظة <span class="english-term">(sedation strategy balancing comfort and wakefulness)</span>.</li>
+        <li>خطة إدارة الهياج <span class="english-term">(agitation management plan)</span>.</li>
+        <li>جاهزية عند السرير <span class="english-term">(bedside readiness)</span>: شفط <span class="english-term">(suction)</span>، معدات إعادة التنبيب متاحة <span class="english-term">(reintubation equipment accessible)</span>.</li>
+        <li>وعي الفريق أثناء التحويل، النقل، التصوير، والنظافة <span class="english-term">(team awareness during turning, transfers, imaging, and hygiene)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">الفطام غير المخطط: الجاهزية تمنع المضاعفات</span>
+        <p>السيد كريم، على جهاز تنفس، مُهدّأ تهدئة خفيفة. كانت الممرضة تحوله في السرير لتغيير الملاءات.<br>
+        في ثانية واحدة، حرّك يده، شد الأنبوب، وخرج.<br>
+        لحسن الحظ، كان الفريق جاهزًا - معدات الشفط حاضرة، معدات إعادة التنبيب في متناول اليد، وأعدنا التنبيب بسرعة دون مضاعفات.<br>
+        بعدها، أصبح لدينا قاعدة: "أثناء أي تحريك للمريض على جهاز تنفس، شخص واحد يُمسك الأنبوب، وشخص آخر يُمسك الدائرة."</p>
+    </div>
+
+    <div class="alert-box">
+        <h3>الإطار 30.7 — حزمة الوقاية من الفطام غير المخطط | BOX 30.7 — Unplanned Extubation Prevention Bundle</h3>
+        <p>ثبّت الأنبوب <span class="english-term">(Secure tube)</span> • أدِر الهياج <span class="english-term">(Manage agitation)</span> • خطط هدف التهدئة <span class="english-term">(Plan sedation target)</span> • توقف أثناء التحويل/النقل <span class="english-term">(Pause during turns/transfers)</span> • الشفط جاهز <span class="english-term">(Suction ready)</span> • خطة إنقاذ المجرى التنفسي مرئية <span class="english-term">(Airway rescue plan visible)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.8 سلامة النقل: العناية المركزة ← الأشعة المقطعية/الرنين/الأشعة التداخلية منطقة خطر معروفة | Transport Safety: ICU ← CT/MRI/IR</h2>
+    <p>النقل <span class="english-term">(Transport)</span> حدث عالي الخطورة لأن المراقبة والدعم قد يكونان مُقلّلين <span class="english-term">(reduced)</span>، والبيئة غير مألوفة <span class="english-term">(unfamiliar)</span>.</p>
+
+    <h3>30.8.1 أنماط فشل النقل الشائعة <span class="english-term">| Common Transport Failure Modes</span></h3>
+    <ul>
+        <li>نفاد إمداد الأكسجين <span class="english-term">(oxygen supply depletion)</span>.</li>
+        <li>فشل جهاز التنفس أو انفصاله <span class="english-term">(ventilator failure or disconnection)</span>.</li>
+        <li>نفاد بطارية مضخة التسريب <span class="english-term">(infusion pump battery depletion)</span>.</li>
+        <li>خلع الخط <span class="english-term">(line dislodgement)</span>.</li>
+        <li>تأخر التعرف على التدهور <span class="english-term">(delayed recognition of deterioration)</span> بسبب مراقبة مُقلّلة.</li>
+        <li>فشل التسليم في الوجهة وعند العودة <span class="english-term">(handover failures at destination and on return)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة البداية مرة أخرى: تحليل أسباب الخطأ</span>
+        <p>في القصة التي افتتحت بها الفصل - المريض الذي كاد يموت في الطريق للأشعة - ماذا كان الخطأ؟<br>
+        <strong>راجعنا كل شيء:</strong></p>
+        <ul>
+            <li>الأكسجين الاحتياطي: لم نفحصه</li>
+            <li>بطاريات المضخات: واحدة كانت منخفضة</li>
+            <li>تأمين الأنبوب: كان فضفاضًا</li>
+            <li>خطة الطوارئ: لم تكن واضحة</li>
+        </ul>
+        <p>بعد تلك الحادثة، بنينا "حزمة سلامة النقل" - قائمة تحقق بسيطة لكنها شاملة تُفحص قبل كل نقل.<br>
+        منذ ذلك الحين، لم نواجه حادثة نقل كارثية واحدة - لأننا تعلمنا الدرس بالطريقة الصعبة.</p>
+    </div>
+
+    <h3>30.8.2 حزمة سلامة النقل (عملية) <span class="english-term">| Transport Safety Bundle (Practical)</span></h3>
+    <ul>
+        <li>تقييم الخطر <span class="english-term">(risk stratify)</span>: مستقر <span class="english-term">(stable)</span> مقابل مراقَب <span class="english-term">(watcher)</span> مقابل غير مستقر <span class="english-term">(unstable)</span>.</li>
+        <li>حدد فريق النقل والأدوار <span class="english-term">(define transport team and roles)</span>.</li>
+        <li>أكّد إمداد الأكسجين والاحتياط <span class="english-term">(confirm oxygen supply and backup)</span>.</li>
+        <li>اضمن مراقبة مناسبة أثناء النقل <span class="english-term">(ensure appropriate monitoring during transport)</span>.</li>
+        <li>ثبّت الأنابيب، الخطوط، والمصارف <span class="english-term">(secure tubes, lines, and drains)</span>.</li>
+        <li>أكّد مضخات التسريب ببطارية كافية وإعدادات صحيحة <span class="english-term">(confirm infusion pumps with adequate battery and correct settings)</span>.</li>
+        <li>توقع قيود الوجهة <span class="english-term">(anticipate destination constraints)</span> (توافق الرنين <span class="english-term">MRI compatibility</span>).</li>
+        <li>حدد مسبقًا خطة العودة/التصعيد <span class="english-term">(predefine return/escalation plan)</span>.</li>
+    </ul>
+
+    <div class="concept-box">
+        <h3>الإطار 30.8 — "فحص التحرك" لنقل العناية المركزة | BOX 30.8 — ICU Transport “Move–Check”</h3>
+        <p><strong>قبل التحرك (Before move):</strong> الأكسجين <span class="english-term">(O₂)</span>، المجرى التنفسي <span class="english-term">(airway)</span>، جهاز التهوية <span class="english-term">(ventilation device)</span>، الشاشات <span class="english-term">(monitors)</span>، المضخات <span class="english-term">(pumps)</span>، الخطوط مثبتة <span class="english-term">(lines secure)</span>.<br>
+        <strong>بعد الوصول (After arrival):</strong> أكّد مجددًا <span class="english-term">(confirm again)</span>، ثم تابع <span class="english-term">(then proceed)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.9 استمرارية غرفة العمليات-العناية المركزة: التسليم هو جسر السلامة | OR–ICU Continuity: Handover as a Safety Bridge</h2>
+    <p>واجهة العناية المركزة <span class="english-term">(ICU interface)</span> غالبًا حيث تستمر رعاية التخدير، خاصة بعد جراحة كبرى.</p>
+
+    <h3>30.9.1 ما تحتاجه العناية المركزة من التخدير (أهداف، وليس فقط تاريخ) <span class="english-term">| What ICU Needs from Anesthesia</span></h3>
+    <ul>
+        <li>صعوبة المجرى التنفسي وحالته الحالية <span class="english-term">(airway difficulty and current airway status)</span>.</li>
+        <li>استراتيجية التهوية والأهداف <span class="english-term">(ventilation strategy and goals)</span>.</li>
+        <li>أهداف الديناميكا الدموية <span class="english-term">(hemodynamic targets)</span> (مدى ضغط الدم الوسطي <span class="english-term">MAP range</span>) وخطة الأدوية الضاغطة <span class="english-term">(pressor plan)</span>.</li>
+        <li>إجماليات النزيف/نقل الدم والقلق المستمر <span class="english-term">(bleeding/transfusion totals and ongoing concerns)</span>.</li>
+        <li>تفاصيل مضادات التخثر والعكس <span class="english-term">(anticoagulation and reversal details)</span>.</li>
+        <li>خطة التسكين والتهدئة مع أهداف صريحة <span class="english-term">(analgesia and sedation plan with explicit goals)</span>.</li>
+        <li>تفاصيل انسداد عضلي عصبي وعكسه <span class="english-term">(neuromuscular blockade and reversal details)</span> عند الصلة.</li>
+        <li>أعلى مخاطر الـ 6-12 ساعة القادمة ومحفزات التصعيد <span class="english-term">(top risks next 6–12 hours and escalation triggers)</span>.</li>
+    </ul>
+
+    <h3>30.9.2 قواعد موثوقية التسليم <span class="english-term">| Handover Reliability Rules</span></h3>
+    <ul>
+        <li>توقف محمي ولا مهام متعددة <span class="english-term">(protected pause and no multitasking)</span> أثناء نقل المعلومات الرئيسية.</li>
+        <li>قراءة مرتدة مغلقة الحلقة <span class="english-term">(closed-loop read-back)</span> للبنود الحرجة.</li>
+        <li>ملخص مكتوب <span class="english-term">(written summary)</span> للمرضى عاليي الخطر.</li>
+        <li>بيان نقل مسؤولية واضح <span class="english-term">(clear accountability transfer statement)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">التسليم الجيد ينقل فهمًا لا معلومات فقط</span>
+        <p>بعد جراحة قلب معقدة، تم تسليم المريض للعناية المركزة. كان الطبيب المستلم منشغلًا - يكتب، يرد على هاتف، ينظر لشاشات أخرى.<br>
+        تم إيقاف كل شيء لضمان تسليم محكم. استغرق الأمر دقيقتين لشرح:</p>
+        <ul>
+            <li>المريض لديه نزيف مستمر بسيط - راقب المصارف.</li>
+            <li>ضغط الدم المستهدف 70-80 (أقل قد يسبب نقص تروية، أعلى قد يزيد النزيف).</li>
+            <li>التهدئة خفيفة فقط - نريده يستيقظ لتقييم عصبي.</li>
+            <li>لو انخفض الضغط، ابدأ نورأدرينالين، لا تعطِ سوائل كثيرة (خطر التحميل الزائد).</li>
+        </ul>
+        <p>بعد ساعتين، اتصل بنا: "الضغط انخفض. تذكرت التعليمات - نورأدرينالين وليس سوائل. نجح!"<br>
+        لو لم يتم التسليم بشكل محكم، لربما أعطى سوائل كثيرة وأغرق رئتي المريض.<br>
+        <strong>التسليم الجيد ليس "نقل معلومات". إنه "نقل فهم".</strong></p>
+    </div>
+
+    <div class="success-box">
+        <h3>الإطار 30.9 — "ملخص الأهداف" لتسليم غرفة العمليات←العناية المركزة | BOX 30.9 — OR←ICU Handover “Targets Summary”</h3>
+        <p>أهداف التهوية <span class="english-term">(Vent targets)</span> • هدف ضغط الدم الوسطي <span class="english-term">(MAP target)</span> • خطة الأدوية الضاغطة <span class="english-term">(Pressor plan)</span> • مراقبة النزيف <span class="english-term">(Bleeding watch)</span> • خطة الهيموجلوبين/التخثر <span class="english-term">(Hb/coag plan)</span> • الحرارة <span class="english-term">(Temperature)</span> • هدف التهدئة/التسكين <span class="english-term">(Sedation/analgesia goal)</span> • خطة مضادات التخثر <span class="english-term">(Anticoag plan)</span> • محفزات التصعيد <span class="english-term">(Escalation triggers)</span>.</p>
+    </div>
+
+
+    <!-- ILLUSTRATION 30.3 -->
+    <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 12px; padding: 2rem; margin: 2rem 0; border-right: 6px solid #00796b;">
+        <h4 style="color: #00796b; margin: 0 0 1.5rem 0; font-size: 1.3rem; text-align: right;">
+            <i class="fas fa-ambulance" style="margin-left: 0.5rem;"></i>
+            الشكل 30.3: بروتوكول السلامة للنقل OR←ICU
+        </h4>
+        <div style="display: grid; gap: 1rem;">
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #1976d2;">
+                <strong style="color: #1976d2; font-size: 1.1rem;">🔍 ما قبل النقل (10-15 دقيقة قبل)</strong>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-top: 0.75rem;">
+                    <div style="background: #e3f2fd; padding: 0.75rem; border-radius: 6px;">
+                        <strong>المريض (A-B-C):</strong> أنبوب مثبت، FiO₂ ≥0.5، MAP >65
+                    </div>
+                    <div style="background: #e3f2fd; padding: 0.75rem; border-radius: 6px;">
+                        <strong>المعدات:</strong> O₂ ممتلئ، Monitor مشحون، Bag-valve-mask
+                    </div>
+                </div>
+                <div style="background: #fff3cd; padding: 0.75rem; border-radius: 6px; margin-top: 0.75rem;">
+                    ⚠️ <strong>قاعدة:</strong> لا تبدأ حتى يكون المريض مستقراً — الاستقرار قبل الحركة
+                </div>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #f57c00;">
+                <strong style="color: #f57c00; font-size: 1.1rem;">🚑 أثناء النقل (مراقبة مستمرة)</strong>
+                <div style="margin-top: 0.75rem; margin-right: 1rem;">
+                    <div><strong>المراقبة الإلزامية:</strong> SpO₂ continuous, EtCO₂ waveform, BP q 2-3 min</div>
+                    <div style="background: #ffebee; padding: 0.75rem; border-radius: 6px; margin-top: 0.5rem; border-right: 3px solid #d32f2f;">
+                        <strong>🔴 أوقف فوراً إذا:</strong> SpO₂ <90%, MAP <60, فقدان EtCO₂, عدم انتظام شديد
+                    </div>
+                </div>
+            </div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-right: 4px solid #00796b;">
+                <strong style="color: #00796b; font-size: 1.1rem;">🏥 التسليم في ICU (SBAR)</strong>
+                <div style="margin-top: 0.75rem; margin-right: 1rem;">
+                    <div><strong>S:</strong> الاسم، العمر، الإجراء، وقت انتهاء الجراحة</div>
+                    <div><strong>B:</strong> التشخيص، التاريخ المرضي، الحساسيات</div>
+                    <div><strong>A:</strong> Airway/Breathing/Circulation: الأهداف والحالة الحالية</div>
+                    <div><strong>R:</strong> خطة التهدئة، الفحوصات المطلوبة، المتابعة</div>
+                </div>
+            </div>
+        </div>
+        <div style="background: #ffebee; padding: 1rem; border-radius: 8px; margin-top: 1rem; border-right: 4px solid #d32f2f;">
+            <strong style="color: #c62828;">🚨 الحقيقة:</strong> معظم حوادث النقل يمكن تجنبها — السبب: البدء قبل الاستعداد والتسليم غير المكتمل
+        </div>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.10 إجراءات عند سرير العناية المركزة: جعلها "آمنة كغرفة عمليات صغيرة" | ICU Bedside Procedures: “Mini-OR Safe”</h2>
+    <p>التخدير غالبًا ما يدعم الإجراءات عند السرير:</p>
+    <ul>
+        <li>دعم فغر الرغامى <span class="english-term">(tracheostomy support)</span>.</li>
+        <li>تنظير قصبي <span class="english-term">(bronchoscopy)</span>.</li>
+        <li>إدخال أنبوب صدري <span class="english-term">(chest tube insertion)</span>.</li>
+        <li>وضع خط مركزي <span class="english-term">(central line placement)</span>.</li>
+        <li>غسيل جراحي عند السرير <span class="english-term">(bedside surgical washouts)</span>.</li>
+    </ul>
+    <p><strong>نفس مبادئ السلامة تنطبق:</strong></p>
+    <ul>
+        <li>مراقبة مناسبة <span class="english-term">(appropriate monitoring)</span>.</li>
+        <li>جاهزية إنقاذ المجرى التنفسي <span class="english-term">(airway rescue readiness)</span>.</li>
+        <li>خطة تهدئة بأهداف <span class="english-term">(sedation plan with targets)</span>.</li>
+        <li>حماية الأكسجة والتروية <span class="english-term">(oxygenation and perfusion protection)</span>.</li>
+        <li>قائمة تحقق للمعدات والأدوية <span class="english-term">(checklist for equipment and medications)</span>.</li>
+        <li>استقرار وتوثيق بعد الإجراء <span class="english-term">(post-procedure stabilization and documentation)</span>.</li>
+    </ul>
+
+    <div class="concept-box">
+        <h3>الإطار 30.10 — قائمة تحقق سلامة الإجراء عند السرير | BOX 30.10 — Bedside Procedure Safety Checklist</h3>
+        <p>معايير المراقبة <span class="english-term">(Monitor standards)</span> • إنقاذ المجرى التنفسي جاهز <span class="english-term">(Airway rescue ready)</span> • هدف التهدئة <span class="english-term">(Sedation target)</span> • جاهزية الأدوية الضاغطة إذا غير مستقر <span class="english-term">(Pressor readiness if unstable)</span> • توقف زمني وتعيين أدوار <span class="english-term">(Time-out and role assignment)</span> • إعادة تقييم بعد الإجراء <span class="english-term">(Post-procedure reassessment)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.11 قياس الجودة في واجهة العناية المركزة: مؤشرات تكشف ضعف النظام | Quality Measurement at ICU Interface</h2>
+    <p>قياس سلامة واجهة العناية المركزة <span class="english-term">(ICU-interface safety)</span> يساعد في اكتشاف فشل نظامي مخفي.<br>
+    <strong>أمثلة على مؤشرات مفيدة:</strong></p>
+    <ul>
+        <li>معدل الفطام غير المخطط <span class="english-term">(unplanned extubation rate)</span>.</li>
+        <li>حوادث متعلقة بالنقل <span class="english-term">(transport-related incidents)</span> (نفاد الأكسجين <span class="english-term">O₂ depletion</span>، انفصالات <span class="english-term">disconnections</span>، أحداث تدهور <span class="english-term">deterioration events</span>).</li>
+        <li>مضاعفات مرتبطة بالخط المركزي <span class="english-term">(central line-associated complications)</span>.</li>
+        <li>أخطاء التسريب عالي التنبيه وشبه حوادث <span class="english-term">(high-alert infusion errors and near misses)</span>.</li>
+        <li>أحداث ضارة متعلقة بالتهدئة <span class="english-term">(sedation-related adverse events)</span> (انخفاض ضغط <span class="english-term">hypotension</span>، تأخر الفطام <span class="english-term">delayed extubation</span>، تهدئة مفرطة <span class="english-term">oversedation</span>).</li>
+        <li>امتثال فحص الهذيان ومعدل حدوثه <span class="english-term">(delirium screening compliance and delirium incidence)</span>.</li>
+        <li>امتثال تسليم غرفة العمليات←العناية المركزة <span class="english-term">(OR←ICU handover compliance)</span> (الهيكل + التوثيق <span class="english-term">structure + documentation</span>).</li>
+    </ul>
+
+    <div class="alert-box">
+        <h3>الإطار 30.11 — لوحة مؤشرات واجهة العناية المركزة (بسيطة) | BOX 30.11 — ICU Interface Dashboard (Simple)</h3>
+        <p>فطام غير مخطط <span class="english-term">(Unplanned extubations)</span> • حوادث نقل <span class="english-term">(Transport incidents)</span> • أخطاء تسريب <span class="english-term">(Infusion errors)</span> • مضاعفات خطوط <span class="english-term">(Line complications)</span> • أحداث ضارة للتهدئة <span class="english-term">(Sedation adverse events)</span> • مقاييس الهذيان <span class="english-term">(Delirium metrics)</span> • امتثال التسليم <span class="english-term">(Handover compliance)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>30.12 أدوات نهاية الفصل | End-of-Chapter Tools</h2>
+
+    <h3>30.12.1 مسرد سريع <span class="english-term">| Quick Glossary</span></h3>
+    <ul>
+        <li><strong>المجرى التنفسي الصعب فيزيولوجيًا <span class="english-term">(Physiologically difficult airway)</span>:</strong> إجراء مجرى تنفسي يُجعَل خطيرًا بفيزيولوجيا هشة <span class="english-term">(airway procedure made dangerous by fragile physiology)</span> (نقص أكسجة <span class="english-term">hypoxia</span>، صدمة <span class="english-term">shock</span>، حماض <span class="english-term">acidosis</span>).</li>
+        <li><strong>تهدئة التسكين أولاً <span class="english-term">(Analgesia-first sedation)</span>:</strong> عالج الألم أساسًا <span class="english-term">(treat pain primarily)</span>، ثم استخدم التهدئة حسب الحاجة <span class="english-term">(then use sedation as needed)</span>.</li>
+        <li><strong>التتبع <span class="english-term">(Traceability)</span>:</strong> توثيق يجعل القرارات الرئيسية والتعرضات قابلة للاكتشاف لاحقًا <span class="english-term">(documentation that makes key decisions and exposures discoverable later)</span>.</li>
+        <li><strong>الفطام غير المخطط <span class="english-term">(Unplanned extubation)</span>:</strong> إزالة عرضية لأنبوب القصبة الهوائية أو أنبوب فغر الرغامى <span class="english-term">(accidental removal of endotracheal tube or tracheostomy tube)</span>.</li>
+    </ul>
+
+    <h3>30.12.2 أسئلة تأمل (اجتماع سلامة غرفة العمليات-العناية المركزة) <span class="english-term">| Reflection Questions</span></h3>
+    <ul>
+        <li>هل لدينا سير عمل سلامة تنبيب موحد في العناية المركزة <span class="english-term">(standardized ICU intubation safety workflow)</span> (الأكسجة المسبقة <span class="english-term">preoxygenation</span>، جاهزية الأدوية الضاغطة <span class="english-term">pressor readiness</span>، التأكيد <span class="english-term">confirmation</span>، الاستقرار <span class="english-term">stabilization</span>)؟</li>
+        <li>هل أهداف التهدئة موثقة ومُعاد تقييمها يوميًا <span class="english-term">(sedation targets documented and reassessed daily)</span>، مع تجنب التهدئة العميقة غير الضرورية <span class="english-term">(avoidance of unnecessary deep sedation)</span>؟</li>
+        <li>هل نمارس تتبع الخطوط والتركيزات القياسية <span class="english-term">(line tracing and standard concentrations)</span> لمنع أخطاء التسريب <span class="english-term">(prevent infusion errors)</span>؟</li>
+        <li>هل تستخدم نقلات العناية المركزة قائمة تحقق وتعيين أدوار بثبات <span class="english-term">(ICU transports use a checklist and role assignment consistently)</span>؟</li>
+        <li>هل يتضمن تسليم غرفة العمليات←العناية المركزة الأهداف ومحفزات التصعيد <span class="english-term">(OR←ICU handover includes targets and escalation triggers)</span>، مع قراءة مرتدة <span class="english-term">(read-back)</span>؟</li>
+        <li>هل نقيس حوادث النقل، الفطام غير المخطط، وأخطاء التسريب <span class="english-term">(measuring transport incidents, unplanned extubations, and infusion errors)</span> لدفع إعادة التصميم <span class="english-term">(drive redesign)</span>؟</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>خلاصة الفصل (نقاط محورية للمستقبل) | Chapter Summary</h3>
+        <ul>
+            <li>سلامة واجهة العناية المركزة تهيمن عليها الانتقالات <span class="english-term">(transitions)</span>، كثافة الأجهزة <span class="english-term">(device density)</span>، تعقيد التهدئة <span class="english-term">(sedation complexity)</span>، والفيزيولوجيا الهشة <span class="english-term">(fragile physiology)</span>.</li>
+            <li>إدارة المجرى التنفسي في العناية المركزة غالبًا صعبة فيزيولوجيًا <span class="english-term">(often physiologically difficult)</span>؛ البقاء يعتمد على التحضير <span class="english-term">(preparation)</span>، جاهزية الأدوية الضاغطة <span class="english-term">(pressor readiness)</span>، والاستقرار السريع بعد التنبيب <span class="english-term">(rapid stabilization after intubation)</span>.</li>
+            <li>التهدئة يجب أن تكون قائمة على الأهداف <span class="english-term">(target-based)</span>، مُعايَرة <span class="english-term">(titrated)</span>، ومُعاد تقييمها يوميًا <span class="english-term">(reassessed daily)</span> لتجنب التهدئة المفرطة <span class="english-term">(oversedation)</span>، الهذيان <span class="english-term">(delirium)</span>، والانسحاب <span class="english-term">(withdrawal)</span>.</li>
+            <li>سلامة الأجهزة تعتمد على التوحيد القياسي <span class="english-term">(standardization)</span>، الوسم <span class="english-term">(labeling)</span>، تتبع الخطوط <span class="english-term">(line tracing)</span>، والمراجعة اليومية للضرورة <span class="english-term">(daily review of necessity)</span>.</li>
+            <li>النقل منطقة خطر متوقعة <span class="english-term">(predictable hazard zone)</span>؛ قوائم التحقق واستمرارية المراقبة تمنع التدهور القابل للتجنب <span class="english-term">(checklists and continuity of monitoring prevent avoidable deterioration)</span>.</li>
+            <li>الاستمرارية بين غرفة العمليات والعناية المركزة تتطلب تسليمًا قائمًا على الأهداف <span class="english-term">(target-based handover)</span> مع تأكيد مغلق الحلقة وتتبع <span class="english-term">(closed-loop confirmation and traceability)</span>.</li>
+        </ul>
+    </div>
+
+    <div class="scene-box">
+        <span class="scene-title">خاتمة الفصل: النظام الذي نبنيه عند كل واجهة</span>
+        <p>في نهاية نوبتي، مررت بالعناية المركزة للاطمئنان على المرضى الذين رعيتهم في غرفة العمليات.<br>
+        وجدت السيد عبد الله - الذي كاد يموت أثناء نقله للأشعة في قصة البداية - مستيقظًا، يبتسم، يتحدث مع زوجته.<br>
+        قال: "نجوت بفضل الله. سمعت أنه كان هناك مشاكل أثناء النقل."<br>
+        نظرنا إلى الفريق - نفس الفريق الذي تعلّم من التجربة. بنينا نظاماً محكماً.<br>
+        النظام الذي يفحص الأكسجين الاحتياطي، يتتبع الخطوط، يُثبّت الأنابيب، يسلّم بوضوح، ولا ينسى أبدًا أن "البساطة" في العناية المركزة قد تخفي خطرًا قاتلاً.<br>
+        هذا هو النظام الذي نبنيه في كل واجهة: سنبني أنظمة لا تفشل في اللحظات الحرجة، لأن مرضانا يستحقون استمرارية رعاية لا تنكسر عند الانتقالات.<br>
+        <span class="english-term">This is our promise at every interface: we will build systems that do not fail in critical moments, because our patients deserve continuity of care that does not break at transitions.</span></p>
+    </div>
+
+    <div class="divider">***</div>
+    <div style="text-align: center; color: #6b7280; margin-top: 20px;">End of Chapter 30</div>
+    
+</div>
+
+
+<!-- ANESTHESIA-COMMENTS-V3 -->
+<style>
+
+  /* COMMENTS SECTION */
+  .comments-section {
+    margin-top: 60px; padding: 30px;
+    background: white; border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 20px rgba(30,58,138,0.06);
+  }
+  .comments-title {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 22px; font-weight: 800; color: #1e3a8a;
+    margin-bottom: 14px;
+    border-bottom: 3px solid #dbeafe; padding-bottom: 14px;
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .comments-title .en-sub {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px; color: #6b7280; font-weight: 400;
+    direction: ltr;
+  }
+  .comments-desc {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #6b7280; margin-bottom: 24px; line-height: 1.6;
+  }
+  .comment-form {
+    background: #f8faff; border-radius: 10px; padding: 24px;
+    margin-bottom: 28px; border: 1px solid #dbeafe;
+  }
+  .form-row { display: flex; gap: 16px; margin-bottom: 16px; }
+  .form-group { flex: 1; }
+  .form-group label {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 13px; font-weight: 600; color: #374151;
+    display: block; margin-bottom: 6px;
+  }
+  .optional { font-weight: 400; color: #9ca3af; font-size: 11px; }
+  .required-mark { color: #ef4444; }
+  .form-group input, .form-group textarea {
+    width: 100%; padding: 10px 14px;
+    border: 1px solid #d1d5db; border-radius: 8px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #374151;
+    background: white; transition: border-color 0.2s;
+    direction: rtl;
+  }
+  .form-group input:focus, .form-group textarea:focus {
+    outline: none; border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+  }
+  .form-group textarea { resize: vertical; min-height: 110px; }
+  .form-actions { align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .rating-group { display: flex; align-items: center; gap: 10px; }
+  .rating-group label { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #374151; white-space: nowrap; }
+  .stars { display: flex; gap: 4px; direction: ltr; }
+  .star { font-size: 24px; color: #d1d5db; cursor: pointer; transition: color 0.1s; line-height: 1; }
+  .star.active { color: #f59e0b; }
+  .submit-btn {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; font-weight: 700;
+    background: #1e3a8a; color: white;
+    border: none; padding: 12px 24px;
+    border-radius: 8px; cursor: pointer;
+    transition: background 0.2s; white-space: nowrap;
+  }
+  .submit-btn:hover { background: #1e40af; }
+  .comments-list { display: flex; flex-direction: column; gap: 16px; }
+  .comment-card {
+    background: white; border: 1px solid #e5e7eb;
+    border-radius: 10px; padding: 18px 20px;
+  }
+  .comment-card.new-comment { border-color: #93c5fd; background: #f0f7ff; }
+  .comment-header {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 12px; flex-wrap: wrap;
+  }
+  .comment-avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: #1e3a8a; color: white;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 16px; font-weight: 700; flex-shrink: 0;
+  }
+  .comment-meta { flex: 1; min-width: 100px; }
+  .comment-name { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; font-weight: 700; color: #1e3a8a; display: block; }
+  .comment-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #6b7280; }
+  .comment-stars { color: #f59e0b; font-size: 14px; }
+  .comment-date { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #9ca3af; }
+  .comment-text { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #374151; line-height: 1.7; }
+
+  @media (max-width: 600px) {
+    .form-row { flex-direction: column; }
+    .form-actions { flex-direction: column; }
+    .submit-btn { width: 100%; text-align: center; }
+  }
+
+</style>
+
+<div class="comments-section">
+  <h2 class="comments-title">
+    <span>&#x1F4AC;</span> شاركنا رأيك
+    <span class="en-sub">Share Your Thoughts</span>
+  </h2>
+  <div class="comments-desc">هل لديك تعليق أو سؤال أو ملاحظة حول هذا الفصل؟ نرحب بمشاركتك وآرائك</div>
+
+  <form class="comment-form" onsubmit="submitComment(event)">
+    <div class="form-row">
+      <div class="form-group">
+        <label>الاسم <span class="optional">(اختياري)</span></label>
+        <input type="text" id="cName" placeholder="اكتب اسمك هنا..." />
+      </div>
+      <div class="form-group">
+        <label>التخصص <span class="optional">(اختياري)</span></label>
+        <input type="text" id="cRole" placeholder="طبيب، ممرض، طالب..." />
+      </div>
+    </div>
+    <div class="form-group" style="margin-bottom:16px;">
+      <label>تعليقك <span class="required-mark">*</span></label>
+      <textarea id="cText" rows="5" placeholder="اكتب تعليقك أو سؤالك هنا..."></textarea>
+    </div>
+    <div class="form-row form-actions">
+      <div class="rating-group">
+        <label>تقييم الفصل:</label>
+        <div class="stars" id="starRating">
+          <span class="star" onclick="setRating(1)">&#9733;</span>
+          <span class="star" onclick="setRating(2)">&#9733;</span>
+          <span class="star" onclick="setRating(3)">&#9733;</span>
+          <span class="star" onclick="setRating(4)">&#9733;</span>
+          <span class="star" onclick="setRating(5)">&#9733;</span>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn">&#x2190; إرسال التعليق</button>
+    </div>
+  </form>
+
+  <div id="commentsContainer" class="comments-list"></div>
+</div>
+
+<script>
+  var _rating = 0;
+  function setRating(v) {
+    _rating = v;
+    document.querySelectorAll('.star').forEach(function(s,i){ s.classList.toggle('active', i < v); });
+  }
+  function submitComment(e) {
+    e.preventDefault();
+    var text = document.getElementById('cText').value.trim();
+    if (!text) { alert('الرجاء كتابة تعليقك أولاً'); return; }
+    var name = document.getElementById('cName').value.trim() || 'زائر';
+    var role = document.getElementById('cRole').value.trim();
+    var stars = _rating > 0 ? '&#9733;'.repeat(_rating) + '&#9734;'.repeat(5-_rating) : '&#9733;&#9733;&#9733;&#9733;&#9733;';
+    var colors = ['#1e3a8a','#7c3aed','#059669','#d97706','#dc2626'];
+    var color = colors[Math.floor(Math.random()*colors.length)];
+    var card = document.createElement('div');
+    card.className = 'comment-card new-comment';
+    card.innerHTML =
+      '<div class="comment-header">' +
+        '<div class="comment-avatar" style="background:' + color + '">' + (name[0]||'ز') + '</div>' +
+        '<div class="comment-meta">' +
+          '<span class="comment-name">' + name + '</span>' +
+          (role ? '<span class="comment-role">' + role + '</span>' : '') +
+        '</div>' +
+        '<div class="comment-stars">' + stars + '</div>' +
+        '<span class="comment-date">الآن</span>' +
+      '</div>' +
+      '<p class="comment-text">' + text + '</p>';
+    var container = document.getElementById('commentsContainer');
+    container.prepend(card);
+    e.target.reset();
+    _rating = 0;
+    document.querySelectorAll('.star').forEach(function(s){ s.classList.remove('active'); });
+    card.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+</script>
+
+</body></html>

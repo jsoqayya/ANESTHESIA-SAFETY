@@ -1,0 +1,2247 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head>
+<style>
+/* إصلاح responsive لجميع الشاشات */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  max-width: 100vw !important;
+  padding: 20px 15px 120px 15px !important;
+}
+
+/* إصلاح الصور والجداول */
+img, table, pre, code {
+  max-width: 100% !important;
+  height: auto !important;
+  overflow-x: auto !important;
+}
+
+/* إصلاح العناصر الكبيرة */
+div, p, h1, h2, h3, h4, h5, h6 {
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* responsive للموبايل */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px !important;
+    padding: 15px 10px 120px 10px !important;
+  }
+  
+  h1 { font-size: 1.8rem !important; }
+  h2 { font-size: 1.5rem !important; }
+  h3 { font-size: 1.3rem !important; }
+}
+</style>
+<script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ1OTQzZDdlNWZhYTIxZjcyOTJjMzI3MGY3ZDBjNWJmNDE5MjJmOTciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzVmNTllYTVhMmI5ZDQ5NmRf2KfZhNmB2LXZhCAyOSAtINiq2K7Yr9mK2LEg2KfZhNil2LXYp9io2KfYqiDZiNin2YTYt9mI2KfYsdimINin2YTYs9mE2KfZhdipINin2YTYrdix2KzYqSDYqNin2YTZiNmC2KouaHRtbC04MDcifSwiZXhwIjoxNzcwMjE4MjAyLCJpYXQiOjE3NzAyMTQ2MDIsImFsZyI6IlJTMjU2In0.OZHZ7-F1OZ70xgrGtosyxepXVOOaK-ZlSVVhceiMKJReD4a_nBtT7jQGr5m1iS29YvQ7ULqM9uN3YrnZzbajAKvXYV_xdauDQUzG_iAqiygZsc8H8doWwiizgIqkmXoB5MTltaAY7tgYCUbAtHZj1yCu01YArsxysK2gGNmNFWdgaAvjZ5ynCLl1OcrhJfgkE78-lZa5kIGmyqfnmAuhZsUR4f6mOfYWtU878oxMMqvogmfakvahuShiOoRySKfz01Y9W_PzKz0j69k_sH_k8dZFE1Cqn7UfDxKpcRiCh_VmjnRwfrgkr6iu6JWu1tB6Vx7ChzCJ1a6kTbCLmSEh0A","c_5f59ea5a2b9d496d_الفصل 29 - تخدير الإصابات والطوارئ السلامة الحرجة بالوقت.html-807")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-09-2025","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل 29: تخدير الإصابات والطوارئ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+        --box-gray: #f8fafc;
+        --box-gray-border: #64748b;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+      
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+        text-indent: 0;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+        direction: ltr; 
+      }
+      
+      .subtitle span {
+         display: block;
+         direction: rtl;
+         margin-bottom: 5px;
+      }
+
+      /* Quotes and Important Boxes */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Scene Box Style */
+      .scene-box {
+        background-color: #f8fafc;
+        border-right: 5px solid var(--box-gray-border);
+        padding: 20px 25px;
+        font-style: italic;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #374151;
+      }
+      
+      .scene-title {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: block;
+        color: #1e293b;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      /* Special text styling */
+      strong {
+        color: #111827;
+        font-weight: 700;
+      }
+      
+      /* Tables Custom Styling */
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-family: 'Amiri', serif;
+          font-size: 0.95em;
+          background-color: #fff;
+          border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+          background-color: var(--primary-blue);
+          color: #ffffff;
+          text-align: right;
+          font-family: 'Noto Kufi Arabic', sans-serif;
+          font-weight: 600;
+      }
+      
+      th, td {
+          padding: 12px 15px;
+          border: 1px solid #e5e7eb;
+          vertical-align: top;
+      }
+      
+      th {
+          color: #ffffff;
+          border: 1px solid #1e40af;
+      }
+      
+      tbody tr:nth-of-type(even) {
+          background-color: #f9fafb;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+      
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* Print adjustments */
+      @media print {
+        .download-container { display: none; }
+        body { padding: 0; padding-top: 0; }
+        h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        .quote-box, .alert-box, .success-box, .concept-box, .scene-box, th {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .page-break { page-break-after: always; }
+      }
+      
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+        table { display: block; overflow-x: auto; }
+      }
+    </style>
+  <style>
+/* ===== RESPONSIVE FIXES: Mobile & Tablet ===== */
+
+/* منع overflow أفقي */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+}
+
+/* محتوى الفصل */
+body > * {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* الجداول */
+table {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  display: block !important;
+  border-collapse: collapse !important;
+}
+td, th {
+  word-break: break-word !important;
+  min-width: 60px !important;
+  padding: 8px 6px !important;
+  font-size: clamp(12px, 3vw, 15px) !important;
+}
+
+/* الصور */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* div و section */
+div, section, article, aside {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* حجم الخط التكيفي */
+p, li, td, th, span, label {
+  font-size: clamp(14px, 4vw, 17px) !important;
+  line-height: 1.85 !important;
+}
+
+h1 { font-size: clamp(20px, 6vw, 36px) !important; line-height: 1.4 !important; }
+h2 { font-size: clamp(18px, 5vw, 28px) !important; line-height: 1.4 !important; }
+h3 { font-size: clamp(16px, 4.5vw, 22px) !important; line-height: 1.45 !important; }
+h4 { font-size: clamp(15px, 4vw, 19px) !important; }
+
+/* تابلت */
+@media (max-width: 768px) {
+  body {
+    padding: 65px 14px 30px !important;
+    font-size: 15px !important;
+  }
+
+  /* الكود والنصوص المنسقة */
+  pre, code {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+    font-size: 13px !important;
+  }
+
+  /* الشبكات والصفوف الجانبية */
+  .grid, .flex-row, .columns, [class*="col-"], [class*="grid-"] {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  /* الفقرات والمقاطع */
+  .chapter-content, .content, .section, article {
+    padding: 0 !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* هاتف */
+@media (max-width: 480px) {
+  body {
+    padding: 62px 10px 25px !important;
+    font-size: 14px !important;
+  }
+
+  table {
+    font-size: 12px !important;
+  }
+  td, th {
+    padding: 6px 4px !important;
+  }
+
+  /* الشريط العلوي */
+  .as-top-nav {
+    padding: 7px 10px !important;
+    gap: 5px !important;
+  }
+  .as-nav-link {
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+  }
+}
+/* ===== END RESPONSIVE FIXES ===== */
+</style>
+</head>
+  <body style="padding-top: 65px;">
+<style>
+  /* ANESTHESIA SAFETY NAVBAR */
+  .as-top-nav {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 99999 !important;
+    background-color: #1e3a8a !important;
+    padding: 10px 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2) !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+    box-sizing: border-box !important;
+  }
+  .as-nav-brand {
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+  .as-nav-logo {
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 50% !important;
+    background: rgba(255,255,255,0.15) !important;
+    border: 2px solid rgba(255,255,255,0.3) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+  .as-nav-links {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+  }
+  .as-nav-link {
+    background: rgba(255,255,255,0.12) !important;
+    color: white !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    text-decoration: none !important;
+    transition: background 0.2s !important;
+    white-space: nowrap !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    font-weight: 600 !important;
+  }
+  .as-nav-link:hover { background: rgba(255,255,255,0.25) !important; }
+  .as-nav-link.as-prev { background: rgba(37,99,235,0.4) !important; }
+  .as-nav-link.as-next { background: rgba(37,99,235,0.4) !important; }
+  body { padding-top: 60px !important; }
+  @media (max-width: 600px) {
+    .as-top-nav { padding: 8px 12px !important; }
+    .as-nav-brand span.as-brand-text { display: none !important; }
+    .as-nav-link { font-size: 12px !important; padding: 5px 10px !important; }
+  }
+</style>
+<nav class="as-top-nav">
+  <a href="/anesthesia-safety/" class="as-nav-brand">
+    <div class="as-nav-logo">🩺</div>
+    <span class="as-brand-text">دليل السلامة في التخدير</span>
+  </a>
+  <div class="as-nav-links">
+    <a href="/anesthesia-safety/chapter/28" class="as-nav-link as-prev">← السابق: الفصل 28</a>
+    <a href="/anesthesia-safety/chapters/" class="as-nav-link">📚 الفصول</a>
+    <a href="/portal" class="as-nav-link">🏠 المنصة</a>
+    <a href="/anesthesia-safety/chapter/30" class="as-nav-link as-next">التالي: الفصل 30 →</a>
+  </div>
+</nav>
+
+
+    <!-- Download Bar -->
+    
+
+    <!-- Header Section -->
+    <div class="part-title">Part IV — Patient Safety Across the Perioperative Pathway</div>
+    <div class="part-title">الجزء الرابع — سلامة المريض عبر المسار المحيط بالجراحة</div>
+
+                            
+    <h1>CHAPTER 29 — Trauma and Emergency Anesthesia: Time-Critical Safety</h1>
+    <div class="subtitle"><strong>الفصل التاسع والعشرون — تخدير الإصابات والطوارئ: السلامة الحرجة بالوقت</strong></div>
+    
+
+<div class="divider">***</div>
+
+    <h2>🎯 أهداف الفصل | Chapter Aims</h2>
+    <div class="concept-box">
+        <p><strong>بنهاية هذا الفصل، ستكون قادرًا على:</strong></p>
+        <ul>
+            <li>شرح لماذا يتميز تخدير الإصابات والطوارئ <span class="english-term">(trauma and emergency anesthesia)</span> بضغط الوقت <span class="english-term">(time compression)</span>، عدم اليقين <span class="english-term">(uncertainty)</span>، والانتقالات ذات العواقب الكبيرة <span class="english-term">(high consequence transitions)</span>.</li>
+            <li>إجراء تحريض سريع متسلسل آمن ومنظم <span class="english-term">(safe, structured rapid sequence induction - RSI)</span> بعقلية الأكسجة أولاً <span class="english-term">(oxygenation-first mindset)</span> والتصعيد المبكر للصعوبة <span class="english-term">(early escalation for difficulty)</span>.</li>
+            <li>تطبيق استراتيجية عملية للنزيف والصدمة <span class="english-term">(hemorrhage and shock strategy)</span>: التعرف <span class="english-term">(recognize)</span>، الإنعاش <span class="english-term">(resuscitate)</span>، تنسيق نقل الدم <span class="english-term">(coordinate transfusion)</span>، ومنع الثالوث المميت <span class="english-term">(lethal triad)</span> (انخفاض الحرارة <span class="english-term">hypothermia</span>، الحماض <span class="english-term">acidosis</span>، اضطراب التخثر <span class="english-term">coagulopathy</span>).</li>
+            <li>تقليل الضرر القابل للوقاية من العوامل البشرية <span class="english-term">(human factors)</span>: المقاطعات <span class="english-term">(interruptions)</span>، الرؤية النفقية <span class="english-term">(tunnel vision)</span>، التثبيت <span class="english-term">(fixation)</span>، ارتباك الأدوار <span class="english-term">(role confusion)</span>، وانهيار التواصل <span class="english-term">(communication breakdown)</span>.</li>
+            <li>استخدام قوائم تحقق الأزمات والمساعدات الإدراكية <span class="english-term">(crisis checklists and cognitive aids)</span> دون "فشل التعليم على المربعات <span class="english-term">(tick-box failure)</span>".</li>
+            <li>إجراء إحاطات سريعة بعد الحدث <span class="english-term">(rapid post-event debriefs)</span> وتصعيد التعلم للمراجعة المنظمة عند الحاجة.</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>قصة البداية: انهيار الضغط أثناء التحريض السريع لحادث سيارة</h2>
+    <div class="scene-box">
+        <p>كانت ليلة شتاء باردة. رنّ الهاتف: "حادث سيارة خطير، قادم خلال خمس دقائق. رجل في الثلاثينات، فاقد الوعي، نزيف شديد، ضغط 70 على 40."<br>
+        خمس دقائق. لم يكن لدينا تاريخ مرضي. لا نعرف متى أكل آخر مرة. لا نعرف أدويته. لا نعرف حتى اسمه الكامل.<br>
+        وصل المريض: وجهه مغطى بالدماء، تنفسه سريع وسطحي، جلده بارد ورطب. كانت عيناه نصف مفتوحتين، يحدق في الفراغ.</p>
+        <p><strong>في تلك اللحظة، لم يكن لدي رفاهية "التقييم الكامل". لم يكن لدي وقت "للتحضير المثالي". كان لدي ثلاث أولويات فقط:</strong></p>
+        <ul>
+            <li>هل يصله الأكسجين؟</li>
+            <li>هل لديه تروية كافية؟</li>
+            <li>هل النزيف تحت السيطرة أو في طريقه للسيطرة؟</li>
+        </ul>
+        <p>ما حدث في الدقائق العشر التالية كان مزيجًا من التدريب، العمل الجماعي، والنظام الذي بنيناه على مدى سنوات. لكن كانت هناك لحظة واحدة كدت فيها أن أفقده…<br>
+        أثناء التحريض السريع، وبعد إعطاء الأدوية مباشرة، انهار ضغطه من 70 إلى 30. القلب توقف تقريبًا. لو لم يكن لدينا بروتوكول واضح - الأدوية الضاغطة الجاهزة، الدم المُدفّأ في الطريق، الفريق الذي يعرف دوره بالضبط - لكنا فقدناه.</p>
+        <p><strong>ذلك الليلة علّمتني:</strong> في الإصابات، الفرق بين الحياة والموت ليس المهارة الفردية فقط - إنه النظام الذي يعمل عندما لا يكون هناك وقت للتفكير.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.1 لماذا تخدير الإصابات مختلف: ضرر سريع، معلومات ناقصة، ووقت محدود للتعافي | Why Trauma Anesthesia is Different</h2>
+    <p>تخدير الإصابات والطوارئ <span class="english-term">(Trauma and emergency anesthesia)</span> يقع في الطرف الأقصى من الخطر المحيط بالجراحة <span class="english-term">(perioperative risk)</span>. بخلاف الحالات الاختيارية <span class="english-term">(elective cases)</span>، الفريق غالبًا ما يبدأ مع:</p>
+    <ul>
+        <li>تاريخ غير مكتمل <span class="english-term">(incomplete history)</span>.</li>
+        <li>حالة صيام مجهولة <span class="english-term">(unknown fasting status)</span>.</li>
+        <li>أمراض مصاحبة أو أدوية مجهولة <span class="english-term">(unknown comorbidities or medications)</span>.</li>
+        <li>نزيف مستمر أو صدمة متطورة <span class="english-term">(ongoing bleeding or evolving shock)</span>.</li>
+        <li>حالة عقلية متغيرة أو تسمم <span class="english-term">(altered mental status or intoxication)</span>.</li>
+        <li>وقت محدود لتحسين الفيزيولوجيا <span class="english-term">(limited time to optimize physiology)</span>.</li>
+    </ul>
+    <p>واقع السلامة بسيط: المريض قد يتدهور أسرع مما تستطيع "التقييم الكامل". لذلك، التخدير الموثوق للإصابات يعتمد على:</p>
+    <ul>
+        <li>هيكل منضبط قابل للتكرار <span class="english-term">(disciplined, repeatable structure)</span>.</li>
+        <li>تحديد أولوية مبكر للأكسجة والتروية <span class="english-term">(early prioritization of oxygenation and perfusion)</span>.</li>
+        <li>أدوار وتواصل واضح <span class="english-term">(clear roles and communication)</span>.</li>
+        <li>الوقاية من الفخاخ المتوقعة <span class="english-term">(prevention of predictable traps)</span> (انخفاض الضغط بعد التحريض <span class="english-term">hypotension after induction</span>، نقص الأكسجة أثناء محاولات المجرى التنفسي <span class="english-term">hypoxia during airway attempts</span>، تأخيرات نقل الدم <span class="english-term">delays in transfusion</span>، فقدان الحرارة <span class="english-term">heat loss</span>).</li>
+    </ul>
+
+    <div class="alert-box">
+        <h3>الإطار 29.1 — قاعدة سلامة الإصابات | BOX 29.1 — Trauma Safety Rule</h3>
+        <p>في تخدير الإصابات <span class="english-term">(In trauma anesthesia)</span>، معظم الكوارث القابلة للوقاية <span class="english-term">(most preventable catastrophes)</span> تبدأ بـ:<br>
+        (1) نقص الأكسجة <span class="english-term">(hypoxia)</span>،<br>
+        (2) انخفاض الضغط <span class="english-term">(hypotension)</span>،<br>
+        (3) تأخر السيطرة على النزيف/نقل الدم <span class="english-term">(delayed hemorrhage control/transfusion)</span>.<br>
+        <strong>صمم إجراءاتك لمنع هذه أولاً <span class="english-term">(Design your actions to prevent these first)</span>.</strong></p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.2 عقلية تخدير الإصابات: "استقرار للبقاء" وليس "كمال للمتابعة" | The Trauma Anesthesia Mindset</h2>
+    <p>خطأ شائع في الطوارئ هو السعي للاكتمال قبل الاستقرار الحرج <span class="english-term">(critical stabilization)</span>. تخدير الإصابات يتطلب "كمال مرحلي" <span class="english-term">(staged perfection)</span>:</p>
+    <ul>
+        <li>افعل ما يجب فعله الآن <span class="english-term">(do what must be done now)</span> (الأكسجة <span class="english-term">oxygenation</span>، التروية <span class="english-term">perfusion</span>، السيطرة على النزيف <span class="english-term">bleeding control</span>).</li>
+        <li>افعل التقييم الكامل <span class="english-term">(do the full assessment)</span> عندما يكون المريض مستقرًا بما يكفي لتحمله.</li>
+    </ul>
+
+    <h3>29.2.1 نهج "الأسئلة الثلاثة" (مستمر) <span class="english-term">| The "Three Questions" Approach</span></h3>
+    <ul>
+        <li>هل يصل الأكسجين للمريض؟ <span class="english-term">(Is oxygen reaching the patient?)</span></li>
+        <li>هل التروية كافية <span class="english-term">(Is perfusion adequate)</span> (ضغط الدم الوسطي <span class="english-term">MAP</span>/الحالة العقلية <span class="english-term">mental state</span>/اتجاه ثاني أكسيد الكربون في نهاية الزفير <span class="english-term">ETCO₂ trend</span>)؟</li>
+        <li>هل النزيف تحت السيطرة أو يجري السيطرة عليه <span class="english-term">(Is hemorrhage controlled or being controlled)</span>؟</li>
+    </ul>
+    <p>هذا الثالوث يقود الأولويات الآمنة.</p>
+
+    <div class="scene-box">
+        <span class="scene-title">النزيف الداخلي الصامت يتطلب مراقبة مستمرة</span>
+        <p>مريض إصابة بطنية. كان الأكسجين ممتازًا (98%). كان المريض واعيًا ومتعاونًا. بدا "مستقرًا".<br>
+        ركزت على تأمين المجرى التنفسي، التحضير للتحريض، التنسيق مع الجراح.<br>
+        لكن الممرضة قالت: "دكتور، الضغط ينخفض تدريجيًا. كان 100 قبل خمس دقائق، الآن 85."<br>
+        نظرت إلى البطن: منتفخ أكثر من قبل. نظرت إلى وجه المريض: شاحب أكثر.<br>
+        كان ينزف داخليًا، وأنا كنت منشغلاً بـ "التحضير الكامل".<br>
+        فعّلنا بروتوكول النقل الضخم فورًا، دخل لغرفة العمليات بأقصى سرعة. نجا، لكن بصعوبة.<br>
+        <strong>ذلك اليوم تعلمت:</strong> في الإصابات، لا تنسى السؤال الثالث أبدًا - النزيف لا ينتظر.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.3 التقييم الحرج بالوقت قبل التحريض: فحص الخطر لـ 60 ثانية | Pre-induction Time-Critical Assessment</h2>
+    <p>الإصابات لا تسمح بقوائم تحقق طويلة. تتطلب فحصًا قصيرًا يتنبأ بالمخاطر الفورية.</p>
+
+    <h3>29.3.1 فحص تحريض الإصابات لـ 60 ثانية <span class="english-term">| 60-Second Trauma Induction Screen</span></h3>
+    <ul>
+        <li><strong>خطر المجرى التنفسي <span class="english-term">(Airway risk)</span>:</strong> إصابة وجهية <span class="english-term">(facial trauma)</span>، دم/قيء <span class="english-term">(blood/vomit)</span>، تثبيت العمود الفقري العنقي <span class="english-term">(C-spine immobilization)</span>، سمنة/انقطاع نفس نومي <span class="english-term">(obesity/OSA)</span>، حروق <span class="english-term">(burns)</span>.</li>
+        <li><strong>خطر التنفس <span class="english-term">(Breathing risk)</span>:</strong> إصابة صدرية <span class="english-term">(chest injury)</span>، استرواح صدري <span class="english-term">(pneumothorax)</span>، نقص أكسجة <span class="english-term">(hypoxia)</span>، ضغوط تهوية عالية متوقعة <span class="english-term">(high ventilation pressures expected)</span>.</li>
+        <li><strong>خطر الدورة الدموية <span class="english-term">(Circulation risk)</span>:</strong> علامات صدمة <span class="english-term">(shock signs)</span>، نزيف كبير مشتبه <span class="english-term">(suspected major bleeding)</span>، انسداد تأموري <span class="english-term">(tamponade)</span>، استرواح صدري توتري <span class="english-term">(tension pneumothorax)</span>.</li>
+        <li><strong>أولويات عصبية <span class="english-term">(Neurologic priorities)</span>:</strong> إصابة رأس <span class="english-term">(head injury)</span>، خطر ارتفاع الضغط داخل الجمجمة <span class="english-term">(raised ICP risk)</span>، مقياس غلاسكو للغيبوبة <span class="english-term">GCS</span>، خطر نوبات <span class="english-term">(seizure risk)</span>.</li>
+        <li><strong>خطر الصيام/الاستنشاق <span class="english-term">(Fasting/aspiration risk)</span>:</strong> مجهول أو معدة ممتلئة <span class="english-term">(unknown or full stomach)</span>.</li>
+        <li><strong>الوصول <span class="english-term">(Access)</span>:</strong> وريدان كبيرا القطر على الأقل؟ <span class="english-term">(at least two large-bore IVs?)</span> دم متاح؟ <span class="english-term">(blood available?)</span> مُسرّع ضخ سريع؟ <span class="english-term">(rapid infuser?)</span></li>
+        <li><strong>الفريق <span class="english-term">(Team)</span>:</strong> من قائد المجرى التنفسي <span class="english-term">(airway lead)</span>، الأدوية <span class="english-term">(drugs)</span>، الضغطات <span class="english-term">(compressions)</span>، العدّاء <span class="english-term">(runner)</span>؟</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>الإطار 29.2 — "إحاطة تحريض الإصابات" | BOX 29.2 — “Trauma Induction Brief”</h3>
+        <p>صعوبة مجرى تنفسي؟ <span class="english-term">(Airway difficulty?)</span> خطر استنشاق؟ <span class="english-term">(Aspiration risk?)</span> صدمة/نزيف؟ <span class="english-term">(Shock/bleeding?)</span> إصابة صدرية؟ <span class="english-term">(Chest injury?)</span> أولويات إصابة الرأس؟ <span class="english-term">(Head injury priorities?)</span> الوصول + دم جاهز؟ <span class="english-term">(Access + blood ready?)</span> الأدوار مُعيّنة؟ <span class="english-term">(Roles assigned?)</span></p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.4 سلامة التحريض السريع المتسلسل: الأكسجة أولاً، وعي بانخفاض الضغط، جاهز للتصعيد | RSI Safety: Oxygenation-First, Hypotension-Aware, Escalation-Ready</h2>
+    <p>التحريض السريع المتسلسل <span class="english-term">(RSI - Rapid Sequence Induction)</span> شائع الحاجة في الإصابات. لكن <span class="english-term">RSI</span> يمكن أيضًا أن يكون اللحظة التي ينهار فيها المرضى - خاصة إذا تسبب التحريض في توسع أوعية مفاجئ <span class="english-term">(sudden vasodilation)</span> أو فقدان التوتر الودي <span class="english-term">(loss of sympathetic tone)</span> في دورة دموية ناقصة الامتلاء مسبقًا <span class="english-term">(already underfilled circulation)</span>.</p>
+
+    <h3>29.4.1 RSI إجراء نظامي، وليس أسلوب شخصي <span class="english-term">| RSI is a System Procedure</span></h3>
+    <p>التحريض السريع المتسلسل الموثوق:</p>
+    <ul>
+        <li>يخطط للأكسجة، الصعوبة، والإنقاذ مقدمًا <span class="english-term">(plans oxygenation, difficulty, and rescue in advance)</span>.</li>
+        <li>يحضّر استراتيجية الأدوية الضاغطة والسوائل/الدم <span class="english-term">(prepares vasopressor and fluid/blood strategy)</span>.</li>
+        <li>يحدّ من المحاولات ويحمي الأكسجة <span class="english-term">(limits attempts and protects oxygenation)</span>.</li>
+        <li>يستخدم التواصل المغلق ووضوح الأدوار <span class="english-term">(uses closed-loop communication and role clarity)</span>.</li>
+    </ul>
+
+    <h3>29.4.2 الأكسجة المسبقة: الدقيقة الأهم في RSI <span class="english-term">| Preoxygenation: The Most Important Minute</span></h3>
+    <p>مرضى الإصابات ينخفض تشبعهم بالأكسجين بسرعة بسبب:</p>
+    <ul>
+        <li>نقص الحجم وانخفاض النتاج القلبي <span class="english-term">(hypovolemia and low cardiac output)</span>.</li>
+        <li>إصابة/كدمة رئوية <span class="english-term">(lung injury/contusion)</span>.</li>
+        <li>استنشاق وإفرازات <span class="english-term">(aspiration and secretions)</span>.</li>
+        <li>سمنة/انقطاع نفس نومي أو احتياطي منخفض <span class="english-term">(obesity/OSA or reduced reserve)</span>.</li>
+    </ul>
+    <p><strong>تحسين الأكسجة المسبقة:</strong></p>
+    <ul>
+        <li>حسّن الوضعية <span class="english-term">(optimize position)</span> (الرأس لأعلى عندما يكون ممكنًا <span class="english-term">head-up when feasible</span>).</li>
+        <li>استخدم إحكام قناع محكم وتدفق مناسب <span class="english-term">(use tight mask seal and appropriate flow)</span>.</li>
+        <li>اعتبر استراتيجية الأكسجة أثناء انقطاع التنفس <span class="english-term">(consider apneic oxygenation strategy)</span> عندما تكون متاحة.</li>
+        <li>اشفط الدم/القيء مبكرًا ومتكررًا <span class="english-term">(suction blood/vomit early and repeatedly)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">الدقيقة التي أخذتها للأكسجة المسبقة الجيدة أنقذت أربع دقائق حاسمة للإنقاذ</span>
+        <p>مريض إصابة سيارة، فاقد وعي جزئي، وجهه مليء بالدماء. كنت أعلم أن تأمين المجرى التنفسي سيكون صعبًا.<br>
+        أخذت دقيقة كاملة - شعرت وكأنها أبدية تحت الضغط - للأكسجة المسبقة الجيدة. شفطت الدماء مرارًا. رفعت رأسه قدر المستطاع. استخدمت تدفق أكسجين عالٍ.<br>
+        عندما بدأت التحريض، وواجهت صعوبة في الرؤية بسبب الدماء، كان لدي أربع دقائق كاملة من احتياطي الأكسجين بدلاً من 30 ثانية.<br>
+        تلك الأربع دقائق أعطتني الوقت للشفط، تغيير الوضعية، استخدام منظار الفيديو، والنجاح في المحاولة الثانية دون أن ينخفض تشبع الأكسجين تحت 90%.<br>
+        <strong>الدقيقة التي أخذتها للأكسجة المسبقة الجيدة أنقذت أربع دقائق حاسمة للإنقاذ.</strong></p>
+    </div>
+
+    <h3>29.4.3 RSI في الصدمة: منع "الانهيار بعد التحريض" <span class="english-term">| RSI in Shock</span></h3>
+    <p>التحريض في الصدمة النزفية <span class="english-term">(hemorrhagic shock)</span> يمكن أن يسبب انهيارًا سريعًا بسبب:</p>
+    <ul>
+        <li>فقدان تعويض الكاتيكولامينات <span class="english-term">(loss of catecholamine compensation)</span>.</li>
+        <li>انخفاض العودة الوريدية <span class="english-term">(decreased venous return)</span>.</li>
+        <li>تأثيرات تثبيط عضلة القلب <span class="english-term">(myocardial depression effects)</span>.</li>
+        <li>التهوية بالضغط الإيجابي تقلل الحمل الأولي <span class="english-term">(positive pressure ventilation reducing preload)</span>.</li>
+    </ul>
+    <p><strong>ضوابط السلامة:</strong></p>
+    <ul>
+        <li>عالج الصدمة قبل التحريض عندما يكون ممكنًا <span class="english-term">(treat shock before induction when possible)</span> (دم/سوائل <span class="english-term">blood/fluids</span>، أدوية ضاغطة جاهزة <span class="english-term">pressors prepared</span>).</li>
+        <li>اختر أدوية التحريض بوعي ديناميكي دموي وعاير <span class="english-term">(choose induction drugs with hemodynamic awareness and titrate)</span>.</li>
+        <li>توقع حاجة فورية لأدوية ضاغطة <span class="english-term">(anticipate immediate vasopressor need)</span>.</li>
+        <li>تواصل مع الجراح حول الجاهزية للسيطرة الفورية على النزيف <span class="english-term">(communicate with surgeon about readiness for immediate hemorrhage control)</span>.</li>
+        <li>استعد لتفعيل نقل دم فوري <span class="english-term">(prepare for immediate transfusion activation)</span>.</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>الإطار 29.3 — حزمة سلامة RSI في الصدمة | BOX 29.3 — Shock RSI Safety Bundle</h3>
+        <p>أكسج جيدًا <span class="english-term">(Preoxygenate well)</span> • شفط جاهز <span class="english-term">(Suction ready)</span> • دم/أدوية ضاغطة جاهزة <span class="english-term">(Blood/pressor ready)</span> • وعي بالجرعة <span class="english-term">(Dose awareness)</span> • استراتيجية محاولة واحدة <span class="english-term">(One attempt strategy)</span> • خطة إنقاذ مبكرة <span class="english-term">(Early rescue plan)</span> • أكّد <span class="english-term">ETCO₂</span> بسرعة <span class="english-term">(Confirm ETCO₂ quickly)</span>.</p>
+    
+    <div style="background-color: #f0f9ff; border: 2px solid #0ea5e9; border-radius: 8px; padding: 25px; margin: 30px 0; page-break-inside: avoid;">
+        <h3 style="color: #0c4a6e; text-align: center; margin-top: 0; font-family: 'Noto Kufi Arabic', sans-serif; font-size: 22px;">
+            📋 الرسم التوضيحي 29.1 — RSI في الصدمة: مسار السلامة
+        </h3>
+        <p style="text-align: center; color: #0369a1; font-style: italic; margin-bottom: 20px;">
+            <span class="english-term">Shock RSI Safety Pathway</span>
+        </p>
+        
+        <table style="width: 100%; border-collapse: collapse; margin: 20px 0; background-color: white;">
+            <thead>
+                <tr style="background-color: #0ea5e9; color: white;">
+                    <th style="padding: 12px; border: 1px solid #0284c7; text-align: center; width: 25%;">المرحلة<br><span style="font-weight: normal; font-size: 0.9em;">Phase</span></th>
+                    <th style="padding: 12px; border: 1px solid #0284c7; text-align: right; width: 50%;">الإجراءات الأساسية<br><span style="font-weight: normal; font-size: 0.9em;">Key Actions</span></th>
+                    <th style="padding: 12px; border: 1px solid #0284c7; text-align: center; width: 25%;">ضوابط السلامة<br><span style="font-weight: normal; font-size: 0.9em;">Safety Checks</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #fef3c7;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #92400e;">
+                        التحضير<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Preparation</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • تقييم 60 ثانية: مجرى تنفسي، تنفس، دورة دموية<br>
+                        • تعيين الأدوار: قائد مجرى تنفسي، دورة دموية، أدوية، عداء<br>
+                        • تحضير الأدوية الضاغطة (نورإبينفرين/فينيل إفرين)<br>
+                        • التنسيق مع بنك الدم: دم جاهز؟<br>
+                        • فحص معدات الشفط والإنقاذ
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center;">
+                        ✓ وريدان كبيرا القطر<br>
+                        ✓ شفط يعمل<br>
+                        ✓ أدوية ضاغطة محضرة<br>
+                        ✓ دم متاح<br>
+                        ✓ معدات إنقاذ جاهزة
+                    </td>
+                </tr>
+                
+                <tr style="background-color: #dbeafe;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #1e3a8a;">
+                        الأكسجة المسبقة<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Preoxygenation</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • تحسين الوضعية (رأس لأعلى إن أمكن)<br>
+                        • قناع محكم + تدفق أكسجين عالٍ<br>
+                        • شفط الدم/القيء مبكرًا ومتكررًا<br>
+                        • أكسجة لمدة 3-5 دقائق (أو حسب الحالة)<br>
+                        • الهدف: احتياطي أكسجين كافٍ
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center;">
+                        ✓ التشبع ≥95%<br>
+                        ✓ قناع محكم<br>
+                        ✓ شفط جاهز<br>
+                        ✓ وضعية محسّنة
+                    </td>
+                </tr>
+                
+                <tr style="background-color: #fce7f3;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #9f1239;">
+                        التحريض<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Induction</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • عيار جرعة أدوية التحريض (تجنب الجرعات الكاملة)<br>
+                        • توقع انهيار الضغط (ابدأ الأدوية الضاغطة مبكرًا)<br>
+                        • سرعة السوائل/الدم إن احتاج<br>
+                        • محاولة تنبيب واحدة مُحسَّنة<br>
+                        • إذا فشلت: توقف، أعد الأكسجة، غيّر النهج
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center;">
+                        ✓ أدوية ضاغطة جاهزة<br>
+                        ✓ ضغط الدم مراقَب<br>
+                        ✓ استراتيجية محاولة واحدة<br>
+                        ✓ خطة إنقاذ واضحة
+                    </td>
+                </tr>
+                
+                <tr style="background-color: #dcfce7;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #166534;">
+                        التأكيد والمراقبة<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Confirmation</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • تأكيد ETCO₂ فورًا (الموجة الشكلية)<br>
+                        • تسمع الرئتين (تهوية متساوية؟)<br>
+                        • ثبّت الأنبوبة بعناية<br>
+                        • راقب الديناميكا الدموية باستمرار<br>
+                        • صحّح انخفاض الضغط (أدوية ضاغطة/سوائل/دم)
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center;">
+                        ✓ ETCO₂ موجب<br>
+                        ✓ تهوية متساوية<br>
+                        ✓ ضغط الدم مستقر<br>
+                        ✓ التشبع ≥92%
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="background-color: #fee2e2; border-right: 4px solid #dc2626; padding: 15px; margin-top: 20px; border-radius: 4px;">
+            <p style="margin: 0; font-weight: bold; color: #991b1b;">⚠️ تحذيرات حرجة:</p>
+            <ul style="margin: 10px 0 0 0; padding-right: 20px; color: #7f1d1d;">
+                <li><strong>انهيار الضغط بعد التحريض</strong> متوقع في الصدمة - ابدأ الأدوية الضاغطة مبكرًا</li>
+                <li><strong>لا تكرر المحاولات</strong> إذا فشلت الأولى - توقف، أعد الأكسجة، غيّر النهج</li>
+                <li><strong>الأكسجة أهم من التنبيب</strong> - استخدم SGA للإنقاذ إذا لزم</li>
+                <li><strong>النزيف لا ينتظر</strong> - نسّق مع الجراح للسيطرة الفورية</li>
+            </ul>
+        </div>
+        
+        <p style="text-align: center; margin-top: 20px; color: #64748b; font-style: italic;">
+            "في RSI الصدمة، النجاح يُبنى على التحضير والتنسيق والانضباط - ليس على الارتجال"
+        </p>
+    </div>
+</div>
+
+    <div class="divider">***</div>
+
+    <h2>29.5 مجرى تنفسي الإصابات: دم، قيء، عمود فقري عنقي، ووصول محدود | Trauma Airway</h2>
+    <p>خطر مجرى تنفسي الإصابات <span class="english-term">(Trauma airway risk)</span> غالبًا ما يأتي من البيئة والإصابة <span class="english-term">(environment and injury)</span>، وليس التشريح فقط <span class="english-term">(not anatomy alone)</span>.</p>
+
+    <h3>29.5.1 مخاطر مجرى تنفسي الإصابات الشائعة <span class="english-term">| Common Trauma Airway Hazards</span></h3>
+    <ul>
+        <li>نزيف نشط يحجب الرؤية <span class="english-term">(active bleeding obscuring view)</span>.</li>
+        <li>قيء/خطر استنشاق <span class="english-term">(vomit/aspiration risk)</span>.</li>
+        <li>تثبيت عمود فقري عنقي يحد من المحاذاة <span class="english-term">(C-spine immobilization limiting alignment)</span>.</li>
+        <li>اضطراب وجهي فكي <span class="english-term">(maxillofacial disruption)</span>.</li>
+        <li>وذمة مجرى تنفسي/استنشاق حرق <span class="english-term">(airway edema/burn inhalation)</span>.</li>
+        <li>هياج/تسمم وعدم القدرة على التعاون <span class="english-term">(agitation/intoxication and inability to cooperate)</span>.</li>
+        <li>وقت محدود وتحمل محدود لانقطاع التنفس <span class="english-term">(limited time and limited tolerance to apnea)</span>.</li>
+    </ul>
+
+    <h3>29.5.2 "المحاولة الأولى أفضل محاولة" — لكن ليس "محاولات متكررة" <span class="english-term">| First Attempt Best Attempt</span></h3>
+    <p>المحاولة الأولى يجب أن تكون مُحسَّنة:</p>
+    <ul>
+        <li>المعدات الصحيحة وأجهزة الاحتياط <span class="english-term">(correct equipment and backup devices)</span>.</li>
+        <li>الشفط مختبَر ومستخدَم <span class="english-term">(suction tested and used)</span>.</li>
+        <li>الوضعية مُحسَّنة ضمن قيود العمود الفقري العنقي <span class="english-term">(positioning optimized within c-spine constraints)</span>.</li>
+        <li>مُقدّم خبير ينفذ المحاولة الأولى عند الخطر العالي <span class="english-term">(experienced provider performs first attempt when high risk)</span>.</li>
+        <li>الموجّه/منظار الفيديو متاح مبكرًا إذا أُشير <span class="english-term">(bougie/video laryngoscopy available early if indicated)</span>.</li>
+    </ul>
+
+    <h3>29.5.3 تصعيد المجرى التنفسي الفاشل: انضباط الأكسجة أولاً <span class="english-term">| Failed Airway Escalation</span></h3>
+    <p>المحاولات المتكررة آلية ضرر رئيسية. مسار تصعيد آمن:</p>
+    <ul>
+        <li>توقف وأعد الأكسجة مبكرًا <span class="english-term">(pause and reoxygenate early)</span>.</li>
+        <li>غيّر التقنية/الجهاز بشكل مفيد <span class="english-term">(switch technique/device meaningfully)</span>.</li>
+        <li>استخدم مجرى تنفسي فوق المزمار <span class="english-term">(supraglottic airway - SGA)</span> لإنقاذ الأكسجة عند المناسب <span class="english-term">(for oxygenation rescue when appropriate)</span>.</li>
+        <li>اطلب المساعدة مبكرًا <span class="english-term">(call for help early)</span>.</li>
+        <li>حدد عتبة <span class="english-term">CICO</span> (لا يمكن التهوية/لا يمكن التنبيب <span class="english-term">Cannot Intubate Cannot Oxygenate</span>) واستعد لمجرى تنفسي جراحي دون تأخير <span class="english-term">(prepare surgical airway without delay)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة المحاولة الرابعة التي كادت تقتل</span>
+        <p>مريض إصابة، مجرى تنفسي صعب. المحاولة الأولى فشلت. الثانية فشلت.<br>
+        قلت لنفسي: "محاولة أخيرة."<br>
+        في المحاولة الثالثة، انخفض التشبع إلى 75%. في الرابعة، إلى 60%.<br>
+        كنت مُثبَّتًا <span class="english-term">(fixated)</span> على "يجب أن أنجح في التنبيب"، ونسيت القاعدة الذهبية: الأكسجة أهم من التنبيب.<br>
+        صرخت الممرضة: "دكتور، التشبع 50%! توقف!"<br>
+        توقفت. وضعت مجرى تنفسي فوق المزمار. عاد التشبع إلى 95%.<br>
+        استعدنا. ثم نجحنا.<br>
+        <strong>ذلك اليوم تعلمت:</strong> في الإصابات، الكبرياء يقتل. التوقف للأكسجة ينقذ.</p>
+    </div>
+
+    <div class="concept-box">
+        <h3>الإطار 29.4 — تصعيد مجرى تنفسي صعب في الإصابات | BOX 29.4 — Trauma Difficult Airway Escalation</h3>
+        <p>أوقف المحاولات <span class="english-term">(Stop attempts)</span> ← أعد الأكسجة <span class="english-term">(reoxygenate)</span> ← غيّر الجهاز/النهج <span class="english-term">(change device/approach)</span> ← إنقاذ <span class="english-term">SGA</span> <span class="english-term">(SGA rescue)</span> ← اطلب مبكرًا <span class="english-term">(call early)</span> ← حدد <span class="english-term">CICO</span> وتصرف <span class="english-term">(define CICO and act)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.6 النزيف والصدمة: الإنعاش الحرج بالوقت كنظام منسق | Hemorrhage and Shock: Time-Critical Resuscitation</h2>
+    <p>في الإصابات الكبرى، "انتظار نتائج المختبر" يمكن أن يكون قاتلاً. إنعاش النزيف <span class="english-term">(Hemorrhage resuscitation)</span> هو تدخل معتمد على الوقت <span class="english-term">(time-based intervention)</span>.</p>
+
+    <h3>29.6.1 التعرف المبكر: عالج "الانجراف" كنزيف حتى يُثبت العكس <span class="english-term">| Early Recognition</span></h3>
+    <p>النزيف قد يكون مخفيًا <span class="english-term">(hidden)</span> (الحوض <span class="english-term">pelvis</span>، البطن <span class="english-term">abdomen</span>، الصدر <span class="english-term">chest</span>). الدلائل تشمل:</p>
+    <ul>
+        <li>تسرع القلب <span class="english-term">(tachycardia)</span> (قد يكون مُقنّعًا بحاصرات بيتا <span class="english-term">beta-blockers</span>).</li>
+        <li>انخفاض ضغط الدم <span class="english-term">(hypotension)</span> (علامة متأخرة في البعض <span class="english-term">late sign</span>).</li>
+        <li>ضغط نبض ضيق <span class="english-term">(narrow pulse pressure)</span>.</li>
+        <li>أطراف باردة، امتلاء شعيري ضعيف <span class="english-term">(cool extremities, poor capillary refill)</span>.</li>
+        <li>إخراج بول منخفض <span class="english-term">(low urine output)</span>.</li>
+        <li>ارتفاع اللاكتات/تغيرات حمض-قاعدة <span class="english-term">(rising lactate/acid-base changes)</span>.</li>
+        <li>انخفاض <span class="english-term">ETCO₂</span> في حالات التدفق المنخفض <span class="english-term">(falling ETCO₂ in low-flow states)</span>.</li>
+        <li>زيادة متطلبات الأدوية الضاغطة دون سبب واضح <span class="english-term">(increasing pressor requirements without clear cause)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">النزيف المخفي</span>
+        <p>السيد خالد، حادث دراجة نارية. إصابة حوض. لم يكن ينزف "ظاهريًا". الضغط 95، القلب 100. بدا "مستقرًا".<br>
+        لكن الممرضة المخضرمة قالت: "دكتور، شيء ما خطأ. الجلد بارد جدًا، والنبض ضعيف."<br>
+        نظرت إلى الحوض: منتفخ قليلاً. طلبت اللاكتات: 4.5 (كان 2.0 قبل 30 دقيقة).<br>
+        كان ينزف داخل الحوض - نزيف صامت لكنه مميت.<br>
+        فعّلنا بروتوكول النقل الضخم فورًا، رباط الحوض، غرفة عمليات طارئة. أنقذناه، لكن لو انتظرنا "حتى ينهار الضغط"، لكنا فقدناه.<br>
+        <strong>تعلمت:</strong> في الإصابات، لا تنتظر الانهيار. عالج "الانجراف" كنزيف حتى يُثبت العكس.</p>
+    </div>
+
+    <h3>29.6.2 الثالوث المميت: انخفاض الحرارة، الحماض، اضطراب التخثر <span class="english-term">| The Lethal Triad</span></h3>
+    <p>النزيف الضخم يخلق دورة ذاتية التعزيز <span class="english-term">(self-reinforcing cycle)</span>:</p>
+    <ul>
+        <li>نزيف <span class="english-term">(bleeding)</span> ← نقص تروية <span class="english-term">(hypoperfusion)</span> ← حماض <span class="english-term">(acidosis)</span>.</li>
+        <li>إنعاش + تعرية <span class="english-term">(resuscitation + exposure)</span> ← انخفاض حرارة <span class="english-term">(hypothermia)</span>.</li>
+        <li>تخفيف + استهلاك <span class="english-term">(dilution + consumption)</span> ← اضطراب تخثر <span class="english-term">(coagulopathy)</span>.</li>
+    </ul>
+    <p>هذا الثالوث يتنبأ بالنزيف المستمر والوفيات. منعه مهمة جودة تخدير أساسية.</p>
+
+    <h3>29.6.3 نقل الدم الضخم في الإصابات: التنسيق يتفوق على البطولات <span class="english-term">| Trauma Massive Transfusion</span></h3>
+    <p>نظام بروتوكول النقل الضخم <span class="english-term">(MTP - Massive Transfusion Protocol)</span> الموثوق يتضمن:</p>
+    <ul>
+        <li>محفزات تفعيل واضحة <span class="english-term">(clear activation triggers)</span>.</li>
+        <li>تواصل مغلق الحلقة مع بنك الدم <span class="english-term">(blood bank closed-loop communication)</span>.</li>
+        <li>توصيل متوقع لمكونات الدم <span class="english-term">(predictable delivery of blood components)</span>.</li>
+        <li>استراتيجية تدفئة <span class="english-term">(warming strategy)</span>.</li>
+        <li>استراتيجية كالسيوم <span class="english-term">(calcium strategy)</span> أثناء النقل الضخم.</li>
+        <li>إعادة تقييم متكررة لغازات الدم والتخثر <span class="english-term">(frequent ABG and coagulation reassessment)</span>.</li>
+        <li>توثيق للتتبع <span class="english-term">(documentation for traceability)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">النظام الجيد ينقذ حياة المرضى</span>
+        <p>السيدة مريم، إصابة طعن في الكبد. نزيف هائل. كنت أضخ الدم بأسرع ما أستطيع، أحاول "إنقاذها بمفردي".<br>
+        لكن النظام هو الذي أنقذها:</p>
+        <ul>
+            <li>بنك الدم كان يعرف بالضبط ماذا يرسل (نسبة 1:1:1 من كريات حمراء/بلازما/صفائح).</li>
+            <li>الدم كان مُدفّأًا.</li>
+            <li>الكالسيوم كان يُعطى حسب البروتوكول.</li>
+            <li>غازات الدم كل 15 دقيقة.</li>
+            <li>الحرارة مراقَبة ومُحافظ عليها.</li>
+        </ul>
+        <p>لم يكن "أنا"، بل "نحن" - النظام الذي بُني على تنسيق لا على بطولة.</p>
+    </div>
+
+    <div class="success-box">
+        <h3>الإطار 29.5 — حزمة إنعاش نزيف الإصابات | BOX 29.5 — Trauma Hemorrhage Resuscitation Bundle</h3>
+        <p>بروتوكول نقل ضخم مبكر <span class="english-term">(Early MTP)</span> • دفّئ المريض والسوائل <span class="english-term">(Warm patient and fluids)</span> • خطة تعويض كالسيوم <span class="english-term">(Calcium replacement plan)</span> • جدول غازات الدم/لاكتات <span class="english-term">(ABG/lactate schedule)</span> • تجنب إنعاش بالتخفيف فقط <span class="english-term">(Avoid dilution-only resuscitation)</span> • وثّق الإجماليات والوقت <span class="english-term">(Document totals and time)</span>.</p>
+    
+    <div style="background-color: #fef2f2; border: 2px solid #ef4444; border-radius: 8px; padding: 25px; margin: 30px 0; page-break-inside: avoid;">
+        <h3 style="color: #991b1b; text-align: center; margin-top: 0; font-family: 'Noto Kufi Arabic', sans-serif; font-size: 22px;">
+            🩸 الرسم التوضيحي 29.2 — بروتوكول إدارة النزيف والصدمة
+        </h3>
+        <p style="text-align: center; color: #dc2626; font-style: italic; margin-bottom: 20px;">
+            <span class="english-term">Hemorrhage and Shock Management Protocol</span>
+        </p>
+        
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <!-- المرحلة 1: التعرف المبكر (0-5 دقائق) -->
+            <div style="background-color: #fef3c7; border-right: 5px solid #f59e0b; padding: 20px; border-radius: 6px;">
+                <h4 style="color: #92400e; margin-top: 0; font-family: 'Noto Kufi Arabic', sans-serif;">
+                    ⏱️ المرحلة 1: التعرف المبكر (0-5 دقائق)
+                    <span style="font-weight: normal; font-size: 0.85em; color: #78350f;"><br>Early Recognition Phase</span>
+                </h4>
+                <table style="width: 100%; border-collapse: collapse; background-color: white;">
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #fbbf24; width: 40%; vertical-align: top;">
+                            <strong style="color: #92400e;">العلامات السريرية:</strong><br>
+                            • تسرع القلب<br>
+                            • انخفاض ضغط الدم (علامة متأخرة)<br>
+                            • ضغط نبض ضيق<br>
+                            • أطراف باردة<br>
+                            • امتلاء شعيري ضعيف<br>
+                            • حالة عقلية متغيرة
+                        </td>
+                        <td style="padding: 10px; border: 1px solid #fbbf24; width: 60%; vertical-align: top;">
+                            <strong style="color: #92400e;">الإجراءات الفورية:</strong><br>
+                            ✓ أكسجة عالية التدفق<br>
+                            ✓ وريدان كبيرا القطر على الأقل<br>
+                            ✓ عيّنات دم: CBC، تخثر، غازات دم، لاكتات<br>
+                            ✓ <strong>فعّل MTP مبكرًا</strong> (لا تنتظر انهيار الضغط)<br>
+                            ✓ نسّق مع الجراح: السيطرة على النزيف؟<br>
+                            ✓ ابدأ التدفئة النشطة فورًا
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <!-- المرحلة 2: الإنعاش المبكر (5-15 دقيقة) -->
+            <div style="background-color: #fecaca; border-right: 5px solid #dc2626; padding: 20px; border-radius: 6px;">
+                <h4 style="color: #991b1b; margin-top: 0; font-family: 'Noto Kufi Arabic', sans-serif;">
+                    🚨 المرحلة 2: الإنعاش المبكر (5-15 دقيقة)
+                    <span style="font-weight: normal; font-size: 0.85em; color: #7f1d1d;"><br>Early Resuscitation Phase</span>
+                </h4>
+                <table style="width: 100%; border-collapse: collapse; background-color: white;">
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #f87171; vertical-align: top;">
+                            <strong style="color: #991b1b;">بروتوكول النقل الضخم (MTP):</strong><br>
+                            • نسبة 1:1:1 (كريات حمراء : بلازما : صفائح)<br>
+                            • دم مُدفّأ (استخدم مُسخّن دم)<br>
+                            • تجنب الإفراط في السوائل البلورية<br>
+                            • أعط كالسيوم (1 غرام كل 4 وحدات دم)<br>
+                            • راقب التخثر كل 15-30 دقيقة
+                        </td>
+                        <td style="padding: 10px; border: 1px solid #f87171; vertical-align: top;">
+                            <strong style="color: #991b1b;">منع الثالوث المميت:</strong><br>
+                            🌡️ <strong>انخفاض الحرارة:</strong> دفّئ المريض/السوائل/الدم<br>
+                            🧪 <strong>الحماض:</strong> إنعاش كافٍ، غازات دم متكررة<br>
+                            💉 <strong>اضطراب التخثر:</strong> بروتوكول MTP، تجنب التخفيف<br>
+                            <br>
+                            <strong>أهداف ديناميكية دموية:</strong><br>
+                            • <span style="color: #dc2626;">إصابة دماغية:</span> MAP ≥80<br>
+                            • <span style="color: #dc2626;">نزيف غير مسيطر:</span> حسب البروتوكول
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <!-- المرحلة 3: الإنعاش المتقدم (15-30 دقيقة وما بعد) -->
+            <div style="background-color: #dbeafe; border-right: 5px solid #2563eb; padding: 20px; border-radius: 6px;">
+                <h4 style="color: #1e3a8a; margin-top: 0; font-family: 'Noto Kufi Arabic', sans-serif;">
+                    🔬 المرحلة 3: الإنعاش المتقدم والمراقبة (15-30 دقيقة وما بعد)
+                    <span style="font-weight: normal; font-size: 0.85em; color: #1e40af;"><br>Advanced Resuscitation Phase</span>
+                </h4>
+                <table style="width: 100%; border-collapse: collapse; background-color: white;">
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #60a5fa; width: 50%; vertical-align: top;">
+                            <strong style="color: #1e3a8a;">المراقبة المتقدمة:</strong><br>
+                            • خط شرياني (ضغط مباشر + غازات دم)<br>
+                            • ETCO₂ مستمر (مؤشر إخراج قلبي)<br>
+                            • إخراج بول (هدف ≥0.5 مل/كغ/ساعة)<br>
+                            • حرارة مستمرة<br>
+                            • لاكتات متسلسل (اتجاه التحسن؟)
+                        </td>
+                        <td style="padding: 10px; border: 1px solid #60a5fa; width: 50%; vertical-align: top;">
+                            <strong style="color: #1e3a8a;">إعادة التقييم المستمر:</strong><br>
+                            ✓ هل السيطرة على النزيف تحققت؟<br>
+                            ✓ هل الديناميكا الدموية تتحسن؟<br>
+                            ✓ هل التخثر يتحسن؟<br>
+                            ✓ هل الحرارة مستقرة؟<br>
+                            ✓ هل اللاكتات ينخفض؟<br>
+                            ✓ متى نوقف MTP؟
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div style="background-color: #1e3a8a; color: white; padding: 15px; margin-top: 20px; border-radius: 6px; text-align: center;">
+            <p style="margin: 0; font-size: 18px; font-weight: bold;">
+                🎯 المبدأ الذهبي: "عالج الانجراف كنزيف حتى يُثبت العكس"
+            </p>
+            <p style="margin: 5px 0 0 0; font-size: 14px; font-style: italic;">
+                "Treat drift as bleeding until proven otherwise"
+            </p>
+        </div>
+        
+        <table style="width: 100%; margin-top: 20px; border-collapse: collapse; background-color: #fef3c7; border: 2px solid #f59e0b;">
+            <tr>
+                <td style="padding: 15px; text-align: center;">
+                    <strong style="color: #92400e; font-size: 16px;">محفزات تفعيل MTP المبكر:</strong><br>
+                    <span style="color: #78350f; font-size: 14px;">
+                        • ضغط انقباضي &lt;90 مع دليل نزيف نشط<br>
+                        • نزيف مرئي ضخم<br>
+                        • حاجة متوقعة &gt;4 وحدات دم في ساعة<br>
+                        • صدمة نزفية سريرية واضحة<br>
+                        • إصابة اختراقية للجذع
+                    </span>
+                </td>
+            </tr>
+        </table>
+        
+        <p style="text-align: center; margin-top: 20px; color: #64748b; font-style: italic;">
+            "النجاح في إنعاش النزيف يعتمد على التنسيق والسرعة والانضباط - ليس على البطولة الفردية"
+        </p>
+    </div>
+</div>
+
+    <div class="divider">***</div>
+
+    <h2>29.7 استراتيجية الديناميكا الدموية: "انخفاض الضغط المسموح" واستثناءات إصابة الدماغ | Hemodynamic Strategy</h2>
+    <p>في بعض سياقات الإصابات، الضغط "الطبيعي" الصارم قبل السيطرة على النزيف قد يزيد النزيف. لكن هذا النهج ليس عالميًا.</p>
+
+    <h3>29.7.1 المبدأ الرئيسي: طابق هدف الضغط مع نمط الإصابة <span class="english-term">| Match BP Target to Injury Pattern</span></h3>
+    <ul>
+        <li>في النزيف غير المسيطر عليه دون إصابة رأس <span class="english-term">(In uncontrolled hemorrhage without head injury)</span>، قد يُستخدم هدف أقل كجسر للسيطرة الجراحية (بروتوكولات مؤسسية تختلف <span class="english-term">institutional protocols vary</span>).</li>
+        <li>في إصابة الدماغ الرضية <span class="english-term">(In traumatic brain injury - TBI)</span>، انخفاض الضغط مرتبط بقوة بنتائج عصبية أسوأ <span class="english-term">(hypotension is strongly associated with worse neurologic outcomes)</span>؛ لذلك، الأهداف يجب أن تحمي التروية الدماغية <span class="english-term">(targets must protect cerebral perfusion)</span>.</li>
+    </ul>
+    <p>جودة تخدير الإصابات تتطلب:</p>
+    <ul>
+        <li>قرارات هدف صريحة <span class="english-term">(explicit target decisions)</span>.</li>
+        <li>تواصل فريق واضح <span class="english-term">(clear team communication)</span>.</li>
+        <li>إعادة تقييم مع تقدم السيطرة على النزيف <span class="english-term">(re-evaluation as hemorrhage control progresses)</span>.</li>
+    </ul>
+
+    <div class="quote-box">
+        <h3>الإطار 29.6 — "بيان الهدف" | BOX 29.6 — “Target Statement”</h3>
+        <p>قلها بصوت عالٍ <span class="english-term">(Say it out loud)</span>:<br>
+        "هدفنا لضغط الدم الوسطي/الانقباضي هو ___ لأن ___ <span class="english-term">(Our target MAP/SBP is ___ because ___)</span> (السيطرة على النزيف <span class="english-term">bleeding control</span> مقابل تروية الدماغ <span class="english-term">brain perfusion</span>)."</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.8 إدارة الحرارة: فقدان الحرارة ضرر متوقع وقابل للوقاية | Temperature Management</h2>
+    <p>مرضى الإصابات يفقدون الحرارة بسرعة <span class="english-term">(lose heat rapidly)</span> بسبب:</p>
+    <ul>
+        <li>التعرية، بيئة باردة، ملابس مبللة <span class="english-term">(exposure, cold environment, wet clothing)</span>.</li>
+        <li>سوائل ودم وريدي بارد <span class="english-term">(cold IV fluids and blood)</span>.</li>
+        <li>تجاويف مفتوحة وجروح كبيرة <span class="english-term">(open cavities and large wounds)</span>.</li>
+        <li>صدمة تقلل التروية المحيطية <span class="english-term">(shock reducing peripheral perfusion)</span>.</li>
+    </ul>
+    <p>انخفاض الحرارة <span class="english-term">(Hypothermia)</span> يزيد سوء اضطراب التخثر <span class="english-term">(worsens coagulopathy)</span> واضطرابات النظم <span class="english-term">(arrhythmias)</span>. لذلك:<br>
+    التدفئة النشطة ليست راحة - إنها إنعاش إرقاء <span class="english-term">(active warming is not comfort—it is hemostatic resuscitation)</span>.</p>
+
+    <h3>29.8.1 إجراءات التدفئة العملية <span class="english-term">| Practical Warming Actions</span></h3>
+    <ul>
+        <li>بطانيات دافئة وتدفئة هواء قسري <span class="english-term">(warm blankets and forced-air warming)</span> عندما يكون ممكنًا.</li>
+        <li>سوائل ومنتجات دم مُدفّأة <span class="english-term">(warmed fluids and blood products)</span>.</li>
+        <li>بيئة غرفة عمليات دافئة <span class="english-term">(warm OR environment)</span> حيثما أمكن.</li>
+        <li>تقليل التعرية غير الضرورية <span class="english-term">(minimize unnecessary exposure)</span>.</li>
+        <li>مراقبة حرارة مستمرة <span class="english-term">(continuous temperature monitoring)</span> في المرضى عاليي الخطر.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة المريض الذي فقد حرارته</span>
+        <p>السيد أحمد، إصابة طعن في البطن. دخل غرفة العمليات بحرارة 36.5 درجة. بعد ساعة من الجراحة والنزيف، كانت حرارته 34 درجة.<br>
+        بدأ ينزف أكثر. التخثر توقف عن العمل بكفاءة. أصبح من المستحيل إيقاف النزيف.<br>
+        صرخ الجراح: "لماذا لا يتخثر الدم؟"<br>
+        نظرت إلى شاشة الحرارة: 34 درجة.<br>
+        كان الجواب بسيطًا: "لأننا تركناه يبرد".<br>
+        بدأنا تدفئة مكثفة - بطانيات الهواء القسري، سوائل دافئة، رفع حرارة الغرفة. استغرق الأمر 30 دقيقة لاستعادة الحرارة، وبعدها بدأ التخثر يتحسن تدريجيًا.<br>
+        <strong>تعلمت:</strong> في الإصابات، انخفاض الحرارة قاتل صامت. الوقاية أسهل بكثير من العلاج.</p>
+    </div>
+
+    <div class="success-box">
+        <h3>الإطار 29.7 — حزمة الوقاية من انخفاض الحرارة | BOX 29.7 — Hypothermia Prevention Bundle</h3>
+        <p>غرفة دافئة إن أمكن <span class="english-term">(Warm room if possible)</span> • تدفئة هواء قسري <span class="english-term">(Forced-air warming)</span> • سوائل/دم دافئ <span class="english-term">(Warm fluids/blood)</span> • مراقبة الحرارة <span class="english-term">(Temperature monitoring)</span> • تقليل وقت التعرية <span class="english-term">(Reduce exposure time)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.9 تصعيد مراقبة الإصابات: اكتشف التدهور مبكرًا وادعم القرارات | Trauma Monitoring Escalation</h2>
+    <p>مراقبة الإصابات يجب أن تدعم الكشف السريع وقرارات الإنعاش.</p>
+
+    <h3>29.9.1 عناصر التصعيد الأساسية (معتمدة على الخطر) <span class="english-term">| Core Escalation Elements</span></h3>
+    <ul>
+        <li>خط شرياني غازي <span class="english-term">(invasive arterial line)</span> (غالبًا مبكرًا <span class="english-term">often early</span>).</li>
+        <li>وصول كبير القطر وقدرة ضخ سريع <span class="english-term">(large-bore access and rapid infusion capability)</span>.</li>
+        <li>فحوصات غازات الدم/لاكتات متكررة <span class="english-term">(frequent ABG/lactate checks)</span> في الصدمة/النزيف الكبير.</li>
+        <li>مراقبة إخراج البول <span class="english-term">(urine output monitoring)</span>.</li>
+        <li>قياس ثاني أكسيد الكربون <span class="english-term">(capnography)</span> (<span class="english-term">ETCO₂</span> كعلامة تحذير تدفق منخفض <span class="english-term">as a low-flow warning sign</span>).</li>
+        <li>اختبار نقطة رعاية للهيموجلوبين والتخثر <span class="english-term">(point-of-care hemoglobin and coagulation testing)</span> عندما يكون متاحًا.</li>
+    </ul>
+
+    <h3>29.9.2 ETCO₂ كإشارة سلامة في الإصابات <span class="english-term">| ETCO₂ as a Safety Signal</span></h3>
+    <p>انخفاض مفاجئ في <span class="english-term">ETCO₂</span> قد يمثل:</p>
+    <ul>
+        <li>انفصال تهوية <span class="english-term">(ventilation disconnection)</span>.</li>
+        <li>نتاج قلبي منخفض شديد من النزيف <span class="english-term">(severe low cardiac output from hemorrhage)</span>.</li>
+        <li>انصمام رئوي/انصمام هواء <span class="english-term">(pulmonary embolism/air embolism)</span>.</li>
+        <li>توقف قلبي <span class="english-term">(cardiac arrest)</span>.</li>
+    </ul>
+    <p>عالجها كإشارة طوارئ حتى تُفسَّر <span class="english-term">(Treat it as an emergency signal until explained)</span>.</p>
+
+    <div class="alert-box">
+        <h3>الإطار 29.8 — تفكير طوارئ "انخفاض ETCO₂" | BOX 29.8 — “ETCO₂ Drop” Emergency Thinking</h3>
+        <p>انفصال؟ <span class="english-term">(Disconnect?)</span> نزيف ضخم/تدفق منخفض؟ <span class="english-term">(Massive bleed/low output?)</span> انصمام؟ <span class="english-term">(Embolism?)</span> توقف؟ <span class="english-term">(Arrest?)</span><br>
+        تصرف أولاً، حلل ثانيًا <span class="english-term">(Act first, analyze second)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.10 العوامل البشرية تحت الضغط: الأخطاء المتوقعة لعمل الطوارئ | Human Factors Under Pressure</h2>
+    <p>في الطوارئ، الدماغ يُضيّق الانتباه <span class="english-term">(narrows attention)</span> ويمكن أن يُحاصر في التثبيت <span class="english-term">(become trapped in fixation)</span>.</p>
+
+    <h3>29.10.1 فخاخ العوامل البشرية الشائعة في الإصابات <span class="english-term">| Common Trauma Human Factor Traps</span></h3>
+    <ul>
+        <li><strong>التثبيت <span class="english-term">(fixation)</span>:</strong> محاولات تنبيب متكررة رغم انخفاض التشبع <span class="english-term">(repeated intubation attempts despite falling saturation)</span>.</li>
+        <li><strong>الرؤية النفقية <span class="english-term">(tunnel vision)</span>:</strong> التركيز على المجرى التنفسي بينما الصدمة تتفاقم دون علاج <span class="english-term">(focusing on airway while shock worsens untreated)</span>.</li>
+        <li><strong>ارتباك الأدوار <span class="english-term">(role confusion)</span>:</strong> شخصان يفعلان نفس المهمة، لا أحد يدير الدورة الدموية <span class="english-term">(two people doing same task, no one managing circulation)</span>.</li>
+        <li><strong>انهيار التواصل <span class="english-term">(communication collapse)</span>:</strong> المعلومات لا تُشارَك، الافتراضات لا تُصرَّح <span class="english-term">(information not shared, assumptions not stated)</span>.</li>
+        <li><strong>حمل زائد من المقاطعات <span class="english-term">(interruption overload)</span>:</strong> طلبات متعددة أثناء التحريض <span class="english-term">(multiple requests during induction)</span>.</li>
+    </ul>
+
+    <h3>29.10.2 تدابير السلامة المضادة التي تعمل <span class="english-term">| Safety Countermeasures That Work</span></h3>
+    <ul>
+        <li>تعيين أدوار صريح <span class="english-term">(explicit role assignment)</span> ("قائد مجرى تنفسي <span class="english-term">airway lead</span>"، "قائد دورة دموية <span class="english-term">circulation lead</span>"، "أدوية <span class="english-term">medications</span>"، "عدّاء <span class="english-term">runner</span>").</li>
+        <li>تواصل مغلق الحلقة وقراءة مرتدة <span class="english-term">(closed-loop communication and read-backs)</span>.</li>
+        <li>مساعدات إدراكية <span class="english-term">(cognitive aids)</span> لـ <span class="english-term">RSI</span> والنزيف الهائل.</li>
+        <li>"نقاط توقف <span class="english-term">(stop points)</span>" حيث يتوقف الفريق لإعادة تقييم الأكسجة والتروية.</li>
+        <li>اطلب المساعدة مبكرًا وطبّع سلوك التصعيد <span class="english-term">(call for help early and normalize escalation behavior)</span>.</li>
+    
+    <div style="background-color: #f0fdf4; border: 2px solid #22c55e; border-radius: 8px; padding: 25px; margin: 30px 0; page-break-inside: avoid;">
+        <h3 style="color: #166534; text-align: center; margin-top: 0; font-family: 'Noto Kufi Arabic', sans-serif; font-size: 22px;">
+            👥 الرسم التوضيحي 29.3 — مصفوفة أدوار ومسؤوليات فريق الإصابات
+        </h3>
+        <p style="text-align: center; color: #15803d; font-style: italic; margin-bottom: 20px;">
+            <span class="english-term">Trauma Team Roles and Responsibilities Matrix</span>
+        </p>
+        
+        <table style="width: 100%; border-collapse: collapse; margin: 20px 0; background-color: white;">
+            <thead>
+                <tr style="background-color: #22c55e; color: white;">
+                    <th style="padding: 12px; border: 1px solid #16a34a; text-align: center; width: 20%;">الدور<br><span style="font-weight: normal; font-size: 0.9em;">Role</span></th>
+                    <th style="padding: 12px; border: 1px solid #16a34a; text-align: right; width: 45%;">المسؤوليات الأساسية<br><span style="font-weight: normal; font-size: 0.9em;">Core Responsibilities</span></th>
+                    <th style="padding: 12px; border: 1px solid #16a34a; text-align: right; width: 35%;">نقاط التواصل الحرجة<br><span style="font-weight: normal; font-size: 0.9em;">Critical Communication Points</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #dbeafe;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #1e3a8a;">
+                        قائد المجرى التنفسي<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Airway Lead</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • تقييم صعوبة المجرى التنفسي<br>
+                        • الأكسجة المسبقة<br>
+                        • إدارة RSI (التنبيب/SGA)<br>
+                        • التأكيد (ETCO₂، تسمع)<br>
+                        • تأمين الأنبوبة<br>
+                        • قيادة تصعيد المجرى التنفسي الفاشل
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        📢 "المجرى التنفسي صعب - أحتاج منظار فيديو"<br>
+                        📢 "التشبع ينخفض - أوقفوا المحاولات"<br>
+                        📢 "الأنبوبة مؤكدة - ETCO₂ إيجابي"<br>
+                        📢 "لا يمكن التهوية - استعدوا لمجرى جراحي"
+                    </td>
+                </tr>
+                
+                <tr style="background-color: #fecaca;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #991b1b;">
+                        قائد الدورة الدموية<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Circulation Lead</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • مراقبة الديناميكا الدموية المستمرة<br>
+                        • التعرف المبكر على النزيف/الصدمة<br>
+                        • تفعيل MTP عند الحاجة<br>
+                        • إدارة الأدوية الضاغطة<br>
+                        • التنسيق مع بنك الدم<br>
+                        • تحديد أهداف ضغط الدم
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        📢 "الضغط ينخفض - ابدأوا الأدوية الضاغطة"<br>
+                        📢 "أفعّل MTP الآن - نحتاج دم فورًا"<br>
+                        📢 "هدف MAP هو 80 - إصابة دماغية"<br>
+                        📢 "ETCO₂ انخفض - تدفق منخفض مشتبه"
+                    </td>
+                </tr>
+                
+                <tr style="background-color: #fef3c7;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #92400e;">
+                        مسؤول الأدوية<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Medications</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • تحضير أدوية RSI<br>
+                        • تحضير وإعطاء الأدوية الضاغطة<br>
+                        • إدارة الكالسيوم أثناء النقل الضخم<br>
+                        • توثيق الأدوية والجرعات<br>
+                        • تحضير أدوية الطوارئ (إبينفرين، أتروبين)
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        📢 "أدوية RSI جاهزة - 100 مغ سوكسينيل كولين"<br>
+                        📢 "بدأت نورإبينفرين - 0.1 ميكروغرام/كغ/دقيقة"<br>
+                        📢 "أعطيت 1 غرام كالسيوم - 4 وحدات دم أُعطيت"<br>
+                        📢 "الجرعة الإجمالية موثقة"
+                    </td>
+                </tr>
+                
+                <tr style="background-color: #e0e7ff;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #3730a3;">
+                        مسؤول المراقبة والتوثيق<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Monitor/Scribe</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • مراقبة العلامات الحيوية المستمرة<br>
+                        • الإعلان عن التغيرات الحرجة<br>
+                        • توثيق الأحداث والتوقيتات<br>
+                        • توثيق الأدوية والسوائل/الدم<br>
+                        • تتبع إجمالي السوائل والمنتجات
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        📢 "الضغط 70/40 - منخفض"<br>
+                        📢 "التشبع 88% - ينخفض"<br>
+                        📢 "الحرارة 34 درجة - انخفاض حرارة"<br>
+                        📢 "إجمالي الدم: 8 وحدات - 40 دقيقة"
+                    </td>
+                </tr>
+                
+                <tr style="background-color: #fce7f3;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #9f1239;">
+                        العدّاء / منسق الدم<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Runner / Blood</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • التواصل مع بنك الدم<br>
+                        • جلب وحدات الدم والمنتجات<br>
+                        • التنسيق مع المختبر (غازات دم، تخثر)<br>
+                        • إحضار معدات إضافية عند الحاجة<br>
+                        • التنسيق مع العناية المركزة/غرفة العمليات
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        📢 "بنك الدم أكّد: 4 وحدات كريات حمراء في الطريق"<br>
+                        📢 "نتائج غازات الدم: لاكتات 4.5"<br>
+                        📢 "المختبر: INR 1.8"<br>
+                        📢 "غرفة العمليات جاهزة للاستقبال"
+                    </td>
+                </tr>
+                
+                <tr style="background-color: #dcfce7;">
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: center; font-weight: bold; color: #166534;">
+                        اتصال الجراح<br>
+                        <span style="font-size: 0.85em; font-weight: normal;">Surgeon Liaison</span>
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        • التنسيق مع الفريق الجراحي<br>
+                        • الإعلان عن خطة السيطرة على النزيف<br>
+                        • مشاركة حالة الديناميكا الدموية<br>
+                        • تحديد التوقيت للجراحة<br>
+                        • التنسيق حول الأولويات
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #e5e7eb; text-align: right;">
+                        📢 "الجراح: سنتوجه لغرفة العمليات خلال 5 دقائق"<br>
+                        📢 "هل المريض مستقر كفاية للنقل؟"<br>
+                        📢 "الجراح: نزيف حوضي - نحتاج رباط حوض"<br>
+                        📢 "التوقيت الحرج - جاهزون للنقل"
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="background-color: #1e3a8a; color: white; padding: 20px; margin-top: 20px; border-radius: 6px;">
+            <h4 style="margin-top: 0; text-align: center; font-family: 'Noto Kufi Arabic', sans-serif;">
+                ⚡ قواعد ذهبية لعمل فريق الإصابات
+            </h4>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px;">
+                <div style="background-color: rgba(255,255,255,0.1); padding: 12px; border-radius: 4px;">
+                    <strong>1. عيّن الأدوار بصوت عالٍ</strong><br>
+                    <span style="font-size: 0.9em;">"أنت المجرى التنفسي، أنت الدورة الدموية..."</span>
+                </div>
+                <div style="background-color: rgba(255,255,255,0.1); padding: 12px; border-radius: 4px;">
+                    <strong>2. تواصل مغلق الحلقة</strong><br>
+                    <span style="font-size: 0.9em;">"أعط نورإبينفرين" ← "أعطي نورإبينفرين" ← "نورإبينفرين مُعطى"</span>
+                </div>
+                <div style="background-color: rgba(255,255,255,0.1); padding: 12px; border-radius: 4px;">
+                    <strong>3. أعلن التغيرات الحرجة فورًا</strong><br>
+                    <span style="font-size: 0.9em;">لا تفترض أن الجميع يرى ما تراه</span>
+                </div>
+                <div style="background-color: rgba(255,255,255,0.1); padding: 12px; border-radius: 4px;">
+                    <strong>4. اطلب المساعدة مبكرًا</strong><br>
+                    <span style="font-size: 0.9em;">التصعيد علامة قوة، ليس ضعف</span>
+                </div>
+            </div>
+        </div>
+        
+        <div style="background-color: #fee2e2; border-right: 4px solid #dc2626; padding: 15px; margin-top: 20px; border-radius: 4px;">
+            <p style="margin: 0; font-weight: bold; color: #991b1b;">🚫 فخاخ ارتباك الأدوار الشائعة:</p>
+            <ul style="margin: 10px 0 0 0; padding-right: 20px; color: #7f1d1d;">
+                <li><strong>شخصان يفعلان نفس الشيء</strong> - لا أحد يراقب الضغط</li>
+                <li><strong>لا أحد مسؤول واضح</strong> - الافتراضات تنهار</li>
+                <li><strong>التواصل غير المغلق</strong> - الأوامر تُسمع لكن لا تُنفذ</li>
+                <li><strong>تغيير الأدوار أثناء الأزمة</strong> - يخلق فوضى</li>
+            </ul>
+        </div>
+        
+        <p style="text-align: center; margin-top: 20px; color: #64748b; font-style: italic; font-size: 16px;">
+            "في الإصابات، الفريق الذي يعرف أدواره ويتواصل جيدًا ينقذ حياة أكثر من الفريق الأكثر مهارة لكن الأقل تنظيمًا"
+        </p>
+    </div>
+</ul>
+
+    <div class="scene-box">
+        <span class="scene-title">توزيع الأدوار الواضح يمنع الفوضى</span>
+        <p>حالة إصابة متعددة. كنت أحاول تأمين المجرى التنفسي. كان الجراح يحاول إيقاف النزيف. كانت الممرضة تحاول إعطاء الأدوية.<br>
+        لكن لا أحد كان يراقب ضغط الدم.<br>
+        انخفض الضغط من 80 إلى 40، ولم يلاحظ أحد لمدة دقيقتين - لأن الجميع كان مشغولاً بمهمة أخرى.<br>
+        بعد تلك الحالة، أصبح لدينا قاعدة صارمة: "قبل كل حالة إصابة كبرى، نُعيّن الأدوار بصوت عالٍ: من للمجرى التنفسي، من للدورة الدموية، من للأدوية، من للتوثيق."<br>
+        منذ ذلك اليوم، لم يعد أحد "ينسى" مراقبة الضغط.</p>
+    </div>
+
+    <div class="concept-box">
+        <h3>الإطار 29.9 — تعيين أدوار فريق الإصابات | BOX 29.9 — Trauma Team Role Assignment</h3>
+        <p>قائد مجرى تنفسي <span class="english-term">(Airway lead)</span> • قائد دورة دموية <span class="english-term">(Circulation lead)</span> • أدوية/<span class="english-term">RSI</span> <span class="english-term">(Drugs/RSI)</span> • مراقبة/توثيق <span class="english-term">(Monitoring/documentation)</span> • عدّاء/تنسيق دم <span class="english-term">(Runner/blood coordination)</span> • اتصال جراح <span class="english-term">(Surgeon liaison)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.11 قوائم تحقق الأزمات والمساعدات الإدراكية: استخدامها دون فقدان السرعة | Crisis Checklists and Cognitive Aids</h2>
+    <p>المساعدات الإدراكية ليست للحالات البطيئة؛ إنها للحالات السريعة حيث تفشل الذاكرة.</p>
+
+    <h3>29.11.1 متى تستخدم المساعدات الإدراكية للإصابات <span class="english-term">| When to Use</span></h3>
+    <ul>
+        <li><span class="english-term">RSI</span> في الصدمة <span class="english-term">(RSI in shock)</span>.</li>
+        <li>تصعيد لا يمكن التهوية/لا يمكن التنبيب <span class="english-term">(cannot ventilate / cannot intubate escalation)</span>.</li>
+        <li>نزيف هائل/بروتوكول نقل ضخم <span class="english-term">(massive hemorrhage/MTP)</span>.</li>
+        <li>تحسس <span class="english-term">(anaphylaxis)</span>.</li>
+        <li>استرواح صدري توتري <span class="english-term">(tension pneumothorax)</span>.</li>
+        <li>توقف قلبي <span class="english-term">(cardiac arrest)</span>.</li>
+    </ul>
+
+    <h3>29.11.2 تجنب "فشل التعليم على المربعات" <span class="english-term">| Avoiding "Tick-Box Failure"</span></h3>
+    <p>قائمة التحقق يجب أن:</p>
+    <ul>
+        <li>تطابق سير العمل <span class="english-term">(match workflow)</span>.</li>
+        <li>تكون قصيرة <span class="english-term">(be short)</span>.</li>
+        <li>تدعم تسلسل الإجراء <span class="english-term">(support action sequencing)</span>.</li>
+        <li>تُعيّن الأدوار أثناء حدوث الخطوات <span class="english-term">(assign roles while steps occur)</span>.</li>
+        <li>تُدرَّب في المحاكاة حتى تصبح طبيعية <span class="english-term">(be trained in simulation so it becomes natural)</span>.</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>الإطار 29.10 — مبدأ قائمة التحقق | BOX 29.10 — Checklist Principle</h3>
+        <p>استخدم قوائم التحقق كأدلة إجراء <span class="english-term">(Use checklists as action guides)</span>، لا أدوات توثيق <span class="english-term">(not documentation tools)</span>.<br>
+        إذا أبطأت الإنقاذ، أعد تصميمها <span class="english-term">(If it slows rescue, redesign it)</span>.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.12 الإحاطة بعد الحدث: التعلم يجب التقاطه بينما الذاكرة طازجة | Post-Event Debrief</h2>
+    <p>أحداث الإصابات فرص تعلم عالية القيمة. الإحاطة تمنع أنماط الضرر المتكررة.</p>
+
+    <h3>29.12.1 "الإحاطة الساخنة" لـ 2-5 دقائق <span class="english-term">| The "Hot Debrief"</span></h3>
+    <p>فورًا بعد الاستقرار:</p>
+    <ul>
+        <li>ماذا سار جيدًا؟ <span class="english-term">(what went well?)</span></li>
+        <li>ماذا أخّر الإنقاذ؟ <span class="english-term">(what delayed rescue?)</span></li>
+        <li>ما المعدات/العملية التي فشلت؟ <span class="english-term">(what equipment/process failed?)</span></li>
+        <li>ماذا سنغير قبل الحالة القادمة؟ <span class="english-term">(what will we change before the next case?)</span></li>
+    </ul>
+
+    <h3>29.12.2 متى تصعد للمراجعة المنظمة <span class="english-term">| When to Escalate</span></h3>
+    <p>صعّد للمراجعة الرسمية عندما:</p>
+    <ul>
+        <li>حدث وفاة أو شبه وفاة <span class="english-term">(death or near-death event)</span>.</li>
+        <li>فشل مجرى تنفسي متكرر <span class="english-term">(repeated airway failures)</span>.</li>
+        <li>تأخير أو خطأ نقل دم <span class="english-term">(transfusion delay or mismatch event)</span>.</li>
+        <li>انهيار نظامي كبير <span class="english-term">(major system breakdown)</span> (معدات غائبة <span class="english-term">equipment absent</span>، توظيف غير آمن <span class="english-term">staffing unsafe</span>).</li>
+        <li>خطأ دوائي مع ضرر أو شبه حادث <span class="english-term">(medication error with harm or near miss)</span>.</li>
+    </ul>
+
+    <div class="scene-box">
+        <span class="scene-title">الإحاطة الساخنة تمنع تكرار الأخطاء</span>
+        <p>بعد حالة إصابة معقدة كادت تنتهي بشكل سيئ، أصررت على إحاطة سريعة رغم إرهاق الجميع.<br>
+        في خمس دقائق، اكتشفنا:</p>
+        <ul>
+            <li>معدات الشفط كانت ضعيفة (لم نكتشف حتى احتجناها فعلاً).</li>
+            <li>بنك الدم لم يكن يعرف أننا بحاجة لبروتوكول نقل ضخم.</li>
+            <li>لم يكن أحد مُعيَّنًا رسميًا لمراقبة الضغط.</li>
+            <li>لم نكن نملك منظار فيديو جاهزًا في غرفة الإنعاش.</li>
+        </ul>
+        <p>أصلحنا كل هذه المشاكل في نفس اليوم.<br>
+        بعد أسبوعين، جاءت حالة إصابة مشابهة. لكن هذه المرة، كل شيء عمل بسلاسة - لأننا تعلمنا من الأولى.<br>
+        <strong>الإحاطة الساخنة لم تكن "توثيقًا". كانت إنقاذًا للمريض القادم.</strong></p>
+    </div>
+
+    <div class="concept-box">
+        <h3>الإطار 29.11 — سيناريو الإحاطة الساخنة | BOX 29.11 — Hot Debrief Script</h3>
+        <p>ماذا حدث؟ <span class="english-term">(What happened?)</span> ← ما الذي ساعد؟ <span class="english-term">(What helped?)</span> ← ما الذي أضر؟ <span class="english-term">(What hurt?)</span> ← ماذا نغير الآن؟ <span class="english-term">(What to change now?)</span> ← من يملك الإجراء؟ <span class="english-term">(Who owns the action?)</span></p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>29.13 أدوات نهاية الفصل | End-of-Chapter Tools</h2>
+
+    <h3>29.13.1 مسرد سريع <span class="english-term">| Quick Glossary</span></h3>
+    <ul>
+        <li><strong>RSI:</strong> التحريض السريع المتسلسل <span class="english-term">(rapid sequence induction)</span> لتأمين المجرى التنفسي مع السيطرة على خطر الاستنشاق <span class="english-term">(to secure airway with aspiration risk control)</span>.</li>
+        <li><strong>الثالوث المميت <span class="english-term">(Lethal triad)</span>:</strong> انخفاض الحرارة <span class="english-term">(hypothermia)</span> + حماض <span class="english-term">(acidosis)</span> + اضطراب التخثر <span class="english-term">(coagulopathy)</span>.</li>
+        <li><strong>MTP:</strong> بروتوكول نقل الدم الضخم <span class="english-term">(massive transfusion protocol)</span>.</li>
+        <li><strong>التثبيت <span class="english-term">(Fixation)</span>:</strong> الاستمرار بنهج فاشل رغم الخطر المتزايد <span class="english-term">(persisting with failing approach despite worsening danger)</span>.</li>
+    </ul>
+
+    <h3>29.13.2 أسئلة تأمل (اجتماع جودة تخدير الإصابات) <span class="english-term">| Reflection Questions</span></h3>
+    <ul>
+        <li>هل لدينا مسار قياسي لـ <span class="english-term">RSI</span> في الصدمة <span class="english-term">(Do we have a standard RSI-in-shock pathway)</span> مع جاهزية أدوية ضاغطة ونقل دم <span class="english-term">(with pressor and transfusion readiness)</span>؟</li>
+        <li>هل معدات الشفط والإنقاذ للمجرى التنفسي متاحة فورًا ومفحوصة <span class="english-term">(Are suction and airway rescue devices immediately available and checked)</span>؟</li>
+        <li>هل نُفعّل بروتوكول النقل الضخم مبكرًا بما يكفي <span class="english-term">(Do we activate MTP early enough)</span>، وهل توصيل الدم موثوق <span class="english-term">(and is blood delivery reliable)</span>؟</li>
+        <li>هل لدينا استراتيجية تدفئة مُطبّقة بثبات من الوصول <span class="english-term">(Do we have a warming strategy applied consistently from arrival)</span>؟</li>
+        <li>هل تُعيَّن الأدوار صراحةً في كل حالة إصابة كبرى <span class="english-term">(Are roles assigned explicitly in every major trauma case)</span>؟</li>
+        <li>هل نُجري إحاطات ساخنة بشكل روتيني ونُغلق حلقات الإجراء <span class="english-term">(Do we routinely perform hot debriefs and close action loops)</span>؟</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>خلاصة الفصل (نقاط محورية للمستقبل) | Chapter Summary</h3>
+        <ul>
+            <li>تخدير الإصابات عمل حرج بالوقت <span class="english-term">(Trauma anesthesia is time-critical work)</span> حيث نقص الأكسجة <span class="english-term">(hypoxia)</span>، انخفاض الضغط <span class="english-term">(hypotension)</span>، وتأخر السيطرة على النزيف <span class="english-term">(delayed hemorrhage control)</span> تقود الوفيات القابلة للوقاية.</li>
+            <li>التحريض السريع المتسلسل الآمن <span class="english-term">(Safe RSI)</span> يتطلب الأكسجة المسبقة <span class="english-term">(preoxygenation)</span>، الجاهزية الديناميكية الدموية <span class="english-term">(hemodynamic preparedness)</span>، وانضباط التصعيد <span class="english-term">(escalation discipline)</span>.</li>
+            <li>إنعاش النزيف تدخل نظامي منسق <span class="english-term">(Hemorrhage resuscitation is a coordinated system intervention)</span>: بروتوكول نقل ضخم مبكر <span class="english-term">(early MTP)</span>، تدفئة <span class="english-term">(warming)</span>، استراتيجية كالسيوم <span class="english-term">(calcium strategy)</span>، وإعادة تقييم سريعة <span class="english-term">(rapid reassessment)</span>.</li>
+            <li>العوامل البشرية تتنبأ بالفشل تحت الضغط <span class="english-term">(Human factors predict failure under pressure)</span>؛ وضوح الأدوار <span class="english-term">(role clarity)</span>، التواصل المغلق <span class="english-term">(closed-loop communication)</span>، والمساعدات الإدراكية <span class="english-term">(cognitive aids)</span> تقلل الضرر.</li>
+            <li>الإحاطة الساخنة تلتقط التعلم وتمنع تكرار أخطاء النظام <span class="english-term">(Hot debriefing captures learning and prevents repetition of system errors)</span>.</li>
+        </ul>
+    </div>
+
+    <div class="scene-box">
+        <span class="scene-title">خاتمة الفصل: النظام الذي نبنيه في كل حالة إصابة</span>
+        <p>في صباح اليوم التالي، دخلت للاطمئنان على المريض من قصة البداية. كان مستيقظًا، ينظر إلى السقف بعيون دامعة.<br>
+        قلت له: "الحمد لله، عديت."<br>
+        نظر إليّ وقال بصوت مرتعش: "ما أتذكر شيء… بس حاسس إني رجعت من بعيد."<br>
+        كان على حق. كان على بُعد دقائق من الموت.<br>
+        لكن ما أنقذه لم يكن مهارة فرد واحد. كان النظام: التدريب المتكرر، الأدوار الواضحة، البروتوكولات المُتبعة، الإحاطات بعد كل حالة، والتعلم الذي لم يتوقف.<br>
+        هذا هو النظام الذي نبنيه في كل حالة إصابة: عندما تأتينا الحياة مُهددة بالموت، سيكون لدينا نظام موثوق يعمل بسرعة، بدقة، وبلا تردد - لأن الوقت الذي نملكه لإنقاذ الحياة قد يُقاس بالدقائق، والثواني مهمة.<br>
+        <span class="english-term">This is the system we build in every trauma case: when life comes to us threatened by death, we will have a reliable system that works fast, precisely, and without hesitation—because the time we have to save a life may be measured in minutes, and seconds matter.</span></p>
+    </div>
+
+    <div class="divider">***</div>
+    <div style="text-align: center; color: #6b7280; margin-top: 20px;">End of Chapter 29</div>
+    
+</div>
+
+
+<!-- ANESTHESIA-COMMENTS-V3 -->
+<style>
+
+  /* COMMENTS SECTION */
+  .comments-section {
+    margin-top: 60px; padding: 30px;
+    background: white; border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 20px rgba(30,58,138,0.06);
+  }
+  .comments-title {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 22px; font-weight: 800; color: #1e3a8a;
+    margin-bottom: 14px;
+    border-bottom: 3px solid #dbeafe; padding-bottom: 14px;
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .comments-title .en-sub {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px; color: #6b7280; font-weight: 400;
+    direction: ltr;
+  }
+  .comments-desc {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #6b7280; margin-bottom: 24px; line-height: 1.6;
+  }
+  .comment-form {
+    background: #f8faff; border-radius: 10px; padding: 24px;
+    margin-bottom: 28px; border: 1px solid #dbeafe;
+  }
+  .form-row { display: flex; gap: 16px; margin-bottom: 16px; }
+  .form-group { flex: 1; }
+  .form-group label {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 13px; font-weight: 600; color: #374151;
+    display: block; margin-bottom: 6px;
+  }
+  .optional { font-weight: 400; color: #9ca3af; font-size: 11px; }
+  .required-mark { color: #ef4444; }
+  .form-group input, .form-group textarea {
+    width: 100%; padding: 10px 14px;
+    border: 1px solid #d1d5db; border-radius: 8px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #374151;
+    background: white; transition: border-color 0.2s;
+    direction: rtl;
+  }
+  .form-group input:focus, .form-group textarea:focus {
+    outline: none; border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+  }
+  .form-group textarea { resize: vertical; min-height: 110px; }
+  .form-actions { align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .rating-group { display: flex; align-items: center; gap: 10px; }
+  .rating-group label { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #374151; white-space: nowrap; }
+  .stars { display: flex; gap: 4px; direction: ltr; }
+  .star { font-size: 24px; color: #d1d5db; cursor: pointer; transition: color 0.1s; line-height: 1; }
+  .star.active { color: #f59e0b; }
+  .submit-btn {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; font-weight: 700;
+    background: #1e3a8a; color: white;
+    border: none; padding: 12px 24px;
+    border-radius: 8px; cursor: pointer;
+    transition: background 0.2s; white-space: nowrap;
+  }
+  .submit-btn:hover { background: #1e40af; }
+  .comments-list { display: flex; flex-direction: column; gap: 16px; }
+  .comment-card {
+    background: white; border: 1px solid #e5e7eb;
+    border-radius: 10px; padding: 18px 20px;
+  }
+  .comment-card.new-comment { border-color: #93c5fd; background: #f0f7ff; }
+  .comment-header {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 12px; flex-wrap: wrap;
+  }
+  .comment-avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: #1e3a8a; color: white;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 16px; font-weight: 700; flex-shrink: 0;
+  }
+  .comment-meta { flex: 1; min-width: 100px; }
+  .comment-name { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; font-weight: 700; color: #1e3a8a; display: block; }
+  .comment-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #6b7280; }
+  .comment-stars { color: #f59e0b; font-size: 14px; }
+  .comment-date { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #9ca3af; }
+  .comment-text { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #374151; line-height: 1.7; }
+
+  @media (max-width: 600px) {
+    .form-row { flex-direction: column; }
+    .form-actions { flex-direction: column; }
+    .submit-btn { width: 100%; text-align: center; }
+  }
+
+</style>
+
+<div class="comments-section">
+  <h2 class="comments-title">
+    <span>&#x1F4AC;</span> شاركنا رأيك
+    <span class="en-sub">Share Your Thoughts</span>
+  </h2>
+  <div class="comments-desc">هل لديك تعليق أو سؤال أو ملاحظة حول هذا الفصل؟ نرحب بمشاركتك وآرائك</div>
+
+  <form class="comment-form" onsubmit="submitComment(event)">
+    <div class="form-row">
+      <div class="form-group">
+        <label>الاسم <span class="optional">(اختياري)</span></label>
+        <input type="text" id="cName" placeholder="اكتب اسمك هنا..." />
+      </div>
+      <div class="form-group">
+        <label>التخصص <span class="optional">(اختياري)</span></label>
+        <input type="text" id="cRole" placeholder="طبيب، ممرض، طالب..." />
+      </div>
+    </div>
+    <div class="form-group" style="margin-bottom:16px;">
+      <label>تعليقك <span class="required-mark">*</span></label>
+      <textarea id="cText" rows="5" placeholder="اكتب تعليقك أو سؤالك هنا..."></textarea>
+    </div>
+    <div class="form-row form-actions">
+      <div class="rating-group">
+        <label>تقييم الفصل:</label>
+        <div class="stars" id="starRating">
+          <span class="star" onclick="setRating(1)">&#9733;</span>
+          <span class="star" onclick="setRating(2)">&#9733;</span>
+          <span class="star" onclick="setRating(3)">&#9733;</span>
+          <span class="star" onclick="setRating(4)">&#9733;</span>
+          <span class="star" onclick="setRating(5)">&#9733;</span>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn">&#x2190; إرسال التعليق</button>
+    </div>
+  </form>
+
+  <div id="commentsContainer" class="comments-list"></div>
+</div>
+
+<script>
+  var _rating = 0;
+  function setRating(v) {
+    _rating = v;
+    document.querySelectorAll('.star').forEach(function(s,i){ s.classList.toggle('active', i < v); });
+  }
+  function submitComment(e) {
+    e.preventDefault();
+    var text = document.getElementById('cText').value.trim();
+    if (!text) { alert('الرجاء كتابة تعليقك أولاً'); return; }
+    var name = document.getElementById('cName').value.trim() || 'زائر';
+    var role = document.getElementById('cRole').value.trim();
+    var stars = _rating > 0 ? '&#9733;'.repeat(_rating) + '&#9734;'.repeat(5-_rating) : '&#9733;&#9733;&#9733;&#9733;&#9733;';
+    var colors = ['#1e3a8a','#7c3aed','#059669','#d97706','#dc2626'];
+    var color = colors[Math.floor(Math.random()*colors.length)];
+    var card = document.createElement('div');
+    card.className = 'comment-card new-comment';
+    card.innerHTML =
+      '<div class="comment-header">' +
+        '<div class="comment-avatar" style="background:' + color + '">' + (name[0]||'ز') + '</div>' +
+        '<div class="comment-meta">' +
+          '<span class="comment-name">' + name + '</span>' +
+          (role ? '<span class="comment-role">' + role + '</span>' : '') +
+        '</div>' +
+        '<div class="comment-stars">' + stars + '</div>' +
+        '<span class="comment-date">الآن</span>' +
+      '</div>' +
+      '<p class="comment-text">' + text + '</p>';
+    var container = document.getElementById('commentsContainer');
+    container.prepend(card);
+    e.target.reset();
+    _rating = 0;
+    document.querySelectorAll('.star').forEach(function(s){ s.classList.remove('active'); });
+    card.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+</script>
+
+</body></html>

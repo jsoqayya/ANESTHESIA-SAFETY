@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عن المؤلف - د. جميل السقيا</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2980b9 0%, #8e44ad 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-family: 'Amiri', serif;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 3rem;
+            padding: 3rem;
+        }
+
+        .author-card {
+            text-align: center;
+        }
+
+        .author-image {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 1.5rem;
+        }
+
+        .author-name {
+            font-family: 'Amiri', serif;
+            font-size: 1.8rem;
+            color: #2980b9;
+            margin-bottom: 0.5rem;
+        }
+
+        .author-title {
+            color: #8e44ad;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .social-links a {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-5px);
+        }
+
+        .bio-section {
+            padding: 0 1rem;
+        }
+
+        .section-title {
+            font-family: 'Amiri', serif;
+            font-size: 2rem;
+            color: #2980b9;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #8e44ad;
+        }
+
+        .bio-text {
+            font-size: 1.1rem;
+            line-height: 2;
+            color: #34495e;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        .highlight-box h3 {
+            font-family: 'Amiri', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .timeline {
+            position: relative;
+            padding-right: 2rem;
+            margin-top: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(to bottom, #2980b9, #8e44ad);
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-right: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            right: -8px;
+            top: 5px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #8e44ad;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #8e44ad;
+        }
+
+        .timeline-year {
+            font-weight: 700;
+            color: #2980b9;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-content {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .books-section {
+            margin-top: 3rem;
+        }
+
+        .book-card {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 1.5rem;
+        }
+
+        .book-card h4 {
+            font-family: 'Amiri', serif;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .book-card p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin: 2rem;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+
+        .back-button:hover {
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 2rem 1rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .bio-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-user-md"></i> عن المؤلف</h1>
+            <p>رحلة طبيب في سلامة التخدير والبحث عن المعنى</p>
+        </div>
+
+        <div class="content">
+            <!-- Author Card -->
+            <div class="author-card">
+                <img src="/images/author.jpg" alt="د. جميل السقيا" class="author-image">
+                <h2 class="author-name">د. جميل محمد السقيا</h2>
+                <p class="author-title">استشاري تخدير ورئيس قسم التخدير وغرف العمليات</p>
+                
+                <div class="social-links">
+                    <a href="#" title="البريد الإلكتروني"><i class="fas fa-envelope"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Biography -->
+            <div class="bio-section">
+                <h2 class="section-title">السيرة الذاتية</h2>
+                
+                <p class="bio-text">
+                    الدكتور جميل محمد السقيا استشاري تخدير ورئيس قسم التخدير وغرف العمليات، بخبرة سريرية وقيادية تركز على سلامة المرضى وجودة خدمات التخدير وبناء الأنظمة الإكلينيكية التي تقلّل الأخطاء وترفع موثوقية النتائج داخل غرف العمليات.
+                </p>
+
+                <p class="bio-text">
+                    يمتلك خبرة سريرية راسخة تمتد عبر مختلف مراحل الرعاية المحيطة بالجراحة—من التقييم والتحضير قبل العملية، إلى إدارة التخدير داخل غرفة العمليات، ثم المتابعة الدقيقة بعد العملية—إضافةً إلى خبرته في العناية الحرجة وإدارة الألم.
+                </p>
+
+                <div class="highlight-box">
+                    <h3><i class="fas fa-certificate"></i> المؤهلات والخبرة</h3>
+                    <p>حاصل على البورد الأردني في التخدير (2006)، مع خبرة تزيد عن 25 عاماً في الممارسة السريرية والقيادية في مستشفيات كبرى بالمنطقة.</p>
+                </div>
+
+                <!-- Timeline -->
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2022 - الآن</div>
+                        <div class="timeline-content">
+                            <strong>رئيس قسم التخدير وغرف العمليات</strong><br>
+                            مستشفى نجران العام الجديد<br>
+                            واضعًا الجودة هدفًا يوميًا قابلاً للقياس: بروتوكولات عملية، تدريب متكرر، تدقيقات سريرية، وتحسين مستمر ينعكس مباشرة على سلامة المريض وكفاءة التشغيل.
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-year">2013 - 2022</div>
+                        <div class="timeline-content">
+                            <strong>رئيس قسم التخدير وغرف العمليات</strong><br>
+                            مستشفى الملك خالد – نجران<br>
+                            قاد خدمات التخدير وأسهم بدورٍ محوري في مسارات الاعتماد عبر ترسيخ معايير الجودة وسلامة المرضى، وتطوير الممارسات الإكلينيكية والسياسات والإجراءات.
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-year">2006 - 2012</div>
+                        <div class="timeline-content">
+                            <strong>رئيس قسم التخدير</strong><br>
+                            مستشفى جامعة العلوم والتكنولوجيا – اليمن<br>
+                            الإشراف على الخدمات السريرية والتعليم الطبي وتطوير الأداء داخل غرف العمليات.
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-year">2006</div>
+                        <div class="timeline-content">
+                            <strong>البورد الأردني في التخدير</strong><br>
+                            بداية رحلة التخصص والتميز في مجال التخدير والعناية المركزة.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Books Section -->
+                <div class="books-section">
+                    <h2 class="section-title">المؤلفات</h2>
+                    
+                    <div class="book-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <h4><i class="fas fa-book"></i> دليل السلامة والجودة في التخدير</h4>
+                        <p>
+                            خلاصة خبرته السريرية والقيادية في قالبٍ عملي يربط بين المعيار والتطبيق؛ ليكون مرجعًا واضحًا للفريق الطبي، وأداةً داعمة لبناء ثقافة سلامة مستدامة، وتحقيق نتائج أفضل للمريض والمنظومة الصحية.
+                        </p>
+                    </div>
+
+                    <div class="book-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <h4><i class="fas fa-star"></i> ترانيم الكون</h4>
+                        <p>
+                            عملٌ فكري يستكشف فكرة الوعي في الكون عبر مقاربة تجمع بين التأمل القرآني والرؤية الفلسفية والمعرفة العلمية الحديثة، متناولًا أسئلة الوعي والإدراك ومعنى الوجود، وعلاقة الإنسان بالكون، وكيف تتقاطع الإشارات القرآنية مع بعض أطروحات العلم المعاصر.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="highlight-box" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <h3><i class="fas fa-quote-right"></i> رسالته</h3>
+                    <p style="font-size: 1.2rem; font-style: italic;">
+                        "في التخدير... لا مجال للخطأ الثاني. كل مريض يستحق أن يعود بأمان. وكل خطأ هو فرصة للتعلم وبناء نظام أفضل."
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <a href="/" class="back-button">
+            <i class="fas fa-arrow-right"></i> العودة إلى الصفحة الرئيسية
+        </a>
+    </div>
+</body>
+</html>

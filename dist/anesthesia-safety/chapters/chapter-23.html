@@ -1,0 +1,2663 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light"><head>
+<style>
+/* إصلاح responsive لجميع الشاشات */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  max-width: 100vw !important;
+  padding: 20px 15px 120px 15px !important;
+}
+
+/* إصلاح الصور والجداول */
+img, table, pre, code {
+  max-width: 100% !important;
+  height: auto !important;
+  overflow-x: auto !important;
+}
+
+/* إصلاح العناصر الكبيرة */
+div, p, h1, h2, h3, h4, h5, h6 {
+  max-width: 100% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/* responsive للموبايل */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px !important;
+    padding: 15px 10px 120px 10px !important;
+  }
+  
+  h1 { font-size: 1.8rem !important; }
+  h2 { font-size: 1.5rem !important; }
+  h3 { font-size: 1.3rem !important; }
+}
+</style>
+<script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"17571074\",\n  \"appId\": \"1:17571074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ1OTQzZDdlNWZhYTIxZjcyOTJjMzI3MGY3ZDBjNWJmNDE5MjJmOTciLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNzA5MjQyNzU0MTU0NTY0NjY4MCIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzVmNTllYTVhMmI5ZDQ5NmRf2KfZhNmB2LXZhCAyMyAtINiz2YTYp9mF2Kkg2YjYrdiv2Kkg2KfZhNil2YHYp9mC2Kkg2YjYp9mE2YjZgtin2YrYqSDZhdmGINmF2LbYp9i52YHYp9iqINmF2Kcg2KjYudivINin2YTYudmF2YTZitipLmh0bWwtOTMyIn0sImV4cCI6MTc3MDE5MjgwNCwiaWF0IjoxNzcwMTg5MjA0LCJhbGciOiJSUzI1NiJ9.ZB74AKD234n9JHpbv57qZ1EV-rnWJU0cjGhsnX4S1nkMBH81WTUJjADJ_m8pHoAQywWKUN5XX67Br4cZu1tLe6BLtVEv0DTgEDTNWTFo2TVLEbyp7dG9i1AZGeQLyrK8KllVldEwic5QRGerAQXjnqVvLOyy5P5zFYeYSI295QdZBtQ7HaQbiuUvguN179w62vCDXJZtNVevfPJ9PGpFU23L_8imt3sg7JSxHypGEf_2WCEouGDGUi8k1ryq__rgIufMxRhCmmqkrCfdViZo1aZYNNF6MP3gg47z97GpXL_1QpcZ-wai8ct7zqr0pdPsgWSv4857IO1SSbuX9oNChg","c_5f59ea5a2b9d496d_الفصل 23 - سلامة وحدة الإفاقة والوقاية من مضاعفات ما بعد العملية.html-932")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) - W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var v=(()=>{let a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let x=null;function y(a={}){return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var d;if(!(d=b.width)){d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function B(a){return new Promise((b,d)=>{const c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,d){return t(function*(){const c=document.createElementNS("http://www.w3.org//svg","svg"),e=document.createElementNS("http://www.w3.org//svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(d=>{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function G(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=F(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,d){return t(function*(){const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);const e=yield c.blob();return new Promise((f,g)=>{const k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(d({o:c,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function K(a,b,d){let c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function L(a,b,d){return t(function*(){const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());let e;try{const f=yield I(a,d.i,({o:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});e=`data:${b};base64,${f}`}catch(f){e=d.B||""}return J[c]=e})};const M={P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"};function N(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function O(a){return t(function*(){const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function aa(a,b){return t(function*(){if(a.currentSrc){var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)})}
+function ba(a,b){return t(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ca(a,b){return t(function*(){return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function da(a,b,d){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ea(a,b,d){const c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function fa(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function ha(a,b){return t(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org//xhtml","svg");c.setAttribute("xmlns","http://www.w3.org//xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org//xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function P(a,b,d){return t(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c}).then(c=>ha(c,b)):null})};const Q=/url\((['"]?)([^'"]+?)\1\)/g,ia=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,ja=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ka(a){const b=[];a.replace(Q,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!H(d))}
+function la(a,b,d,c){return t(function*(){try{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function ma(a,{I:b}){return b?a.replace(ja,d=>{for(;;){const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: ${f};`}}):a}
+function R(a,b,d){return t(function*(){if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))})};function S(a,b,d){return t(function*(){var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function na(a,b){return t(function*(){(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))})}
+function oa(a,b){return t(function*(){const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.m?(...k)=>{try{f(b.m(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function pa(a,b){return t(function*(){const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)})}function T(a,b){return t(function*(){E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))})};const U={};function V(a){return t(function*(){var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return U[a]=b})}function W(a,b){return t(function*(){let d=a.cssText;const c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,({result:k})=>{d=d.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>d)})}
+function X(a){if(a==null)return[];const b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function qa(a,b){return t(function*(){const d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Da){}})).catch(()=>{});c.push(f)}})}catch(f){const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function ra(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)}function sa(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)})}
+function ta(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}const d=new Set;b(a);return d}function ua(a,b){return t(function*(){const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function va(a,b){return t(function*(){const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d){const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function wa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)})}
+function xa(a,b={}){return t(function*(){const {width:d,height:c}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=
+16384));f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function ya(a,b={}){return t(function*(){return(yield xa(a,b)).toDataURL()})};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y(){return document.body.querySelectorAll('[class*="animate"]').length>0}function Z(a){return t(function*(){try{return yield ya(a,{h:a.offsetWidth,g:a.offsetHeight})}catch(d){var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")}})}
+function Aa(){return t(function*(){const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ba(a){return t(function*(){let b=document.body;if(Y()){var d=yield Aa();b=d;document.body.appendChild(d)}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop},a.origin)})}function Ca(a){return t(function*(){const b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(za.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))}}));
+</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/42508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-09-","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفصل 23: سلامة وحدة الإفاقة (PACU)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=Noto+Kufi+Arabic:wght@300;400;600;800&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #2563eb;
+        --light-blue-bg: #dbeafe;
+        --text-color: #1f2937;
+        --box-blue: #eff6ff;
+        --box-blue-border: #bfdbfe;
+        --box-green: #f0fdf4;
+        --box-green-border: #bbf7d0;
+        --box-yellow: #fefce8;
+        --box-yellow-border: #fef08a;
+        --box-red: #fef2f2;
+        --box-red-border: #fecaca;
+        --box-gray: #f8fafc;
+        --box-gray-border: #64748b;
+      }
+
+      body {
+        font-family: 'Amiri', 'Times New Roman', serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+        text-align: right;
+        font-size: 19px;
+      }
+
+      /* Download Bar Styles */
+      .download-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e3a8a;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .download-btn {
+        background-color: #22c55e;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .download-btn:hover {
+        background-color: #16a34a;
+      }
+
+      /* Typography */
+      h1 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 800;
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        line-height: 1.3;
+      }
+
+      .part-title {
+        text-align: center;
+        font-size: 18px;
+        color: #6b7280;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        background-color: var(--light-blue-bg);
+        padding: 12px 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-right: 6px solid #1e40af;
+        border-radius: 4px;
+        font-size: 24px;
+        page-break-after: avoid;
+      }
+
+      h3 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #1e40af;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+      
+      h4 {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 600;
+        color: #374151;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 18px;
+        text-indent: 0;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 22px;
+        color: #4b5563;
+        margin-bottom: 40px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 20px;
+        direction: ltr; 
+      }
+      
+      .subtitle span {
+         display: block;
+         direction: rtl;
+         margin-bottom: 5px;
+      }
+
+      /* Quotes and Important Boxes */
+      .quote-box {
+        background-color: var(--box-blue);
+        border: 1px solid var(--box-blue-border);
+        border-right: 5px solid var(--primary-blue);
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #1e3a8a;
+      }
+
+      .alert-box {
+        background-color: var(--box-red);
+        border: 1px solid var(--box-red-border);
+        border-right: 5px solid #ef4444;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .success-box {
+        background-color: var(--box-green);
+        border: 1px solid var(--box-green-border);
+        border-right: 5px solid #22c55e;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      .concept-box {
+        background-color: var(--box-yellow);
+        border: 1px solid var(--box-yellow-border);
+        border-right: 5px solid #eab308;
+        padding: 20px 25px;
+        margin: 25px 0;
+        border-radius: 4px;
+      }
+
+      /* Scene Box Style */
+      .scene-box {
+        background-color: #f8fafc;
+        border-right: 5px solid var(--box-gray-border);
+        padding: 20px 25px;
+        font-style: italic;
+        margin: 25px 0;
+        border-radius: 4px;
+        color: #374151;
+      }
+      
+      .scene-title {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: block;
+        color: #1e293b;
+      }
+
+      /* Lists */
+      ul, ol {
+        margin-bottom: 20px;
+        padding-right: 30px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      /* Special text styling */
+      strong {
+        color: #111827;
+        font-weight: 700;
+      }
+      
+      /* Tables Custom Styling */
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-family: 'Amiri', serif;
+          font-size: 0.95em;
+          background-color: #fff;
+          border: 1px solid #e5e7eb;
+      }
+      
+      thead tr {
+          background-color: var(--primary-blue);
+          color: #ffffff;
+          text-align: right;
+          font-family: 'Noto Kufi Arabic', sans-serif;
+          font-weight: 600;
+      }
+      
+      th, td {
+          padding: 12px 15px;
+          border: 1px solid #e5e7eb;
+          vertical-align: top;
+      }
+      
+      th {
+          color: #ffffff;
+          border: 1px solid #1e40af;
+      }
+      
+      tbody tr:nth-of-type(even) {
+          background-color: #f9fafb;
+      }
+
+      .divider {
+        text-align: center;
+        color: #9ca3af;
+        margin: 50px 0;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+      
+      .english-term {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: var(--primary-blue);
+        direction: ltr;
+        display: inline-block;
+      }
+
+      /* Print adjustments */
+      @media print {
+        .download-container { display: none; }
+        body { padding: 0; padding-top: 0; }
+        h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        .quote-box, .alert-box, .success-box, .concept-box, .scene-box, th {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .page-break { page-break-after: always; }
+      }
+      
+      @media (max-width: 768px) {
+        body { padding: 20px; padding-top: 120px; font-size: 17px; }
+        .download-container { flex-direction: column; gap: 10px; }
+        table { display: block; overflow-x: auto; }
+      }
+    </style>
+  <style>
+/* ===== RESPONSIVE FIXES: Mobile & Tablet ===== */
+
+/* منع overflow أفقي */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+}
+
+/* محتوى الفصل */
+body > * {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* الجداول */
+table {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  display: block !important;
+  border-collapse: collapse !important;
+}
+td, th {
+  word-break: break-word !important;
+  min-width: 60px !important;
+  padding: 8px 6px !important;
+  font-size: clamp(12px, 3vw, 15px) !important;
+}
+
+/* الصور */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* div و section */
+div, section, article, aside {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* حجم الخط التكيفي */
+p, li, td, th, span, label {
+  font-size: clamp(14px, 4vw, 17px) !important;
+  line-height: 1.85 !important;
+}
+
+h1 { font-size: clamp(20px, 6vw, 36px) !important; line-height: 1.4 !important; }
+h2 { font-size: clamp(18px, 5vw, 28px) !important; line-height: 1.4 !important; }
+h3 { font-size: clamp(16px, 4.5vw, 22px) !important; line-height: 1.45 !important; }
+h4 { font-size: clamp(15px, 4vw, 19px) !important; }
+
+/* تابلت */
+@media (max-width: 768px) {
+  body {
+    padding: 65px 14px 30px !important;
+    font-size: 15px !important;
+  }
+
+  /* الكود والنصوص المنسقة */
+  pre, code {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+    font-size: 13px !important;
+  }
+
+  /* الشبكات والصفوف الجانبية */
+  .grid, .flex-row, .columns, [class*="col-"], [class*="grid-"] {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  /* الفقرات والمقاطع */
+  .chapter-content, .content, .section, article {
+    padding: 0 !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* هاتف */
+@media (max-width: 480px) {
+  body {
+    padding: 62px 10px 25px !important;
+    font-size: 14px !important;
+  }
+
+  table {
+    font-size: 12px !important;
+  }
+  td, th {
+    padding: 6px 4px !important;
+  }
+
+  /* الشريط العلوي */
+  .as-top-nav {
+    padding: 7px 10px !important;
+    gap: 5px !important;
+  }
+  .as-nav-link {
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+  }
+}
+/* ===== END RESPONSIVE FIXES ===== */
+</style>
+</head>
+  <body style="padding-top: 65px;">
+<style>
+  /* ANESTHESIA SAFETY NAVBAR */
+  .as-top-nav {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 99999 !important;
+    background-color: #1e3a8a !important;
+    padding: 10px 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2) !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+    box-sizing: border-box !important;
+  }
+  .as-nav-brand {
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+  .as-nav-logo {
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 50% !important;
+    background: rgba(255,255,255,0.15) !important;
+    border: 2px solid rgba(255,255,255,0.3) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+  .as-nav-links {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+  }
+  .as-nav-link {
+    background: rgba(255,255,255,0.12) !important;
+    color: white !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    text-decoration: none !important;
+    transition: background 0.2s !important;
+    white-space: nowrap !important;
+    font-family: 'Cairo', 'Noto Kufi Arabic', Arial, sans-serif !important;
+    font-weight: 600 !important;
+  }
+  .as-nav-link:hover { background: rgba(255,255,255,0.25) !important; }
+  .as-nav-link.as-prev { background: rgba(37,99,235,0.4) !important; }
+  .as-nav-link.as-next { background: rgba(37,99,235,0.4) !important; }
+  body { padding-top: 60px !important; }
+  @media (max-width: 600px) {
+    .as-top-nav { padding: 8px 12px !important; }
+    .as-nav-brand span.as-brand-text { display: none !important; }
+    .as-nav-link { font-size: 12px !important; padding: 5px 10px !important; }
+  }
+</style>
+<nav class="as-top-nav">
+  <a href="/anesthesia-safety/" class="as-nav-brand">
+    <div class="as-nav-logo">🩺</div>
+    <span class="as-brand-text">دليل السلامة في التخدير</span>
+  </a>
+  <div class="as-nav-links">
+    <a href="/anesthesia-safety/chapter/22" class="as-nav-link as-prev">← السابق: الفصل 22</a>
+    <a href="/anesthesia-safety/chapters/" class="as-nav-link">📚 الفصول</a>
+    <a href="/portal" class="as-nav-link">🏠 المنصة</a>
+    <a href="/anesthesia-safety/chapter/24" class="as-nav-link as-next">التالي: الفصل 24 →</a>
+  </div>
+</nav>
+
+
+    <!-- Download Bar -->
+    
+
+    <!-- Header Section -->
+    <div class="part-title">Part IV — Patient Safety Across the Perioperative Pathway</div>
+    <div class="part-title">الجزء الرابع — سلامة المريض عبر المسار المحيط بالجراحة</div>
+
+                            
+    <h1>CHAPTER 23 — Post-Anesthesia Care Unit Safety</h1>
+    <div class="subtitle"><strong>الفصل الثالث والعشرون — سلامة وحدة الإفاقة والوقاية من مضاعفات ما بعد العملية</strong></div>
+    
+
+<div class="divider">***</div>
+
+    <h2>🎯 أهداف الفصل | Chapter Aims</h2>
+    <div class="concept-box">
+        <p>بنهاية هذا الفصل ستكون قادرًا على:</p>
+        <ul>
+            <li>تصميم العناية في وحدة الإفاقة <span class="english-term">(PACU)</span> كنظام سلامة عالي الاعتمادية يمنع "التدهور الصامت" ويُسرّع الإنقاذ.</li>
+            <li>الوقاية من تثبيط التنفس بعد التخدير وإدارته (الأفيونات، بقايا الحصر العضلي، <span class="english-term">OSA</span>).</li>
+            <li>تطبيق بروتوكولات <span class="english-term">OSA</span> عمليًا في <span class="english-term">PACU</span>: الفرز، الوضعية، الأكسجين/الضغط الإيجابي المستمر <span class="english-term">(CPAP)</span>، تصعيد المراقبة، ومعايير التنويم.</li>
+            <li>تنفيذ مسار مبني على الدليل للوقاية من الغثيان والقيء بعد العملية <span class="english-term">(PONV)</span> والإنقاذ عند حدوثه. (<span class="english-term">ashp.org</span>)</li>
+            <li>إدارة عدم الاستقرار الدوري الدموي في <span class="english-term">PACU</span> بمنطق "تمييز الأنماط" ومحفزات تصعيد موحّدة.</li>
+            <li>بناء مؤشرات <span class="english-term">PACU</span> للتدقيق والتحسين وتقليل التحويل غير المخطط للعناية الحرجة ومنع "فشل الإنقاذ".</li>
+        </ul>
+    </div>
+
+    <h2>23.1 مشهد افتتاحي: "الخطأ الذي لا يصنع ضجيجًا" | Scene: The Error That Makes No Noise</h2>
+    <div class="scene-box">
+        <p>أذكر ورديةً في الإفاقة… ليست من تلك الورديات التي تصرخ فيها الأجهزة منذ الدقيقة الأولى، بل وردية "هادئة ظاهريًا".<br>
+        مريضة خرجت من عملية نسائية، ألمها متوسط، أُعطيت جرعات أفيون "معقولة"، وأكسجين عبر قناع بسيط. كانت الشاشة تُظهر تشبع الأكسجين <span class="english-term">(SpO₂)</span> = 98%. كل شيء يبدو مطمئنًا… لكنني حين اقتربت، رأيت ما لا تقوله الأرقام:</p>
+        <ul>
+            <li>تنفّسها سطحي</li>
+            <li>استجابتها للصوت تتأخر</li>
+            <li>صدرها يتحرك لكن كأنه "يتردد"</li>
+        </ul>
+        <p>في تلك اللحظة عاد إليّ درسٌ كررته لسنوات في دورات التهدئة المعتدلة <span class="english-term">(Moderate Sedation)</span>:<br>
+        <strong>الأكسجين قد يجمّل شاشة <span class="english-term">SpO₂</span>، لكنه لا يمنع تراكم ثاني أكسيد الكربون <span class="english-term">(CO₂)</span> ولا يُعيد للمريض تهويةً فعّالة.</strong></p>
+        <p>لم تكن أزمة صاخبة… كانت بداية كارثة صامتة. تدخلنا مبكرًا: تنبيه، رفع الرأس، دعم مجرى الهواء، تقليل المسكن، مراقبة أدق، وخطة واضحة. خرجت المريضة بسلام.</p>
+        <p><strong>PACU هو المكان الذي تموت فيه الكوارث إن اكتشفتها مبكرًا… وهو المكان الذي تولد فيه إن انشغلت عنها.</strong></p>
+    </div>
+
+    <div class="concept-box">
+        <h3>صندوق 23.1 — قاعدة الإفاقة الذهبية | The Golden PACU Rule</h3>
+        <p><strong>الإفاقة ليست "استراحة" بعد العملية؛ الإفاقة هي مرحلة مراقبة نشطة لاكتشاف الانحدار قبل أن يصبح سقوطًا.</strong></p>
+        <p><strong>Recovery is not a "rest" after surgery; recovery is an active monitoring phase to detect decline before it becomes a fall.</strong></p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>23.2 PACU كنظام سلامة: كيف أحوّل "غرفة إفاقة" إلى "منظومة إنقاذ" | PACU as a Safety System: Transforming a "Recovery Room" into a "Rescue System"</h2>
+    <p>حين أفكر في <span class="english-term">PACU</span> لا أفكر في أسِرّة وأجهزة فقط؛ أفكر في تصميم نظام. النظام الجيد يصنع ست طبقات دفاع:</p>
+    
+    <ul>
+        <li><strong>مراقبة معيارية + تفسير ذكي للاتجاهات:</strong> ليس المهم رقم واحد، بل "القصة" التي يكتبها الاتجاه خلال دقائق.</li>
+        <li><strong>فرز المخاطر عند الدخول:</strong> من الذي يحتاج مراقبة تقليدية؟ ومن يحتاج "مراقبة مصعّدة" قبل أن يطلبها الحدث؟</li>
+        <li><strong>نِسَب تمريضية واقعية + أدوار واضحة:</strong> إذا كانت الممرضة "تطارد المهام" فلن ترى التدهور الصامت.</li>
+        <li><strong>تسليم منظم من غرفة العمليات:</strong> المعلومات التي لم تُسلّم… ستتحول إلى دقائق ضائعة عند أول مشكلة.</li>
+        <li><strong>مسارات إنقاذ جاهزة:</strong> مسار تنفسي، مسار دوري دموي، ومسار <span class="english-term">PONV</span>—مثل خرائط إخلاء: لا تكتبها أثناء الحريق.</li>
+        <li><strong>معايير خروج من <span class="english-term">PACU</span> (Discharge) غير قابلة للمساومة:</strong> الخروج قرار سلامة، لا قرار سرير فارغ.</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>صندوق 23.2 — "الخمس دقائق الأولى" في PACU (قائمة سريعة) | The First 5 Minutes in PACU</h3>
+        <p><strong>عند وصول المريض:</strong></p>
+        <ul>
+            <li>تأكيد مجرى الهواء + طريقة إعطاء الأكسجين</li>
+            <li>موجة <span class="english-term">(Waveform)</span> للـ <span class="english-term">SpO₂</span> + نمط التنفس</li>
+            <li>مستوى الوعي/التهدئة (هل يستجيب بسهولة؟)</li>
+            <li>ضغط الدم/نبض القلب <span class="english-term">(BP/HR)</span> وتقييم الاتجاه لا الرقم فقط</li>
+            <li>ألم + غثيان</li>
+            <li>حرارة عند الحاجة</li>
+            <li>مراجعة أهم أحداث العملية: صعوبة مجرى هواء؟ هبوط ضغط؟ نقص أكسجة؟ جرعات أفيون كبيرة؟ حصر عضلي؟</li>
+        </ul>
+    </div>
+
+<!-- Illustration 1: PACU First 5 Minutes Checklist -->
+<div class="illustration-container" style="margin: 30px 0; padding: 25px; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-radius: 12px; border-left: 6px solid #0284c7;">
+    <h4 style="color: #0c4a6e; margin-top: 0; font-size: 22px; text-align: center; margin-bottom: 25px;">
+        ⏱️ الخمس دقائق الأولى في PACU | PACU First 5 Minutes
+    </h4>
+    
+    <table style="width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <thead>
+            <tr style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);">
+                <th style="padding: 15px; color: white; text-align: right; border: none; width: 40%;">الفحص | Check</th>
+                <th style="padding: 15px; color: white; text-align: right; border: none; width: 35%;">المعيار الطبيعي | Normal</th>
+                <th style="padding: 15px; color: white; text-align: right; border: none; width: 25%;">الإشارة الحمراء | Red Flag</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background: #f8fafc;">
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>🫁 التنفس | Airway</strong></td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">مجرى هواء مفتوح، تنفس منتظم</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; color: #dc2626; font-weight: bold;">شخير، انسداد، RR < 8</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>💨 التأكسج | Oxygenation</strong></td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">SpO₂ > 94% مع O₂</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; color: #dc2626; font-weight: bold;">SpO₂ < 90%</td>
+            </tr>
+            <tr style="background: #f8fafc;">
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>❤️ الدورة الدموية | Circulation</strong></td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">BP/HR مستقر، نبض قوي</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; color: #dc2626; font-weight: bold;">SBP < 90 أو > 180</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>🧠 الوعي | Consciousness</strong></td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">يستجيب للصوت/اللمس</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; color: #dc2626; font-weight: bold;">لا يستجيب، هياج شديد</td>
+            </tr>
+            <tr style="background: #f8fafc;">
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>🌡️ الحرارة | Temperature</strong></td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">36-38°C</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; color: #dc2626; font-weight: bold;">< 35°C أو > 38.5°C</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>💉 النزيف | Bleeding</strong></td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">جافة/نقط خفيفة</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; color: #dc2626; font-weight: bold;">نزيف نشط/تشبع</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div style="margin-top: 20px; padding: 15px; background: #fef3c7; border-radius: 8px; border-right: 4px solid #f59e0b;">
+        <p style="margin: 0; color: #92400e; font-weight: 600;">
+            ⚠️ قاعدة ذهبية: إذا كانت <strong>أي</strong> من العلامات الحمراء موجودة ← اتصل بطبيب التخدير <strong>فوراً</strong>
+        </p>
+    </div>
+</div>
+
+    <div class="divider">***</div>
+
+    <h2>23.3 التسليم من العمليات إلى PACU: "من دون قصة دقيقة… ستعيش PACU في التخمين" | Handover from OR to PACU: "Without a Precise Story... PACU Lives in Guesswork"</h2>
+    <p>أنا لا أحب التسليم الذي يشبه: "كل شيء تمام". هذه جملة تُسقط أهم شيء: ما الذي قد يتدهور؟ وكيف نتدخل؟<br>
+    التسليم الفعال يشبه أداة التواصل <span class="english-term">SBAR</span> (وصف–خلفية–تقييم–توصية) لكنه بصيغة تخديرية.</p>
+    <p><strong>الحد الأدنى الذي أصر عليه في التسليم:</strong></p>
+    <ul>
+        <li>حالة مجرى الهواء: سهل؟ صعب؟ أحداث تشنج حنجرة؟ شفط محتمل؟</li>
+        <li>نوع التخدير + أهم الأدوية (خصوصًا الأفيونات، المهدئات، أدوية الغثيان).</li>
+        <li>الحصر العضلي: هل استُخدمت مراقبة كمية؟ ماذا كان آخر قطار أربعة <span class="english-term">(TOF)</span>؟ ما نوع الإرجاع؟</li>
+        <li>أحداث مهمة: هبوط ضغط، نقص أكسجة، اضطراب نظم، نزف.</li>
+        <li>سوائل/دم/فقدان دم تقديري <span class="english-term">(EBL)</span>.</li>
+        <li>خطة الألم: بلوك؟ قثطرة؟ تخدير يتحكم به المريض <span class="english-term">(PCA)</span>؟</li>
+        <li>"علامة خطر" موجهة لـ <span class="english-term">PACU</span>: <span class="english-term">OSA</span>؟ بدانة؟ حساس لأفيون؟ خطر نزف؟</li>
+    </ul>
+
+    <div class="alert-box">
+        <h3>صندوق 23.3 — "لا تُسلم المريض دون تحذيرٍ صريح" | "Don't Handover Without Explicit Warning"</h3>
+        <p>إذا كان المريض: <span class="english-term">OSA</span>/سمنة عالية، تلقى أفيونات كثيرة، أو كان لديه صعوبة مجرى هواء أو نزف محتمل—يجب أن تقولها حرفيًا لفريق <span class="english-term">PACU</span> مع خطة مراقبة وتصعيد.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>23.4 تثبيط التنفس في PACU: التهديد رقم 1 (والأكثر قابلية للمنع) | Respiratory Depression in PACU: Threat #1 (and Most Preventable)</h2>
+    <p>في <span class="english-term">PACU</span> قد ترى:</p>
+    <ul>
+        <li>نقص تهوية <span class="english-term">(Hypoventilation)</span>.</li>
+        <li>انسداد علوي (خصوصًا <span class="english-term">OSA</span>).</li>
+        <li>تثبيط تنفسي مرتبط بالأفيونات.</li>
+        <li>بقايا حصر عضلي.</li>
+    </ul>
+    <p>المشكلة أن كثيرًا منها يبدأ ببطء، ثم فجأة يصبح "أزمة".</p>
+    <p><strong>لماذا تُفوت <span class="english-term">PACU</span> هذه الأحداث؟</strong></p>
+    <ul>
+        <li>الأكسجين يُبقي <span class="english-term">SpO₂</span> طبيعيًا بينما <span class="english-term">CO₂</span> يرتفع (الخطر الصامت).</li>
+        <li>لا يوجد تقييم منظم للتهدئة/النعاس.</li>
+        <li>انشغال طاقم <span class="english-term">PACU</span> بتبديل أسرّة ومهام إدارية.</li>
+        <li>عدم تصعيد المراقبة لمرضى "واضح أنهم عالي الخطورة".</li>
+    </ul>
+
+    <div class="divider">***</div>
+
+    <h2>23.5 تثبيط التنفس المرتبط بالأفيونات: "الألم لا يبرر نومًا خطيرًا" | Opioid-Induced Respiratory Depression: "Pain Does Not Justify Dangerous Sleep"</h2>
+    <p>أنا كطبيب تخدير أعرف القاعدة القاسية:<br>
+    أخطر مريض ليس الذي يتألم… بل الذي لا يتألم لأنه لا يتهوى.</p>
+
+    <h3>23.5.1 من هم عالي الخطورة؟</h3>
+    <ul>
+        <li><span class="english-term">OSA</span> معروف/مشتبه + سمنة.</li>
+        <li>كبار السن/الهشاشة.</li>
+        <li>غير معتاد على الأفيون <span class="english-term">(Opioid-naïve)</span> مع جرعات كبيرة.</li>
+        <li>مشاركة مهدئات أخرى.</li>
+        <li>قصور كلوي/كبدي (تطاول تأثير).</li>
+        <li>أفيونات نخاعية/ممتدة المفعول.</li>
+    </ul>
+
+    <h3>23.5.2 "حزمة الوقاية" التي أريدها معيارًا</h3>
+    <ul>
+        <li>تسكين متعدد الوسائط لتقليل عبء الأفيون.</li>
+        <li>تجنب "تكديس" المهدئات فوق الأفيون بلا داعٍ.</li>
+        <li>قياس التهدئة بمقياس ثابت—ليس <span class="english-term">(not)</span> شعور عام.</li>
+        <li>تصعيد المراقبة للمخاطر العالية (خصوصًا مراقبة التهوية إن توفرت).</li>
+        <li>وضعية مناسبة (رفع الرأس) وتجهيز أدوات فتح مجرى الهواء.</li>
+    </ul>
+
+    <h3>23.5.3 مقياس النعاس/التهدئة: معيار لا مزاج</h3>
+    <p>مقياس باسيرو للتهدئة الناتجة عن الأفيون <span class="english-term">(Pasero Opioid-Induced Sedation Scale - POSS)</span> عملي جدًا في <span class="english-term">PACU</span>. (<span class="english-term">qualityhealthnd.org</span>)<br>
+    الفكرة التي أحبها فيه: التصرف مرتبط بالدرجة، لا بالانطباع.</p>
+
+    <div class="concept-box">
+        <h3>صندوق 23.4 — مقياس POSS (مختصر عملي) | POSS Summary</h3>
+        <ul>
+            <li><strong>S / 1 / 2:</strong> مقبول ← استمر مع مراقبة.</li>
+            <li><strong>3 (نعاس متكرر، ينام أثناء الحديث):</strong> أوقف/قلل الأفيون، راقب التنفس بدقة، فكر في تصعيد المراقبة.</li>
+            <li><strong>4 (صعب الإيقاظ):</strong> هذه حالة إنقاذ ← دعم مجرى هواء/تهوية + استدعاء مبكر + علاج السبب.</li>
+        </ul>
+    </div>
+
+    <h3>23.5.4 مسار التدخل (عندما ترى بداية الخطر)</h3>
+    <ul>
+        <li>أوقف المزيد من الأفيون مؤقتًا.</li>
+        <li>حفّز المريض + عدّل الوضعية (رأس مرفوع <span class="english-term">Head-elevated</span>).</li>
+        <li>دفع الفك/ممر هوائي فموي/ممر هوائي أنفي <span class="english-term">(Jaw thrust/OPA/NPA)</span> عند الحاجة.</li>
+        <li>إن فشل: دعم تهوية بقناع وكيس <span class="english-term">(BVM)</span>.</li>
+        <li>إذا كان السبب أفيونيًا واضحًا: فكر في نالوكسون مُعاير (تدريجيًا لتجنب انقلاب الألم).</li>
+        <li>مريض يتكرر معه الحدث؟ هذا ليس "يمر"—هذا معيار تنويم/مراقبة أطول.</li>
+    </ul>
+
+<!-- Illustration 2: Respiratory Depression Response Pathway -->
+<div class="illustration-container" style="margin: 30px 0; padding: 25px; background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); border-radius: 12px; border-left: 6px solid #dc2626;">
+    <h4 style="color: #991b1b; margin-top: 0; font-size: 22px; text-align: center; margin-bottom: 25px;">
+        🚨 مسار الاستجابة لتثبيط التنفس | Respiratory Depression Response Pathway
+    </h4>
+    
+    <table style="width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <thead>
+            <tr style="background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);">
+                <th style="padding: 15px; color: white; text-align: right; border: none; width: 25%;">المستوى | Level</th>
+                <th style="padding: 15px; color: white; text-align: right; border: none; width: 35%;">المؤشرات | Indicators</th>
+                <th style="padding: 15px; color: white; text-align: right; border: none; width: 40%;">الإجراء الفوري | Immediate Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background: #fff7ed;">
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong style="color: #f59e0b;">⚠️ تحذير مبكر</strong><br><small>Early Warning</small></td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">
+                    • RR 8-10<br>
+                    • نعاس خفيف (POSS 2)<br>
+                    • SpO₂ 90-93%
+                </td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">
+                    ✓ تحفيز لفظي قوي<br>
+                    ✓ زيادة O₂<br>
+                    ✓ مراقبة كل 5 دقائق<br>
+                    ✓ إيقاف الأفيونات
+                </td>
+            </tr>
+            <tr style="background: #fef2f2;">
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong style="color: #dc2626;">🚨 تثبيط معتدل</strong><br><small>Moderate Depression</small></td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">
+                    • RR 6-8<br>
+                    • نعاس عميق (POSS 3)<br>
+                    • SpO₂ 85-90%
+                </td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;">
+                    ✓ تحفيز جسدي<br>
+                    ✓ دفع الفك / رفع الذقن<br>
+                    ✓ <strong>Naloxone 0.04 mg IV</strong><br>
+                    ✓ استدعاء طبيب التخدير
+                </td>
+            </tr>
+            <tr style="background: #7f1d1d; color: white;">
+                <td style="padding: 12px; border: 1px solid #991b1b;"><strong>🔴 طوارئ حرجة</strong><br><small>Critical Emergency</small></td>
+                <td style="padding: 12px; border: 1px solid #991b1b;">
+                    • RR < 6 أو توقف<br>
+                    • لا يستجيب<br>
+                    • SpO₂ < 85%
+                </td>
+                <td style="padding: 12px; border: 1px solid #991b1b;">
+                    ✓ <strong>استدعاء فوري للإنقاذ</strong><br>
+                    ✓ BVM تهوية<br>
+                    ✓ <strong>Naloxone 0.1-0.2 mg IV</strong><br>
+                    ✓ تحضير للتنبيب
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div style="margin-top: 20px; padding: 15px; background: #fee2e2; border-radius: 8px; border-right: 4px solid #dc2626;">
+        <p style="margin: 0; color: #7f1d1d; font-weight: 600;">
+            💊 جرعة Naloxone الآمنة: ابدأ بـ <strong>0.04 mg IV</strong> كل 2-3 دقائق حتى تحسن التنفس (تجنب الجرعات الكبيرة التي تسبب ألم حاد وقيء)
+        </p>
+    </div>
+</div>
+
+    <p><strong>ملاحظة دليلية:</strong> الأدبيات تؤكد أهمية المراقبة المستمرة (قياس التأكسج النبضي/كابنوغرافي <span class="english-term">Pulse oximetry/Capnography</span>) لتقليل تفويت تثبيط التنفس بعد الأفيونات. (<span class="english-term">ResearchGate</span>)</p>
+
+    <h3>23.5.5 بروتوكول المراقبة بالكابنوغرافي | Capnography Monitoring Protocol</h3>
+    <p>الكابنوغرافي هو <strong>"نظام الإنذار المبكر"</strong> الأكثر موثوقية لاكتشاف نقص التهوية—قبل أن يتدهور <span class="english-term">SpO₂</span> بوقت ثمين.</p>
+
+    <div class="alert-box">
+        <h4>الدليل المرجعي | Evidence Base</h4>
+        <ul>
+            <li><strong>دراسة Kodali & Urman (2014)</strong> في <span class="english-term">Anesthesia & Analgesia</span> أثبتت أن الكابنوغرافي يكشف نقص التهوية أسرع من <span class="english-term">SpO₂</span> بـ <strong>60-90 ثانية</strong>.</li>
+            <li><strong>إرشادات ASA 2011</strong> توصي باستخدام الكابنوغرافي لجميع المرضى الذين يتلقون تهدئة معتدلة إلى عميقة.</li>
+            <li><strong>Kodali BS, Urman RD.</strong> "Capnography during cardiopulmonary resuscitation: Current evidence and future directions." <em>J Emerg Trauma Shock</em>. 2014;7(4):332-340.</li>
+        </ul>
+    </div>
+
+    <h4>23.5.5.1 المؤشرات الإلزامية للكابنوغرافي في PACU | Mandatory Indications</h4>
+    <ul>
+        <li>مرضى <span class="english-term">OSA</span> + أفيونات (معروف أو مشتبه <span class="english-term">STOP-BANG ≥ 3</span>)</li>
+        <li>تخدير يتحكم به المريض <span class="english-term">(PCA)</span> بعد العملية</li>
+        <li>أفيونات نخاعية <span class="english-term">(Epidural/Intrathecal opioids)</span></li>
+        <li>كبار السن (> 70 عامًا) + أفيونات عالية الجرعة</li>
+        <li>تاريخ تثبيط تنفسي سابق بالأفيونات</li>
+        <li>قصور كلوي/كبدي + أفيونات</li>
+    </ul>
+
+    <h4>23.5.5.2 قراءة نمط الكابنوغرافي | Capnography Pattern Reading</h4>
+    
+    <div class="concept-box">
+        <h4>حدود الإنذار والتدخل | Alarm Limits and Interventions</h4>
+        <table style="width: 100%; margin: 15px 0;">
+            <thead>
+                <tr>
+                    <th style="text-align: right;">القراءة | Reading</th>
+                    <th style="text-align: right;">التفسير | Interpretation</th>
+                    <th style="text-align: right;">الإجراء | Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong><span class="english-term">ETCO₂</span> 35-45 mmHg</strong><br><span class="english-term">RR</span> 10-20</td>
+                    <td>طبيعي | Normal</td>
+                    <td>مراقبة روتينية | Routine monitoring</td>
+                </tr>
+                <tr style="background: #fef3c7;">
+                    <td><strong><span class="english-term">ETCO₂</span> 46-50 mmHg</strong><br>أو <span class="english-term">RR</span> 8-10</td>
+                    <td>⚠️ تحذير مبكر<br>نقص تهوية خفيف<br>Early warning: Mild hypoventilation</td>
+                    <td>
+                        • تحفيز المريض<br>
+                        • تعديل الوضعية<br>
+                        • مراقبة كل 3-5 دقائق<br>
+                        • إيقاف الأفيون مؤقتًا
+                    </td>
+                </tr>
+                <tr style="background: #fee2e2;">
+                    <td><strong><span class="english-term">ETCO₂</span> > 50 mmHg</strong><br>أو <span class="english-term">RR</span> < 8</td>
+                    <td>🚨 تدخل فوري<br>نقص تهوية معتدل-شديد<br>Immediate intervention: Moderate-severe hypoventilation</td>
+                    <td>
+                        • <strong>تحفيز جسدي قوي</strong><br>
+                        • دعم مجرى هواء<br>
+                        • استدعاء طبيب التخدير<br>
+                        • <strong>Naloxone</strong> إن لزم
+                    </td>
+                </tr>
+                <tr style="background: #7f1d1d; color: white;">
+                    <td><strong>غياب الموجة</strong><br>> 10 ثوان<br><span class="english-term">Waveform absent > 10 sec</span></td>
+                    <td>🔴 طوارئ حرجة<br>توقف تنفس/انسداد كامل<br>Critical: Apnea/Complete obstruction</td>
+                    <td>
+                        • <strong>استدعاء فوري للإنقاذ</strong><br>
+                        • <span class="english-term">BVM</span> تهوية<br>
+                        • <strong>Naloxone IV</strong><br>
+                        • تحضير للتنبيب
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h4>23.5.5.3 أنماط موجة الكابنوغرافي الشائعة | Common Capnography Waveforms</h4>
+    <ul>
+        <li><strong>موجة طبيعية:</strong> صعود سريع، هضبة مستوية، هبوط سريع—تنفس فعال | Normal waveform: Rapid rise, flat plateau, rapid fall—effective breathing</li>
+        <li><strong>موجة "القرش" (Shark fin):</strong> صعود بطيء—انسداد جزئي (تشنج قصبي، <span class="english-term">OSA</span>) | Shark fin: Slow rise—partial obstruction (bronchospasm, OSA)</li>
+        <li><strong>موجة مسطحة/غائبة:</strong> توقف تنفس، انسداد كامل، أو انفصال الجهاز | Flat/absent waveform: Apnea, complete obstruction, or device disconnection</li>
+        <li><strong>ارتفاع تدريجي للـ <span class="english-term">ETCO₂</span>:</strong> نقص تهوية تدريجي—الإنذار الأهم! | Gradual ETCO₂ rise: Progressive hypoventilation—most important warning!</li>
+    </ul>
+
+    <div class="success-box">
+        <h4>صندوق 23.4B — القاعدة الذهبية للكابنوغرافي | The Golden Capnography Rule</h4>
+        <p><strong>الكابنوغرافي يكشف المشكلة قبل أن يراها <span class="english-term">SpO₂</span> بـ 1-2 دقيقة—وهذه الدقائق قد تُنقذ دماغًا.</strong></p>
+        <p><strong>Capnography detects the problem 1-2 minutes before SpO₂ shows it—and these minutes may save a brain.</strong></p>
+    </div>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة واقعية: حين أنقذت الـ 90 ثانية مريضًا | Real Story: When 90 Seconds Saved a Patient</span>
+        <p>مريض في الستينات، <span class="english-term">BMI 35</span>، <span class="english-term">STOP-BANG 6</span>، بعد جراحة بطن. أُعطي <span class="english-term">PCA morphine</span> لتسكين الألم. شاشة <span class="english-term">SpO₂</span> تُظهر 97% على أكسجين 2 L/min—كل شيء يبدو "طبيعيًا".</p>
+        <p>لكن ممرضة <span class="english-term">PACU</span> المدربة رأت موجة الكابنوغرافي: <span class="english-term">ETCO₂</span> بدأ يرتفع تدريجيًا… 42… 45… 48 mmHg. الشاشة لم تنذر بعد—<span class="english-term">SpO₂</span> ما زال 96%.</p>
+        <p><strong>تصرفت فورًا:</strong></p>
+        <ul>
+            <li>أوقفت <span class="english-term">PCA</span> مؤقتًا</li>
+            <li>حفّزت المريض—لم يستجب بسرعة (<span class="english-term">POSS 3</span>)</li>
+            <li>رفعت رأسه + دفع الفك</li>
+            <li>استدعت طبيب التخدير <strong>فورًا</strong> (بعد 40 ثانية من بداية الإنذار)</li>
+        </ul>
+        <p>وصل طبيب التخدير بعد دقيقتين. في تلك اللحظة، <span class="english-term">SpO₂</span> بدأ ينخفض إلى 92%—ولكن المريض كان يتحسن بالفعل بفضل التحفيز ودعم مجرى الهواء.</p>
+        <p>بعد 10 دقائق، عاد <span class="english-term">ETCO₂</span> إلى 40 mmHg، والمريض متنبه تمامًا. لم يحتج <span class="english-term">Naloxone</span>—لأننا تدخلنا مبكرًا.</p>
+        <p><strong>الدرس الذي حمله الجميع في تلك الوردية:</strong><br>
+        لو اعتمدنا على <span class="english-term">SpO₂</span> وحده، لكنا تأخرنا 90 ثانية—وهذه الثوانِ قد تعني الفرق بين تدخل بسيط وإنقاذ طوارئ.</p>
+        <p><strong>The lesson everyone carried that shift:</strong><br>
+        If we relied on SpO₂ alone, we would have delayed 90 seconds—and these seconds can mean the difference between simple intervention and emergency rescue.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>23.6 بقايا الحصر العضلي: العدو الذي يتخفّى في شكل "نعاس" | Residual Neuromuscular Block: The Enemy That Disguises Itself as "Drowsiness"</h2>
+    <p>بقايا الحصر العضلي ليست فقط "ضعفًا بسيطًا"—هي قابلية لانسداد علوي، سعال ضعيف، شفط، ونقص تهوية.</p>
+
+    <h3>23.6.1 كيف ألتقطها في PACU؟</h3>
+    <ul>
+        <li>ضعف السعال/البلع.</li>
+        <li>عدم القدرة على رفع الرأس/قبضة ضعيفة.</li>
+        <li>انسداد علوي متكرر رغم أكسجين جيد.</li>
+        <li>نقص تهوية غير مفسّر.</li>
+    </ul>
+
+    <h3>23.6.2 ماذا أفعل؟</h3>
+    <ul>
+        <li>اعتبرها تشخيصًا حتى يثبت العكس.</li>
+        <li>دعم مجرى الهواء والتهوية.</li>
+        <li>استدعِ طبيب التخدير المسؤول.</li>
+        <li>راجع: نوع المرخي، آخر جرعة، طريقة الإرجاع، وهل كانت هناك مراقبة كمية.</li>
+        <li>صعّد المراقبة ومدة الإفاقة.</li>
+    </ul>
+
+    <div class="alert-box">
+        <h3>صندوق 23.5 — "إشارة حمراء" لبقايا الحصر العضلي | "Red Flag" for Residual Block</h3>
+        <p>مريض بعد تخدير عام <span class="english-term">(GA)</span> مع مرخي عضلي <span class="english-term">(NMBA)</span> + انسداد/نقص تهوية أو ضعف واضح = بقايا حصر <span class="english-term">(Residual block)</span> حتى تثبت براءته.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>23.7 بروتوكول OSA في PACU: من "تشخيص ورقي" إلى "مسار إنقاذ" | OSA Protocol in PACU: From "Paper Diagnosis" to "Rescue Pathway"</h2>
+    <p>أنا أتعامل مع <span class="english-term">OSA</span> في <span class="english-term">PACU</span> كأنه "حالة طريق سريع": إن تركته دون مسار واضح ستحدث حوادث متكررة.</p>
+
+    <h3>23.7.1 التعرف على OSA</h3>
+    <ul>
+        <li>تشخيص سابق + ضغط إيجابي مستمر <span class="english-term">(CPAP)</span> بالمنزل.</li>
+        <li>أو اشتباه عالي (مثل <span class="english-term">STOP-BANG</span>).</li>
+        <li>أو ظهور انسداد متكرر في <span class="english-term">PACU</span>.</li>
+    </ul>
+
+    <h3>23.7.2 حزمة OSA في PACU (عملية جدًا)</h3>
+    <ul>
+        <li><strong>وضعية:</strong> رفع الرأس/وضع جانبي إن أمكن.</li>
+        <li><strong>استراتيجية الأكسجين:</strong> أعطِ أكسجينًا لكن لا تدعه يخدعك—راقب نمط التنفس والنعاس.</li>
+        <li><strong><span class="english-term">CPAP</span> مبكرًا</strong> لمن يستخدمه في المنزل، بشرط جاهزية الفريق والأجهزة.</li>
+        <li><strong>تسكين قليل الأفيون</strong> قدر الإمكان.</li>
+        <li>تصعيد المراقبة + إطالة الملاحظة.</li>
+        <li>معايير تنويم واضحة بدل "نجرب ونشوف".</li>
+    </ul>
+    <p>إرشادات الرعاية لمرضى <span class="english-term">OSA</span> تشدد على أهمية التخطيط للمراقبة والدعم التنفسي وإدارة الألم بعقلانية وتقليل المخاطر بعد العملية. (<span class="english-term">Centre for Perioperative Care</span>)</p>
+
+    <h3>23.7.3 بروتوكول CPAP/BiPAP المتقدم في PACU | Advanced CPAP/BiPAP Protocol in PACU</h3>
+    <p>الضغط الإيجابي المستمر <span class="english-term">(CPAP)</span> أو ثنائي المستوى <span class="english-term">(BiPAP)</span> هو <strong>"الخط الدفاعي الأول"</strong> لمنع تدهور مرضى <span class="english-term">OSA</span> في <span class="english-term">PACU</span>.</p>
+
+    <div class="alert-box">
+        <h4>الدليل المرجعي | Evidence Base</h4>
+        <ul>
+            <li><strong>دراسة Liao et al. (2013)</strong> في <span class="english-term">Chest</span> أظهرت أن استخدام <span class="english-term">CPAP</span> المبكر في <span class="english-term">PACU</span> قلل حوادث نقص الأكسجة بنسبة <strong>73%</strong> لمرضى <span class="english-term">OSA</span>.</li>
+            <li><strong>مراجعة Memtsoudis et al. (2011)</strong> أكدت أن التطبيق المبكر لـ <span class="english-term">CPAP</span> يقلل الحاجة للتدخلات الطارئة والتنويم غير المخطط.</li>
+            <li><strong>Liao P, Yegneswaran B, et al.</strong> "Postoperative complications in patients with obstructive sleep apnea: a retrospective matched cohort study." <em>Can J Anaesth</em>. 2009;56(11):819-828.</li>
+        </ul>
+    </div>
+
+    <h4>23.7.3.1 معايير البدء بالـ CPAP/BiPAP | Initiation Criteria</h4>
+    <ul>
+        <li><strong>الفئة A (بدء فوري):</strong>
+            <ul>
+                <li>مريض يستخدم <span class="english-term">CPAP</span> بالمنزل (أحضر جهازه أو استخدم جهاز المستشفى)</li>
+                <li><span class="english-term">STOP-BANG ≥ 5</span> + انسداد متكرر في <span class="english-term">PACU</span></li>
+                <li><span class="english-term">SpO₂ < 92%</span> رغم أكسجين 4-6 L/min</li>
+            </ul>
+        </li>
+        <li><strong>الفئة B (مراقبة ثم قرار):</strong>
+            <ul>
+                <li><span class="english-term">STOP-BANG 3-4</span> + أفيونات عالية</li>
+                <li>انسداد خفيف متكرر (> 2 حلقات/10 دقائق)</li>
+                <li>تاريخ صعوبة مجرى هواء + <span class="english-term">OSA</span> مشتبه</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h4>23.7.3.2 إعدادات CPAP التدريجية | Stepwise CPAP Settings</h4>
+    
+    <div class="concept-box">
+        <h4>بروتوكول الإعدادات التدريجية | Titration Protocol</h4>
+        <table style="width: 100%; margin: 15px 0;">
+            <thead>
+                <tr>
+                    <th style="text-align: right;">المرحلة | Step</th>
+                    <th style="text-align: right;">الإعداد | Setting</th>
+                    <th style="text-align: right;">التقييم | Assessment</th>
+                    <th style="text-align: right;">التصعيد | Escalation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>1. البداية</strong><br>Initial</td>
+                    <td>
+                        <span class="english-term">CPAP 5-6 cmH₂O</span><br>
+                        <span class="english-term">FiO₂ 30-40%</span>
+                    </td>
+                    <td>
+                        مراقبة × 10 دقائق<br>
+                        هل زال الانسداد؟<br>
+                        <span class="english-term">SpO₂ > 94%?</span>
+                    </td>
+                    <td>
+                        إذا استمر الانسداد:<br>
+                        → ارفع الضغط
+                    </td>
+                </tr>
+                <tr style="background: #fef3c7;">
+                    <td><strong>2. التصعيد</strong><br>Escalation</td>
+                    <td>
+                        <span class="english-term">CPAP 8-10 cmH₂O</span><br>
+                        زيادة تدريجية <strong>+2 cmH₂O</strong><br>
+                        كل 10 دقائق
+                    </td>
+                    <td>
+                        • غياب الشخير<br>
+                        • حركة صدر متناسقة<br>
+                        • <span class="english-term">SpO₂</span> مستقر
+                    </td>
+                    <td>
+                        الحد الأقصى:<br>
+                        <span class="english-term">CPAP 12-15 cmH₂O</span>
+                    </td>
+                </tr>
+                <tr style="background: #fee2e2;">
+                    <td><strong>3. فشل CPAP</strong><br>CPAP Failure</td>
+                    <td colspan="3">
+                        <strong>إذا فشل <span class="english-term">CPAP 15 cmH₂O</span>:</strong><br>
+                        • انتقل لـ <span class="english-term">BiPAP</span> (IPAP 12-15 / EPAP 5-8)<br>
+                        • استدعاء طبيب التخدير فورًا<br>
+                        • تحضير لتدخل أعلى (تنبيب إن لزم)<br>
+                        • <strong>If CPAP 15 cmH₂O fails: Switch to BiPAP, call anesthesiologist immediately, prepare for advanced airway intervention</strong>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h4>23.7.3.3 معايير التوقف عن CPAP | CPAP Discontinuation Criteria</h4>
+    <p><strong>لا توقف <span class="english-term">CPAP</span> إلا إذا تحققت جميع المعايير التالية:</strong></p>
+    <ul>
+        <li><span class="english-term">SpO₂ > 94%</span> على هواء الغرفة × <strong>30 دقيقة متواصلة</strong> | SpO₂ > 94% on room air × 30 consecutive minutes</li>
+        <li>غياب الانسداد/الشخير × <strong>60 دقيقة</strong> | No obstruction/snoring × 60 minutes</li>
+        <li>مستوى وعي <span class="english-term">Aldrete ≥ 9</span> (متيقظ تمامًا) | Aldrete score ≥ 9 (fully alert)</li>
+        <li>قادر على حماية مجرى الهواء (سعال قوي، بلع طبيعي) | Able to protect airway (strong cough, normal swallowing)</li>
+        <li>لا احتياج مستمر للأفيونات العالية | No ongoing high opioid requirement</li>
+    </ul>
+
+    <div class="alert-box">
+        <h4>صندوق 23.6A — محاذير وموانع CPAP | CPAP Precautions and Contraindications</h4>
+        <p><strong>موانع مطلقة (لا تستخدم <span class="english-term">CPAP</span>):</strong></p>
+        <ul>
+            <li>غياب منعكس الحماية للمجرى الهوائي | Absent airway protective reflexes</li>
+            <li>عدم استقرار دوري دموي شديد | Severe hemodynamic instability</li>
+            <li>استرواح صدر غير معالج | Untreated pneumothorax</li>
+            <li>قيء نشط/خطر شفط عالي | Active vomiting/high aspiration risk</li>
+        </ul>
+        <p><strong>موانع نسبية (حذر شديد):</strong></p>
+        <ul>
+            <li>جراحة أنف/جيوب حديثة | Recent nasal/sinus surgery</li>
+            <li>نزيف معدي مريئي حديث | Recent GI bleeding</li>
+            <li>جراحة قلب صدرية حديثة | Recent cardiothoracic surgery</li>
+        </ul>
+    </div>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة واقعية: CPAP الذي منع تنويمًا غير مخطط | Real Story: CPAP That Prevented Unplanned Admission</span>
+        <p>مريضة في الأربعينات، <span class="english-term">BMI 42</span>، لديها <span class="english-term">CPAP</span> بالمنزل (<span class="english-term">10 cmH₂O</span>)، بعد جراحة مرارة بالمنظار.<br>
+        وصلت إلى <span class="english-term">PACU</span> بـ <span class="english-term">SpO₂ 91%</span> على أكسجين 4 L/min، مع شخير متكرر رغم رفع الرأس.</p>
+        <p><strong>التدخل الفوري:</strong></p>
+        <ul>
+            <li>بدأنا <span class="english-term">CPAP 8 cmH₂O</span> (قريب من إعدادها المنزلي)</li>
+            <li>خلال 5 دقائق: زال الشخير، <span class="english-term">SpO₂</span> ارتفع إلى 97%</li>
+            <li>استمرت على <span class="english-term">CPAP</span> لمدة ساعة، ثم بدأنا التصعيد التدريجي</li>
+        </ul>
+        <p><strong>النتيجة:</strong><br>
+        بعد ساعتين، خرجت من <span class="english-term">PACU</span> بـ <span class="english-term">SpO₂ 96%</span> على هواء الغرفة، <span class="english-term">Aldrete 10</span>، وعادت إلى بيتها في نفس اليوم.</p>
+        <p><strong>لو لم نستخدم <span class="english-term">CPAP</span>:</strong><br>
+        كانت ستحتاج تنويمًا للمراقبة—وربما تدخلاً أعلى. دراسة <span class="english-term">Liao 2013</span> أظهرت أن <span class="english-term">CPAP</span> المبكر قلل التحويلات غير المخططة بنسبة <strong>65%</strong>.</p>
+        <p><strong>If we hadn't used CPAP:</strong><br>
+        She would have needed admission for monitoring—and possibly higher intervention. Liao 2013 showed early CPAP reduced unplanned transfers by 65%.</p>
+    </div>
+
+    <div class="concept-box">
+        <h3>صندوق 23.6 — محفزات تصعيد/تنويم في OSA | Escalation/Admission Triggers in OSA</h3>
+        <ul>
+            <li>انسداد متكرر يحتاج مناورة مجرى هواء.</li>
+            <li>احتياج أكسجين متزايد أو عدم استقرار.</li>
+            <li>جرعات أفيون عالية أو حاجته مستمرة.</li>
+            <li>أمراض قلب/رئة مرافقة عالية الخطورة.</li>
+            <li>فشل العودة لمستوى وعي آمن خلال إطار زمني منطقي.</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>23.8 الغثيان والقيء بعد العملية (PONV): ليس "إزعاجًا"… بل خطر سلامة | Postoperative Nausea and Vomiting (PONV): Not a "Nuisance"... But a Safety Risk</h2>
+    <p>أنا أرفض اختزال <span class="english-term">PONV</span> إلى "راحة مريض فقط". القيء قد يعني: شفط، تمزق جرح، نزف، اضطراب سوائل، وتأخير خروج—بل أحيانًا دخول غير مخطط.</p>
+
+    <h3>23.8.1 فرز المخاطر: مقياس Apfel المبسط</h3>
+    <p>الأربع نقاط الشهيرة (تبسيط عملي):</p>
+    <ul>
+        <li>أنثى.</li>
+        <li>غير مدخن.</li>
+        <li>تاريخ <span class="english-term">PONV</span>/دوار حركة.</li>
+        <li>احتياج أفيون بعد العملية.</li>
+    </ul>
+    <p>هذا النموذج مستخدم على نطاق واسع في بناء خطط الوقاية. (<span class="english-term">associationofanaesthetists-publications.onlinelibrary.wiley.com</span>)</p>
+
+    <h3>23.8.2 الوقاية: "حزمة" حسب المخاطر</h3>
+    <p>إرشادات الإجماع الحديثة توصي بخطة متعددة الوسائط وتوسيع الوقاية بزيادة عوامل الخطر، بدل دواء واحد للجميع. (<span class="english-term">ashp.org</span>)<br>
+    عمليًا في سياسات المستشفى:</p>
+    <ul>
+        <li><strong>منخفض الخطورة:</strong> وقاية بسيطة/موجهة.</li>
+        <li><strong>متوسط/عالٍ:</strong> دواءان أو أكثر من فئات مختلفة + تقليل المحفزات (تقليل الأفيون، تجنب جرعات عالية من العوامل المثيرة…).</li>
+    </ul>
+
+    <h3>23.8.3 مسار الإنقاذ المحدث في PACU (إرشادات 2020) | Updated PONV Rescue Pathway (2020 Guidelines)</h3>
+    <p>قانوني الذي أدرّسه وأعمل به—محدّث بإرشادات <span class="english-term">ASHP/APSF 2020</span>:</p>
+    
+    <div class="alert-box">
+        <h4>الدليل المرجعي | Evidence Base</h4>
+        <ul>
+            <li><strong>إرشادات الإجماع الرابع لإدارة PONV (2020)</strong> من <span class="english-term">ASHP/APSF</span></li>
+            <li><strong>التوصية الرئيسية:</strong> استخدام أدوية من <strong>فئات مختلفة</strong> عن الوقاية، مع تجنب تكرار نفس الفئة خلال 6 ساعات</li>
+            <li><strong>Gan TJ, et al.</strong> "Fourth Consensus Guidelines for the Management of Postoperative Nausea and Vomiting." <em>Anesth Analg</em>. 2020;131(2):411-448.</li>
+        </ul>
+    </div>
+
+    <h4>23.8.3.1 جدول الإنقاذ حسب الفئة الدوائية | Drug Class-Based Rescue Algorithm</h4>
+    
+    <div class="concept-box">
+        <table style="width: 100%; margin: 15px 0;">
+            <thead>
+                <tr>
+                    <th style="text-align: right; width: 30%;">الوقاية المستخدمة<br>Prophylaxis Used</th>
+                    <th style="text-align: right; width: 35%;">خط الإنقاذ الأول<br>First Rescue Line</th>
+                    <th style="text-align: right; width: 35%;">خط الإنقاذ الثاني<br>Second Rescue Line</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <strong>مضادات 5-HT₃</strong><br>
+                        (Ondansetron, Granisetron)<br>
+                        <span class="english-term">5-HT₃ antagonist</span>
+                    </td>
+                    <td>
+                        <strong>Dexamethasone 4-8 mg IV</strong><br>
+                        (إن لم يُعطَ أثناء العملية)<br>
+                        <em>If not given intraoperatively</em>
+                    </td>
+                    <td>
+                        <strong>Metoclopramide 10 mg IV</strong><br>
+                        أو <strong>Promethazine 12.5-25 mg IV</strong><br>
+                        <em>or Promethazine 12.5-25 mg IV</em>
+                    </td>
+                </tr>
+                <tr style="background: #f8fafc;">
+                    <td>
+                        <strong>Dexamethasone</strong><br>
+                        (ستيرويد)<br>
+                        <span class="english-term">Steroid</span>
+                    </td>
+                    <td>
+                        <strong>Ondansetron 4 mg IV</strong><br>
+                        (إن لم يُعطَ)<br>
+                        <em>If not given</em>
+                    </td>
+                    <td>
+                        <strong>Haloperidol 0.5-1 mg IV</strong><br>
+                        أو <strong>Propofol 20 mg IV</strong><br>
+                        <em>or Propofol 20 mg IV</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Scopolamine</strong><br>
+                        (لصقة)<br>
+                        <span class="english-term">Patch</span>
+                    </td>
+                    <td>
+                        <strong>Ondansetron 4 mg IV</strong><br>
+                        + <strong>Dexamethasone 4 mg</strong><br>
+                        <em>Ondansetron + Dexamethasone</em>
+                    </td>
+                    <td>
+                        <strong>Propofol 20-30 mg IV</strong><br>
+                        (بطيء)<br>
+                        <em>Slowly</em>
+                    </td>
+                </tr>
+                <tr style="background: #fef3c7;">
+                    <td>
+                        <strong>لا وقاية</strong><br>
+                        (مريض لم يُعطَ وقاية)<br>
+                        <span class="english-term">No prophylaxis</span>
+                    </td>
+                    <td>
+                        <strong>Ondansetron 4 mg IV</strong><br>
+                        + <strong>Dexamethasone 4 mg IV</strong><br>
+                        (حزمة مزدوجة)<br>
+                        <em>Dual agent rescue</em>
+                    </td>
+                    <td>
+                        <strong>Metoclopramide 10 mg IV</strong><br>
+                        أو <strong>Propofol 20 mg IV</strong><br>
+                        <em>or Propofol 20 mg IV</em>
+                    </td>
+                </tr>
+                <tr style="background: #fee2e2;">
+                    <td colspan="3">
+                        <strong>🚨 إذا فشل خطان من الإنقاذ:</strong><br>
+                        • تصعيد المراقبة (مراقبة مصعّدة)<br>
+                        • حماية فعالة لمجرى الهواء (وضعية جانبية + شفط جاهز)<br>
+                        • استبعاد أسباب ثانوية (نزف، انسداد معوي، ارتفاع ضغط داخل القحف)<br>
+                        • التفكير في التنويم<br>
+                        <strong>🚨 If two rescue lines fail: Escalate monitoring, protect airway, rule out secondary causes, consider admission</strong>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h4>23.8.3.2 قواعد الإنقاذ الذهبية | Golden Rescue Rules</h4>
+    <ul>
+        <li><strong>القاعدة 1:</strong> لا تكرر نفس الفئة الدوائية خلال <strong>6 ساعات</strong> | Do not repeat the same drug class within 6 hours</li>
+        <li><strong>القاعدة 2:</strong> عالج مبكرًا—الغثيان أسهل من القيء المتكرر | Treat early—nausea is easier than recurrent vomiting</li>
+        <li><strong>القاعدة 3:</strong> قيّم السبب الثانوي دائمًا:
+            <ul>
+                <li>ألم غير مسيطر عليه؟ | Uncontrolled pain?</li>
+                <li>هبوط ضغط؟ | Hypotension?</li>
+                <li>دوخة/دوار؟ | Dizziness/vertigo?</li>
+                <li>نزف/انسداد معوي؟ | Bleeding/bowel obstruction?</li>
+            </ul>
+        </li>
+        <li><strong>القاعدة 4:</strong> إذا تكرر القيء رغم خطين من العلاج—فكر في <strong>سلامة مجرى الهواء</strong> قبل الراحة | If vomiting persists despite two lines—think airway safety before comfort</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>صندوق 23.7 — قواعد إنقاذ PONV (محدّثة 2020) | PONV Rescue Rules (Updated 2020)</h3>
+        <ul>
+            <li><strong>عالج مبكرًا:</strong> الغثيان أسهل من القيء | <strong>Treat early:</strong> Nausea is easier than vomiting</li>
+            <li><strong>بدّل الفئة:</strong> لا تكرر نفس الفئة خلال 6 ساعات | <strong>Switch class:</strong> Do not repeat same class within 6 hours</li>
+            <li><strong>ابحث عن السبب:</strong> ألم، ضغط، نزف، انسداد | <strong>Find the cause:</strong> Pain, BP, bleeding, obstruction</li>
+            <li><strong>إذا تكرر القيء:</strong> حماية المجرى الهوائي أولاً | <strong>If vomiting persists:</strong> Airway protection first</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>23.9 عدم الاستقرار الدوري الدموي في PACU: اقرأ "النمط" لا الرقم | Hemodynamic Instability in PACU: Read the "Pattern" Not the Number</h2>
+    <p>في <span class="english-term">PACU</span> قد ترى: هبوط ضغط، ارتفاع ضغط، تسرع/بطء قلب، اضطراب نظم.<br>
+    أنا أدرّب نفسي وفريقي على سؤالٍ واحد قبل الدواء: هل هذا عرض… أم إنذار لسبب أكبر؟</p>
+
+    <h3>23.9.1 هبوط الضغط: خريطة سريعة</h3>
+    <ul>
+        <li>تأكد من القياس (كفّة/وضعية).</li>
+        <li>ابحث عن نزف (جرح/درنقة/ضغط/لون).</li>
+        <li>راجع سوائل/فقدان دم تقديري <span class="english-term">(EBL)</span>.</li>
+        <li>فكر في تأثير تخدير/بلوك/توسع وعائي.</li>
+        <li>عالج حسب الفيزيولوجيا: سوائل إن كان نقص حجم، ضاغط إن كان توسع وعائي، وتصعيد عاجل إن اشتبهت نزفًا.</li>
+    </ul>
+
+    <div class="concept-box">
+        <h3>صندوق 23.8 — قائمة هبوط الضغط في PACU | Hypotension Checklist in PACU</h3>
+        <p>تأكيد ← نزف؟ ← أدوية/بلوك؟ ← حجم أم توسع؟ ← علاج ← تصعيد مبكر.</p>
+    </div>
+
+    <h3>23.9.2 ارتفاع الضغط وتسرع القلب</h3>
+    <p>غالبًا: ألم، رجفة، نقص أكسجة/فرط <span class="english-term">CO₂</span>، امتلاء مثانة، هياج.<br>
+    العلاج يبدأ بـ علاج السبب ثم دواء الضغط إن بقي خطرًا.</p>
+
+    <h3>23.9.3 اضطرابات النظم</h3>
+    <ul>
+        <li>صحح الأكسجة/التهوية أولًا.</li>
+        <li>راجع الحرارة/الألم/الشوارد.</li>
+        <li>غير مستقر؟ اتبع مسار الطوارئ واستدعِ مبكرًا.</li>
+    </ul>
+
+    <div class="divider">***</div>
+
+    <h2>23.10 الحرارة والرجفة: عامل يُشعل الألم والضغط واستهلاك الأكسجين | Hypothermia and Shivering: A Factor That Ignites Pain, Pressure, and Oxygen Consumption</h2>
+    <p>الرجفة ليست "تفصيلًا". هي عبء أكسجيني وقد ترفع الضغط والنبض وتزيد الألم.<br>
+    أعتبر التدفئة في <span class="english-term">PACU</span> تدخل سلامة وليس رفاهية.</p>
+
+    <div class="success-box">
+        <h3>صندوق 23.9 — قاعدة تدفئة الإفاقة | PACU Warming Rule</h3>
+        <p>مريض بارد أو يرتجف = عالج بنشاط: تدفئة + تقييم سبب + خطة ألم مناسبة.</p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>23.11 الهياج/الهذيان: خطر على مجرى الهواء والخطوط والسقوط | Agitation/Delirium: Risk to Airway, Lines, and Falls</h2>
+    <p>في الإفاقة، الهياج قد يخلع قثطرة، ينزع أكسجين، أو يسقط من السرير.<br>
+    خريطتي:</p>
+    <ul>
+        <li>أكسجة/تهوية (نقص الأكسجة وفرط <span class="english-term">CO₂</span> أولًا).</li>
+        <li>ألم.</li>
+        <li>بيئة هادئة + إعادة توجيه.</li>
+        <li>دواء فقط عند الضرورة ومع مراقبة.</li>
+    </ul>
+
+    <div class="divider">***</div>
+
+    <h2>23.12 قرار الخروج من PACU: معايير ثابتة لا مجاملات | PACU Discharge Decision: Fixed Criteria, No Compliments</h2>
+    <p>الخروج من <span class="english-term">PACU</span> هو "قرار سلامة".<br>
+    الأنظمة تستخدم مقاييس مثل ألدريت المعدل <span class="english-term">(Modified Aldrete)</span> لتقييم جاهزية الخروج عبر مجالات: نشاط/تنفس/دورة/وعي/أكسجة. (<span class="english-term">PMC</span>)<br>
+    كما تُستخدم معايير خروج بعد التخدير اليومي (المسار السريع <span class="english-term">Fast-tracking</span>) ومعايير مثل نظام تسجيل الخروج بعد التخدير <span class="english-term">(PADSS)</span> في بعض السياقات. (<span class="english-term">European PMC</span>)</p>
+
+    <h3>23.12.1 "قواعد الإيقاف" قبل الخروج (Stop Rules)</h3>
+    <p>لا أوافق على خروج مريض إذا:</p>
+    <ul>
+        <li>حدثت لديه نوبات انسداد/تثبيط تنفس متكررة.</li>
+        <li>احتياجه للأكسجين يزداد بدل أن يقل.</li>
+        <li>ضغطه غير مستقر أو هناك شك نزف.</li>
+        <li><span class="english-term">PONV</span> غير مسيطر عليه مع خطر شفط.</li>
+        <li>مستوى الوعي غير ثابت أو يغلب عليه النعاس الخطر.</li>
+    </ul>
+
+    <div class="concept-box">
+        <h3>صندوق 23.10 — قاعدة الخروج الذهبية | Golden Discharge Rule</h3>
+        <p>لا يخرج المريض لأن "الوقت تأخر"… يخرج لأن مجرى الهواء والتنفس والدورة الدموية <span class="english-term">(ABC)</span> + الوعي + الأعراض أصبحت مستقرة ومُوثّقة.</p>
+    </div>
+
+<!-- Illustration 3: PACU Discharge Criteria (Modified Aldrete Score) -->
+<div class="illustration-container" style="margin: 30px 0; padding: 25px; background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-radius: 12px; border-left: 6px solid #16a34a;">
+    <h4 style="color: #14532d; margin-top: 0; font-size: 22px; text-align: center; margin-bottom: 25px;">
+        ✅ معايير الخروج من PACU | PACU Discharge Criteria (Modified Aldrete)
+    </h4>
+    
+    <table style="width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <thead>
+            <tr style="background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);">
+                <th style="padding: 15px; color: white; text-align: right; border: none; width: 30%;">المعيار | Criterion</th>
+                <th style="padding: 15px; color: white; text-align: center; border: none; width: 15%;">0 نقطة</th>
+                <th style="padding: 15px; color: white; text-align: center; border: none; width: 15%;">1 نقطة</th>
+                <th style="padding: 15px; color: white; text-align: center; border: none; width: 15%;">2 نقطة</th>
+                <th style="padding: 15px; color: white; text-align: center; border: none; width: 25%;">الحد الأدنى</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background: #f8fafc;">
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>🫁 التنفس</strong><br><small>Respiration</small></td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">توقف تنفس</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">محدود<br>ضيق</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px; background: #dcfce7; font-weight: bold;">تنفس عميق<br>سعال</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #16a34a;">≥ 2</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>💨 الأكسجة</strong><br><small>O₂ Saturation</small></td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">< 90%</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">90-94%<br>مع O₂</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px; background: #dcfce7; font-weight: bold;">> 94%<br>هواء غرفة</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #16a34a;">≥ 2</td>
+            </tr>
+            <tr style="background: #f8fafc;">
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>❤️ الدورة الدموية</strong><br><small>Circulation</small></td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">±50 mmHg</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">20-50 mmHg</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px; background: #dcfce7; font-weight: bold;">±20 mmHg<br>baseline</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #16a34a;">≥ 1</td>
+            </tr>
+            <tr>
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>🧠 الوعي</strong><br><small>Consciousness</small></td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">لا يستجيب</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">يستجيب<br>للنداء</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px; background: #dcfce7; font-weight: bold;">متنبه<br>واعٍ تماماً</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #16a34a;">≥ 2</td>
+            </tr>
+            <tr style="background: #f8fafc;">
+                <td style="padding: 12px; border: 1px solid #e2e8f0;"><strong>💪 الحركة</strong><br><small>Activity</small></td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">لا حركة</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px;">2 أطراف</td>
+                <td style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-size: 13px; background: #dcfce7; font-weight: bold;">4 أطراف<br>بحرية</td>
+                <td style="padding: 12px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #16a34a;">≥ 1</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div style="margin-top: 20px; padding: 20px; background: white; border-radius: 8px; border: 2px solid #16a34a;">
+        <div style="text-align: center; margin-bottom: 15px;">
+            <span style="font-size: 24px; font-weight: bold; color: #16a34a;">المجموع الأدنى للخروج الآمن: ≥ 9/10</span>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px;">
+            <div style="padding: 12px; background: #dcfce7; border-radius: 6px;">
+                <strong style="color: #14532d;">✓ شروط إضافية:</strong><br>
+                • لا نزيف نشط<br>
+                • ألم مسيطر عليه (NRS < 4)<br>
+                • لا غثيان/قيء حاد
+            </div>
+            <div style="padding: 12px; background: #fee2e2; border-radius: 6px;">
+                <strong style="color: #7f1d1d;">✗ موانع الخروج:</strong><br>
+                • أي علامة حمراء نشطة<br>
+                • حاجة لأكسجين > 4 L/min<br>
+                • عدم استقرار دوري
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="divider">***</div>
+
+    <h2>23.13 التوثيق والتتبّع: (CBAHI) لا يعني أوراقًا… بل يعني "قابلية التعلّم" | Documentation and Tracking: (CBAHI) Does Not Mean Papers... It Means "Learnability"</h2>
+    <p>توثيق <span class="english-term">PACU</span> الذي أريده ليس رواية طويلة، بل "سجل سلامة" يجيب بسرعة:</p>
+    <ul>
+        <li>كيف دخل المريض؟</li>
+        <li>ماذا راقبنا؟</li>
+        <li>ماذا حدث؟ ومتى؟</li>
+        <li>ماذا فعلنا؟ وما الاستجابة؟</li>
+        <li>لماذا خرج؟ وعلى أي معيار؟</li>
+    </ul>
+
+    <div class="divider">***</div>
+
+    <h2>23.14 مؤشرات PACU: كيف أقيس سلامتي بدل أن أتمنى | PACU Metrics: How I Measure My Safety Instead of Wishing</h2>
+    <p><strong>مؤشرات عملية (لوحة معلومات <span class="english-term">Dashboard</span>):</strong></p>
+    <ul>
+        <li>حوادث إنقاذ تنفسي/100 مريض.</li>
+        <li>استخدام نالوكسون/100 مريض.</li>
+        <li>تحويل غير مخطط للعناية الحرجة من <span class="english-term">PACU</span>.</li>
+        <li><span class="english-term">PONV</span> مقاوم/100 مريض.</li>
+        <li>هبوط ضغط احتاج ضاغط/100 مريض.</li>
+        <li>اكتمال التوثيق %.</li>
+        <li>"أحداث <span class="english-term">OSA</span>" المتكررة ومعايير التنويم.</li>
+    </ul>
+
+    <div class="success-box">
+        <h3>صندوق 23.11 — اجتماع السلامة الشهري في PACU (15 دقيقة) | Monthly PACU Safety Meeting (15 mins)</h3>
+        <ul>
+            <li>3 أحداث/قرب-حدث <span class="english-term">(Near-miss)</span>.</li>
+            <li>ما الذي كشفها مبكرًا؟</li>
+            <li>ما الذي تأخر؟</li>
+            <li>إجراء واحد للتحسين + مالك + موعد.</li>
+        </ul>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>23.16 إدارة الألم في PACU: التوازن بين الفعالية والسلامة | Pain Management in PACU: Balancing Efficacy and Safety</h2>
+    <p>إدارة الألم في <span class="english-term">PACU</span> ليست مجرد "إعطاء مسكن"—بل هي <strong>توازن دقيق</strong> بين التسكين الفعال ومنع التثبيط التنفسي.</p>
+
+    <div class="alert-box">
+        <h4>الدليل المرجعي | Evidence Base</h4>
+        <ul>
+            <li><strong>مراجعة Chou et al. (2016)</strong> في <span class="english-term">Annals of Internal Medicine</span> أكدت أن التسكين متعدد الوسائط يقلل استهلاك الأفيون بنسبة <strong>20-50%</strong>.</li>
+            <li><strong>إرشادات American Pain Society</strong> توصي بمسارات منظمة حسب نوع الجراحة وشدة الألم المتوقع.</li>
+            <li><strong>Chou R, Gordon DB, de Leon-Casasola OA, et al.</strong> "Management of Postoperative Pain: A Clinical Practice Guideline From the American Pain Society." <em>Ann Intern Med</em>. 2016;165(1):73-74.</li>
+        </ul>
+    </div>
+
+    <h3>23.16.1 مبادئ التسكين متعدد الوسائط | Principles of Multimodal Analgesia</h3>
+    <p><strong>الفلسفة الأساسية:</strong> استخدام أدوية من فئات مختلفة لتحقيق تسكين فعال مع تقليل الأفيون—ومعه تقليل التثبيط التنفسي والـ <span class="english-term">PONV</span> والهذيان.</p>
+
+    <div class="concept-box">
+        <h4>الطبقات الثلاث للتسكين متعدد الوسائط | Three Layers of Multimodal Analgesia</h4>
+        <ol>
+            <li><strong>الطبقة الأساسية (Base Layer):</strong>
+                <ul>
+                    <li><span class="english-term">Acetaminophen</span> 1 g IV/PO (كل 6 ساعات) | Acetaminophen 1 g IV/PO every 6 hours</li>
+                    <li><span class="english-term">Ketorolac</span> 15-30 mg IV أو <span class="english-term">Ibuprofen</span> 400-600 mg PO (إن لم يمنع) | Ketorolac 15-30 mg IV or Ibuprofen 400-600 mg PO (if not contraindicated)</li>
+                </ul>
+            </li>
+            <li><strong>الطبقة الإقليمية (Regional Layer):</strong>
+                <ul>
+                    <li>حصر عصبي إقليمي <span class="english-term">(Regional nerve block)</span> أو ارتشاح موضعي | Regional nerve block or local infiltration</li>
+                    <li>قثطرة فوق الجافية <span class="english-term">(Epidural catheter)</span> للجراحات الكبرى | Epidural catheter for major surgeries</li>
+                </ul>
+            </li>
+            <li><strong>الطبقة الإنقاذية (Rescue Layer):</strong>
+                <ul>
+                    <li>أفيونات بجرعات معايرة (ليس تكديس) | Opioids in titrated doses (not stacking)</li>
+                    <li>أدوية مساعدة: <span class="english-term">Ketamine, Gabapentinoids</span> للحالات الصعبة | Adjuvants: Ketamine, Gabapentinoids for difficult cases</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <h3>23.16.2 المسارات الثلاثة حسب شدة الألم | Three Pathways by Pain Severity</h3>
+
+    <div class="concept-box">
+        <table style="width: 100%; margin: 15px 0;">
+            <thead>
+                <tr>
+                    <th style="text-align: right; width: 20%;">المسار<br>Pathway</th>
+                    <th style="text-align: right; width: 25%;">نوع الجراحة<br>Surgery Type</th>
+                    <th style="text-align: right; width: 30%;">الأدوية الأساسية<br>Core Medications</th>
+                    <th style="text-align: right; width: 25%;">الإنقاذ<br>Rescue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <strong style="color: #16a34a;">🟢 المسار البسيط</strong><br>
+                        <span class="english-term">Simple Pathway</span><br>
+                        ألم خفيف (<span class="english-term">NRS 1-3</span>)
+                    </td>
+                    <td>
+                        • جراحة صغرى<br>
+                        • منظار بطن<br>
+                        • جراحة سطحية<br>
+                        <em>Minor surgery, laparoscopy, superficial</em>
+                    </td>
+                    <td>
+                        <strong>Acetaminophen 1 g</strong> IV/PO<br>
+                        + <strong>Ketorolac 15-30 mg</strong> IV<br>
+                        (أو <span class="english-term">Ibuprofen</span> 400-600 mg PO)
+                    </td>
+                    <td>
+                        <strong>Tramadol 50-100 mg</strong> IV/PO<br>
+                        أو <strong>Morphine 2-4 mg</strong> IV<br>
+                        (جرعات صغيرة)<br>
+                        <em>Small doses</em>
+                    </td>
+                </tr>
+                <tr style="background: #fef3c7;">
+                    <td>
+                        <strong style="color: #f59e0b;">🟡 المسار المتوسط</strong><br>
+                        <span class="english-term">Moderate Pathway</span><br>
+                        ألم متوسط (<span class="english-term">NRS 4-6</span>)
+                    </td>
+                    <td>
+                        • جراحة بطن مفتوحة<br>
+                        • جراحة عظام<br>
+                        • بضع صدر<br>
+                        <em>Open abdominal, orthopedic, thoracotomy</em>
+                    </td>
+                    <td>
+                        كل ما في المسار البسيط<br>
+                        + <strong>Nerve block</strong> إقليمي<br>
+                        + <strong>Tramadol</strong> 50-100 mg<br>
+                        (بدل أفيون قوي مباشرة)
+                    </td>
+                    <td>
+                        <strong>Morphine 2-5 mg</strong> IV<br>
+                        أو <strong>Fentanyl 25-50 mcg</strong> IV<br>
+                        معاير كل 5-10 دقائق<br>
+                        <em>Titrated every 5-10 min</em>
+                    </td>
+                </tr>
+                <tr style="background: #fee2e2;">
+                    <td>
+                        <strong style="color: #dc2626;">🔴 المسار المعقد</strong><br>
+                        <span class="english-term">Complex Pathway</span><br>
+                        ألم شديد (<span class="english-term">NRS 7-10</span>)
+                    </td>
+                    <td>
+                        • جراحة كبرى<br>
+                        • جراحة قلب/صدر<br>
+                        • جراحة عمود فقري<br>
+                        <em>Major surgery, cardiac, spine</em>
+                    </td>
+                    <td>
+                        كل ما سبق<br>
+                        + <strong>PCA</strong> (Morphine/Fentanyl)<br>
+                        + <strong>Epidural catheter</strong><br>
+                        + أدوية مساعدة عند الحاجة
+                    </td>
+                    <td>
+                        • <strong>Ketamine</strong> 0.1-0.2 mg/kg IV<br>
+                        • <strong>Lidocaine infusion</strong> (إن مناسب)<br>
+                        • استشارة فريق الألم<br>
+                        <em>Pain team consultation</em>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>23.16.3 "محفزات التصعيد" في إدارة الألم | "Escalation Triggers" in Pain Management</h3>
+    <p><strong>متى أتصل بطبيب التخدير/فريق الألم فورًا؟</strong></p>
+
+    <div class="alert-box">
+        <h4>محفزات الاستدعاء الفوري | Immediate Call Triggers</h4>
+        <ul>
+            <li>ألم <span class="english-term">NRS > 7</span> رغم <strong>جرعتين إنقاذ</strong> من الأفيون | Pain NRS > 7 despite two opioid rescue doses</li>
+            <li>ظهور <strong>تثبيط تنفسي</strong> (<span class="english-term">RR < 8</span>, <span class="english-term">SpO₂ < 90%</span>) مع أفيونات | Respiratory depression with opioids</li>
+            <li>ألم <strong>خارج نطاق المتوقع</strong> (قد يعني نزف/متلازمة حيز) | Pain beyond expected range (may indicate bleeding/compartment syndrome)</li>
+            <li>تأثيرات جانبية شديدة:
+                <ul>
+                    <li>حكة شديدة/هياج | Severe itching/agitation</li>
+                    <li>قيء مستمر رغم العلاج | Persistent vomiting despite treatment</li>
+                    <li>هبوط ضغط مع أفيونات نخاعية | Hypotension with neuraxial opioids</li>
+                </ul>
+            </li>
+            <li>مريض لديه <strong>تاريخ استخدام أفيون مزمن</strong> (يحتاج جرعات أعلى) | History of chronic opioid use (needs higher doses)</li>
+        </ul>
+    </div>
+
+    <h3>23.16.4 مراقبة السلامة مع الأفيونات | Safety Monitoring with Opioids</h3>
+    
+    <div class="concept-box">
+        <h4>البروتوكول الثلاثي للأمان | Triple Safety Protocol</h4>
+        <table style="width: 100%; margin: 15px 0;">
+            <thead>
+                <tr>
+                    <th style="text-align: right;">المعيار | Parameter</th>
+                    <th style="text-align: right;">التردد | Frequency</th>
+                    <th style="text-align: right;">حد الإنذار | Alert Threshold</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>التنفس</strong> (<span class="english-term">RR</span>)</td>
+                    <td>كل 5-15 دقيقة<br>(حسب الخطورة)<br><em>Every 5-15 min</em></td>
+                    <td><span class="english-term">RR < 8</span> أو > 25</td>
+                </tr>
+                <tr style="background: #f8fafc;">
+                    <td><strong>التهدئة</strong> (<span class="english-term">POSS</span>)</td>
+                    <td>كل 15-30 دقيقة<br><em>Every 15-30 min</em></td>
+                    <td><span class="english-term">POSS ≥ 3</span><br>(نعاس عميق)</td>
+                </tr>
+                <tr>
+                    <td><strong>التأكسج</strong> (<span class="english-term">SpO₂</span>)</td>
+                    <td>مستمر<br><em>Continuous</em></td>
+                    <td><span class="english-term">SpO₂ < 92%</span></td>
+                </tr>
+                <tr style="background: #dcfce7;">
+                    <td colspan="3">
+                        <strong>القاعدة الذهبية:</strong> إذا ارتفع <strong>أي</strong> من الإنذارات—أوقف الأفيون مؤقتًا، قيّم، ثم قرر.<br>
+                        <strong>Golden rule:</strong> If any alert triggers—stop opioid temporarily, assess, then decide.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="success-box">
+        <h4>صندوق 23.16 — القاعدة الذهبية لإدارة الألم | The Golden Pain Management Rule</h4>
+        <p><strong>الألم الشديد لا يُبرر تثبيطًا تنفسيًا خطيرًا. إذا احتجت جرعات أفيون عالية—صعّد المراقبة أولاً.</strong></p>
+        <p><strong>Severe pain does not justify dangerous respiratory depression. If you need high opioid doses—escalate monitoring first.</strong></p>
+    </div>
+
+    <div class="divider">***</div>
+
+    <h2>23.15 أدوات نهاية الفصل | End-of-Chapter Tools</h2>
+
+    <h3>23.15.1 "فحص الإفاقة السريع" | "Quick PACU Scan" (For Policy)</h3>
+    <ul>
+        <li>مجرى الهواء مفتوح؟ نمط التنفس؟</li>
+        <li>موجة <span class="english-term">SpO₂</span> واضحة؟</li>
+        <li>مستوى الوعي/النعاس وفق مقياس ثابت (مثل <span class="english-term">POSS</span>) (<span class="english-term">qualityhealthnd.org</span>).</li>
+        <li>ألم + غثيان.</li>
+        <li>ضغط/نبض واتجاهات.</li>
+        <li>حرارة/رجفة.</li>
+        <li>مراجعة مخاطر: <span class="english-term">OSA</span>، أفيونات عالية، حصر عضلي، نزف محتمل.</li>
+        <li>خطة تصعيد مكتوبة: من أتصل؟ متى؟ وإلى أين أنقل؟</li>
+    </ul>
+
+    <h3>23.15.2 أسئلة انعكاسية (لاجتماع القسم) | Reflection Questions (For Department Meeting)</h3>
+    <ul>
+        <li>هل نعامل تثبيط التنفس كحدث سلامة له محفزات تصعيد واضحة؟ (<span class="english-term">ResearchGate</span>)</li>
+        <li>هل مرضى <span class="english-term">OSA</span> لديهم مسار موحد (وضعية/CPAP/مراقبة/تنويم)؟ (<span class="english-term">Centre for Perioperative Care</span>)</li>
+        <li>هل الوقاية من <span class="english-term">PONV</span> تُبنى على المخاطر (أبفل <span class="english-term">Apfel</span>) وتُنفذ كحزمة؟ (<span class="english-term">ashp.org</span>)</li>
+        <li>هل الخروج من <span class="english-term">PACU</span> محكوم بمعايير ثابتة (ألدريت المعدل/نظام تسجيل الخروج بعد التخدير <span class="english-term">Modified Aldrete/PADSS</span>)؟ (<span class="english-term">PMC</span>)</li>
+        <li>هل لدينا لوحة معلومات <span class="english-term">Dashboard</span> بسيطة وتغذية راجعة شهرية؟</li>
+        <li>هل إدارة الألم تتبع نهجًا متعدد الوسائط بدل الاعتماد على الأفيون فقط؟</li>
+    </ul>
+
+    <h3>23.15.3 خارطة طريق تطبيق السلامة في PACU (3-6 أشهر) | PACU Safety Implementation Roadmap (3-6 Months)</h3>
+    <p>التحسين المنظم يبدأ بخطة واضحة ومؤشرات قابلة للقياس. هذه الخارطة تساعدك على بناء <span class="english-term">PACU</span> آمن خلال 3-6 أشهر.</p>
+
+    <div class="concept-box">
+        <table style="width: 100%; margin: 15px 0;">
+            <thead>
+                <tr>
+                    <th style="text-align: right; width: 15%;">المرحلة<br>Phase</th>
+                    <th style="text-align: right; width: 35%;">الإجراءات الرئيسية<br>Key Actions</th>
+                    <th style="text-align: right; width: 30%;">المؤشرات<br>Metrics</th>
+                    <th style="text-align: right; width: 20%;">المدة والمسؤول<br>Duration & Owner</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background: #dbeafe;">
+                    <td>
+                        <strong>الشهر 1</strong><br>
+                        <span class="english-term">Month 1</span><br>
+                        <strong>التأسيس</strong><br>
+                        Foundation
+                    </td>
+                    <td>
+                        • تدريب الفريق على <span class="english-term">POSS</span> ومحفزات التصعيد<br>
+                        • إنشاء قوائم فحص الخمس دقائق الأولى<br>
+                        • توحيد معايير الخروج (<span class="english-term">Aldrete</span>)<br>
+                        • تحديد محفزات الاستدعاء الفوري<br>
+                        <em>Train on POSS, create first-5-min checklists, standardize discharge criteria, define call triggers</em>
+                    </td>
+                    <td>
+                        • نسبة التدريب > <strong>90%</strong><br>
+                        • اكتمال التوثيق > <strong>95%</strong><br>
+                        • استخدام <span class="english-term">POSS</span> × كل مريض<br>
+                        <em>Training rate > 90%, documentation > 95%, POSS usage × every patient</em>
+                    </td>
+                    <td>
+                        <strong>4 أسابيع</strong><br>
+                        رئيس التمريض<br>
+                        + طبيب التخدير الرئيسي<br>
+                        <em>4 weeks: Nursing head + Chief anesthesiologist</em>
+                    </td>
+                </tr>
+                <tr style="background: #fef3c7;">
+                    <td>
+                        <strong>الشهر 2</strong><br>
+                        <span class="english-term">Month 2</span><br>
+                        <strong>البروتوكولات</strong><br>
+                        Protocols
+                    </td>
+                    <td>
+                        • تطبيق بروتوكول <span class="english-term">OSA</span> (فرز + <span class="english-term">CPAP</span>)<br>
+                        • إضافة الكابنوغرافي لمرضى الخطورة العالية<br>
+                        • تحديث مسار <span class="english-term">PONV Rescue</span><br>
+                        • بروتوكول التسكين متعدد الوسائط<br>
+                        <em>Implement OSA protocol, add capnography for high-risk, update PONV rescue, multimodal pain protocol</em>
+                    </td>
+                    <td>
+                        • عدد حالات <span class="english-term">OSA</span> المراقبة<br>
+                        • معدل استخدام الكابنوغرافي<br>
+                        • معدل <span class="english-term">PONV</span> المقاوم < <strong>5%</strong><br>
+                        <em>OSA cases monitored, capnography usage, resistant PONV < 5%</em>
+                    </td>
+                    <td>
+                        <strong>4 أسابيع</strong><br>
+                        فريق السلامة<br>
+                        + صيدلي إكلينيكي<br>
+                        <em>4 weeks: Safety team + Clinical pharmacist</em>
+                    </td>
+                </tr>
+                <tr style="background: #dcfce7;">
+                    <td>
+                        <strong>الشهر 3</strong><br>
+                        <span class="english-term">Month 3</span><br>
+                        <strong>القياس</strong><br>
+                        Measurement
+                    </td>
+                    <td>
+                        • إطلاق لوحة معلومات <span class="english-term">Dashboard</span> شهرية<br>
+                        • مراجعة الأحداث التنفسية/100 مريض<br>
+                        • تدقيق معايير الخروج<br>
+                        • جلسات التغذية الراجعة<br>
+                        <em>Launch monthly dashboard, review respiratory events/100, audit discharge, feedback sessions</em>
+                    </td>
+                    <td>
+                        • <span class="english-term">Dashboard</span> نشط شهريًا<br>
+                        • حوادث إنقاذ تنفسي < <strong>2/100</strong><br>
+                        • تحويل غير مخطط < <strong>1%</strong><br>
+                        <em>Monthly active dashboard, respiratory rescue < 2/100, unplanned transfer < 1%</em>
+                    </td>
+                    <td>
+                        <strong>4 أسابيع</strong><br>
+                        مدير الجودة<br>
+                        + فريق السلامة<br>
+                        <em>4 weeks: Quality manager + Safety team</em>
+                    </td>
+                </tr>
+                <tr style="background: #fce7f3;">
+                    <td>
+                        <strong>الأشهر 4-6</strong><br>
+                        <span class="english-term">Months 4-6</span><br>
+                        <strong>التحسين المستمر</strong><br>
+                        Continuous Improvement
+                    </td>
+                    <td>
+                        • تحليل الاتجاهات ربع السنوية<br>
+                        • تحديث البروتوكولات حسب البيانات<br>
+                        • محاكاة الحالات الصعبة<br>
+                        • نشر أفضل الممارسات<br>
+                        <em>Quarterly trend analysis, update protocols per data, simulate difficult cases, disseminate best practices</em>
+                    </td>
+                    <td>
+                        • اجتماعات سلامة منتظمة<br>
+                        • معدل رضا الموظفين<br>
+                        • استدامة المؤشرات<br>
+                        • صفر حوادث خطيرة<br>
+                        <em>Regular safety meetings, staff satisfaction, sustained metrics, zero serious events</em>
+                    </td>
+                    <td>
+                        <strong>8-12 أسبوع</strong><br>
+                        فريق متعدد التخصصات<br>
+                        + إدارة عليا<br>
+                        <em>8-12 weeks: Multidisciplinary team + Senior management</em>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="success-box">
+        <h4>نصائح التطبيق الناجح | Tips for Successful Implementation</h4>
+        <ul>
+            <li><strong>ابدأ بسيط:</strong> لا تحاول تطبيق كل شيء دفعة واحدة—خطوة واحدة كل شهر | <strong>Start simple:</strong> Don't try everything at once—one step per month</li>
+            <li><strong>قِس دائمًا:</strong> ما لا يُقاس لا يُحسّن | <strong>Always measure:</strong> What isn't measured isn't improved</li>
+            <li><strong>أشرك الجميع:</strong> النجاح يحتاج تمريض + أطباء + إدارة | <strong>Engage everyone:</strong> Success needs nurses + doctors + management</li>
+            <li><strong>احتفل بالنجاحات:</strong> كل انخفاض في الحوادث إنجاز يُذكر | <strong>Celebrate wins:</strong> Every decrease in events is an achievement</li>
+        </ul>
+    </div>
+
+    <div class="success-box">
+        <h3>خلاصة الفصل (نقاط تُحمل للفصول التالية) | Chapter Summary</h3>
+        <ul>
+            <li><span class="english-term">PACU</span> هو "منطقة انتقال عالية الخطورة"؛ الأحداث الكبرى تسبقها إشارات صغيرة. | <strong>PACU is a "high-risk transition zone"—major events are preceded by small signals.</strong></li>
+            
+            <li><strong>الكابنوغرافي</strong> يكشف نقص التهوية أسرع من <span class="english-term">SpO₂</span> بـ <strong>60-90 ثانية</strong>—ويجب استخدامه لمرضى الخطورة العالية (<span class="english-term">OSA</span>، <span class="english-term">PCA</span>، أفيونات نخاعية). (<span class="english-term">Kodali & Urman, 2014</span>) | <strong>Capnography detects hypoventilation 60-90 seconds faster than SpO₂—mandatory for high-risk patients.</strong></li>
+            
+            <li>أخطر مضاعفات <span class="english-term">PACU</span>: تنفسية—انسداد، نقص تهوية، تثبيط بالأفيونات، وبقايا الحصر العضلي. (<span class="english-term">ResearchGate</span>) | <strong>Most dangerous PACU complications are respiratory—obstruction, hypoventilation, opioid depression, residual block.</strong></li>
+            
+            <li><strong><span class="english-term">CPAP</span> المبكر</strong> لمرضى <span class="english-term">OSA</span> قلل حوادث نقص الأكسجة بنسبة <strong>73%</strong>—مع بروتوكول تصعيد واضح (5→8→12 <span class="english-term">cmH₂O</span>). (<span class="english-term">Liao et al., 2013</span>) | <strong>Early CPAP for OSA reduced hypoxemia events by 73%—with clear escalation protocol.</strong></li>
+            
+            <li><strong>مسار إنقاذ <span class="english-term">PONV</span> المحدث (2020)</strong>: استخدام فئات دوائية مختلفة، لا تكرار نفس الفئة خلال 6 ساعات، وإذا فشل خطان—حماية المجرى الهوائي أولاً. (<span class="english-term">Gan et al., 2020</span>) | <strong>Updated PONV rescue (2020): Switch drug classes, no repeat within 6 hours, if two lines fail—airway protection first.</strong></li>
+            
+            <li><strong>التسكين متعدد الوسائط</strong> يقلل استهلاك الأفيون بنسبة <strong>20-50%</strong>—ومعه تقليل التثبيط التنفسي والـ <span class="english-term">PONV</span>. (<span class="english-term">Chou et al., 2016</span>) | <strong>Multimodal analgesia reduces opioid consumption by 20-50%—reducing respiratory depression and PONV.</strong></li>
+            
+            <li>قرار الخروج من <span class="english-term">PACU</span> قرار سلامة—يجب أن يكون موثقًا بمعيار (<span class="english-term">Aldrete ≥ 9</span>) وليس "لأن الوقت تأخر". (<span class="english-term">PMC</span>) | <strong>PACU discharge is a safety decision—documented by criteria (Aldrete ≥ 9), not "because it's late".</strong></li>
+            
+            <li><strong>خارطة طريق التطبيق (3-6 أشهر)</strong>: تدريب → بروتوكولات → قياس → تحسين مستمر، مع مؤشرات واضحة لكل مرحلة. | <strong>Implementation roadmap (3-6 months): Training → Protocols → Measurement → Continuous improvement, with clear metrics per phase.</strong></li>
+        </ul>
+    </div>
+
+    <div class="scene-box">
+        <span class="scene-title">قصة ختامية: حين عمل الفريق كأوركسترا واحدة | Closing Story: When the Team Worked as One Orchestra</span>
+        <p>كانت ليلة عادية في <span class="english-term">PACU</span>… حتى دخل المريض من السرير رقم 4.</p>
+        
+        <p>رجل في السبعينات، بعد جراحة بطن كبرى، <span class="english-term">BMI 38</span>، <span class="english-term">OSA</span> غير مشخص سابقًا (لكن <span class="english-term">STOP-BANG</span> كان 7)، وعلى <span class="english-term">PCA morphine</span>.</p>
+        
+        <p><strong>الدقيقة الأولى:</strong> ممرضة <span class="english-term">PACU</span> رأت <span class="english-term">ETCO₂</span> يرتفع إلى 48 mmHg على شاشة الكابنوغرافي—ونادت فورًا: "نحتاج دعم، سرير 4!"</p>
+        
+        <p><strong>الدقيقة الثانية:</strong> فني التخدير أحضر <span class="english-term">CPAP</span> من عربة الطوارئ، بينما ممرضة أخرى أعدّت كيس الإنقاذ + أكسجين، والممرضة الأولى حفّزت المريض ورفعت رأس السرير 45 درجة.</p>
+        
+        <p><strong>الدقيقة الثالثة:</strong> وصل طبيب التخدير، قيّم سريعًا: "انسداد متكرر + <span class="english-term">ETCO₂</span> مرتفع + <span class="english-term">OSA</span> محتمل—نبدأ <span class="english-term">CPAP</span> فورًا." الفني ركّب الجهاز بثوانٍ.</p>
+        
+        <p><strong>الدقيقة الخامسة:</strong> المريض على <span class="english-term">CPAP 8 cmH₂O</span>، <span class="english-term">SpO₂</span> عاد إلى 95%، <span class="english-term">ETCO₂</span> انخفض إلى 42 mmHg، الشخير توقف، والموجة على الكابنوغرافي عادت طبيعية.</p>
+        
+        <p><strong>ما الذي جعل الفرق؟</strong></p>
+        <ul>
+            <li><strong>الكابنوغرافي</strong> كشف المشكلة قبل <span class="english-term">SpO₂</span> بدقيقتين—وهاتان الدقيقتان أنقذتا دماغًا | <strong>Capnography detected the problem 2 minutes before SpO₂—those 2 minutes saved a brain</strong></li>
+            <li><strong>ممرضات مدربات</strong> عرفن كيف يقرأن الإشارة المبكرة ولم ينتظرن التدهور</li>
+            <li><strong>فني تخدير جاهز</strong> بالمعدات الصحيحة في المكان الصحيح—لا بحث، لا تأخير</li>
+            <li><strong>طبيب تخدير واثق</strong> من فريقه وقراراته—لا تردد، لا انتظار "لنرى"</li>
+            <li><strong>بروتوكول موحد</strong> جعل الجميع يعرف دوره بدقة—لا ارتباك، لا اجتهادات فردية</li>
+            <li><strong>ثقة متبادلة</strong> بين الطبيب والتمريض والفني—كل فرد احترم خبرة الآخر</li>
+        </ul>
+        
+        <p>بعد ساعتين، خرج المريض من <span class="english-term">PACU</span> للعناية العادية، مستقر ومرتاح. كان يمكن أن تكون القصة مختلفة تمامًا—نقص أكسجة دماغي، تنويم غير مخطط، تنبيب طارئ، أو أسوأ.</p>
+        
+        <p><strong>لكن الفريق منع ذلك. ليس لأن أحدهم كان "بطلاً"… بل لأن الجميع—طبيب، ممرضات، فني—عملوا كنظام واحد.</strong></p>
+        
+        <p>هذا هو جوهر <span class="english-term">PACU</span> الآمن:<br>
+        <strong>ليس أطباء أو ممرضات أو فنيين أو بروتوكولات منفصلة—بل فريق واحد، بروتوكول موحد، وأداة واحدة (الكابنوغرافي)، وهدف مشترك: كل مريض يستحق أن يخرج بسلام.</strong></p>
+        
+        <p><strong>This is the essence of a safe PACU:</strong><br>
+        Not separate doctors, nurses, technicians, or protocols—but one team, one unified protocol, one tool (capnography), and one shared goal: every patient deserves to leave safely.</p>
+    </div>
+    
+    <div class="concept-box" style="background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%); color: #374151; border: 2px solid #d1d5db; margin-top: 30px;">
+        <h3 style="color: #1f2937; border-bottom: 2px solid #9ca3af; padding-bottom: 10px;">الرسالة الختامية | Closing Message</h3>
+        
+        <p style="font-size: 1.1em; line-height: 1.8;">
+        في كل وردية <span class="english-term">PACU</span>، في كل مريض يدخل من غرفة العمليات، هناك فرصة لإنقاذ حياة أو منع مضاعفة. 
+        <strong>ليس بالبطولات الفردية</strong>—بل بالعمل المنظم، والبروتوكولات الواضحة، والأدوات الصحيحة.
+        </p>
+        
+        <p style="font-size: 1.2em; font-weight: bold; margin: 20px 0; padding: 15px; background: #e5e7eb; border-radius: 8px; color: #1f2937; border-left: 4px solid #6b7280;">
+        الكابنوغرافي ليس رفاهية—إنه خط حياة. | <em>Capnography is not a luxury—it's a lifeline.</em>
+        </p>
+        
+        <p style="font-size: 1.1em; line-height: 1.8;">
+        كل موجة على الشاشة تحكي قصة تنفس المريض. كل رقم <span class="english-term">ETCO₂</span> يحمل إنذارًا مبكرًا. 
+        <strong>60-90 ثانية</strong> تفصل بين الكشف المبكر والتدهور المتأخر—وفي تلك الثواني، يُنقذ الدماغ.
+        </p>
+        
+        <p style="font-size: 1.3em; font-weight: bold; text-align: center; margin: 25px 0; padding: 20px; background: #f9fafb; color: #1f2937; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); border: 2px solid #d1d5db;">
+        استخدمه. ثق به. وأنقذ حياة.<br>
+        <span style="font-size: 0.85em; font-style: italic; color: #6b7280;">Use it. Trust it. Save a life.</span>
+        </p>
+        
+        <p style="font-size: 1.05em; line-height: 1.8; margin-top: 20px;">
+        هذا الفصل ليس مجرد بروتوكولات ومعايير—إنه دعوة لبناء ثقافة سلامة حقيقية في <span class="english-term">PACU</span>:
+        </p>
+        <ul style="font-size: 1.05em; line-height: 1.8;">
+            <li>حيث التمريض <strong>يثق</strong> في حكمهم السريري ولا ينتظر إذنًا ليستدعي المساعدة</li>
+            <li>حيث الأطباء <strong>يحترمون</strong> خبرة الممرضات والفنيين ويستمعون لملاحظاتهم</li>
+            <li>حيث الفنيون <strong>يملكون</strong> معداتهم ويعرفون كل تفاصيلها</li>
+            <li>حيث البروتوكولات <strong>واضحة</strong> للجميع—لا اجتهادات، لا ارتباك</li>
+            <li>حيث كل حدث قريب من الخطر <strong>فرصة للتعلم</strong>، وليس لوم أحد</li>
+        </ul>
+        
+        <p style="font-size: 1.15em; font-weight: bold; margin-top: 25px; text-align: center; line-height: 1.8;">
+        كل مريض يخرج من <span class="english-term">PACU</span> بسلام ليس صدفة—إنه نتيجة نظام يعمل، وفريق يثق، وأدوات تُستخدم بحكمة.
+        </p>
+        
+        <p style="font-size: 1.15em; font-weight: bold; margin-top: 20px; text-align: center; font-style: italic;">
+        Every patient who leaves the PACU safely is not a coincidence—it's the result of a system that works, a team that trusts, and tools used wisely.
+        </p>
+    </div>
+
+    <div class="divider">***</div>
+    <div style="text-align: center; color: #6b7280; margin-top: 20px;">End of Chapter 23</div>
+    
+</div>
+
+
+<!-- ANESTHESIA-COMMENTS-V3 -->
+<style>
+
+  /* COMMENTS SECTION */
+  .comments-section {
+    margin-top: 60px; padding: 30px;
+    background: white; border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 20px rgba(30,58,138,0.06);
+  }
+  .comments-title {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 22px; font-weight: 800; color: #1e3a8a;
+    margin-bottom: 14px;
+    border-bottom: 3px solid #dbeafe; padding-bottom: 14px;
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .comments-title .en-sub {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px; color: #6b7280; font-weight: 400;
+    direction: ltr;
+  }
+  .comments-desc {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #6b7280; margin-bottom: 24px; line-height: 1.6;
+  }
+  .comment-form {
+    background: #f8faff; border-radius: 10px; padding: 24px;
+    margin-bottom: 28px; border: 1px solid #dbeafe;
+  }
+  .form-row { display: flex; gap: 16px; margin-bottom: 16px; }
+  .form-group { flex: 1; }
+  .form-group label {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 13px; font-weight: 600; color: #374151;
+    display: block; margin-bottom: 6px;
+  }
+  .optional { font-weight: 400; color: #9ca3af; font-size: 11px; }
+  .required-mark { color: #ef4444; }
+  .form-group input, .form-group textarea {
+    width: 100%; padding: 10px 14px;
+    border: 1px solid #d1d5db; border-radius: 8px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; color: #374151;
+    background: white; transition: border-color 0.2s;
+    direction: rtl;
+  }
+  .form-group input:focus, .form-group textarea:focus {
+    outline: none; border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+  }
+  .form-group textarea { resize: vertical; min-height: 110px; }
+  .form-actions { align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .rating-group { display: flex; align-items: center; gap: 10px; }
+  .rating-group label { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 13px; color: #374151; white-space: nowrap; }
+  .stars { display: flex; gap: 4px; direction: ltr; }
+  .star { font-size: 24px; color: #d1d5db; cursor: pointer; transition: color 0.1s; line-height: 1; }
+  .star.active { color: #f59e0b; }
+  .submit-btn {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 14px; font-weight: 700;
+    background: #1e3a8a; color: white;
+    border: none; padding: 12px 24px;
+    border-radius: 8px; cursor: pointer;
+    transition: background 0.2s; white-space: nowrap;
+  }
+  .submit-btn:hover { background: #1e40af; }
+  .comments-list { display: flex; flex-direction: column; gap: 16px; }
+  .comment-card {
+    background: white; border: 1px solid #e5e7eb;
+    border-radius: 10px; padding: 18px 20px;
+  }
+  .comment-card.new-comment { border-color: #93c5fd; background: #f0f7ff; }
+  .comment-header {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 12px; flex-wrap: wrap;
+  }
+  .comment-avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: #1e3a8a; color: white;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 16px; font-weight: 700; flex-shrink: 0;
+  }
+  .comment-meta { flex: 1; min-width: 100px; }
+  .comment-name { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; font-weight: 700; color: #1e3a8a; display: block; }
+  .comment-role { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #6b7280; }
+  .comment-stars { color: #f59e0b; font-size: 14px; }
+  .comment-date { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 12px; color: #9ca3af; }
+  .comment-text { font-family: 'Noto Kufi Arabic', sans-serif; font-size: 14px; color: #374151; line-height: 1.7; }
+
+  @media (max-width: 600px) {
+    .form-row { flex-direction: column; }
+    .form-actions { flex-direction: column; }
+    .submit-btn { width: 100%; text-align: center; }
+  }
+
+</style>
+
+<div class="comments-section">
+  <h2 class="comments-title">
+    <span>&#x1F4AC;</span> شاركنا رأيك
+    <span class="en-sub">Share Your Thoughts</span>
+  </h2>
+  <div class="comments-desc">هل لديك تعليق أو سؤال أو ملاحظة حول هذا الفصل؟ نرحب بمشاركتك وآرائك</div>
+
+  <form class="comment-form" onsubmit="submitComment(event)">
+    <div class="form-row">
+      <div class="form-group">
+        <label>الاسم <span class="optional">(اختياري)</span></label>
+        <input type="text" id="cName" placeholder="اكتب اسمك هنا..." />
+      </div>
+      <div class="form-group">
+        <label>التخصص <span class="optional">(اختياري)</span></label>
+        <input type="text" id="cRole" placeholder="طبيب، ممرض، طالب..." />
+      </div>
+    </div>
+    <div class="form-group" style="margin-bottom:16px;">
+      <label>تعليقك <span class="required-mark">*</span></label>
+      <textarea id="cText" rows="5" placeholder="اكتب تعليقك أو سؤالك هنا..."></textarea>
+    </div>
+    <div class="form-row form-actions">
+      <div class="rating-group">
+        <label>تقييم الفصل:</label>
+        <div class="stars" id="starRating">
+          <span class="star" onclick="setRating(1)">&#9733;</span>
+          <span class="star" onclick="setRating(2)">&#9733;</span>
+          <span class="star" onclick="setRating(3)">&#9733;</span>
+          <span class="star" onclick="setRating(4)">&#9733;</span>
+          <span class="star" onclick="setRating(5)">&#9733;</span>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn">&#x2190; إرسال التعليق</button>
+    </div>
+  </form>
+
+  <div id="commentsContainer" class="comments-list"></div>
+</div>
+
+<script>
+  var _rating = 0;
+  function setRating(v) {
+    _rating = v;
+    document.querySelectorAll('.star').forEach(function(s,i){ s.classList.toggle('active', i < v); });
+  }
+  function submitComment(e) {
+    e.preventDefault();
+    var text = document.getElementById('cText').value.trim();
+    if (!text) { alert('الرجاء كتابة تعليقك أولاً'); return; }
+    var name = document.getElementById('cName').value.trim() || 'زائر';
+    var role = document.getElementById('cRole').value.trim();
+    var stars = _rating > 0 ? '&#9733;'.repeat(_rating) + '&#9734;'.repeat(5-_rating) : '&#9733;&#9733;&#9733;&#9733;&#9733;';
+    var colors = ['#1e3a8a','#7c3aed','#059669','#d97706','#dc2626'];
+    var color = colors[Math.floor(Math.random()*colors.length)];
+    var card = document.createElement('div');
+    card.className = 'comment-card new-comment';
+    card.innerHTML =
+      '<div class="comment-header">' +
+        '<div class="comment-avatar" style="background:' + color + '">' + (name[0]||'ز') + '</div>' +
+        '<div class="comment-meta">' +
+          '<span class="comment-name">' + name + '</span>' +
+          (role ? '<span class="comment-role">' + role + '</span>' : '') +
+        '</div>' +
+        '<div class="comment-stars">' + stars + '</div>' +
+        '<span class="comment-date">الآن</span>' +
+      '</div>' +
+      '<p class="comment-text">' + text + '</p>';
+    var container = document.getElementById('commentsContainer');
+    container.prepend(card);
+    e.target.reset();
+    _rating = 0;
+    document.querySelectorAll('.star').forEach(function(s){ s.classList.remove('active'); });
+    card.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+</script>
+
+</body></html>
